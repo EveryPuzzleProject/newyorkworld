@@ -2,7 +2,7 @@
 """Keep status.tsv: one row per Sunday of the New York World's FUN crossword series.
 
     python tools/record.py init                      # create status.tsv (211 Sundays); refuses if it exists
-    python tools/record.py new [FOLDER]              # page images in FOLDER not yet recorded (default clippings/)
+    python tools/record.py new [FOLDER]              # page images in FOLDER not yet recorded (default ../newyorkworld-scans/pages)
     python tools/record.py set SUNDAY key=value ...  # update one row, e.g.
         python tools/record.py set 1914-02-15 status=clipped world_no_printed=9 heading="Can You Solve Them?" \
             copy_page=45 file=The_Minneapolis_Journal_1914_02_15_45.jpg
@@ -23,6 +23,8 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 STATUS = ROOT / "status.tsv"
+SCANS = ROOT.parent / "newyorkworld-scans"          # the private twin: pages/ and pages.tsv (xword-ocr folder-source format)
+PAGES_TSV = SCANS / "pages.tsv"
 FIRST = dt.date(1913, 12, 21)          # World No. 1
 LAST = dt.date(1917, 12, 30)           # end of the run tracked here
 JOURNAL_FIRST = dt.date(1914, 2, 1)    # the Minneapolis Journal's first FUN puzzle (checked: none earlier)
@@ -143,7 +145,29 @@ def set_row(args) -> None:
         pass  # keep the batch number: it says which day's batch found it
     check_rows(rows)
     write(rows)
+    for f, url, d, pg in ((row["file"], row["clipping_url"], row["copy_date"], row["copy_page"]),
+                          (row["solution_file"], row["solution_clipping_url"], row["solution_date"], row["solution_page"])):
+        if f:
+            scans_row(f, row["source"], d, pg, url)
     show_row(row)
+
+
+def scans_row(file: str, source: str, date: str, page: str, url: str) -> None:
+    """Add or update this image's row in the scans repo's pages.tsv, so xword-ocr can harvest the folder."""
+    if not PAGES_TSV.exists():
+        return
+    lines = PAGES_TSV.read_text(encoding="utf-8").splitlines()
+    rel = f"pages/{Path(file).name}"
+    new = "	".join([rel, f"{source}-{date}", date, page, url, dt.date.today().isoformat(), ""])
+    for i, line in enumerate(lines[1:], 1):
+        if line.split("	")[0] == rel:
+            old = line.split("	")
+            new = "	".join([rel, f"{source}-{date}", date, page, url or old[4], old[5] or dt.date.today().isoformat(), old[6] if len(old) > 6 else ""])
+            lines[i] = new
+            break
+    else:
+        lines.append(new)
+    PAGES_TSV.write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 
 def check_rows(rows: list[dict]) -> int:
@@ -229,7 +253,7 @@ def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     sub = ap.add_subparsers(dest="cmd", required=True)
     sub.add_parser("init").set_defaults(fn=init)
-    p = sub.add_parser("new"); p.add_argument("folder", nargs="?", default=str(ROOT / "clippings")); p.set_defaults(fn=new)
+    p = sub.add_parser("new"); p.add_argument("folder", nargs="?", default=str(SCANS / "pages")); p.set_defaults(fn=new)
     p = sub.add_parser("set"); p.add_argument("sunday"); p.add_argument("pairs", nargs="+"); p.set_defaults(fn=set_row)
     p = sub.add_parser("queue"); p.add_argument("--n", type=int, default=30); p.add_argument("--priority", nargs=2, metavar=("FROM", "TO"))
     p.add_argument("--force", action="store_true", help="start a new batch although the open one isn't finished")

@@ -1,6 +1,5 @@
-# Newspapers.com page images stay out of git. Save them in clippings/ (or any
-# folder you pass to tools/intake.py); status.tsv records their names and clipping URLs.
-clippings/
+# Page images live in the private twin ../newyorkworld-scans (pages/ and pages.tsv), never here;
+# status.tsv records their names and clipping URLs.
 *.jpg
 *.jpeg
 *.png

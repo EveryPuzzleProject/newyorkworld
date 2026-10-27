@@ -43,7 +43,6 @@ by the World. A Sunday when the paper ran no FUN puzzle is `not-carried`.
 | `series.tsv` | The World's series and each paper whose copies we use, with dates and status. |
 | `tools/record.py` | `init`, `new`, `set`, `queue`, `check`, `show`: the only way rows change. |
 | `tools/render.py` | Builds the status page (`site/index.html`) from the TSVs; runs on every push. |
-| `clippings/` | Page images saved from Newspapers.com. **Not in git** (see below). |
 
 `status.tsv` columns: `sunday` (the World's date, inferred), `world_no_expected`,
 `world_no_printed`, `source` (which paper's copy: `minneapolis-journal`,
@@ -63,7 +62,7 @@ Newspapers.com allows about 30 high-resolution saves a day, so the run takes a w
 more. Each day:
 
 1. **Clip** the Sundays listed under "Next batch to clip" on the status page. Save each
-   page as *Entire page, JPG*, into `clippings/`, keeping the name Newspapers.com gives it:
+   page as *Entire page, JPG*, into `../newyorkworld-scans/pages/` (the private twin repo), keeping the name Newspapers.com gives it:
    `The_Minneapolis_Journal_1914_02_15_45.jpg` (paper, date, page). The solution usually
    runs the next Sunday, often on the same page as the next puzzle, so one save may cover
    both.
@@ -96,6 +95,8 @@ and [first-runs.md](https://github.com/EveryPuzzleProject/catalog/blob/main/firs
 
 ## Images
 
-Page images from Newspapers.com stay out of this repo (`.gitignore`); `status.tsv`
-records each clipping's URL and local file name. Whether 1914–1917 images are published
-anywhere is a separate decision, not taken here.
+Page images from Newspapers.com never go in this repo. They live in the private twin
+`newyorkworld-scans` (`pages/`, with a `pages.tsv` in xword-ocr's folder-source format so the
+OCR pipeline can harvest it directly); `status.tsv` records each page's file name and
+Newspapers.com URL. Whether 1914–1917 images are published anywhere is a separate decision,
+not taken here.
