@@ -24,12 +24,12 @@ the Minneapolis Journal). That fits one puzzle every Sunday from No. 1 on 1913-1
 > World No. *n* is expected on 1913-12-21 plus *n*−1 weeks, and the Journal ran each
 > puzzle on the World's own date.
 
-Every `world_no_expected` and every World date derived this way is an **inference**
-from that count, and is shown as one (marked * on the status page). What the clipping
-shows goes in `world_no_printed`. The two are compared on every write: a printed number
-that differs from the expected one, repeats, or jumps against the previous numbered
-clipping is flagged. That is a skip, a repeat or a misprint by the World, which is exactly
-what this run is looking for. The Journal's own heading on 1914-02-01 said "No. 5"; it
+Every World date derived this way is an **inference** from that count, and is shown as
+one (marked * on the status page). What a page shows goes in `world_no_printed`. A copy's
+own date is a printing date, days to weeks after the World's; the difference is its lag.
+Within one paper's run, a number that repeats or jumps against the previous numbered copy
+is flagged. That is a skip, a repeat or a misprint by the World, or a week the paper
+dropped, which is exactly what this run is looking for. The Journal's own heading on 1914-02-01 said "No. 5"; it
 was wrong and dropped the next week. The grid number is the one that counts.
 
 A page missing from Newspapers.com is recorded as `missing-from-scans`, never as a skip
@@ -39,48 +39,47 @@ by the World. A Sunday when the paper ran no FUN puzzle is `not-carried`.
 
 | File | What it is |
 |---|---|
-| `status.tsv` | One row per Sunday, 1913-12-21 to 1917-12-30 (211 rows). Kept by `tools/record.py`. |
-| `series.tsv` | The World's series and each paper whose copies we use, with dates and status. |
-| `tools/record.py` | `init`, `new`, `set`, `queue`, `check`, `show`: the only way rows change. |
-| `tools/render.py` | Builds the status page (`site/index.html`) from the TSVs; runs on every push. |
+| `status.tsv` | One row per World puzzle, No. 1 to No. 211 (1913-12-21 to 1917-12-30), with its inferred date, whether we have a copy, and from where. Derived by `tools/record.py rebuild`; only `notes` is kept by hand. |
+| `printings.tsv` | One row per copy we have a page for: paper, date, page, the number printed in the grid, heading, credit, copyright line, first-clue key, which solution the page carries, the Newspapers.com link, and the World number it is matched to (and how). Hand-indexed from the image. |
+| `searches.tsv` | One row per paper and Sunday looked for: queued (which batch), found, no-hit, not-carried, missing-from-scans. The coverage log and the queue. |
+| `papers.tsv` | The papers whose copies we use, with what each one's copy looks like. |
+| `series.tsv` | The World's series and each paper's run, with dates and status. |
+| `tools/record.py` | `new`, `add`, `search`, `queue`, `rebuild`, `show`: the only way the tables change. |
+| `tools/render.py` | Builds the status page (`site/index.html`) from the tables; runs on every push. |
 
-`status.tsv` columns: `sunday` (the World's date, inferred), `world_no_expected`,
-`world_no_printed`, `source` (which paper's copy: `minneapolis-journal`,
-`pittsburgh-press`, `tacoma-daily-ledger`), `copy_date` and `copy_page` (that paper's
-issue and page, when they differ from the Sunday), `heading`, `clipping_url`, `file`
-(the local page image), `solution_date`, `solution_page`, `solution_clipping_url`,
-`solution_file`, `status`, `batch` (which day's batch it belongs to), `flag`
-(computed), `notes`.
-
-States: `to-clip`, `clipped`, `missing-from-scans`, `not-carried`,
-`before-the-journal` (World Nos. 1–6, before the Journal's first reprint: another source
-is needed for those).
+Printings and puzzles are kept apart: a Boston Globe date is a printing of a World puzzle,
+not a Globe puzzle. A printing with a number in the grid is tied to that World number; one
+without is tied by its first clue and grid shape against another copy, and `match` says how.
+Each printing's lag (its date minus the inferred World date) is computed, so each paper's
+delay behind the World shows on the status page.
 
 ## The daily loop
 
-Newspapers.com allows about 30 high-resolution saves a day, so the run takes a week or
+Newspapers.com allows about 30 high-resolution downloads a day, so the run takes a week or
 more. Each day:
 
-1. **Clip** the Sundays listed under "Next batch to clip" on the status page. Save each
-   page as *Entire page, JPG*, into `../newyorkworld-scans/pages/` (the private twin repo), keeping the name Newspapers.com gives it:
-   `The_Minneapolis_Journal_1914_02_15_45.jpg` (paper, date, page). The solution usually
-   runs the next Sunday, often on the same page as the next puzzle, so one save may cover
-   both.
-2. **Intake.** `python tools/record.py new` lists the saved pages not yet recorded. Each
-   is looked at only to index it: the grid's printed number and the heading. Clues and
-   answers are not transcribed here; puzzle content comes later from the OCR pipeline
-   (xword-ocr / blitz), so nothing typed by hand gets in silently. Then
-   `python tools/record.py set 1914-02-15 status=clipped world_no_printed=9 heading="..." file=...`
-   (and `solution_file=...` on the row whose solution the page carries).
-3. **Check** `python tools/record.py check` lists the flags; `python tools/render.py`
-   rebuilds the page. Commit, naming the dates covered.
-4. **Queue** the next day: `python tools/record.py queue --n 30`, optionally with
-   `--priority FROM TO` to put a date range first, or explicit Sundays.
+1. **Find** the Sundays listed under "Next batch to find" on the status page. Download each
+   page as *Entire page, JPG* into `../newyorkworld-scans/pages/` (the private twin repo),
+   keeping the name Newspapers.com gives it: `The_Minneapolis_Journal_1914_02_15_34.jpg`.
+   If several papers carry the puzzle that day, every distinct paper's copy is welcome.
+2. **Intake.** `python tools/record.py new` lists the saved pages not yet recorded. Each is
+   looked at only to index it: the grid's printed number, heading, credit, copyright line,
+   the first clue as a matching key, and which solution the page carries. Clues and answers
+   are not transcribed here; puzzle content comes later from the OCR pipeline (xword-ocr /
+   blitz), so nothing typed by hand gets in silently. Then
+   `python tools/record.py add <file> world_no_printed=9 heading="..." ...`.
+   A Sunday with no page: `python tools/record.py search <paper> <date> no-hit` (or
+   `not-carried`, `missing-from-scans`), with a note.
+3. **Rebuild and commit.** `python tools/record.py rebuild` recomputes status.tsv, the flags
+   and the scans repo's `pages.tsv`; `python tools/render.py` rebuilds the page. Commit both
+   repos, naming the dates covered.
+4. **Queue** the next day: `python tools/record.py queue --n 30` (sequential Minneapolis
+   Journal Sundays from 1914-02-15 that have neither a page nor a search result), or explicit
+   dates.
 
-Batch 1 is a spot check, about one Sunday every two months across 1914–1917, plus the
-Sundays around the Globe's 1917-02-25 puzzle. It maps where the Journal carries FUN,
-where the grid numbers stop and where the record may break, before the sequential fill
-from 1914-02-15.
+Batch 1 was a spot check, about one Sunday every two months across 1914–1917, plus the
+Sundays around the Globe's 1917-02-25 puzzle, to map where the Journal carries FUN, where
+the grid numbers stop and where the record breaks, before the sequential fill.
 
 ## How you can help
 

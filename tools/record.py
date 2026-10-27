@@ -1,266 +1,372 @@
 #!/usr/bin/env python3
-"""Keep status.tsv: one row per Sunday of the New York World's FUN crossword series.
+"""Keep the record of the New York World's FUN crossword series and its reprints.
 
-    python tools/record.py init                      # create status.tsv (211 Sundays); refuses if it exists
-    python tools/record.py new [FOLDER]              # page images in FOLDER not yet recorded (default ../newyorkworld-scans/pages)
-    python tools/record.py set SUNDAY key=value ...  # update one row, e.g.
-        python tools/record.py set 1914-02-15 status=clipped world_no_printed=9 heading="Can You Solve Them?" \
-            copy_page=45 file=The_Minneapolis_Journal_1914_02_15_45.jpg
-    python tools/record.py queue [--n 30] [--priority FROM TO]   # assign the next batch of Sundays to clip
-    python tools/record.py check                     # recompute flags (number mismatches, repeats, jumps)
-    python tools/record.py show SUNDAY               # print one row
+Three tables, all tab-separated, all edited only through this tool:
 
-Every write re-runs `check`, so the flag column is always current. The World date
-of a row is the Sunday itself: World No. n is expected on 1913-12-21 plus n-1 weeks.
-That is an inference (see README), which is why the column is world_no_expected.
+  printings.tsv  one row per crossword printing we have a page for (hand-indexed from the image)
+  searches.tsv   one row per paper+Sunday looked for: queued (a batch), found, no-hit,
+                 not-carried, missing-from-scans
+  status.tsv     one row per World number, 1 to 211, DERIVED from printings.tsv by `rebuild`
+                 (only its notes column is kept by hand)
+
+  python tools/record.py new [FOLDER]         page images not yet in printings.tsv (default ../newyorkworld-scans/pages)
+  python tools/record.py add FILE key=value…  add or update the printing on FILE (a second puzzle on
+                                              the same page: FILE#2; a clipping with no saved page:
+                                              clip:<paper>:<date>). Keys: world_no_printed heading_no
+                                              heading credit copyright_line fun_credit shape fingerprint
+                                              solution_label solution_of url printed_page notes match world_no
+  python tools/record.py search PAPER DATE result=no-hit|not-carried|missing-from-scans [note=…]
+  python tools/record.py queue [--paper minneapolis-journal] [--n 30] [--from DATE] [DATES…]
+  python tools/record.py rebuild              status.tsv, flags, searches 'found', the scans repo's pages.tsv
+  python tools/record.py show N|DATE|FILE
+
+The World date of a number is inferred: No. n on 1913-12-21 plus n-1 weeks (see README).
+A printing's `world_no` is its printed number when it has one; otherwise it is set by hand
+with `match=` saying how (e.g. "fingerprint matches The_Tacoma_Daily_Ledger_1917_03_11_47.jpg").
 """
 import argparse
-import csv
 import datetime as dt
 import re
 import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-STATUS = ROOT / "status.tsv"
-SCANS = ROOT.parent / "newyorkworld-scans"          # the private twin: pages/ and pages.tsv (xword-ocr folder-source format)
+SCANS = ROOT.parent / "newyorkworld-scans"
+PAGES = SCANS / "pages"
 PAGES_TSV = SCANS / "pages.tsv"
-FIRST = dt.date(1913, 12, 21)          # World No. 1
-LAST = dt.date(1917, 12, 30)           # end of the run tracked here
-JOURNAL_FIRST = dt.date(1914, 2, 1)    # the Minneapolis Journal's first FUN puzzle (checked: none earlier)
-COLUMNS = [
-    "sunday", "world_no_expected", "world_no_printed",
-    "source", "copy_date", "copy_page", "heading", "credit", "clipping_url", "file",
-    "solution_date", "solution_page", "solution_clipping_url", "solution_file",
-    "status", "batch", "flag", "notes",
-]
-STATUSES = ["to-clip", "clipped", "missing-from-scans", "not-carried", "before-the-journal"]
-SOURCES = {"minneapolis-journal": "The_Minneapolis_Journal", "pittsburgh-press": "The_Pittsburgh_Press",
-           "tacoma-daily-ledger": "Tacoma_Daily_Ledger", "boston-globe": "The_Boston_Globe"}
-FILE_RE = re.compile(r"^(?P<paper>.+?)_(?P<y>\d{4})_(?P<m>\d{2})_(?P<d>\d{2})_(?P<page>[A-Za-z]?\d+)(?: \(\d+\))?\.(?:jpe?g|png|pdf)$", re.I)
+FIRST = dt.date(1913, 12, 21)   # World No. 1
+LAST_NO = 211                   # 1917-12-30
+PRINTING_COLS = ["file", "paper", "date", "page", "printed_page", "world_no_printed", "heading_no", "heading",
+                 "credit", "copyright_line", "fun_credit", "shape", "fingerprint", "solution_label", "solution_of",
+                 "url", "world_no", "sunday_inferred", "lag_weeks", "match", "flag", "notes"]
+SEARCH_COLS = ["paper", "date", "batch", "result", "note"]
+STATUS_COLS = ["world_no", "sunday_inferred", "status", "copies", "heading", "credit", "fingerprint",
+               "solution_seen", "flag", "notes"]
+RESULTS = ["queued", "found", "no-hit", "not-carried", "missing-from-scans"]
+FILE_RE = re.compile(r"^(?P<paper>.+?)_(?P<y>\d{4})_(?P<m>\d{2})_(?P<d>\d{2})_(?:Page_)?(?P<page>[A-Za-z]?\d+)(?: \(\d+\))?\.(?:jpe?g|png|pdf)$", re.I)
 
 
-def expected_no(sunday: dt.date) -> int:
+def sunday_of(n: int) -> dt.date:
+    return FIRST + dt.timedelta(weeks=n - 1)
+
+
+def number_of(sunday: dt.date) -> int:
     return (sunday - FIRST).days // 7 + 1
 
 
-def read() -> list[dict]:
-    with open(STATUS, encoding="utf-8", newline="") as f:
-        rows = list(csv.DictReader(f, delimiter="\t", quoting=csv.QUOTE_NONE))
-    for r in rows:
-        for c in COLUMNS:
-            r.setdefault(c, "")
-    return rows
-
-
-def write(rows: list[dict]) -> None:
-    rows.sort(key=lambda r: r["sunday"])
-    # Plain tab-separated text, written whole: quotes in notes are literal (no csv quoting),
-    # and a failure can't leave a half-written file.
-    lines = ["\t".join(COLUMNS)]
-    for r in rows:
-        lines.append("\t".join((r.get(c) or "").replace("\t", " ").replace("\n", " ") for c in COLUMNS))
-    STATUS.write_text("\n".join(lines) + "\n", encoding="utf-8")
-
-
-def init(args) -> None:
-    if STATUS.exists():
-        sys.exit("status.tsv exists; edit it with `set`, don't re-init")
-    rows = []
-    d = FIRST
-    while d <= LAST:
-        r = {c: "" for c in COLUMNS}
-        r["sunday"] = d.isoformat()
-        r["world_no_expected"] = str(expected_no(d))
-        if d < JOURNAL_FIRST:
-            r["status"] = "before-the-journal"
-            r["notes"] = "before the Minneapolis Journal's first FUN puzzle (1914-02-01); needs another source"
-        else:
-            r["status"] = "to-clip"
-            r["source"] = "minneapolis-journal"
-        rows.append(r)
-        d += dt.timedelta(days=7)
-    write(rows)
-    print(f"status.tsv: {len(rows)} Sundays, {FIRST} to {LAST}")
+def paper_id(token: str) -> str:
+    t = token.lower().replace("_", "-")
+    return t[4:] if t.startswith("the-") else t
 
 
 def parse_file(name: str):
     m = FILE_RE.match(name)
     if not m:
         return None
-    paper = m.group("paper")
-    source = next((k for k, v in SOURCES.items() if v.lower() == paper.lower()), paper)
-    return {"source": source, "date": dt.date(int(m.group("y")), int(m.group("m")), int(m.group("d"))), "page": m.group("page")}
+    return {"paper": paper_id(m.group("paper")), "date": dt.date(int(m.group("y")), int(m.group("m")), int(m.group("d"))).isoformat(),
+            "page": m.group("page")}
 
+
+def read_tsv(path: Path, cols: list[str]) -> list[dict]:
+    if not path.exists():
+        return []
+    lines = path.read_text(encoding="utf-8").splitlines()
+    head = lines[0].split("\t") if lines else cols
+    rows = []
+    for line in lines[1:]:
+        if not line.strip():
+            continue
+        vals = line.split("\t")
+        r = {c: "" for c in cols}
+        r.update({h: v for h, v in zip(head, vals)})
+        rows.append(r)
+    return rows
+
+
+def write_tsv(path: Path, cols: list[str], rows: list[dict]) -> None:
+    lines = ["\t".join(cols)] + ["\t".join((r.get(c) or "").replace("\t", " ").replace("\n", " ") for c in cols) for r in rows]
+    path.write_text("\n".join(lines) + "\n", encoding="utf-8")
+
+
+def printings() -> list[dict]:
+    return read_tsv(ROOT / "printings.tsv", PRINTING_COLS)
+
+
+def searches() -> list[dict]:
+    return read_tsv(ROOT / "searches.tsv", SEARCH_COLS)
+
+
+def status() -> list[dict]:
+    return read_tsv(ROOT / "status.tsv", STATUS_COLS)
+
+
+# ---------------------------------------------------------------- new
 
 def new(args) -> None:
     folder = Path(args.folder)
-    rows = read()
-    known = {r["file"] for r in rows} | {r["solution_file"] for r in rows}
-    found = 0
+    known = {r["file"].split("#")[0] for r in printings()}
+    n = 0
     for p in sorted(folder.iterdir()):
+        if p.suffix.lower() not in (".jpg", ".jpeg", ".png", ".pdf"):
+            continue
         info = parse_file(p.name)
         if not info:
-            if p.suffix.lower() in (".jpg", ".jpeg", ".png", ".pdf"):
-                print(f"?? {p.name}: name not in paper_yyyy_mm_dd_page form")
+            print(f"?? {p.name}: name not in paper_yyyy_mm_dd_page form")
             continue
         if p.name in known:
             continue
-        found += 1
-        d = info["date"]
-        sunday = d if d.weekday() == 6 else None
-        row = next((r for r in rows if r["sunday"] == d.isoformat()), None)
-        where = (f"row {row['sunday']} (expected No. {row['world_no_expected']}, {row['status']})" if row
-                 else f"not a Sunday in the run" if sunday is None else "outside 1913-12-21..1917-12-30")
-        print(f"{p.name}\t{info['source']}\t{d}\tp.{info['page']}\t{where}")
-    if not found:
+        n += 1
+        d = dt.date.fromisoformat(info["date"])
+        exp = f"World No. {number_of(d)} if on the World's date" if d.weekday() == 6 and FIRST <= d <= sunday_of(LAST_NO) else "outside the run"
+        print(f"{p.name}\t{info['paper']}\t{info['date']}\tp.{info['page']}\t{exp}")
+    if not n:
         print("nothing new")
 
 
-def set_row(args) -> None:
-    rows = read()
-    row = next((r for r in rows if r["sunday"] == args.sunday), None)
+# ---------------------------------------------------------------- add
+
+def add(args) -> None:
+    rows = printings()
+    key = args.file
+    base = key.split("#")[0]
+    if key.startswith("clip:"):  # a printing seen only as a Newspapers.com clipping: clip:<paper>:<date>
+        _, paper, date = key.split(":")
+        info = {"paper": paper, "date": date, "page": ""}
+    else:
+        info = parse_file(Path(base).name)
+    if not info:
+        sys.exit(f"{base}: name not in paper_yyyy_mm_dd_page form (or clip:<paper>:<date>)")
+    row = next((r for r in rows if r["file"] == key), None)
     if row is None:
-        sys.exit(f"no row for {args.sunday}: not a Sunday in 1913-12-21..1917-12-30?")
+        row = {c: "" for c in PRINTING_COLS}
+        row.update(file=key, paper=info["paper"], date=info["date"], page=info["page"])
+        rows.append(row)
+    settable = {c for c in PRINTING_COLS} - {"file", "paper", "date", "page", "sunday_inferred", "lag_weeks", "flag"}
     for kv in args.pairs:
         k, _, v = kv.partition("=")
-        if k not in COLUMNS or k in ("sunday", "world_no_expected", "flag"):
-            sys.exit(f"can't set {k}; columns: {', '.join(c for c in COLUMNS if c not in ('sunday', 'world_no_expected', 'flag'))}")
-        if k == "status" and v not in STATUSES:
-            sys.exit(f"status must be one of {STATUSES}")
-        if k == "world_no_printed" and v and not v.isdigit():
-            sys.exit("world_no_printed is a number (leave empty if the grid has none; say so in notes)")
+        if k not in settable:
+            sys.exit(f"can't set {k}; keys: {' '.join(sorted(settable))}")
+        if k in ("world_no_printed", "world_no", "solution_of") and v and not v.isdigit():
+            sys.exit(f"{k} is a number (leave empty if none; say so in notes)")
         if k == "notes" and v.startswith("+"):
             v = (row["notes"] + "; " if row["notes"] else "") + v[1:].strip()
-        if k == "file" and v and not row["copy_date"]:
-            info = parse_file(Path(v).name)
-            if info:
-                row["copy_date"], row["copy_page"], row["source"] = info["date"].isoformat(), info["page"], info["source"]
-        if k == "solution_file" and v and not row["solution_date"]:
-            info = parse_file(Path(v).name)
-            if info:
-                row["solution_date"], row["solution_page"] = info["date"].isoformat(), info["page"]
         row[k] = v
-    if row["status"] == "clipped" and row["batch"]:
-        pass  # keep the batch number: it says which day's batch found it
-    check_rows(rows)
-    write(rows)
-    for f, url, d, pg in ((row["file"], row["clipping_url"], row["copy_date"], row["copy_page"]),
-                          (row["solution_file"], row["solution_clipping_url"], row["solution_date"], row["solution_page"])):
-        if f:
-            scans_row(f, row["source"], d, pg, url)
-    show_row(row)
+    if row["world_no_printed"] and not row["world_no"]:
+        row["world_no"], row["match"] = row["world_no_printed"], "printed number"
+    if not row["url"] and (PAGES / base).exists():
+        row["url"] = url_from_zone(PAGES / base)
+    rebuild_all(rows, searches(), status())
+    show_printing(row)
 
 
-def scans_row(file: str, source: str, date: str, page: str, url: str) -> None:
-    """Add or update this image's row in the scans repo's pages.tsv, so xword-ocr can harvest the folder."""
-    if not PAGES_TSV.exists():
-        return
-    lines = PAGES_TSV.read_text(encoding="utf-8").splitlines()
-    rel = f"pages/{Path(file).name}"
-    new = "	".join([rel, f"{source}-{date}", date, page, url, dt.date.today().isoformat(), ""])
-    for i, line in enumerate(lines[1:], 1):
-        if line.split("	")[0] == rel:
-            old = line.split("	")
-            new = "	".join([rel, f"{source}-{date}", date, page, url or old[4], old[5] or dt.date.today().isoformat(), old[6] if len(old) > 6 else ""])
-            lines[i] = new
-            break
-    else:
-        lines.append(new)
-    PAGES_TSV.write_text("\n".join(lines) + "\n", encoding="utf-8")
+def url_from_zone(path: Path) -> str:
+    """The Newspapers.com page link from the download's Zone.Identifier stream, if present."""
+    try:
+        import subprocess
+        out = subprocess.run(["powershell", "-NoProfile", "-Command", f"Get-Content '{path}' -Stream Zone.Identifier"],
+                             capture_output=True, text=True, timeout=20).stdout
+        m = re.search(r"[?&]id=(\d+)", out)
+        return f"https://www.newspapers.com/image/{m.group(1)}/" if m else ""
+    except Exception:
+        return ""
 
 
-def check_rows(rows: list[dict]) -> int:
-    """Recompute the flag column. Returns the number of flagged rows."""
-    prev = None  # last clipped row with a printed number
-    n = 0
-    for r in rows:
-        flags = []
-        printed = r["world_no_printed"]
-        if r["status"] == "clipped" and printed:
-            p, e = int(printed), int(r["world_no_expected"])
-            if p != e:
-                flags.append(f"printed No. {p}, expected No. {e} ({p - e:+d})")
-            if prev is not None:
-                pp = int(prev["world_no_printed"])
-                weeks = (dt.date.fromisoformat(r["sunday"]) - dt.date.fromisoformat(prev["sunday"])).days // 7
-                if p == pp:
-                    flags.append(f"repeats No. {pp} of {prev['sunday']}")
-                elif p - pp != weeks:
-                    flags.append(f"No. {pp} on {prev['sunday']} to No. {p} in {weeks} week{'s' * (weeks != 1)}: {p - pp - weeks:+d}")
-            prev = r
-        if r["status"] == "clipped" and not printed and not r["notes"]:
-            flags.append("clipped, no number recorded: say in notes whether the grid has one")
-        if r["status"] == "clipped" and not r["file"] and not r["clipping_url"]:
-            flags.append("clipped, but no file or clipping URL")
-        r["flag"] = "; ".join(flags)
-        n += bool(flags)
-    return n
+# ---------------------------------------------------------------- search / queue
 
-
-def check(args) -> None:
-    rows = read()
-    n = check_rows(rows)
-    write(rows)
-    for r in rows:
-        if r["flag"]:
-            print(f"{r['sunday']}\t{r['flag']}")
-    print(f"{n} flagged")
+def search(args) -> None:
+    rows = searches()
+    if args.result not in RESULTS or args.result in ("queued", "found"):
+        sys.exit("result must be no-hit, not-carried or missing-from-scans (found and queued are set by the tool)")
+    row = next((r for r in rows if r["paper"] == args.paper and r["date"] == args.date), None)
+    if row is None:
+        row = {c: "" for c in SEARCH_COLS}
+        row.update(paper=args.paper, date=args.date)
+        rows.append(row)
+    row["result"] = args.result
+    if args.note:
+        row["note"] = args.note
+    rebuild_all(printings(), rows, status())
+    print(f"{args.paper} {args.date}: {args.result}")
 
 
 def queue(args) -> None:
-    rows = read()
+    rows = searches()
+    pr = printings()
+    have = {(r["paper"], r["date"]) for r in pr} | {(r["paper"], r["date"]) for r in rows}
     batches = [int(r["batch"]) for r in rows if r["batch"].isdigit()]
-    open_batch = [r for r in rows if r["status"] == "to-clip" and r["batch"]]
-    if open_batch and not args.force:
-        sys.exit(f"batch {open_batch[0]['batch']} still has {len(open_batch)} Sundays to clip; finish or --force")
+    open_rows = [r for r in rows if r["result"] == "queued"]
+    if open_rows and not args.force and not args.dates:
+        sys.exit(f"batch {open_rows[0]['batch']} still has {len(open_rows)} to do; --force to start another")
     nxt = max(batches, default=0) + 1
-    todo = [r for r in rows if r["status"] == "to-clip" and not r["batch"]]
-    if args.sundays:
-        pick = [r for r in todo if r["sunday"] in args.sundays]
-        missing = set(args.sundays) - {r["sunday"] for r in pick}
-        if missing:
-            sys.exit(f"not to-clip or already queued: {sorted(missing)}")
+    if args.dates:
+        dates = args.dates
     else:
-        pri = []
-        if args.priority:
-            lo, hi = args.priority
-            pri = [r for r in todo if lo <= r["sunday"] <= hi]
-        rest = [r for r in todo if r not in pri]
-        pick = (pri + rest)[: args.n]
-    for r in pick:
-        r["batch"] = str(nxt)
-    write(rows)
-    print(f"batch {nxt}: {len(pick)} Sundays")
-    for r in pick:
-        print(f"  {r['sunday']}\tNo. {r['world_no_expected']}\t{r['source']}")
+        start = dt.date.fromisoformat(args.start)
+        d = start + dt.timedelta(days=(6 - start.weekday()) % 7)
+        dates = []
+        while d <= sunday_of(LAST_NO) and len(dates) < args.n:
+            if (args.paper, d.isoformat()) not in have:
+                dates.append(d.isoformat())
+            d += dt.timedelta(days=7)
+    added = 0
+    for d in dates:
+        if (args.paper, d) in have:
+            print(f"skip {args.paper} {d}: already have a printing or a search result")
+            continue
+        rows.append({"paper": args.paper, "date": d, "batch": str(nxt), "result": "queued", "note": args.note or ""})
+        added += 1
+    rebuild_all(pr, rows, status())
+    print(f"batch {nxt}: {added} {args.paper} Sundays queued")
 
 
-def show_row(r: dict) -> None:
-    for c in COLUMNS:
+# ---------------------------------------------------------------- rebuild
+
+def rebuild(args) -> None:
+    n = rebuild_all(printings(), searches(), status())
+    for r in printings():
+        if r["flag"]:
+            print(f"{r['file']}\t{r['flag']}")
+    for r in status():
+        if r["flag"]:
+            print(f"No. {r['world_no']}\t{r['flag']}")
+    print(f"{n} flags")
+
+
+def rebuild_all(pr: list[dict], se: list[dict], st: list[dict]) -> int:
+    # printings: inferred Sunday, lag, flags
+    for r in pr:
+        n = r["world_no"]
+        r["sunday_inferred"] = sunday_of(int(n)).isoformat() if n else ""
+        r["lag_weeks"] = str((dt.date.fromisoformat(r["date"]) - sunday_of(int(n))).days // 7) if n else ""
+        flags = []
+        if r["world_no_printed"] and r["world_no"] and r["world_no_printed"] != r["world_no"]:
+            flags.append(f"matched to No. {r['world_no']} but the grid says No. {r['world_no_printed']}")
+        if r["heading_no"] and r["world_no_printed"] and r["heading_no"] != r["world_no_printed"]:
+            flags.append(f"heading says No. {r['heading_no']}, grid says No. {r['world_no_printed']}")
+        if not r["world_no"] and not r["notes"]:
+            flags.append("no number and no match: say in notes what the grid shows")
+        r["flag"] = "; ".join(flags)
+    # per paper: jumps and repeats between consecutive numbered printings
+    by_paper: dict[str, list[dict]] = {}
+    for r in sorted(pr, key=lambda r: (r["paper"], r["date"], r["file"])):
+        if r["world_no_printed"]:
+            by_paper.setdefault(r["paper"], []).append(r)
+    for paper, rs in by_paper.items():
+        for a, b in zip(rs, rs[1:]):
+            weeks = (dt.date.fromisoformat(b["date"]) - dt.date.fromisoformat(a["date"])).days // 7
+            dn = int(b["world_no_printed"]) - int(a["world_no_printed"])
+            if dn == 0:
+                b["flag"] = "; ".join(x for x in (b["flag"], f"repeats No. {a['world_no_printed']} of {a['date']}") if x)
+            elif dn != weeks:
+                b["flag"] = "; ".join(x for x in (b["flag"], f"No. {a['world_no_printed']} on {a['date']} to No. {b['world_no_printed']} in {weeks} weeks: {dn - weeks:+d}") if x)
+    # same World number claimed by printings with different fingerprints
+    by_no: dict[str, list[dict]] = {}
+    for r in pr:
+        if r["world_no"]:
+            by_no.setdefault(r["world_no"], []).append(r)
+    for n, rs in by_no.items():
+        fps = {fp_key(r["fingerprint"]) for r in rs if r["fingerprint"]}
+        if len(fps) > 1:
+            for r in rs:
+                r["flag"] = "; ".join(x for x in (r["flag"], f"No. {n} has copies with different first clues") if x)
+    # searches: found when a printing exists
+    have = {(r["paper"], r["date"]) for r in pr}
+    for s in se:
+        if (s["paper"], s["date"]) in have:
+            s["result"] = "found"
+    # status: one row per number
+    notes = {r["world_no"]: r["notes"] for r in st}
+    new_st = []
+    nflags = sum(bool(r["flag"]) for r in pr)
+    for n in range(1, LAST_NO + 1):
+        rs = sorted(by_no.get(str(n), []), key=lambda r: r["date"])
+        sols = [r for r in pr if r["solution_of"] == str(n)]
+        row = {c: "" for c in STATUS_COLS}
+        row["world_no"], row["sunday_inferred"], row["notes"] = str(n), sunday_of(n).isoformat(), notes.get(str(n), "")
+        row["status"] = "have" if rs else "wanted"
+        row["copies"] = "; ".join(f"{r['paper']} {r['date']}" + (f" (lag {r['lag_weeks']}w)" if r["lag_weeks"] not in ("", "0") else "") for r in rs)
+        if rs:
+            row["heading"] = rs[0]["heading"]
+            row["credit"] = next((r["credit"] for r in rs if r["credit"]), "")
+            row["fingerprint"] = next((r["fingerprint"] for r in rs if r["fingerprint"]), "")
+        row["solution_seen"] = "; ".join(f"{r['paper']} {r['date']}" for r in sols)
+        fl = [r["flag"] for r in rs if r["flag"]]
+        row["flag"] = " | ".join(dict.fromkeys(fl))
+        new_st.append(row)
+    write_tsv(ROOT / "printings.tsv", PRINTING_COLS, sorted(pr, key=lambda r: (r["date"], r["paper"], r["file"])))
+    write_tsv(ROOT / "searches.tsv", SEARCH_COLS, sorted(se, key=lambda r: (r["date"], r["paper"])))
+    write_tsv(ROOT / "status.tsv", STATUS_COLS, new_st)
+    sync_pages_tsv(pr)
+    return nflags
+
+
+def fp_key(s: str) -> str:
+    return re.sub(r"[^a-z0-9]", "", s.lower())[:24]
+
+
+def sync_pages_tsv(pr: list[dict]) -> None:
+    """The scans repo's pages.tsv (xword-ocr folder-source format): one row per image we have."""
+    if not SCANS.exists():
+        return
+    old = {r["file"]: r for r in read_tsv(PAGES_TSV, ["file", "issue", "date", "page", "url", "captured", "note"])}
+    rows = []
+    seen = set()
+    for r in pr:
+        base = r["file"].split("#")[0]
+        if base in seen or not (PAGES / base).exists():
+            continue
+        seen.add(base)
+        o = old.get(f"pages/{base}", {})
+        rows.append({"file": f"pages/{base}", "issue": f"{r['paper']}-{r['date']}", "date": r["date"], "page": r["page"],
+                     "url": r["url"] or o.get("url", ""), "captured": o.get("captured") or dt.date.today().isoformat(),
+                     "note": o.get("note", "") or (f"printed {r['printed_page']}" if r["printed_page"] else "")})
+    write_tsv(PAGES_TSV, ["file", "issue", "date", "page", "url", "captured", "note"], rows)
+
+
+# ---------------------------------------------------------------- show
+
+def show_printing(r: dict) -> None:
+    for c in PRINTING_COLS:
         if r[c]:
-            print(f"{c:22} {r[c]}")
+            print(f"{c:18} {r[c]}")
 
 
 def show(args) -> None:
-    r = next((r for r in read() if r["sunday"] == args.sunday), None)
-    if r is None:
-        sys.exit(f"no row for {args.sunday}")
-    show_row(r)
+    k = args.key
+    if k.isdigit():
+        for r in status():
+            if r["world_no"] == k:
+                for c in STATUS_COLS:
+                    if r[c]:
+                        print(f"{c:18} {r[c]}")
+        for r in printings():
+            if r["world_no"] == k:
+                print("--"); show_printing(r)
+    else:
+        for r in printings():
+            if r["file"].startswith(k) or r["date"] == k:
+                show_printing(r); print("--")
+        for s in searches():
+            if s["date"] == k:
+                print(f"search {s['paper']} {s['date']}: {s['result']} {s['note']}")
 
 
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     sub = ap.add_subparsers(dest="cmd", required=True)
-    sub.add_parser("init").set_defaults(fn=init)
-    p = sub.add_parser("new"); p.add_argument("folder", nargs="?", default=str(SCANS / "pages")); p.set_defaults(fn=new)
-    p = sub.add_parser("set"); p.add_argument("sunday"); p.add_argument("pairs", nargs="+"); p.set_defaults(fn=set_row)
-    p = sub.add_parser("queue"); p.add_argument("--n", type=int, default=30); p.add_argument("--priority", nargs=2, metavar=("FROM", "TO"))
-    p.add_argument("--force", action="store_true", help="start a new batch although the open one isn't finished")
-    p.add_argument("sundays", nargs="*", help="exact Sundays for this batch (else the next --n to-clip rows)"); p.set_defaults(fn=queue)
-    sub.add_parser("check").set_defaults(fn=check)
-    p = sub.add_parser("show"); p.add_argument("sunday"); p.set_defaults(fn=show)
+    p = sub.add_parser("new"); p.add_argument("folder", nargs="?", default=str(PAGES)); p.set_defaults(fn=new)
+    p = sub.add_parser("add"); p.add_argument("file"); p.add_argument("pairs", nargs="*"); p.set_defaults(fn=add)
+    p = sub.add_parser("search"); p.add_argument("paper"); p.add_argument("date"); p.add_argument("result"); p.add_argument("note", nargs="?", default="")
+    p.set_defaults(fn=search)
+    p = sub.add_parser("queue"); p.add_argument("--paper", default="minneapolis-journal"); p.add_argument("--n", type=int, default=30)
+    p.add_argument("--from", dest="start", default="1914-02-15"); p.add_argument("--note", default="")
+    p.add_argument("--force", action="store_true"); p.add_argument("dates", nargs="*"); p.set_defaults(fn=queue)
+    sub.add_parser("rebuild").set_defaults(fn=rebuild)
+    p = sub.add_parser("show"); p.add_argument("key"); p.set_defaults(fn=show)
     args = ap.parse_args()
+    if args.cmd == "search":
+        args.result = args.result.split("=")[-1]
+        args.note = args.note.split("=", 1)[-1] if args.note else ""
     args.fn(args)
 
 
