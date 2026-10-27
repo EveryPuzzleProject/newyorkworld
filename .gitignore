@@ -1,0 +1,9 @@
+# Newspapers.com page images stay out of git. Save them in clippings/ (or any
+# folder you pass to tools/intake.py); status.tsv records their names and clipping URLs.
+clippings/
+*.jpg
+*.jpeg
+*.png
+*.pdf
+__pycache__/
+site/index.html
