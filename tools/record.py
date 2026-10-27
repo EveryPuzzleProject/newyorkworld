@@ -28,7 +28,7 @@ LAST = dt.date(1917, 12, 30)           # end of the run tracked here
 JOURNAL_FIRST = dt.date(1914, 2, 1)    # the Minneapolis Journal's first FUN puzzle (checked: none earlier)
 COLUMNS = [
     "sunday", "world_no_expected", "world_no_printed",
-    "source", "copy_date", "copy_page", "heading", "clipping_url", "file",
+    "source", "copy_date", "copy_page", "heading", "credit", "clipping_url", "file",
     "solution_date", "solution_page", "solution_clipping_url", "solution_file",
     "status", "batch", "flag", "notes",
 ]

@@ -116,7 +116,7 @@ def main() -> None:
                                        link(r["solution_clipping_url"], "clipping") if r["solution_clipping_url"] else "") if x)
             out.append(
                 f'<tr data-state="{e(r["status"])}" class="{"flagged" if r["flag"] else ""}"><td>{e(r["sunday"])}</td><td>No. {e(r["world_no_expected"])}<span class=muted title="inferred: 1913-12-21 plus n-1 weeks">*</span></td>'
-                f"<td>{printed}</td><td>{pill(r['status'])}</td><td>{copy} {clip}</td><td>{e(r['heading'])}</td><td>{sol}</td>"
+                f"<td>{printed}</td><td>{pill(r['status'])}</td><td>{copy} {clip}</td><td>{e(r['heading'])}{(' <span class=muted>' + e(r['credit']) + '</span>') if r.get('credit') else ''}</td><td>{sol}</td>"
                 f"<td>{e(r['batch'])}</td><td>{('<b>' + e(r['flag']) + '</b> ') if r['flag'] else ''}{e(r['notes'])}</td></tr>")
         return "\n".join(out)
 
