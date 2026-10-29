@@ -14,7 +14,7 @@ Three tables, all tab-separated, all edited only through this tool:
                                               the same page: FILE#2; a clipping with no saved page:
                                               clip:<paper>:<date>). Keys: world_no_printed heading_no
                                               heading credit copyright_line fun_credit shape fingerprint
-                                              solution_label solution_of url printed_page notes match world_no
+                                              solution_label solution_of (a number or a puzzle_key) url printed_page notes match world_no puzzle_key (copies of one unnumbered puzzle share a key)
   python tools/record.py search PAPER DATE result=no-hit|not-carried|missing-from-scans [note=…]
   python tools/record.py queue [--paper minneapolis-journal] [--n 30] [--from DATE] [DATES…]
   python tools/record.py rebuild              status.tsv, flags, searches 'found', the scans repo's pages.tsv
@@ -38,7 +38,7 @@ FIRST = dt.date(1913, 12, 21)   # World No. 1
 LAST_NO = 211                   # 1917-12-30
 PRINTING_COLS = ["file", "paper", "date", "page", "printed_page", "world_no_printed", "heading_no", "heading",
                  "credit", "copyright_line", "fun_credit", "shape", "fingerprint", "solution_label", "solution_of",
-                 "url", "world_no", "sunday_inferred", "lag_weeks", "match", "flag", "notes"]
+                 "url", "world_no", "puzzle_key", "sunday_inferred", "lag_weeks", "match", "flag", "notes"]
 SEARCH_COLS = ["paper", "date", "batch", "result", "note"]
 STATUS_COLS = ["world_no", "sunday_inferred", "status", "copies", "heading", "credit", "fingerprint",
                "solution_seen", "flag", "notes"]
@@ -146,7 +146,7 @@ def add(args) -> None:
         k, _, v = kv.partition("=")
         if k not in settable:
             sys.exit(f"can't set {k}; keys: {' '.join(sorted(settable))}")
-        if k in ("world_no_printed", "world_no", "solution_of") and v and not v.isdigit():
+        if k in ("world_no_printed", "world_no") and v and not v.isdigit():
             sys.exit(f"{k} is a number (leave empty if none; say so in notes)")
         if k == "notes" and v.startswith("+"):
             v = (row["notes"] + "; " if row["notes"] else "") + v[1:].strip()
@@ -236,6 +236,8 @@ def rebuild_all(pr: list[dict], se: list[dict], st: list[dict]) -> int:
     # printings: inferred Sunday, lag, flags
     for r in pr:
         n = r["world_no"]
+        if n:
+            r["puzzle_key"] = f"no-{n}"
         r["sunday_inferred"] = sunday_of(int(n)).isoformat() if n else ""
         r["lag_weeks"] = str((dt.date.fromisoformat(r["date"]) - sunday_of(int(n))).days // 7) if n else ""
         flags = []
@@ -280,7 +282,7 @@ def rebuild_all(pr: list[dict], se: list[dict], st: list[dict]) -> int:
     nflags = sum(bool(r["flag"]) for r in pr)
     for n in range(1, LAST_NO + 1):
         rs = sorted(by_no.get(str(n), []), key=lambda r: r["date"])
-        sols = [r for r in pr if r["solution_of"] == str(n)]
+        sols = [r for r in pr if r["solution_of"] in (str(n), f"no-{n}")]
         row = {c: "" for c in STATUS_COLS}
         row["world_no"], row["sunday_inferred"], row["notes"] = str(n), sunday_of(n).isoformat(), notes.get(str(n), "")
         row["status"] = "have" if rs else "wanted"

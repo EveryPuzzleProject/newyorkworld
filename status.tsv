@@ -6,8 +6,8 @@ world_no	sunday_inferred	status	copies	heading	credit	fingerprint	solution_seen	
 5	1914-01-18	wanted							
 6	1914-01-25	wanted							
 7	1914-02-01	have	minneapolis-journal 1914-02-01	Cross-Word Puzzle No. 5		1-2 United in matrimony		heading says No. 5, grid says No. 7	
-8	1914-02-08	have	minneapolis-journal 1914-02-08	Can You Solve Them?		1-2 A lamb's cry			
-9	1914-02-15	wanted							
+8	1914-02-08	have	minneapolis-journal 1914-02-08	Can You Solve Them?		1-2 A lamb's cry	minneapolis-journal 1914-02-15		
+9	1914-02-15	have	minneapolis-journal 1914-02-15	Cross-Word Puzzles / Solve Them If You Can		1-2—A barber's implement			
 10	1914-02-22	wanted							
 11	1914-03-01	wanted							
 12	1914-03-08	wanted							
@@ -28,7 +28,7 @@ world_no	sunday_inferred	status	copies	heading	credit	fingerprint	solution_seen	
 27	1914-06-21	wanted							
 28	1914-06-28	wanted							
 29	1914-07-05	wanted							
-30	1914-07-12	wanted							
+30	1914-07-12	have	minneapolis-journal 1914-08-02 (lag 3w)	FUN'S CROSS-WORD PUZZLE No 30		1-2 An animal		No. 16 on 1914-04-05 to No. 30 in 17 weeks: -3	
 31	1914-07-19	wanted							
 32	1914-07-26	wanted							
 33	1914-08-02	wanted							
