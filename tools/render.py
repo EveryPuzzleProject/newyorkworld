@@ -66,14 +66,15 @@ def main() -> None:
         if not queued:
             return "<p>No batch is queued. Run <code>python tools/record.py queue</code> for the next 30 Sundays.</p>"
         body = "\n".join(
-            f"<tr><td>{e(s['date'])}</td><td>{e(pname(s['paper']))}</td><td>No. {no_on(s['date'])}</td>"
+            f"<tr><td>{e(s['date'])}</td><td>{e(pname(s['paper']))}</td><td>No. {no_on(s['date'])}</td><td>{e(s['batch'])}</td>"
             f"<td><a href=\"{SEARCH.format(date=s['date'])}\">search that date</a></td><td class=muted>{e(s['note'])}</td></tr>"
-            for s in queued)
-        return (f"<p>Batch <b>{e(batch_no)}</b>: {len(queued)} Sunday{'s' * (len(queued) != 1)} to find. Download the page as "
+            for s in sorted(queued, key=lambda s: (int(s["batch"] or 0), s["date"])))
+        batches = sorted({s["batch"] for s in queued}, key=int)
+        return (f"<p>Batch{'es' * (len(batches) != 1)} <b>{', '.join(batches)}</b>: {len(queued)} Sunday{'s' * (len(queued) != 1)} to find. Download the page as "
                 "<i>Entire page, JPG</i> into <code>newyorkworld-scans/pages/</code>, keeping the name Newspapers.com gives it. "
                 "If the search finds the puzzle in more than one paper that day, every distinct paper's copy is welcome. "
                 "A date with no hit stays listed until it's recorded as no-hit, not carried or missing from scans.</p>"
-                '<div class="scroll"><table><thead><tr><th>Sunday</th><th>Paper</th><th>World No. if on the World\'s date</th><th>Newspapers.com</th><th>Notes</th></tr></thead>'
+                '<div class="scroll"><table><thead><tr><th>Sunday</th><th>Paper</th><th>World No. if on the World\'s date</th><th>Batch</th><th>Newspapers.com</th><th>Notes</th></tr></thead>'
                 f"<tbody>{body}</tbody></table></div>")
 
     def lag_table() -> str:
@@ -126,6 +127,26 @@ def main() -> None:
                        f"<td>{link(r['url'], 'p. ' + (r['page'] or '?'))}</td><td>{printed}</td><td>{world}</td><td>{e(r['heading'])}</td>"
                        f"<td>{e(r['credit'])}</td><td>{sol}</td><td class=muted>{e(r['copyright_line'])}</td><td>{flag}{e(r['notes'])}</td></tr>")
         return "\n".join(out)
+
+    def groups_table() -> str:
+        groups = collections.defaultdict(list)
+        for r in printings:
+            if r["puzzle_key"] and not r["world_no"]:
+                groups[r["puzzle_key"]].append(r)
+        sols = collections.defaultdict(list)
+        for r in printings:
+            if r["solution_of"] and not r["solution_of"].isdigit():
+                sols[r["solution_of"]].append(r)
+        if not groups:
+            return "<p>None keyed yet.</p>"
+        out = []
+        for k, rs in sorted(groups.items(), key=lambda kv: min(r["date"] for r in kv[1])):
+            rs.sort(key=lambda r: r["date"])
+            copies = "; ".join(f"{pname(r['paper'])} {r['date']}" for r in rs)
+            sol = "; ".join(f"{pname(r['paper'])} {r['date']}" for r in sorted(sols.get(k, []), key=lambda r: r["date"]))
+            out.append(f"<tr><td>{e(k)}</td><td>{e(rs[0]['credit'])}</td><td class=muted>{e(rs[0]['fingerprint'])}</td><td>{e(copies)}</td><td>{e(sol)}</td><td class=muted>{e(rs[0]['match'])}</td></tr>")
+        return ('<div class="scroll"><table><thead><tr><th>Key</th><th>Credit</th><th>First clue</th><th>Printed in</th><th>Solution printed in</th><th>How matched</th></tr></thead>'
+                f"<tbody>{''.join(out)}</tbody></table></div>")
 
     def coverage() -> str:
         rows = [s for s in searches if s["result"] in ("no-hit", "not-carried", "missing-from-scans")]
@@ -207,6 +228,10 @@ a lag that grows means the World skipped weeks, or the paper did.</p>
 
 <h2>Progress by year of the World's series</h2>
 {bars()}
+
+<h2 id="unnumbered">Unnumbered puzzles matched across papers</h2>
+<p>From late 1914 the grids carry no number, so a puzzle is known only by its copies. Copies of one puzzle share a key; the dates show how far apart the papers ran it.</p>
+{groups_table()}
 
 <h2 id="printings">Every printing</h2>
 <div class="filters"><select id="pp"><option value="">All papers</option>{paper_options}</select></div>
