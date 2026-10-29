@@ -9,39 +9,39 @@ world_no	sunday_inferred	status	copies	heading	credit	fingerprint	solution_seen	
 8	1914-02-08	have	minneapolis-journal 1914-02-08	Can You Solve Them?		1-2 A lamb's cry	minneapolis-journal 1914-02-15		
 9	1914-02-15	have	minneapolis-journal 1914-02-15	Cross-Word Puzzles / Solve Them If You Can		1-2—A barber's implement			
 10	1914-02-22	wanted							
-11	1914-03-01	wanted							
-12	1914-03-08	wanted							
-13	1914-03-15	wanted							
-14	1914-03-22	wanted							
-15	1914-03-29	wanted					minneapolis-journal 1914-04-05		
+11	1914-03-01	have	minneapolis-journal 1914-03-01	Cross-Word Puzzles / Can You Solve Them?		1-2 To unite in matrimony	minneapolis-journal 1914-03-08		
+12	1914-03-08	have	minneapolis-journal 1914-03-08	Cross-Word Puzzles / Can You Solve Them?		1-2 An insect			
+13	1914-03-15	wanted					minneapolis-journal 1914-03-22		
+14	1914-03-22	have	minneapolis-journal 1914-03-22	Cross-Word Puzzles / Can You Solve Them?		1-2 A garden implement	minneapolis-journal 1914-03-29		
+15	1914-03-29	have	minneapolis-journal 1914-03-29	Cross-Word Puzzles / Can You Solve Them?		1-2 One of the sons of Noah	minneapolis-journal 1914-04-05		
 16	1914-04-05	have	minneapolis-journal 1914-04-05	Can You Solve Them?	sent in by Miss Katherine Reilly, No. 332 East Fifty-sixth street, New York City	1-2 A child			
 17	1914-04-12	wanted							
 18	1914-04-19	wanted							
 19	1914-04-26	wanted							
 20	1914-05-03	wanted							
 21	1914-05-10	wanted							
-22	1914-05-17	wanted							
+22	1914-05-17	have	minneapolis-journal 1914-05-31 (lag 2w)	Cross-Word Puzzle		1-2 Slang expression for a stupid fellow		No. 16 on 1914-04-05 to No. 22 in 8 weeks: -2	
 23	1914-05-24	wanted							
-24	1914-05-31	wanted							
-25	1914-06-07	wanted							
-26	1914-06-14	wanted							
-27	1914-06-21	wanted							
-28	1914-06-28	wanted							
-29	1914-07-05	wanted							
-30	1914-07-12	have	minneapolis-journal 1914-08-02 (lag 3w)	FUN'S CROSS-WORD PUZZLE No 30		1-2 An animal		No. 16 on 1914-04-05 to No. 30 in 17 weeks: -3	
+24	1914-05-31	wanted					minneapolis-journal 1914-06-28		
+25	1914-06-07	have	minneapolis-journal 1914-06-28 (lag 3w)	Cross Word Puzzle / July 4 / Can You Solve It?		1-3 It followed the Declaration of Independence		No. 22 on 1914-05-31 to No. 25 in 4 weeks: -1	
+26	1914-06-14	wanted					minneapolis-journal 1914-07-12		
+27	1914-06-21	have	minneapolis-journal 1914-07-12 (lag 3w)	Cross-Word Puzzle		1-10 Highest in rank or authority			
+28	1914-06-28	have	minneapolis-journal 1914-07-19 (lag 3w)	UNCOMPLETED CROSS-WORD PUZZLE		none: no clue list; solver told to fill squares with house-related words			
+29	1914-07-05	have	minneapolis-journal 1914-07-26 (lag 3w)	CROSS-WORD PUZZLES-No. 29		1-4. A narrow passage.			
+30	1914-07-12	have	minneapolis-journal 1914-08-02 (lag 3w)	FUN'S CROSS-WORD PUZZLE No 30		1-2 An animal			
 31	1914-07-19	wanted							
 32	1914-07-26	wanted							
-33	1914-08-02	wanted							
+33	1914-08-02	wanted					minneapolis-journal 1914-08-30		
 34	1914-08-09	wanted							
-35	1914-08-16	wanted							
+35	1914-08-16	have	minneapolis-journal 1914-08-30 (lag 2w)	CROSS-WORD PUZZLES, NO. 35		1-2 A dress of state.		No. 30 on 1914-08-02 to No. 35 in 4 weeks: +1	
 36	1914-08-23	wanted							
-37	1914-08-30	wanted							
-38	1914-09-06	wanted							
-39	1914-09-13	wanted							
+37	1914-08-30	have	minneapolis-journal 1914-09-13 (lag 2w)	CROSS WORD PUZZLE / Can You Solve It?		1-3. What boys become.			
+38	1914-09-06	wanted					minneapolis-journal 1914-09-27		
+39	1914-09-13	have	minneapolis-journal 1914-09-27 (lag 2w)	CROSS-WORD PUZZLES-NO. 39		1-2 One who visits.			
 40	1914-09-20	wanted							
 41	1914-09-27	wanted							
 42	1914-10-04	wanted							
-43	1914-10-11	wanted							
+43	1914-10-11	have	minneapolis-journal 1914-10-25 (lag 2w)	CROSS-WORD PUZZLES-NO. 43.		1-2 Away from.			
 44	1914-10-18	wanted							
 45	1914-10-25	wanted							
 46	1914-11-01	wanted							

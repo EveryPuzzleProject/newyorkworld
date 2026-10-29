@@ -67,7 +67,7 @@ def main() -> None:
             return "<p>No batch is queued. Run <code>python tools/record.py queue</code> for the next 30 Sundays.</p>"
         body = "\n".join(
             f"<tr><td>{e(s['date'])}</td><td>{e(pname(s['paper']))}</td><td>No. {no_on(s['date'])}</td><td>{e(s['batch'])}</td>"
-            f"<td><a href=\"{SEARCH.format(date=s['date'])}\">search that date</a></td><td class=muted>{e(s['note'])}</td></tr>"
+            f"<td>{date_links(s)}</td><td class=muted>{e(s['note'])}</td></tr>"
             for s in sorted(queued, key=lambda s: (int(s["batch"] or 0), s["date"])))
         batches = sorted({s["batch"] for s in queued}, key=int)
         return (f"<p>Batch{'es' * (len(batches) != 1)} <b>{', '.join(batches)}</b>: {len(queued)} Sunday{'s' * (len(queued) != 1)} to find. Download the page as "
@@ -76,6 +76,17 @@ def main() -> None:
                 "A date with no hit stays listed until it's recorded as no-hit, not carried or missing from scans.</p>"
                 '<div class="scroll"><table><thead><tr><th>Sunday</th><th>Paper</th><th>World No. if on the World\'s date</th><th>Batch</th><th>Newspapers.com</th><th>Notes</th></tr></thead>'
                 f"<tbody>{body}</tbody></table></div>")
+
+    def date_links(s: dict) -> str:
+        """Links for one queued paper+date: the paper's issue browse page (papers.tsv `browse`,
+        a template with {y} {m} {d}) when known, and the site search for the date."""
+        y, m, d = s["date"].split("-")
+        tpl = papers.get(s["paper"], {}).get("browse", "")
+        out = []
+        if tpl:
+            out.append(f'<a href="{e(tpl.format(y=y, m=m, d=d))}">browse the issue</a>')
+        out.append(f'<a href="{SEARCH.format(date=s["date"])}">search that date</a>')
+        return " · ".join(out)
 
     def lag_table() -> str:
         groups = collections.defaultdict(list)
