@@ -108,29 +108,29 @@ minneapolis-journal	1916-03-12	5	found	no hit for cross-word or puzzle in the Jo
 minneapolis-journal	1916-03-19	5	found	no hit for cross-word or puzzle in the Journal that date (Alex DeJarnatt, 2026-10-29)
 minneapolis-journal	1916-03-26	5	found	no hit for cross-word or puzzle in the Journal that date (Alex DeJarnatt, 2026-10-29)
 minneapolis-journal	1916-04-02	1	found	batch 1: spot check, one Sunday every two months, plus the Sundays around the Globe's 1917-02-25 puzzle
-minneapolis-journal	1916-04-09	5	no-hit	no hit for cross-word or puzzle in the Journal that date (Alex DeJarnatt, 2026-10-29)
-minneapolis-journal	1916-04-16	5	no-hit	no hit for cross-word or puzzle in the Journal that date (Alex DeJarnatt, 2026-10-29)
+minneapolis-journal	1916-04-09	5	found	no hit for cross-word or puzzle in the Journal that date (Alex DeJarnatt, 2026-10-29)
+minneapolis-journal	1916-04-16	5	found	no hit for cross-word or puzzle in the Journal that date (Alex DeJarnatt, 2026-10-29)
 minneapolis-journal	1916-04-23	6	found	batch 6: 1916 sequential fill
 minneapolis-journal	1916-04-30	6	found	batch 6: 1916 sequential fill
 minneapolis-journal	1916-05-07	6	found	batch 6: 1916 sequential fill
 minneapolis-journal	1916-05-14	6	found	batch 6: 1916 sequential fill
-minneapolis-journal	1916-05-21	6	queued	batch 6: 1916 sequential fill
-minneapolis-journal	1916-05-28	6	queued	batch 6: 1916 sequential fill
+minneapolis-journal	1916-05-21	6	found	batch 6: 1916 sequential fill
+minneapolis-journal	1916-05-28	6	found	batch 6: 1916 sequential fill
 minneapolis-journal	1916-06-04	1	found	batch 1: spot check, one Sunday every two months, plus the Sundays around the Globe's 1917-02-25 puzzle
-minneapolis-journal	1916-06-11	6	queued	batch 6: 1916 sequential fill
-minneapolis-journal	1916-06-18	6	queued	batch 6: 1916 sequential fill
-minneapolis-journal	1916-06-25	6	queued	batch 6: 1916 sequential fill
+minneapolis-journal	1916-06-11	6	found	batch 6: 1916 sequential fill
+minneapolis-journal	1916-06-18	6	found	batch 6: 1916 sequential fill
+minneapolis-journal	1916-06-25	6	found	batch 6: 1916 sequential fill
 minneapolis-journal	1916-07-02	6	queued	batch 6: 1916 sequential fill
 minneapolis-journal	1916-07-09	6	queued	batch 6: 1916 sequential fill
 minneapolis-journal	1916-07-16	6	queued	batch 6: 1916 sequential fill
 minneapolis-journal	1916-07-23	6	queued	batch 6: 1916 sequential fill
 minneapolis-journal	1916-07-30	6	queued	batch 6: 1916 sequential fill
 minneapolis-journal	1916-08-06	1	found	batch 1: spot check, one Sunday every two months, plus the Sundays around the Globe's 1917-02-25 puzzle
-minneapolis-journal	1916-08-13	6	queued	batch 6: 1916 sequential fill
+minneapolis-journal	1916-08-13	6	not-carried	Alex browsed the issue (2026-10-30): an all-comics page where the puzzle page normally sits, no puzzles. BUT the 08-20 page's solution (ARABIAN, CAYENNE) is not the 08-06 puzzle, so a puzzle the Journal never printed was answered: either it ran elsewhere in the 08-13 issue (worth a second look at other sections) or the syndicate's solution ran without its puzzle
 minneapolis-journal	1916-08-20	6	queued	batch 6: 1916 sequential fill
 minneapolis-journal	1916-08-27	6	found	batch 6: 1916 sequential fill
 minneapolis-journal	1916-09-03	6	found	batch 6: 1916 sequential fill
-minneapolis-journal	1916-09-10	6	no-hit	no hit for cross-word or puzzle in the Journal that date (Alex DeJarnatt, 2026-10-29, checked working backwards from 12-10)
+minneapolis-journal	1916-09-10	6	not-carried	Alex browsed the issue (2026-10-30): where the puzzle page normally sits there was an all-comics page (Frank King's funnies or similar), no puzzles
 minneapolis-journal	1916-09-17	6	found	batch 6: 1916 sequential fill
 minneapolis-journal	1916-09-24	6	found	batch 6: 1916 sequential fill
 minneapolis-journal	1916-10-01	1	no-hit	text search for cross-word on this date found no Journal page (Alex DeJarnatt, 2026-10-27); search again more closely, e.g. browse the Sunday feature section
