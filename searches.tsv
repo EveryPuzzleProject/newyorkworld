@@ -67,11 +67,11 @@ minneapolis-journal	1915-05-30	4	queued	batch 4: 1915 sequential fill
 minneapolis-journal	1915-06-06	1	found	batch 1: spot check, one Sunday every two months, plus the Sundays around the Globe's 1917-02-25 puzzle
 minneapolis-journal	1915-06-13	4	found	batch 4: 1915 sequential fill
 minneapolis-journal	1915-06-20	4	queued	batch 4: 1915 sequential fill
-minneapolis-journal	1915-06-27	4	queued	batch 4: 1915 sequential fill
-minneapolis-journal	1915-07-04	4	queued	batch 4: 1915 sequential fill
-minneapolis-journal	1915-07-11	4	queued	batch 4: 1915 sequential fill
-minneapolis-journal	1915-07-18	4	queued	batch 4: 1915 sequential fill
-minneapolis-journal	1915-07-25	4	queued	batch 4: 1915 sequential fill
+minneapolis-journal	1915-06-27	4	found	batch 4: 1915 sequential fill
+minneapolis-journal	1915-07-04	4	found	batch 4: 1915 sequential fill
+minneapolis-journal	1915-07-11	4	found	batch 4: 1915 sequential fill
+minneapolis-journal	1915-07-18	4	found	batch 4: 1915 sequential fill
+minneapolis-journal	1915-07-25	4	found	batch 4: 1915 sequential fill
 minneapolis-journal	1915-08-01	1	no-hit	text search for cross-word on this date found no Journal page (Alex DeJarnatt, 2026-10-27); search again more closely, e.g. browse the Sunday feature section
 minneapolis-journal	1915-08-08	4	queued	batch 4: 1915 sequential fill
 minneapolis-journal	1915-08-15	4	queued	batch 4: 1915 sequential fill
@@ -88,17 +88,17 @@ minneapolis-journal	1915-10-24	5	queued	batch 5: 1915-16 sequential fill
 minneapolis-journal	1915-10-31	5	queued	batch 5: 1915-16 sequential fill
 minneapolis-journal	1915-11-07	5	queued	batch 5: 1915-16 sequential fill
 minneapolis-journal	1915-11-14	5	queued	batch 5: 1915-16 sequential fill
-minneapolis-journal	1915-11-21	5	queued	batch 5: 1915-16 sequential fill
-minneapolis-journal	1915-11-28	5	queued	batch 5: 1915-16 sequential fill
+minneapolis-journal	1915-11-21	5	found	batch 5: 1915-16 sequential fill
+minneapolis-journal	1915-11-28	5	found	batch 5: 1915-16 sequential fill
 minneapolis-journal	1915-12-05	1	no-hit	text search for cross-word on this date found no Journal page (Alex DeJarnatt, 2026-10-27); search again more closely, e.g. browse the Sunday feature section
-minneapolis-journal	1915-12-12	5	queued	batch 5: 1915-16 sequential fill
-minneapolis-journal	1915-12-19	5	queued	batch 5: 1915-16 sequential fill
-minneapolis-journal	1915-12-26	5	queued	batch 5: 1915-16 sequential fill
-minneapolis-journal	1916-01-02	5	queued	batch 5: 1915-16 sequential fill
-minneapolis-journal	1916-01-09	5	queued	batch 5: 1915-16 sequential fill
-minneapolis-journal	1916-01-16	5	queued	batch 5: 1915-16 sequential fill
-minneapolis-journal	1916-01-23	5	queued	batch 5: 1915-16 sequential fill
-minneapolis-journal	1916-01-30	5	queued	batch 5: 1915-16 sequential fill
+minneapolis-journal	1915-12-12	5	found	batch 5: 1915-16 sequential fill
+minneapolis-journal	1915-12-19	5	found	batch 5: 1915-16 sequential fill
+minneapolis-journal	1915-12-26	5	found	batch 5: 1915-16 sequential fill
+minneapolis-journal	1916-01-02	5	found	batch 5: 1915-16 sequential fill
+minneapolis-journal	1916-01-09	5	found	batch 5: 1915-16 sequential fill
+minneapolis-journal	1916-01-16	5	found	batch 5: 1915-16 sequential fill
+minneapolis-journal	1916-01-23	5	found	batch 5: 1915-16 sequential fill
+minneapolis-journal	1916-01-30	5	found	batch 5: 1915-16 sequential fill
 minneapolis-journal	1916-02-06	1	no-hit	text search for cross-word on this date found no Journal page (Alex DeJarnatt, 2026-10-27); search again more closely, e.g. browse the Sunday feature section
 minneapolis-journal	1916-02-13	5	queued	batch 5: 1915-16 sequential fill
 minneapolis-journal	1916-02-20	5	queued	batch 5: 1915-16 sequential fill
@@ -110,10 +110,40 @@ minneapolis-journal	1916-03-26	5	queued	batch 5: 1915-16 sequential fill
 minneapolis-journal	1916-04-02	1	found	batch 1: spot check, one Sunday every two months, plus the Sundays around the Globe's 1917-02-25 puzzle
 minneapolis-journal	1916-04-09	5	queued	batch 5: 1915-16 sequential fill
 minneapolis-journal	1916-04-16	5	queued	batch 5: 1915-16 sequential fill
+minneapolis-journal	1916-04-23	6	queued	batch 6: 1916 sequential fill
+minneapolis-journal	1916-04-30	6	queued	batch 6: 1916 sequential fill
+minneapolis-journal	1916-05-07	6	queued	batch 6: 1916 sequential fill
+minneapolis-journal	1916-05-14	6	queued	batch 6: 1916 sequential fill
+minneapolis-journal	1916-05-21	6	queued	batch 6: 1916 sequential fill
+minneapolis-journal	1916-05-28	6	queued	batch 6: 1916 sequential fill
 minneapolis-journal	1916-06-04	1	found	batch 1: spot check, one Sunday every two months, plus the Sundays around the Globe's 1917-02-25 puzzle
+minneapolis-journal	1916-06-11	6	queued	batch 6: 1916 sequential fill
+minneapolis-journal	1916-06-18	6	queued	batch 6: 1916 sequential fill
+minneapolis-journal	1916-06-25	6	queued	batch 6: 1916 sequential fill
+minneapolis-journal	1916-07-02	6	queued	batch 6: 1916 sequential fill
+minneapolis-journal	1916-07-09	6	queued	batch 6: 1916 sequential fill
+minneapolis-journal	1916-07-16	6	queued	batch 6: 1916 sequential fill
+minneapolis-journal	1916-07-23	6	queued	batch 6: 1916 sequential fill
+minneapolis-journal	1916-07-30	6	queued	batch 6: 1916 sequential fill
 minneapolis-journal	1916-08-06	1	found	batch 1: spot check, one Sunday every two months, plus the Sundays around the Globe's 1917-02-25 puzzle
+minneapolis-journal	1916-08-13	6	queued	batch 6: 1916 sequential fill
+minneapolis-journal	1916-08-20	6	queued	batch 6: 1916 sequential fill
+minneapolis-journal	1916-08-27	6	queued	batch 6: 1916 sequential fill
+minneapolis-journal	1916-09-03	6	queued	batch 6: 1916 sequential fill
+minneapolis-journal	1916-09-10	6	queued	batch 6: 1916 sequential fill
+minneapolis-journal	1916-09-17	6	queued	batch 6: 1916 sequential fill
+minneapolis-journal	1916-09-24	6	queued	batch 6: 1916 sequential fill
 minneapolis-journal	1916-10-01	1	no-hit	text search for cross-word on this date found no Journal page (Alex DeJarnatt, 2026-10-27); search again more closely, e.g. browse the Sunday feature section
+minneapolis-journal	1916-10-08	6	queued	batch 6: 1916 sequential fill
+minneapolis-journal	1916-10-15	6	queued	batch 6: 1916 sequential fill
+minneapolis-journal	1916-10-22	6	queued	batch 6: 1916 sequential fill
+minneapolis-journal	1916-10-29	6	queued	batch 6: 1916 sequential fill
+minneapolis-journal	1916-11-05	6	queued	batch 6: 1916 sequential fill
+minneapolis-journal	1916-11-12	6	queued	batch 6: 1916 sequential fill
+minneapolis-journal	1916-11-19	6	queued	batch 6: 1916 sequential fill
+minneapolis-journal	1916-11-26	6	queued	batch 6: 1916 sequential fill
 minneapolis-journal	1916-12-03	1	found	batch 1: spot check, one Sunday every two months, plus the Sundays around the Globe's 1917-02-25 puzzle
+minneapolis-journal	1916-12-10	6	queued	batch 6: 1916 sequential fill
 minneapolis-journal	1917-02-04	1	no-hit	text search for cross-word on this date found no Journal page (Alex DeJarnatt, 2026-10-27); search again more closely, e.g. browse the Sunday feature section
 minneapolis-journal	1917-02-18	1	no-hit	text search for cross-word on this date found no Journal page (Alex DeJarnatt, 2026-10-27); search again more closely, e.g. browse the Sunday feature section
 minneapolis-journal	1917-02-25	1	no-hit	text search for cross-word on this date found no Journal page (Alex DeJarnatt, 2026-10-27); search again more closely, e.g. browse the Sunday feature section
