@@ -16,10 +16,11 @@ minneapolis-journal	1916-02-27	1916-03-05		recheck	vs 1916-01-30 no: Solution is
 minneapolis-journal	1916-03-26	1916-04-02		recheck	vs 1916-03-05 no: Solution is a 15x15 checker square (INCINERATED top row); prev (Mar 5) puzzle an irregular blob with four black blobs
 minneapolis-journal	1916-04-16	1916-04-23		recheck	vs 1916-04-02 no (high (no number)): Solution is a ~16x16 square (AUSTRIA, SICCATE, PIOUS, SALLY...) vs previous puzzle square 12 wide; size differs, not verifiable by first clue. Could be a different puzzle (previous found page may not be the immediate predecessor).
 minneapolis-journal	1916-05-28	1916-06-04		recheck	vs 1916-04-23 no: Solution is four small pinwheel grids in 2x2; prev (Apr 2) puzzle a 13-wide checker square
-minneapolis-journal	1916-06-25	1916-08-06	1916-07-02 1916-07-09 1916-07-16 1916-07-23 1916-07-30	recheck	vs 1916-06-04 no (medium): Solution is a 15-wide checker square; prev (Jun 4) puzzle a ring/cross figure; two months gap
+minneapolis-journal	1916-07-30	1916-08-06		recheck	vs 1916-06-04 no (medium): Solution is a 15-wide checker square; prev (Jun 4) puzzle a ring/cross figure; two months gap
 los-angeles-tribune	1916-08-06	1916-10-01	1916-08-13 1916-08-20 1916-08-27 1916-09-03 1916-09-10 1916-09-17 1916-09-24	unknown	
-minneapolis-journal	1916-08-06	1916-08-27	1916-08-13 1916-08-20	missing-puzzle	vs 1916-08-06 no (medium): Solution an X/cross ornament ~13 wide with centre block; prev (Aug 6) puzzle a 15-wide checker square
+minneapolis-journal	1916-08-06	1916-08-20	1916-08-13	missing-puzzle	vs 1916-08-06 no (high none printed)
 shreveport-times	1916-08-06	1917-02-04	1916-08-13 1916-08-20 1916-08-27 1916-09-03 1916-09-10 1916-09-17 1916-09-24 1916-10-01 1916-10-08 1916-10-15 1916-10-22 1916-10-29 1916-11-05 1916-11-12 1916-11-19 1916-11-26 1916-12-03 1916-12-10 1916-12-17 1916-12-24 1916-12-31 1917-01-07 1917-01-14 1917-01-21 1917-01-28	unknown	
+minneapolis-journal	1916-08-20	1916-08-27		recheck	vs 1916-08-06 no (medium): Solution an X/cross ornament ~13 wide with centre block; prev (Aug 6) puzzle a 15-wide checker square
 minneapolis-journal	1916-09-03	1916-09-17	1916-09-10	missing-puzzle	vs 1916-09-03 no (medium): Solution is a diamond with heart-shaped centre, PROCRASTINATION across; prev (Sep 3) puzzle an X with black circle centre
 minneapolis-journal	1916-09-24	1916-10-08	1916-10-01	unknown	vs 1916-09-24 none: No solution grid on page
 los-angeles-tribune	1916-10-01	1916-12-03	1916-10-08 1916-10-15 1916-10-22 1916-10-29 1916-11-05 1916-11-12 1916-11-19 1916-11-26	unknown	
