@@ -16,7 +16,7 @@ ROOT = Path(__file__).resolve().parent.parent
 REPO = "https://github.com/EveryPuzzleProject/newyorkworld"
 CATALOG = "https://github.com/EveryPuzzleProject/catalog/blob/main/publications/new-york-world.md"
 # Newspapers.com search for one date. If this link form stops working, change it here only.
-SEARCH = "https://www.newspapers.com/search/?query=%22cross-word%22&date={date}"
+SEARCH = "https://www.newspapers.com/search/results/?date={date}&keyword=%22cross-word%22"  # Newspapers.com results URL; add &publication-ids=<id> per paper in papers.tsv `search`
 RESULT_LABEL = {"found": "Found", "queued": "To do", "no-hit": "No hit", "not-carried": "Not carried", "missing-from-scans": "Missing from scans"}
 
 
@@ -79,42 +79,19 @@ def main() -> None:
 
     def date_links(s: dict) -> str:
         """Links for one queued paper+date: the paper's issue browse page (papers.tsv `browse`,
-        a template with {y} {m} {d}) when known, and the site search for the date."""
+        a template with {y} {m} {d}) when known, and the site search: the paper's own template
+        (papers.tsv `search`, with {date} or {y} {m} {d}) when known, else a plain date search."""
         y, m, d = s["date"].split("-")
         tpl = papers.get(s["paper"], {}).get("browse", "")
         out = []
         if tpl:
             out.append(f'<a href="{e(tpl.format(y=y, m=m, d=d))}">browse the issue</a>')
-        out.append(f'<a href="{SEARCH.format(date=s["date"])}">search that date</a>')
-        est = nearby_page(s)
-        if est:
-            out.append(est)
+        tpl2 = papers.get(s["paper"], {}).get("search", "")
+        if tpl2:
+            out.append(f'<a href="{e(tpl2.format(date=s["date"], y=y, m=m, d=d))}">search this paper, this date</a>')
+        else:
+            out.append(f'<a href="{SEARCH.format(date=s["date"])}">search that date</a>')
         return " · ".join(out)
-
-    def nearby_page(s: dict) -> str:
-        """An estimated Newspapers.com page to land near this issue, interpolated between the
-        nearest pages we have of the same paper within three weeks either side, when their ids
-        run in date order (one microfilm reel). An estimate, labelled as one."""
-        d = dt.date.fromisoformat(s["date"])
-        known = []
-        for r in printings:
-            if r["paper"] == s["paper"] and "/image/" in r["url"]:
-                try:
-                    known.append((dt.date.fromisoformat(r["date"]), int(r["url"].rstrip("/").rsplit("/", 1)[1])))
-                except ValueError:
-                    pass
-        before = [k for k in known if 0 < (d - k[0]).days <= 21]
-        after = [k for k in known if 0 < (k[0] - d).days <= 21]
-        if not before or not after:
-            return ""
-        (d0, i0), (d1, i1) = max(before), min(after)
-        if i1 <= i0:
-            return ""
-        per_day = (i1 - i0) / (d1 - d0).days
-        if not 50 <= per_day * 7 <= 2500:
-            return ""
-        est = int(i0 + per_day * (d - d0).days)
-        return f'<a href="https://www.newspapers.com/image/{est}/">near page {est}</a> <span class=muted>(estimate; step to the PUZZLES page)</span>'
 
     def lag_table() -> str:
         groups = collections.defaultdict(list)

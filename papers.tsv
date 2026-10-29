@@ -1,10 +1,10 @@
-id	name	place	role	notes	browse
-new-york-world	New York World	New York	the source series	FUN supplement, Sundays from 1913-12-21; its own pages survive badly	
-minneapolis-journal	The Minneapolis Journal	Minneapolis, Minnesota	main copy, 1914 on	first FUN crossword 1914-02-01 (checked: none earlier); the puzzle sits on a PUZZLES / TRICKS, RIDDLES, CUT-OUTS & CATCHES / GAMES feature page, "Can You Solve Them?"	
-pittsburgh-press	The Pittsburgh Press	Pittsburgh, Pennsylvania	copy from 1916-06-11	printed as The Pittsburg Press	
-tacoma-daily-ledger	The Tacoma Daily Ledger	Tacoma, Washington	copy, 1916-	"Fun's Cross-Word Puzzle"; runs about two weeks behind	
-boston-globe	The Boston Globe	Boston	copy from 1917-02-25	no credit to FUN; gxd has bg1917-02-25	
-los-angeles-tribune	Los Angeles Sunday Tribune	Los Angeles	copy, 1916-17	Newspapers.com files it as Morning_Tribune (and one page as Rural_World); "Fun's Cross-Word Puzzle" on "A Page of Fun and Puzzles"; credits the constructor by name and address	
-new-orleans-states	New Orleans States	New Orleans	copy, 1917		
-salt-lake-telegram	Salt Lake Telegram	Salt Lake City	copy, 1917	Campbell 1917 names it as a FUN partner	
-shreveport-times	The Shreveport Times	Shreveport, Louisiana	copy, 1916-17	Newspapers.com files it as The_Times; masthead legible only on 1917-03-04 (the others presumed the same paper)	
+id	name	place	role	notes	browse	search
+new-york-world	New York World	New York	the source series	FUN supplement, Sundays from 1913-12-21; its own pages survive badly		
+minneapolis-journal	The Minneapolis Journal	Minneapolis, Minnesota	main copy, 1914 on	first FUN crossword 1914-02-01 (checked: none earlier); the puzzle sits on a PUZZLES / TRICKS, RIDDLES, CUT-OUTS & CATCHES / GAMES feature page, "Can You Solve Them?"		https://www.newspapers.com/search/results/?date={date}&keyword=%22cross-word%22&publication-ids=1660
+pittsburgh-press	The Pittsburgh Press	Pittsburgh, Pennsylvania	copy from 1916-06-11	printed as The Pittsburg Press		
+tacoma-daily-ledger	The Tacoma Daily Ledger	Tacoma, Washington	copy, 1916-	"Fun's Cross-Word Puzzle"; runs about two weeks behind		
+boston-globe	The Boston Globe	Boston	copy from 1917-02-25	no credit to FUN; gxd has bg1917-02-25		
+los-angeles-tribune	Los Angeles Sunday Tribune	Los Angeles	copy, 1916-17	Newspapers.com files it as Morning_Tribune (and one page as Rural_World); "Fun's Cross-Word Puzzle" on "A Page of Fun and Puzzles"; credits the constructor by name and address		
+new-orleans-states	New Orleans States	New Orleans	copy, 1917			
+salt-lake-telegram	Salt Lake Telegram	Salt Lake City	copy, 1917	Campbell 1917 names it as a FUN partner		
+shreveport-times	The Shreveport Times	Shreveport, Louisiana	copy, 1916-17	Newspapers.com files it as The_Times; masthead legible only on 1917-03-04 (the others presumed the same paper)		
