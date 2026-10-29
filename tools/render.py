@@ -86,7 +86,35 @@ def main() -> None:
         if tpl:
             out.append(f'<a href="{e(tpl.format(y=y, m=m, d=d))}">browse the issue</a>')
         out.append(f'<a href="{SEARCH.format(date=s["date"])}">search that date</a>')
+        est = nearby_page(s)
+        if est:
+            out.append(est)
         return " · ".join(out)
+
+    def nearby_page(s: dict) -> str:
+        """An estimated Newspapers.com page to land near this issue, interpolated between the
+        nearest pages we have of the same paper within three weeks either side, when their ids
+        run in date order (one microfilm reel). An estimate, labelled as one."""
+        d = dt.date.fromisoformat(s["date"])
+        known = []
+        for r in printings:
+            if r["paper"] == s["paper"] and "/image/" in r["url"]:
+                try:
+                    known.append((dt.date.fromisoformat(r["date"]), int(r["url"].rstrip("/").rsplit("/", 1)[1])))
+                except ValueError:
+                    pass
+        before = [k for k in known if 0 < (d - k[0]).days <= 21]
+        after = [k for k in known if 0 < (k[0] - d).days <= 21]
+        if not before or not after:
+            return ""
+        (d0, i0), (d1, i1) = max(before), min(after)
+        if i1 <= i0:
+            return ""
+        per_day = (i1 - i0) / (d1 - d0).days
+        if not 50 <= per_day * 7 <= 2500:
+            return ""
+        est = int(i0 + per_day * (d - d0).days)
+        return f'<a href="https://www.newspapers.com/image/{est}/">near page {est}</a> <span class=muted>(estimate; step to the PUZZLES page)</span>'
 
     def lag_table() -> str:
         groups = collections.defaultdict(list)
