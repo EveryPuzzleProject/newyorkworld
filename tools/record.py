@@ -339,11 +339,17 @@ def write_gaps(pr: list[dict]) -> None:
             d = d0 + dt.timedelta(days=7)
             while d < d1:
                 between.append(d.isoformat()); d += dt.timedelta(days=7)
-            word = b["continuity"].split(":")[0].split("(")[0].strip()
+            c = b["continuity"]
+            vs = ""
+            if c.startswith("vs "):
+                vs, c = c[3:13], c[14:]
+            word = c.split(":")[0].split("(")[0].strip()
+            if vs and vs != a["date"]:
+                word = "recheck"  # compared against an earlier page; a page has been found in between since
             if between:
-                kind = {"yes": "skip-confirmed", "no": "missing-puzzle"}.get(word, "unknown")
-            elif word == "no":
-                kind = "mystery"
+                kind = {"yes": "skip-confirmed", "no": "missing-puzzle", "recheck": "recheck"}.get(word, "unknown")
+            elif word in ("no", "recheck"):
+                kind = "mystery" if word == "no" else "recheck"
             else:
                 continue
             rows.append({"paper": paper, "after": a["date"], "before": b["date"], "sundays": " ".join(between), "kind": kind, "evidence": b["continuity"]})

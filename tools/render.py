@@ -99,7 +99,7 @@ def main() -> None:
     def gaps_table() -> str:
         gaps = read("gaps.tsv")
         miss = [g for g in gaps if g["kind"] == "missing-puzzle"]
-        myst = [g for g in gaps if g["kind"] == "mystery"]
+        myst = [g for g in gaps if g["kind"] in ("mystery", "recheck")]
         skips = [g for g in gaps if g["kind"] == "skip-confirmed"]
         out = []
         if miss:
@@ -162,8 +162,10 @@ def main() -> None:
         v = r.get("continuity", "")
         if not v:
             return ""
+        if v.startswith("vs "):
+            v = v[14:]
         word = v.split(":")[0].split("(")[0].strip()
-        label = {"yes": "yes, consecutive", "no": "no: a puzzle missing between", "none": "no solution printed", "unclear": "unclear"}.get(word, word)
+        label = {"yes": "yes, consecutive", "no": "no: a puzzle missing between", "none": "no solution printed", "unclear": "unclear", "recheck": "recheck"}.get(word, word)
         cls = {"yes": "have", "no": "warn", "none": "muted"}.get(word, "muted")
         return f'<span class="{cls}" title="{e(v)}">{e(label)}</span>'
 
