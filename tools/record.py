@@ -141,7 +141,7 @@ def add(args) -> None:
         row = {c: "" for c in PRINTING_COLS}
         row.update(file=key, paper=info["paper"], date=info["date"], page=info["page"])
         rows.append(row)
-    settable = {c for c in PRINTING_COLS} - {"file", "paper", "date", "page", "sunday_inferred", "lag_weeks", "flag"}
+    settable = {c for c in PRINTING_COLS} - {"file", "date", "page", "sunday_inferred", "lag_weeks", "flag"}  # paper= overrides a misnamed file
     for kv in args.pairs:
         k, _, v = kv.partition("=")
         if k not in settable:
@@ -243,8 +243,8 @@ def rebuild_all(pr: list[dict], se: list[dict], st: list[dict]) -> int:
             flags.append(f"matched to No. {r['world_no']} but the grid says No. {r['world_no_printed']}")
         if r["heading_no"] and r["world_no_printed"] and r["heading_no"] != r["world_no_printed"]:
             flags.append(f"heading says No. {r['heading_no']}, grid says No. {r['world_no_printed']}")
-        if not r["world_no"] and not r["notes"]:
-            flags.append("no number and no match: say in notes what the grid shows")
+        if not r["world_no_printed"] and not (r["shape"] and r["fingerprint"]):
+            flags.append("no grid number, and no shape or first clue recorded to match it by")
         r["flag"] = "; ".join(flags)
     # per paper: jumps and repeats between consecutive numbered printings
     by_paper: dict[str, list[dict]] = {}
