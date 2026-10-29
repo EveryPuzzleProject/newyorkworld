@@ -245,7 +245,7 @@ def rebuild_all(pr: list[dict], se: list[dict], st: list[dict]) -> int:
             flags.append(f"matched to No. {r['world_no']} but the grid says No. {r['world_no_printed']}")
         if r["heading_no"] and r["world_no_printed"] and r["heading_no"] != r["world_no_printed"]:
             flags.append(f"heading says No. {r['heading_no']}, grid says No. {r['world_no_printed']}")
-        if not r["world_no_printed"] and not (r["shape"] and r["fingerprint"]):
+        if not r["world_no_printed"] and not (r["shape"] and r["fingerprint"]) and not r["notes"].lower().startswith("no "):  # a solution-only page says so in notes
             flags.append("no grid number, and no shape or first clue recorded to match it by")
         r["flag"] = "; ".join(flags)
     # per paper: jumps and repeats between consecutive numbered printings
