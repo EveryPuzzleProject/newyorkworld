@@ -134,6 +134,16 @@ def main() -> None:
                        f'<span class="seg wanted" style="flex:{c["wanted"]}"></span></span><span class=n>{c["have"]}/{total}</span></div>')
         return "\n".join(out)
 
+    def cont(r: dict) -> str:
+        """The continuity verdict as a short word with the evidence on hover."""
+        v = r.get("continuity", "")
+        if not v:
+            return ""
+        word = v.split(":")[0].split("(")[0].strip()
+        label = {"yes": "yes, consecutive", "no": "no: a puzzle missing between", "none": "no solution printed", "unclear": "unclear"}.get(word, word)
+        cls = {"yes": "have", "no": "warn", "none": "muted"}.get(word, "muted")
+        return f'<span class="{cls}" title="{e(v)}">{e(label)}</span>'
+
     def printings_table() -> str:
         out = []
         for r in sorted(printings, key=lambda r: (r["date"], r["paper"])):
@@ -144,7 +154,7 @@ def main() -> None:
             flag = f"<b>{e(r['flag'])}</b> " if r["flag"] else ""
             out.append(f'<tr data-paper="{e(r["paper"])}" class="{"flagged" if r["flag"] else ""}"><td>{e(r["date"])}</td><td>{e(pname(r["paper"]))}</td>'
                        f"<td>{link(r['url'], 'p. ' + (r['page'] or '?'))}</td><td>{printed}</td><td>{world}</td><td>{e(r['heading'])}</td>"
-                       f"<td>{e(r['credit'])}</td><td>{sol}</td><td class=muted>{e(r['copyright_line'])}</td><td>{flag}{e(r['notes'])}</td></tr>")
+                       f"<td>{e(r['credit'])}</td><td>{sol}</td><td>{cont(r)}</td><td class=muted>{e(r['copyright_line'])}</td><td>{flag}{e(r['notes'])}</td></tr>")
         return "\n".join(out)
 
     def groups_table() -> str:
@@ -216,6 +226,7 @@ tr.flagged td {{ background:color-mix(in srgb, var(--warn) 10%, transparent) }}
 .yr {{ width:3em; color:var(--muted) }} .n {{ width:4.5em; text-align:right; color:var(--muted) }}
 .track {{ flex:1; display:flex; height:12px; border-radius:2px; overflow:hidden; background:var(--s-wanted) }}
 .seg.have, .pill.have {{ background:var(--s-have) }} .seg.wanted, .pill.wanted {{ background:var(--s-wanted) }}
+.warn {{ color:var(--warn) }} .have {{ color:var(--s-have) }}
 .pill {{ font-size:12px; padding:1px 6px; border-radius:9px; color:#fff; white-space:nowrap }} .pill.wanted {{ color:var(--fg) }}
 .filters {{ display:flex; flex-wrap:wrap; gap:8px; margin:8px 0; font:14px system-ui, sans-serif }}
 input, select {{ font:inherit; padding:4px 8px; background:var(--card); color:var(--fg); border:1px solid var(--line); border-radius:4px }}
@@ -254,7 +265,7 @@ a lag that grows means the World skipped weeks, or the paper did.</p>
 
 <h2 id="printings">Every printing</h2>
 <div class="filters"><select id="pp"><option value="">All papers</option>{paper_options}</select></div>
-<div class="scroll"><table id="pr"><thead><tr><th>Printed</th><th>Paper</th><th>Page</th><th>Grid No.</th><th>World puzzle*</th><th>Heading</th><th>Credit</th><th>Solution on page</th><th>Copyright line</th><th>Notes</th></tr></thead><tbody>
+<div class="scroll"><table id="pr"><thead><tr><th>Printed</th><th>Paper</th><th>Page</th><th>Grid No.</th><th>World puzzle*</th><th>Heading</th><th>Credit</th><th>Solution on page</th><th>Follows previous?</th><th>Copyright line</th><th>Notes</th></tr></thead><tbody>
 {printings_table()}
 </tbody></table></div>
 

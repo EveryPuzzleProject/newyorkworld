@@ -14,7 +14,7 @@ Three tables, all tab-separated, all edited only through this tool:
                                               the same page: FILE#2; a clipping with no saved page:
                                               clip:<paper>:<date>). Keys: world_no_printed heading_no
                                               heading credit copyright_line fun_credit shape fingerprint
-                                              solution_label solution_of (a number or a puzzle_key) url printed_page notes match world_no puzzle_key (copies of one unnumbered puzzle share a key)
+                                              solution_label solution_of (a number or a puzzle_key) url printed_page notes match world_no puzzle_key (copies of one unnumbered puzzle share a key) continuity (the solution on this page answers the previous found page's puzzle: yes / no / none printed / unclear)
   python tools/record.py search PAPER DATE result=no-hit|not-carried|missing-from-scans [note=…]
   python tools/record.py queue [--paper minneapolis-journal] [--n 30] [--from DATE] [DATES…]
   python tools/record.py rebuild              status.tsv, flags, searches 'found', the scans repo's pages.tsv
@@ -38,7 +38,7 @@ FIRST = dt.date(1913, 12, 21)   # World No. 1
 LAST_NO = 211                   # 1917-12-30
 PRINTING_COLS = ["file", "paper", "date", "page", "printed_page", "world_no_printed", "heading_no", "heading",
                  "credit", "copyright_line", "fun_credit", "shape", "fingerprint", "solution_label", "solution_of",
-                 "url", "world_no", "puzzle_key", "sunday_inferred", "lag_weeks", "match", "flag", "notes"]
+                 "url", "world_no", "puzzle_key", "sunday_inferred", "lag_weeks", "match", "continuity", "flag", "notes"]
 SEARCH_COLS = ["paper", "date", "batch", "result", "note"]
 STATUS_COLS = ["world_no", "sunday_inferred", "status", "copies", "heading", "credit", "fingerprint",
                "solution_seen", "flag", "notes"]
