@@ -1,8 +1,8 @@
 paper	after	before	sundays	kind	evidence
 minneapolis-journal	1914-05-10	1914-05-31	1914-05-17 1914-05-24	unknown	none: no grid; only a text anagram answer for the Mexico map puzzle
 minneapolis-journal	1914-05-31	1914-06-14	1914-06-07	unknown	none: only the vacation rebus text solution, no grid
-minneapolis-journal	1914-09-13	1914-09-27	1914-09-20	missing-puzzle	no: solution labelled No. 38; previous world_no 37
-minneapolis-journal	1914-10-11	1914-10-25	1914-10-18	missing-puzzle	no (medium): solution ~10 rows diamond with solid black cross centre (AUDIT/STICK/PAPA CAT MUTE); previous puzzle No. 41 is ~13 rows with large open cross centre; likely No. 42 (missing)
+minneapolis-journal	1914-09-20	1914-09-27		mystery	no: solution labelled No. 38; previous world_no 37
+minneapolis-journal	1914-10-18	1914-10-25		mystery	no (medium): solution ~10 rows diamond with solid black cross centre (AUDIT/STICK/PAPA CAT MUTE); previous puzzle No. 41 is ~13 rows with large open cross centre; likely No. 42 (missing)
 minneapolis-journal	1914-11-08	1914-11-22	1914-11-15	unknown	none: no solution grid; only text 'Solution to the European War Puzzle'
 minneapolis-journal	1915-01-03	1915-01-17	1915-01-10	skip-confirmed	yes: large filled diamond ~29 wide; previous puzzle diamond ~29 wide
 minneapolis-journal	1915-01-24	1915-01-31		mystery	no: solution is a large ~19-wide diamond (D/FAN/ORION/OPOSSUM...); previous puzzle is a letter F shape
@@ -15,7 +15,8 @@ minneapolis-journal	1915-07-25	1915-11-21	1915-08-01 1915-08-08 1915-08-15 1915-
 minneapolis-journal	1915-11-28	1915-12-12	1915-12-05	missing-puzzle	no: Solution is a diamond-on-stem ~17 wide; prev found puzzle (Nov 28) is a ~25 square of lobes; Dec 5 puzzle missing
 minneapolis-journal	1916-01-30	1916-03-05	1916-02-06 1916-02-13 1916-02-20 1916-02-27	missing-puzzle	no: Solution is a ~13-wide square with centre block; prev found puzzle (Jan 30) a ~25 diamond with black cross; several weeks missing
 minneapolis-journal	1916-03-05	1916-04-02	1916-03-12 1916-03-19 1916-03-26	missing-puzzle	no: Solution is a 15x15 checker square (INCINERATED top row); prev (Mar 5) puzzle an irregular blob with four black blobs
-minneapolis-journal	1916-04-02	1916-06-04	1916-04-09 1916-04-16 1916-04-23 1916-04-30 1916-05-07 1916-05-14 1916-05-21 1916-05-28	missing-puzzle	no: Solution is four small pinwheel grids in 2x2; prev (Apr 2) puzzle a 13-wide checker square
+minneapolis-journal	1916-04-02	1916-04-23	1916-04-09 1916-04-16	missing-puzzle	no (high (no number)): Solution is a ~16x16 square (AUSTRIA, SICCATE, PIOUS, SALLY...) vs previous puzzle square 12 wide; size differs, not verifiable by first clue. Could be a different puzzle (previous found page may not be the immediate predecessor).
+minneapolis-journal	1916-04-23	1916-06-04	1916-04-30 1916-05-07 1916-05-14 1916-05-21 1916-05-28	missing-puzzle	no: Solution is four small pinwheel grids in 2x2; prev (Apr 2) puzzle a 13-wide checker square
 minneapolis-journal	1916-06-04	1916-08-06	1916-06-11 1916-06-18 1916-06-25 1916-07-02 1916-07-09 1916-07-16 1916-07-23 1916-07-30	missing-puzzle	no (medium): Solution is a 15-wide checker square; prev (Jun 4) puzzle a ring/cross figure; two months gap
 los-angeles-tribune	1916-08-06	1916-10-01	1916-08-13 1916-08-20 1916-08-27 1916-09-03 1916-09-10 1916-09-17 1916-09-24	unknown	
 minneapolis-journal	1916-08-06	1916-08-27	1916-08-13 1916-08-20	missing-puzzle	no (medium): Solution an X/cross ornament ~13 wide with centre block; prev (Aug 6) puzzle a 15-wide checker square
