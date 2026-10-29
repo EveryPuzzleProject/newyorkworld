@@ -96,6 +96,29 @@ def main() -> None:
             out.append(f'<a href="{SEARCH.format(date=s["date"])}">search that date</a>')
         return " · ".join(out)
 
+    def gaps_table() -> str:
+        gaps = read("gaps.tsv")
+        miss = [g for g in gaps if g["kind"] == "missing-puzzle"]
+        myst = [g for g in gaps if g["kind"] == "mystery"]
+        skips = [g for g in gaps if g["kind"] == "skip-confirmed"]
+        out = []
+        if miss:
+            body = "\n".join(
+                f"<tr><td>{e(pname(g['paper']))}</td><td>{e(g['after'])} to {e(g['before'])}</td><td>"
+                + " · ".join(f"{d[5:]} ({date_links({'paper': g['paper'], 'date': d})})" for d in g["sundays"].split())
+                + f"</td><td class=muted>{e(g['evidence'])}</td></tr>" for g in miss)
+            out.append('<div class="scroll"><table><thead><tr><th>Paper</th><th>Between</th><th>Sundays to probe</th><th>Evidence</th></tr></thead>'
+                       f"<tbody>{body}</tbody></table></div>")
+        else:
+            out.append("<p>None open.</p>")
+        if myst:
+            out.append("<p><b>Mysteries</b> (consecutive pages, yet the solution is not the previous puzzle): " +
+                       "; ".join(f"{pname(g['paper'])} {g['before']} <span class=muted>({e(g['evidence'])})</span>" for g in myst) + "</p>")
+        if skips:
+            out.append("<p class=muted><b>Skips confirmed</b> (nothing ran in between): " +
+                       "; ".join(f"{pname(g['paper'])} {g['sundays'].replace(' ', ', ')}" for g in skips) + "</p>")
+        return "\n".join(out)
+
     def lag_table() -> str:
         groups = collections.defaultdict(list)
         for r in printings:
@@ -247,6 +270,11 @@ A page missing from the scans is never counted as a skip.</div>
 
 <h2 id="next">Next batch to find</h2>
 {batch_table()}
+
+<h2 id="missing">Missing puzzles to find</h2>
+<p>Where a page's "last week's solution" is not the previous page's puzzle, a puzzle ran in between that we don't have: probe these dates.
+Where it is the previous page's puzzle, nothing ran in between and the dates are settled as not carried.</p>
+{gaps_table()}
 
 <h2 id="papers">The papers and how far behind the World they ran</h2>
 <p>Each paper's lag is its printing date minus the World date inferred from the number. A steady lag means the paper ran late;

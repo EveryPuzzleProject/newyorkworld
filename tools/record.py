@@ -245,7 +245,7 @@ def rebuild_all(pr: list[dict], se: list[dict], st: list[dict]) -> int:
             flags.append(f"matched to No. {r['world_no']} but the grid says No. {r['world_no_printed']}")
         if r["heading_no"] and r["world_no_printed"] and r["heading_no"] != r["world_no_printed"]:
             flags.append(f"heading says No. {r['heading_no']}, grid says No. {r['world_no_printed']}")
-        if not r["world_no_printed"] and not (r["shape"] and r["fingerprint"]) and not r["notes"].lower().startswith("no "):  # a solution-only page says so in notes
+        if not r["world_no_printed"] and not (r["shape"] and r["fingerprint"]) and not solution_only(r):
             flags.append("no grid number, and no shape or first clue recorded to match it by")
         r["flag"] = "; ".join(flags)
     # per paper: jumps and repeats between consecutive numbered printings
@@ -295,11 +295,60 @@ def rebuild_all(pr: list[dict], se: list[dict], st: list[dict]) -> int:
         fl = [r["flag"] for r in rs if r["flag"]]
         row["flag"] = " | ".join(dict.fromkeys(fl))
         new_st.append(row)
+    for g in write_gaps(pr):
+        if g["kind"] == "skip-confirmed":
+            for d in g["sundays"].split():
+                row = next((x for x in se if x["paper"] == g["paper"] and x["date"] == d), None)
+                if row is None:
+                    row = {"paper": g["paper"], "date": d, "batch": "", "result": "", "note": ""}
+                    se.append(row)
+                if row["result"] in ("", "queued", "no-hit"):
+                    row["result"], row["note"] = "not-carried", f"nothing ran in between: the {g['before']} page's solution answers the {g['after']} puzzle"
     write_tsv(ROOT / "printings.tsv", PRINTING_COLS, sorted(pr, key=lambda r: (r["date"], r["paper"], r["file"])))
     write_tsv(ROOT / "searches.tsv", SEARCH_COLS, sorted(se, key=lambda r: (r["date"], r["paper"])))
     write_tsv(ROOT / "status.tsv", STATUS_COLS, new_st)
     sync_pages_tsv(pr)
     return nflags
+
+
+GAP_COLS = ["paper", "after", "before", "sundays", "kind", "evidence"]
+
+
+def solution_only(r: dict) -> bool:
+    """A page we hold that carries no puzzle (only a solution, or another feature): its notes say so."""
+    n = r["notes"].lower()
+    return n.startswith("no new puzzle") or n.startswith("no crossword")
+
+
+def write_gaps(pr: list[dict]) -> None:
+    """gaps.tsv: what the continuity column says about the Sundays between consecutive found
+    pages of one paper. kind: missing-puzzle (the later page's solution is not the earlier page's
+    puzzle, so a puzzle ran in between: find it), skip-confirmed (its solution IS the earlier
+    puzzle, so nothing ran in between), mystery (no Sunday in between, yet the solution is not
+    the earlier puzzle), unknown (no solution printed, or unclear, or not yet checked)."""
+    rows = []
+    by_paper: dict[str, list[dict]] = {}
+    for r in pr:
+        if not r["file"].startswith("clip:") and not solution_only(r):
+            by_paper.setdefault(r["paper"], []).append(r)
+    for paper, rs in by_paper.items():
+        rs.sort(key=lambda r: r["date"])
+        for a, b in zip(rs, rs[1:]):
+            d0, d1 = dt.date.fromisoformat(a["date"]), dt.date.fromisoformat(b["date"])
+            between = []
+            d = d0 + dt.timedelta(days=7)
+            while d < d1:
+                between.append(d.isoformat()); d += dt.timedelta(days=7)
+            word = b["continuity"].split(":")[0].split("(")[0].strip()
+            if between:
+                kind = {"yes": "skip-confirmed", "no": "missing-puzzle"}.get(word, "unknown")
+            elif word == "no":
+                kind = "mystery"
+            else:
+                continue
+            rows.append({"paper": paper, "after": a["date"], "before": b["date"], "sundays": " ".join(between), "kind": kind, "evidence": b["continuity"]})
+    write_tsv(ROOT / "gaps.tsv", GAP_COLS, sorted(rows, key=lambda r: (r["after"], r["paper"])))
+    return rows
 
 
 def fp_key(s: str) -> str:
