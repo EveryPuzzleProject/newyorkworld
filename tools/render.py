@@ -88,7 +88,10 @@ def main() -> None:
             out.append(f'<a href="{e(tpl.format(y=y, m=m, d=d))}">browse the issue</a>')
         tpl2 = papers.get(s["paper"], {}).get("search", "")
         if tpl2:
-            out.append(f'<a href="{e(tpl2.format(date=s["date"], y=y, m=m, d=d))}">search this paper, this date</a>')
+            url = tpl2.format(date=s["date"], y=y, m=m, d=d)
+            out.append(f'<a href="{e(url)}">search this paper, this date</a>')
+            if "%22cross-word%22" in url:
+                out.append(f'<a href="{e(url.replace("%22cross-word%22", "puzzle"))}">same, for "puzzle"</a>')
         else:
             out.append(f'<a href="{SEARCH.format(date=s["date"])}">search that date</a>')
         return " · ".join(out)
