@@ -144,14 +144,14 @@ minneapolis-journal	1916-11-19	6	found	batch 6: 1916 sequential fill
 minneapolis-journal	1916-11-26	6	found	batch 6: 1916 sequential fill
 minneapolis-journal	1916-12-03	1	found	batch 1: spot check, one Sunday every two months, plus the Sundays around the Globe's 1917-02-25 puzzle
 minneapolis-journal	1916-12-10	6	found	batch 6: 1916 sequential fill
-minneapolis-journal	1916-12-17	7	queued	batch 7: end of 1916 in the Journal
-minneapolis-journal	1916-12-24	7	queued	batch 7: end of 1916 in the Journal
-minneapolis-journal	1916-12-31	7	queued	batch 7: end of 1916 in the Journal
+minneapolis-journal	1916-12-17	7	found	batch 7: end of 1916 in the Journal
+minneapolis-journal	1916-12-24	7	found	batch 7: end of 1916 in the Journal
+minneapolis-journal	1916-12-31	7	found	batch 7: end of 1916 in the Journal
 pittsburgh-press	1917-01-07	8	queued	batch 7: the Pittsburgh Press carries FUN from 1916-06-11 and the Journal gives no 1917 hits; its copies anchor the Globe, Tacoma and LA Tribune matches
 pittsburgh-press	1917-01-14	8	queued	batch 7: the Pittsburgh Press carries FUN from 1916-06-11 and the Journal gives no 1917 hits; its copies anchor the Globe, Tacoma and LA Tribune matches
 pittsburgh-press	1917-01-21	8	queued	batch 7: the Pittsburgh Press carries FUN from 1916-06-11 and the Journal gives no 1917 hits; its copies anchor the Globe, Tacoma and LA Tribune matches
 pittsburgh-press	1917-01-28	8	queued	batch 7: the Pittsburgh Press carries FUN from 1916-06-11 and the Journal gives no 1917 hits; its copies anchor the Globe, Tacoma and LA Tribune matches
-minneapolis-journal	1917-02-04	1	no-hit	text search for cross-word on this date found no Journal page (Alex DeJarnatt, 2026-10-27); search again more closely, e.g. browse the Sunday feature section
+minneapolis-journal	1917-02-04	1	found	text search for cross-word on this date found no Journal page (Alex DeJarnatt, 2026-10-27); search again more closely, e.g. browse the Sunday feature section
 pittsburgh-press	1917-02-11	8	queued	batch 7: the Pittsburgh Press carries FUN from 1916-06-11 and the Journal gives no 1917 hits; its copies anchor the Globe, Tacoma and LA Tribune matches
 minneapolis-journal	1917-02-18	1	no-hit	text search for cross-word on this date found no Journal page (Alex DeJarnatt, 2026-10-27); search again more closely, e.g. browse the Sunday feature section
 minneapolis-journal	1917-02-25	1	no-hit	text search for cross-word on this date found no Journal page (Alex DeJarnatt, 2026-10-27); search again more closely, e.g. browse the Sunday feature section

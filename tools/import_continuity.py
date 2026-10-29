@@ -24,7 +24,11 @@ def previous_date(file: str) -> str:
 
 
 for o in json.loads(Path(sys.argv[1]).read_text(encoding="utf-8")):
-    v = str(o.get("continuity", "")).strip().lower()
+    c = o.get("continuity", "")
+    if isinstance(c, dict):  # some agents nest {answer, evidence, confidence}
+        o = {**o, "evidence": c.get("evidence", o.get("evidence", "")), "confidence": c.get("confidence", o.get("confidence", ""))}
+        c = c.get("answer", c.get("continuity", ""))
+    v = str(c).strip().lower()
     if v not in ("yes", "no", "none", "unclear"):
         print(f"?? {o.get('file')}: {v!r}"); continue
     ev = str(o.get("evidence", "")).strip(); conf = str(o.get("confidence", "")).strip()
