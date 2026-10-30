@@ -45,5 +45,5 @@ Sightings found along the way that belong in `catalog/publications/`, parked her
 aren't lost; move each into a catalog entry with its source.
 
 - **Brooklyn Daily Eagle**: started a weekly Sunday crossword on 1924-05-18 (Alex DeJarnatt,
-  Newspapers.com, 2026-10-30). Newspapers.com publication id: (to add). Whose puzzle, and
+  Newspapers.com, 2026-10-30). Newspapers.com publication id 13893. Whose puzzle, and
   whether it's the World's, not yet checked.
