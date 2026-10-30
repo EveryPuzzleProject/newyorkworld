@@ -261,6 +261,25 @@ def rebuild_all(pr: list[dict], se: list[dict], st: list[dict]) -> int:
                 b["flag"] = "; ".join(x for x in (b["flag"], f"repeats No. {a['world_no_printed']} of {a['date']}") if x)
             elif dn != weeks:
                 b["flag"] = "; ".join(x for x in (b["flag"], f"No. {a['world_no_printed']} on {a['date']} to No. {b['world_no_printed']} in {weeks} weeks: {dn - weeks:+d}") if x)
+    # copies with the same first clue and no key yet: group them automatically
+    by_fp: dict[str, list[dict]] = {}
+    for r in pr:
+        if r["fingerprint"] and not r["world_no"]:
+            k = fp_key(r["fingerprint"])
+            if len(k) >= 8:
+                by_fp.setdefault(k, []).append(r)
+    for k, rs in by_fp.items():
+        if len(rs) < 2:
+            continue
+        shapes = {(r["shape"].split()[0].lower() if r["shape"] else "") for r in rs}
+        if len(k) < 14 and len(shapes) > 1:
+            continue  # a short common clue ("A vegetable") on different grid shapes is no match
+        keys = {r["puzzle_key"] for r in rs if r["puzzle_key"]}
+        key = sorted(keys)[0] if keys else "fp-" + k[:16]
+        for r in rs:
+            if not r["puzzle_key"]:
+                r["puzzle_key"] = key
+                r["match"] = r["match"] or f"same first clue as {', '.join(x['paper'] + ' ' + x['date'] for x in rs if x is not r)} (automatic)"
     # same World number claimed by printings with different fingerprints
     by_no: dict[str, list[dict]] = {}
     for r in pr:
@@ -271,11 +290,18 @@ def rebuild_all(pr: list[dict], se: list[dict], st: list[dict]) -> int:
         if len(fps) > 1:
             for r in rs:
                 r["flag"] = "; ".join(x for x in (r["flag"], f"No. {n} has copies with different first clues") if x)
-    # searches: found when a printing exists
+    # searches: found when a printing exists for that paper and date; a QUEUED row is also
+    # satisfied by any paper's copy of that Sunday (one good copy per Sunday is the aim)
     have = {(r["paper"], r["date"]) for r in pr}
+    by_date: dict[str, list[str]] = {}
+    for r in pr:
+        by_date.setdefault(r["date"], []).append(r["paper"])
     for s in se:
         if (s["paper"], s["date"]) in have:
             s["result"] = "found"
+        elif s["result"] == "queued" and s["date"] in by_date:
+            s["result"] = "found"
+            s["note"] = "copy taken from " + ", ".join(sorted(set(by_date[s["date"]]))) + (f"; {s['note']}" if s["note"] else "")
     # status: one row per number
     notes = {r["world_no"]: r["notes"] for r in st}
     new_st = []
