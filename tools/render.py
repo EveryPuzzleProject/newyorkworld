@@ -238,6 +238,28 @@ def main() -> None:
         cls = {"yes": "have", "no": "warn", "none": "muted"}.get(word, "muted")
         return f'<span class="{cls}" title="{e(v)}">{e(label)}</span>'
 
+    def bars_held() -> str:
+        """Distinct puzzles held per year of first printing, against that year's Sundays."""
+        seen = set(); per = collections.Counter()
+        for r in sorted(printings, key=lambda r: r["date"]):
+            if r["notes"].lower().startswith(("no new puzzle", "no crossword")):
+                continue
+            k = ("no", r["world_no"]) if r["world_no"] else (("key", r["puzzle_key"]) if r["puzzle_key"] else ("file", r["file"]))
+            if k in seen:
+                continue
+            seen.add(k); per[r["date"][:4]] += 1
+        out = []
+        for y in sorted(per):
+            d = dt.date(int(y), 1, 1); d += dt.timedelta(days=(6 - d.weekday()) % 7)
+            sundays = 0
+            while d.year == int(y):
+                sundays += 1; d += dt.timedelta(days=7)
+            have = min(per[y], sundays)
+            out.append(f'<div class=bar><span class=yr>{y}</span><span class=track><span class="seg have" style="flex:{have}"></span>'
+                       f'<span class="seg wanted" style="flex:{sundays - have}"></span></span><span class=n>{per[y]}/{sundays}</span></div>')
+        return "
+".join(out)
+
     def printings_table() -> str:
         out = []
         for r in sorted(printings, key=lambda r: (r["date"], r["paper"])):
@@ -379,7 +401,13 @@ a lag that grows means the World skipped weeks, or the paper did.</p>
 <h2 id="flags">Flags</h2>
 {flags_table()}
 
-<h2>Progress by year of the World's series</h2>
+<h2>Progress by year</h2>
+<p><b>Puzzles held, by the year they were printed.</b> Every distinct puzzle we have a page for, counted once (numbered puzzles by number,
+unnumbered ones by their copies), against the Sundays of that year.</p>
+{bars_held()}
+<p><b>World numbers with a copy.</b> The same puzzles placed on the World's own calendar. 1915 and 1916 show almost nothing here not because
+the pages are missing but because no copy from those years can yet be tied to a World date: the numbers stopped in January 1915 and the
+1917 anchor (the World Magazine solutions box) reaches back only to 1917. Those years' puzzles are known by the Journal's dates alone.</p>
 {bars()}
 
 <h2 id="unnumbered">Unnumbered puzzles matched across papers</h2>
