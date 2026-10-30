@@ -359,8 +359,8 @@ table {{ width:100%; border-collapse:collapse; font:14px/1.4 system-ui, sans-ser
 th, td {{ text-align:left; padding:6px 8px; border-bottom:1px solid var(--line); vertical-align:top }}
 th {{ font-weight:600 }} .scroll {{ overflow-x:auto }} td:first-child {{ white-space:nowrap }}
 #pr, #all {{ table-layout:fixed }} #pr td, #all td {{ white-space:normal; overflow-wrap:anywhere }} #pr td:first-child, #all td:first-child {{ white-space:normal }}
-#pr th:nth-child(1) {{ width:7% }} #pr th:nth-child(2) {{ width:8% }} #pr th:nth-child(3) {{ width:5% }} #pr th:nth-child(4) {{ width:5% }} #pr th:nth-child(5) {{ width:8% }}
-#pr th:nth-child(6) {{ width:11% }} #pr th:nth-child(7) {{ width:9% }} #pr th:nth-child(8) {{ width:7% }} #pr th:nth-child(9) {{ width:8% }} #pr th:nth-child(10) {{ width:8% }}
+#pr th:nth-child(1) {{ width:7% }} #pr th:nth-child(2) {{ width:8% }} #pr th:nth-child(3) {{ width:4% }} #pr th:nth-child(4) {{ width:5% }} #pr th:nth-child(5) {{ width:8% }}
+#pr th:nth-child(6) {{ width:11% }} #pr th:nth-child(7) {{ width:9% }} #pr th:nth-child(8) {{ width:13% }} #pr th:nth-child(9) {{ width:7% }} #pr th:nth-child(10) {{ width:7% }}
 #all th:nth-child(1) {{ width:6% }} #all th:nth-child(2) {{ width:8% }} #all th:nth-child(3) {{ width:8% }} #all th:nth-child(4) {{ width:16% }} #all th:nth-child(5) {{ width:10% }} #all th:nth-child(6) {{ width:9% }} #all th:nth-child(7) {{ width:9% }} #all th:nth-child(8) {{ width:9% }}
 tr.flagged td {{ background:color-mix(in srgb, var(--warn) 10%, transparent) }}
 .bar {{ display:flex; align-items:center; gap:8px; font:12px system-ui, sans-serif; margin:2px 0 }}
