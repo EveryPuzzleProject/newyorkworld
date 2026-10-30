@@ -119,6 +119,75 @@ def main() -> None:
                        "; ".join(f"{pname(g['paper'])} {g['sundays'].replace(' ', ', ')}" for g in skips) + "</p>")
         return "\n".join(out)
 
+    def coverage_grid() -> str:
+        """One row per paper per year, one cell per Sunday: a copy we hold (links to the page on
+        Newspapers.com), a Sunday searched and not carried, searched with no hit, or nothing yet.
+        The top row is any copy at all for that Sunday."""
+        pr_by = {}
+        for r in printings:
+            if r["file"].startswith("clip:") and not r["url"]:
+                continue
+            pr_by.setdefault((r["paper"], r["date"]), []).append(r)
+        se_by = {(x["paper"], x["date"]): x for x in searches}
+        papers_seen = sorted({r["paper"] for r in printings} | {x["paper"] for x in searches}, key=lambda p: (p != "minneapolis-journal", pname(p)))
+        out = []
+        for y in ("1913", "1914", "1915", "1916", "1917"):
+            d = dt.date(int(y), 1, 1)
+            d += dt.timedelta(days=(6 - d.weekday()) % 7)
+            sundays = []
+            while d.year == int(y):
+                if dt.date(1913, 12, 21) <= d <= dt.date(1917, 12, 30):
+                    sundays.append(d.isoformat())
+                d += dt.timedelta(days=7)
+            if not sundays:
+                continue
+            rows_html = []
+            # top row: any copy
+            cells = []
+            for sd in sundays:
+                have = [r for (p, dd), rs in pr_by.items() if dd == sd for r in rs]
+                if have:
+                    cells.append(f'<span class="c have" title="{e(sd)}: {", ".join(dict.fromkeys(pname(r["paper"]) for r in have))}"></span>')
+                else:
+                    cells.append(f'<span class="c none" title="{e(sd)}: no copy yet"></span>')
+            rows_html.append(f'<div class="cr"><span class="cl"><b>any copy</b></span>{"".join(cells)}</div>')
+            for p in papers_seen:
+                cells = []
+                any_this_year = False
+                for sd in sundays:
+                    rs = pr_by.get((p, sd))
+                    x = se_by.get((p, sd))
+                    if rs:
+                        any_this_year = True
+                        r0 = rs[0]
+                        label = f"{pname(p)} {sd}" + (f": No. {r0['world_no_printed']}" if r0["world_no_printed"] else "") + (f" · {r0['heading']}" if r0["heading"] else "")
+                        if r0["url"]:
+                            cells.append(f'<a class="c have" href="{e(r0["url"])}" title="{e(label)}"></a>')
+                        else:
+                            cells.append(f'<span class="c have" title="{e(label)} (no link)"></span>')
+                    elif x and x["result"] == "not-carried":
+                        any_this_year = True
+                        cells.append(f'<span class="c nc" title="{e(pname(p))} {e(sd)}: not carried. {e(x["note"])}"></span>')
+                    elif x and x["result"] in ("no-hit", "missing-from-scans"):
+                        any_this_year = True
+                        cells.append(f'<span class="c nh" title="{e(pname(p))} {e(sd)}: {e(x["result"])}. {e(x["note"])}"></span>')
+                    elif x and x["result"] == "queued":
+                        any_this_year = True
+                        cells.append(f'<span class="c q" title="{e(pname(p))} {e(sd)}: queued (batch {e(x["batch"])})"></span>')
+                    else:
+                        cells.append('<span class="c none"></span>')
+                if any_this_year:
+                    rows_html.append(f'<div class="cr"><span class="cl">{e(pname(p))}</span>{"".join(cells)}</div>')
+            months = ""
+            for sd in sundays:
+                m = dt.date.fromisoformat(sd)
+                months += f'<span class="c mo">{m.strftime("%b")[0] if m.day <= 7 else ""}</span>'
+            out.append(f'<h3>{y}</h3><div class="cg"><div class="cr"><span class="cl"></span>{months}</div>{"".join(rows_html)}</div>')
+        legend = ('<div class="legend"><span class=key><span class="c have"></span>copy held (click: the page on Newspapers.com)</span>'
+                  '<span class=key><span class="c nc"></span>searched: not carried</span><span class=key><span class="c nh"></span>searched: no hit</span>'
+                  '<span class=key><span class="c q"></span>queued</span><span class=key><span class="c none"></span>not looked for</span></div>')
+        return legend + "\n".join(out)
+
     def lag_table() -> str:
         groups = collections.defaultdict(list)
         for r in printings:
@@ -252,6 +321,12 @@ tr.flagged td {{ background:color-mix(in srgb, var(--warn) 10%, transparent) }}
 .track {{ flex:1; display:flex; height:12px; border-radius:2px; overflow:hidden; background:var(--s-wanted) }}
 .seg.have, .pill.have {{ background:var(--s-have) }} .seg.wanted, .pill.wanted {{ background:var(--s-wanted) }}
 .warn {{ color:var(--warn) }} .have {{ color:var(--s-have) }}
+.cg {{ font:11px system-ui, sans-serif; overflow-x:auto; margin:4px 0 12px }} .cr {{ display:flex; align-items:center; gap:2px; margin:2px 0 }}
+.cl {{ width:11em; flex:none; color:var(--muted); white-space:nowrap; overflow:hidden; text-overflow:ellipsis }}
+.c {{ width:13px; height:13px; flex:none; border-radius:2px; display:inline-block; background:var(--s-wanted) }}
+.c.have {{ background:var(--s-have) }} a.c.have:hover {{ outline:2px solid var(--accent) }} .c.nc {{ background:var(--line); border:1px solid var(--muted); box-sizing:border-box }}
+.c.nh {{ background:color-mix(in srgb, var(--warn) 45%, var(--bg)) }} .c.q {{ background:color-mix(in srgb, var(--accent) 40%, var(--bg)) }} .c.none {{ background:var(--s-wanted); opacity:.45 }}
+.c.mo {{ background:none; color:var(--muted); font-size:10px; text-align:center; line-height:13px }} h3 {{ margin:14px 0 2px; font-size:1rem }}
 .pill {{ font-size:12px; padding:1px 6px; border-radius:9px; color:#fff; white-space:nowrap }} .pill.wanted {{ color:var(--fg) }}
 .filters {{ display:flex; flex-wrap:wrap; gap:8px; margin:8px 0; font:14px system-ui, sans-serif }}
 input, select {{ font:inherit; padding:4px 8px; background:var(--card); color:var(--fg); border:1px solid var(--line); border-radius:4px }}
@@ -279,6 +354,11 @@ A page missing from the scans is never counted as a skip.</div>
 <p>Where a page's "last week's solution" is not the previous page's puzzle, a puzzle ran in between that we don't have: probe these dates.
 Where it is the previous page's puzzle, nothing ran in between and the dates are settled as not carried.</p>
 {gaps_table()}
+
+<h2 id="coverage">Coverage by week and paper</h2>
+<p>Every Sunday of the run, one column each; one row per paper. A filled cell is a page we hold, and links to it on Newspapers.com.
+The top row of each year shows whether any paper's copy of that Sunday is in.</p>
+{coverage_grid()}
 
 <h2 id="papers">The papers and how far behind the World they ran</h2>
 <p>Each paper's lag is its printing date minus the World date inferred from the number. A steady lag means the paper ran late;
