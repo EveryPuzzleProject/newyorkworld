@@ -234,22 +234,22 @@ boston-globe	1918-03-17		found	nothing ran in between: the 1918-04-14 page's sol
 boston-globe	1918-03-24		found	nothing ran in between: the 1918-04-14 page's solution answers the 1918-01-27 puzzle
 boston-globe	1918-03-31		found	nothing ran in between: the 1918-04-14 page's solution answers the 1918-01-27 puzzle
 boston-globe	1918-04-07		found	nothing ran in between: the 1918-04-14 page's solution answers the 1918-01-27 puzzle
-boston-globe	1918-06-16	10	queued	batch 10: the Globe onward through 1918 (World date = Globe date)
-boston-globe	1918-06-23	10	queued	batch 10: the Globe onward through 1918 (World date = Globe date)
-boston-globe	1918-06-30	10	queued	batch 10: the Globe onward through 1918 (World date = Globe date)
-boston-globe	1918-07-07	10	queued	batch 10: the Globe onward through 1918 (World date = Globe date)
-boston-globe	1918-07-14	10	queued	batch 10: the Globe onward through 1918 (World date = Globe date)
-boston-globe	1918-07-21	10	queued	batch 10: the Globe onward through 1918 (World date = Globe date)
-boston-globe	1918-07-28	10	queued	batch 10: the Globe onward through 1918 (World date = Globe date)
-boston-globe	1918-08-04	10	queued	batch 10: the Globe onward through 1918 (World date = Globe date)
-boston-globe	1918-08-11	10	queued	batch 10: the Globe onward through 1918 (World date = Globe date)
-boston-globe	1918-08-18	10	queued	batch 10: the Globe onward through 1918 (World date = Globe date)
-boston-globe	1918-08-25	10	queued	batch 10: the Globe onward through 1918 (World date = Globe date)
-boston-globe	1918-09-01	10	queued	batch 10: the Globe onward through 1918 (World date = Globe date)
-boston-globe	1918-09-08	10	queued	batch 10: the Globe onward through 1918 (World date = Globe date)
-boston-globe	1918-09-15	10	queued	batch 10: the Globe onward through 1918 (World date = Globe date)
-boston-globe	1918-09-22	10	queued	batch 10: the Globe onward through 1918 (World date = Globe date)
-boston-globe	1918-09-29	10	queued	batch 10: the Globe onward through 1918 (World date = Globe date)
+boston-globe	1918-06-16	10	found	nothing ran in between: the 1918-08-11 page's solution answers the 1918-06-09 puzzle
+boston-globe	1918-06-23	10	found	nothing ran in between: the 1918-08-11 page's solution answers the 1918-06-09 puzzle
+boston-globe	1918-06-30	10	found	nothing ran in between: the 1918-08-11 page's solution answers the 1918-06-09 puzzle
+boston-globe	1918-07-07	10	found	nothing ran in between: the 1918-08-11 page's solution answers the 1918-06-09 puzzle
+boston-globe	1918-07-14	10	found	nothing ran in between: the 1918-08-11 page's solution answers the 1918-06-09 puzzle
+boston-globe	1918-07-21	10	found	nothing ran in between: the 1918-08-11 page's solution answers the 1918-06-09 puzzle
+boston-globe	1918-07-28	10	found	nothing ran in between: the 1918-08-11 page's solution answers the 1918-06-09 puzzle
+boston-globe	1918-08-04	10	found	nothing ran in between: the 1918-08-11 page's solution answers the 1918-06-09 puzzle
+boston-globe	1918-08-11	10	found	batch 10: the Globe onward through 1918 (World date = Globe date)
+boston-globe	1918-08-18	10	found	batch 10: the Globe onward through 1918 (World date = Globe date)
+boston-globe	1918-08-25	10	found	batch 10: the Globe onward through 1918 (World date = Globe date)
+boston-globe	1918-09-01	10	found	batch 10: the Globe onward through 1918 (World date = Globe date)
+boston-globe	1918-09-08	10	not-carried	nothing ran in between: the 1918-09-15 page's solution answers the 1918-09-01 puzzle
+boston-globe	1918-09-15	10	found	batch 10: the Globe onward through 1918 (World date = Globe date)
+boston-globe	1918-09-22	10	found	batch 10: the Globe onward through 1918 (World date = Globe date)
+boston-globe	1918-09-29	10	found	batch 10: the Globe onward through 1918 (World date = Globe date)
 boston-globe	1918-10-06	10	queued	batch 10: the Globe onward through 1918 (World date = Globe date)
 boston-globe	1918-10-13	10	queued	batch 10: the Globe onward through 1918 (World date = Globe date)
 boston-globe	1918-10-20	10	queued	batch 10: the Globe onward through 1918 (World date = Globe date)
