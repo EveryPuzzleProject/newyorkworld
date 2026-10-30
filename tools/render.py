@@ -434,9 +434,10 @@ a lag that grows means the World skipped weeks, or the paper did.</p>
 <p><b>Puzzles held, by the year they were printed.</b> Every distinct puzzle we have a page for, counted once (numbered puzzles by number,
 unnumbered ones by their copies), against the Sundays of that year.</p>
 {bars_held()}
-<p><b>World numbers with a copy.</b> The same puzzles placed on the World's own calendar. 1915 and 1916 show almost nothing here not because
-the pages are missing but because no copy from those years can yet be tied to a World date: the numbers stopped in January 1915 and the
-1917 anchor (the World Magazine solutions box) reaches back only to 1917. Those years' puzzles are known by the Journal's dates alone.</p>
+<p><b>World numbers with a copy.</b> The same puzzles placed on the World's own calendar. From 1915-11-21 the Journal's dates are taken as the World's
+(it was on the World's date in January 1917 and its weekly chain runs unbroken back to that day), and from 1917 the Globe's; both marked inferred.
+February to July 1915 stays empty because the Journal's offset there is three to six weeks, undetermined; August to mid-November 1915 because no
+partner is known to have carried FUN then.</p>
 {bars()}
 
 <h2 id="unnumbered">Unnumbered puzzles matched across papers</h2>
