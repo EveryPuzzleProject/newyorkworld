@@ -33,5 +33,6 @@ when the rate limit allows; a clip is enough to settle the question meanwhile. I
    paper's FUN page in early 1914 with the same line, or trade-press mention, would place them.
 7. **The Pittsburgh Press's first FUN puzzle, 1916-06-11** (Campbell's date), and Tacoma's
    first in 1916: one page each would anchor those runs' starts.
+   **Pittsburgh found (Alex DeJarnatt, Newspapers.com, 2026-10-30):** 1916-06-11, page 73, Sunday Press comic section, a page of fun and puzzles: a rebus at the top, a cross-word puzzle under it that looks like a FUN puzzle; no "FUN" or New York World credit. Page downloaded as The_Pittsburgh_Press_1916_06_11_Page_73.jpg, awaiting intake. Tacoma's first still open.
 8. **Where the Journal printed its solutions when not on the puzzle page.** Several 1915 pages
    carry a solution with no puzzle or a puzzle with no solution; the issue may have split them.
