@@ -257,8 +257,7 @@ def main() -> None:
             have = min(per[y], sundays)
             out.append(f'<div class=bar><span class=yr>{y}</span><span class=track><span class="seg have" style="flex:{have}"></span>'
                        f'<span class="seg wanted" style="flex:{sundays - have}"></span></span><span class=n>{per[y]}/{sundays}</span></div>')
-        return "
-".join(out)
+        return "\n".join(out)
 
     def printings_table() -> str:
         out = []
