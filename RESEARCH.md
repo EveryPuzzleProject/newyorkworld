@@ -27,6 +27,7 @@ when the rate limit allows; a clip is enough to settle the question meanwhile. I
    **Settled (Alex DeJarnatt, Newspapers.com, 2026-10-30):** the three puzzles were shaped as letters, F on 01-24, U on 01-31, N on 02-07 (FUN); no solutions ran for them as far as Alex could tell, perhaps a contest. So the 01-31 solution that fits nothing is not a repeat of an older one: the F-U-N puzzles were unanswered. To confirm: what the 02-14 and 02-21 pages carry.
 5. **The Globe's skipped Sunday, 1917-05-20.** Its 05-27 solution answers 05-13. Confirm that
    no puzzle ran on 05-20 anywhere in the issue.
+   **Settled (Alex DeJarnatt, Newspapers.com, 2026-10-30):** searched the 05-20 issue, no puzzle found; consistent with the skipped Sunday.
 6. **The Du Puy Syndicate.** Who they were and what else they syndicated: the Journal's FUN
    page credits them from 1914-02-15 to 04-12, the Press Publishing Co. from 04-19. Any other
    paper's FUN page in early 1914 with the same line, or trade-press mention, would place them.
