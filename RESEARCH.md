@@ -8,6 +8,9 @@ when the rate limit allows; a clip is enough to settle the question meanwhile. I
    sat where the puzzle page should be), 1917-01-14 and 01-21 (the 01-28 solution is Botjer's
    diamond, so 01-21's puzzle exists), 1915-06-13 and 06-20 (06-27's solution isn't 06-06's).
    Browse the whole issue, not only the feature section.
+   - 1917-01-14: no puzzle found (comics inserts, Clubland); 01-21's puzzle sits at the bottom of a Clubland page (Alex DeJarnatt, 2026-10-30).
+   - 1915-06-13 and 06-20: whole issues browsed, only answer keys, no puzzle; the 06-27 solution answers a puzzle on neither date. Page missing from Newspapers.com or key run without puzzle (Alex DeJarnatt, 2026-10-30).
+   - 1916-08-13, 09-10: all-comics page where the puzzle page sits; see searches.tsv.
 2. **The Journal's 1917 run and its end.** The Journal still carried the puzzle on 1917-02-04
    (solution only) and ran the Globe's puzzles on the Globe's dates. Find any Journal Sunday
    after 02-04: its puzzle page may have moved again, and the heading is plain "Cross Word
