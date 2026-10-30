@@ -286,6 +286,8 @@ def rebuild_all(pr: list[dict], se: list[dict], st: list[dict]) -> int:
         if r["world_no"]:
             by_no.setdefault(r["world_no"], []).append(r)
     for n, rs in by_no.items():
+        if len({r["puzzle_key"] for r in rs}) == 1 and rs[0]["puzzle_key"]:
+            continue  # the copies were keyed as one puzzle (spelling variants of a clue are fine)
         fps = {fp_key(r["fingerprint"]) for r in rs if r["fingerprint"]}
         if len(fps) > 1:
             for r in rs:

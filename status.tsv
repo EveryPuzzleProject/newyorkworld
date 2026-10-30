@@ -158,37 +158,37 @@ world_no	sunday_inferred	status	copies	heading	credit	fingerprint	solution_seen	
 157	1916-12-17	wanted							
 158	1916-12-24	wanted							
 159	1916-12-31	wanted							
-160	1917-01-07	wanted							
+160	1917-01-07	have	minneapolis-journal 1917-01-07; pittsburgh-press 1917-01-14 (lag 1w); tacoma-daily-ledger 1917-01-14 (lag 1w); los-angeles-tribune 1917-03-04 (lag 8w)	CROSS WORD PUZZLE	MAY E. NUGENT, No. 1969 Amsterdam Avenue, New York City, is the author of this week's Cross-Word Puzzle	1-2 Meager			
 161	1917-01-14	wanted							
-162	1917-01-21	wanted							
-163	1917-01-28	wanted							
-164	1917-02-04	wanted							
-165	1917-02-11	wanted							
+162	1917-01-21	have	minneapolis-journal 1917-01-21; pittsburgh-press 1917-01-28 (lag 1w); shreveport-times 1917-02-04 (lag 2w); los-angeles-tribune 1917-03-18 (lag 8w)	Crossword Puzzle	MISS BERTHA L. BOTJER, 251 West Seventy-third st., New York, is the author of this week's Cross-Word puzzle	1-2 An aromatic plant			
+163	1917-01-28	have	minneapolis-journal 1917-01-28; pittsburgh-press 1917-02-04 (lag 1w); new-orleans-states 1917-02-11 (lag 2w); los-angeles-tribune 1917-03-25 (lag 8w)	The Cross Word Puzzle		1-6 Coagulated milk			
+164	1917-02-04	have	tacoma-daily-ledger 1917-02-18 (lag 2w); los-angeles-tribune 1917-04-01 (lag 8w)	Fun's Cross=Word Puzzle	H. H. JOHNSON, No. 203 Bowers Street, Jersey City, N. J., is the author of this week's Cross-Word Puzzle.	1-3 A Japanese musical instrument			
+165	1917-02-11	have	pittsburgh-press 1917-02-18 (lag 1w); new-orleans-states 1917-02-25 (lag 2w); tacoma-daily-ledger 1917-02-25 (lag 2w); los-angeles-tribune 1917-04-08 (lag 8w)	Fun's Cross-Word Puzzle	William G. Melrose, No. 112 Christopher st., New York, is the author of this week's Cross Word Puzzle. The solution will be printed next Sunday.	1-4. A mouthful.			
 166	1917-02-18	wanted							
-167	1917-02-25	wanted							
-168	1917-03-04	wanted							
-169	1917-03-11	wanted							
-170	1917-03-18	wanted							
-171	1917-03-25	wanted							
-172	1917-04-01	wanted							
-173	1917-04-08	wanted							
-174	1917-04-15	wanted							
-175	1917-04-22	wanted							
-176	1917-04-29	wanted							
-177	1917-05-06	wanted							
-178	1917-05-13	wanted							
+167	1917-02-25	have	boston-globe 1917-02-25; tacoma-daily-ledger 1917-03-11 (lag 2w)	CROSS-WORD PUZZLE		1-4 A cabbage with open curled leaves			
+168	1917-03-04	have	boston-globe 1917-03-04; pittsburgh-press 1917-03-18 (lag 2w); tacoma-daily-ledger 1917-03-18 (lag 2w); new-orleans-states 1917-03-25 (lag 3w)	CROSS-WORD PUZZLE	Daniel Donovan, Jr., 1335 Fifty-fourth st., Brooklyn, N. Y., is the author of this week's Cross-Word puzzle	1-2. Not definite.			
+169	1917-03-11	have	boston-globe 1917-03-11; new-orleans-states 1917-03-25 (lag 2w); tacoma-daily-ledger 1917-03-25 (lag 2w); los-angeles-tribune 1917-05-06 (lag 8w)	Cross-Word Puzzle	H. J. REUSE, No. 56 Sunderland Avenue, Rutherford, N. J., is the author of this week's Cross-Word Puzzle. The solution and another Cross-Word Puzzle will be printed next Sunday.	1-5 The unit of quantity			
+170	1917-03-18	have	boston-globe 1917-03-18; new-orleans-states 1917-04-01 (lag 2w)	Cross-Word Puzzle		2-3 A female chicken			
+171	1917-03-25	have	tacoma-daily-ledger 1917-04-08 (lag 2w)	Fun's Cross-Word Puzzle		1-3 A fruit			
+172	1917-04-01	have	boston-globe 1917-04-01; tacoma-daily-ledger 1917-04-15 (lag 2w)	CROSS-WORD PUZZLE	PRESTON CADWALLADER, No. 86 Bidwell Street, Waterbury, Conn., is the author of this week's Cross-Word Puzzle.	1-2. A visible vapor.			
+173	1917-04-08	have	boston-globe 1917-04-08; tacoma-daily-ledger 1917-04-22 (lag 2w)	Cross-Word Puzzle		1-2 Small things			
+174	1917-04-15	have	boston-globe 1917-04-15; tacoma-daily-ledger 1917-04-29 (lag 2w)	Cross-Word Puzzle		1-5 A field officer in the army			
+175	1917-04-22	have	boston-globe 1917-04-22; tacoma-daily-ledger 1917-05-06 (lag 2w)	Cross-Word Puzzle	R. C. P., Ottawa, Ontario, is the author of this week's Cross-Word Puzzle.	1-3 A pronoun, possessive case			
+176	1917-04-29	have	boston-globe 1917-04-29; pittsburgh-press 1917-05-13 (lag 2w); tacoma-daily-ledger 1917-05-13 (lag 2w)	Cross-Word Puzzle		1-4 An amphitheatre			
+177	1917-05-06	have	boston-globe 1917-05-06; pittsburgh-press 1917-05-20 (lag 2w); shreveport-times 1917-05-20 (lag 2w)	Cross-Word Puzzle	L. M. Loewenthal, 141 West One Hundred and Tenth st., New York city, is the author of this week's Cross-Word Puzzle	1-5 A musical medley			
+178	1917-05-13	have	boston-globe 1917-05-13; fort-wayne-journal-gazette 1917-05-20 (lag 1w); shreveport-times 1917-05-27 (lag 2w)	Cross-Word Puzzle		1-5 A floor on which fire is made			
 179	1917-05-20	wanted							
-180	1917-05-27	wanted							
-181	1917-06-03	wanted							
-182	1917-06-10	wanted							
-183	1917-06-17	wanted							
+180	1917-05-27	have	boston-globe 1917-05-27; pittsburgh-press 1917-06-10 (lag 2w)	Cross-Word Puzzle	F. H. MINER, No. 80 Passaic Street, Hackensack, N. J., is the author of this week's Cross-Word Puzzle	1-2 The Orient			
+181	1917-06-03	have	boston-globe 1917-06-03; tacoma-daily-ledger 1917-06-17 (lag 2w)	CROSS-WORD PUZZLE	MISS EVA DAVIS, Creek, North Carolina, is the author of this week's Cross-Word Puzzle.	1-2 A leguminous plant.			
+182	1917-06-10	have	boston-globe 1917-06-10; new-orleans-states 1917-06-24 (lag 2w)	Cross-Word Puzzle	MRS. LILLIAN DAVIS, Le Sueur, Minnesota, is the author of this week's Cross-Word Puzzle. The solution and another Cross-Word Puzzle will be printed in an early number of the Sunday World.	1-2 To fetch			
+183	1917-06-17	have	tacoma-daily-ledger 1917-07-01 (lag 2w)	FUN'S CROSS-WORD PUZZLE--CAN YOU SOLVE IT?	H. F. CLAPP, No. 760 Glenwood Avenue, Williamsport, Pa., is the author of this week's Cross-Word Puzzle.	1-6 A clergyman.			
 184	1917-06-24	wanted							
-185	1917-07-01	wanted							
-186	1917-07-08	wanted							
-187	1917-07-15	wanted							
-188	1917-07-22	wanted							
+185	1917-07-01	have	tacoma-daily-ledger 1917-07-15 (lag 2w)	Fun's Cross-Word Puzzle	HERBERT KUNZEMANN, No. 417 East One Hundred and Fifty-first Street, New York City, author of this week's Cross-Word Puzzle	1-2 A long cushioned seat			
+186	1917-07-08	have	boston-globe 1917-07-08; tacoma-daily-ledger 1917-07-22 (lag 2w)	CROSS-WORD PUZZLE	EDWIN A. LYON, Syosset, L. I., author of this week's Cross-Word Puzzle	1-2 Past			
+187	1917-07-15	have	boston-globe 1917-07-15	CROSS-WORD PUZZLE		1-3 An edict			
+188	1917-07-22	have	boston-globe 1917-07-22; tacoma-daily-ledger 1917-08-05 (lag 2w)	CROSS-WORD PUZZLE		1-5 Expeditious			
 189	1917-07-29	wanted							
-190	1917-08-05	wanted							
+190	1917-08-05	have	boston-globe 1917-08-05	CROSS-WORD PUZZLE		1-2 To catch sight of.			
 191	1917-08-12	wanted							
 192	1917-08-19	wanted							
 193	1917-08-26	wanted							
@@ -205,7 +205,7 @@ world_no	sunday_inferred	status	copies	heading	credit	fingerprint	solution_seen	
 204	1917-11-11	wanted							
 205	1917-11-18	wanted							
 206	1917-11-25	wanted							
-207	1917-12-02	wanted							
+207	1917-12-02	have	boston-globe 1917-12-02	CROSS-WORD PUZZLE		1-3 A state of equality.			
 208	1917-12-09	wanted							
 209	1917-12-16	wanted							
 210	1917-12-23	wanted							
