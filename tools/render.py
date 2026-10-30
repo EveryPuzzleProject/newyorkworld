@@ -114,8 +114,7 @@ def main() -> None:
         head = f"<p>{len(puzzles_open)} missing puzzles with somewhere left to look; {len(done)} candidate dates already reported as dead ends.</p>"
         closed = sorted({w["puzzle"] for w in wanted} - set(puzzles_open))
         tail = (f"<p class=muted>No partner left to try for: {', '.join(e(c) for c in closed)}.</p>" if closed else "")
-        return head + "
-".join(out) + tail
+        return head + "\n".join(out) + tail
 
     def gaps_table() -> str:
         gaps = read("gaps.tsv")
