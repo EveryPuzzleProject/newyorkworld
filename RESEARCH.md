@@ -24,6 +24,7 @@ when the rate limit allows; a clip is enough to settle the question meanwhile. I
 4. **The 1915-01-31 mystery.** Consecutive with 01-24, yet its solution doesn't fit 01-24's
    puzzle. Look at both pages again: was a different puzzle printed elsewhere on 01-24, or is
    the 01-31 solution a repeat of an older one?
+   **Settled (Alex DeJarnatt, Newspapers.com, 2026-10-30):** the three puzzles were shaped as letters, F on 01-24, U on 01-31, N on 02-07 (FUN); no solutions ran for them as far as Alex could tell, perhaps a contest. So the 01-31 solution that fits nothing is not a repeat of an older one: the F-U-N puzzles were unanswered. To confirm: what the 02-14 and 02-21 pages carry.
 5. **The Globe's skipped Sunday, 1917-05-20.** Its 05-27 solution answers 05-13. Confirm that
    no puzzle ran on 05-20 anywhere in the issue.
 6. **The Du Puy Syndicate.** Who they were and what else they syndicated: the Journal's FUN
