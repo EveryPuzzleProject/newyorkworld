@@ -38,3 +38,12 @@ when the rate limit allows; a clip is enough to settle the question meanwhile. I
 8. **Where the Journal printed its solutions when not on the puzzle page.** Several 1915 pages
    carry a solution with no puzzle or a puzzle with no solution; the issue may have split them.
    **Partly settled (Alex DeJarnatt, Newspapers.com, 2026-10-30):** 1915-06-13's answer-key page is the key to 06-06's puzzle (confirmed), so nothing was split there; the real hole is 06-20's puzzle, whose key runs on 06-27. Other 1915 pages still to check issue by issue.
+
+## Leads for the catalog (not this run)
+
+Sightings found along the way that belong in `catalog/publications/`, parked here so they
+aren't lost; move each into a catalog entry with its source.
+
+- **Brooklyn Daily Eagle**: started a weekly Sunday crossword on 1924-05-18 (Alex DeJarnatt,
+  Newspapers.com, 2026-10-30). Newspapers.com publication id: (to add). Whose puzzle, and
+  whether it's the World's, not yet checked.
