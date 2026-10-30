@@ -15,6 +15,7 @@ when the rate limit allows; a clip is enough to settle the question meanwhile. I
    (solution only) and ran the Globe's puzzles on the Globe's dates. Find any Journal Sunday
    after 02-04: its puzzle page may have moved again, and the heading is plain "Cross Word
    Puzzle". The last one found fixes when the Journal dropped FUN.
+   **Settled (Alex DeJarnatt, 2026-10-30):** Alex went through the issues page by page for 1917-02-04, 02-11, 02-18, 02-25 and 03-04: no puzzle on any (02-04 carries a solution only); Frank King's "Section of Fun" comics page sits where the puzzle page was, apparently its replacement. The Journal's last FUN puzzle is therefore 1917-01-28 (its solution ran 02-04); 01-21's sat in Clubland at the foot of a page.
 3. **World Nos. 3 to 6 (1914-01-04 to 01-25): a community ask.** Not on Newspapers.com: a
    thorough search of January 1914 finds no partner copy before the Journal's 02-01 (Alex
    DeJarnatt, 2026-10-30). They need the World's own FUN section: Will Shortz's collection,
