@@ -137,7 +137,7 @@ def main() -> None:
                        f'<div class="scroll"><table><thead><tr><th>Paper</th><th>Page</th><th>Previous page</th><th>Kind</th><th>Evidence</th></tr></thead><tbody>{body}</tbody></table></div>')
         if skips:
             body = "".join(f"<tr><td>{e(pname(g['paper']))}</td><td>{e(g['sundays'].replace(' ', ', '))}</td><td>{e(g['after'])} to {e(g['before'])}</td><td class=muted>{e(g['evidence'])}</td></tr>" for g in skips)
-            out.append('<h3>Skips confirmed</h3><p>Nothing ran on these Sundays: the later page's solution answers the earlier page's puzzle.</p>'
+            out.append("<h3>Skips confirmed</h3><p>Nothing ran on these Sundays: the later page's solution answers the earlier page's puzzle.</p>"
                        f'<div class="scroll"><table><thead><tr><th>Paper</th><th>Skipped</th><th>Between</th><th>Evidence</th></tr></thead><tbody>{body}</tbody></table></div>')
         return "\n".join(out)
 
