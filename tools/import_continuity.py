@@ -29,6 +29,9 @@ for o in json.loads(Path(sys.argv[1]).read_text(encoding="utf-8")):
         o = {**o, "evidence": c.get("evidence", o.get("evidence", "")), "confidence": c.get("confidence", o.get("confidence", ""))}
         c = c.get("answer", c.get("continuity", ""))
     v = str(c).strip().lower()
+    for k in ("continuity_evidence", "continuity_confidence"):  # some agents name them so
+        if o.get(k):
+            o = {**o, k.replace("continuity_", ""): o[k]}
     if v not in ("yes", "no", "none", "unclear"):
         print(f"?? {o.get('file')}: {v!r}"); continue
     ev = str(o.get("evidence", "")).strip(); conf = str(o.get("confidence", "")).strip()

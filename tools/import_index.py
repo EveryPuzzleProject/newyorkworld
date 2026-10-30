@@ -39,6 +39,11 @@ def main() -> None:
     path = Path([a for a in sys.argv[1:] if not a.startswith("--")][0])
     data = json.loads(path.read_text(encoding="utf-8"))
     for o in data:
+        cws = o.get("crosswords")
+        if isinstance(cws, list) and cws:  # some agents nest the puzzle fields in a list
+            o = {**{k: v for k, v in o.items() if k != "crosswords"}, **cws[0]}
+            if len(cws) > 1:
+                o["other_puzzles"] = f"{len(cws)} crosswords on the page: " + "; ".join(str(c.get("fingerprint", "")) for c in cws[1:])
         f = Path(field(o, "file")).name
         if not f:
             continue
