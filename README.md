@@ -47,6 +47,8 @@ by the World. A Sunday when the paper ran no FUN puzzle is `not-carried`.
 | `tools/record.py` | `new`, `add`, `search`, `queue`, `rebuild`, `show`: the only way the tables change. |
 | `tools/render.py` | Builds the status page (`site/index.html`) from the tables; runs on every push. |
 
+A grid printed again on a later Sunday with new clues counts as a second puzzle (the paper ran it as that week's puzzle); the notes on both rows say it is a rerun of the grid (decided 2026-10-30, Globe 1918-06-23 and 07-07).
+
 Printings and puzzles are kept apart: a Boston Globe date is a printing of a World puzzle,
 not a Globe puzzle. A printing with a number in the grid is tied to that World number; one
 without is tied by its first clue and grid shape against another copy, and `match` says how.
