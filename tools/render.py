@@ -132,11 +132,13 @@ def main() -> None:
         else:
             out.append("<p>None open.</p>")
         if myst:
-            out.append("<p><b>Mysteries</b> (consecutive pages, yet the solution is not the previous puzzle): " +
-                       "; ".join(f"{pname(g['paper'])} {g['before']} <span class=muted>({e(g['evidence'])})</span>" for g in myst) + "</p>")
+            body = "".join(f"<tr><td>{e(pname(g['paper']))}</td><td>{e(g['before'])}</td><td>{e(g['after'])}</td><td>{e(g['kind'])}</td><td class=muted>{e(g['evidence'])}</td></tr>" for g in myst)
+            out.append('<h3>Mysteries and rechecks</h3><p>Consecutive pages whose solution is not the previous puzzle (mystery), or a verdict made against a page that a newer page has since displaced (recheck).</p>'
+                       f'<div class="scroll"><table><thead><tr><th>Paper</th><th>Page</th><th>Previous page</th><th>Kind</th><th>Evidence</th></tr></thead><tbody>{body}</tbody></table></div>')
         if skips:
-            out.append("<p class=muted><b>Skips confirmed</b> (nothing ran in between): " +
-                       "; ".join(f"{pname(g['paper'])} {g['sundays'].replace(' ', ', ')}" for g in skips) + "</p>")
+            body = "".join(f"<tr><td>{e(pname(g['paper']))}</td><td>{e(g['sundays'].replace(' ', ', '))}</td><td>{e(g['after'])} to {e(g['before'])}</td><td class=muted>{e(g['evidence'])}</td></tr>" for g in skips)
+            out.append('<h3>Skips confirmed</h3><p>Nothing ran on these Sundays: the later page's solution answers the earlier page's puzzle.</p>'
+                       f'<div class="scroll"><table><thead><tr><th>Paper</th><th>Skipped</th><th>Between</th><th>Evidence</th></tr></thead><tbody>{body}</tbody></table></div>')
         return "\n".join(out)
 
     def coverage_grid() -> str:
