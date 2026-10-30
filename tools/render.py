@@ -347,6 +347,17 @@ A page missing from the scans is never counted as a skip.</div>
 
 <p>Tasks where finding is the work (a puzzle that moved off its page, the Journal's 1917 end, World Nos. 3 to 6): <a href="{REPO}/blob/main/RESEARCH.md">RESEARCH.md</a>.</p>
 
+<h2 id="wanted">Wanted: the gaps anyone can close</h2>
+<p>Specific pages that would complete the record. Each is one Sunday's puzzle page; a clipping link or a scan is enough.
+If you have access to one of these, please <a href="{REPO}/issues/new">open an issue</a> with the date and where you found it (please don't upload page images).</p>
+<ul>
+<li><b>World Nos. 3 to 6, January 4 to 25, 1914.</b> Not on Newspapers.com in any partner paper. They need the World's own Sunday FUN section:
+a private collection, the New York Public Library's microfilm of the World, or another researcher's copy.</li>
+<li><b>Minneapolis Journal Sundays whose puzzle ran but isn't on the usual page:</b> 1915-06-13, 06-20; 1916-08-13, 09-10; 1917-01-14, 01-21.
+The following week's solution proves each one exists.</li>
+<li><b>Any paper's copy of the Sundays still open below</b>, under "Next batch to find".</li>
+</ul>
+
 <h2 id="next">Next batch to find</h2>
 {batch_table()}
 

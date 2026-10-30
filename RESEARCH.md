@@ -12,9 +12,11 @@ when the rate limit allows; a clip is enough to settle the question meanwhile. I
    (solution only) and ran the Globe's puzzles on the Globe's dates. Find any Journal Sunday
    after 02-04: its puzzle page may have moved again, and the heading is plain "Cross Word
    Puzzle". The last one found fixes when the Journal dropped FUN.
-3. **World Nos. 3 to 6 (1914-01-04 to 01-25).** No partner found yet before the Journal's
-   first on 02-01. Candidates: any paper carrying the Du Puy Syndicate's FUN page in January
-   1914; a search for "cross-word" in January 1914 across all papers.
+3. **World Nos. 3 to 6 (1914-01-04 to 01-25): a community ask.** Not on Newspapers.com: a
+   thorough search of January 1914 finds no partner copy before the Journal's 02-01 (Alex
+   DeJarnatt, 2026-10-30). They need the World's own FUN section: Will Shortz's collection,
+   the New York Public Library's microfilm, or another researcher's copy (T Campbell reprints
+   Nos. 1 and 2). Anyone with access to one of those can close this gap with four pages.
 4. **The 1915-01-31 mystery.** Consecutive with 01-24, yet its solution doesn't fit 01-24's
    puzzle. Look at both pages again: was a different puzzle printed elsewhere on 01-24, or is
    the 01-31 solution a repeat of an older one?
