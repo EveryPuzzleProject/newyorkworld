@@ -270,6 +270,8 @@ the gap is shown as its lag. A copy with a printed number is tied to that World 
 and the record says how. A number that repeats or jumps within one paper's run is flagged: a skip, repeat or misprint, which is what this run is looking for.
 A page missing from the scans is never counted as a skip.</div>
 
+<p>Tasks where finding is the work (a puzzle that moved off its page, the Journal's 1917 end, World Nos. 3 to 6): <a href="{REPO}/blob/main/RESEARCH.md">RESEARCH.md</a>.</p>
+
 <h2 id="next">Next batch to find</h2>
 {batch_table()}
 
