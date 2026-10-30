@@ -323,7 +323,8 @@ def rebuild_all(pr: list[dict], se: list[dict], st: list[dict]) -> int:
         fl = [r["flag"] for r in rs if r["flag"]]
         row["flag"] = " | ".join(dict.fromkeys(fl))
         new_st.append(row)
-    for g in write_gaps(pr):
+    gaps_rows = write_gaps(pr)
+    for g in gaps_rows:
         if g["kind"] == "skip-confirmed":
             for d in g["sundays"].split():
                 row = next((x for x in se if x["paper"] == g["paper"] and x["date"] == d), None)
@@ -335,6 +336,7 @@ def rebuild_all(pr: list[dict], se: list[dict], st: list[dict]) -> int:
     write_tsv(ROOT / "printings.tsv", PRINTING_COLS, sorted(pr, key=lambda r: (r["date"], r["paper"], r["file"])))
     write_tsv(ROOT / "searches.tsv", SEARCH_COLS, sorted(se, key=lambda r: (r["date"], r["paper"])))
     write_tsv(ROOT / "status.tsv", STATUS_COLS, new_st)
+    write_wanted(pr, se, new_st, gaps_rows)
     sync_pages_tsv(pr)
     return nflags
 
@@ -383,6 +385,55 @@ def write_gaps(pr: list[dict]) -> None:
             rows.append({"paper": paper, "after": a["date"], "before": b["date"], "sundays": " ".join(between), "kind": kind, "evidence": b["continuity"]})
     write_tsv(ROOT / "gaps.tsv", GAP_COLS, sorted(rows, key=lambda r: (r["after"], r["paper"])))
     return rows
+
+
+# Each partner's delay behind the reference paper (the Journal in 1914-16, the Globe from 1917,
+# both on the World's own date in 1917), in weeks, as measured from matched copies; and the span
+# in which that paper is known to have carried FUN. Candidates outside the span aren't offered.
+LAGS = {
+    "pittsburgh-press": (1, 2, "1916-06-11", "1919-12-28"),
+    "tacoma-daily-ledger": (1, 2, "1916-08-27", "1919-12-28"),
+    "shreveport-times": (2, 2, "1916-08-06", "1919-12-28"),
+    "new-orleans-states": (2, 3, "1917-02-11", "1919-12-28"),
+    "salt-lake-telegram": (3, 3, "1917-09-02", "1919-12-28"),
+    "fort-wayne-journal-gazette": (1, 1, "1916-11-19", "1919-12-28"),
+    "seattle-post-intelligencer": (1, 2, "1916-10-08", "1917-12-30"),
+    "los-angeles-tribune": (3, 8, "1916-08-06", "1919-12-28"),
+    "boston-globe": (0, 0, "1917-02-25", "1919-12-28"),
+    "minneapolis-journal": (0, 0, "1914-02-01", "1917-01-28"),
+}
+WANTED_COLS = ["puzzle", "reference_date", "why", "paper", "date", "status"]
+
+
+def write_wanted(pr: list[dict], se: list[dict], st: list[dict], gaps: list[dict]) -> None:
+    """wanted.tsv: one row per (missing puzzle, candidate paper, date). A missing puzzle is a World
+    number with no copy in the anchored years (1917 on, within the Globe's run), or a Journal week
+    in 1915-16 whose puzzle the next page's solution proves existed. Candidate dates come from LAGS;
+    a candidate already searched keeps its result as status, a copy already held isn't offered."""
+    have = {(r["paper"], r["date"]) for r in pr}
+    searched = {(x["paper"], x["date"]): x["result"] for x in se}
+    rows = []
+    def offer(puzzle, ref, why):
+        d0 = dt.date.fromisoformat(ref)
+        for paper, (lo, hi, first, last) in LAGS.items():
+            for w in range(lo, hi + 1):
+                d = (d0 + dt.timedelta(weeks=w)).isoformat()
+                if not (first <= d <= last) or (paper, d) in have:
+                    continue
+                rows.append({"puzzle": puzzle, "reference_date": ref, "why": why, "paper": paper, "date": d,
+                             "status": searched.get((paper, d), "")})
+    # anchored years: World numbers without a copy, from the Globe's first copy on
+    globe_dates = sorted(r["date"] for r in pr if r["paper"] == "boston-globe")
+    if globe_dates:
+        for r in st:
+            if r["status"] == "wanted" and globe_dates[0] <= r["sunday_inferred"] <= globe_dates[-1]:
+                offer(f"No. {r['world_no']}", r["sunday_inferred"], "World number with no copy (the Globe ran on the World's date)")
+    # unanchored years: Journal weeks proven by a later solution
+    for g in gaps:
+        if g["paper"] == "minneapolis-journal" and g["kind"] == "missing-puzzle":
+            for d in g["sundays"].split():
+                offer(f"Journal week {d}", d, f"the Journal's {g['before']} page answers a puzzle it printed between {g['after']} and {g['before']}")
+    write_tsv(ROOT / "wanted.tsv", WANTED_COLS, sorted(rows, key=lambda r: (r["paper"], r["date"], r["puzzle"])))
 
 
 def fp_key(s: str) -> str:

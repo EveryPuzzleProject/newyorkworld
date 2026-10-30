@@ -96,6 +96,27 @@ def main() -> None:
             out.append(f'<a href="{SEARCH.format(date=s["date"])}">search that date</a>')
         return " · ".join(out)
 
+    def wanted_by_paper() -> str:
+        wanted = read("wanted.tsv")
+        open_rows = [w for w in wanted if w["status"] in ("", "found", "queued")]
+        done = [w for w in wanted if w["status"] in ("no-hit", "not-carried", "missing-from-scans")]
+        if not wanted:
+            return "<p>Nothing missing that a known partner could supply.</p>"
+        by_paper = collections.defaultdict(list)
+        for w in open_rows:
+            by_paper[w["paper"]].append(w)
+        out = []
+        for pid, ws in sorted(by_paper.items(), key=lambda kv: -len(kv[1])):
+            lis = "".join(f"<li><b>{e(w['date'])}</b> for {e(w['puzzle'])} <span class=muted>({e(w['why'])})</span> · {date_links({'paper': pid, 'date': w['date']})}</li>"
+                          for w in sorted(ws, key=lambda w: w["date"]))
+            out.append(f"<details open><summary><b>{e(pname(pid))}</b> · {len(ws)} date{'s' * (len(ws) != 1)} to try</summary><ul>{lis}</ul></details>")
+        puzzles_open = sorted({w["puzzle"] for w in open_rows}, key=lambda p: (p.startswith("J"), p))
+        head = f"<p>{len(puzzles_open)} missing puzzles with somewhere left to look; {len(done)} candidate dates already reported as dead ends.</p>"
+        closed = sorted({w["puzzle"] for w in wanted} - set(puzzles_open))
+        tail = (f"<p class=muted>No partner left to try for: {', '.join(e(c) for c in closed)}.</p>" if closed else "")
+        return head + "
+".join(out) + tail
+
     def gaps_table() -> str:
         gaps = read("gaps.tsv")
         miss = [g for g in gaps if g["kind"] == "missing-puzzle"]
@@ -382,10 +403,14 @@ The following week's solution proves each one exists.</li>
 <h2 id="next">Next batch to find</h2>
 {batch_table()}
 
-<h2 id="missing">Missing puzzles to find</h2>
-<p>Where a page's "last week's solution" is not the previous page's puzzle, a puzzle ran in between that we don't have: probe these dates.
-Where it is the previous page's puzzle, nothing ran in between and the dates are settled as not carried.</p>
-{gaps_table()}
+<h2 id="missing">Missing puzzles: where else to look</h2>
+<p>One line per missing puzzle and the paper and date where its copy should be, worked out from each paper's known delay behind the
+World (the Globe ran on the World's date in 1917; Pittsburgh one to two weeks later, Tacoma and Shreveport two, New Orleans two to three,
+Salt Lake three, the LA Tribune three to eight; in 1915-16 the delays are counted from the Journal). Work one paper at a time.
+A date searched and not found is reported as a dead end (<code>record.py search &lt;paper&gt; &lt;date&gt; no-hit</code>, or tell the research session),
+and it drops out of the list; a copy found closes the puzzle in every paper.</p>
+{wanted_by_paper()}
+<details><summary>Gaps by paper (what each paper's own run lacks)</summary>{gaps_table()}</details>
 
 <h2 id="coverage">Coverage by week and paper</h2>
 <p>Every Sunday of the run, one column each; one row per paper. A filled cell is a page we hold, and links to it on Newspapers.com.
