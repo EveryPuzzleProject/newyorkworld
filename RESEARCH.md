@@ -3,6 +3,12 @@
 Tasks where the effort is locating a page, not saving it. Leave the tab open and download
 when the rate limit allows; a clip is enough to settle the question meanwhile. In order of value.
 
+**First: when does the Globe drift off the World's date?** The Globe equals the World in 1917 but
+not later: its 1920-05-02 puzzle is the one Campbell dates 1919-10-12, 29 weeks earlier. Dated
+copies from the Pittsburg Press, the Journal, the LA Evening Express or the Buffalo Courier Express
+across 1918 to 1923 would plot it. Evidence, what it affects and other corrections, including to
+items 2 and 3 below: [docs/CAMPBELL-CROSSCHECK.md](docs/CAMPBELL-CROSSCHECK.md).
+
 1. **The Journal's puzzle that moved off its page.** The next week's solution proves a puzzle
    ran, but it isn't on the usual puzzles page: 1916-08-13 and 1916-09-10 (an all-comics page
    sat where the puzzle page should be), 1917-01-14 and 01-21 (the 01-28 solution is Botjer's
