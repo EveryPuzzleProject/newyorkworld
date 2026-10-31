@@ -53,3 +53,7 @@ aren't lost; move each into a catalog entry with its source.
 - **Brooklyn Daily Eagle**: started a weekly Sunday crossword on 1924-05-18 (Alex DeJarnatt,
   Newspapers.com, 2026-10-30). Newspapers.com publication id 13893. Whose puzzle, and
   whether it's the World's, not yet checked.
+
+## How firm the no-hits are
+
+The gap-Sunday sweeps of 2026-10-31 (Los Angeles Tribune, Shreveport, Pittsburgh, Tacoma) recorded a Sunday as no-hit when Alex DeJarnatt's "puzzle" and "crossword" searches downloaded no page for it. Alex says he did not work hard at the gaps, so these no-hits are "nothing turned up quickly", not proof of absence. If a wanted puzzle (see wanted.tsv) might sit on one of them, search that Sunday again, and browse the issue if the text search misses.
