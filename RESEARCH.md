@@ -27,6 +27,7 @@ items 2 and 3 below: [docs/CAMPBELL-CROSSCHECK.md](docs/CAMPBELL-CROSSCHECK.md).
    DeJarnatt, 2026-10-30). They need the World's own FUN section: Will Shortz's collection,
    the New York Public Library's microfilm, or another researcher's copy (T Campbell reprints
    Nos. 1 and 2). Anyone with access to one of those can close this gap with four pages.
+   **No. 4 (1914-01-11) has a copy (Alex DeJarnatt, 2026-10-31):** the page as reproduced in T Campbell's 1914 post, recorded as a clip; its source is not stated, so a better one (Shortz, NYPL) is still wanted. Nos. 3, 5 and 6 remain open.
 4. **The 1915-01-31 mystery.** Consecutive with 01-24, yet its solution doesn't fit 01-24's
    puzzle. Look at both pages again: was a different puzzle printed elsewhere on 01-24, or is
    the 01-31 solution a repeat of an older one?
