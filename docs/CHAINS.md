@@ -47,29 +47,27 @@ does, because the World printed the numbers on either side, so that puzzle exist
 
 ## Result
 
-10 chains, 9 breaks, 2 of the links tentative. All 828 pages are accounted for in `chain_pages.tsv`: 699 sit in exactly
+9 chains, 8 breaks, 2 of the links tentative. All 828 pages are accounted for in `chain_pages.tsv`: 699 sit in exactly
 one chain, 117 are the Globe's own weekday series, 11 hold no puzzle, and one, the World's
 1914-01-11 (No. 4), comes before the chains start on 1914-02-01 (No. 7).
 
 | Chain | Span | Puzzles | Anchor |
 |---|---|---|---|
 | C1 | 1914-02-01 (No. 7) to 1914-08-02 (No. 33) | 27 | printed numbers |
-| C2 | 1914-08-16 (No. 35) to 1914-11-08 (No. 47) | 13 | printed numbers |
-| C3 | 1914-11-15 (No. 48) to 1914-12-13 (No. 52) | 5 | floating |
-| C4 | 1914-12-27 (No. 54) to the Journal's 1915-02-07 (F, U, N) | 4 | printed number; **tentative**, 2 of its 3 links |
-| C5 | the Journal's 1915-03-07 to 04-04 | 5 | floating |
-| C6 | the Journal's 1915-04-11 to 05-23 | 6 | floating |
-| C7 | the Journal's 1915-06-06 | 1 | floating |
-| C8 | the Journal's 1915-06-27 to 07-25 | 5 | floating |
-| **C9** | **1915-11-21 (No. 101) to 1917-12-30 (No. 211)** | 107 | solutions box |
-| **C10** | **the Globe, 1918-01-06 to 1924-10-12** | 353 | floating |
+| C2 | 1914-08-16 (No. 35) to 1914-12-13 (No. 52) | 18 | printed numbers |
+| C3 | 1914-12-27 (No. 54) to the Journal's 1915-02-07 (F, U, N) | 4 | printed number; **tentative**, 2 of its 3 links |
+| C4 | the Journal's 1915-03-07 to 04-04 | 5 | floating |
+| C5 | the Journal's 1915-04-11 to 05-23 | 6 | floating |
+| C6 | the Journal's 1915-06-06 | 1 | floating |
+| C7 | the Journal's 1915-06-27 to 07-25 | 5 | floating |
+| **C8** | **1915-11-21 (No. 101) to 1917-12-30 (No. 211)** | 107 | solutions box |
+| **C9** | **the Globe, 1918-01-06 to 1924-10-12** | 353 | floating |
 
 ## The breaks, and the page that closes each
 
 | Break | Why | Page to find |
 |---|---|---|
 | 1914-08-02 / 08-16 | the Journal never ran 08-09 (No. 34); its page answers No. 33 | the World's own page |
-| 1914-11-08 / 11-15 | the Journal's 12-06 solution is too small to read; shape agrees, answers can't be checked | the World's own page, or a better scan of the Journal's |
 | 1914-12-13 / 12-27 | 12-20 (No. 53) lost; the Journal's 1915-01-17 page answers its 01-03 | the World's own page |
 | N / 1915-03-07 | the Journal's 02-14, 02-21 and 02-28 have no puzzle, at least in the scans Newspapers.com holds (Alex DeJarnatt, browsed, 2026-10-31); its 03-07 page prints no previous solution, which fits | another paper's copy; no partner known in 1915 |
 | 1915-04-04 / 04-11 | the 04-04 puzzle is held only as a clip with no clue list; the 04-11 solution has its grid, but the answers can't be checked, and 03-28 has the same grid | **the Journal's full 1915-04-04 page** (Alex has found it) |
@@ -103,8 +101,9 @@ already held, on Shreveport 1917-03-11, so 02-18 links forward to 02-25 without 
 - **Journal 1915-04-04 exists.** The "not carried" was derived from a shape-only "yes". Checking
   answers showed that "yes" was wrong, and Alex then found the page. Its clipped solution answers
   03-28. It reruns the 03-28 grid with a different solution, so by the README's rule it's a second
-  puzzle. Of the 16 shape-only links rechecked, 14 held, this one failed, and one (1914-11-08 /
-  11-15) can't be read.
+  puzzle. Of the 16 shape-only links rechecked, 15 held and this one failed. One of the 15, 1914-11-08 /
+  11-15, couldn't be read until Alex clipped the Journal's 12-06 solution at full zoom: it prints
+  rotated 45 degrees.
 - **Empty weeks.** 1916-10-01, 10-15, 1917-05-20 and 06-24 are in no paper. The World Magazine box
   goes June 17 to July 1, so 06-24 is confirmed: the World ran no puzzle that Sunday. The rest are
   held up by links only. 1916-10-08 (the Journal's date) might be 10-15: Tacoma's run could allow either.
