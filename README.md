@@ -57,6 +57,8 @@ without is tied by its first clue and grid shape against another copy, and `matc
 Each printing's lag (its date minus the inferred World date) is computed, so each paper's
 delay behind the World shows on the status page.
 
+The Globe's own run (which Sundays exist, the Sundays it skipped, its Saturday and Wednesday series from 1923 and 1924) is accounted for in the [bostonglobe repo](https://github.com/EveryPuzzleProject/bostonglobe) and its [status page](https://everypuzzleproject.github.io/bostonglobe/); its page images are in `bostonglobe-scans/print/`. Here the `boston-globe*` rows in `printings.tsv` stay as the identity link: which Globe printing is which World puzzle (the 1917 anchor rests on them).
+
 ## The daily loop
 
 Newspapers.com allows about 30 high-resolution downloads a day, so the run takes a week or
