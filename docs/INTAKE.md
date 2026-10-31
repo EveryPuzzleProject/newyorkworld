@@ -3,6 +3,10 @@
 The loop a Claude session runs when new page images arrive. It has run for 340 pages; follow
 it exactly, and change the tools rather than improvising around them.
 
+**Open caution (2026-10-31):** the Globe's date is not the World's after about 1918, so `world_no`
+on Globe rows from then to 1923-04-29 is a label, not an identification. Index pages as usual, but
+draw nothing from those numbers. See [CAMPBELL-CROSSCHECK.md](CAMPBELL-CROSSCHECK.md).
+
 ## 0. Where things are
 
 - Images: `../newyorkworld-scans/pages/`, named as Newspapers.com downloads them:
