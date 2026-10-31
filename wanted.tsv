@@ -12,11 +12,11 @@ No. 179	1917-05-20	World number with no copy (the Globe ran on the World's date)
 No. 184	1917-06-24	World number with no copy (the Globe ran on the World's date)	los-angeles-tribune	1917-07-15	no-hit
 No. 184	1917-06-24	World number with no copy (the Globe ran on the World's date)	los-angeles-tribune	1917-07-29	no-hit
 No. 184	1917-06-24	World number with no copy (the Globe ran on the World's date)	los-angeles-tribune	1917-08-05	no-hit
-chain break minneapolis-journal 1915-02-07 | minneapolis-journal 1915-03-07	1915-02-21	the Sunday after 1915-02-07: browse the whole issue, a text search misses these pages	minneapolis-journal	1915-02-21	no-hit
+chain break minneapolis-journal 1915-02-07 | minneapolis-journal 1915-03-07	1915-02-21	between 1915-02-07 and 1915-03-07: browse the whole issue, a text search misses these pages	minneapolis-journal	1915-02-21	no-hit
 chain break minneapolis-journal 1915-04-04 | minneapolis-journal 1915-04-11	1915-04-04	full page: only a low-resolution clip is held, and it has no clue list	minneapolis-journal	1915-04-04	found
 Journal week 1915-06-20	1915-06-20	the Journal's 1915-06-27 page answers a puzzle it printed between 1915-06-06 and 1915-06-27	minneapolis-journal	1915-06-20	missing-from-scans
-chain break minneapolis-journal 1915-06-06 | minneapolis-journal 1915-06-27	1915-06-20	the Sunday after 1915-06-06: browse the whole issue, a text search misses these pages	minneapolis-journal	1915-06-20	missing-from-scans
-chain break minneapolis-journal 1915-07-25 | nyw1915-11-21 (No. 101)	1915-08-01	the Sunday after 1915-07-25: browse the whole issue, a text search misses these pages	minneapolis-journal	1915-08-01	no-hit
+chain break minneapolis-journal 1915-06-06 | minneapolis-journal 1915-06-27	1915-06-20	between 1915-06-06 and 1915-06-27: browse the whole issue, a text search misses these pages	minneapolis-journal	1915-06-20	missing-from-scans
+chain break minneapolis-journal 1915-07-25 | nyw1915-11-21 (No. 101)	1915-08-01	between 1915-07-25 and 1915-11-21: browse the whole issue, a text search misses these pages	minneapolis-journal	1915-08-01	no-hit
 Journal week 1916-08-13	1916-08-13	the Journal's 1916-08-20 page answers a puzzle it printed between 1916-08-06 and 1916-08-20	minneapolis-journal	1916-08-13	not-carried
 Journal week 1916-09-10	1916-09-10	the Journal's 1916-09-17 page answers a puzzle it printed between 1916-09-03 and 1916-09-17	minneapolis-journal	1916-09-10	not-carried
 No. 179	1917-05-20	World number with no copy (the Globe ran on the World's date)	new-orleans-states	1917-06-03	no-hit

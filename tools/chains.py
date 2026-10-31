@@ -171,7 +171,7 @@ def want(a, b, dead, absent, have) -> tuple:
         while d.isoformat() < date_of(b):
             between += 1
             if ("minneapolis-journal", d.isoformat()) not in have and d.isoformat() not in absent.get("minneapolis-journal", ()):
-                return "minneapolis-journal", d.isoformat(), "the Sunday after " + date_of(a) + ": browse the whole issue, a text search misses these pages"
+                return "minneapolis-journal", d.isoformat(), f"between {date_of(a)} and {date_of(b)}: browse the whole issue, a text search misses these pages"
             d += dt.timedelta(weeks=1)
         if between:
             return "", "", "another paper's copy: the Journal's issues in between have no puzzle, and no partner is known in 1915"
