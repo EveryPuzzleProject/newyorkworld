@@ -116,6 +116,39 @@ def main() -> None:
         tail = (f"<p class=muted>No partner left to try for: {', '.join(e(c) for c in closed)}.</p>" if closed else "")
         return head + "\n".join(out) + tail
 
+    def chains_section() -> str:
+        chains, breaks = read("chains.tsv"), read("chain_breaks.tsv")
+        if not chains:
+            return "<p>Not computed yet.</p>"
+        short = lambda s: s.replace("nyw", "").replace("minneapolis-journal ", "Journal ").replace("boston-globe ", "Globe ")
+        t0, t1 = dt.date(1914, 2, 1), dt.date(1924, 10, 12)
+        at = lambda d: 100 * (dt.date.fromisoformat(d) - t0).days / (t1 - t0).days
+        cls = lambda c: "fl" if c["anchor"].startswith("floating") else "an"
+        segs = "".join(f'<a class="cs {cls(c)}" href="#{e(c["chain"])}" style="left:{at(c["first_date"]):.2f}%;width:max(3px,{at(c["last_date"]) - at(c["first_date"]):.2f}%)" title="{e(c["chain"])}: {e(short(c["first"]))} to {e(short(c["last"]))}, {e(c["puzzles"])} puzzles"></a>' for c in chains)
+        years = "".join(f'<span class="cy" style="left:{at(f"{y}-01-01") if y > 1914 else 0:.2f}%">{y}</span>' for y in range(1914, 1925))
+        strip = f'<div class="ct">{segs}</div><div class="cyr">{years}</div>'
+        after = {b["after"]: b for b in breaks}
+        rows = []
+        for c in chains:
+            size = f'{e(c["puzzles"])} puzzle{"s" * (c["puzzles"] != "1")}, {e(c["links"])} link{"s" * (c["links"] != "1")}'
+            empty = f'<br><span class=muted>weeks with no puzzle in any paper, passed by a link: {e(short(c["empty_slots"]))}</span>' if c["empty_slots"] else ""
+            rows.append(f'<tr id="{e(c["chain"])}"><td><b>{e(c["chain"])}</b></td><td>{e(short(c["first"]))} to {e(short(c["last"]))}{empty}</td>'
+                        f'<td>{size}</td><td>{e(c["anchor"])}</td></tr>')
+            b = after.get(c["last"])
+            if b:
+                w = f'{link_date(b)}' if b["want_paper"] else '<span class=muted>nothing known to try</span>'
+                rows.append(f'<tr class="brk"><td class=warn>break</td><td colspan=2><b>{e(b["reason"])}</b> <span class=muted>{e(short(b["detail"]))}</span></td><td>{w}</td></tr>')
+        return f'{strip}<div class="scroll"><table><thead><tr><th>Chain</th><th>Span</th><th>Size</th><th>Anchored by / page that joins the break</th></tr></thead><tbody>{"".join(rows)}</tbody></table></div>'
+
+    def link_date(b: dict) -> str:
+        return f'{e(pname(b["want_paper"]))} <b>{e(b["want_date"])}</b> · {date_links({"paper": b["want_paper"], "date": b["want_date"]})}'
+
+    def reruns_table() -> str:
+        rows = read("reruns.tsv")
+        body = "".join(f'<tr><td>{e(pname(r["later_paper"]))} {e(r["later_date"])}</td><td>{e(pname(r["first_paper"]))} {e(r["first_date"])}</td><td>{e(r["weeks"])}</td><td class=muted>{e(r["later_shape"])} / {e(r["first_shape"])}</td></tr>' for r in rows)
+        return (f'<details><summary>{len(rows)} printings with the first clue of a puzzle printed at least six months earlier</summary><div class="scroll"><table><thead><tr><th>Later printing</th>'
+                f'<th>Earlier printing</th><th>Weeks apart</th><th>Shapes, later / earlier</th></tr></thead><tbody>{body}</tbody></table></div></details>')
+
     def gaps_table() -> str:
         gaps = read("gaps.tsv")
         miss = [g for g in gaps if g["kind"] == "missing-puzzle"]
@@ -368,6 +401,9 @@ tr.flagged td {{ background:color-mix(in srgb, var(--warn) 10%, transparent) }}
 .track {{ flex:1; display:flex; height:12px; border-radius:2px; overflow:hidden; background:var(--s-wanted) }}
 .seg.have, .pill.have {{ background:var(--s-have) }} .seg.wanted, .pill.wanted {{ background:var(--s-wanted) }}
 .warn {{ color:var(--warn) }} .have {{ color:var(--s-have) }}
+.ct {{ position:relative; height:18px; background:var(--s-wanted); border-radius:2px; margin:12px 0 2px; overflow:hidden }} .cs {{ position:absolute; top:0; bottom:0; border-right:1px solid var(--bg) }}
+.cs.an {{ background:var(--s-have) }} .cs.fl {{ background:var(--accent) }} .cyr {{ position:relative; height:16px; font:11px system-ui, sans-serif; color:var(--muted); margin-bottom:10px }} .cy {{ position:absolute }}
+tr.brk td {{ background:color-mix(in srgb, var(--warn) 7%, transparent) }}
 .cg {{ font:11px system-ui, sans-serif; overflow-x:auto; margin:4px 0 12px }} .cr {{ display:flex; align-items:center; gap:2px; margin:2px 0 }}
 .cl {{ width:11em; flex:none; color:var(--muted); white-space:nowrap; overflow:hidden; text-overflow:ellipsis }}
 .c {{ width:13px; height:13px; flex:none; border-radius:2px; display:inline-block; background:var(--s-wanted) }}
@@ -400,10 +436,18 @@ If you have access to one of these, please <a href="{REPO}/issues/new">open an i
 <ul>
 <li><b>World Nos. 3 to 6, January 4 to 25, 1914.</b> Not on Newspapers.com in any partner paper. They need the World's own Sunday FUN section:
 a private collection, the New York Public Library's microfilm of the World, or another researcher's copy.</li>
-<li><b>Minneapolis Journal Sundays whose puzzle ran but isn't on the usual page:</b> 1915-06-13, 06-20; 1916-08-13, 09-10; 1917-01-14, 01-21.
+<li><b>Minneapolis Journal Sundays whose puzzle ran but isn't on the usual page:</b> 1915-04-04 and 1915-06-20.
 The following week's solution proves each one exists.</li>
 <li><b>Any paper's copy of the Sundays still open below</b>, under "Next batch to find".</li>
 </ul>
+
+<h2 id="chains">Chains: what links to what</h2>
+<p>A link says that a page's printed solution answers an earlier puzzle, checked on the scans, across papers where it has to be. A chain is an unbroken run of links:
+each puzzle's successor is proved, not inferred from a date. Green chains reach a fixed point (a printed grid number, or the World Magazine's dated solutions box of July 1917);
+blue chains float, in order among themselves. The series is dated: a puzzle goes by its World Sunday, inferred, with its number in brackets (printed by the World only through 1915-01-17, an index after that). A puzzle with no World date yet goes by its page. Method and results: <a href="{REPO}/blob/main/docs/CHAINS.md">docs/CHAINS.md</a>.</p>
+{chains_section()}
+<p>The same first clue can come back years later: the Globe seems to have reprinted much of 1916 in 1918 and 1919, which may explain more of its "drift" than delay does. Nothing here treats these as the same puzzle; they are for checking.</p>
+{reruns_table()}
 
 <h2 id="next">Next batch to find</h2>
 {batch_table()}
@@ -435,7 +479,7 @@ a lag that grows means the World skipped weeks, or the paper did.</p>
 unnumbered ones by their copies), against the Sundays of that year.</p>
 {bars_held()}
 <p><b>World numbers with a copy.</b> The same puzzles placed on the World's own calendar: printed numbers to January 1915; the Journal's
-dates from 1915-11-21 (it was on the World's date in January 1917 and its weekly chain runs unbroken back to that day); the Globe's dates in 1917
+dates from 1915-11-21 (it was on the World's date in January 1917 and the chains run back to that day, with the Journal a week late for three weeks of November 1916); the Globe's dates in 1917
 (proven by the World Magazine solutions box of July 1917). All marked inferred. From 1918 the Globe ran increasingly late (its 1920-05-02 puzzle
 is the World's 1919-10-12, per T Campbell), so its later pages are held without a World number until dated copies from other papers plot the drift.
 February to July 1915 is empty because the Journal's offset there is three to six weeks, undetermined; August to mid-November 1915 because no
@@ -464,7 +508,7 @@ partner is known to have carried FUN then.</p>
 </tbody></table></div>
 
 <footer>Part of the <a href="https://github.com/EveryPuzzleProject">Every Puzzle Project</a>. Data: <a href="{REPO}">{REPO.split('github.com/')[1]}</a>
-(status.tsv, printings.tsv, searches.tsv); what's known about the World's puzzles: the <a href="{CATALOG}">catalog entry</a>. Page images stay out of this repo.
+(status.tsv, printings.tsv, searches.tsv, links.tsv, chains.tsv); what's known about the World's puzzles: the <a href="{CATALOG}">catalog entry</a>. Page images stay out of this repo.
 Generated {dt.date.today().isoformat()}.</footer>
 </main>
 <script>

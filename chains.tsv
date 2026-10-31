@@ -1,0 +1,14 @@
+chain	first	last	first_date	last_date	puzzles	links	empty_slots	anchor
+C1	nyw1914-02-01 (No. 7)	nyw1914-08-02 (No. 33)	1914-02-01	1914-08-02	27	26		printed grid numbers
+C2	nyw1914-08-16 (No. 35)	nyw1914-11-08 (No. 47)	1914-08-16	1914-11-08	13	12		printed grid numbers
+C3	nyw1914-11-15 (No. 48)	nyw1914-12-13 (No. 52)	1914-11-15	1914-12-13	5	4		floating (World dates inferred)
+C4	nyw1914-12-27 (No. 54)	minneapolis-journal 1915-01-24	1914-12-27	1915-01-24	2	1		printed grid numbers
+C5	minneapolis-journal 1915-01-31	minneapolis-journal 1915-01-31	1915-01-31	1915-01-31	1	0		floating
+C6	minneapolis-journal 1915-02-07	minneapolis-journal 1915-02-07	1915-02-07	1915-02-07	1	0		floating
+C7	minneapolis-journal 1915-03-07	minneapolis-journal 1915-04-04	1915-03-07	1915-04-04	5	4		floating
+C8	minneapolis-journal 1915-04-11	minneapolis-journal 1915-05-23	1915-04-11	1915-05-23	6	5		floating
+C9	minneapolis-journal 1915-06-06	minneapolis-journal 1915-06-06	1915-06-06	1915-06-06	1	0		floating
+C10	minneapolis-journal 1915-06-27	minneapolis-journal 1915-07-25	1915-06-27	1915-07-25	5	4		floating
+C11	nyw1915-11-21 (No. 101)	nyw1917-02-11 (No. 165)	1915-11-21	1917-02-11	63	62	nyw1916-10-01 (No. 146); nyw1916-10-15 (No. 148)	floating (World dates inferred)
+C12	nyw1917-02-18 (No. 166)	nyw1917-12-30 (No. 211)	1917-02-18	1917-12-30	44	43	nyw1917-05-20 (No. 179); nyw1917-06-24 (No. 184)	World Magazine solutions box
+C13	boston-globe 1918-01-06	boston-globe 1924-10-12	1918-01-06	1924-10-12	353	352		floating

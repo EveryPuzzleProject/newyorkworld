@@ -7,7 +7,8 @@ Tacoma printed 07-15 and "June 17" the one it printed 07-01, so Tacoma ran each 
 after the World. The Boston Globe and the Minneapolis Journal ran each puzzle two weeks before
 Tacoma (matched copies), so their 1917 dates are the World's own. This script sets world_no on
 1917 printings accordingly: Globe/Journal date, or Tacoma date minus two weeks, applied to every
-copy of the same puzzle_key; it never overrides a printed number. Re-run after an intake.
+copy of the same puzzle_key; it never overrides a printed number. Re-run after an intake, then
+tools/world_dates_copies.py: Tacoma's lag was one week until 1917-02-04, which this script doesn't know.
 
 Stops at STOP (1918-01-01): the Globe's date is the World's only in 1917. From 1918 the Globe ran increasingly late
 (T Campbell: its 1920-05-02 puzzle is the World's 1919-10-12; docs/CAMPBELL-CROSSCHECK.md), so no World number is
