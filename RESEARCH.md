@@ -74,6 +74,14 @@ aren't lost; move each into a catalog entry with its source.
   1924), and agrees with Crossword Craze's Burlington start of 1924-03-13 (see
   docs/CAMPBELL-CROSSCHECK.md). Both dates are Thursdays, so possibly a regular day; not
   checked. The intro is worth searching on: nothing in printings.tsv mentions one like it.
+- **George Matthew Adams Service's 1924 crossword**: The Daily Times, Davenport, Iowa,
+  1924-12-29 (Alex DeJarnatt, Newspapers.com, 2026-10-31) prints "Your Cross Word Puzzle",
+  "(Copyright, 1924, George Matthew Adams)", no byline. Small, 9 by 9; its footer says "The
+  solution will appear tomorrow" and it prints "Solution of Yesterday's Puzzle", so daily.
+  Horizontal clues are numbered 1-10 and the vertical ones go on from 11, sharing 1 and 2. This
+  is seven months before the catalog's only record of the feature, E&P's July 1925 directory
+  ("Puzzles, Cross Word", William Stevens, daily; census/ep-crossword-features.csv). Whether
+  Stevens made this one, and when the feature starts, not yet known.
 
 ## How firm the no-hits are
 
