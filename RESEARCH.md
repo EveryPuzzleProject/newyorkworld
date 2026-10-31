@@ -53,6 +53,20 @@ aren't lost; move each into a catalog entry with its source.
 - **Brooklyn Daily Eagle**: started a weekly Sunday crossword on 1924-05-18 (Alex DeJarnatt,
   Newspapers.com, 2026-10-30). Newspapers.com publication id 13893. Whose puzzle, and
   whether it's the World's, not yet checked.
+- **Liberty** (weekly magazine, 1924-1950): printing crosswords by 1929, a potentially exciting
+  series, not in the catalog yet (Alex DeJarnatt, 2026-10-31). The 1929-06-01 issue, v6 n21,
+  pp. 80-81 ([scan](https://archive.org/details/LibertyV06N2119290601/page/n79/mode/2up)) has
+  two puzzles under the heading "Two New Puzzles: Take Your Choice", no credit, each with a
+  small "Answer to last week's puzzle" grid. So weekly, two at a time, in that issue.
+  Archive.org's `libertymagazine` collection has 104 items, the earliest 1925-07-11, the latest
+  1948-10-01, thin before 1932 (1925 one, 1929 three), 22 in 1936; items carry OCR text, and
+  the table of contents lists "Cross Word Puzzles", so that line finds them. Gale's Liberty
+  Magazine Historical Archive 1924-1950 is the fuller run if a library has it. Bell Syndicate
+  link (Wikipedia, not yet checked against a primary source): founded by Robert McCormick and
+  Joseph Medill Patterson; John Neville Wheeler, Bell's founder, was its first editor, 1924 to
+  early 1926, while still running Bell. Crossword Craze has Bell syndicating crosswords from
+  February 1924 (see docs/CAMPBELL-CROSSCHECK.md), so whether Liberty's puzzles have any Bell
+  connection is worth asking. Not yet known: when they start, who made them, how long they ran.
 
 ## How firm the no-hits are
 
