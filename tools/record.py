@@ -35,7 +35,7 @@ SCANS = ROOT.parent / "newyorkworld-scans"
 PAGES = SCANS / "pages"
 PAGES_TSV = SCANS / "pages.tsv"
 FIRST = dt.date(1913, 12, 21)   # World No. 1
-LAST_NO = 551                   # 1924-07-06 (extended from 211 / 1917-12-30, then 263, 315, 532, as the Globe run goes on)
+LAST_NO = 565                   # 1924-10-12 (extended from 211 / 1917-12-30, then 263, 315, 532, 551, as the Globe run goes on)
 PRINTING_COLS = ["file", "paper", "date", "page", "printed_page", "world_no_printed", "heading_no", "heading",
                  "credit", "copyright_line", "fun_credit", "shape", "fingerprint", "solution_label", "solution_of",
                  "url", "world_no", "puzzle_key", "sunday_inferred", "lag_weeks", "match", "continuity", "flag", "notes"]
