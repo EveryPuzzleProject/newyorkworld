@@ -74,8 +74,10 @@ aren't lost; move each into a catalog entry with its source.
   1924). Burlington's 1924-03-13 page (Alex DeJarnatt, 2026-10-31) is also a Bell puzzle, says
   the solution will be in next Thursday's Free Press and prints no earlier solution, so it may
   be the paper's first, as Crossword Craze has it (see docs/CAMPBELL-CROSSCHECK.md), and the
-  puzzle ran weekly on Thursdays. Bell's own start is earlier if Crossword Craze's Indianapolis
-  Star of February 1924 holds. If Burlington missed no week, 09-18 is its 28th puzzle.
+  puzzle ran weekly on Thursdays. If Burlington missed no week, 09-18 is its 28th puzzle. Bell
+  was already selling it: Indianapolis Star, Sunday 1924-02-03 (Alex DeJarnatt, Newspapers.com,
+  2026-10-31), has a Bell copyright and no number, confirming Crossword Craze's February 1924.
+  That is the earliest Bell crossword we know of, not necessarily the first.
   The intro is worth searching on: nothing in printings.tsv mentions one like it.
   Numbered in another paper: Yonkers Statesman 1924-10-04, a Saturday (Alex DeJarnatt,
   Newspapers.com, 2026-10-31), prints "Cross Word Puzzle", "Puzzle No. 12", numbered to 77,
