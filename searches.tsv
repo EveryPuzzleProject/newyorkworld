@@ -281,28 +281,28 @@ boston-globe	1919-04-13		found	nothing ran in between: the 1919-05-11 page's sol
 boston-globe	1919-04-20		found	nothing ran in between: the 1919-05-11 page's solution answers the 1918-09-29 puzzle
 boston-globe	1919-04-27		found	nothing ran in between: the 1919-05-11 page's solution answers the 1918-09-29 puzzle
 boston-globe	1919-05-04		found	nothing ran in between: the 1919-05-11 page's solution answers the 1918-09-29 puzzle
-boston-globe	1919-07-13	11	queued	batch 11: the Globe onward through 1919
-boston-globe	1919-07-20	11	queued	batch 11: the Globe onward through 1919
-boston-globe	1919-07-27	11	queued	batch 11: the Globe onward through 1919
-boston-globe	1919-08-03	11	queued	batch 11: the Globe onward through 1919
-boston-globe	1919-08-10	11	queued	batch 11: the Globe onward through 1919
-boston-globe	1919-08-17	11	queued	batch 11: the Globe onward through 1919
-boston-globe	1919-08-24	11	queued	batch 11: the Globe onward through 1919
-boston-globe	1919-08-31	11	queued	batch 11: the Globe onward through 1919
-boston-globe	1919-09-07	11	queued	batch 11: the Globe onward through 1919
-boston-globe	1919-09-14	11	queued	batch 11: the Globe onward through 1919
-boston-globe	1919-09-21	11	queued	batch 11: the Globe onward through 1919
-boston-globe	1919-09-28	11	queued	batch 11: the Globe onward through 1919
-boston-globe	1919-10-05	11	queued	batch 11: the Globe onward through 1919
-boston-globe	1919-10-12	11	queued	batch 11: the Globe onward through 1919
-boston-globe	1919-10-19	11	queued	batch 11: the Globe onward through 1919
-boston-globe	1919-10-26	11	queued	batch 11: the Globe onward through 1919
-boston-globe	1919-11-02	11	queued	batch 11: the Globe onward through 1919
-boston-globe	1919-11-09	11	queued	batch 11: the Globe onward through 1919
-boston-globe	1919-11-16	11	queued	batch 11: the Globe onward through 1919
-boston-globe	1919-11-23	11	queued	batch 11: the Globe onward through 1919
-boston-globe	1919-11-30	11	queued	batch 11: the Globe onward through 1919
-boston-globe	1919-12-07	11	queued	batch 11: the Globe onward through 1919
-boston-globe	1919-12-14	11	queued	batch 11: the Globe onward through 1919
-boston-globe	1919-12-21	11	queued	batch 11: the Globe onward through 1919
-boston-globe	1919-12-28	11	queued	batch 11: the Globe onward through 1919
+boston-globe	1919-07-13	11	not-carried	nothing ran in between: the 1919-08-03 page's solution answers the 1919-07-06 puzzle
+boston-globe	1919-07-20	11	not-carried	nothing ran in between: the 1919-08-03 page's solution answers the 1919-07-06 puzzle
+boston-globe	1919-07-27	11	not-carried	nothing ran in between: the 1919-08-03 page's solution answers the 1919-07-06 puzzle
+boston-globe	1919-08-03	11	found	batch 11: the Globe onward through 1919
+boston-globe	1919-08-10	11	found	batch 11: the Globe onward through 1919
+boston-globe	1919-08-17	11	found	batch 11: the Globe onward through 1919
+boston-globe	1919-08-24	11	found	batch 11: the Globe onward through 1919
+boston-globe	1919-08-31	11	found	batch 11: the Globe onward through 1919
+boston-globe	1919-09-07	11	found	batch 11: the Globe onward through 1919
+boston-globe	1919-09-14	11	found	batch 11: the Globe onward through 1919
+boston-globe	1919-09-21	11	found	batch 11: the Globe onward through 1919
+boston-globe	1919-09-28	11	found	batch 11: the Globe onward through 1919
+boston-globe	1919-10-05	11	found	batch 11: the Globe onward through 1919
+boston-globe	1919-10-12	11	found	batch 11: the Globe onward through 1919
+boston-globe	1919-10-19	11	found	batch 11: the Globe onward through 1919
+boston-globe	1919-10-26	11	found	batch 11: the Globe onward through 1919
+boston-globe	1919-11-02	11	found	batch 11: the Globe onward through 1919
+boston-globe	1919-11-09	11	found	batch 11: the Globe onward through 1919
+boston-globe	1919-11-16	11	found	batch 11: the Globe onward through 1919
+boston-globe	1919-11-23	11	found	batch 11: the Globe onward through 1919
+boston-globe	1919-11-30	11	found	batch 11: the Globe onward through 1919
+boston-globe	1919-12-07	11	found	batch 11: the Globe onward through 1919
+boston-globe	1919-12-14	11	found	batch 11: the Globe onward through 1919
+boston-globe	1919-12-21	11	found	batch 11: the Globe onward through 1919
+boston-globe	1919-12-28	11	found	batch 11: the Globe onward through 1919
