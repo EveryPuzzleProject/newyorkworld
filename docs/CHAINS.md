@@ -41,7 +41,7 @@ does, because the World printed the numbers on either side, so that puzzle exist
 
 ## Result
 
-13 chains, 12 breaks. All 827 pages are accounted for in `chain_pages.tsv`: 698 sit in exactly
+12 chains, 11 breaks. All 828 pages are accounted for in `chain_pages.tsv`: 699 sit in exactly
 one chain, 117 are the Globe's own weekday series, 11 hold no puzzle, and one, the World's
 1914-01-11 (No. 4), comes before the chains start on 1914-02-01 (No. 7).
 
@@ -56,9 +56,8 @@ one chain, 117 are the Globe's own weekday series, 11 hold no puzzle, and one, t
 | C8 | the Journal's 1915-04-11 to 05-23 | 6 | floating |
 | C9 | the Journal's 1915-06-06 | 1 | floating |
 | C10 | the Journal's 1915-06-27 to 07-25 | 5 | floating |
-| **C11** | **1915-11-21 (No. 101) to 1917-02-11 (No. 165)** | 63 | floating, one page from the anchor |
-| **C12** | **1917-02-18 (No. 166) to 1917-12-30 (No. 211)** | 44 | solutions box |
-| **C13** | **the Globe, 1918-01-06 to 1924-10-12** | 353 | floating |
+| **C11** | **1915-11-21 (No. 101) to 1917-12-30 (No. 211)** | 107 | solutions box |
+| **C12** | **the Globe, 1918-01-06 to 1924-10-12** | 353 | floating |
 
 ## The breaks, and the page that closes each
 
@@ -73,11 +72,15 @@ one chain, 117 are the Globe's own weekday series, 11 hold no puzzle, and one, t
 | 1915-05-23 / 06-06 | no solution held for 05-23 | the Journal's 1915-05-30 |
 | 1915-06-06 / 06-27 | 06-27's solution answers a puzzle between them | the Journal's 1915-06-20: Alex found only an answer key in the issue, so another paper's copy |
 | 1915-07-25 / 11-21 | no partner known, August to mid-November 1915 | any partner paper; the Journal's own 1915-08-01 |
-| **1917-02-11 / 02-18** | **no page shows 02-11's solution beside the 02-18 puzzle** | **the Pittsburgh Press 1917-03-04** (or Los Angeles 04-15) |
 | 1917-12-30 / the Globe | not a broken link: the Globe's solutions go on, but its order stops being the World's | dated copies from another paper, 1918 on |
 
-**One page matters most.** Pittsburgh 1917-03-04 joins C11 to C12: 107 puzzles, November 1915
-to December 1917, tied to the solutions box.
+**The join.** 1917-02-11 / 02-18 was the last break before the solutions box. Alex found the
+Pittsburgh Press of 1917-03-04 (clip, 2026-10-31): the same puzzle as Shreveport's that day, 1917-02-18
+(No. 166). Pittsburgh's 02-25 page has no puzzle and prints the 02-11 solution, so 03-04's is the next
+puzzle in its run. That closes the link, and 107 puzzles, November 1915 to December 1917, now reach
+the box. The week with no puzzle is also where Pittsburgh's lag goes from one week to two. The full
+page adds a good copy; the link doesn't wait for it. Its solutions box, if it has one, should be
+either nothing or a reprint, because no new puzzle ran the week before.
 
 ## What the chains corrected
 

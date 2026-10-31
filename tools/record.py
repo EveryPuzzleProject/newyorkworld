@@ -478,6 +478,11 @@ def write_wanted(pr: list[dict], se: list[dict], st: list[dict], gaps: list[dict
         if b["want_paper"] and ((b["want_paper"], b["want_date"]) not in have or b["want_why"].startswith("full page")):
             rows.append({"puzzle": f"chain break {b['break']}", "reference_date": b["want_date"], "why": b["want_why"], "paper": b["want_paper"],
                          "date": b["want_date"], "status": searched.get((b["want_paper"], b["want_date"]), "")})
+    # pages held only as a clip, whose full page is still to come
+    for r in pr:
+        if r["file"].startswith("clip:") and "full page still to download" in r["notes"] and not any(w["paper"] == r["paper"] and w["date"] == r["date"] for w in rows):
+            rows.append({"puzzle": f"full page of {r['paper']} {r['date']}", "reference_date": r["date"], "why": "full page: only a clip is held", "paper": r["paper"],
+                         "date": r["date"], "status": ""})
     write_tsv(ROOT / "wanted.tsv", WANTED_COLS, sorted(rows, key=lambda r: (r["paper"], r["date"], r["puzzle"])))
 
 

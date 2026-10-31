@@ -9,6 +9,5 @@ C7	minneapolis-journal 1915-03-07	minneapolis-journal 1915-04-04	1915-03-07	1915
 C8	minneapolis-journal 1915-04-11	minneapolis-journal 1915-05-23	1915-04-11	1915-05-23	6	5		floating
 C9	minneapolis-journal 1915-06-06	minneapolis-journal 1915-06-06	1915-06-06	1915-06-06	1	0		floating
 C10	minneapolis-journal 1915-06-27	minneapolis-journal 1915-07-25	1915-06-27	1915-07-25	5	4		floating
-C11	nyw1915-11-21 (No. 101)	nyw1917-02-11 (No. 165)	1915-11-21	1917-02-11	63	62	nyw1916-10-01 (No. 146); nyw1916-10-15 (No. 148)	floating (World dates inferred)
-C12	nyw1917-02-18 (No. 166)	nyw1917-12-30 (No. 211)	1917-02-18	1917-12-30	44	43	nyw1917-05-20 (No. 179); nyw1917-06-24 (No. 184)	World Magazine solutions box
-C13	boston-globe 1918-01-06	boston-globe 1924-10-12	1918-01-06	1924-10-12	353	352		floating
+C11	nyw1915-11-21 (No. 101)	nyw1917-12-30 (No. 211)	1915-11-21	1917-12-30	107	106	nyw1916-10-01 (No. 146); nyw1916-10-15 (No. 148); nyw1917-05-20 (No. 179); nyw1917-06-24 (No. 184)	World Magazine solutions box
+C12	boston-globe 1918-01-06	boston-globe 1924-10-12	1918-01-06	1924-10-12	353	352		floating
