@@ -81,3 +81,7 @@ boston-globe	1919-10-19	1919-10-26		mystery	vs 1919-10-19 no (medium (no printed
 boston-globe	1920-11-07	1920-11-14		mystery	vs 1920-11-07 no: solution top row ANGER fits the 11-21 puzzle's 1-2 'To enrage', not 11-07's 'Feast day' (11-07 solution EASTER MONDAY is printed 11-21)
 boston-globe	1920-11-14	1920-11-21		mystery	vs 1920-11-14 no: solution top row EASTER MONDAY = 11-07 puzzle's 1-2 'Feast day', not 11-14's 'Toothed' (that solution is printed 11-28)
 boston-globe	1920-11-21	1920-11-28		mystery	vs 1920-11-21 no: solution SERRATE = 11-14 puzzle's 1-7 'Toothed', not the previous page's (11-21) 'To enrage'
+boston-globe-other-days	1923-11-29	1924-01-01	1923-12-06 1923-12-13 1923-12-20 1923-12-27	unknown	vs 1923-11-29 none: one-off weekday puzzle
+boston-globe-other-days	1924-01-01	1924-02-22	1924-01-08 1924-01-15 1924-01-22 1924-01-29 1924-02-05 1924-02-12 1924-02-19	unknown	vs 1924-01-01 none: one-off weekday puzzle
+boston-globe-other-days	1924-02-22	1924-05-30	1924-02-29 1924-03-07 1924-03-14 1924-03-21 1924-03-28 1924-04-04 1924-04-11 1924-04-18 1924-04-25 1924-05-02 1924-05-09 1924-05-16 1924-05-23	unknown	vs 1924-02-22 none: ordinary daily puzzle
+boston-globe-saturday	1924-05-31	1924-06-07		mystery	vs 1924-05-31 no: The only solution grid is labelled 'puzzle printed Memorial Day' (row 1 THIS COMMENCES VILE...), not the 05-31 puzzle (first clue 'Sadness'); the 05-31 solution is held to June 14.
