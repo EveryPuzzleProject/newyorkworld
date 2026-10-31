@@ -155,7 +155,7 @@ def anchor_of(ns: list, nodes: dict) -> str:
     return "floating (World dates inferred)"
 
 
-def want(a, b, dead, have) -> tuple:
+def want(a, b, dead, absent, have) -> tuple:
     """The one page most likely to join a break: (paper, date, why). Past partners first, then the
     Journal's own Sundays in between, searched or not (a text search misses these pages), then the World."""
     n = a + 1 if isinstance(a, int) and isinstance(b, int) and b - a > 1 else b
@@ -167,10 +167,14 @@ def want(a, b, dead, have) -> tuple:
                     return paper, d, f"should print {label(n)}" + (f" with {label(a)}'s solution" if n == b else "")
     d = dt.date.fromisoformat(date_of(a)) + dt.timedelta(weeks=1)
     if isinstance(a, tuple) and a[0] == "minneapolis-journal":
+        between = 0
         while d.isoformat() < date_of(b):
-            if ("minneapolis-journal", d.isoformat()) not in have:
+            between += 1
+            if ("minneapolis-journal", d.isoformat()) not in have and d.isoformat() not in absent.get("minneapolis-journal", ()):
                 return "minneapolis-journal", d.isoformat(), "the Sunday after " + date_of(a) + ": browse the whole issue, a text search misses these pages"
             d += dt.timedelta(weeks=1)
+        if between:
+            return "", "", "another paper's copy: the Journal's issues in between have no puzzle, and no partner is known in 1915"
     if isinstance(n, int) and n <= LAST_PRINTED:
         return "new-york-world", sunday_of(n).isoformat(), f"the World's own page: no partner printed {label(n)}" if n != b else f"the World's own page: the Journal's copy of {label(a)}'s solution is too small to read"
     return "", "", ""
@@ -179,9 +183,12 @@ def want(a, b, dead, have) -> tuple:
 def compute(pr, se, li):
     order, nodes, edges, seen = build(pr, li)
     dead: dict[str, set] = {}
+    absent: dict[str, set] = {}
     for s in se:
         if s["result"] in DEAD:
             dead.setdefault(s["paper"], set()).add(s["date"])
+        if s["result"] == "not-carried":
+            absent.setdefault(s["paper"], set()).add(s["date"])
     have = {(r["paper"], r["date"]) for r in pr}
     chains, breaks, cur = [], [], [order[0]]
     for a, b in zip(order, order[1:]):
@@ -205,7 +212,7 @@ def compute(pr, se, li):
             reason, detail = "no solution printed", pages("none")
         else:
             reason, detail = "not checked", "no page compared yet"
-        pw, dw, why = ("", "", "") if a == WORLD_END else want(a, b, dead, have)
+        pw, dw, why = ("", "", "") if a == WORLD_END else want(a, b, dead, absent, have)
         clip = next((r for r in nodes.get(a, []) if r["file"].startswith("clip:") and r["date"] > "1914-03"), None)
         if clip:
             pw, dw, why = clip["paper"], clip["date"], "full page: only a low-resolution clip is held, and it has no clue list"

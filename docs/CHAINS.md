@@ -67,9 +67,9 @@ one chain, 117 are the Globe's own weekday series, 11 hold no puzzle, and one, t
 | 1914-11-08 / 11-15 | the Journal's 12-06 solution is too small to read; shape agrees, answers can't be checked | the World's own page, or a better scan of the Journal's |
 | 1914-12-13 / 12-27 | 12-20 (No. 53) lost; the Journal's 1915-01-17 page answers its 01-03 | the World's own page |
 | F / U / N | the three letter-shaped puzzles had no solutions (Alex DeJarnatt, 2026-10-30) | the World's own pages |
-| N / 1915-03-07 | the Journal 02-14 to 02-28: searched, no hit | browse the Journal's 1915-02-14 |
+| N / 1915-03-07 | the Journal's 02-14 has no puzzle (Alex DeJarnatt, page by page, 2026-10-31); 02-21 and 02-28 are text-search misses | browse the Journal's 1915-02-21 and 02-28, else another paper's copy |
 | 1915-04-04 / 04-11 | the 04-04 puzzle is held only as a clip with no clue list; the 04-11 solution has its grid, but the answers can't be checked, and 03-28 has the same grid | **the Journal's full 1915-04-04 page** (Alex has found it) |
-| 1915-05-23 / 06-06 | no solution held for 05-23 | the Journal's 1915-05-30 |
+| 1915-05-23 / 06-06 | no solution held for 05-23; the Journal's 05-30 has no puzzle (Alex DeJarnatt, page by page, 2026-10-31) | another paper's copy; no partner known in 1915 |
 | 1915-06-06 / 06-27 | 06-27's solution answers a puzzle between them | the Journal's 1915-06-20: Alex found only an answer key in the issue, so another paper's copy |
 | 1915-07-25 / 11-21 | no partner known, August to mid-November 1915 | any partner paper; the Journal's own 1915-08-01 |
 | 1917-12-30 / the Globe | not a broken link: the Globe's solutions go on, but its order stops being the World's | dated copies from another paper, 1918 on |

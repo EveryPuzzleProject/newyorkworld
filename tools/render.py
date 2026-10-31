@@ -136,7 +136,7 @@ def main() -> None:
                         f'<td>{size}</td><td>{e(c["anchor"])}</td></tr>')
             b = after.get(c["last"])
             if b:
-                w = f'{link_date(b)}' if b["want_paper"] else '<span class=muted>nothing known to try</span>'
+                w = f'{link_date(b)}' if b["want_paper"] else f'<span class=muted>{e(b["want_why"] or "nothing known to try")}</span>'
                 rows.append(f'<tr class="brk"><td class=warn>break</td><td colspan=2><b>{e(b["reason"])}</b> <span class=muted>{e(short(b["detail"]))}</span></td><td>{w}</td></tr>')
         return f'{strip}<div class="scroll"><table><thead><tr><th>Chain</th><th>Span</th><th>Size</th><th>Anchored by / page that joins the break</th></tr></thead><tbody>{"".join(rows)}</tbody></table></div>'
 
