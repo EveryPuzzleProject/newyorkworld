@@ -67,36 +67,10 @@ aren't lost; move each into a catalog entry with its source.
   early 1926, while still running Bell. Crossword Craze has Bell syndicating crosswords from
   February 1924 (see docs/CAMPBELL-CROSSCHECK.md), so whether Liberty's puzzles have any Bell
   connection is worth asking. Not yet known: when they start, who made them, how long they ran.
-- **Bell Syndicate's 1924 crossword**: Burlington Free Press 1924-09-18 (Alex DeJarnatt,
-  Newspapers.com, 2026-10-31) prints "Cross Word Puzzle" with a short "Introduction" that says
-  where beginners may start, then "(Copyright 1924 by the Bell Syndicate, Inc.)", then the
-  grid, so the line belongs to the puzzle. This is a month before E&P's first listing (October
-  1924). Burlington's 1924-03-13 page (Alex DeJarnatt, 2026-10-31) is also a Bell puzzle, says
-  the solution will be in next Thursday's Free Press and prints no earlier solution, so it may
-  be the paper's first, as Crossword Craze has it (see docs/CAMPBELL-CROSSCHECK.md), and the
-  puzzle ran weekly on Thursdays. If Burlington missed no week, 09-18 is its 28th puzzle. Bell
-  was already selling it: Indianapolis Star, Sunday 1924-02-03 (Alex DeJarnatt, Newspapers.com,
-  2026-10-31), has a Bell copyright and no number, confirming Crossword Craze's February 1924.
-  That is the earliest Bell crossword we know of, not necessarily the first. Burlington's
-  03-13 puzzle is the same puzzle as Indianapolis's of Sunday 03-16 (Alex DeJarnatt,
-  2026-10-31), so the two ran the same weekly feature in the same week. If Indianapolis missed
-  no week from 02-03, that is its 7th, so Burlington joined a series already running.
-  The intro is worth searching on: nothing in printings.tsv mentions one like it.
-  Numbered in another paper: Yonkers Statesman 1924-10-04, a Saturday (Alex DeJarnatt,
-  Newspapers.com, 2026-10-31), prints "Cross Word Puzzle", "Puzzle No. 12", numbered to 77,
-  with "How to Solve the Cross Word Puzzle", "Solution of Last Week's Puzzle" and "(Copyright,
-  1924 by The Bell Syndicate, Inc.)". Yonkers's run so far (Alex DeJarnatt, 2026-10-31): the
-  paper of Friday 09-26 announces that the Statesman's crossword will run every Saturday from
-  tomorrow, and No. 11 runs Saturday 09-27. Saturday 10-11 announces a Monday puzzle; puzzles
-  follow on Monday 10-13, Tuesday 10-14 (with "answer to yesterday's puzzle") and Wednesday
-  10-15, so the paper went daily that week. Only the Saturdays seen carry the Bell line, and
-  the puzzles of the week of 10-11 show no number on any day, so the count stops at No. 12.
-  A series announced as starting at No. 11 suggests the number is Bell's, not Yonkers's. Weekly,
-  Bell's No. 1 falls on 1924-07-19, after Burlington's 03-13 start, which could mean a second
-  series (Bell's October 1924 ad offers "Two Crackerjack Puzzle Services"; E&P has Bell at
-  twice a week that month, daily by July 1925). To check: any Yonkers puzzle before 09-27; whose
-  the October weekday puzzles are; another paper's Bell puzzle with a number. The Burlington
-  crop shows no number.
+- **Bell Syndicate's crossword, 1924-25**: moved to its own project,
+  [EveryPuzzleProject/bell](https://github.com/EveryPuzzleProject/bell). Sightings in the
+  Indianapolis Star, Burlington Free Press and Yonkers Statesman, and the open questions, are
+  in its printings.tsv and RESEARCH.md.
 - **George Matthew Adams Service's 1924 crossword**: The Daily Times, Davenport, Iowa,
   1924-12-29 (Alex DeJarnatt, Newspapers.com, 2026-10-31) prints "Your Cross Word Puzzle",
   "(Copyright, 1924, George Matthew Adams)", no byline. Small, 9 by 9; its footer says "The
