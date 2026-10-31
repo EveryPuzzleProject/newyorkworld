@@ -9,10 +9,9 @@ Tacoma (matched copies), so their 1917 dates are the World's own. This script se
 1917 printings accordingly: Globe/Journal date, or Tacoma date minus two weeks, applied to every
 copy of the same puzzle_key; it never overrides a printed number. Re-run after an intake.
 
-Stops at STOP: the Globe's Sunday puzzle of 1923-04-29 is the first to carry a reader's name and town
-(Marblehead), and from 1923-08-05 most pages do; by 1923-10-21 the Globe was asking readers for puzzles.
-Its pages still answer the week before, but from the first reader credit on we no longer claim the puzzle is
-the World's, so no World number is inferred from 1923-04-29 on.
+Stops at STOP (1918-01-01): the Globe's date is the World's only in 1917. From 1918 the Globe ran increasingly late
+(T Campbell: its 1920-05-02 puzzle is the World's 1919-10-12; docs/CAMPBELL-CROSSCHECK.md), so no World number is
+inferred for Globe rows after 1917-12-30.
 """
 import datetime as dt
 import subprocess
@@ -23,7 +22,7 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "tools"))
 from record import printings, number_of, solution_only  # noqa: E402
 
-STOP = "1923-04-29"
+STOP = "1918-01-01"
 HOW = "(anchor: the World Magazine solutions box on Tacoma 1917-07-22 gives World dates two weeks before Tacoma's; the Globe and the Journal ran two weeks before Tacoma)"
 rows = printings()
 anchor = {}
