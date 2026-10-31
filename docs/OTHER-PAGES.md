@@ -16,3 +16,9 @@ Scans in `../newyorkworld-scans/`, not indexed in `printings.tsv`.
   Day special; a Marathon puzzle ran 05-31 with winners named 06-07 and 06-14). The one-offs' "gaps" rows in
   gaps.tsv are just that: unrelated pages.
   Convention: Saturday 1924-05-24 says the puzzlers' convention was held in New York the Sunday before (05-18).
+
+Update 2026-10-31 (end of the intake): the weekday series now run to 1924-10-12. Saturday 1924-10-04 announces "beginning next
+Monday, the daily puzzle will start"; the first week of the Globe's daily run (Mon 1924-10-06, Tue 10-07, Thu 10-09, Fri 10-10) is in
+`boston-globe-other-days`, each page with its own 13x13 puzzle and "Solution of Yesterday's"; the Wednesday 10-08 and Saturday 10-11
+pages are in their own series. Not yet held: Wednesday 1924-02-06 is the earliest Wednesday page, Sundays and weekdays after
+1924-10-12, and the weekdays between 1924-05-30 and 10-06 other than Wednesdays and Saturdays.
