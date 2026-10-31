@@ -8,6 +8,11 @@ after the World. The Boston Globe and the Minneapolis Journal ran each puzzle tw
 Tacoma (matched copies), so their 1917 dates are the World's own. This script sets world_no on
 1917 printings accordingly: Globe/Journal date, or Tacoma date minus two weeks, applied to every
 copy of the same puzzle_key; it never overrides a printed number. Re-run after an intake.
+
+Stops at STOP: the Globe's Sunday puzzle of 1923-04-29 is the first to carry a reader's name and town
+(Marblehead), and from 1923-08-05 most pages do; by 1923-10-21 the Globe was asking readers for puzzles.
+Its pages still answer the week before, but from the first reader credit on we no longer claim the puzzle is
+the World's, so no World number is inferred from 1923-04-29 on.
 """
 import datetime as dt
 import subprocess
@@ -18,11 +23,12 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "tools"))
 from record import printings, number_of, solution_only  # noqa: E402
 
+STOP = "1923-04-29"
 HOW = "(anchor: the World Magazine solutions box on Tacoma 1917-07-22 gives World dates two weeks before Tacoma's; the Globe and the Journal ran two weeks before Tacoma)"
 rows = printings()
 anchor = {}
 for r in rows:
-    if r["world_no_printed"] or solution_only(r) or r["date"] < "1917":
+    if r["world_no_printed"] or solution_only(r) or r["date"] < "1917" or r["date"] >= STOP:
         continue
     if r["paper"] in ("boston-globe", "minneapolis-journal"):
         wd, how = r["date"], f"World date = the {r['paper']} date"
@@ -35,7 +41,7 @@ for r in rows:
         anchor[k] = (wd, how)
 n = 0
 for r in rows:
-    if r["world_no"] or r["world_no_printed"] or r["date"] < "1917" or solution_only(r):
+    if r["world_no"] or r["world_no_printed"] or r["date"] < "1917" or r["date"] >= STOP or solution_only(r):
         continue
     k = r["puzzle_key"] or r["file"]
     if k in anchor:
