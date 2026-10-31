@@ -9,6 +9,8 @@ draw nothing from those numbers. See [CAMPBELL-CROSSCHECK.md](CAMPBELL-CROSSCHEC
 
 ## 0. Where things are
 
+- Browsing an issue by hand: the Minneapolis Journal always puts the FUN puzzle page right after
+  the classifieds, which makes it quick to find (Alex DeJarnatt, 2026-10-31).
 - Images: `../newyorkworld-scans/pages/`, named as Newspapers.com downloads them:
   `The_Boston_Globe_1919_07_13_81.jpg` (paper, date, viewer page). A zip from a collaborator:
   unzip into a scratch folder first, then move only `*.jpg` page files into `pages/`; delete

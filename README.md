@@ -42,9 +42,11 @@ by the World. A Sunday when the paper ran no FUN puzzle is `not-carried`.
 | `status.tsv` | One row per World puzzle, No. 1 to No. 211 (1913-12-21 to 1917-12-30), with its inferred date, whether we have a copy, and from where. Derived by `tools/record.py rebuild`; only `notes` is kept by hand. |
 | `printings.tsv` | One row per copy we have a page for: paper, date, page, the number printed in the grid, heading, credit, copyright line, first-clue key, which solution the page carries, the Newspapers.com link, and the World number it is matched to (and how). Hand-indexed from the image. |
 | `searches.tsv` | One row per paper and Sunday looked for: queued (which batch), found, no-hit, not-carried, missing-from-scans. The coverage log and the queue. |
+| `links.tsv` | One row per checked link: which page's solution answers which page's puzzle, across papers, with the kind of evidence and who checked. |
+| `chains.tsv`, `chain_breaks.tsv`, `chain_pages.tsv`, `reruns.tsv` | The unbroken chains of linked puzzles, the breaks between them, which chain each page sits in, and same-first-clue candidates for reprints. Derived by `rebuild`; see [docs/CHAINS.md](docs/CHAINS.md). |
 | `papers.tsv` | The papers whose copies we use, with what each one's copy looks like. |
 | `series.tsv` | The World's series and each paper's run, with dates and status. |
-| `tools/record.py` | `new`, `add`, `search`, `queue`, `rebuild`, `show`: the only way the tables change. |
+| `tools/record.py` | `new`, `add`, `link`, `search`, `queue`, `rebuild`, `show`: the only way the tables change. |
 | `tools/render.py` | Builds the status page (`site/index.html`) from the tables; runs on every push. |
 
 The Boston Globe printed each puzzle on the World's own date in 1917 (the World Magazine solutions box Tacoma reprinted on 1917-07-22 dates the chain), and not after: by 1919 it was out of step and by 1920 months behind (docs/CAMPBELL-CROSSCHECK.md). Its 1918 to 1924 pages are good copies without World numbers.

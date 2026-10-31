@@ -48,14 +48,14 @@ minneapolis-journal	1915-01-17	4	found	batch 4: 1915 sequential fill
 minneapolis-journal	1915-01-24	4	found	batch 4: 1915 sequential fill
 minneapolis-journal	1915-01-31	4	found	batch 4: 1915 sequential fill
 minneapolis-journal	1915-02-07	1	found	batch 1: spot check, one Sunday every two months, plus the Sundays around the Globe's 1917-02-25 puzzle
-minneapolis-journal	1915-02-14	4	no-hit	no hit for cross-word or puzzle in the Journal that date (Alex DeJarnatt, 2026-10-29)
-minneapolis-journal	1915-02-21	4	no-hit	no hit for cross-word or puzzle in the Journal that date (Alex DeJarnatt, 2026-10-29)
-minneapolis-journal	1915-02-28	4	no-hit	no hit for cross-word or puzzle in the Journal that date (Alex DeJarnatt, 2026-10-29)
+minneapolis-journal	1915-02-14	4	not-carried	Alex DeJarnatt went page by page through the issue, 2026-10-31: no puzzle
+minneapolis-journal	1915-02-21	4	not-carried	Alex DeJarnatt browsed the issue, 2026-10-31: no puzzle, at least in the scans Newspapers.com holds
+minneapolis-journal	1915-02-28	4	not-carried	Alex DeJarnatt browsed the issue, 2026-10-31: no puzzle, at least in the scans Newspapers.com holds
 minneapolis-journal	1915-03-07	4	found	batch 4: 1915 sequential fill
 minneapolis-journal	1915-03-14	4	found	batch 4: 1915 sequential fill
 minneapolis-journal	1915-03-21	4	found	batch 4: 1915 sequential fill
 minneapolis-journal	1915-03-28	4	found	batch 4: 1915 sequential fill
-minneapolis-journal	1915-04-04	1	not-carried	nothing ran in between: the 1915-04-11 page's solution answers the 1915-03-28 puzzle
+minneapolis-journal	1915-04-04	1	found	Alex DeJarnatt found the page, 2026-10-31; two low-res clips in hand, full page still to download (daily limit)
 minneapolis-journal	1915-04-11	4	found	batch 4: 1915 sequential fill
 minneapolis-journal	1915-04-18	4	found	batch 4: 1915 sequential fill
 minneapolis-journal	1915-04-25	4	found	batch 4: 1915 sequential fill
@@ -63,7 +63,7 @@ minneapolis-journal	1915-05-02	4	found	batch 4: 1915 sequential fill
 minneapolis-journal	1915-05-09	4	found	batch 4: 1915 sequential fill
 minneapolis-journal	1915-05-16	4	found	batch 4: 1915 sequential fill
 minneapolis-journal	1915-05-23	4	found	batch 4: 1915 sequential fill
-minneapolis-journal	1915-05-30	4	no-hit	no hit for cross-word or puzzle in the Journal that date (Alex DeJarnatt, 2026-10-29)
+minneapolis-journal	1915-05-30	4	not-carried	Alex DeJarnatt went page by page through the issue, 2026-10-31: no puzzle
 minneapolis-journal	1915-06-06	1	found	batch 1: spot check, one Sunday every two months, plus the Sundays around the Globe's 1917-02-25 puzzle
 minneapolis-journal	1915-06-13	4	found	Alex browsed the issue (2026-10-30): only the answer key to the previous puzzle, no new puzzle that week
 minneapolis-journal	1915-06-20	4	missing-from-scans	Alex browsed the whole issue (2026-10-30): only the answer key, no puzzle; same on 06-13. The 06-27 solution (X/diamond-ish, ~20x25) answers a puzzle that is on neither date: likely a page absent from Newspapers.com or the syndicate ran the key without the puzzle

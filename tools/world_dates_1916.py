@@ -9,6 +9,7 @@ before (printings.tsv `continuity`), and on the two Sundays it printed comics in
 09-10) the syndicate's solution still ran the next week, so the Journal skipped those World
 puzzles rather than falling behind. A zero offset in January 1917 therefore holds back to
 1915-11-21: World No. = the number of the Journal's own date. Marked inferred on every row.
+The exception is November 1916, when the Journal ran a week late: tools/world_dates_copies.py corrects it.
 
 Not covered: 1915-01-17 to 07-25, where the offset is three weeks at No. 54 and grows by one for
 each Sunday the Journal skipped, with three February Sundays unknown: a range, not a number.
