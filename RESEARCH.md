@@ -78,13 +78,15 @@ aren't lost; move each into a catalog entry with its source.
   Newspapers.com, 2026-10-31), prints "Cross Word Puzzle", "Puzzle No. 12", numbered to 77,
   with "How to Solve the Cross Word Puzzle", "Solution of Last Week's Puzzle" and "(Copyright,
   1924 by The Bell Syndicate, Inc.)". Yonkers was running a daily puzzle by then, and only the
-  Saturday carries the Bell line (Alex DeJarnatt, 2026-10-31), so what No. 12 counts depends on
-  whether the weekday puzzles share the numbering. Counting Saturdays only, No. 1 falls on
-  1924-07-19; counting Monday-Saturday, on Monday 1924-09-22. Neither reaches Burlington's 03-13
-  start, so the number looks like Yonkers's own or a second series (Bell's October 1924 ad
-  offers "Two Crackerjack Puzzle Services"; E&P has Bell at twice a week that month). To check:
-  whether the weekday puzzles are numbered and whose they are. The Burlington crop shows no
-  number; comparing the two papers' puzzles for the same weeks would settle the rest.
+  Saturday carries the Bell line (Alex DeJarnatt, 2026-10-31). No. 11 ran Saturday 09-27, and
+  the paper of Friday 09-26 announces that the Statesman's crossword will run every Saturday
+  from tomorrow. So the Saturday series opens at No. 11, not No. 1, and the number is not a
+  count of Yonkers's Saturdays. Either the earlier puzzles count up to it (ten weekdays back
+  from 09-27 is Monday 09-15), or it is Bell's own number: weekly, Bell's No. 1 falls on
+  1924-07-19, after Burlington's 03-13 start, which could mean a second series (Bell's October
+  1924 ad offers "Two Crackerjack Puzzle Services"; E&P has Bell at twice a week that month).
+  To check: whether Yonkers's puzzles before 09-27 are numbered 1-10, and whose they are. The
+  Burlington crop shows no number; comparing the two papers' puzzles would settle the rest.
 - **George Matthew Adams Service's 1924 crossword**: The Daily Times, Davenport, Iowa,
   1924-12-29 (Alex DeJarnatt, Newspapers.com, 2026-10-31) prints "Your Cross Word Puzzle",
   "(Copyright, 1924, George Matthew Adams)", no byline. Small, 9 by 9; its footer says "The
