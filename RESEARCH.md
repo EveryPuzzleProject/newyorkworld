@@ -71,9 +71,12 @@ aren't lost; move each into a catalog entry with its source.
   Newspapers.com, 2026-10-31) prints "Cross Word Puzzle" with a short "Introduction" that says
   where beginners may start, then "(Copyright 1924 by the Bell Syndicate, Inc.)", then the
   grid, so the line belongs to the puzzle. This is a month before E&P's first listing (October
-  1924), and agrees with Crossword Craze's Burlington start of 1924-03-13 (see
-  docs/CAMPBELL-CROSSCHECK.md). Both dates are Thursdays, so possibly a regular day; not
-  checked. The intro is worth searching on: nothing in printings.tsv mentions one like it.
+  1924). Burlington's 1924-03-13 page (Alex DeJarnatt, 2026-10-31) is also a Bell puzzle, says
+  the solution will be in next Thursday's Free Press and prints no earlier solution, so it may
+  be the paper's first, as Crossword Craze has it (see docs/CAMPBELL-CROSSCHECK.md), and the
+  puzzle ran weekly on Thursdays. Bell's own start is earlier if Crossword Craze's Indianapolis
+  Star of February 1924 holds. If Burlington missed no week, 09-18 is its 28th puzzle.
+  The intro is worth searching on: nothing in printings.tsv mentions one like it.
   Numbered in another paper: Yonkers Statesman 1924-10-04, a Saturday (Alex DeJarnatt,
   Newspapers.com, 2026-10-31), prints "Cross Word Puzzle", "Puzzle No. 12", numbered to 77,
   with "How to Solve the Cross Word Puzzle", "Solution of Last Week's Puzzle" and "(Copyright,
