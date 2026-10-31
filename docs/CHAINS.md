@@ -79,8 +79,9 @@ Pittsburgh Press of 1917-03-04 (clip, 2026-10-31): the same puzzle as Shreveport
 (No. 166). Pittsburgh's 02-25 page has no puzzle and prints the 02-11 solution, so 03-04's is the next
 puzzle in its run. That closes the link, and 107 puzzles, November 1915 to December 1917, now reach
 the box. The week with no puzzle is also where Pittsburgh's lag goes from one week to two. The full
-page adds a good copy; the link doesn't wait for it. Its solutions box, if it has one, should be
-either nothing or a reprint, because no new puzzle ran the week before.
+page adds a good copy; the link doesn't wait for it. Alex looked through the 03-04 issue and it has
+no solutions anywhere, which fits: no new puzzle ran the week before. The puzzle's own solution is
+already held, on Shreveport 1917-03-11, so 02-18 links forward to 02-25 without Pittsburgh.
 
 ## What the chains corrected
 
