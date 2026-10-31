@@ -67,6 +67,13 @@ aren't lost; move each into a catalog entry with its source.
   early 1926, while still running Bell. Crossword Craze has Bell syndicating crosswords from
   February 1924 (see docs/CAMPBELL-CROSSCHECK.md), so whether Liberty's puzzles have any Bell
   connection is worth asking. Not yet known: when they start, who made them, how long they ran.
+- **Bell Syndicate's 1924 crossword**: Burlington Free Press 1924-09-18 (Alex DeJarnatt,
+  Newspapers.com, 2026-10-31) prints "Cross Word Puzzle" with a short "Introduction" that says
+  where beginners may start, then "(Copyright 1924 by the Bell Syndicate, Inc.)", then the
+  grid, so the line belongs to the puzzle. This is a month before E&P's first listing (October
+  1924), and agrees with Crossword Craze's Burlington start of 1924-03-13 (see
+  docs/CAMPBELL-CROSSCHECK.md). Both dates are Thursdays, so possibly a regular day; not
+  checked. The intro is worth searching on: nothing in printings.tsv mentions one like it.
 
 ## How firm the no-hits are
 
