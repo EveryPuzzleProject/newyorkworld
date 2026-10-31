@@ -77,10 +77,14 @@ aren't lost; move each into a catalog entry with its source.
   Numbered in another paper: Yonkers Statesman 1924-10-04, a Saturday (Alex DeJarnatt,
   Newspapers.com, 2026-10-31), prints "Cross Word Puzzle", "Puzzle No. 12", numbered to 77,
   with "How to Solve the Cross Word Puzzle", "Solution of Last Week's Puzzle" and "(Copyright,
-  1924 by The Bell Syndicate, Inc.)". Weekly, No. 12 counts back to No. 1 on 1924-07-19, well
-  after Burlington's 03-13 start, so the number may be Yonkers's own, or a second series (Bell's
-  October 1924 ad offers "Two Crackerjack Puzzle Services"). The Burlington crop shows no
-  number. Comparing the two papers' puzzles for the same weeks would settle it.
+  1924 by The Bell Syndicate, Inc.)". Yonkers was running a daily puzzle by then, and only the
+  Saturday carries the Bell line (Alex DeJarnatt, 2026-10-31), so what No. 12 counts depends on
+  whether the weekday puzzles share the numbering. Counting Saturdays only, No. 1 falls on
+  1924-07-19; counting Monday-Saturday, on Monday 1924-09-22. Neither reaches Burlington's 03-13
+  start, so the number looks like Yonkers's own or a second series (Bell's October 1924 ad
+  offers "Two Crackerjack Puzzle Services"; E&P has Bell at twice a week that month). To check:
+  whether the weekday puzzles are numbered and whose they are. The Burlington crop shows no
+  number; comparing the two papers' puzzles for the same weeks would settle the rest.
 - **George Matthew Adams Service's 1924 crossword**: The Daily Times, Davenport, Iowa,
   1924-12-29 (Alex DeJarnatt, Newspapers.com, 2026-10-31) prints "Your Cross Word Puzzle",
   "(Copyright, 1924, George Matthew Adams)", no byline. Small, 9 by 9; its footer says "The
