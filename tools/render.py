@@ -123,14 +123,16 @@ def main() -> None:
         short = lambda s: s.replace("nyw", "").replace("minneapolis-journal ", "Journal ").replace("boston-globe ", "Globe ")
         t0, t1 = dt.date(1914, 2, 1), dt.date(1924, 10, 12)
         at = lambda d: 100 * (dt.date.fromisoformat(d) - t0).days / (t1 - t0).days
-        cls = lambda c: "fl" if c["anchor"].startswith("floating") else "an"
+        cls = lambda c: ("fl" if c["anchor"].startswith("floating") else "an") + (" te" if c["standing"] == "tentative" else "")
         segs = "".join(f'<a class="cs {cls(c)}" href="#{e(c["chain"])}" style="left:{at(c["first_date"]):.2f}%;width:max(3px,{at(c["last_date"]) - at(c["first_date"]):.2f}%)" title="{e(c["chain"])}: {e(short(c["first"]))} to {e(short(c["last"]))}, {e(c["puzzles"])} puzzles"></a>' for c in chains)
         years = "".join(f'<span class="cy" style="left:{at(f"{y}-01-01") if y > 1914 else 0:.2f}%">{y}</span>' for y in range(1914, 1925))
         strip = f'<div class="ct">{segs}</div><div class="cyr">{years}</div>'
         after = {b["after"]: b for b in breaks}
         rows = []
         for c in chains:
-            size = f'{e(c["puzzles"])} puzzle{"s" * (c["puzzles"] != "1")}, {e(c["links"])} link{"s" * (c["links"] != "1")}'
+            size = f'{e(c["puzzles"])} puzzle{"s" * (c["puzzles"] != "1")}, {e(c["verified_links"])} verified link{"s" * (c["verified_links"] != "1")}'
+            if c["standing"] == "tentative":
+                size += f'<br><span class=warn>tentative: {e(c["tentative_links"])} more link{"s" * (c["tentative_links"] != "1")} by series, no solution</span>'
             empty = f'<br><span class=muted>weeks with no puzzle in any paper, passed by a link: {e(short(c["empty_slots"]))}</span>' if c["empty_slots"] else ""
             rows.append(f'<tr id="{e(c["chain"])}"><td><b>{e(c["chain"])}</b></td><td>{e(short(c["first"]))} to {e(short(c["last"]))}{empty}</td>'
                         f'<td>{size}</td><td>{e(c["anchor"])}</td></tr>')
@@ -138,7 +140,9 @@ def main() -> None:
             if b:
                 w = f'{link_date(b)}' if b["want_paper"] else f'<span class=muted>{e(b["want_why"] or "nothing known to try")}</span>'
                 rows.append(f'<tr class="brk"><td class=warn>break</td><td colspan=2><b>{e(b["reason"])}</b> <span class=muted>{e(short(b["detail"]))}</span></td><td>{w}</td></tr>')
-        return f'{strip}<div class="scroll"><table><thead><tr><th>Chain</th><th>Span</th><th>Size</th><th>Anchored by / page that joins the break</th></tr></thead><tbody>{"".join(rows)}</tbody></table></div>'
+        verified, tentative = (sum(int(c[k]) for c in chains) for k in ("verified_links", "tentative_links"))
+        counts = f"<p>{len(chains)} chains, {len(breaks)} breaks: <b>{verified}</b> verified links, <b>{tentative}</b> tentative.</p>"
+        return f'{strip}{counts}<div class="scroll"><table><thead><tr><th>Chain</th><th>Span</th><th>Size</th><th>Anchored by / page that joins the break</th></tr></thead><tbody>{"".join(rows)}</tbody></table></div>'
 
     def link_date(b: dict) -> str:
         return f'{e(pname(b["want_paper"]))} <b>{e(b["want_date"])}</b> · {date_links({"paper": b["want_paper"], "date": b["want_date"]})}'
@@ -402,7 +406,7 @@ tr.flagged td {{ background:color-mix(in srgb, var(--warn) 10%, transparent) }}
 .seg.have, .pill.have {{ background:var(--s-have) }} .seg.wanted, .pill.wanted {{ background:var(--s-wanted) }}
 .warn {{ color:var(--warn) }} .have {{ color:var(--s-have) }}
 .ct {{ position:relative; height:18px; background:var(--s-wanted); border-radius:2px; margin:12px 0 2px; overflow:hidden }} .cs {{ position:absolute; top:0; bottom:0; border-right:1px solid var(--bg) }}
-.cs.an {{ background:var(--s-have) }} .cs.fl {{ background:var(--accent) }} .cyr {{ position:relative; height:16px; font:11px system-ui, sans-serif; color:var(--muted); margin-bottom:10px }} .cy {{ position:absolute }}
+.cs.an {{ background:var(--s-have) }} .cs.fl {{ background:var(--accent) }} .cs.te {{ opacity:.55 }} .cyr {{ position:relative; height:16px; font:11px system-ui, sans-serif; color:var(--muted); margin-bottom:10px }} .cy {{ position:absolute }}
 tr.brk td {{ background:color-mix(in srgb, var(--warn) 7%, transparent) }}
 .cg {{ font:11px system-ui, sans-serif; overflow-x:auto; margin:4px 0 12px }} .cr {{ display:flex; align-items:center; gap:2px; margin:2px 0 }}
 .cl {{ width:11em; flex:none; color:var(--muted); white-space:nowrap; overflow:hidden; text-overflow:ellipsis }}
@@ -444,7 +448,7 @@ The following week's solution proves each one exists.</li>
 <h2 id="chains">Chains: what links to what</h2>
 <p>A link says that a page's printed solution answers an earlier puzzle, checked on the scans, across papers where it has to be. A chain is an unbroken run of links:
 each puzzle's successor is proved, not inferred from a date. Green chains reach a fixed point (a printed grid number, or the World Magazine's dated solutions box of July 1917);
-blue chains float, in order among themselves. The series is dated: a puzzle goes by its World Sunday, inferred, with its number in brackets (printed by the World only through 1915-01-17, an index after that). A puzzle with no World date yet goes by its page. Method and results: <a href="{REPO}/blob/main/docs/CHAINS.md">docs/CHAINS.md</a>.</p>
+blue chains float, in order among themselves. A chain resting on a tentative link, one no printed solution proves, is marked so and drawn paler. The series is dated: a puzzle goes by its World Sunday, inferred, with its number in brackets (printed by the World only through 1915-01-17, an index after that). A puzzle with no World date yet goes by its page. Method and results: <a href="{REPO}/blob/main/docs/CHAINS.md">docs/CHAINS.md</a>.</p>
 {chains_section()}
 <p>The same first clue can come back years later: the Globe seems to have reprinted much of 1916 in 1918 and 1919, which may explain more of its "drift" than delay does. Nothing here treats these as the same puzzle; they are for checking.</p>
 {reruns_table()}

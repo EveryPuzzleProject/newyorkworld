@@ -17,7 +17,7 @@ Three tables, all tab-separated, all edited only through this tool:
                                               clip:<paper>:<date>). Keys: world_no_printed heading_no
                                               heading credit copyright_line fun_credit shape fingerprint
                                               solution_label solution_of (a number or a puzzle_key) url printed_page notes match world_no puzzle_key (copies of one unnumbered puzzle share a key) continuity (the solution on this page answers the previous found page's puzzle: yes / no / none printed / unclear)
-  python tools/record.py link PUZZLE_FILE SOLUTION_FILE kind=grid|label|dated verdict=yes|no|unclear checked_by=… [next_page=FILE] [note=…]
+  python tools/record.py link PUZZLE_FILE SOLUTION_FILE kind=grid|label|dated|series verdict=yes|no|unclear|tentative checked_by=… [next_page=FILE] [note=…]
                                               a checked link: the solution on SOLUTION_FILE answers the puzzle on PUZZLE_FILE
                                               (links.tsv; papers may differ; next_page: the puzzle that follows, when it isn't SOLUTION_FILE's own)
   python tools/record.py search PAPER DATE result=no-hit|not-carried|missing-from-scans [note=…]
@@ -46,7 +46,8 @@ PRINTING_COLS = ["file", "paper", "date", "page", "printed_page", "world_no_prin
                  "url", "world_no", "puzzle_key", "sunday_inferred", "lag_weeks", "match", "continuity", "flag", "notes"]
 SEARCH_COLS = ["paper", "date", "batch", "result", "note"]
 LINK_COLS = ["puzzle_page", "solution_page", "next_page", "kind", "verdict", "checked_by", "note"]
-LINK_KINDS = ["grid", "label", "dated"]  # the solution grid compared by eye; a printed "solution of No. n"; a printed date
+LINK_KINDS = ["grid", "label", "dated", "series"]  # the solution grid compared by eye; a printed "solution of No. n"; a printed date;
+# series: no solution, but the puzzles plainly belong together. Always verdict tentative, never counted as verified.
 STATUS_COLS = ["world_no", "sunday_inferred", "status", "copies", "heading", "credit", "fingerprint",
                "solution_seen", "flag", "notes"]
 RESULTS = ["queued", "found", "no-hit", "not-carried", "missing-from-scans"]
@@ -193,8 +194,10 @@ def link(args) -> None:
     unknown = set(kv) - {"kind", "verdict", "checked_by", "next_page", "note"}
     if unknown:
         sys.exit(f"can't set {' '.join(sorted(unknown))}")
-    if kv.get("kind") not in LINK_KINDS or kv.get("verdict") not in ("yes", "no", "unclear") or not kv.get("checked_by"):
-        sys.exit(f"kind ({'/'.join(LINK_KINDS)}), verdict (yes/no/unclear) and checked_by are required")
+    if kv.get("kind") not in LINK_KINDS or kv.get("verdict") not in ("yes", "no", "unclear", "tentative") or not kv.get("checked_by"):
+        sys.exit(f"kind ({'/'.join(LINK_KINDS)}), verdict (yes/no/unclear/tentative) and checked_by are required")
+    if (kv["kind"] == "series") != (kv["verdict"] == "tentative"):
+        sys.exit("a series link is tentative, and only a series link is")
     if kv.get("next_page") and kv["next_page"] not in pr:
         sys.exit(f"{kv['next_page']}: not in printings.tsv")
     rows = links()

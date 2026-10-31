@@ -22,6 +22,7 @@ The evidence, strongest first:
 | label | a printed "Solution to No. 16" | `solution_of` |
 | grid | shape and answers compared by eye | `continuity`, `links.tsv` |
 | printed numbers | two consecutive numbers printed by the World, up to 1915-01-17 | `world_no_printed` |
+| series | **tentative, not verified**: no solution ties the puzzles, but they plainly belong together | `links.tsv`, verdict `tentative` |
 
 A verdict in `links.tsv` overrides `continuity`. Only verdicts go in. Nobody types clues or answers
 into the tables. Checks follow [CHAIN-BRIEF.md](CHAIN-BRIEF.md) and go through `tools/import_links.py`.
@@ -35,13 +36,18 @@ by its page. The puzzles stand in this order: 1914-02-01 to 1914-12-27, the Jour
 a printed number or the 1917 solutions-box dates, otherwise **floating**: its order is proved, but
 where it sits on the calendar isn't.
 
+A chain that rests on a tentative link is marked tentative in `chains.tsv` and on the page, and
+counts of verified and tentative links are kept apart. There are two: F to U and U to N, the
+letter-shaped puzzles of 1915-01-24 to 02-07, plainly a sequence spelling FUN (Alex DeJarnatt,
+2026-10-31). They ran without solutions, so no solution can prove them.
+
 **An empty week** is a World Sunday no paper has a puzzle for, passed over by a link. From 1915
 such a link doesn't break the chain, because the week exists only in the count. Before that it
 does, because the World printed the numbers on either side, so that puzzle exists.
 
 ## Result
 
-12 chains, 11 breaks. All 828 pages are accounted for in `chain_pages.tsv`: 699 sit in exactly
+10 chains, 9 breaks, 2 of the links tentative. All 828 pages are accounted for in `chain_pages.tsv`: 699 sit in exactly
 one chain, 117 are the Globe's own weekday series, 11 hold no puzzle, and one, the World's
 1914-01-11 (No. 4), comes before the chains start on 1914-02-01 (No. 7).
 
@@ -50,14 +56,13 @@ one chain, 117 are the Globe's own weekday series, 11 hold no puzzle, and one, t
 | C1 | 1914-02-01 (No. 7) to 1914-08-02 (No. 33) | 27 | printed numbers |
 | C2 | 1914-08-16 (No. 35) to 1914-11-08 (No. 47) | 13 | printed numbers |
 | C3 | 1914-11-15 (No. 48) to 1914-12-13 (No. 52) | 5 | floating |
-| C4 | 1914-12-27 (No. 54) to the Journal's 1915-01-24 (F) | 2 | printed number |
-| C5, C6 | the Journal's 1915-01-31 (U), 02-07 (N) | 1 each | floating |
-| C7 | the Journal's 1915-03-07 to 04-04 | 5 | floating |
-| C8 | the Journal's 1915-04-11 to 05-23 | 6 | floating |
-| C9 | the Journal's 1915-06-06 | 1 | floating |
-| C10 | the Journal's 1915-06-27 to 07-25 | 5 | floating |
-| **C11** | **1915-11-21 (No. 101) to 1917-12-30 (No. 211)** | 107 | solutions box |
-| **C12** | **the Globe, 1918-01-06 to 1924-10-12** | 353 | floating |
+| C4 | 1914-12-27 (No. 54) to the Journal's 1915-02-07 (F, U, N) | 4 | printed number; **tentative**, 2 of its 3 links |
+| C5 | the Journal's 1915-03-07 to 04-04 | 5 | floating |
+| C6 | the Journal's 1915-04-11 to 05-23 | 6 | floating |
+| C7 | the Journal's 1915-06-06 | 1 | floating |
+| C8 | the Journal's 1915-06-27 to 07-25 | 5 | floating |
+| **C9** | **1915-11-21 (No. 101) to 1917-12-30 (No. 211)** | 107 | solutions box |
+| **C10** | **the Globe, 1918-01-06 to 1924-10-12** | 353 | floating |
 
 ## The breaks, and the page that closes each
 
@@ -66,7 +71,6 @@ one chain, 117 are the Globe's own weekday series, 11 hold no puzzle, and one, t
 | 1914-08-02 / 08-16 | the Journal never ran 08-09 (No. 34); its page answers No. 33 | the World's own page |
 | 1914-11-08 / 11-15 | the Journal's 12-06 solution is too small to read; shape agrees, answers can't be checked | the World's own page, or a better scan of the Journal's |
 | 1914-12-13 / 12-27 | 12-20 (No. 53) lost; the Journal's 1915-01-17 page answers its 01-03 | the World's own page |
-| F / U / N | the three letter-shaped puzzles had no solutions (Alex DeJarnatt, 2026-10-30) | the World's own pages |
 | N / 1915-03-07 | the Journal's 02-14 has no puzzle (Alex DeJarnatt, page by page, 2026-10-31); 02-21 and 02-28 are text-search misses | browse the Journal's 1915-02-21 and 02-28, else another paper's copy |
 | 1915-04-04 / 04-11 | the 04-04 puzzle is held only as a clip with no clue list; the 04-11 solution has its grid, but the answers can't be checked, and 03-28 has the same grid | **the Journal's full 1915-04-04 page** (Alex has found it) |
 | 1915-05-23 / 06-06 | no solution held for 05-23; the Journal's 05-30 has no puzzle (Alex DeJarnatt, page by page, 2026-10-31) | another paper's copy; no partner known in 1915 |

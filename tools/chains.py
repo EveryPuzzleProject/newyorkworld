@@ -25,7 +25,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from record import LAGS, links, printings, searches, solution_only, sunday_of, write_tsv  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
-CHAIN_COLS = ["chain", "first", "last", "first_date", "last_date", "puzzles", "links", "empty_slots", "anchor"]
+CHAIN_COLS = ["chain", "first", "last", "first_date", "last_date", "puzzles", "verified_links", "tentative_links", "empty_slots", "anchor", "standing"]
 BREAK_COLS = ["break", "after", "before", "after_date", "before_date", "reason", "detail", "want_paper", "want_date", "want_why"]
 PAGE_COLS = ["file", "paper", "date", "puzzle", "chain", "why_none"]
 OTHER_SERIES = ("boston-globe-saturday", "boston-globe-wednesday", "boston-globe-other-days")
@@ -35,6 +35,12 @@ BOX = 182             # the World Magazine solutions box dates Nos. 182, 183 and
 DEAD = ("no-hit", "not-carried", "missing-from-scans")
 RERUN_COLS = ["clue_key", "first_paper", "first_date", "first_shape", "later_paper", "later_date", "later_shape", "weeks"]
 RERUN_WEEKS = 26
+TENTATIVE = "tentative:"
+
+
+def is_tentative(evidence: list[str]) -> bool:
+    """A link is tentative if nothing but tentative evidence holds it."""
+    return all(e.startswith(TENTATIVE) for e in evidence)
 
 
 def label(node) -> str:
@@ -90,7 +96,7 @@ def build(pr: list[dict], li: list[dict]):
 
     edges: dict = {}
     seen: dict = {}
-    refuted = {(l["puzzle_page"], l["solution_page"]) for l in li if l["verdict"] != "yes"}  # a checked verdict overrides a continuity "yes"
+    refuted = {(l["puzzle_page"], l["solution_page"]) for l in li if l["verdict"] in ("no", "unclear")}  # a checked verdict overrides a continuity "yes"
 
     def add(a, b, ev):
         if a in pos and b in pos and pos[a] < pos[b]:
@@ -123,6 +129,8 @@ def build(pr: list[dict], li: list[dict]):
             continue
         if l["verdict"] == "yes":
             add(node_of(a), b, f"{s['paper']} {s['date']}: {l['kind']} check against {a['paper']} {a['date']} ({l['checked_by']})")
+        elif l["verdict"] == "tentative":
+            add(node_of(a), b, f"{TENTATIVE} {l['kind']}, {l['checked_by']}: {l['note']}")
         else:
             seen.setdefault(b, []).append((l["verdict"], s, node_of(a)))
     printed = {int(r["world_no_printed"]) for r in main if r["world_no_printed"]}
@@ -222,8 +230,9 @@ def compute(pr, se, li):
     rows = []
     for i, ns in enumerate(chains, 1):
         empty = [label(x) for a, b in zip(ns, ns[1:]) if isinstance(a, int) and isinstance(b, int) for x in range(a + 1, b)]
+        tent = sum(is_tentative(edges[p]) for p in zip(ns, ns[1:]))
         rows.append({"chain": f"C{i}", "first": label(ns[0]), "last": label(ns[-1]), "first_date": date_of(ns[0]), "last_date": date_of(ns[-1]),
-                     "puzzles": str(len(ns)), "links": str(len(ns) - 1), "empty_slots": "; ".join(empty), "anchor": anchor_of(ns, nodes), "_nodes": ns})
+                     "puzzles": str(len(ns)), "verified_links": str(len(ns) - 1 - tent), "tentative_links": str(tent), "standing": "tentative" if tent else "verified", "empty_slots": "; ".join(empty), "anchor": anchor_of(ns, nodes), "_nodes": ns})
     of = {n: c["chain"] for c in rows for n in c["_nodes"]}
     pages_out = []
     for r in sorted(pr, key=lambda r: (r["date"], r["paper"], r["file"])):
@@ -283,7 +292,7 @@ def main() -> None:
     rows, breaks, _, _ = compute(printings(), searches(), links())
     for c in rows:
         print(c["chain"], c["first"], c["first_date"], "..", c["last"], c["last_date"], f"{c['puzzles']} puzzles,", c["anchor"], ("empty: " + c["empty_slots"]) if c["empty_slots"] else "")
-    print(len(breaks), "breaks")
+    print(len(breaks), "breaks;", sum(int(c["verified_links"]) for c in rows), "verified links,", sum(int(c["tentative_links"]) for c in rows), "tentative")
     for b in breaks:
         print(" ", b["break"], "|", b["reason"], "|", b["detail"][:110], "|", b["want_paper"], b["want_date"])
 
