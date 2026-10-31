@@ -9,6 +9,8 @@ copies from the Pittsburg Press, the Journal, the LA Evening Express or the Buff
 across 1918 to 1923 would plot it. Evidence, what it affects and other corrections, including to
 items 2 and 3 below: [docs/CAMPBELL-CROSSCHECK.md](docs/CAMPBELL-CROSSCHECK.md).
 
+**1918 partners (two leads, unverified; observed by Alex DeJarnatt on Newspapers.com, 2026-10-31, pages not yet downloaded because of the daily limit; he will fetch them 2026-11-01).** (1) The Boston Globe's 1918-01-06 puzzle ran in the Pittsburgh Press on 1918-01-20, so Pittsburgh's two-week lag behind the Globe carries on into 1918. (2) The Shreveport Times and the New Orleans States appear to be in step with each other in January 1918. Neither is settled until the pages are indexed. Plan: the four 1918-01-06 pages (Pittsburgh, Globe, New Orleans, Shreveport), plus one Sunday a month through 1918 for Pittsburgh and Shreveport, to date the Globe's floating 1918+ chain.
+
 1. **The Journal's puzzle that moved off its page.** The next week's solution proves a puzzle
    ran, but it isn't on the usual puzzles page: 1916-08-13 and 1916-09-10 (an all-comics page
    sat where the puzzle page should be), 1917-01-14 and 01-21 (the 01-28 solution is Botjer's
