@@ -47,6 +47,8 @@ by the World. A Sunday when the paper ran no FUN puzzle is `not-carried`.
 | `tools/record.py` | `new`, `add`, `search`, `queue`, `rebuild`, `show`: the only way the tables change. |
 | `tools/render.py` | Builds the status page (`site/index.html`) from the tables; runs on every push. |
 
+The Boston Globe printed each puzzle on the World's own date in 1917 (the World Magazine solutions box Tacoma reprinted on 1917-07-22 dates the chain), and not after: by 1919 it was out of step and by 1920 months behind (docs/CAMPBELL-CROSSCHECK.md). Its 1918 to 1924 pages are good copies without World numbers.
+
 A grid printed again on a later Sunday with new clues counts as a second puzzle (the paper ran it as that week's puzzle); the notes on both rows say it is a rerun of the grid (decided 2026-10-30, Globe 1918-06-23 and 07-07).
 
 Printings and puzzles are kept apart: a Boston Globe date is a printing of a World puzzle,

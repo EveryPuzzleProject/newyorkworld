@@ -399,7 +399,7 @@ LAGS = {
     "fort-wayne-journal-gazette": (1, 1, "1916-11-19", "1919-12-28"),
     "seattle-post-intelligencer": (1, 2, "1916-10-08", "1917-12-30"),
     "los-angeles-tribune": (3, 8, "1916-08-06", "1919-12-28"),
-    "boston-globe": (0, 0, "1917-02-25", "1919-12-28"),
+    "boston-globe": (0, 0, "1917-02-25", "1917-12-30"),  # on the World's date in 1917 only (docs/CAMPBELL-CROSSCHECK.md)
     "minneapolis-journal": (0, 0, "1914-02-01", "1917-01-28"),
 }
 WANTED_COLS = ["puzzle", "reference_date", "why", "paper", "date", "status"]
@@ -423,7 +423,7 @@ def write_wanted(pr: list[dict], se: list[dict], st: list[dict], gaps: list[dict
                 rows.append({"puzzle": puzzle, "reference_date": ref, "why": why, "paper": paper, "date": d,
                              "status": searched.get((paper, d), "")})
     # anchored years: World numbers without a copy, from the Globe's first copy on
-    globe_dates = sorted(r["date"] for r in pr if r["paper"] == "boston-globe")
+    globe_dates = sorted(r["date"] for r in pr if r["paper"] == "boston-globe" and r["date"] <= "1917-12-30")
     if globe_dates:
         for r in st:
             if r["status"] == "wanted" and globe_dates[0] <= r["sunday_inferred"] <= globe_dates[-1]:

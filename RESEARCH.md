@@ -11,12 +11,12 @@ when the rate limit allows; a clip is enough to settle the question meanwhile. I
    - 1917-01-14: no puzzle found (comics inserts, Clubland); 01-21's puzzle sits at the bottom of a Clubland page (Alex DeJarnatt, 2026-10-30).
    - 1915-06-13 and 06-20: whole issues browsed, only answer keys, no puzzle; the 06-27 solution answers a puzzle on neither date. Page missing from Newspapers.com or key run without puzzle (Alex DeJarnatt, 2026-10-30).
    - 1916-08-13, 09-10: all-comics page where the puzzle page sits; see searches.tsv.
-2. **The Journal's 1917 run and its end.** The Journal still carried the puzzle on 1917-02-04
+2. **The Journal's 1917 run and its end** (reopened 2026-10-31: T Campbell quotes Journal puzzle intros of 1919-08-03 and 08-17, so the Journal came back to FUN after Frank King's page displaced it in early 1917; when it resumed, and its lag in 1919, are open). The Journal still carried the puzzle on 1917-02-04
    (solution only) and ran the Globe's puzzles on the Globe's dates. Find any Journal Sunday
    after 02-04: its puzzle page may have moved again, and the heading is plain "Cross Word
    Puzzle". The last one found fixes when the Journal dropped FUN.
    **Settled (Alex DeJarnatt, 2026-10-30):** Alex went through the issues page by page for 1917-02-04, 02-11, 02-18, 02-25 and 03-04: no puzzle on any (02-04 carries a solution only); Frank King's "Section of Fun" comics page sits where the puzzle page was, apparently its replacement. The Journal's last FUN puzzle is therefore 1917-01-28 (its solution ran 02-04); 01-21's sat in Clubland at the foot of a page.
-3. **World Nos. 3 to 6 (1914-01-04 to 01-25): a community ask.** Not on Newspapers.com: a
+3. **World Nos. 3 to 6 (1914-01-04 to 01-25): a community ask.** No. 4 is reproduced complete in T Campbell's 1914 post ("The fourth in FUN'S series", first clue "1-2 To help"); ask him for its source. Not on Newspapers.com: a
    thorough search of January 1914 finds no partner copy before the Journal's 02-01 (Alex
    DeJarnatt, 2026-10-30). They need the World's own FUN section: Will Shortz's collection,
    the New York Public Library's microfilm, or another researcher's copy (T Campbell reprints

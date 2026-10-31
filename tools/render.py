@@ -410,7 +410,7 @@ The following week's solution proves each one exists.</li>
 
 <h2 id="missing">Missing puzzles: where else to look</h2>
 <p>One line per missing puzzle and the paper and date where its copy should be, worked out from each paper's known delay behind the
-World (the Globe ran on the World's date in 1917; Pittsburgh one to two weeks later, Tacoma and Shreveport two, New Orleans two to three,
+World in 1917 (the Globe ran on the World's date that year, and not after; Pittsburgh one to two weeks later, Tacoma and Shreveport two, New Orleans two to three,
 Salt Lake three, the LA Tribune three to eight; in 1915-16 the delays are counted from the Journal). Work one paper at a time.
 A date searched and not found is reported as a dead end (<code>record.py search &lt;paper&gt; &lt;date&gt; no-hit</code>, or tell the research session),
 and it drops out of the list; a copy found closes the puzzle in every paper.</p>
@@ -434,9 +434,11 @@ a lag that grows means the World skipped weeks, or the paper did.</p>
 <p><b>Puzzles held, by the year they were printed.</b> Every distinct puzzle we have a page for, counted once (numbered puzzles by number,
 unnumbered ones by their copies), against the Sundays of that year.</p>
 {bars_held()}
-<p><b>World numbers with a copy.</b> The same puzzles placed on the World's own calendar. From 1915-11-21 the Journal's dates are taken as the World's
-(it was on the World's date in January 1917 and its weekly chain runs unbroken back to that day), and from 1917 the Globe's; both marked inferred.
-February to July 1915 stays empty because the Journal's offset there is three to six weeks, undetermined; August to mid-November 1915 because no
+<p><b>World numbers with a copy.</b> The same puzzles placed on the World's own calendar: printed numbers to January 1915; the Journal's
+dates from 1915-11-21 (it was on the World's date in January 1917 and its weekly chain runs unbroken back to that day); the Globe's dates in 1917
+(proven by the World Magazine solutions box of July 1917). All marked inferred. From 1918 the Globe ran increasingly late (its 1920-05-02 puzzle
+is the World's 1919-10-12, per T Campbell), so its later pages are held without a World number until dated copies from other papers plot the drift.
+February to July 1915 is empty because the Journal's offset there is three to six weeks, undetermined; August to mid-November 1915 because no
 partner is known to have carried FUN then.</p>
 {bars()}
 
