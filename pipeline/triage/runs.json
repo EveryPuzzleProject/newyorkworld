@@ -1,6 +1,6 @@
 {
  "_about": "The FUN harvest's text step runs (xword-ocr harvests/nyw-c1): which one is current (the batch page opens on it, the import reads it) and what each is.",
- "current": "c8",
+ "current": "c9",
  "runs": {
   "c1": {
    "status": "old",
@@ -15,8 +15,12 @@
    "what": "C1 with hand-drawn grids for the irregular templates, EASTER's squares, the centre label as a printed line, tiled OCR for the small clue type, the list-and-grid numbering corrected for a lost clue, and the AI proof review (2026-11-01)"
   },
   "c8": {
-   "status": "current",
+   "status": "old",
    "what": "C1 read from Alex's native-resolution Select-portion crops (newyorkworld-scans pages.tsv, crop_of) for every page but 02-22 to 03-15, 03-29, 04-26, 05-03 and 07-19 on; the linked-ends gates lowered to a quarter of the words (the rest show as missing), hand-fitted lattices for Nos. 17, 18, 23 and the keys to Nos. 6, 7, 23; the text step and the AI proof review (2026-11-01)"
+  },
+  "c9": {
+   "status": "current",
+   "what": "C1 from the same crops as c8, with the clue pairs placed better (a garbled pair kept, pairs of new numbers in number order, a lost word's numbers kept when the next pair confirms them), the printed pair carried through the text step into the xd (\"1-2.\" lines) and the proof packet (each clue's pair, each end square's number, drawn on the proof page); the text step and the AI proof review (2026-11-01)"
   }
  }
 }
