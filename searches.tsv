@@ -11,8 +11,8 @@ minneapolis-journal	1914-04-19	2	found	batch 2: fill 1914 sequentially from 02-2
 minneapolis-journal	1914-04-26	3	found	batch 3: finish 1914 (where the lag grows in April-June, the skipped No. 34 around 08-23, the end of numbering 10-25 to 11-22, December)
 minneapolis-journal	1914-05-03	3	found	no hit by text search on 2026-10-27: browse the issue (the puzzles page's OCR rarely says cross-word)
 minneapolis-journal	1914-05-10	3	found	batch 3: finish 1914 (where the lag grows in April-June, the skipped No. 34 around 08-23, the end of numbering 10-25 to 11-22, December)
-minneapolis-journal	1914-05-17	2	not-carried	no text hit; No. 21 ran 05-10 and No. 22 on 05-31, so no new FUN puzzle this week (to confirm by browsing)
-minneapolis-journal	1914-05-24	3	not-carried	no text hit; No. 21 ran 05-10 and No. 22 on 05-31, so no new FUN puzzle this week (to confirm by browsing)
+minneapolis-journal	1914-05-17	2	found	no text hit; browsed 2026-11-01 (Alex DeJarnatt): viewer page 46 prints the solution to No. 21 and no new puzzle, so no new FUN puzzle this week (it is not not-carried: the page exists)
+minneapolis-journal	1914-05-24	3	not-carried	confirmed by browsing, 2026-11-01 (Alex DeJarnatt): no crossword that Sunday, a map-of-Mexico game in its place; No. 21 ran 05-10 and No. 22 on 05-31
 minneapolis-journal	1914-05-31	2	found	batch 2: fill 1914 sequentially from 02-22; pin where the count falls behind between No. 16 (04-05) and No. 30 (08-02); find where the numbering stops between 08-02 and 12-06
 minneapolis-journal	1914-06-07	3	found	no hit by text search on 2026-10-27: browse the issue (the puzzles page's OCR rarely says cross-word)
 minneapolis-journal	1914-06-14	2	found	batch 2: fill 1914 sequentially from 02-22; pin where the count falls behind between No. 16 (04-05) and No. 30 (08-02); find where the numbering stops between 08-02 and 12-06
@@ -324,45 +324,75 @@ boston-globe	1917-12-09	9	found	batch 9: the Globe ran each FUN puzzle on the Jo
 boston-globe	1917-12-16	9	found	batch 9: the Globe ran each FUN puzzle on the Journal's date, earliest of the 1917 partners; any other paper's copy of the same Sunday also counts
 boston-globe	1917-12-23	9	found	batch 9: the Globe ran each FUN puzzle on the Journal's date, earliest of the 1917 partners; any other paper's copy of the same Sunday also counts
 boston-globe	1917-12-30	9	found	batch 9: the Globe ran each FUN puzzle on the Journal's date, earliest of the 1917 partners; any other paper's copy of the same Sunday also counts
+new-orleans-states	1918-01-13		not-carried	nothing ran in between: the 1918-01-20 page's solution answers the 1918-01-06 puzzle
+pittsburgh-press	1918-01-27	12	not-carried	browsed by Alex, 2026-11-01
 boston-globe	1918-02-03		found	nothing ran in between: the 1918-04-14 page's solution answers the 1918-01-27 puzzle
 boston-globe	1918-02-10		found	nothing ran in between: the 1918-04-14 page's solution answers the 1918-01-27 puzzle
 boston-globe	1918-02-17		found	nothing ran in between: the 1918-04-14 page's solution answers the 1918-01-27 puzzle
 boston-globe	1918-02-24		found	nothing ran in between: the 1918-04-14 page's solution answers the 1918-01-27 puzzle
 boston-globe	1918-03-03		found	nothing ran in between: the 1918-04-14 page's solution answers the 1918-01-27 puzzle
 boston-globe	1918-03-10		found	nothing ran in between: the 1918-04-14 page's solution answers the 1918-01-27 puzzle
+pittsburgh-press	1918-03-10		not-carried	nothing ran in between: the 1918-03-17 page's solution answers the 1918-03-03 puzzle
 boston-globe	1918-03-17		found	nothing ran in between: the 1918-04-14 page's solution answers the 1918-01-27 puzzle
 boston-globe	1918-03-24		found	nothing ran in between: the 1918-04-14 page's solution answers the 1918-01-27 puzzle
 boston-globe	1918-03-31		found	nothing ran in between: the 1918-04-14 page's solution answers the 1918-01-27 puzzle
 boston-globe	1918-04-07		found	nothing ran in between: the 1918-04-14 page's solution answers the 1918-01-27 puzzle
+pittsburgh-press	1918-05-26	13	found	1918 partners, next batch: Alex was rate-limited after 05-19; dates the Globe's 1918 run (lag was 1 week by May)
+pittsburgh-press	1918-06-02	13	found	1918 partners, next batch: Alex was rate-limited after 05-19; dates the Globe's 1918 run (lag was 1 week by May)
+pittsburgh-press	1918-06-09	13	found	1918 partners, next batch: Alex was rate-limited after 05-19; dates the Globe's 1918 run (lag was 1 week by May)
 boston-globe	1918-06-16	10	found	nothing ran in between: the 1918-08-11 page's solution answers the 1918-06-09 puzzle
+pittsburgh-press	1918-06-16	13	found	1918 partners, next batch: Alex was rate-limited after 05-19; dates the Globe's 1918 run (lag was 1 week by May)
 boston-globe	1918-06-23	10	found	nothing ran in between: the 1918-08-11 page's solution answers the 1918-06-09 puzzle
+pittsburgh-press	1918-06-23	13	found	1918 partners, next batch: Alex was rate-limited after 05-19; dates the Globe's 1918 run (lag was 1 week by May)
 boston-globe	1918-06-30	10	found	nothing ran in between: the 1918-08-11 page's solution answers the 1918-06-09 puzzle
+pittsburgh-press	1918-06-30	13	found	1918 partners, next batch: Alex was rate-limited after 05-19; dates the Globe's 1918 run (lag was 1 week by May)
 boston-globe	1918-07-07	10	found	nothing ran in between: the 1918-08-11 page's solution answers the 1918-06-09 puzzle
+pittsburgh-press	1918-07-07	13	found	1918 partners, next batch: Alex was rate-limited after 05-19; dates the Globe's 1918 run (lag was 1 week by May)
 boston-globe	1918-07-14	10	found	nothing ran in between: the 1918-08-11 page's solution answers the 1918-06-09 puzzle
+pittsburgh-press	1918-07-14	13	found	1918 partners, next batch: Alex was rate-limited after 05-19; dates the Globe's 1918 run (lag was 1 week by May)
 boston-globe	1918-07-21	10	found	nothing ran in between: the 1918-08-11 page's solution answers the 1918-06-09 puzzle
+pittsburgh-press	1918-07-21	13	found	1918 partners, next batch: Alex was rate-limited after 05-19; dates the Globe's 1918 run (lag was 1 week by May)
 boston-globe	1918-07-28	10	found	nothing ran in between: the 1918-08-11 page's solution answers the 1918-06-09 puzzle
+pittsburgh-press	1918-07-28	13	found	1918 partners, next batch: Alex was rate-limited after 05-19; dates the Globe's 1918 run (lag was 1 week by May)
 boston-globe	1918-08-04	10	found	nothing ran in between: the 1918-08-11 page's solution answers the 1918-06-09 puzzle
+pittsburgh-press	1918-08-04	13	found	1918 partners, next batch: Alex was rate-limited after 05-19; dates the Globe's 1918 run (lag was 1 week by May)
 boston-globe	1918-08-11	10	found	batch 10: the Globe onward through 1918 (World date = Globe date)
+pittsburgh-press	1918-08-11	13	found	1918 partners, next batch: Alex was rate-limited after 05-19; dates the Globe's 1918 run (lag was 1 week by May)
 boston-globe	1918-08-18	10	found	batch 10: the Globe onward through 1918 (World date = Globe date)
+pittsburgh-press	1918-08-18	13	found	1918 partners, next batch: Alex was rate-limited after 05-19; dates the Globe's 1918 run (lag was 1 week by May)
 boston-globe	1918-08-25	10	found	batch 10: the Globe onward through 1918 (World date = Globe date)
+pittsburgh-press	1918-08-25	13	found	1918 partners, next batch: Alex was rate-limited after 05-19; dates the Globe's 1918 run (lag was 1 week by May)
 boston-globe	1918-09-01	10	found	batch 10: the Globe onward through 1918 (World date = Globe date)
 boston-globe	1918-09-08	10	not-carried	Alex checked the page 2026-10-31: the Globe printed a comics page in place of the puzzle; the 1918-09-15 page's solution answers the 1918-09-01 puzzle
+new-orleans-states	1918-09-08	15	not-carried	browsed by Alex, 2026-11-01
 boston-globe	1918-09-15	10	found	batch 10: the Globe onward through 1918 (World date = Globe date)
+new-orleans-states	1918-09-15	15	not-carried	browsed by Alex, 2026-11-01
 boston-globe	1918-09-22	10	found	batch 10: the Globe onward through 1918 (World date = Globe date)
+new-orleans-states	1918-09-22		not-carried	Alex browsed the issue 2026-11-01: comics section, no puzzle
+pittsburgh-press	1918-09-22	14	not-carried	Alex browsed the issue 2026-11-01: no crossword (other features, puzzles and games); 10-20 is the next crossword. Pittsburgh gap, autumn 1918 (after the 09-15 key)
 boston-globe	1918-09-29	10	found	batch 10: the Globe onward through 1918 (World date = Globe date)
+pittsburgh-press	1918-09-29	14	not-carried	Alex browsed the issue 2026-11-01: no crossword (other features, puzzles and games); 10-20 is the next crossword. Pittsburgh gap, autumn 1918 (after the 09-15 key)
 boston-globe	1918-10-06	10	found	nothing ran in between: the 1919-05-11 page's solution answers the 1918-09-29 puzzle
+pittsburgh-press	1918-10-06	14	not-carried	Alex browsed the issue 2026-11-01: no crossword (other features, puzzles and games); 10-20 is the next crossword. Pittsburgh gap, autumn 1918 (after the 09-15 key)
 boston-globe	1918-10-13	10	found	nothing ran in between: the 1919-05-11 page's solution answers the 1918-09-29 puzzle
+pittsburgh-press	1918-10-13	14	not-carried	Alex browsed the issue 2026-11-01: no crossword (other features, puzzles and games); 10-20 is the next crossword. Pittsburgh gap, autumn 1918 (after the 09-15 key)
 boston-globe	1918-10-20	10	found	nothing ran in between: the 1919-05-11 page's solution answers the 1918-09-29 puzzle
 boston-globe	1918-10-27	10	found	nothing ran in between: the 1919-05-11 page's solution answers the 1918-09-29 puzzle
 boston-globe	1918-11-03	10	found	nothing ran in between: the 1919-05-11 page's solution answers the 1918-09-29 puzzle
 boston-globe	1918-11-10	10	found	nothing ran in between: the 1919-05-11 page's solution answers the 1918-09-29 puzzle
+new-orleans-states	1918-11-10	15	not-carried	browsed by Alex, 2026-11-01
 boston-globe	1918-11-17	10	found	nothing ran in between: the 1919-05-11 page's solution answers the 1918-09-29 puzzle
+new-orleans-states	1918-11-17	15	not-carried	browsed by Alex, 2026-11-01
 boston-globe	1918-11-24	10	found	nothing ran in between: the 1919-05-11 page's solution answers the 1918-09-29 puzzle
+new-orleans-states	1918-11-24	15	not-carried	browsed by Alex, 2026-11-01
+pittsburgh-press	1918-11-24	14	not-carried	Alex browsed the issue 2026-11-01: no crossword. Pittsburgh gap, autumn 1918 (after the 09-15 key; next crossword 10-20)
 boston-globe	1918-12-01	10	found	nothing ran in between: the 1919-05-11 page's solution answers the 1918-09-29 puzzle
+new-orleans-states	1918-12-01		not-carried	Alex browsed the issue 2026-11-01: comics section, no puzzle
 boston-globe	1918-12-08	10	found	nothing ran in between: the 1919-05-11 page's solution answers the 1918-09-29 puzzle
 boston-globe	1918-12-15	10	found	nothing ran in between: the 1919-05-11 page's solution answers the 1918-09-29 puzzle
 boston-globe	1918-12-22	10	found	nothing ran in between: the 1919-05-11 page's solution answers the 1918-09-29 puzzle
 boston-globe	1918-12-29	10	found	nothing ran in between: the 1919-05-11 page's solution answers the 1918-09-29 puzzle
+new-orleans-states	1918-12-29	15	not-carried	browsed by Alex, 2026-11-01
 boston-globe	1919-01-05		found	nothing ran in between: the 1919-05-11 page's solution answers the 1918-09-29 puzzle
 boston-globe	1919-01-12		found	nothing ran in between: the 1919-05-11 page's solution answers the 1918-09-29 puzzle
 boston-globe	1919-01-19		found	nothing ran in between: the 1919-05-11 page's solution answers the 1918-09-29 puzzle
@@ -375,19 +405,27 @@ boston-globe	1919-03-02		found	nothing ran in between: the 1919-05-11 page's sol
 boston-globe	1919-03-09		found	nothing ran in between: the 1919-05-11 page's solution answers the 1918-09-29 puzzle
 boston-globe	1919-03-16		found	nothing ran in between: the 1919-05-11 page's solution answers the 1918-09-29 puzzle
 boston-globe	1919-03-23		found	nothing ran in between: the 1919-05-11 page's solution answers the 1918-09-29 puzzle
+pittsburgh-press	1919-03-23	16	not-carried	browsed by Alex, 2026-11-01: no puzzle
 boston-globe	1919-03-30		found	nothing ran in between: the 1919-05-11 page's solution answers the 1918-09-29 puzzle
+pittsburgh-press	1919-03-30	16	not-carried	browsed by Alex, 2026-11-01: no puzzle
 boston-globe	1919-04-06		found	nothing ran in between: the 1919-05-11 page's solution answers the 1918-09-29 puzzle
 boston-globe	1919-04-13		found	nothing ran in between: the 1919-05-11 page's solution answers the 1918-09-29 puzzle
 boston-globe	1919-04-20		found	nothing ran in between: the 1919-05-11 page's solution answers the 1918-09-29 puzzle
 boston-globe	1919-04-27		found	nothing ran in between: the 1919-05-11 page's solution answers the 1918-09-29 puzzle
 boston-globe	1919-05-04		found	nothing ran in between: the 1919-05-11 page's solution answers the 1918-09-29 puzzle
+pittsburgh-press	1919-05-04	16	queued	seen, download pending: browsed by Alex 2026-11-01, a solution box only (top-left word HOBO), no puzzle
+pittsburgh-press	1919-06-01	16	queued	seen, download pending: browsed by Alex 2026-11-01, a puzzle in the shape of an eight-pointed star, plus the solution to 05-25
 boston-globe	1919-07-13	11	found	nothing ran in between: the 1919-08-03 page's solution answers the 1919-07-06 puzzle
 boston-globe	1919-07-20	11	found	nothing ran in between: the 1919-08-03 page's solution answers the 1919-07-06 puzzle
 boston-globe	1919-07-27	11	found	nothing ran in between: the 1919-08-03 page's solution answers the 1919-07-06 puzzle
+pittsburgh-press	1919-07-27	16	not-carried	browsed by Alex, 2026-11-01: no puzzle
 boston-globe	1919-08-03	11	found	batch 11: the Globe onward through 1919
+pittsburgh-press	1919-08-03	16	queued	seen, download pending: browsed by Alex 2026-11-01, a puzzle with a 3-D drum shape
 boston-globe	1919-08-10	11	found	batch 11: the Globe onward through 1919
 boston-globe	1919-08-17	11	found	batch 11: the Globe onward through 1919
+pittsburgh-press	1919-08-17	16	queued	seen, download pending: Alex corrected 2026-11-01, 08-17 does have a puzzle (first reported as none); its black squares form a diamond shape (Alex)
 boston-globe	1919-08-24	11	found	batch 11: the Globe onward through 1919
+pittsburgh-press	1919-08-24	16	not-carried	browsed by Alex, 2026-11-01: no puzzle
 boston-globe	1919-08-31	11	found	batch 11: the Globe onward through 1919
 boston-globe	1919-09-07	11	found	batch 11: the Globe onward through 1919
 boston-globe	1919-09-14	11	found	batch 11: the Globe onward through 1919

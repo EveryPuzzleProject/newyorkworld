@@ -1,7 +1,7 @@
 file	paper	date	puzzle	chain	why_none
 clip:new-york-world:1914-01-11	new-york-world	1914-01-11	nyw1914-01-11 (No. 4)		before No. 7, where the chains start
-clip:minneapolis-journal:1914-02-01	minneapolis-journal	1914-02-01	nyw1914-02-01 (No. 7)	C1	
-clip:minneapolis-journal:1914-02-08	minneapolis-journal	1914-02-08	nyw1914-02-08 (No. 8)	C1	
+The_Minneapolis_Journal_1914_02_01_30_fun.jpg	minneapolis-journal	1914-02-01	nyw1914-02-01 (No. 7)	C1	
+The_Minneapolis_Journal_1914_02_08_32_fun.jpg	minneapolis-journal	1914-02-08	nyw1914-02-08 (No. 8)	C1	
 The_Minneapolis_Journal_1914_02_15_34.jpg	minneapolis-journal	1914-02-15	nyw1914-02-15 (No. 9)	C1	
 The_Minneapolis_Journal_1914_02_22_34.jpg	minneapolis-journal	1914-02-22	nyw1914-02-22 (No. 10)	C1	
 The_Minneapolis_Journal_1914_03_01_34.jpg	minneapolis-journal	1914-03-01	nyw1914-03-01 (No. 11)	C1	
@@ -15,6 +15,7 @@ The_Minneapolis_Journal_1914_04_19_40.jpg	minneapolis-journal	1914-04-19	nyw1914
 The_Minneapolis_Journal_1914_04_26_44.jpg	minneapolis-journal	1914-04-26	nyw1914-04-26 (No. 19)	C1	
 The_Minneapolis_Journal_1914_05_03_42.jpg	minneapolis-journal	1914-05-03	nyw1914-05-03 (No. 20)	C1	
 The_Minneapolis_Journal_1914_05_10_42.jpg	minneapolis-journal	1914-05-10	nyw1914-05-10 (No. 21)	C1	
+The_Minneapolis_Journal_1914_05_17_46_key.jpg	minneapolis-journal	1914-05-17			no puzzle on this page
 The_Minneapolis_Journal_1914_05_31_36.jpg	minneapolis-journal	1914-05-31	nyw1914-05-17 (No. 22)	C1	
 The_Minneapolis_Journal_1914_06_07_31.jpg	minneapolis-journal	1914-06-07			no puzzle on this page
 The_Minneapolis_Journal_1914_06_14_37.jpg	minneapolis-journal	1914-06-14	nyw1914-05-24 (No. 23)	C1	
@@ -55,7 +56,7 @@ The_Minneapolis_Journal_1915_03_07_55.jpg	minneapolis-journal	1915-03-07	minneap
 The_Minneapolis_Journal_1915_03_14_66.jpg	minneapolis-journal	1915-03-14	minneapolis-journal 1915-03-14	C4	
 The_Minneapolis_Journal_1915_03_21_63.jpg	minneapolis-journal	1915-03-21	minneapolis-journal 1915-03-21	C4	
 The_Minneapolis_Journal_1915_03_28_74.jpg	minneapolis-journal	1915-03-28	minneapolis-journal 1915-03-28	C4	
-clip:minneapolis-journal:1915-04-04	minneapolis-journal	1915-04-04	minneapolis-journal 1915-04-04	C4	
+The_Minneapolis_Journal_1915_04_04_70.jpg	minneapolis-journal	1915-04-04	minneapolis-journal 1915-04-04	C4	
 The_Minneapolis_Journal_1915_04_11_76.jpg	minneapolis-journal	1915-04-11	minneapolis-journal 1915-04-11	C5	
 The_Minneapolis_Journal_1915_04_18_74.jpg	minneapolis-journal	1915-04-18	minneapolis-journal 1915-04-18	C5	
 The_Minneapolis_Journal_1915_04_25_79.jpg	minneapolis-journal	1915-04-25	minneapolis-journal 1915-04-25	C5	
@@ -358,472 +359,556 @@ The_Boston_Globe_1917_12_16_51.jpg	boston-globe	1917-12-16	nyw1917-12-16 (No. 20
 The_Boston_Globe_1917_12_23_30.jpg	boston-globe	1917-12-23	nyw1917-12-23 (No. 210)	C8	
 The_Boston_Globe_1917_12_30_38.jpg	boston-globe	1917-12-30	nyw1917-12-30 (No. 211)	C8	
 The_Boston_Globe_1918_01_06_38.jpg	boston-globe	1918-01-06	boston-globe 1918-01-06	C9	
-The_Boston_Globe_1918_01_13_35.jpg	boston-globe	1918-01-13	boston-globe 1918-01-13	C9	
-The_Boston_Globe_1918_01_20_44.jpg	boston-globe	1918-01-20	boston-globe 1918-01-20	C9	
-The_Boston_Globe_1918_01_27_37.jpg	boston-globe	1918-01-27	boston-globe 1918-01-27	C9	
-The_Boston_Globe_1918_02_03_46.jpg	boston-globe	1918-02-03	boston-globe 1918-02-03	C9	
-The_Boston_Globe_1918_02_10_48.jpg	boston-globe	1918-02-10	boston-globe 1918-02-10	C9	
-The_Boston_Globe_1918_02_17_33.jpg	boston-globe	1918-02-17	boston-globe 1918-02-17	C9	
-The_Boston_Globe_1918_02_24_48.jpg	boston-globe	1918-02-24	boston-globe 1918-02-24	C9	
-The_Boston_Globe_1918_03_03_56.jpg	boston-globe	1918-03-03	boston-globe 1918-03-03	C9	
-The_Boston_Globe_1918_03_10_50.jpg	boston-globe	1918-03-10	boston-globe 1918-03-10	C9	
-The_Boston_Globe_1918_03_17_45.jpg	boston-globe	1918-03-17	boston-globe 1918-03-17	C9	
-The_Boston_Globe_1918_03_24_44.jpg	boston-globe	1918-03-24	boston-globe 1918-03-24	C9	
-The_Boston_Globe_1918_03_31_54.jpg	boston-globe	1918-03-31	boston-globe 1918-03-31	C9	
-The_Boston_Globe_1918_04_07_47.jpg	boston-globe	1918-04-07	boston-globe 1918-04-07	C9	
-The_Boston_Globe_1918_04_14_41.jpg	boston-globe	1918-04-14	boston-globe 1918-04-14	C9	
-The_Boston_Globe_1918_04_21_61.jpg	boston-globe	1918-04-21	boston-globe 1918-04-21	C9	
-The_Boston_Globe_1918_04_28_46.jpg	boston-globe	1918-04-28	boston-globe 1918-04-28	C9	
-The_Boston_Globe_1918_05_05_50.jpg	boston-globe	1918-05-05	boston-globe 1918-05-05	C9	
-The_Boston_Globe_1918_05_12_51.jpg	boston-globe	1918-05-12	boston-globe 1918-05-12	C9	
-The_Boston_Globe_1918_05_19_52.jpg	boston-globe	1918-05-19	boston-globe 1918-05-19	C9	
-The_Boston_Globe_1918_05_26_52.jpg	boston-globe	1918-05-26	boston-globe 1918-05-26	C9	
-The_Boston_Globe_1918_06_02_52.jpg	boston-globe	1918-06-02	boston-globe 1918-06-02	C9	
-The_Boston_Globe_1918_06_09_60.jpg	boston-globe	1918-06-09	boston-globe 1918-06-09	C9	
-The_Boston_Globe_1918_06_16_39.jpg	boston-globe	1918-06-16	boston-globe 1918-06-16	C9	
-The_Boston_Globe_1918_06_23_32.jpg	boston-globe	1918-06-23	boston-globe 1918-06-23	C9	
-The_Boston_Globe_1918_06_30_44.jpg	boston-globe	1918-06-30	boston-globe 1918-06-30	C9	
-The_Boston_Globe_1918_07_07_41.jpg	boston-globe	1918-07-07	boston-globe 1918-07-07	C9	
-The_Boston_Globe_1918_07_14_44.jpg	boston-globe	1918-07-14	boston-globe 1918-07-14	C9	
-The_Boston_Globe_1918_07_21_50.jpg	boston-globe	1918-07-21	boston-globe 1918-07-21	C9	
-The_Boston_Globe_1918_07_28_38.jpg	boston-globe	1918-07-28	boston-globe 1918-07-28	C9	
-The_Boston_Globe_1918_08_04_43.jpg	boston-globe	1918-08-04	boston-globe 1918-08-04	C9	
-The_Boston_Globe_1918_08_11_48.jpg	boston-globe	1918-08-11	boston-globe 1918-08-11	C9	
-The_Boston_Globe_1918_08_18_37.jpg	boston-globe	1918-08-18	boston-globe 1918-08-18	C9	
-The_Boston_Globe_1918_08_25_42.jpg	boston-globe	1918-08-25	boston-globe 1918-08-25	C9	
-The_Boston_Globe_1918_09_01_36.jpg	boston-globe	1918-09-01	boston-globe 1918-09-01	C9	
-The_Boston_Globe_1918_09_15_39.jpg	boston-globe	1918-09-15	boston-globe 1918-09-15	C9	
-The_Boston_Globe_1918_09_22_42.jpg	boston-globe	1918-09-22	boston-globe 1918-09-22	C9	
-The_Boston_Globe_1918_09_29_51.jpg	boston-globe	1918-09-29	boston-globe 1918-09-29	C9	
-The_Boston_Globe_1918_10_06_57.jpg	boston-globe	1918-10-06	boston-globe 1918-10-06	C9	
-The_Boston_Globe_1918_10_13_48.jpg	boston-globe	1918-10-13	boston-globe 1918-10-13	C9	
-The_Boston_Globe_1918_10_20_59.jpg	boston-globe	1918-10-20	boston-globe 1918-10-20	C9	
-The_Boston_Globe_1918_10_27_56.jpg	boston-globe	1918-10-27	boston-globe 1918-10-27	C9	
-The_Boston_Globe_1918_11_03_65.jpg	boston-globe	1918-11-03	boston-globe 1918-11-03	C9	
-The_Boston_Globe_1918_11_10_54.jpg	boston-globe	1918-11-10	boston-globe 1918-11-10	C9	
-The_Boston_Globe_1918_11_17_69.jpg	boston-globe	1918-11-17	boston-globe 1918-11-17	C9	
-The_Boston_Globe_1918_11_24_69.jpg	boston-globe	1918-11-24	boston-globe 1918-11-24	C9	
-The_Boston_Globe_1918_12_01_63.jpg	boston-globe	1918-12-01	boston-globe 1918-12-01	C9	
-The_Boston_Globe_1918_12_08_67.jpg	boston-globe	1918-12-08	boston-globe 1918-12-08	C9	
-The_Boston_Globe_1918_12_15_14.jpg	boston-globe	1918-12-15	boston-globe 1918-12-15	C9	
-The_Boston_Globe_1918_12_22_63.jpg	boston-globe	1918-12-22	boston-globe 1918-12-22	C9	
-The_Boston_Globe_1918_12_29_63.jpg	boston-globe	1918-12-29	boston-globe 1918-12-29	C9	
-The_Boston_Globe_1919_01_05_58.jpg	boston-globe	1919-01-05	boston-globe 1919-01-05	C9	
-The_Boston_Globe_1919_01_12_71.jpg	boston-globe	1919-01-12	boston-globe 1919-01-12	C9	
-The_Boston_Globe_1919_01_19_73.jpg	boston-globe	1919-01-19	boston-globe 1919-01-19	C9	
-The_Boston_Globe_1919_01_26_67.jpg	boston-globe	1919-01-26	boston-globe 1919-01-26	C9	
-The_Boston_Globe_1919_02_02_69.jpg	boston-globe	1919-02-02	boston-globe 1919-02-02	C9	
-The_Boston_Globe_1919_02_09_71.jpg	boston-globe	1919-02-09	boston-globe 1919-02-09	C9	
-The_Boston_Globe_1919_02_16_73.jpg	boston-globe	1919-02-16	boston-globe 1919-02-16	C9	
-The_Boston_Globe_1919_02_23_63.jpg	boston-globe	1919-02-23	boston-globe 1919-02-23	C9	
-The_Boston_Globe_1919_03_02_66.jpg	boston-globe	1919-03-02	boston-globe 1919-03-02	C9	
-The_Boston_Globe_1919_03_09_76.jpg	boston-globe	1919-03-09	boston-globe 1919-03-09	C9	
-The_Boston_Globe_1919_03_16_87.jpg	boston-globe	1919-03-16	boston-globe 1919-03-16	C9	
-The_Boston_Globe_1919_03_23_81.jpg	boston-globe	1919-03-23	boston-globe 1919-03-23	C9	
-The_Boston_Globe_1919_03_30_69.jpg	boston-globe	1919-03-30	boston-globe 1919-03-30	C9	
-The_Boston_Globe_1919_04_06_87.jpg	boston-globe	1919-04-06	boston-globe 1919-04-06	C9	
-The_Boston_Globe_1919_04_13_87.jpg	boston-globe	1919-04-13	boston-globe 1919-04-13	C9	
-The_Boston_Globe_1919_04_20_87.jpg	boston-globe	1919-04-20	boston-globe 1919-04-20	C9	
-The_Boston_Globe_1919_04_27_87.jpg	boston-globe	1919-04-27	boston-globe 1919-04-27	C9	
-The_Boston_Globe_1919_05_04_79.jpg	boston-globe	1919-05-04	boston-globe 1919-05-04	C9	
-The_Boston_Globe_1919_05_11_88.jpg	boston-globe	1919-05-11	boston-globe 1919-05-11	C9	
-The_Boston_Globe_1919_05_18_83.jpg	boston-globe	1919-05-18	boston-globe 1919-05-18	C9	
-The_Boston_Globe_1919_05_25_87.jpg	boston-globe	1919-05-25	boston-globe 1919-05-25	C9	
-The_Boston_Globe_1919_06_01_81.jpg	boston-globe	1919-06-01	boston-globe 1919-06-01	C9	
-The_Boston_Globe_1919_06_08_83.jpg	boston-globe	1919-06-08	boston-globe 1919-06-08	C9	
-The_Boston_Globe_1919_06_15_85.jpg	boston-globe	1919-06-15	boston-globe 1919-06-15	C9	
-The_Boston_Globe_1919_06_22_91.jpg	boston-globe	1919-06-22	boston-globe 1919-06-22	C9	
-The_Boston_Globe_1919_06_29_83.jpg	boston-globe	1919-06-29	boston-globe 1919-06-29	C9	
-The_Boston_Globe_1919_07_06_79.jpg	boston-globe	1919-07-06	boston-globe 1919-07-06	C9	
-The_Boston_Globe_1919_07_13_84.jpg	boston-globe	1919-07-13	boston-globe 1919-07-13	C9	
-The_Boston_Globe_1919_07_20_69.jpg	boston-globe	1919-07-20	boston-globe 1919-07-20	C9	
-The_Boston_Globe_1919_07_27_75.jpg	boston-globe	1919-07-27	boston-globe 1919-07-27	C9	
-The_Boston_Globe_1919_08_03_73.jpg	boston-globe	1919-08-03	boston-globe 1919-08-03	C9	
-The_Boston_Globe_1919_08_10_73.jpg	boston-globe	1919-08-10	boston-globe 1919-08-10	C9	
-The_Boston_Globe_1919_08_17_74.jpg	boston-globe	1919-08-17	boston-globe 1919-08-17	C9	
-The_Boston_Globe_1919_08_24_75.jpg	boston-globe	1919-08-24	boston-globe 1919-08-24	C9	
-The_Boston_Globe_1919_08_31_70.jpg	boston-globe	1919-08-31	boston-globe 1919-08-31	C9	
-The_Boston_Globe_1919_09_07_87.jpg	boston-globe	1919-09-07	boston-globe 1919-09-07	C9	
-The_Boston_Globe_1919_09_14_77.jpg	boston-globe	1919-09-14	boston-globe 1919-09-14	C9	
-The_Boston_Globe_1919_09_21_85.jpg	boston-globe	1919-09-21	boston-globe 1919-09-21	C9	
-The_Boston_Globe_1919_09_28_76.jpg	boston-globe	1919-09-28	boston-globe 1919-09-28	C9	
-The_Boston_Globe_1919_10_05_87.jpg	boston-globe	1919-10-05	boston-globe 1919-10-05	C9	
-The_Boston_Globe_1919_10_12_73.jpg	boston-globe	1919-10-12	boston-globe 1919-10-12	C9	
-The_Boston_Globe_1919_10_19_82.jpg	boston-globe	1919-10-19	boston-globe 1919-10-19	C9	
-The_Boston_Globe_1919_10_26_85.jpg	boston-globe	1919-10-26	boston-globe 1919-10-26	C9	
-The_Boston_Globe_1919_11_02_93.jpg	boston-globe	1919-11-02	boston-globe 1919-11-02	C9	
-The_Boston_Globe_1919_11_09_88.jpg	boston-globe	1919-11-09	boston-globe 1919-11-09	C9	
-The_Boston_Globe_1919_11_16_93.jpg	boston-globe	1919-11-16	boston-globe 1919-11-16	C9	
-The_Boston_Globe_1919_11_23_85.jpg	boston-globe	1919-11-23	boston-globe 1919-11-23	C9	
-The_Boston_Globe_1919_11_30_81.jpg	boston-globe	1919-11-30	boston-globe 1919-11-30	C9	
-The_Boston_Globe_1919_12_07_85.jpg	boston-globe	1919-12-07	boston-globe 1919-12-07	C9	
-The_Boston_Globe_1919_12_14_79.jpg	boston-globe	1919-12-14	boston-globe 1919-12-14	C9	
-The_Boston_Globe_1919_12_21_61.jpg	boston-globe	1919-12-21	boston-globe 1919-12-21	C9	
-The_Boston_Globe_1919_12_28_77.jpg	boston-globe	1919-12-28	boston-globe 1919-12-28	C9	
-The_Boston_Globe_1920_01_04_77.jpg	boston-globe	1920-01-04	boston-globe 1920-01-04	C9	
-The_Boston_Globe_1920_01_11_76.jpg	boston-globe	1920-01-11	boston-globe 1920-01-11	C9	
-The_Boston_Globe_1920_01_18_81.jpg	boston-globe	1920-01-18	boston-globe 1920-01-18	C9	
-The_Boston_Globe_1920_01_25_67.jpg	boston-globe	1920-01-25	boston-globe 1920-01-25	C9	
-The_Boston_Globe_1920_02_01_75.jpg	boston-globe	1920-02-01	boston-globe 1920-02-01	C9	
-The_Boston_Globe_1920_02_08_77.jpg	boston-globe	1920-02-08	boston-globe 1920-02-08	C9	
-The_Boston_Globe_1920_02_15_67.jpg	boston-globe	1920-02-15	boston-globe 1920-02-15	C9	
-The_Boston_Globe_1920_02_22_81.jpg	boston-globe	1920-02-22	boston-globe 1920-02-22	C9	
-The_Boston_Globe_1920_02_29_80.jpg	boston-globe	1920-02-29	boston-globe 1920-02-29	C9	
-The_Boston_Globe_1920_03_07_85.jpg	boston-globe	1920-03-07	boston-globe 1920-03-07	C9	
-The_Boston_Globe_1920_03_14_100.jpg	boston-globe	1920-03-14	boston-globe 1920-03-14	C9	
-The_Boston_Globe_1920_03_21_81.jpg	boston-globe	1920-03-21	boston-globe 1920-03-21	C9	
-The_Boston_Globe_1920_03_28_91.jpg	boston-globe	1920-03-28	boston-globe 1920-03-28	C9	
-The_Boston_Globe_1920_04_04_87.jpg	boston-globe	1920-04-04	boston-globe 1920-04-04	C9	
-The_Boston_Globe_1920_04_11_90.jpg	boston-globe	1920-04-11	boston-globe 1920-04-11	C9	
-The_Boston_Globe_1920_04_18_91.jpg	boston-globe	1920-04-18	boston-globe 1920-04-18	C9	
-The_Boston_Globe_1920_04_25_86.jpg	boston-globe	1920-04-25	boston-globe 1920-04-25	C9	
-The_Boston_Globe_1920_05_02_101.jpg	boston-globe	1920-05-02	boston-globe 1920-05-02	C9	
-The_Boston_Globe_1920_05_09_91.jpg	boston-globe	1920-05-09	boston-globe 1920-05-09	C9	
-The_Boston_Globe_1920_05_16_88.jpg	boston-globe	1920-05-16	boston-globe 1920-05-16	C9	
-The_Boston_Globe_1920_05_23_86.jpg	boston-globe	1920-05-23	boston-globe 1920-05-23	C9	
-The_Boston_Globe_1920_05_30_83.jpg	boston-globe	1920-05-30	boston-globe 1920-05-30	C9	
-The_Boston_Globe_1920_06_06_93.jpg	boston-globe	1920-06-06	boston-globe 1920-06-06	C9	
-The_Boston_Globe_1920_06_13_87.jpg	boston-globe	1920-06-13	boston-globe 1920-06-13	C9	
-The_Boston_Globe_1920_06_20_84.jpg	boston-globe	1920-06-20	boston-globe 1920-06-20	C9	
-The_Boston_Globe_1920_06_27_5.jpg	boston-globe	1920-06-27	boston-globe 1920-06-27	C9	
-The_Boston_Globe_1920_07_04_77.jpg	boston-globe	1920-07-04	boston-globe 1920-07-04	C9	
-The_Boston_Globe_1920_07_11_76.jpg	boston-globe	1920-07-11	boston-globe 1920-07-11	C9	
-The_Boston_Globe_1920_07_18_86.jpg	boston-globe	1920-07-18	boston-globe 1920-07-18	C9	
-The_Boston_Globe_1920_07_25_73.jpg	boston-globe	1920-07-25	boston-globe 1920-07-25	C9	
-The_Boston_Globe_1920_08_01_78.jpg	boston-globe	1920-08-01	boston-globe 1920-08-01	C9	
-The_Boston_Globe_1920_08_08_77.jpg	boston-globe	1920-08-08	boston-globe 1920-08-08	C9	
-The_Boston_Globe_1920_08_15_73.jpg	boston-globe	1920-08-15	boston-globe 1920-08-15	C9	
-The_Boston_Globe_1920_08_22_80.jpg	boston-globe	1920-08-22	boston-globe 1920-08-22	C9	
-The_Boston_Globe_1920_08_29_75.jpg	boston-globe	1920-08-29	boston-globe 1920-08-29	C9	
-The_Boston_Globe_1920_09_05_69.jpg	boston-globe	1920-09-05	boston-globe 1920-09-05	C9	
-The_Boston_Globe_1920_09_12_82.jpg	boston-globe	1920-09-12	boston-globe 1920-09-12	C9	
-The_Boston_Globe_1920_09_19_88.jpg	boston-globe	1920-09-19	boston-globe 1920-09-19	C9	
-The_Boston_Globe_1920_09_26_76.jpg	boston-globe	1920-09-26	boston-globe 1920-09-26	C9	
-The_Boston_Globe_1920_10_03_92.jpg	boston-globe	1920-10-03	boston-globe 1920-10-03	C9	
-The_Boston_Globe_1920_10_10_84.jpg	boston-globe	1920-10-10	boston-globe 1920-10-10	C9	
-The_Boston_Globe_1920_10_17_88.jpg	boston-globe	1920-10-17	boston-globe 1920-10-17	C9	
-The_Boston_Globe_1920_10_24_81.jpg	boston-globe	1920-10-24	boston-globe 1920-10-24	C9	
-The_Boston_Globe_1920_10_31_84.jpg	boston-globe	1920-10-31	boston-globe 1920-10-31	C9	
-The_Boston_Globe_1920_11_07_81.jpg	boston-globe	1920-11-07	boston-globe 1920-11-07	C9	
-The_Boston_Globe_1920_11_14_89.jpg	boston-globe	1920-11-14	boston-globe 1920-11-14	C9	
-The_Boston_Globe_1920_11_21_84.jpg	boston-globe	1920-11-21	boston-globe 1920-11-21	C9	
-The_Boston_Globe_1920_11_28_75.jpg	boston-globe	1920-11-28	boston-globe 1920-11-28	C9	
-The_Boston_Globe_1920_12_05_77.jpg	boston-globe	1920-12-05	boston-globe 1920-12-05	C9	
-The_Boston_Globe_1920_12_12_79.jpg	boston-globe	1920-12-12	boston-globe 1920-12-12	C9	
-The_Boston_Globe_1920_12_19_66.jpg	boston-globe	1920-12-19	boston-globe 1920-12-19	C9	
-The_Boston_Globe_1920_12_26_65.jpg	boston-globe	1920-12-26	boston-globe 1920-12-26	C9	
-The_Boston_Globe_1921_01_02_74.jpg	boston-globe	1921-01-02	boston-globe 1921-01-02	C9	
-The_Boston_Globe_1921_01_09_81.jpg	boston-globe	1921-01-09	boston-globe 1921-01-09	C9	
-The_Boston_Globe_1921_01_16_82.jpg	boston-globe	1921-01-16	boston-globe 1921-01-16	C9	
-The_Boston_Globe_1921_01_23_70.jpg	boston-globe	1921-01-23	boston-globe 1921-01-23	C9	
-The_Boston_Globe_1921_01_30_71.jpg	boston-globe	1921-01-30	boston-globe 1921-01-30	C9	
-The_Boston_Globe_1921_02_06_78.jpg	boston-globe	1921-02-06	boston-globe 1921-02-06	C9	
-The_Boston_Globe_1921_02_13_71.jpg	boston-globe	1921-02-13	boston-globe 1921-02-13	C9	
-The_Boston_Globe_1921_02_20_78.jpg	boston-globe	1921-02-20	boston-globe 1921-02-20	C9	
-The_Boston_Globe_1921_02_27_66.jpg	boston-globe	1921-02-27	boston-globe 1921-02-27	C9	
-The_Boston_Globe_1921_03_06_82.jpg	boston-globe	1921-03-06	boston-globe 1921-03-06	C9	
-The_Boston_Globe_1921_03_13_100.jpg	boston-globe	1921-03-13	boston-globe 1921-03-13	C9	
-The_Boston_Globe_1921_03_20_80.jpg	boston-globe	1921-03-20	boston-globe 1921-03-20	C9	
-The_Boston_Globe_1921_03_27_92.jpg	boston-globe	1921-03-27	boston-globe 1921-03-27	C9	
-The_Boston_Globe_1921_04_03_83.jpg	boston-globe	1921-04-03	boston-globe 1921-04-03	C9	
-The_Boston_Globe_1921_04_10_83.jpg	boston-globe	1921-04-10	boston-globe 1921-04-10	C9	
-The_Boston_Globe_1921_04_17_86.jpg	boston-globe	1921-04-17	boston-globe 1921-04-17	C9	
-The_Boston_Globe_1921_04_24_88.jpg	boston-globe	1921-04-24	boston-globe 1921-04-24	C9	
-The_Boston_Globe_1921_05_01_89.jpg	boston-globe	1921-05-01	boston-globe 1921-05-01	C9	
-The_Boston_Globe_1921_05_08_76.jpg	boston-globe	1921-05-08	boston-globe 1921-05-08	C9	
-The_Boston_Globe_1921_05_15_86.jpg	boston-globe	1921-05-15	boston-globe 1921-05-15	C9	
-The_Boston_Globe_1921_05_22_88.jpg	boston-globe	1921-05-22	boston-globe 1921-05-22	C9	
-The_Boston_Globe_1921_05_29_85.jpg	boston-globe	1921-05-29	boston-globe 1921-05-29	C9	
-The_Boston_Globe_1921_06_05_87.jpg	boston-globe	1921-06-05	boston-globe 1921-06-05	C9	
-The_Boston_Globe_1921_06_12_87.jpg	boston-globe	1921-06-12	boston-globe 1921-06-12	C9	
-The_Boston_Globe_1921_06_19_90.jpg	boston-globe	1921-06-19	boston-globe 1921-06-19	C9	
-The_Boston_Globe_1921_06_26_91.jpg	boston-globe	1921-06-26	boston-globe 1921-06-26	C9	
-The_Boston_Globe_1921_07_03_71.jpg	boston-globe	1921-07-03	boston-globe 1921-07-03	C9	
-The_Boston_Globe_1921_07_10_70.jpg	boston-globe	1921-07-10	boston-globe 1921-07-10	C9	
-The_Boston_Globe_1921_07_17_69.jpg	boston-globe	1921-07-17	boston-globe 1921-07-17	C9	
-The_Boston_Globe_1921_07_24_74.jpg	boston-globe	1921-07-24	boston-globe 1921-07-24	C9	
-The_Boston_Globe_1921_07_31_77.jpg	boston-globe	1921-07-31	boston-globe 1921-07-31	C9	
-The_Boston_Globe_1921_08_07_81.jpg	boston-globe	1921-08-07	boston-globe 1921-08-07	C9	
-The_Boston_Globe_1921_08_14_74.jpg	boston-globe	1921-08-14	boston-globe 1921-08-14	C9	
-The_Boston_Globe_1921_08_21_81.jpg	boston-globe	1921-08-21	boston-globe 1921-08-21	C9	
-The_Boston_Globe_1921_08_28_81.jpg	boston-globe	1921-08-28	boston-globe 1921-08-28	C9	
-The_Boston_Globe_1921_09_04_67.jpg	boston-globe	1921-09-04	boston-globe 1921-09-04	C9	
-The_Boston_Globe_1921_09_11_77.jpg	boston-globe	1921-09-11	boston-globe 1921-09-11	C9	
-The_Boston_Globe_1921_09_18_83.jpg	boston-globe	1921-09-18	boston-globe 1921-09-18	C9	
-The_Boston_Globe_1921_09_25_81.jpg	boston-globe	1921-09-25	boston-globe 1921-09-25	C9	
-The_Boston_Globe_1921_10_02_81.jpg	boston-globe	1921-10-02	boston-globe 1921-10-02	C9	
-The_Boston_Globe_1921_10_09_84.jpg	boston-globe	1921-10-09	boston-globe 1921-10-09	C9	
-The_Boston_Globe_1921_10_16_87.jpg	boston-globe	1921-10-16	boston-globe 1921-10-16	C9	
-The_Boston_Globe_1921_10_23_91.jpg	boston-globe	1921-10-23	boston-globe 1921-10-23	C9	
-The_Boston_Globe_1921_10_30_91.jpg	boston-globe	1921-10-30	boston-globe 1921-10-30	C9	
-The_Boston_Globe_1921_11_06_81.jpg	boston-globe	1921-11-06	boston-globe 1921-11-06	C9	
-The_Boston_Globe_1921_11_13_79.jpg	boston-globe	1921-11-13	boston-globe 1921-11-13	C9	
-The_Boston_Globe_1921_11_20_78.jpg	boston-globe	1921-11-20	boston-globe 1921-11-20	C9	
-The_Boston_Globe_1921_11_27_72.jpg	boston-globe	1921-11-27	boston-globe 1921-11-27	C9	
-The_Boston_Globe_1921_12_04_83.jpg	boston-globe	1921-12-04	boston-globe 1921-12-04	C9	
-The_Boston_Globe_1921_12_11_81.jpg	boston-globe	1921-12-11	boston-globe 1921-12-11	C9	
-The_Boston_Globe_1921_12_18_79.jpg	boston-globe	1921-12-18	boston-globe 1921-12-18	C9	
-The_Boston_Globe_1921_12_25_83.jpg	boston-globe	1921-12-25	boston-globe 1921-12-25	C9	
-The_Boston_Globe_1922_01_01_71.jpg	boston-globe	1922-01-01	boston-globe 1922-01-01	C9	
-The_Boston_Globe_1922_01_08_79.jpg	boston-globe	1922-01-08	boston-globe 1922-01-08	C9	
-The_Boston_Globe_1922_01_15_75.jpg	boston-globe	1922-01-15	boston-globe 1922-01-15	C9	
-The_Boston_Globe_1922_01_22_75.jpg	boston-globe	1922-01-22	boston-globe 1922-01-22	C9	
-The_Boston_Globe_1922_01_29_88.jpg	boston-globe	1922-01-29	boston-globe 1922-01-29	C9	
-The_Boston_Globe_1922_02_05_71.jpg	boston-globe	1922-02-05	boston-globe 1922-02-05	C9	
-The_Boston_Globe_1922_02_12_79.jpg	boston-globe	1922-02-12	boston-globe 1922-02-12	C9	
-The_Boston_Globe_1922_02_19_81.jpg	boston-globe	1922-02-19	boston-globe 1922-02-19	C9	
-The_Boston_Globe_1922_02_26_74.jpg	boston-globe	1922-02-26	boston-globe 1922-02-26	C9	
-The_Boston_Globe_1922_03_05_72.jpg	boston-globe	1922-03-05	boston-globe 1922-03-05	C9	
-The_Boston_Globe_1922_03_12_96.jpg	boston-globe	1922-03-12	boston-globe 1922-03-12	C9	
-The_Boston_Globe_1922_03_19_87.jpg	boston-globe	1922-03-19	boston-globe 1922-03-19	C9	
-The_Boston_Globe_1922_03_26_87.jpg	boston-globe	1922-03-26	boston-globe 1922-03-26	C9	
-The_Boston_Globe_1922_04_02_94.jpg	boston-globe	1922-04-02	boston-globe 1922-04-02	C9	
-The_Boston_Globe_1922_04_09_91.jpg	boston-globe	1922-04-09	boston-globe 1922-04-09	C9	
-The_Boston_Globe_1922_04_16_86.jpg	boston-globe	1922-04-16	boston-globe 1922-04-16	C9	
-The_Boston_Globe_1922_04_23_87.jpg	boston-globe	1922-04-23	boston-globe 1922-04-23	C9	
-The_Boston_Globe_1922_04_30_85.jpg	boston-globe	1922-04-30	boston-globe 1922-04-30	C9	
-The_Boston_Globe_1922_05_07_85.jpg	boston-globe	1922-05-07	boston-globe 1922-05-07	C9	
-The_Boston_Globe_1922_05_14_84.jpg	boston-globe	1922-05-14	boston-globe 1922-05-14	C9	
-The_Boston_Globe_1922_05_21_88.jpg	boston-globe	1922-05-21	boston-globe 1922-05-21	C9	
-The_Boston_Globe_1922_05_28_72.jpg	boston-globe	1922-05-28	boston-globe 1922-05-28	C9	
-The_Boston_Globe_1922_06_04_86.jpg	boston-globe	1922-06-04	boston-globe 1922-06-04	C9	
-The_Boston_Globe_1922_06_11_94.jpg	boston-globe	1922-06-11	boston-globe 1922-06-11	C9	
-The_Boston_Globe_1922_06_18_83.jpg	boston-globe	1922-06-18	boston-globe 1922-06-18	C9	
-The_Boston_Globe_1922_06_25_80.jpg	boston-globe	1922-06-25	boston-globe 1922-06-25	C9	
-The_Boston_Globe_1922_07_02_66.jpg	boston-globe	1922-07-02	boston-globe 1922-07-02	C9	
-The_Boston_Globe_1922_07_09_76.jpg	boston-globe	1922-07-09	boston-globe 1922-07-09	C9	
-The_Boston_Globe_1922_07_16_73.jpg	boston-globe	1922-07-16	boston-globe 1922-07-16	C9	
-The_Boston_Globe_1922_07_23_68.jpg	boston-globe	1922-07-23	boston-globe 1922-07-23	C9	
-The_Boston_Globe_1922_07_30_81.jpg	boston-globe	1922-07-30	boston-globe 1922-07-30	C9	
-The_Boston_Globe_1922_08_06_88.jpg	boston-globe	1922-08-06	boston-globe 1922-08-06	C9	
-The_Boston_Globe_1922_08_13_88.jpg	boston-globe	1922-08-13	boston-globe 1922-08-13	C9	
-The_Boston_Globe_1922_08_20_82.jpg	boston-globe	1922-08-20	boston-globe 1922-08-20	C9	
-The_Boston_Globe_1922_08_27_81.jpg	boston-globe	1922-08-27	boston-globe 1922-08-27	C9	
-The_Boston_Globe_1922_09_03_69.jpg	boston-globe	1922-09-03	boston-globe 1922-09-03	C9	
-The_Boston_Globe_1922_09_10_77.jpg	boston-globe	1922-09-10	boston-globe 1922-09-10	C9	
-The_Boston_Globe_1922_09_17_83.jpg	boston-globe	1922-09-17	boston-globe 1922-09-17	C9	
-The_Boston_Globe_1922_09_24_81.jpg	boston-globe	1922-09-24	boston-globe 1922-09-24	C9	
-The_Boston_Globe_1922_10_01_78.jpg	boston-globe	1922-10-01	boston-globe 1922-10-01	C9	
-The_Boston_Globe_1922_10_08_78.jpg	boston-globe	1922-10-08	boston-globe 1922-10-08	C9	
-The_Boston_Globe_1922_10_15_90.jpg	boston-globe	1922-10-15	boston-globe 1922-10-15	C9	
-The_Boston_Globe_1922_10_22_87.jpg	boston-globe	1922-10-22	boston-globe 1922-10-22	C9	
-The_Boston_Globe_1922_10_29_94.jpg	boston-globe	1922-10-29	boston-globe 1922-10-29	C9	
-The_Boston_Globe_1922_11_05_88.jpg	boston-globe	1922-11-05	boston-globe 1922-11-05	C9	
-The_Boston_Globe_1922_11_12_88.jpg	boston-globe	1922-11-12	boston-globe 1922-11-12	C9	
-The_Boston_Globe_1922_11_19_81.jpg	boston-globe	1922-11-19	boston-globe 1922-11-19	C9	
-The_Boston_Globe_1922_11_26_80.jpg	boston-globe	1922-11-26	boston-globe 1922-11-26	C9	
-The_Boston_Globe_1922_12_03_84.jpg	boston-globe	1922-12-03	boston-globe 1922-12-03	C9	
-The_Boston_Globe_1922_12_10_82.jpg	boston-globe	1922-12-10	boston-globe 1922-12-10	C9	
-The_Boston_Globe_1922_12_17_79.jpg	boston-globe	1922-12-17	boston-globe 1922-12-17	C9	
-The_Boston_Globe_1922_12_24_76.jpg	boston-globe	1922-12-24	boston-globe 1922-12-24	C9	
-The_Boston_Globe_1922_12_31_71.jpg	boston-globe	1922-12-31	boston-globe 1922-12-31	C9	
-The_Boston_Globe_1923_01_07_83.jpg	boston-globe	1923-01-07	boston-globe 1923-01-07	C9	
-The_Boston_Globe_1923_01_14_90.jpg	boston-globe	1923-01-14	boston-globe 1923-01-14	C9	
-The_Boston_Globe_1923_01_21_80.jpg	boston-globe	1923-01-21	boston-globe 1923-01-21	C9	
-The_Boston_Globe_1923_01_28_89.jpg	boston-globe	1923-01-28	boston-globe 1923-01-28	C9	
-The_Boston_Globe_1923_02_04_79.jpg	boston-globe	1923-02-04	boston-globe 1923-02-04	C9	
-The_Boston_Globe_1923_02_11_77.jpg	boston-globe	1923-02-11	boston-globe 1923-02-11	C9	
-The_Boston_Globe_1923_02_18_70.jpg	boston-globe	1923-02-18	boston-globe 1923-02-18	C9	
-The_Boston_Globe_1923_02_25_72.jpg	boston-globe	1923-02-25	boston-globe 1923-02-25	C9	
-The_Boston_Globe_1923_03_04_63.jpg	boston-globe	1923-03-04	boston-globe 1923-03-04	C9	
-The_Boston_Globe_1923_03_11_103.jpg	boston-globe	1923-03-11	boston-globe 1923-03-11	C9	
-The_Boston_Globe_1923_03_18_78.jpg	boston-globe	1923-03-18	boston-globe 1923-03-18	C9	
-The_Boston_Globe_1923_03_25_86.jpg	boston-globe	1923-03-25	boston-globe 1923-03-25	C9	
-The_Boston_Globe_1923_04_01_86.jpg	boston-globe	1923-04-01	boston-globe 1923-04-01	C9	
-The_Boston_Globe_1923_04_08_97.jpg	boston-globe	1923-04-08	boston-globe 1923-04-08	C9	
-The_Boston_Globe_1923_04_15_94.jpg	boston-globe	1923-04-15	boston-globe 1923-04-15	C9	
-The_Boston_Globe_1923_04_22_111.jpg	boston-globe	1923-04-22	boston-globe 1923-04-22	C9	
-The_Boston_Globe_1923_04_29_100.jpg	boston-globe	1923-04-29	boston-globe 1923-04-29	C9	
-The_Boston_Globe_1923_05_06_100.jpg	boston-globe	1923-05-06	boston-globe 1923-05-06	C9	
-The_Boston_Globe_1923_05_13_99.jpg	boston-globe	1923-05-13	boston-globe 1923-05-13	C9	
-The_Boston_Globe_1923_05_20_105.jpg	boston-globe	1923-05-20	boston-globe 1923-05-20	C9	
+New_Orleans_States_1918_01_06_40.jpg	new-orleans-states	1918-01-06	new-orleans-states 1918-01-06	C10	
+The_Pittsburgh_Press_1918_01_06_Page_63.jpg	pittsburgh-press	1918-01-06	pittsburgh-press 1918-01-06	C11	
+The_Times_1918_01_06_Page_32.jpg	shreveport-times	1918-01-06	shreveport-times 1918-01-06	C12	
+The_Boston_Globe_1918_01_13_35.jpg	boston-globe	1918-01-13	boston-globe 1918-01-13	C13	
+The_Pittsburgh_Press_1918_01_13_Page_63.jpg	pittsburgh-press	1918-01-13	pittsburgh-press 1918-01-13	C14	
+The_Boston_Globe_1918_01_20_44.jpg	boston-globe	1918-01-20	boston-globe 1918-01-20	C15	
+New_Orleans_States_1918_01_20_42.jpg	new-orleans-states	1918-01-20	new-orleans-states 1918-01-20	C16	
+The_Pittsburgh_Press_1918_01_20_Page_55.jpg	pittsburgh-press	1918-01-20	pittsburgh-press 1918-01-20	C17	
+The_Boston_Globe_1918_01_27_37.jpg	boston-globe	1918-01-27	boston-globe 1918-01-27	C18	
+The_Boston_Globe_1918_02_03_46.jpg	boston-globe	1918-02-03	boston-globe 1918-02-03	C18	
+The_Pittsburgh_Press_1918_02_03_Page_55.jpg	pittsburgh-press	1918-02-03	pittsburgh-press 1918-02-03	C19	
+The_Boston_Globe_1918_02_10_48.jpg	boston-globe	1918-02-10	boston-globe 1918-02-10	C20	
+The_Pittsburgh_Press_1918_02_10_Page_59.jpg	pittsburgh-press	1918-02-10	pittsburgh-press 1918-02-10	C21	
+The_Boston_Globe_1918_02_17_33.jpg	boston-globe	1918-02-17	boston-globe 1918-02-17	C22	
+The_Pittsburgh_Press_1918_02_17_Page_71.jpg	pittsburgh-press	1918-02-17	pittsburgh-press 1918-02-17	C23	
+The_Boston_Globe_1918_02_24_48.jpg	boston-globe	1918-02-24	boston-globe 1918-02-24	C24	
+The_Pittsburgh_Press_1918_02_24_Page_83.jpg	pittsburgh-press	1918-02-24	pittsburgh-press 1918-02-24	C25	
+The_Boston_Globe_1918_03_03_56.jpg	boston-globe	1918-03-03	boston-globe 1918-03-03	C26	
+The_Pittsburgh_Press_1918_03_03_Page_97.jpg	pittsburgh-press	1918-03-03	pittsburgh-press 1918-03-03	C27	
+The_Boston_Globe_1918_03_10_50.jpg	boston-globe	1918-03-10	boston-globe 1918-03-10	C28	
+The_Boston_Globe_1918_03_17_45.jpg	boston-globe	1918-03-17	boston-globe 1918-03-17	C28	
+The_Pittsburgh_Press_1918_03_17_Page_79.jpg	pittsburgh-press	1918-03-17	pittsburgh-press 1918-03-17	C29	
+The_Boston_Globe_1918_03_24_44.jpg	boston-globe	1918-03-24	boston-globe 1918-03-24	C30	
+The_Pittsburgh_Press_1918_03_24_Page_75.jpg	pittsburgh-press	1918-03-24	pittsburgh-press 1918-03-24	C31	
+The_Boston_Globe_1918_03_31_54.jpg	boston-globe	1918-03-31	boston-globe 1918-03-31	C32	
+The_Fort_Wayne_Journal_Gazette_1918_03_31_Page_15B.jpg	fort-wayne-journal-gazette	1918-03-31			no puzzle on this page
+The_Pittsburgh_Press_1918_03_31_Page_79.jpg	pittsburgh-press	1918-03-31			no puzzle on this page
+The_Boston_Globe_1918_04_07_47.jpg	boston-globe	1918-04-07	boston-globe 1918-04-07	C32	
+New_Orleans_States_1918_04_07_36.jpg	new-orleans-states	1918-04-07	new-orleans-states 1918-04-07	C33	
+The_Pittsburgh_Press_1918_04_07_Page_87.jpg	pittsburgh-press	1918-04-07	pittsburgh-press 1918-04-07	C34	
+The_Boston_Globe_1918_04_14_41.jpg	boston-globe	1918-04-14	boston-globe 1918-04-14	C35	
+The_Pittsburgh_Press_1918_04_14_Page_71.jpg	pittsburgh-press	1918-04-14	pittsburgh-press 1918-04-14	C36	
+The_Boston_Globe_1918_04_21_61.jpg	boston-globe	1918-04-21	boston-globe 1918-04-21	C37	
+The_Pittsburgh_Press_1918_04_21_Page_75.jpg	pittsburgh-press	1918-04-21	pittsburgh-press 1918-04-21	C38	
+The_Boston_Globe_1918_04_28_46.jpg	boston-globe	1918-04-28	boston-globe 1918-04-28	C39	
+The_Pittsburgh_Press_1918_04_28_Page_67.jpg	pittsburgh-press	1918-04-28	pittsburgh-press 1918-04-28	C40	
+The_Boston_Globe_1918_05_05_50.jpg	boston-globe	1918-05-05	boston-globe 1918-05-05	C41	
+The_Pittsburgh_Press_1918_05_05_Page_70.jpg	pittsburgh-press	1918-05-05	pittsburgh-press 1918-05-05	C42	
+The_Boston_Globe_1918_05_12_51.jpg	boston-globe	1918-05-12	boston-globe 1918-05-12	C43	
+New_Orleans_States_1918_05_12_37.jpg	new-orleans-states	1918-05-12	new-orleans-states 1918-05-12	C44	
+The_Pittsburgh_Press_1918_05_12_Page_70.jpg	pittsburgh-press	1918-05-12	pittsburgh-press 1918-05-12	C45	
+The_Boston_Globe_1918_05_19_52.jpg	boston-globe	1918-05-19	boston-globe 1918-05-19	C46	
+The_Pittsburgh_Press_1918_05_19_Page_71.jpg	pittsburgh-press	1918-05-19	pittsburgh-press 1918-05-19	C47	
+The_Boston_Globe_1918_05_26_52.jpg	boston-globe	1918-05-26	boston-globe 1918-05-26	C48	
+The_Pittsburgh_Press_1918_05_26_Page_71.jpg	pittsburgh-press	1918-05-26	pittsburgh-press 1918-05-26	C49	
+The_Boston_Globe_1918_06_02_52.jpg	boston-globe	1918-06-02	boston-globe 1918-06-02	C50	
+The_Pittsburgh_Press_1918_06_02_Page_67.jpg	pittsburgh-press	1918-06-02	pittsburgh-press 1918-06-02	C51	
+The_Boston_Globe_1918_06_09_60.jpg	boston-globe	1918-06-09	boston-globe 1918-06-09	C52	
+The_Pittsburgh_Press_1918_06_09_Page_63.jpg	pittsburgh-press	1918-06-09	pittsburgh-press 1918-06-09	C53	
+The_Boston_Globe_1918_06_16_39.jpg	boston-globe	1918-06-16	boston-globe 1918-06-16	C54	
+The_Pittsburgh_Press_1918_06_16_Page_67.jpg	pittsburgh-press	1918-06-16	pittsburgh-press 1918-06-16	C55	
+The_Boston_Globe_1918_06_23_32.jpg	boston-globe	1918-06-23	boston-globe 1918-06-23	C56	
+The_Pittsburgh_Press_1918_06_23_Page_65.jpg	pittsburgh-press	1918-06-23	pittsburgh-press 1918-06-23	C57	
+The_Boston_Globe_1918_06_30_44.jpg	boston-globe	1918-06-30	boston-globe 1918-06-30	C58	
+The_Pittsburgh_Press_1918_06_30_Page_65.jpg	pittsburgh-press	1918-06-30	pittsburgh-press 1918-06-30	C59	
+The_Boston_Globe_1918_07_07_41.jpg	boston-globe	1918-07-07	boston-globe 1918-07-07	C60	
+The_Pittsburgh_Press_1918_07_07_Page_63.jpg	pittsburgh-press	1918-07-07	pittsburgh-press 1918-07-07	C61	
+The_Boston_Globe_1918_07_14_44.jpg	boston-globe	1918-07-14	boston-globe 1918-07-14	C62	
+The_Pittsburgh_Press_1918_07_14_Page_63.jpg	pittsburgh-press	1918-07-14	pittsburgh-press 1918-07-14	C63	
+The_Boston_Globe_1918_07_21_50.jpg	boston-globe	1918-07-21	boston-globe 1918-07-21	C64	
+The_Pittsburgh_Press_1918_07_21_Page_65.jpg	pittsburgh-press	1918-07-21	pittsburgh-press 1918-07-21	C65	
+The_Boston_Globe_1918_07_28_38.jpg	boston-globe	1918-07-28	boston-globe 1918-07-28	C66	
+The_Pittsburgh_Press_1918_07_28_Page_61.jpg	pittsburgh-press	1918-07-28	pittsburgh-press 1918-07-28	C67	
+The_Boston_Globe_1918_08_04_43.jpg	boston-globe	1918-08-04	boston-globe 1918-08-04	C68	
+The_Pittsburgh_Press_1918_08_04_Page_63.jpg	pittsburgh-press	1918-08-04	pittsburgh-press 1918-08-04	C69	
+The_Boston_Globe_1918_08_11_48.jpg	boston-globe	1918-08-11	boston-globe 1918-08-11	C70	
+The_Pittsburgh_Press_1918_08_11_Page_63.jpg	pittsburgh-press	1918-08-11	pittsburgh-press 1918-08-11	C71	
+The_Boston_Globe_1918_08_18_37.jpg	boston-globe	1918-08-18	boston-globe 1918-08-18	C72	
+The_Pittsburgh_Press_1918_08_18_Page_63.jpg	pittsburgh-press	1918-08-18	pittsburgh-press 1918-08-18	C73	
+The_Boston_Globe_1918_08_25_42.jpg	boston-globe	1918-08-25	boston-globe 1918-08-25	C74	
+The_Pittsburgh_Press_1918_08_25_Page_63.jpg	pittsburgh-press	1918-08-25	pittsburgh-press 1918-08-25	C75	
+The_Boston_Globe_1918_09_01_36.jpg	boston-globe	1918-09-01	boston-globe 1918-09-01	C76	
+The_Pittsburgh_Press_1918_09_01_Page_51.jpg	pittsburgh-press	1918-09-01	pittsburgh-press 1918-09-01	C77	
+The_Pittsburgh_Press_1918_09_08_Page_63.jpg	pittsburgh-press	1918-09-08	pittsburgh-press 1918-09-08	C77	
+The_Boston_Globe_1918_09_15_39.jpg	boston-globe	1918-09-15	boston-globe 1918-09-15	C78	
+The_Pittsburgh_Press_1918_09_15_Page_65.jpg	pittsburgh-press	1918-09-15	pittsburgh-press 1918-09-15	C79	
+The_Boston_Globe_1918_09_22_42.jpg	boston-globe	1918-09-22	boston-globe 1918-09-22	C80	
+The_Boston_Globe_1918_09_29_51.jpg	boston-globe	1918-09-29	boston-globe 1918-09-29	C80	
+New_Orleans_States_1918_09_29_34_key.jpg	new-orleans-states	1918-09-29	new-orleans-states 1918-09-29	C81	
+The_Boston_Globe_1918_10_06_57.jpg	boston-globe	1918-10-06	boston-globe 1918-10-06	C82	
+The_Boston_Globe_1918_10_13_48.jpg	boston-globe	1918-10-13	boston-globe 1918-10-13	C82	
+The_Boston_Globe_1918_10_20_59.jpg	boston-globe	1918-10-20	boston-globe 1918-10-20	C82	
+The_Pittsburgh_Press_1918_10_20_Page_63.jpg	pittsburgh-press	1918-10-20	pittsburgh-press 1918-10-20	C83	
+The_Boston_Globe_1918_10_27_56.jpg	boston-globe	1918-10-27	boston-globe 1918-10-27	C84	
+The_Pittsburgh_Press_1918_10_27_Page_59.jpg	pittsburgh-press	1918-10-27	pittsburgh-press 1918-10-27	C85	
+The_Boston_Globe_1918_11_03_65.jpg	boston-globe	1918-11-03	boston-globe 1918-11-03	C86	
+The_Pittsburgh_Press_1918_11_03_Page_57.jpg	pittsburgh-press	1918-11-03	pittsburgh-press 1918-11-03	C87	
+The_Boston_Globe_1918_11_10_54.jpg	boston-globe	1918-11-10	boston-globe 1918-11-10	C88	
+The_Pittsburgh_Press_1918_11_10_Page_67.jpg	pittsburgh-press	1918-11-10	pittsburgh-press 1918-11-10	C89	
+The_Boston_Globe_1918_11_17_69.jpg	boston-globe	1918-11-17	boston-globe 1918-11-17	C90	
+The_Pittsburgh_Press_1918_11_17_Page_79.jpg	pittsburgh-press	1918-11-17	pittsburgh-press 1918-11-17	C91	
+The_Boston_Globe_1918_11_24_69.jpg	boston-globe	1918-11-24	boston-globe 1918-11-24	C92	
+The_Boston_Globe_1918_12_01_63.jpg	boston-globe	1918-12-01	boston-globe 1918-12-01	C92	
+The_Pittsburgh_Press_1918_12_01_Page_67.jpg	pittsburgh-press	1918-12-01	nyw1913-12-21 (No. 1)		before No. 7, where the chains start
+The_Boston_Globe_1918_12_08_67.jpg	boston-globe	1918-12-08	boston-globe 1918-12-08	C92	
+New_Orleans_States_1918_12_08_42_key.jpg	new-orleans-states	1918-12-08	new-orleans-states 1918-12-08	C93	
+The_Pittsburgh_Press_1918_12_08_Page_67.jpg	pittsburgh-press	1918-12-08	pittsburgh-press 1918-12-08	C94	
+The_Boston_Globe_1918_12_15_14.jpg	boston-globe	1918-12-15	boston-globe 1918-12-15	C95	
+The_Pittsburgh_Press_1918_12_15_Page_79.jpg	pittsburgh-press	1918-12-15	pittsburgh-press 1918-12-15	C96	
+The_Boston_Globe_1918_12_22_63.jpg	boston-globe	1918-12-22	boston-globe 1918-12-22	C97	
+New_Orleans_States_1918_12_22_38.jpg	new-orleans-states	1918-12-22	new-orleans-states 1918-12-22	C98	
+The_Pittsburgh_Press_1918_12_22_Page_75.jpg	pittsburgh-press	1918-12-22	pittsburgh-press 1918-12-22	C99	
+The_Pittsburgh_Press_1918_12_22_Page_79.jpg	pittsburgh-press	1918-12-22	pittsburgh-press 1918-12-22	C99	
+The_Boston_Globe_1918_12_29_63.jpg	boston-globe	1918-12-29	boston-globe 1918-12-29	C100	
+The_Pittsburgh_Press_1918_12_29_Page_61.jpg	pittsburgh-press	1918-12-29	pittsburgh-press 1918-12-29	C101	
+The_Boston_Globe_1919_01_05_58.jpg	boston-globe	1919-01-05	boston-globe 1919-01-05	C102	
+The_Pittsburgh_Press_1919_01_05_Page_67.jpg	pittsburgh-press	1919-01-05	pittsburgh-press 1919-01-05	C103	
+The_Boston_Globe_1919_01_12_71.jpg	boston-globe	1919-01-12	boston-globe 1919-01-12	C104	
+The_Pittsburgh_Press_1919_01_12_Page_65.jpg	pittsburgh-press	1919-01-12	pittsburgh-press 1919-01-12	C105	
+The_Boston_Globe_1919_01_19_73.jpg	boston-globe	1919-01-19	boston-globe 1919-01-19	C106	
+The_Pittsburgh_Press_1919_01_19_Page_71.jpg	pittsburgh-press	1919-01-19	pittsburgh-press 1919-01-19	C107	
+The_Boston_Globe_1919_01_26_67.jpg	boston-globe	1919-01-26	boston-globe 1919-01-26	C108	
+The_Pittsburgh_Press_1919_01_26_Page_67.jpg	pittsburgh-press	1919-01-26	pittsburgh-press 1919-01-26	C109	
+The_Boston_Globe_1919_02_02_69.jpg	boston-globe	1919-02-02	boston-globe 1919-02-02	C110	
+The_Pittsburgh_Press_1919_02_02_Page_71.jpg	pittsburgh-press	1919-02-02	pittsburgh-press 1919-02-02	C111	
+The_Boston_Globe_1919_02_09_71.jpg	boston-globe	1919-02-09	boston-globe 1919-02-09	C112	
+The_Pittsburgh_Press_1919_02_09_Page_75.jpg	pittsburgh-press	1919-02-09	pittsburgh-press 1919-02-09	C113	
+The_Boston_Globe_1919_02_16_73.jpg	boston-globe	1919-02-16	boston-globe 1919-02-16	C114	
+The_Pittsburgh_Press_1919_02_16_Page_71.jpg	pittsburgh-press	1919-02-16	pittsburgh-press 1919-02-16	C115	
+The_Boston_Globe_1919_02_23_63.jpg	boston-globe	1919-02-23	boston-globe 1919-02-23	C116	
+The_Pittsburgh_Press_1919_02_23_Page_71.jpg	pittsburgh-press	1919-02-23	pittsburgh-press 1919-02-23	C117	
+The_Boston_Globe_1919_03_02_66.jpg	boston-globe	1919-03-02	boston-globe 1919-03-02	C118	
+The_Pittsburgh_Press_1919_03_02_Page_71.jpg	pittsburgh-press	1919-03-02	pittsburgh-press 1919-03-02	C119	
+The_Boston_Globe_1919_03_09_76.jpg	boston-globe	1919-03-09	boston-globe 1919-03-09	C120	
+The_Pittsburgh_Press_1919_03_09_Page_75.jpg	pittsburgh-press	1919-03-09	pittsburgh-press 1919-03-09	C121	
+The_Boston_Globe_1919_03_16_87.jpg	boston-globe	1919-03-16	boston-globe 1919-03-16	C122	
+The_Pittsburgh_Press_1919_03_16_Page_79.jpg	pittsburgh-press	1919-03-16	pittsburgh-press 1919-03-16	C123	
+The_Boston_Globe_1919_03_23_81.jpg	boston-globe	1919-03-23	boston-globe 1919-03-23	C124	
+The_Boston_Globe_1919_03_30_69.jpg	boston-globe	1919-03-30	boston-globe 1919-03-30	C124	
+The_Boston_Globe_1919_04_06_87.jpg	boston-globe	1919-04-06	boston-globe 1919-04-06	C124	
+The_Pittsburgh_Press_1919_04_06_Page_83.jpg	pittsburgh-press	1919-04-06	pittsburgh-press 1919-04-06	C125	
+The_Boston_Globe_1919_04_13_87.jpg	boston-globe	1919-04-13	boston-globe 1919-04-13	C126	
+The_Pittsburgh_Press_1919_04_13_Page_83.jpg	pittsburgh-press	1919-04-13	pittsburgh-press 1919-04-13	C127	
+The_Boston_Globe_1919_04_20_87.jpg	boston-globe	1919-04-20	boston-globe 1919-04-20	C128	
+The_Pittsburgh_Press_1919_04_20_Page_87.jpg	pittsburgh-press	1919-04-20	pittsburgh-press 1919-04-20	C129	
+The_Boston_Globe_1919_04_27_87.jpg	boston-globe	1919-04-27	boston-globe 1919-04-27	C130	
+The_Pittsburgh_Press_1919_04_27_Page_87.jpg	pittsburgh-press	1919-04-27	pittsburgh-press 1919-04-27	C131	
+The_Boston_Globe_1919_05_04_79.jpg	boston-globe	1919-05-04	boston-globe 1919-05-04	C132	
+The_Boston_Globe_1919_05_11_88.jpg	boston-globe	1919-05-11	boston-globe 1919-05-11	C132	
+The_Pittsburgh_Press_1919_05_11_Page_75.jpg	pittsburgh-press	1919-05-11	pittsburgh-press 1919-05-11	C133	
+The_Boston_Globe_1919_05_18_83.jpg	boston-globe	1919-05-18	boston-globe 1919-05-18	C134	
+The_Pittsburgh_Press_1919_05_18_Page_71.jpg	pittsburgh-press	1919-05-18	pittsburgh-press 1919-05-18	C135	
+The_Boston_Globe_1919_05_25_87.jpg	boston-globe	1919-05-25	boston-globe 1919-05-25	C136	
+The_Pittsburgh_Press_1919_05_25_Page_79.jpg	pittsburgh-press	1919-05-25	pittsburgh-press 1919-05-25	C137	
+The_Boston_Globe_1919_06_01_81.jpg	boston-globe	1919-06-01	boston-globe 1919-06-01	C138	
+The_Boston_Globe_1919_06_08_83.jpg	boston-globe	1919-06-08	boston-globe 1919-06-08	C138	
+The_Pittsburgh_Press_1919_06_08_Page_79.jpg	pittsburgh-press	1919-06-08	pittsburgh-press 1919-06-08	C139	
+The_Boston_Globe_1919_06_15_85.jpg	boston-globe	1919-06-15	boston-globe 1919-06-15	C140	
+The_Pittsburgh_Press_1919_06_15_Page_83.jpg	pittsburgh-press	1919-06-15	pittsburgh-press 1919-06-15	C141	
+The_Boston_Globe_1919_06_22_91.jpg	boston-globe	1919-06-22	boston-globe 1919-06-22	C142	
+The_Pittsburgh_Press_1919_06_22_Page_79.jpg	pittsburgh-press	1919-06-22	pittsburgh-press 1919-06-22	C143	
+The_Boston_Globe_1919_06_29_83.jpg	boston-globe	1919-06-29	boston-globe 1919-06-29	C144	
+The_Pittsburgh_Press_1919_06_29_Page_95.jpg	pittsburgh-press	1919-06-29	pittsburgh-press 1919-06-29	C145	
+The_Boston_Globe_1919_07_06_79.jpg	boston-globe	1919-07-06	boston-globe 1919-07-06	C146	
+The_Pittsburgh_Press_1919_07_06_Page_79.jpg	pittsburgh-press	1919-07-06	pittsburgh-press 1919-07-06	C147	
+The_Boston_Globe_1919_07_13_84.jpg	boston-globe	1919-07-13	boston-globe 1919-07-13	C148	
+The_Pittsburgh_Press_1919_07_13_Page_79.jpg	pittsburgh-press	1919-07-13	pittsburgh-press 1919-07-13	C149	
+The_Boston_Globe_1919_07_20_69.jpg	boston-globe	1919-07-20	boston-globe 1919-07-20	C150	
+The_Pittsburgh_Press_1919_07_20_Page_75.jpg	pittsburgh-press	1919-07-20	pittsburgh-press 1919-07-20	C151	
+The_Boston_Globe_1919_07_27_75.jpg	boston-globe	1919-07-27	boston-globe 1919-07-27	C152	
+The_Boston_Globe_1919_08_03_73.jpg	boston-globe	1919-08-03	boston-globe 1919-08-03	C152	
+The_Boston_Globe_1919_08_10_73.jpg	boston-globe	1919-08-10	boston-globe 1919-08-10	C152	
+The_Pittsburgh_Press_1919_08_10_Page_79.jpg	pittsburgh-press	1919-08-10	pittsburgh-press 1919-08-10	C153	
+The_Boston_Globe_1919_08_17_74.jpg	boston-globe	1919-08-17	boston-globe 1919-08-17	C154	
+The_Boston_Globe_1919_08_24_75.jpg	boston-globe	1919-08-24	boston-globe 1919-08-24	C154	
+The_Boston_Globe_1919_08_31_70.jpg	boston-globe	1919-08-31	boston-globe 1919-08-31	C154	
+The_Pittsburgh_Press_1919_08_31_Page_71.jpg	pittsburgh-press	1919-08-31	pittsburgh-press 1919-08-31	C155	
+The_Boston_Globe_1919_09_07_87.jpg	boston-globe	1919-09-07	boston-globe 1919-09-07	C156	
+The_Pittsburgh_Press_1919_09_07_Page_93.jpg	pittsburgh-press	1919-09-07	pittsburgh-press 1919-09-07	C157	
+The_Boston_Globe_1919_09_14_77.jpg	boston-globe	1919-09-14	boston-globe 1919-09-14	C158	
+The_Pittsburgh_Press_1919_09_14_Page_91.jpg	pittsburgh-press	1919-09-14	pittsburgh-press 1919-09-14	C159	
+The_Boston_Globe_1919_09_21_85.jpg	boston-globe	1919-09-21	boston-globe 1919-09-21	C160	
+The_Boston_Globe_1919_09_28_76.jpg	boston-globe	1919-09-28	boston-globe 1919-09-28	C160	
+The_Boston_Globe_1919_10_05_87.jpg	boston-globe	1919-10-05	boston-globe 1919-10-05	C160	
+The_Boston_Globe_1919_10_12_73.jpg	boston-globe	1919-10-12	boston-globe 1919-10-12	C160	
+The_Boston_Globe_1919_10_19_82.jpg	boston-globe	1919-10-19	boston-globe 1919-10-19	C160	
+The_Boston_Globe_1919_10_26_85.jpg	boston-globe	1919-10-26	boston-globe 1919-10-26	C160	
+The_Boston_Globe_1919_11_02_93.jpg	boston-globe	1919-11-02	boston-globe 1919-11-02	C160	
+The_Boston_Globe_1919_11_09_88.jpg	boston-globe	1919-11-09	boston-globe 1919-11-09	C160	
+The_Boston_Globe_1919_11_16_93.jpg	boston-globe	1919-11-16	boston-globe 1919-11-16	C160	
+The_Boston_Globe_1919_11_23_85.jpg	boston-globe	1919-11-23	boston-globe 1919-11-23	C160	
+The_Boston_Globe_1919_11_30_81.jpg	boston-globe	1919-11-30	boston-globe 1919-11-30	C160	
+The_Boston_Globe_1919_12_07_85.jpg	boston-globe	1919-12-07	boston-globe 1919-12-07	C160	
+The_Boston_Globe_1919_12_14_79.jpg	boston-globe	1919-12-14	boston-globe 1919-12-14	C160	
+The_Boston_Globe_1919_12_21_61.jpg	boston-globe	1919-12-21	boston-globe 1919-12-21	C160	
+The_Boston_Globe_1919_12_28_77.jpg	boston-globe	1919-12-28	boston-globe 1919-12-28	C160	
+The_Boston_Globe_1920_01_04_77.jpg	boston-globe	1920-01-04	boston-globe 1920-01-04	C160	
+The_Boston_Globe_1920_01_11_76.jpg	boston-globe	1920-01-11	boston-globe 1920-01-11	C160	
+The_Boston_Globe_1920_01_18_81.jpg	boston-globe	1920-01-18	boston-globe 1920-01-18	C160	
+The_Boston_Globe_1920_01_25_67.jpg	boston-globe	1920-01-25	boston-globe 1920-01-25	C160	
+The_Boston_Globe_1920_02_01_75.jpg	boston-globe	1920-02-01	boston-globe 1920-02-01	C160	
+The_Boston_Globe_1920_02_08_77.jpg	boston-globe	1920-02-08	boston-globe 1920-02-08	C160	
+The_Boston_Globe_1920_02_15_67.jpg	boston-globe	1920-02-15	boston-globe 1920-02-15	C160	
+The_Boston_Globe_1920_02_22_81.jpg	boston-globe	1920-02-22	boston-globe 1920-02-22	C160	
+The_Boston_Globe_1920_02_29_80.jpg	boston-globe	1920-02-29	boston-globe 1920-02-29	C160	
+The_Boston_Globe_1920_03_07_85.jpg	boston-globe	1920-03-07	boston-globe 1920-03-07	C160	
+The_Boston_Globe_1920_03_14_100.jpg	boston-globe	1920-03-14	boston-globe 1920-03-14	C160	
+The_Boston_Globe_1920_03_21_81.jpg	boston-globe	1920-03-21	boston-globe 1920-03-21	C160	
+The_Boston_Globe_1920_03_28_91.jpg	boston-globe	1920-03-28	boston-globe 1920-03-28	C160	
+The_Boston_Globe_1920_04_04_87.jpg	boston-globe	1920-04-04	boston-globe 1920-04-04	C160	
+The_Boston_Globe_1920_04_11_90.jpg	boston-globe	1920-04-11	boston-globe 1920-04-11	C160	
+The_Boston_Globe_1920_04_18_91.jpg	boston-globe	1920-04-18	boston-globe 1920-04-18	C160	
+The_Boston_Globe_1920_04_25_86.jpg	boston-globe	1920-04-25	boston-globe 1920-04-25	C160	
+The_Boston_Globe_1920_05_02_101.jpg	boston-globe	1920-05-02	boston-globe 1920-05-02	C160	
+The_Boston_Globe_1920_05_09_91.jpg	boston-globe	1920-05-09	boston-globe 1920-05-09	C160	
+The_Boston_Globe_1920_05_16_88.jpg	boston-globe	1920-05-16	boston-globe 1920-05-16	C160	
+The_Boston_Globe_1920_05_23_86.jpg	boston-globe	1920-05-23	boston-globe 1920-05-23	C160	
+The_Boston_Globe_1920_05_30_83.jpg	boston-globe	1920-05-30	boston-globe 1920-05-30	C160	
+The_Boston_Globe_1920_06_06_93.jpg	boston-globe	1920-06-06	boston-globe 1920-06-06	C160	
+The_Boston_Globe_1920_06_13_87.jpg	boston-globe	1920-06-13	boston-globe 1920-06-13	C160	
+The_Boston_Globe_1920_06_20_84.jpg	boston-globe	1920-06-20	boston-globe 1920-06-20	C160	
+The_Boston_Globe_1920_06_27_5.jpg	boston-globe	1920-06-27	boston-globe 1920-06-27	C160	
+The_Boston_Globe_1920_07_04_77.jpg	boston-globe	1920-07-04	boston-globe 1920-07-04	C160	
+The_Boston_Globe_1920_07_11_76.jpg	boston-globe	1920-07-11	boston-globe 1920-07-11	C160	
+The_Boston_Globe_1920_07_18_86.jpg	boston-globe	1920-07-18	boston-globe 1920-07-18	C160	
+The_Boston_Globe_1920_07_25_73.jpg	boston-globe	1920-07-25	boston-globe 1920-07-25	C160	
+The_Boston_Globe_1920_08_01_78.jpg	boston-globe	1920-08-01	boston-globe 1920-08-01	C160	
+The_Boston_Globe_1920_08_08_77.jpg	boston-globe	1920-08-08	boston-globe 1920-08-08	C160	
+The_Boston_Globe_1920_08_15_73.jpg	boston-globe	1920-08-15	boston-globe 1920-08-15	C160	
+The_Boston_Globe_1920_08_22_80.jpg	boston-globe	1920-08-22	boston-globe 1920-08-22	C160	
+The_Boston_Globe_1920_08_29_75.jpg	boston-globe	1920-08-29	boston-globe 1920-08-29	C160	
+The_Boston_Globe_1920_09_05_69.jpg	boston-globe	1920-09-05	boston-globe 1920-09-05	C160	
+The_Boston_Globe_1920_09_12_82.jpg	boston-globe	1920-09-12	boston-globe 1920-09-12	C160	
+The_Boston_Globe_1920_09_19_88.jpg	boston-globe	1920-09-19	boston-globe 1920-09-19	C160	
+The_Boston_Globe_1920_09_26_76.jpg	boston-globe	1920-09-26	boston-globe 1920-09-26	C160	
+The_Boston_Globe_1920_10_03_92.jpg	boston-globe	1920-10-03	boston-globe 1920-10-03	C160	
+The_Boston_Globe_1920_10_10_84.jpg	boston-globe	1920-10-10	boston-globe 1920-10-10	C160	
+The_Boston_Globe_1920_10_17_88.jpg	boston-globe	1920-10-17	boston-globe 1920-10-17	C160	
+The_Boston_Globe_1920_10_24_81.jpg	boston-globe	1920-10-24	boston-globe 1920-10-24	C160	
+The_Boston_Globe_1920_10_31_84.jpg	boston-globe	1920-10-31	boston-globe 1920-10-31	C160	
+The_Boston_Globe_1920_11_07_81.jpg	boston-globe	1920-11-07	boston-globe 1920-11-07	C160	
+The_Boston_Globe_1920_11_14_89.jpg	boston-globe	1920-11-14	boston-globe 1920-11-14	C160	
+The_Boston_Globe_1920_11_21_84.jpg	boston-globe	1920-11-21	boston-globe 1920-11-21	C160	
+The_Boston_Globe_1920_11_28_75.jpg	boston-globe	1920-11-28	boston-globe 1920-11-28	C160	
+The_Boston_Globe_1920_12_05_77.jpg	boston-globe	1920-12-05	boston-globe 1920-12-05	C160	
+The_Boston_Globe_1920_12_12_79.jpg	boston-globe	1920-12-12	boston-globe 1920-12-12	C160	
+The_Boston_Globe_1920_12_19_66.jpg	boston-globe	1920-12-19	boston-globe 1920-12-19	C160	
+The_Boston_Globe_1920_12_26_65.jpg	boston-globe	1920-12-26	boston-globe 1920-12-26	C160	
+The_Boston_Globe_1921_01_02_74.jpg	boston-globe	1921-01-02	boston-globe 1921-01-02	C160	
+The_Boston_Globe_1921_01_09_81.jpg	boston-globe	1921-01-09	boston-globe 1921-01-09	C160	
+The_Boston_Globe_1921_01_16_82.jpg	boston-globe	1921-01-16	boston-globe 1921-01-16	C160	
+The_Boston_Globe_1921_01_23_70.jpg	boston-globe	1921-01-23	boston-globe 1921-01-23	C160	
+The_Boston_Globe_1921_01_30_71.jpg	boston-globe	1921-01-30	boston-globe 1921-01-30	C160	
+The_Boston_Globe_1921_02_06_78.jpg	boston-globe	1921-02-06	boston-globe 1921-02-06	C160	
+The_Boston_Globe_1921_02_13_71.jpg	boston-globe	1921-02-13	boston-globe 1921-02-13	C160	
+The_Boston_Globe_1921_02_20_78.jpg	boston-globe	1921-02-20	boston-globe 1921-02-20	C160	
+The_Boston_Globe_1921_02_27_66.jpg	boston-globe	1921-02-27	boston-globe 1921-02-27	C160	
+The_Boston_Globe_1921_03_06_82.jpg	boston-globe	1921-03-06	boston-globe 1921-03-06	C160	
+The_Boston_Globe_1921_03_13_100.jpg	boston-globe	1921-03-13	boston-globe 1921-03-13	C160	
+The_Boston_Globe_1921_03_20_80.jpg	boston-globe	1921-03-20	boston-globe 1921-03-20	C160	
+The_Boston_Globe_1921_03_27_92.jpg	boston-globe	1921-03-27	boston-globe 1921-03-27	C160	
+The_Boston_Globe_1921_04_03_83.jpg	boston-globe	1921-04-03	boston-globe 1921-04-03	C160	
+The_Boston_Globe_1921_04_10_83.jpg	boston-globe	1921-04-10	boston-globe 1921-04-10	C160	
+The_Boston_Globe_1921_04_17_86.jpg	boston-globe	1921-04-17	boston-globe 1921-04-17	C160	
+The_Boston_Globe_1921_04_24_88.jpg	boston-globe	1921-04-24	boston-globe 1921-04-24	C160	
+The_Boston_Globe_1921_05_01_89.jpg	boston-globe	1921-05-01	boston-globe 1921-05-01	C160	
+The_Boston_Globe_1921_05_08_76.jpg	boston-globe	1921-05-08	boston-globe 1921-05-08	C160	
+The_Boston_Globe_1921_05_15_86.jpg	boston-globe	1921-05-15	boston-globe 1921-05-15	C160	
+The_Boston_Globe_1921_05_22_88.jpg	boston-globe	1921-05-22	boston-globe 1921-05-22	C160	
+The_Boston_Globe_1921_05_29_85.jpg	boston-globe	1921-05-29	boston-globe 1921-05-29	C160	
+The_Boston_Globe_1921_06_05_87.jpg	boston-globe	1921-06-05	boston-globe 1921-06-05	C160	
+The_Boston_Globe_1921_06_12_87.jpg	boston-globe	1921-06-12	boston-globe 1921-06-12	C160	
+The_Boston_Globe_1921_06_19_90.jpg	boston-globe	1921-06-19	boston-globe 1921-06-19	C160	
+The_Boston_Globe_1921_06_26_91.jpg	boston-globe	1921-06-26	boston-globe 1921-06-26	C160	
+The_Boston_Globe_1921_07_03_71.jpg	boston-globe	1921-07-03	boston-globe 1921-07-03	C160	
+The_Boston_Globe_1921_07_10_70.jpg	boston-globe	1921-07-10	boston-globe 1921-07-10	C160	
+The_Boston_Globe_1921_07_17_69.jpg	boston-globe	1921-07-17	boston-globe 1921-07-17	C160	
+The_Boston_Globe_1921_07_24_74.jpg	boston-globe	1921-07-24	boston-globe 1921-07-24	C160	
+The_Boston_Globe_1921_07_31_77.jpg	boston-globe	1921-07-31	boston-globe 1921-07-31	C160	
+The_Boston_Globe_1921_08_07_81.jpg	boston-globe	1921-08-07	boston-globe 1921-08-07	C160	
+The_Boston_Globe_1921_08_14_74.jpg	boston-globe	1921-08-14	boston-globe 1921-08-14	C160	
+The_Boston_Globe_1921_08_21_81.jpg	boston-globe	1921-08-21	boston-globe 1921-08-21	C160	
+The_Boston_Globe_1921_08_28_81.jpg	boston-globe	1921-08-28	boston-globe 1921-08-28	C160	
+The_Boston_Globe_1921_09_04_67.jpg	boston-globe	1921-09-04	boston-globe 1921-09-04	C160	
+The_Boston_Globe_1921_09_11_77.jpg	boston-globe	1921-09-11	boston-globe 1921-09-11	C160	
+The_Boston_Globe_1921_09_18_83.jpg	boston-globe	1921-09-18	boston-globe 1921-09-18	C160	
+The_Boston_Globe_1921_09_25_81.jpg	boston-globe	1921-09-25	boston-globe 1921-09-25	C160	
+The_Boston_Globe_1921_10_02_81.jpg	boston-globe	1921-10-02	boston-globe 1921-10-02	C160	
+The_Boston_Globe_1921_10_09_84.jpg	boston-globe	1921-10-09	boston-globe 1921-10-09	C160	
+The_Boston_Globe_1921_10_16_87.jpg	boston-globe	1921-10-16	boston-globe 1921-10-16	C160	
+The_Boston_Globe_1921_10_23_91.jpg	boston-globe	1921-10-23	boston-globe 1921-10-23	C160	
+The_Boston_Globe_1921_10_30_91.jpg	boston-globe	1921-10-30	boston-globe 1921-10-30	C160	
+The_Boston_Globe_1921_11_06_81.jpg	boston-globe	1921-11-06	boston-globe 1921-11-06	C160	
+The_Boston_Globe_1921_11_13_79.jpg	boston-globe	1921-11-13	boston-globe 1921-11-13	C160	
+The_Boston_Globe_1921_11_20_78.jpg	boston-globe	1921-11-20	boston-globe 1921-11-20	C160	
+The_Boston_Globe_1921_11_27_72.jpg	boston-globe	1921-11-27	boston-globe 1921-11-27	C160	
+The_Boston_Globe_1921_12_04_83.jpg	boston-globe	1921-12-04	boston-globe 1921-12-04	C160	
+The_Boston_Globe_1921_12_11_81.jpg	boston-globe	1921-12-11	boston-globe 1921-12-11	C160	
+The_Boston_Globe_1921_12_18_79.jpg	boston-globe	1921-12-18	boston-globe 1921-12-18	C160	
+The_Boston_Globe_1921_12_25_83.jpg	boston-globe	1921-12-25	boston-globe 1921-12-25	C160	
+The_Boston_Globe_1922_01_01_71.jpg	boston-globe	1922-01-01	boston-globe 1922-01-01	C160	
+The_Boston_Globe_1922_01_08_79.jpg	boston-globe	1922-01-08	boston-globe 1922-01-08	C160	
+The_Boston_Globe_1922_01_15_75.jpg	boston-globe	1922-01-15	boston-globe 1922-01-15	C160	
+The_Boston_Globe_1922_01_22_75.jpg	boston-globe	1922-01-22	boston-globe 1922-01-22	C160	
+The_Boston_Globe_1922_01_29_88.jpg	boston-globe	1922-01-29	boston-globe 1922-01-29	C160	
+The_Boston_Globe_1922_02_05_71.jpg	boston-globe	1922-02-05	boston-globe 1922-02-05	C160	
+The_Boston_Globe_1922_02_12_79.jpg	boston-globe	1922-02-12	boston-globe 1922-02-12	C160	
+The_Boston_Globe_1922_02_19_81.jpg	boston-globe	1922-02-19	boston-globe 1922-02-19	C160	
+The_Boston_Globe_1922_02_26_74.jpg	boston-globe	1922-02-26	boston-globe 1922-02-26	C160	
+The_Boston_Globe_1922_03_05_72.jpg	boston-globe	1922-03-05	boston-globe 1922-03-05	C160	
+The_Boston_Globe_1922_03_12_96.jpg	boston-globe	1922-03-12	boston-globe 1922-03-12	C160	
+The_Boston_Globe_1922_03_19_87.jpg	boston-globe	1922-03-19	boston-globe 1922-03-19	C160	
+The_Boston_Globe_1922_03_26_87.jpg	boston-globe	1922-03-26	boston-globe 1922-03-26	C160	
+The_Boston_Globe_1922_04_02_94.jpg	boston-globe	1922-04-02	boston-globe 1922-04-02	C160	
+The_Boston_Globe_1922_04_09_91.jpg	boston-globe	1922-04-09	boston-globe 1922-04-09	C160	
+The_Boston_Globe_1922_04_16_86.jpg	boston-globe	1922-04-16	boston-globe 1922-04-16	C160	
+The_Boston_Globe_1922_04_23_87.jpg	boston-globe	1922-04-23	boston-globe 1922-04-23	C160	
+The_Boston_Globe_1922_04_30_85.jpg	boston-globe	1922-04-30	boston-globe 1922-04-30	C160	
+The_Boston_Globe_1922_05_07_85.jpg	boston-globe	1922-05-07	boston-globe 1922-05-07	C160	
+The_Boston_Globe_1922_05_14_84.jpg	boston-globe	1922-05-14	boston-globe 1922-05-14	C160	
+The_Boston_Globe_1922_05_21_88.jpg	boston-globe	1922-05-21	boston-globe 1922-05-21	C160	
+The_Boston_Globe_1922_05_28_72.jpg	boston-globe	1922-05-28	boston-globe 1922-05-28	C160	
+The_Boston_Globe_1922_06_04_86.jpg	boston-globe	1922-06-04	boston-globe 1922-06-04	C160	
+The_Boston_Globe_1922_06_11_94.jpg	boston-globe	1922-06-11	boston-globe 1922-06-11	C160	
+The_Boston_Globe_1922_06_18_83.jpg	boston-globe	1922-06-18	boston-globe 1922-06-18	C160	
+The_Boston_Globe_1922_06_25_80.jpg	boston-globe	1922-06-25	boston-globe 1922-06-25	C160	
+The_Boston_Globe_1922_07_02_66.jpg	boston-globe	1922-07-02	boston-globe 1922-07-02	C160	
+The_Boston_Globe_1922_07_09_76.jpg	boston-globe	1922-07-09	boston-globe 1922-07-09	C160	
+The_Boston_Globe_1922_07_16_73.jpg	boston-globe	1922-07-16	boston-globe 1922-07-16	C160	
+The_Boston_Globe_1922_07_23_68.jpg	boston-globe	1922-07-23	boston-globe 1922-07-23	C160	
+The_Boston_Globe_1922_07_30_81.jpg	boston-globe	1922-07-30	boston-globe 1922-07-30	C160	
+The_Boston_Globe_1922_08_06_88.jpg	boston-globe	1922-08-06	boston-globe 1922-08-06	C160	
+The_Boston_Globe_1922_08_13_88.jpg	boston-globe	1922-08-13	boston-globe 1922-08-13	C160	
+The_Boston_Globe_1922_08_20_82.jpg	boston-globe	1922-08-20	boston-globe 1922-08-20	C160	
+The_Boston_Globe_1922_08_27_81.jpg	boston-globe	1922-08-27	boston-globe 1922-08-27	C160	
+The_Boston_Globe_1922_09_03_69.jpg	boston-globe	1922-09-03	boston-globe 1922-09-03	C160	
+The_Boston_Globe_1922_09_10_77.jpg	boston-globe	1922-09-10	boston-globe 1922-09-10	C160	
+The_Boston_Globe_1922_09_17_83.jpg	boston-globe	1922-09-17	boston-globe 1922-09-17	C160	
+The_Boston_Globe_1922_09_24_81.jpg	boston-globe	1922-09-24	boston-globe 1922-09-24	C160	
+The_Boston_Globe_1922_10_01_78.jpg	boston-globe	1922-10-01	boston-globe 1922-10-01	C160	
+The_Boston_Globe_1922_10_08_78.jpg	boston-globe	1922-10-08	boston-globe 1922-10-08	C160	
+The_Boston_Globe_1922_10_15_90.jpg	boston-globe	1922-10-15	boston-globe 1922-10-15	C160	
+The_Boston_Globe_1922_10_22_87.jpg	boston-globe	1922-10-22	boston-globe 1922-10-22	C160	
+The_Boston_Globe_1922_10_29_94.jpg	boston-globe	1922-10-29	boston-globe 1922-10-29	C160	
+The_Boston_Globe_1922_11_05_88.jpg	boston-globe	1922-11-05	boston-globe 1922-11-05	C160	
+The_Boston_Globe_1922_11_12_88.jpg	boston-globe	1922-11-12	boston-globe 1922-11-12	C160	
+The_Boston_Globe_1922_11_19_81.jpg	boston-globe	1922-11-19	boston-globe 1922-11-19	C160	
+The_Boston_Globe_1922_11_26_80.jpg	boston-globe	1922-11-26	boston-globe 1922-11-26	C160	
+The_Boston_Globe_1922_12_03_84.jpg	boston-globe	1922-12-03	boston-globe 1922-12-03	C160	
+The_Boston_Globe_1922_12_10_82.jpg	boston-globe	1922-12-10	boston-globe 1922-12-10	C160	
+The_Boston_Globe_1922_12_17_79.jpg	boston-globe	1922-12-17	boston-globe 1922-12-17	C160	
+The_Boston_Globe_1922_12_24_76.jpg	boston-globe	1922-12-24	boston-globe 1922-12-24	C160	
+The_Boston_Globe_1922_12_31_71.jpg	boston-globe	1922-12-31	boston-globe 1922-12-31	C160	
+The_Boston_Globe_1923_01_07_83.jpg	boston-globe	1923-01-07	boston-globe 1923-01-07	C160	
+The_Boston_Globe_1923_01_14_90.jpg	boston-globe	1923-01-14	boston-globe 1923-01-14	C160	
+The_Boston_Globe_1923_01_21_80.jpg	boston-globe	1923-01-21	boston-globe 1923-01-21	C160	
+The_Boston_Globe_1923_01_28_89.jpg	boston-globe	1923-01-28	boston-globe 1923-01-28	C160	
+The_Boston_Globe_1923_02_04_79.jpg	boston-globe	1923-02-04	boston-globe 1923-02-04	C160	
+The_Boston_Globe_1923_02_11_77.jpg	boston-globe	1923-02-11	boston-globe 1923-02-11	C160	
+The_Boston_Globe_1923_02_18_70.jpg	boston-globe	1923-02-18	boston-globe 1923-02-18	C160	
+The_Boston_Globe_1923_02_25_72.jpg	boston-globe	1923-02-25	boston-globe 1923-02-25	C160	
+The_Boston_Globe_1923_03_04_63.jpg	boston-globe	1923-03-04	boston-globe 1923-03-04	C160	
+The_Boston_Globe_1923_03_11_103.jpg	boston-globe	1923-03-11	boston-globe 1923-03-11	C160	
+The_Boston_Globe_1923_03_18_78.jpg	boston-globe	1923-03-18	boston-globe 1923-03-18	C160	
+The_Boston_Globe_1923_03_25_86.jpg	boston-globe	1923-03-25	boston-globe 1923-03-25	C160	
+The_Boston_Globe_1923_04_01_86.jpg	boston-globe	1923-04-01	boston-globe 1923-04-01	C160	
+The_Boston_Globe_1923_04_08_97.jpg	boston-globe	1923-04-08	boston-globe 1923-04-08	C160	
+The_Boston_Globe_1923_04_15_94.jpg	boston-globe	1923-04-15	boston-globe 1923-04-15	C160	
+The_Boston_Globe_1923_04_22_111.jpg	boston-globe	1923-04-22	boston-globe 1923-04-22	C160	
+The_Boston_Globe_1923_04_29_100.jpg	boston-globe	1923-04-29	boston-globe 1923-04-29	C160	
+The_Boston_Globe_1923_05_06_100.jpg	boston-globe	1923-05-06	boston-globe 1923-05-06	C160	
+The_Boston_Globe_1923_05_13_99.jpg	boston-globe	1923-05-13	boston-globe 1923-05-13	C160	
+The_Boston_Globe_1923_05_20_105.jpg	boston-globe	1923-05-20	boston-globe 1923-05-20	C160	
 The_Boston_Globe_1923_05_26_3.jpg	boston-globe-saturday	1923-05-26			the Globe's own series, not FUN
-The_Boston_Globe_1923_05_27_105.jpg	boston-globe	1923-05-27	boston-globe 1923-05-27	C9	
+The_Boston_Globe_1923_05_27_105.jpg	boston-globe	1923-05-27	boston-globe 1923-05-27	C160	
 The_Boston_Globe_1923_06_02_5.jpg	boston-globe-saturday	1923-06-02			the Globe's own series, not FUN
-The_Boston_Globe_1923_06_03_96.jpg	boston-globe	1923-06-03	boston-globe 1923-06-03	C9	
+The_Boston_Globe_1923_06_03_96.jpg	boston-globe	1923-06-03	boston-globe 1923-06-03	C160	
 The_Boston_Globe_1923_06_09_4.jpg	boston-globe-saturday	1923-06-09			the Globe's own series, not FUN
-The_Boston_Globe_1923_06_10_101.jpg	boston-globe	1923-06-10	boston-globe 1923-06-10	C9	
+The_Boston_Globe_1923_06_10_101.jpg	boston-globe	1923-06-10	boston-globe 1923-06-10	C160	
 The_Boston_Globe_1923_06_16_13.jpg	boston-globe-saturday	1923-06-16			the Globe's own series, not FUN
-The_Boston_Globe_1923_06_17_80.jpg	boston-globe	1923-06-17	boston-globe 1923-06-17	C9	
+The_Boston_Globe_1923_06_17_80.jpg	boston-globe	1923-06-17	boston-globe 1923-06-17	C160	
 The_Boston_Globe_1923_06_23_15.jpg	boston-globe-saturday	1923-06-23			the Globe's own series, not FUN
-The_Boston_Globe_1923_06_24_92.jpg	boston-globe	1923-06-24	boston-globe 1923-06-24	C9	
+The_Boston_Globe_1923_06_24_92.jpg	boston-globe	1923-06-24	boston-globe 1923-06-24	C160	
 The_Boston_Globe_1923_06_30_4.jpg	boston-globe-saturday	1923-06-30			the Globe's own series, not FUN
-The_Boston_Globe_1923_07_01_102.jpg	boston-globe	1923-07-01	boston-globe 1923-07-01	C9	
+The_Boston_Globe_1923_07_01_102.jpg	boston-globe	1923-07-01	boston-globe 1923-07-01	C160	
 The_Boston_Globe_1923_07_07_3.jpg	boston-globe-saturday	1923-07-07			the Globe's own series, not FUN
-The_Boston_Globe_1923_07_08_88.jpg	boston-globe	1923-07-08	boston-globe 1923-07-08	C9	
+The_Boston_Globe_1923_07_08_88.jpg	boston-globe	1923-07-08	boston-globe 1923-07-08	C160	
 The_Boston_Globe_1923_07_14_11.jpg	boston-globe-saturday	1923-07-14			the Globe's own series, not FUN
-The_Boston_Globe_1923_07_15_91.jpg	boston-globe	1923-07-15	boston-globe 1923-07-15	C9	
+The_Boston_Globe_1923_07_15_91.jpg	boston-globe	1923-07-15	boston-globe 1923-07-15	C160	
 The_Boston_Globe_1923_07_21_12.jpg	boston-globe-saturday	1923-07-21			the Globe's own series, not FUN
-The_Boston_Globe_1923_07_22_86.jpg	boston-globe	1923-07-22	boston-globe 1923-07-22	C9	
+The_Boston_Globe_1923_07_22_86.jpg	boston-globe	1923-07-22	boston-globe 1923-07-22	C160	
 The_Boston_Globe_1923_07_28_4.jpg	boston-globe-saturday	1923-07-28			the Globe's own series, not FUN
-The_Boston_Globe_1923_07_29_84.jpg	boston-globe	1923-07-29	boston-globe 1923-07-29	C9	
+The_Boston_Globe_1923_07_29_84.jpg	boston-globe	1923-07-29	boston-globe 1923-07-29	C160	
 The_Boston_Globe_1923_08_04_6.jpg	boston-globe-saturday	1923-08-04			the Globe's own series, not FUN
-The_Boston_Globe_1923_08_05_87.jpg	boston-globe	1923-08-05	boston-globe 1923-08-05	C9	
+The_Boston_Globe_1923_08_05_87.jpg	boston-globe	1923-08-05	boston-globe 1923-08-05	C160	
 The_Boston_Globe_1923_08_11_7.jpg	boston-globe-saturday	1923-08-11			the Globe's own series, not FUN
-The_Boston_Globe_1923_08_12_90.jpg	boston-globe	1923-08-12	boston-globe 1923-08-12	C9	
+The_Boston_Globe_1923_08_12_90.jpg	boston-globe	1923-08-12	boston-globe 1923-08-12	C160	
 The_Boston_Globe_1923_08_18_2.jpg	boston-globe-saturday	1923-08-18			the Globe's own series, not FUN
-The_Boston_Globe_1923_08_19_78.jpg	boston-globe	1923-08-19	boston-globe 1923-08-19	C9	
+The_Boston_Globe_1923_08_19_78.jpg	boston-globe	1923-08-19	boston-globe 1923-08-19	C160	
 The_Boston_Globe_1923_08_25_4.jpg	boston-globe-saturday	1923-08-25			the Globe's own series, not FUN
-The_Boston_Globe_1923_08_26_92.jpg	boston-globe	1923-08-26	boston-globe 1923-08-26	C9	
+The_Boston_Globe_1923_08_26_92.jpg	boston-globe	1923-08-26	boston-globe 1923-08-26	C160	
 The_Boston_Globe_1923_09_01_11.jpg	boston-globe-saturday	1923-09-01			the Globe's own series, not FUN
-The_Boston_Globe_1923_09_02_82.jpg	boston-globe	1923-09-02	boston-globe 1923-09-02	C9	
+The_Boston_Globe_1923_09_02_82.jpg	boston-globe	1923-09-02	boston-globe 1923-09-02	C160	
 The_Boston_Globe_1923_09_08_15.jpg	boston-globe-saturday	1923-09-08			the Globe's own series, not FUN
-The_Boston_Globe_1923_09_09_96.jpg	boston-globe	1923-09-09	boston-globe 1923-09-09	C9	
+The_Boston_Globe_1923_09_09_96.jpg	boston-globe	1923-09-09	boston-globe 1923-09-09	C160	
 The_Boston_Globe_1923_09_15_15.jpg	boston-globe-saturday	1923-09-15			the Globe's own series, not FUN
-The_Boston_Globe_1923_09_16_110.jpg	boston-globe	1923-09-16	boston-globe 1923-09-16	C9	
+The_Boston_Globe_1923_09_16_110.jpg	boston-globe	1923-09-16	boston-globe 1923-09-16	C160	
 The_Boston_Globe_1923_09_22_15.jpg	boston-globe-saturday	1923-09-22			the Globe's own series, not FUN
-The_Boston_Globe_1923_09_23_103.jpg	boston-globe	1923-09-23	boston-globe 1923-09-23	C9	
+The_Boston_Globe_1923_09_23_103.jpg	boston-globe	1923-09-23	boston-globe 1923-09-23	C160	
 The_Boston_Globe_1923_09_29_13.jpg	boston-globe-saturday	1923-09-29			the Globe's own series, not FUN
-The_Boston_Globe_1923_09_30_105.jpg	boston-globe	1923-09-30	boston-globe 1923-09-30	C9	
+The_Boston_Globe_1923_09_30_105.jpg	boston-globe	1923-09-30	boston-globe 1923-09-30	C160	
 The_Boston_Globe_1923_10_06_15.jpg	boston-globe-saturday	1923-10-06			the Globe's own series, not FUN
-The_Boston_Globe_1923_10_07_105.jpg	boston-globe	1923-10-07	boston-globe 1923-10-07	C9	
+The_Boston_Globe_1923_10_07_105.jpg	boston-globe	1923-10-07	boston-globe 1923-10-07	C160	
 The_Boston_Globe_1923_10_13_15.jpg	boston-globe-saturday	1923-10-13			the Globe's own series, not FUN
-The_Boston_Globe_1923_10_14_108.jpg	boston-globe	1923-10-14	boston-globe 1923-10-14	C9	
+The_Boston_Globe_1923_10_14_108.jpg	boston-globe	1923-10-14	boston-globe 1923-10-14	C160	
 The_Boston_Globe_1923_10_20_15.jpg	boston-globe-saturday	1923-10-20			the Globe's own series, not FUN
-The_Boston_Globe_1923_10_21_101.jpg	boston-globe	1923-10-21	boston-globe 1923-10-21	C9	
+The_Boston_Globe_1923_10_21_101.jpg	boston-globe	1923-10-21	boston-globe 1923-10-21	C160	
 The_Boston_Globe_1923_10_27_15.jpg	boston-globe-saturday	1923-10-27			the Globe's own series, not FUN
-The_Boston_Globe_1923_10_28_91.jpg	boston-globe	1923-10-28	boston-globe 1923-10-28	C9	
+The_Boston_Globe_1923_10_28_91.jpg	boston-globe	1923-10-28	boston-globe 1923-10-28	C160	
 The_Boston_Globe_1923_11_03_15.jpg	boston-globe-saturday	1923-11-03			the Globe's own series, not FUN
-The_Boston_Globe_1923_11_04_90.jpg	boston-globe	1923-11-04	boston-globe 1923-11-04	C9	
+The_Boston_Globe_1923_11_04_90.jpg	boston-globe	1923-11-04	boston-globe 1923-11-04	C160	
 The_Boston_Globe_1923_11_10_15.jpg	boston-globe-saturday	1923-11-10			the Globe's own series, not FUN
-The_Boston_Globe_1923_11_11_99.jpg	boston-globe	1923-11-11	boston-globe 1923-11-11	C9	
+The_Boston_Globe_1923_11_11_99.jpg	boston-globe	1923-11-11	boston-globe 1923-11-11	C160	
 The_Boston_Globe_1923_11_17_15.jpg	boston-globe-saturday	1923-11-17			the Globe's own series, not FUN
-The_Boston_Globe_1923_11_18_87.jpg	boston-globe	1923-11-18	boston-globe 1923-11-18	C9	
+The_Boston_Globe_1923_11_18_87.jpg	boston-globe	1923-11-18	boston-globe 1923-11-18	C160	
 The_Boston_Globe_1923_11_24_15.jpg	boston-globe-saturday	1923-11-24			the Globe's own series, not FUN
-The_Boston_Globe_1923_11_25_97.jpg	boston-globe	1923-11-25	boston-globe 1923-11-25	C9	
+The_Boston_Globe_1923_11_25_97.jpg	boston-globe	1923-11-25	boston-globe 1923-11-25	C160	
 The_Boston_Globe_1923_11_29_15.jpg	boston-globe-other-days	1923-11-29			the Globe's own series, not FUN
 The_Boston_Globe_1923_12_01_8.jpg	boston-globe-saturday	1923-12-01			the Globe's own series, not FUN
-The_Boston_Globe_1923_12_02_95.jpg	boston-globe	1923-12-02	boston-globe 1923-12-02	C9	
+The_Boston_Globe_1923_12_02_95.jpg	boston-globe	1923-12-02	boston-globe 1923-12-02	C160	
 The_Boston_Globe_1923_12_08_15.jpg	boston-globe-saturday	1923-12-08			the Globe's own series, not FUN
-The_Boston_Globe_1923_12_09_89.jpg	boston-globe	1923-12-09	boston-globe 1923-12-09	C9	
+The_Boston_Globe_1923_12_09_89.jpg	boston-globe	1923-12-09	boston-globe 1923-12-09	C160	
 The_Boston_Globe_1923_12_15_15.jpg	boston-globe-saturday	1923-12-15			the Globe's own series, not FUN
-The_Boston_Globe_1923_12_16_87.jpg	boston-globe	1923-12-16	boston-globe 1923-12-16	C9	
+The_Boston_Globe_1923_12_16_87.jpg	boston-globe	1923-12-16	boston-globe 1923-12-16	C160	
 The_Boston_Globe_1923_12_22_13.jpg	boston-globe-saturday	1923-12-22			the Globe's own series, not FUN
-The_Boston_Globe_1923_12_23_81.jpg	boston-globe	1923-12-23	boston-globe 1923-12-23	C9	
+The_Boston_Globe_1923_12_23_81.jpg	boston-globe	1923-12-23	boston-globe 1923-12-23	C160	
 The_Boston_Globe_1923_12_29_13.jpg	boston-globe-saturday	1923-12-29			the Globe's own series, not FUN
-The_Boston_Globe_1923_12_30_79.jpg	boston-globe	1923-12-30	boston-globe 1923-12-30	C9	
+The_Boston_Globe_1923_12_30_79.jpg	boston-globe	1923-12-30	boston-globe 1923-12-30	C160	
 The_Boston_Globe_1924_01_01_21.jpg	boston-globe-other-days	1924-01-01			the Globe's own series, not FUN
 The_Boston_Globe_1924_01_05_13.jpg	boston-globe-saturday	1924-01-05			the Globe's own series, not FUN
-The_Boston_Globe_1924_01_06_76.jpg	boston-globe	1924-01-06	boston-globe 1924-01-06	C9	
+The_Boston_Globe_1924_01_06_76.jpg	boston-globe	1924-01-06	boston-globe 1924-01-06	C160	
 The_Boston_Globe_1924_01_12_15.jpg	boston-globe-saturday	1924-01-12			the Globe's own series, not FUN
-The_Boston_Globe_1924_01_13_86.jpg	boston-globe	1924-01-13	boston-globe 1924-01-13	C9	
+The_Boston_Globe_1924_01_13_86.jpg	boston-globe	1924-01-13	boston-globe 1924-01-13	C160	
 The_Boston_Globe_1924_01_19_13.jpg	boston-globe-saturday	1924-01-19			the Globe's own series, not FUN
-The_Boston_Globe_1924_01_20_83.jpg	boston-globe	1924-01-20	boston-globe 1924-01-20	C9	
+The_Boston_Globe_1924_01_20_83.jpg	boston-globe	1924-01-20	boston-globe 1924-01-20	C160	
 The_Boston_Globe_1924_01_26_13.jpg	boston-globe-saturday	1924-01-26			the Globe's own series, not FUN
-The_Boston_Globe_1924_01_27_83.jpg	boston-globe	1924-01-27	boston-globe 1924-01-27	C9	
+The_Boston_Globe_1924_01_27_83.jpg	boston-globe	1924-01-27	boston-globe 1924-01-27	C160	
 The_Boston_Globe_1924_02_02_13.jpg	boston-globe-saturday	1924-02-02			the Globe's own series, not FUN
-The_Boston_Globe_1924_02_03_99.jpg	boston-globe	1924-02-03	boston-globe 1924-02-03	C9	
+The_Boston_Globe_1924_02_03_99.jpg	boston-globe	1924-02-03	boston-globe 1924-02-03	C160	
 The_Boston_Globe_1924_02_06_15.jpg	boston-globe-wednesday	1924-02-06			the Globe's own series, not FUN
 The_Boston_Globe_1924_02_09_4.jpg	boston-globe-saturday	1924-02-09			the Globe's own series, not FUN
-The_Boston_Globe_1924_02_10_87.jpg	boston-globe	1924-02-10	boston-globe 1924-02-10	C9	
+The_Boston_Globe_1924_02_10_87.jpg	boston-globe	1924-02-10	boston-globe 1924-02-10	C160	
 The_Boston_Globe_1924_02_13_20.jpg	boston-globe-wednesday	1924-02-13			the Globe's own series, not FUN
 The_Boston_Globe_1924_02_16_5.jpg	boston-globe-saturday	1924-02-16			the Globe's own series, not FUN
-The_Boston_Globe_1924_02_17_79.jpg	boston-globe	1924-02-17	boston-globe 1924-02-17	C9	
+The_Boston_Globe_1924_02_17_79.jpg	boston-globe	1924-02-17	boston-globe 1924-02-17	C160	
 The_Boston_Globe_1924_02_20_25.jpg	boston-globe-wednesday	1924-02-20			the Globe's own series, not FUN
 The_Boston_Globe_1924_02_22_20.jpg	boston-globe-other-days	1924-02-22			the Globe's own series, not FUN
 The_Boston_Globe_1924_02_23_13.jpg	boston-globe-saturday	1924-02-23			the Globe's own series, not FUN
-The_Boston_Globe_1924_02_24_74.jpg	boston-globe	1924-02-24	boston-globe 1924-02-24	C9	
+The_Boston_Globe_1924_02_24_74.jpg	boston-globe	1924-02-24	boston-globe 1924-02-24	C160	
 The_Boston_Globe_1924_02_27_20.jpg	boston-globe-wednesday	1924-02-27			the Globe's own series, not FUN
 The_Boston_Globe_1924_03_01_2.jpg	boston-globe-saturday	1924-03-01			the Globe's own series, not FUN
-The_Boston_Globe_1924_03_02_80.jpg	boston-globe	1924-03-02	boston-globe 1924-03-02	C9	
+The_Boston_Globe_1924_03_02_80.jpg	boston-globe	1924-03-02	boston-globe 1924-03-02	C160	
 The_Boston_Globe_1924_03_05_18.jpg	boston-globe-wednesday	1924-03-05			the Globe's own series, not FUN
 The_Boston_Globe_1924_03_08_17.jpg	boston-globe-saturday	1924-03-08			the Globe's own series, not FUN
-The_Boston_Globe_1924_03_09_125.jpg	boston-globe	1924-03-09	boston-globe 1924-03-09	C9	
+The_Boston_Globe_1924_03_09_125.jpg	boston-globe	1924-03-09	boston-globe 1924-03-09	C160	
 The_Boston_Globe_1924_03_12_17.jpg	boston-globe-wednesday	1924-03-12			the Globe's own series, not FUN
 The_Boston_Globe_1924_03_15_13.jpg	boston-globe-saturday	1924-03-15			the Globe's own series, not FUN
-The_Boston_Globe_1924_03_16_83.jpg	boston-globe	1924-03-16	boston-globe 1924-03-16	C9	
+The_Boston_Globe_1924_03_16_83.jpg	boston-globe	1924-03-16	boston-globe 1924-03-16	C160	
 The_Boston_Globe_1924_03_19_22.jpg	boston-globe-wednesday	1924-03-19			the Globe's own series, not FUN
 The_Boston_Globe_1924_03_22_15.jpg	boston-globe-saturday	1924-03-22			the Globe's own series, not FUN
-The_Boston_Globe_1924_03_23_93.jpg	boston-globe	1924-03-23	boston-globe 1924-03-23	C9	
+The_Boston_Globe_1924_03_23_93.jpg	boston-globe	1924-03-23	boston-globe 1924-03-23	C160	
 The_Boston_Globe_1924_03_26_11.jpg	boston-globe-wednesday	1924-03-26			the Globe's own series, not FUN
 The_Boston_Globe_1924_03_29_5.jpg	boston-globe-saturday	1924-03-29			the Globe's own series, not FUN
-The_Boston_Globe_1924_03_30_90.jpg	boston-globe	1924-03-30	boston-globe 1924-03-30	C9	
+The_Boston_Globe_1924_03_30_90.jpg	boston-globe	1924-03-30	boston-globe 1924-03-30	C160	
 The_Boston_Globe_1924_04_02_11.jpg	boston-globe-wednesday	1924-04-02			the Globe's own series, not FUN
 The_Boston_Globe_1924_04_05_15.jpg	boston-globe-saturday	1924-04-05			the Globe's own series, not FUN
-The_Boston_Globe_1924_04_06_103.jpg	boston-globe	1924-04-06	boston-globe 1924-04-06	C9	
+The_Boston_Globe_1924_04_06_103.jpg	boston-globe	1924-04-06	boston-globe 1924-04-06	C160	
 The_Boston_Globe_1924_04_09_10.jpg	boston-globe-wednesday	1924-04-09			the Globe's own series, not FUN
 The_Boston_Globe_1924_04_12_9.jpg	boston-globe-saturday	1924-04-12			the Globe's own series, not FUN
-The_Boston_Globe_1924_04_13_103.jpg	boston-globe	1924-04-13	boston-globe 1924-04-13	C9	
+The_Boston_Globe_1924_04_13_103.jpg	boston-globe	1924-04-13	boston-globe 1924-04-13	C160	
 The_Boston_Globe_1924_04_16_13.jpg	boston-globe-wednesday	1924-04-16			the Globe's own series, not FUN
 The_Boston_Globe_1924_04_19_12.jpg	boston-globe-saturday	1924-04-19			the Globe's own series, not FUN
-The_Boston_Globe_1924_04_20_117.jpg	boston-globe	1924-04-20	boston-globe 1924-04-20	C9	
+The_Boston_Globe_1924_04_20_117.jpg	boston-globe	1924-04-20	boston-globe 1924-04-20	C160	
 The_Boston_Globe_1924_04_23_10.jpg	boston-globe-wednesday	1924-04-23			the Globe's own series, not FUN
 The_Boston_Globe_1924_04_26_15.jpg	boston-globe-saturday	1924-04-26			the Globe's own series, not FUN
-The_Boston_Globe_1924_04_27_107.jpg	boston-globe	1924-04-27	boston-globe 1924-04-27	C9	
+The_Boston_Globe_1924_04_27_107.jpg	boston-globe	1924-04-27	boston-globe 1924-04-27	C160	
 The_Boston_Globe_1924_04_30_23.jpg	boston-globe-wednesday	1924-04-30			the Globe's own series, not FUN
 The_Boston_Globe_1924_05_03_15.jpg	boston-globe-saturday	1924-05-03			the Globe's own series, not FUN
-The_Boston_Globe_1924_05_04_111.jpg	boston-globe	1924-05-04	boston-globe 1924-05-04	C9	
+The_Boston_Globe_1924_05_04_111.jpg	boston-globe	1924-05-04	boston-globe 1924-05-04	C160	
 The_Boston_Globe_1924_05_07_22.jpg	boston-globe-wednesday	1924-05-07			the Globe's own series, not FUN
 The_Boston_Globe_1924_05_10_8.jpg	boston-globe-saturday	1924-05-10			the Globe's own series, not FUN
-The_Boston_Globe_1924_05_11_98.jpg	boston-globe	1924-05-11	boston-globe 1924-05-11	C9	
+The_Boston_Globe_1924_05_11_98.jpg	boston-globe	1924-05-11	boston-globe 1924-05-11	C160	
 The_Boston_Globe_1924_05_14_26.jpg	boston-globe-wednesday	1924-05-14			the Globe's own series, not FUN
 The_Boston_Globe_1924_05_17_14.jpg	boston-globe-saturday	1924-05-17			the Globe's own series, not FUN
-The_Boston_Globe_1924_05_18_105.jpg	boston-globe	1924-05-18	boston-globe 1924-05-18	C9	
+The_Boston_Globe_1924_05_18_105.jpg	boston-globe	1924-05-18	boston-globe 1924-05-18	C160	
 The_Boston_Globe_1924_05_21_15.jpg	boston-globe-wednesday	1924-05-21			the Globe's own series, not FUN
 The_Boston_Globe_1924_05_24_4.jpg	boston-globe-saturday	1924-05-24			the Globe's own series, not FUN
-The_Boston_Globe_1924_05_25_95.jpg	boston-globe	1924-05-25	boston-globe 1924-05-25	C9	
+The_Boston_Globe_1924_05_25_95.jpg	boston-globe	1924-05-25	boston-globe 1924-05-25	C160	
 The_Boston_Globe_1924_05_28_26.jpg	boston-globe-wednesday	1924-05-28			the Globe's own series, not FUN
 The_Boston_Globe_1924_05_30_5.jpg	boston-globe-other-days	1924-05-30			the Globe's own series, not FUN
 The_Boston_Globe_1924_05_31_17.jpg	boston-globe-saturday	1924-05-31			the Globe's own series, not FUN
-The_Boston_Globe_1924_06_01_86.jpg	boston-globe	1924-06-01	boston-globe 1924-06-01	C9	
+The_Boston_Globe_1924_06_01_86.jpg	boston-globe	1924-06-01	boston-globe 1924-06-01	C160	
 The_Boston_Globe_1924_06_04_21.jpg	boston-globe-wednesday	1924-06-04			the Globe's own series, not FUN
 The_Boston_Globe_1924_06_07_4.jpg	boston-globe-saturday	1924-06-07			the Globe's own series, not FUN
-The_Boston_Globe_1924_06_08_94.jpg	boston-globe	1924-06-08	boston-globe 1924-06-08	C9	
+The_Boston_Globe_1924_06_08_94.jpg	boston-globe	1924-06-08	boston-globe 1924-06-08	C160	
 The_Boston_Globe_1924_06_11_21.jpg	boston-globe-wednesday	1924-06-11			the Globe's own series, not FUN
 The_Boston_Globe_1924_06_14_7.jpg	boston-globe-saturday	1924-06-14			the Globe's own series, not FUN
-The_Boston_Globe_1924_06_15_88.jpg	boston-globe	1924-06-15	boston-globe 1924-06-15	C9	
+The_Boston_Globe_1924_06_15_88.jpg	boston-globe	1924-06-15	boston-globe 1924-06-15	C160	
 The_Boston_Globe_1924_06_18_21.jpg	boston-globe-wednesday	1924-06-18			the Globe's own series, not FUN
 The_Boston_Globe_1924_06_21_5.jpg	boston-globe-saturday	1924-06-21			the Globe's own series, not FUN
-The_Boston_Globe_1924_06_22_93.jpg	boston-globe	1924-06-22	boston-globe 1924-06-22	C9	
+The_Boston_Globe_1924_06_22_93.jpg	boston-globe	1924-06-22	boston-globe 1924-06-22	C160	
 The_Boston_Globe_1924_06_25_21.jpg	boston-globe-wednesday	1924-06-25			the Globe's own series, not FUN
 The_Boston_Globe_1924_06_28_7.jpg	boston-globe-saturday	1924-06-28			the Globe's own series, not FUN
-The_Boston_Globe_1924_06_29_96.jpg	boston-globe	1924-06-29	boston-globe 1924-06-29	C9	
+The_Boston_Globe_1924_06_29_96.jpg	boston-globe	1924-06-29	boston-globe 1924-06-29	C160	
 The_Boston_Globe_1924_07_02_20.jpg	boston-globe-wednesday	1924-07-02			the Globe's own series, not FUN
 The_Boston_Globe_1924_07_05_14.jpg	boston-globe-saturday	1924-07-05			the Globe's own series, not FUN
-The_Boston_Globe_1924_07_06_74.jpg	boston-globe	1924-07-06	boston-globe 1924-07-06	C9	
+The_Boston_Globe_1924_07_06_74.jpg	boston-globe	1924-07-06	boston-globe 1924-07-06	C160	
 The_Boston_Globe_1924_07_09_17.jpg	boston-globe-wednesday	1924-07-09			the Globe's own series, not FUN
 The_Boston_Globe_1924_07_12_12.jpg	boston-globe-saturday	1924-07-12			the Globe's own series, not FUN
-The_Boston_Globe_1924_07_13_94.jpg	boston-globe	1924-07-13	boston-globe 1924-07-13	C9	
+The_Boston_Globe_1924_07_13_94.jpg	boston-globe	1924-07-13	boston-globe 1924-07-13	C160	
 The_Boston_Globe_1924_07_16_17.jpg	boston-globe-wednesday	1924-07-16			the Globe's own series, not FUN
 The_Boston_Globe_1924_07_19_13.jpg	boston-globe-saturday	1924-07-19			the Globe's own series, not FUN
-The_Boston_Globe_1924_07_20_86.jpg	boston-globe	1924-07-20	boston-globe 1924-07-20	C9	
+The_Boston_Globe_1924_07_20_86.jpg	boston-globe	1924-07-20	boston-globe 1924-07-20	C160	
 The_Boston_Globe_1924_07_23_20.jpg	boston-globe-wednesday	1924-07-23			the Globe's own series, not FUN
 The_Boston_Globe_1924_07_26_12.jpg	boston-globe-saturday	1924-07-26			the Globe's own series, not FUN
-The_Boston_Globe_1924_07_27_87.jpg	boston-globe	1924-07-27	boston-globe 1924-07-27	C9	
+The_Boston_Globe_1924_07_27_87.jpg	boston-globe	1924-07-27	boston-globe 1924-07-27	C160	
 The_Boston_Globe_1924_07_30_20.jpg	boston-globe-wednesday	1924-07-30			the Globe's own series, not FUN
 The_Boston_Globe_1924_08_02_3.jpg	boston-globe-saturday	1924-08-02			the Globe's own series, not FUN
-The_Boston_Globe_1924_08_03_87.jpg	boston-globe	1924-08-03	boston-globe 1924-08-03	C9	
+The_Boston_Globe_1924_08_03_87.jpg	boston-globe	1924-08-03	boston-globe 1924-08-03	C160	
 The_Boston_Globe_1924_08_06_15.jpg	boston-globe-wednesday	1924-08-06			the Globe's own series, not FUN
 The_Boston_Globe_1924_08_09_12.jpg	boston-globe-saturday	1924-08-09			the Globe's own series, not FUN
-The_Boston_Globe_1924_08_10_84.jpg	boston-globe	1924-08-10	boston-globe 1924-08-10	C9	
+The_Boston_Globe_1924_08_10_84.jpg	boston-globe	1924-08-10	boston-globe 1924-08-10	C160	
 The_Boston_Globe_1924_08_13_18.jpg	boston-globe-wednesday	1924-08-13			the Globe's own series, not FUN
 The_Boston_Globe_1924_08_16_12.jpg	boston-globe-saturday	1924-08-16			the Globe's own series, not FUN
-The_Boston_Globe_1924_08_17_88.jpg	boston-globe	1924-08-17	boston-globe 1924-08-17	C9	
+The_Boston_Globe_1924_08_17_88.jpg	boston-globe	1924-08-17	boston-globe 1924-08-17	C160	
 The_Boston_Globe_1924_08_20_15.jpg	boston-globe-wednesday	1924-08-20			the Globe's own series, not FUN
 The_Boston_Globe_1924_08_23_12.jpg	boston-globe-saturday	1924-08-23			the Globe's own series, not FUN
-The_Boston_Globe_1924_08_24_77.jpg	boston-globe	1924-08-24	boston-globe 1924-08-24	C9	
+The_Boston_Globe_1924_08_24_77.jpg	boston-globe	1924-08-24	boston-globe 1924-08-24	C160	
 The_Boston_Globe_1924_08_27_18.jpg	boston-globe-wednesday	1924-08-27			the Globe's own series, not FUN
 The_Boston_Globe_1924_08_30_12.jpg	boston-globe-saturday	1924-08-30			the Globe's own series, not FUN
-The_Boston_Globe_1924_08_31_78.jpg	boston-globe	1924-08-31	boston-globe 1924-08-31	C9	
+The_Boston_Globe_1924_08_31_78.jpg	boston-globe	1924-08-31	boston-globe 1924-08-31	C160	
 The_Boston_Globe_1924_09_03_18.jpg	boston-globe-wednesday	1924-09-03			the Globe's own series, not FUN
 The_Boston_Globe_1924_09_06_14.jpg	boston-globe-saturday	1924-09-06			the Globe's own series, not FUN
-The_Boston_Globe_1924_09_07_93.jpg	boston-globe	1924-09-07	boston-globe 1924-09-07	C9	
+The_Boston_Globe_1924_09_07_93.jpg	boston-globe	1924-09-07	boston-globe 1924-09-07	C160	
 The_Boston_Globe_1924_09_10_20.jpg	boston-globe-wednesday	1924-09-10			the Globe's own series, not FUN
 The_Boston_Globe_1924_09_13_14.jpg	boston-globe-saturday	1924-09-13			the Globe's own series, not FUN
-The_Boston_Globe_1924_09_14_90.jpg	boston-globe	1924-09-14	boston-globe 1924-09-14	C9	
+The_Boston_Globe_1924_09_14_90.jpg	boston-globe	1924-09-14	boston-globe 1924-09-14	C160	
 The_Boston_Globe_1924_09_17_17.jpg	boston-globe-wednesday	1924-09-17			the Globe's own series, not FUN
 The_Boston_Globe_1924_09_20_15.jpg	boston-globe-saturday	1924-09-20			the Globe's own series, not FUN
-The_Boston_Globe_1924_09_21_102.jpg	boston-globe	1924-09-21	boston-globe 1924-09-21	C9	
+The_Boston_Globe_1924_09_21_102.jpg	boston-globe	1924-09-21	boston-globe 1924-09-21	C160	
 The_Boston_Globe_1924_09_24_22.jpg	boston-globe-wednesday	1924-09-24			the Globe's own series, not FUN
 The_Boston_Globe_1924_09_27_14.jpg	boston-globe-saturday	1924-09-27			the Globe's own series, not FUN
-The_Boston_Globe_1924_09_28_101.jpg	boston-globe	1924-09-28	boston-globe 1924-09-28	C9	
+The_Boston_Globe_1924_09_28_101.jpg	boston-globe	1924-09-28	boston-globe 1924-09-28	C160	
 The_Boston_Globe_1924_10_01_18.jpg	boston-globe-wednesday	1924-10-01			the Globe's own series, not FUN
 The_Boston_Globe_1924_10_04_7.jpg	boston-globe-saturday	1924-10-04			the Globe's own series, not FUN
-The_Boston_Globe_1924_10_05_106.jpg	boston-globe	1924-10-05	boston-globe 1924-10-05	C9	
+The_Boston_Globe_1924_10_05_106.jpg	boston-globe	1924-10-05	boston-globe 1924-10-05	C160	
 The_Boston_Globe_1924_10_06_16.jpg	boston-globe-other-days	1924-10-06			the Globe's own series, not FUN
 The_Boston_Globe_1924_10_07_20.jpg	boston-globe-other-days	1924-10-07			the Globe's own series, not FUN
 The_Boston_Globe_1924_10_08_20.jpg	boston-globe-wednesday	1924-10-08			the Globe's own series, not FUN
 The_Boston_Globe_1924_10_09_24.jpg	boston-globe-other-days	1924-10-09			the Globe's own series, not FUN
 The_Boston_Globe_1924_10_10_32.jpg	boston-globe-other-days	1924-10-10			the Globe's own series, not FUN
 The_Boston_Globe_1924_10_11_16.jpg	boston-globe-saturday	1924-10-11			the Globe's own series, not FUN
-The_Boston_Globe_1924_10_12_100.jpg	boston-globe	1924-10-12	boston-globe 1924-10-12	C9	
+The_Boston_Globe_1924_10_12_100.jpg	boston-globe	1924-10-12	boston-globe 1924-10-12	C160	

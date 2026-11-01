@@ -2,8 +2,159 @@ break	after	before	after_date	before_date	reason	detail	want_paper	want_date	wan
 nyw1914-08-02 (No. 33) | nyw1914-08-16 (No. 35)	nyw1914-08-02 (No. 33)	nyw1914-08-16 (No. 35)	1914-08-02	1914-08-16	no page held	nyw1914-08-09 (No. 34) not held	new-york-world	1914-08-09	the World's own page: no partner printed nyw1914-08-09 (No. 34)
 nyw1914-12-13 (No. 52) | nyw1914-12-27 (No. 54)	nyw1914-12-13 (No. 52)	nyw1914-12-27 (No. 54)	1914-12-13	1914-12-27	no page held	nyw1914-12-20 (No. 53) not held	new-york-world	1914-12-20	the World's own page: no partner printed nyw1914-12-20 (No. 53)
 minneapolis-journal 1915-02-07 | minneapolis-journal 1915-03-07	minneapolis-journal 1915-02-07	minneapolis-journal 1915-03-07	1915-02-07	1915-03-07	no solution printed	minneapolis-journal 1915-03-07			another paper's copy: the Journal's issues in between have no puzzle, and no partner is known in 1915
-minneapolis-journal 1915-04-04 | minneapolis-journal 1915-04-11	minneapolis-journal 1915-04-04	minneapolis-journal 1915-04-11	1915-04-04	1915-04-11	link unclear	minneapolis-journal 1915-04-11	minneapolis-journal	1915-04-04	full page: only a low-resolution clip is held, and it has no clue list
+minneapolis-journal 1915-04-04 | minneapolis-journal 1915-04-11	minneapolis-journal 1915-04-04	minneapolis-journal 1915-04-11	1915-04-04	1915-04-11	link unclear	minneapolis-journal 1915-04-11			
 minneapolis-journal 1915-05-23 | minneapolis-journal 1915-06-06	minneapolis-journal 1915-05-23	minneapolis-journal 1915-06-06	1915-05-23	1915-06-06	no solution printed	minneapolis-journal 1915-06-06			another paper's copy: the Journal's issues in between have no puzzle, and no partner is known in 1915
 minneapolis-journal 1915-06-06 | minneapolis-journal 1915-06-27	minneapolis-journal 1915-06-06	minneapolis-journal 1915-06-27	1915-06-06	1915-06-27	contradictory	solution answers something else: minneapolis-journal 1915-06-27	minneapolis-journal	1915-06-20	between 1915-06-06 and 1915-06-27: browse the whole issue, a text search misses these pages
 minneapolis-journal 1915-07-25 | nyw1915-11-21 (No. 101)	minneapolis-journal 1915-07-25	nyw1915-11-21 (No. 101)	1915-07-25	1915-11-21	no solution printed	minneapolis-journal 1915-11-21	minneapolis-journal	1915-08-01	between 1915-07-25 and 1915-11-21: browse the whole issue, a text search misses these pages
 nyw1917-12-30 (No. 211) | boston-globe 1918-01-06	nyw1917-12-30 (No. 211)	boston-globe 1918-01-06	1917-12-30	1918-01-06	World dates stop	the Globe's solutions go on unbroken, but from here its order and dates are not the World's			
+boston-globe 1918-01-06 | new-orleans-states 1918-01-06	boston-globe 1918-01-06	new-orleans-states 1918-01-06	1918-01-06	1918-01-06	no solution printed	new-orleans-states 1918-01-06			
+new-orleans-states 1918-01-06 | pittsburgh-press 1918-01-06	new-orleans-states 1918-01-06	pittsburgh-press 1918-01-06	1918-01-06	1918-01-06	contradictory	solution answers something else: pittsburgh-press 1918-01-06			
+pittsburgh-press 1918-01-06 | shreveport-times 1918-01-06	pittsburgh-press 1918-01-06	shreveport-times 1918-01-06	1918-01-06	1918-01-06	link unclear	shreveport-times 1918-01-06			
+shreveport-times 1918-01-06 | boston-globe 1918-01-13	shreveport-times 1918-01-06	boston-globe 1918-01-13	1918-01-06	1918-01-13	not checked	no page compared yet			
+boston-globe 1918-01-13 | pittsburgh-press 1918-01-13	boston-globe 1918-01-13	pittsburgh-press 1918-01-13	1918-01-13	1918-01-13	not checked	no page compared yet			
+pittsburgh-press 1918-01-13 | boston-globe 1918-01-20	pittsburgh-press 1918-01-13	boston-globe 1918-01-20	1918-01-13	1918-01-20	not checked	no page compared yet			
+boston-globe 1918-01-20 | new-orleans-states 1918-01-20	boston-globe 1918-01-20	new-orleans-states 1918-01-20	1918-01-20	1918-01-20	not checked	no page compared yet			
+new-orleans-states 1918-01-20 | pittsburgh-press 1918-01-20	new-orleans-states 1918-01-20	pittsburgh-press 1918-01-20	1918-01-20	1918-01-20	not checked	no page compared yet			
+pittsburgh-press 1918-01-20 | boston-globe 1918-01-27	pittsburgh-press 1918-01-20	boston-globe 1918-01-27	1918-01-20	1918-01-27	not checked	no page compared yet			
+boston-globe 1918-02-03 | pittsburgh-press 1918-02-03	boston-globe 1918-02-03	pittsburgh-press 1918-02-03	1918-02-03	1918-02-03	no solution printed	pittsburgh-press 1918-02-03			
+pittsburgh-press 1918-02-03 | boston-globe 1918-02-10	pittsburgh-press 1918-02-03	boston-globe 1918-02-10	1918-02-03	1918-02-10	not checked	no page compared yet			
+boston-globe 1918-02-10 | pittsburgh-press 1918-02-10	boston-globe 1918-02-10	pittsburgh-press 1918-02-10	1918-02-10	1918-02-10	not checked	no page compared yet			
+pittsburgh-press 1918-02-10 | boston-globe 1918-02-17	pittsburgh-press 1918-02-10	boston-globe 1918-02-17	1918-02-10	1918-02-17	not checked	no page compared yet			
+boston-globe 1918-02-17 | pittsburgh-press 1918-02-17	boston-globe 1918-02-17	pittsburgh-press 1918-02-17	1918-02-17	1918-02-17	no solution printed	pittsburgh-press 1918-02-17			
+pittsburgh-press 1918-02-17 | boston-globe 1918-02-24	pittsburgh-press 1918-02-17	boston-globe 1918-02-24	1918-02-17	1918-02-24	not checked	no page compared yet			
+boston-globe 1918-02-24 | pittsburgh-press 1918-02-24	boston-globe 1918-02-24	pittsburgh-press 1918-02-24	1918-02-24	1918-02-24	not checked	no page compared yet			
+pittsburgh-press 1918-02-24 | boston-globe 1918-03-03	pittsburgh-press 1918-02-24	boston-globe 1918-03-03	1918-02-24	1918-03-03	not checked	no page compared yet			
+boston-globe 1918-03-03 | pittsburgh-press 1918-03-03	boston-globe 1918-03-03	pittsburgh-press 1918-03-03	1918-03-03	1918-03-03	not checked	no page compared yet			
+pittsburgh-press 1918-03-03 | boston-globe 1918-03-10	pittsburgh-press 1918-03-03	boston-globe 1918-03-10	1918-03-03	1918-03-10	no solution printed	boston-globe 1918-03-10			
+boston-globe 1918-03-17 | pittsburgh-press 1918-03-17	boston-globe 1918-03-17	pittsburgh-press 1918-03-17	1918-03-17	1918-03-17	not checked	no page compared yet			
+pittsburgh-press 1918-03-17 | boston-globe 1918-03-24	pittsburgh-press 1918-03-17	boston-globe 1918-03-24	1918-03-17	1918-03-24	not checked	no page compared yet			
+boston-globe 1918-03-24 | pittsburgh-press 1918-03-24	boston-globe 1918-03-24	pittsburgh-press 1918-03-24	1918-03-24	1918-03-24	not checked	no page compared yet			
+pittsburgh-press 1918-03-24 | boston-globe 1918-03-31	pittsburgh-press 1918-03-24	boston-globe 1918-03-31	1918-03-24	1918-03-31	not checked	no page compared yet			
+boston-globe 1918-04-07 | new-orleans-states 1918-04-07	boston-globe 1918-04-07	new-orleans-states 1918-04-07	1918-04-07	1918-04-07	contradictory	solution answers something else: new-orleans-states 1918-04-07			
+new-orleans-states 1918-04-07 | pittsburgh-press 1918-04-07	new-orleans-states 1918-04-07	pittsburgh-press 1918-04-07	1918-04-07	1918-04-07	no solution printed	pittsburgh-press 1918-04-07			
+pittsburgh-press 1918-04-07 | boston-globe 1918-04-14	pittsburgh-press 1918-04-07	boston-globe 1918-04-14	1918-04-07	1918-04-14	not checked	no page compared yet			
+boston-globe 1918-04-14 | pittsburgh-press 1918-04-14	boston-globe 1918-04-14	pittsburgh-press 1918-04-14	1918-04-14	1918-04-14	not checked	no page compared yet			
+pittsburgh-press 1918-04-14 | boston-globe 1918-04-21	pittsburgh-press 1918-04-14	boston-globe 1918-04-21	1918-04-14	1918-04-21	not checked	no page compared yet			
+boston-globe 1918-04-21 | pittsburgh-press 1918-04-21	boston-globe 1918-04-21	pittsburgh-press 1918-04-21	1918-04-21	1918-04-21	not checked	no page compared yet			
+pittsburgh-press 1918-04-21 | boston-globe 1918-04-28	pittsburgh-press 1918-04-21	boston-globe 1918-04-28	1918-04-21	1918-04-28	not checked	no page compared yet			
+boston-globe 1918-04-28 | pittsburgh-press 1918-04-28	boston-globe 1918-04-28	pittsburgh-press 1918-04-28	1918-04-28	1918-04-28	not checked	no page compared yet			
+pittsburgh-press 1918-04-28 | boston-globe 1918-05-05	pittsburgh-press 1918-04-28	boston-globe 1918-05-05	1918-04-28	1918-05-05	not checked	no page compared yet			
+boston-globe 1918-05-05 | pittsburgh-press 1918-05-05	boston-globe 1918-05-05	pittsburgh-press 1918-05-05	1918-05-05	1918-05-05	not checked	no page compared yet			
+pittsburgh-press 1918-05-05 | boston-globe 1918-05-12	pittsburgh-press 1918-05-05	boston-globe 1918-05-12	1918-05-05	1918-05-12	not checked	no page compared yet			
+boston-globe 1918-05-12 | new-orleans-states 1918-05-12	boston-globe 1918-05-12	new-orleans-states 1918-05-12	1918-05-12	1918-05-12	contradictory	solution answers something else: new-orleans-states 1918-05-12			
+new-orleans-states 1918-05-12 | pittsburgh-press 1918-05-12	new-orleans-states 1918-05-12	pittsburgh-press 1918-05-12	1918-05-12	1918-05-12	not checked	no page compared yet			
+pittsburgh-press 1918-05-12 | boston-globe 1918-05-19	pittsburgh-press 1918-05-12	boston-globe 1918-05-19	1918-05-12	1918-05-19	not checked	no page compared yet			
+boston-globe 1918-05-19 | pittsburgh-press 1918-05-19	boston-globe 1918-05-19	pittsburgh-press 1918-05-19	1918-05-19	1918-05-19	not checked	no page compared yet			
+pittsburgh-press 1918-05-19 | boston-globe 1918-05-26	pittsburgh-press 1918-05-19	boston-globe 1918-05-26	1918-05-19	1918-05-26	not checked	no page compared yet			
+boston-globe 1918-05-26 | pittsburgh-press 1918-05-26	boston-globe 1918-05-26	pittsburgh-press 1918-05-26	1918-05-26	1918-05-26	not checked	no page compared yet			
+pittsburgh-press 1918-05-26 | boston-globe 1918-06-02	pittsburgh-press 1918-05-26	boston-globe 1918-06-02	1918-05-26	1918-06-02	not checked	no page compared yet			
+boston-globe 1918-06-02 | pittsburgh-press 1918-06-02	boston-globe 1918-06-02	pittsburgh-press 1918-06-02	1918-06-02	1918-06-02	not checked	no page compared yet			
+pittsburgh-press 1918-06-02 | boston-globe 1918-06-09	pittsburgh-press 1918-06-02	boston-globe 1918-06-09	1918-06-02	1918-06-09	not checked	no page compared yet			
+boston-globe 1918-06-09 | pittsburgh-press 1918-06-09	boston-globe 1918-06-09	pittsburgh-press 1918-06-09	1918-06-09	1918-06-09	not checked	no page compared yet			
+pittsburgh-press 1918-06-09 | boston-globe 1918-06-16	pittsburgh-press 1918-06-09	boston-globe 1918-06-16	1918-06-09	1918-06-16	not checked	no page compared yet			
+boston-globe 1918-06-16 | pittsburgh-press 1918-06-16	boston-globe 1918-06-16	pittsburgh-press 1918-06-16	1918-06-16	1918-06-16	not checked	no page compared yet			
+pittsburgh-press 1918-06-16 | boston-globe 1918-06-23	pittsburgh-press 1918-06-16	boston-globe 1918-06-23	1918-06-16	1918-06-23	not checked	no page compared yet			
+boston-globe 1918-06-23 | pittsburgh-press 1918-06-23	boston-globe 1918-06-23	pittsburgh-press 1918-06-23	1918-06-23	1918-06-23	not checked	no page compared yet			
+pittsburgh-press 1918-06-23 | boston-globe 1918-06-30	pittsburgh-press 1918-06-23	boston-globe 1918-06-30	1918-06-23	1918-06-30	not checked	no page compared yet			
+boston-globe 1918-06-30 | pittsburgh-press 1918-06-30	boston-globe 1918-06-30	pittsburgh-press 1918-06-30	1918-06-30	1918-06-30	not checked	no page compared yet			
+pittsburgh-press 1918-06-30 | boston-globe 1918-07-07	pittsburgh-press 1918-06-30	boston-globe 1918-07-07	1918-06-30	1918-07-07	not checked	no page compared yet			
+boston-globe 1918-07-07 | pittsburgh-press 1918-07-07	boston-globe 1918-07-07	pittsburgh-press 1918-07-07	1918-07-07	1918-07-07	not checked	no page compared yet			
+pittsburgh-press 1918-07-07 | boston-globe 1918-07-14	pittsburgh-press 1918-07-07	boston-globe 1918-07-14	1918-07-07	1918-07-14	not checked	no page compared yet			
+boston-globe 1918-07-14 | pittsburgh-press 1918-07-14	boston-globe 1918-07-14	pittsburgh-press 1918-07-14	1918-07-14	1918-07-14	not checked	no page compared yet			
+pittsburgh-press 1918-07-14 | boston-globe 1918-07-21	pittsburgh-press 1918-07-14	boston-globe 1918-07-21	1918-07-14	1918-07-21	not checked	no page compared yet			
+boston-globe 1918-07-21 | pittsburgh-press 1918-07-21	boston-globe 1918-07-21	pittsburgh-press 1918-07-21	1918-07-21	1918-07-21	contradictory	solution answers something else: pittsburgh-press 1918-07-21			
+pittsburgh-press 1918-07-21 | boston-globe 1918-07-28	pittsburgh-press 1918-07-21	boston-globe 1918-07-28	1918-07-21	1918-07-28	not checked	no page compared yet			
+boston-globe 1918-07-28 | pittsburgh-press 1918-07-28	boston-globe 1918-07-28	pittsburgh-press 1918-07-28	1918-07-28	1918-07-28	not checked	no page compared yet			
+pittsburgh-press 1918-07-28 | boston-globe 1918-08-04	pittsburgh-press 1918-07-28	boston-globe 1918-08-04	1918-07-28	1918-08-04	not checked	no page compared yet			
+boston-globe 1918-08-04 | pittsburgh-press 1918-08-04	boston-globe 1918-08-04	pittsburgh-press 1918-08-04	1918-08-04	1918-08-04	not checked	no page compared yet			
+pittsburgh-press 1918-08-04 | boston-globe 1918-08-11	pittsburgh-press 1918-08-04	boston-globe 1918-08-11	1918-08-04	1918-08-11	not checked	no page compared yet			
+boston-globe 1918-08-11 | pittsburgh-press 1918-08-11	boston-globe 1918-08-11	pittsburgh-press 1918-08-11	1918-08-11	1918-08-11	not checked	no page compared yet			
+pittsburgh-press 1918-08-11 | boston-globe 1918-08-18	pittsburgh-press 1918-08-11	boston-globe 1918-08-18	1918-08-11	1918-08-18	not checked	no page compared yet			
+boston-globe 1918-08-18 | pittsburgh-press 1918-08-18	boston-globe 1918-08-18	pittsburgh-press 1918-08-18	1918-08-18	1918-08-18	not checked	no page compared yet			
+pittsburgh-press 1918-08-18 | boston-globe 1918-08-25	pittsburgh-press 1918-08-18	boston-globe 1918-08-25	1918-08-18	1918-08-25	not checked	no page compared yet			
+boston-globe 1918-08-25 | pittsburgh-press 1918-08-25	boston-globe 1918-08-25	pittsburgh-press 1918-08-25	1918-08-25	1918-08-25	not checked	no page compared yet			
+pittsburgh-press 1918-08-25 | boston-globe 1918-09-01	pittsburgh-press 1918-08-25	boston-globe 1918-09-01	1918-08-25	1918-09-01	not checked	no page compared yet			
+boston-globe 1918-09-01 | pittsburgh-press 1918-09-01	boston-globe 1918-09-01	pittsburgh-press 1918-09-01	1918-09-01	1918-09-01	contradictory	solution answers something else: pittsburgh-press 1918-09-01			
+pittsburgh-press 1918-09-08 | boston-globe 1918-09-15	pittsburgh-press 1918-09-08	boston-globe 1918-09-15	1918-09-08	1918-09-15	not checked	no page compared yet			
+boston-globe 1918-09-15 | pittsburgh-press 1918-09-15	boston-globe 1918-09-15	pittsburgh-press 1918-09-15	1918-09-15	1918-09-15	not checked	no page compared yet			
+pittsburgh-press 1918-09-15 | boston-globe 1918-09-22	pittsburgh-press 1918-09-15	boston-globe 1918-09-22	1918-09-15	1918-09-22	not checked	no page compared yet			
+boston-globe 1918-09-29 | new-orleans-states 1918-09-29	boston-globe 1918-09-29	new-orleans-states 1918-09-29	1918-09-29	1918-09-29	not checked	no page compared yet			
+new-orleans-states 1918-09-29 | boston-globe 1918-10-06	new-orleans-states 1918-09-29	boston-globe 1918-10-06	1918-09-29	1918-10-06	not checked	no page compared yet			
+boston-globe 1918-10-20 | pittsburgh-press 1918-10-20	boston-globe 1918-10-20	pittsburgh-press 1918-10-20	1918-10-20	1918-10-20	contradictory	solution answers something else: pittsburgh-press 1918-10-20			
+pittsburgh-press 1918-10-20 | boston-globe 1918-10-27	pittsburgh-press 1918-10-20	boston-globe 1918-10-27	1918-10-20	1918-10-27	not checked	no page compared yet			
+boston-globe 1918-10-27 | pittsburgh-press 1918-10-27	boston-globe 1918-10-27	pittsburgh-press 1918-10-27	1918-10-27	1918-10-27	not checked	no page compared yet			
+pittsburgh-press 1918-10-27 | boston-globe 1918-11-03	pittsburgh-press 1918-10-27	boston-globe 1918-11-03	1918-10-27	1918-11-03	not checked	no page compared yet			
+boston-globe 1918-11-03 | pittsburgh-press 1918-11-03	boston-globe 1918-11-03	pittsburgh-press 1918-11-03	1918-11-03	1918-11-03	link unclear	pittsburgh-press 1918-11-03			
+pittsburgh-press 1918-11-03 | boston-globe 1918-11-10	pittsburgh-press 1918-11-03	boston-globe 1918-11-10	1918-11-03	1918-11-10	not checked	no page compared yet			
+boston-globe 1918-11-10 | pittsburgh-press 1918-11-10	boston-globe 1918-11-10	pittsburgh-press 1918-11-10	1918-11-10	1918-11-10	contradictory	solution answers something else: pittsburgh-press 1918-11-10			
+pittsburgh-press 1918-11-10 | boston-globe 1918-11-17	pittsburgh-press 1918-11-10	boston-globe 1918-11-17	1918-11-10	1918-11-17	not checked	no page compared yet			
+boston-globe 1918-11-17 | pittsburgh-press 1918-11-17	boston-globe 1918-11-17	pittsburgh-press 1918-11-17	1918-11-17	1918-11-17	not checked	no page compared yet			
+pittsburgh-press 1918-11-17 | boston-globe 1918-11-24	pittsburgh-press 1918-11-17	boston-globe 1918-11-24	1918-11-17	1918-11-24	not checked	no page compared yet			
+boston-globe 1918-12-08 | new-orleans-states 1918-12-08	boston-globe 1918-12-08	new-orleans-states 1918-12-08	1918-12-08	1918-12-08	not checked	no page compared yet			
+new-orleans-states 1918-12-08 | pittsburgh-press 1918-12-08	new-orleans-states 1918-12-08	pittsburgh-press 1918-12-08	1918-12-08	1918-12-08	not checked	no page compared yet			
+pittsburgh-press 1918-12-08 | boston-globe 1918-12-15	pittsburgh-press 1918-12-08	boston-globe 1918-12-15	1918-12-08	1918-12-15	not checked	no page compared yet			
+boston-globe 1918-12-15 | pittsburgh-press 1918-12-15	boston-globe 1918-12-15	pittsburgh-press 1918-12-15	1918-12-15	1918-12-15	link unclear	pittsburgh-press 1918-12-15			
+pittsburgh-press 1918-12-15 | boston-globe 1918-12-22	pittsburgh-press 1918-12-15	boston-globe 1918-12-22	1918-12-15	1918-12-22	not checked	no page compared yet			
+boston-globe 1918-12-22 | new-orleans-states 1918-12-22	boston-globe 1918-12-22	new-orleans-states 1918-12-22	1918-12-22	1918-12-22	not checked	no page compared yet			
+new-orleans-states 1918-12-22 | pittsburgh-press 1918-12-22	new-orleans-states 1918-12-22	pittsburgh-press 1918-12-22	1918-12-22	1918-12-22	contradictory	solution answers something else: pittsburgh-press 1918-12-22			
+pittsburgh-press 1918-12-22 | boston-globe 1918-12-29	pittsburgh-press 1918-12-22	boston-globe 1918-12-29	1918-12-22	1918-12-29	not checked	no page compared yet			
+boston-globe 1918-12-29 | pittsburgh-press 1918-12-29	boston-globe 1918-12-29	pittsburgh-press 1918-12-29	1918-12-29	1918-12-29	not checked	no page compared yet			
+pittsburgh-press 1918-12-29 | boston-globe 1919-01-05	pittsburgh-press 1918-12-29	boston-globe 1919-01-05	1918-12-29	1919-01-05	not checked	no page compared yet			
+boston-globe 1919-01-05 | pittsburgh-press 1919-01-05	boston-globe 1919-01-05	pittsburgh-press 1919-01-05	1919-01-05	1919-01-05	link unclear	pittsburgh-press 1919-01-05			
+pittsburgh-press 1919-01-05 | boston-globe 1919-01-12	pittsburgh-press 1919-01-05	boston-globe 1919-01-12	1919-01-05	1919-01-12	not checked	no page compared yet			
+boston-globe 1919-01-12 | pittsburgh-press 1919-01-12	boston-globe 1919-01-12	pittsburgh-press 1919-01-12	1919-01-12	1919-01-12	not checked	no page compared yet			
+pittsburgh-press 1919-01-12 | boston-globe 1919-01-19	pittsburgh-press 1919-01-12	boston-globe 1919-01-19	1919-01-12	1919-01-19	not checked	no page compared yet			
+boston-globe 1919-01-19 | pittsburgh-press 1919-01-19	boston-globe 1919-01-19	pittsburgh-press 1919-01-19	1919-01-19	1919-01-19	contradictory	solution answers something else: pittsburgh-press 1919-01-19			
+pittsburgh-press 1919-01-19 | boston-globe 1919-01-26	pittsburgh-press 1919-01-19	boston-globe 1919-01-26	1919-01-19	1919-01-26	not checked	no page compared yet			
+boston-globe 1919-01-26 | pittsburgh-press 1919-01-26	boston-globe 1919-01-26	pittsburgh-press 1919-01-26	1919-01-26	1919-01-26	not checked	no page compared yet			
+pittsburgh-press 1919-01-26 | boston-globe 1919-02-02	pittsburgh-press 1919-01-26	boston-globe 1919-02-02	1919-01-26	1919-02-02	not checked	no page compared yet			
+boston-globe 1919-02-02 | pittsburgh-press 1919-02-02	boston-globe 1919-02-02	pittsburgh-press 1919-02-02	1919-02-02	1919-02-02	contradictory	solution answers something else: pittsburgh-press 1919-02-02			
+pittsburgh-press 1919-02-02 | boston-globe 1919-02-09	pittsburgh-press 1919-02-02	boston-globe 1919-02-09	1919-02-02	1919-02-09	not checked	no page compared yet			
+boston-globe 1919-02-09 | pittsburgh-press 1919-02-09	boston-globe 1919-02-09	pittsburgh-press 1919-02-09	1919-02-09	1919-02-09	not checked	no page compared yet			
+pittsburgh-press 1919-02-09 | boston-globe 1919-02-16	pittsburgh-press 1919-02-09	boston-globe 1919-02-16	1919-02-09	1919-02-16	not checked	no page compared yet			
+boston-globe 1919-02-16 | pittsburgh-press 1919-02-16	boston-globe 1919-02-16	pittsburgh-press 1919-02-16	1919-02-16	1919-02-16	not checked	no page compared yet			
+pittsburgh-press 1919-02-16 | boston-globe 1919-02-23	pittsburgh-press 1919-02-16	boston-globe 1919-02-23	1919-02-16	1919-02-23	not checked	no page compared yet			
+boston-globe 1919-02-23 | pittsburgh-press 1919-02-23	boston-globe 1919-02-23	pittsburgh-press 1919-02-23	1919-02-23	1919-02-23	contradictory	solution answers something else: pittsburgh-press 1919-02-23			
+pittsburgh-press 1919-02-23 | boston-globe 1919-03-02	pittsburgh-press 1919-02-23	boston-globe 1919-03-02	1919-02-23	1919-03-02	not checked	no page compared yet			
+boston-globe 1919-03-02 | pittsburgh-press 1919-03-02	boston-globe 1919-03-02	pittsburgh-press 1919-03-02	1919-03-02	1919-03-02	not checked	no page compared yet			
+pittsburgh-press 1919-03-02 | boston-globe 1919-03-09	pittsburgh-press 1919-03-02	boston-globe 1919-03-09	1919-03-02	1919-03-09	not checked	no page compared yet			
+boston-globe 1919-03-09 | pittsburgh-press 1919-03-09	boston-globe 1919-03-09	pittsburgh-press 1919-03-09	1919-03-09	1919-03-09	not checked	no page compared yet			
+pittsburgh-press 1919-03-09 | boston-globe 1919-03-16	pittsburgh-press 1919-03-09	boston-globe 1919-03-16	1919-03-09	1919-03-16	not checked	no page compared yet			
+boston-globe 1919-03-16 | pittsburgh-press 1919-03-16	boston-globe 1919-03-16	pittsburgh-press 1919-03-16	1919-03-16	1919-03-16	not checked	no page compared yet			
+pittsburgh-press 1919-03-16 | boston-globe 1919-03-23	pittsburgh-press 1919-03-16	boston-globe 1919-03-23	1919-03-16	1919-03-23	not checked	no page compared yet			
+boston-globe 1919-04-06 | pittsburgh-press 1919-04-06	boston-globe 1919-04-06	pittsburgh-press 1919-04-06	1919-04-06	1919-04-06	contradictory	solution answers something else: pittsburgh-press 1919-04-06			
+pittsburgh-press 1919-04-06 | boston-globe 1919-04-13	pittsburgh-press 1919-04-06	boston-globe 1919-04-13	1919-04-06	1919-04-13	not checked	no page compared yet			
+boston-globe 1919-04-13 | pittsburgh-press 1919-04-13	boston-globe 1919-04-13	pittsburgh-press 1919-04-13	1919-04-13	1919-04-13	not checked	no page compared yet			
+pittsburgh-press 1919-04-13 | boston-globe 1919-04-20	pittsburgh-press 1919-04-13	boston-globe 1919-04-20	1919-04-13	1919-04-20	not checked	no page compared yet			
+boston-globe 1919-04-20 | pittsburgh-press 1919-04-20	boston-globe 1919-04-20	pittsburgh-press 1919-04-20	1919-04-20	1919-04-20	not checked	no page compared yet			
+pittsburgh-press 1919-04-20 | boston-globe 1919-04-27	pittsburgh-press 1919-04-20	boston-globe 1919-04-27	1919-04-20	1919-04-27	not checked	no page compared yet			
+boston-globe 1919-04-27 | pittsburgh-press 1919-04-27	boston-globe 1919-04-27	pittsburgh-press 1919-04-27	1919-04-27	1919-04-27	not checked	no page compared yet			
+pittsburgh-press 1919-04-27 | boston-globe 1919-05-04	pittsburgh-press 1919-04-27	boston-globe 1919-05-04	1919-04-27	1919-05-04	not checked	no page compared yet			
+boston-globe 1919-05-11 | pittsburgh-press 1919-05-11	boston-globe 1919-05-11	pittsburgh-press 1919-05-11	1919-05-11	1919-05-11	link unclear	pittsburgh-press 1919-05-11			
+pittsburgh-press 1919-05-11 | boston-globe 1919-05-18	pittsburgh-press 1919-05-11	boston-globe 1919-05-18	1919-05-11	1919-05-18	not checked	no page compared yet			
+boston-globe 1919-05-18 | pittsburgh-press 1919-05-18	boston-globe 1919-05-18	pittsburgh-press 1919-05-18	1919-05-18	1919-05-18	not checked	no page compared yet			
+pittsburgh-press 1919-05-18 | boston-globe 1919-05-25	pittsburgh-press 1919-05-18	boston-globe 1919-05-25	1919-05-18	1919-05-25	not checked	no page compared yet			
+boston-globe 1919-05-25 | pittsburgh-press 1919-05-25	boston-globe 1919-05-25	pittsburgh-press 1919-05-25	1919-05-25	1919-05-25	not checked	no page compared yet			
+pittsburgh-press 1919-05-25 | boston-globe 1919-06-01	pittsburgh-press 1919-05-25	boston-globe 1919-06-01	1919-05-25	1919-06-01	not checked	no page compared yet			
+boston-globe 1919-06-08 | pittsburgh-press 1919-06-08	boston-globe 1919-06-08	pittsburgh-press 1919-06-08	1919-06-08	1919-06-08	contradictory	solution answers something else: pittsburgh-press 1919-06-08			
+pittsburgh-press 1919-06-08 | boston-globe 1919-06-15	pittsburgh-press 1919-06-08	boston-globe 1919-06-15	1919-06-08	1919-06-15	not checked	no page compared yet			
+boston-globe 1919-06-15 | pittsburgh-press 1919-06-15	boston-globe 1919-06-15	pittsburgh-press 1919-06-15	1919-06-15	1919-06-15	not checked	no page compared yet			
+pittsburgh-press 1919-06-15 | boston-globe 1919-06-22	pittsburgh-press 1919-06-15	boston-globe 1919-06-22	1919-06-15	1919-06-22	not checked	no page compared yet			
+boston-globe 1919-06-22 | pittsburgh-press 1919-06-22	boston-globe 1919-06-22	pittsburgh-press 1919-06-22	1919-06-22	1919-06-22	link unclear	pittsburgh-press 1919-06-22			
+pittsburgh-press 1919-06-22 | boston-globe 1919-06-29	pittsburgh-press 1919-06-22	boston-globe 1919-06-29	1919-06-22	1919-06-29	not checked	no page compared yet			
+boston-globe 1919-06-29 | pittsburgh-press 1919-06-29	boston-globe 1919-06-29	pittsburgh-press 1919-06-29	1919-06-29	1919-06-29	not checked	no page compared yet			
+pittsburgh-press 1919-06-29 | boston-globe 1919-07-06	pittsburgh-press 1919-06-29	boston-globe 1919-07-06	1919-06-29	1919-07-06	not checked	no page compared yet			
+boston-globe 1919-07-06 | pittsburgh-press 1919-07-06	boston-globe 1919-07-06	pittsburgh-press 1919-07-06	1919-07-06	1919-07-06	not checked	no page compared yet			
+pittsburgh-press 1919-07-06 | boston-globe 1919-07-13	pittsburgh-press 1919-07-06	boston-globe 1919-07-13	1919-07-06	1919-07-13	not checked	no page compared yet			
+boston-globe 1919-07-13 | pittsburgh-press 1919-07-13	boston-globe 1919-07-13	pittsburgh-press 1919-07-13	1919-07-13	1919-07-13	not checked	no page compared yet			
+pittsburgh-press 1919-07-13 | boston-globe 1919-07-20	pittsburgh-press 1919-07-13	boston-globe 1919-07-20	1919-07-13	1919-07-20	not checked	no page compared yet			
+boston-globe 1919-07-20 | pittsburgh-press 1919-07-20	boston-globe 1919-07-20	pittsburgh-press 1919-07-20	1919-07-20	1919-07-20	not checked	no page compared yet			
+pittsburgh-press 1919-07-20 | boston-globe 1919-07-27	pittsburgh-press 1919-07-20	boston-globe 1919-07-27	1919-07-20	1919-07-27	not checked	no page compared yet			
+boston-globe 1919-08-10 | pittsburgh-press 1919-08-10	boston-globe 1919-08-10	pittsburgh-press 1919-08-10	1919-08-10	1919-08-10	link unclear	pittsburgh-press 1919-08-10			
+pittsburgh-press 1919-08-10 | boston-globe 1919-08-17	pittsburgh-press 1919-08-10	boston-globe 1919-08-17	1919-08-10	1919-08-17	not checked	no page compared yet			
+boston-globe 1919-08-31 | pittsburgh-press 1919-08-31	boston-globe 1919-08-31	pittsburgh-press 1919-08-31	1919-08-31	1919-08-31	contradictory	solution answers something else: pittsburgh-press 1919-08-31			
+pittsburgh-press 1919-08-31 | boston-globe 1919-09-07	pittsburgh-press 1919-08-31	boston-globe 1919-09-07	1919-08-31	1919-09-07	not checked	no page compared yet			
+boston-globe 1919-09-07 | pittsburgh-press 1919-09-07	boston-globe 1919-09-07	pittsburgh-press 1919-09-07	1919-09-07	1919-09-07	not checked	no page compared yet			
+pittsburgh-press 1919-09-07 | boston-globe 1919-09-14	pittsburgh-press 1919-09-07	boston-globe 1919-09-14	1919-09-07	1919-09-14	not checked	no page compared yet			
+boston-globe 1919-09-14 | pittsburgh-press 1919-09-14	boston-globe 1919-09-14	pittsburgh-press 1919-09-14	1919-09-14	1919-09-14	not checked	no page compared yet			
+pittsburgh-press 1919-09-14 | boston-globe 1919-09-21	pittsburgh-press 1919-09-14	boston-globe 1919-09-21	1919-09-14	1919-09-21	not checked	no page compared yet			
