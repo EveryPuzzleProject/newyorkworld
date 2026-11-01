@@ -8,7 +8,7 @@
  "date": "1914-03-01",
  "grid": {
   "unit": "scan:minneapolis-journal-1914-03-01/0000",
-  "extract": "sha256:bcedb85f1e6d4d7712553e917312ccd26a24a461a84d7bba29dc92cc389e7b79",
+  "extract": "sha256:c9c5fd8d588fe74ccd1e8fb8eeb4cb32c0c469c7927d1f5f52933f41b9a13d94",
   "size": "13x13",
   "nth": 0
  },

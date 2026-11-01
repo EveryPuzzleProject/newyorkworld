@@ -1,0 +1,14 @@
+{
+ "_about": "The FUN harvest's text step runs (xword-ocr harvests/nyw-c1): which one is current (the batch page opens on it, the import reads it) and what each is.",
+ "current": "c2",
+ "runs": {
+  "c1": {
+   "status": "old",
+   "what": "the first hands-off run of chain C1 (2026-11-01): 4 of 24 pages assembled, 3 keyed; published to the review site as batch nyw-1914-c1"
+  },
+  "c2": {
+   "status": "current",
+   "what": "C1 again with hand-drawn grids for the irregular templates, EASTER's squares, the centre label as a printed line, and the AI proof review"
+  }
+ }
+}

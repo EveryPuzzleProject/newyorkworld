@@ -7,13 +7,13 @@
     "layout": "sha256:1a6360dfaf3379217f3a12406653f09928d5d9ede0e610a35cf93160570f7233",
     "ocr": "sha256:046fc68338144bd0dd151a226e379c66268f6d1839bac56f47002ea763724916"
    },
-   "made": "2026-11-01T01:41:31+00:00",
+   "made": "2026-11-01T02:21:23+00:00",
    "output": "sha256:5759ccf829711a7a6e7e7acf685ed138b050670b283d247b584b5511b37a2687",
    "settings": {
     "sure_swaps": []
    },
    "stage": "extract",
-   "version": "extract/13"
+   "version": "extract/14"
   },
   "image": {
    "code": "xword-ocr 0.1.0",
@@ -31,13 +31,13 @@
    "inputs": {
     "image": "sha256:70859304c2bdb730affca68b365459d30c59b83c07670d142cc8691b7e72c298"
    },
-   "made": "2026-11-01T01:41:22+00:00",
+   "made": "2026-11-01T02:28:14+00:00",
    "output": "sha256:1a6360dfaf3379217f3a12406653f09928d5d9ede0e610a35cf93160570f7233",
    "settings": {
     "max_grids": 12
    },
    "stage": "layout",
-   "version": "layout/9"
+   "version": "layout/10"
   },
   "ocr": {
    "code": "xword-ocr 0.1.0",
