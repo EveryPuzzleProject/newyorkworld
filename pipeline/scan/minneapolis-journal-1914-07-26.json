@@ -55,5 +55,35 @@
    "stage": "ocr",
    "version": "ocr/4"
   }
+ },
+ "scan:minneapolis-journal-1914-07-26/0000#key-02aa44ffdb38": {
+  "keysearch": {
+   "code": "xword-ocr 0.1.0",
+   "inputs": {
+    "image": "sha256:6f86cd41d3780138d2d9a549a1e2f1235068932063311d781b9770a366b8cce6"
+   },
+   "made": "2026-11-01T12:45:22+00:00",
+   "output": "sha256:49bd8040d0c230be1506f4fee5ccfa41b6ca511e46de1867a0b081464503b91e",
+   "settings": {
+    "only_pointed": false
+   },
+   "stage": "keysearch",
+   "version": "keysearch/2"
+  }
+ },
+ "scan:minneapolis-journal-1914-07-26/0000#key-1f9340d521b7": {
+  "keysearch": {
+   "code": "xword-ocr 0.1.0",
+   "inputs": {
+    "image": "sha256:6f86cd41d3780138d2d9a549a1e2f1235068932063311d781b9770a366b8cce6"
+   },
+   "made": "2026-11-01T12:22:34+00:00",
+   "output": "sha256:7b8c89d9d55910d2693cf8e7071ecf70a6b0caae833ba05612ea5f959171b9d3",
+   "settings": {
+    "only_pointed": false
+   },
+   "stage": "keysearch",
+   "version": "keysearch/2"
+  }
  }
 }

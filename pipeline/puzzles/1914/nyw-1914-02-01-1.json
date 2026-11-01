@@ -1,0 +1,25 @@
+{
+ "id": "nyw-1914-02-01-1",
+ "aliases": [
+  "nyw1914-02-01-L001"
+ ],
+ "xdid": "nyw1914-02-01-L001",
+ "issue": "1914-02-01",
+ "date": "1914-02-01",
+ "grid": {
+  "unit": "scan:minneapolis-journal-1914-02-01/0001",
+  "extract": "sha256:746fcd2953aa3cf9dad03e4b7c8bbfb779bf0838fd4c1411c93bcab333180af1",
+  "size": "13x13",
+  "nth": 0
+ },
+ "clues": null,
+ "continued": null,
+ "copies": [],
+ "reading": "sha256:1112afd3f3b163802ea8c34951d29a2cd8aa79acfb61ba8e1ec2f7c78cbeac3f",
+ "checks": {
+  "solution": [],
+  "asymmetric": 0,
+  "warnings": []
+ },
+ "xd": "sha256:b156738333ebf2e641adff200e06799f3abe923a1ac4e8bdbc96979c2c064ac6"
+}

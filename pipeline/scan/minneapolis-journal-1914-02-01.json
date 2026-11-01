@@ -1,0 +1,145 @@
+{
+ "scan:minneapolis-journal-1914-02-01/0000": {
+  "extract": {
+   "code": "xword-ocr 0.1.0",
+   "inputs": {
+    "image": "sha256:ecb0d49cccfb537b626fbcf540bcf5fe4e419295f438e3bf14258fc9781736c0",
+    "layout": "sha256:857f71638e367919a2d37c1abe3398fb9564cdb6f933deef09316ba3168179fd",
+    "ocr": "sha256:2d10963d408deb14ffe8331190e1607673d2f619f5a7ad3e78c83e71d86ff334"
+   },
+   "made": "2026-11-01T12:53:53+00:00",
+   "output": "sha256:59bb4a4f949c5bfd1b35c38ea4744a9f7801923a5a65d4d0b0ac7dd824d7f463",
+   "settings": {
+    "sure_swaps": []
+   },
+   "stage": "extract",
+   "version": "extract/14"
+  },
+  "image": {
+   "code": "xword-ocr 0.1.0",
+   "inputs": {},
+   "made": "2026-11-01T12:53:45+00:00",
+   "output": "sha256:ecb0d49cccfb537b626fbcf540bcf5fe4e419295f438e3bf14258fc9781736c0",
+   "settings": {
+    "source": "scan"
+   },
+   "stage": "image",
+   "version": "image/1"
+  },
+  "layout": {
+   "code": "xword-ocr 0.1.0",
+   "inputs": {
+    "hint": "sha256:3c9a57a287132b4c9c3486f8ed27e8b727c457090bd3af38877b436950b089ca",
+    "image": "sha256:ecb0d49cccfb537b626fbcf540bcf5fe4e419295f438e3bf14258fc9781736c0"
+   },
+   "made": "2026-11-01T12:53:47+00:00",
+   "output": "sha256:857f71638e367919a2d37c1abe3398fb9564cdb6f933deef09316ba3168179fd",
+   "settings": {
+    "max_grids": 12
+   },
+   "stage": "layout",
+   "version": "layout/10"
+  },
+  "ocr": {
+   "code": "xword-ocr 0.1.0",
+   "inputs": {
+    "image": "sha256:ecb0d49cccfb537b626fbcf540bcf5fe4e419295f438e3bf14258fc9781736c0"
+   },
+   "made": "2026-11-01T12:53:53+00:00",
+   "output": "sha256:2d10963d408deb14ffe8331190e1607673d2f619f5a7ad3e78c83e71d86ff334",
+   "settings": {
+    "engine": "rapidocr",
+    "tiles": 2,
+    "upscale_below": 2400
+   },
+   "stage": "ocr",
+   "version": "ocr/4"
+  }
+ },
+ "scan:minneapolis-journal-1914-02-01/0000#key-2b8353361a56": {
+  "keysearch": {
+   "code": "xword-ocr 0.1.0",
+   "inputs": {
+    "image": "sha256:ecb0d49cccfb537b626fbcf540bcf5fe4e419295f438e3bf14258fc9781736c0"
+   },
+   "made": "2026-11-01T12:53:58+00:00",
+   "output": "sha256:20f0e7c677012bbbfc9e4aa9210633279238c66b6f1b0aa2c92e3844bca86564",
+   "settings": {
+    "only_pointed": false
+   },
+   "stage": "keysearch",
+   "version": "keysearch/2"
+  }
+ },
+ "scan:minneapolis-journal-1914-02-01/0001": {
+  "extract": {
+   "code": "xword-ocr 0.1.0",
+   "inputs": {
+    "image": "sha256:e56c443695438a0db463df50338b4f91aba358bc128c7428d2b17d9a76825da5",
+    "layout": "sha256:ed7879c40f537cb638f7fa8dcc953afd5f6f07f7357ca0976f63b63399c7d102",
+    "ocr": "sha256:a4ee3d396300500d15457af624e98d2951fc5e9c66c9d0158b466cae6d49b968"
+   },
+   "made": "2026-11-01T12:53:56+00:00",
+   "output": "sha256:746fcd2953aa3cf9dad03e4b7c8bbfb779bf0838fd4c1411c93bcab333180af1",
+   "settings": {
+    "sure_swaps": []
+   },
+   "stage": "extract",
+   "version": "extract/14"
+  },
+  "image": {
+   "code": "xword-ocr 0.1.0",
+   "inputs": {},
+   "made": "2026-11-01T12:44:18+00:00",
+   "output": "sha256:e56c443695438a0db463df50338b4f91aba358bc128c7428d2b17d9a76825da5",
+   "settings": {
+    "source": "scan"
+   },
+   "stage": "image",
+   "version": "image/1"
+  },
+  "layout": {
+   "code": "xword-ocr 0.1.0",
+   "inputs": {
+    "image": "sha256:e56c443695438a0db463df50338b4f91aba358bc128c7428d2b17d9a76825da5"
+   },
+   "made": "2026-11-01T12:53:54+00:00",
+   "output": "sha256:ed7879c40f537cb638f7fa8dcc953afd5f6f07f7357ca0976f63b63399c7d102",
+   "settings": {
+    "max_grids": 12
+   },
+   "stage": "layout",
+   "version": "layout/10"
+  },
+  "ocr": {
+   "code": "xword-ocr 0.1.0",
+   "inputs": {
+    "image": "sha256:e56c443695438a0db463df50338b4f91aba358bc128c7428d2b17d9a76825da5"
+   },
+   "made": "2026-11-01T12:44:24+00:00",
+   "output": "sha256:a4ee3d396300500d15457af624e98d2951fc5e9c66c9d0158b466cae6d49b968",
+   "settings": {
+    "engine": "rapidocr",
+    "tiles": 2,
+    "upscale_below": 2400
+   },
+   "stage": "ocr",
+   "version": "ocr/4"
+  }
+ },
+ "scan:minneapolis-journal-1914-02-01/0001#key-2b8353361a56": {
+  "keysearch": {
+   "code": "xword-ocr 0.1.0",
+   "inputs": {
+    "image": "sha256:e56c443695438a0db463df50338b4f91aba358bc128c7428d2b17d9a76825da5"
+   },
+   "made": "2026-11-01T12:45:11+00:00",
+   "output": "sha256:20f0e7c677012bbbfc9e4aa9210633279238c66b6f1b0aa2c92e3844bca86564",
+   "settings": {
+    "only_pointed": false
+   },
+   "stage": "keysearch",
+   "version": "keysearch/2"
+  }
+ }
+}

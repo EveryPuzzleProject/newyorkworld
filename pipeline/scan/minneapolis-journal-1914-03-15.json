@@ -55,6 +55,21 @@
    "version": "ocr/4"
   }
  },
+ "scan:minneapolis-journal-1914-03-15/0000#key-25b6df3fc146": {
+  "keysearch": {
+   "code": "xword-ocr 0.1.0",
+   "inputs": {
+    "image": "sha256:12ffe7ffd58bf6fd1d8c501b00c28d39f566844bdd4047d920a9af00ddc0dec0"
+   },
+   "made": "2026-11-01T12:53:59+00:00",
+   "output": "sha256:baeca34bf8be84a18d125dfc9400f9ed25f51b90bcfc7e99f1e07bbf5b8b141f",
+   "settings": {
+    "only_pointed": false
+   },
+   "stage": "keysearch",
+   "version": "keysearch/2"
+  }
+ },
  "scan:minneapolis-journal-1914-03-15/0000#key-2b8353361a56": {
   "keysearch": {
    "code": "xword-ocr 0.1.0",
@@ -63,6 +78,21 @@
    },
    "made": "2026-11-01T00:26:59+00:00",
    "output": "sha256:143b3f2bdd5b0498389da747c7ed2eb373b29e449f8dd90336e9b1fa72c4660e",
+   "settings": {
+    "only_pointed": false
+   },
+   "stage": "keysearch",
+   "version": "keysearch/2"
+  }
+ },
+ "scan:minneapolis-journal-1914-03-15/0000#key-685757d8c3ff": {
+  "keysearch": {
+   "code": "xword-ocr 0.1.0",
+   "inputs": {
+    "image": "sha256:12ffe7ffd58bf6fd1d8c501b00c28d39f566844bdd4047d920a9af00ddc0dec0"
+   },
+   "made": "2026-11-01T12:22:26+00:00",
+   "output": "sha256:0b2bd239321b9a0fc99d9c0e6cefba6d69ddd160d23025ff1ea2e72aee508b40",
    "settings": {
     "only_pointed": false
    },

@@ -8,14 +8,14 @@
  "date": "1914-05-03",
  "grid": {
   "unit": "scan:minneapolis-journal-1914-05-03/0000",
-  "extract": "sha256:a2fb97bd5be60f30885a50b3e9b079a593953b9bcff43b920ff5109c36f902c2",
+  "extract": "sha256:f6f78472aec119df1d4817418a934bab090e5a3070a5a5a465b73fcd823f3be7",
   "size": "20x20",
   "nth": 0
  },
  "clues": null,
  "continued": null,
  "copies": [],
- "reading": "sha256:18f5f4624f17f5acb3def719a7b75841aaadf9d1d237f61092c5e5936f96fe6e",
+ "reading": "sha256:164a23ddcf86f8059e1d21196dedae3f43429b9428f045f74275acd45fac1eb4",
  "checks": {
   "solution": [],
   "asymmetric": 4,
@@ -23,5 +23,5 @@
    "Grid isn't symmetric: 4 square pair(s) differ (r4c13/r17c8, r6c16/r15c5, r9c3/r12c18, r9c17/r12c4). Check those black squares against the scan, or confirm the design is asymmetric."
   ]
  },
- "xd": "sha256:28cc2551d7ca18e110629566dcce256cc6edb95beeb9795d065d0a08ecf56d4f"
+ "xd": "sha256:0380b9af96cc988d203327090cc620b4ca44a5ce35d4ed40af2d98b959af83df"
 }

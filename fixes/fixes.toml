@@ -951,3 +951,57 @@ grids = [ { corners = [[200, 585], [884, 585], [884, 1243], [200, 1243]], rows =
 # The 1914-05-03 page's solution to No. 19 (04-26): the detector reads it 11 x 13; and the X puzzle
 [page."minneapolis-journal-1914-05-03".0]
 grids = [ { corners = [[1522, 392], [2341, 402], [2336, 1268], [1511, 1256]], rows = 20, cols = 20 }, { corners = [[960, 1499], [1260, 1499], [1260, 1827], [960, 1827]], rows = 13, cols = 13 } ]
+
+# Crops (newyorkworld-scans pages.tsv, crop_of): a page saved at Newspapers.com's native resolution
+# in parts is read through them; leaf 1 is the puzzle crop, leaf 2 the solutions crop.
+
+# No. 9 (1914-02-15, leaf 1 = the puzzle crop): a diamond 13 wide with FUN printed across row 1
+# and PUZZLES across row 3; those squares are white squares of the puzzle (the detector reads a big
+# printed letter as a shaded block). Their letters come from the key. The lattice is the detector's.
+[page."minneapolis-journal-1914-02-15".1]
+grids = [ { corners = [[1014, 421], [2426, 426], [2410, 1971], [991, 1949]], rows = 13, cols = 13, white = ["r2c6", "r2c7", "r2c8", "r4c4", "r4c5", "r4c6", "r4c7", "r4c8", "r4c9", "r4c10"] } ]
+
+# No. 21 (1914-05-10, leaf 1 = the puzzle crop): a diamond 19 wide with a cross-shaped hole and an
+# apex square above and below, 20 rows x 19 cols; the crop is rotated about 2 degrees, so the
+# corners are a quadrilateral (fitted to the most four-ruled squares). The detector read it 19 x 18
+# at twice the pitch.
+[page."minneapolis-journal-1914-05-10".1]
+grids = [ { corners = [[115, 87], [2405, 103], [2405, 2640], [145, 2640]], rows = 20, cols = 19 } ]
+
+# The solution to No. 6 (1914-02-01, leaf 0 = the solutions box; the file is named _fun): a diamond
+# 13 wide the detector misses at this size. No puzzle page of No. 6 exists: a key without a puzzle.
+[page."minneapolis-journal-1914-02-01".0]
+grids = [ { corners = [[1141, 894], [2137, 937], [2137, 2052], [1101, 2052]], rows = 13, cols = 13 } ]
+
+# The solution to No. 7 (1914-02-08, leaf 0 = the solutions box; the file is named _fun): a diamond 13 wide.
+[page."minneapolis-journal-1914-02-08".0]
+grids = [ { corners = [[186, 417], [1482, 444], [1432, 1881], [136, 1828]], rows = 13, cols = 13 } ]
+
+# No. 17 (1914-04-12, leaf 1 = the puzzle crop; the Easter puzzle): an even diamond, 12 x 12 (two apex
+# squares top and bottom), with EASTER printed across row 3: those six squares are white squares of
+# the puzzle. The lattice is the detector's.
+[page."minneapolis-journal-1914-04-12".1]
+grids = [ { corners = [[194, 557], [2052, 543], [2032, 2534], [200, 2551]], rows = 12, cols = 12, white = ["r3c4", "r3c5", "r3c6", "r3c7", "r3c8", "r3c9"] } ]
+
+# No. 18 (1914-04-19, leaf 1 = the puzzle crop): the cross with corner squares, 11 x 11 (the detector
+# reads 10 x 10). Three squares whose printed numbers read as shading are white: r7c2, r9c4, r10c7.
+[page."minneapolis-journal-1914-04-19".1]
+grids = [ { corners = [[254, 790], [1764, 790], [1730, 2450], [254, 2450]], rows = 11, cols = 11, white = ["r7c2", "r9c4", "r10c7"] } ]
+
+# No. 23 (1914-06-14, leaf 1 = the puzzle crop): the X of bands, 28 rows x 20 cols; its big printed
+# numbers read as letters at this size, so the detector takes it for a solution: it is the puzzle.
+[page."minneapolis-journal-1914-06-14".1]
+grids = [ { corners = [[89, 115], [1328, 116], [1321, 1934], [74, 1919]], rows = 28, cols = 20, puzzle = true } ]
+
+# The solution to No. 23 (1914-06-21, leaf 2 = the solutions crop): the X of bands, 28 x 20; the
+# detector reads 20 x 16. The upper bands still read poorly (the heading overlaps them).
+[page."minneapolis-journal-1914-06-21".2]
+grids = [ { corners = [[379, 19], [2500, 19], [2500, 2992], [432, 2992]], rows = 28, cols = 20 } ]
+
+# A Journal issue that prints only a solution has no row in printings.tsv, so the generated map above
+# gives it no World date: by hand, the World's Sunday whose solution it carries. 1914-06-07 prints
+# No. 22's solution, which the World printed on 1914-05-24 (a week after No. 22); so the pipeline
+# finds it as the key printed "in the next issue" after No. 22's (1914-05-17). The Journal's 05-17,
+# No. 21's solution, keeps its own date: it is the World's 05-17 issue's solution page.
+[issue."minneapolis-journal-1914-06-07"]
+date = "1914-05-24"
