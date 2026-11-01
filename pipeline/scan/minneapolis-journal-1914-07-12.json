@@ -5,10 +5,10 @@
    "inputs": {
     "image": "sha256:fef168e9886c945519eecad049a91d8392566efbbfd7ba2b6ce5c6018ddf6629",
     "layout": "sha256:2e35eb1905773504f9728f27a5ca8dcab943f92d84aaad90bff940a2c2dc4fa4",
-    "ocr": "sha256:5dc23778b13897ff8400f9eb8bfce4dbdd0b90b85681724cbd47c9ef27920fc7"
+    "ocr": "sha256:00274f9f0e9b08563c355b815a2dd8479fc33baf287680aa741b5849b27b6de2"
    },
-   "made": "2026-11-01T02:22:42+00:00",
-   "output": "sha256:90b7ce12ee12b6130c5ce6a80c1f9a7fee46877ee9fe0059768b8800f913366c",
+   "made": "2026-11-01T02:45:04+00:00",
+   "output": "sha256:ddc7dfc6783430704e370cb9e2eb949f6050a10a339ebd6051a9075c70910b58",
    "settings": {
     "sure_swaps": []
    },
@@ -32,7 +32,7 @@
     "hint": "sha256:38c0e4ecfdef1551699b5986bcba62b4f3856b81e19dfa3637ec333b77c378cb",
     "image": "sha256:fef168e9886c945519eecad049a91d8392566efbbfd7ba2b6ce5c6018ddf6629"
    },
-   "made": "2026-11-01T02:28:46+00:00",
+   "made": "2026-11-01T02:44:42+00:00",
    "output": "sha256:2e35eb1905773504f9728f27a5ca8dcab943f92d84aaad90bff940a2c2dc4fa4",
    "settings": {
     "max_grids": 12
@@ -45,14 +45,30 @@
    "inputs": {
     "image": "sha256:fef168e9886c945519eecad049a91d8392566efbbfd7ba2b6ce5c6018ddf6629"
    },
-   "made": "2026-11-01T01:46:14+00:00",
-   "output": "sha256:5dc23778b13897ff8400f9eb8bfce4dbdd0b90b85681724cbd47c9ef27920fc7",
+   "made": "2026-11-01T02:44:56+00:00",
+   "output": "sha256:00274f9f0e9b08563c355b815a2dd8479fc33baf287680aa741b5849b27b6de2",
    "settings": {
     "engine": "rapidocr",
+    "tiles": 2,
     "upscale_below": 2400
    },
    "stage": "ocr",
-   "version": "ocr/1"
+   "version": "ocr/4"
+  }
+ },
+ "scan:minneapolis-journal-1914-07-12/0000#key-a08b85ef8976": {
+  "keysearch": {
+   "code": "xword-ocr 0.1.0",
+   "inputs": {
+    "image": "sha256:fef168e9886c945519eecad049a91d8392566efbbfd7ba2b6ce5c6018ddf6629"
+   },
+   "made": "2026-11-01T02:33:32+00:00",
+   "output": "sha256:3292273437a7dca0a0909c039ec00721fc8559e8de0d6cab8cc97922ce04f4d3",
+   "settings": {
+    "only_pointed": false
+   },
+   "stage": "keysearch",
+   "version": "keysearch/2"
   }
  }
 }

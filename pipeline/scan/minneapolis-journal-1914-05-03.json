@@ -4,11 +4,11 @@
    "code": "xword-ocr 0.1.0",
    "inputs": {
     "image": "sha256:8517b86b3fb48aef8ff92841c41b07d17ef5aaa0b9545b84eacf5ef8ec08246b",
-    "layout": "sha256:2ed045cc5eb854ebc0f65774a05998bd2caed2229e6460ae2c73cb6f6bf71102",
-    "ocr": "sha256:562361b82b66335665938325802cc5f88a4b9c2ea2343dea265a122166daed20"
+    "layout": "sha256:fb458bf56fc832c076f46aa7704b34037f2e89a740cb409b700b89084824b117",
+    "ocr": "sha256:f9325fc4be0c7cd6fae38ffbc049a9689c3825694577587dbd08478394f583be"
    },
-   "made": "2026-11-01T02:22:14+00:00",
-   "output": "sha256:5685a0e2503cc32e7b86c0e42ad999b725f5e89ff56127d9255c40c9d427afd0",
+   "made": "2026-11-01T02:43:50+00:00",
+   "output": "sha256:37e6b029aee15502e36a0ac7878ff092315322a33c9490db43782c42f095691d",
    "settings": {
     "sure_swaps": []
    },
@@ -32,7 +32,7 @@
     "hint": "sha256:6b3a23eb90548969dca7de09340f57823b9a7509f4f586e0c7e6914cbe4c502d",
     "image": "sha256:8517b86b3fb48aef8ff92841c41b07d17ef5aaa0b9545b84eacf5ef8ec08246b"
    },
-   "made": "2026-11-01T02:29:08+00:00",
+   "made": "2026-11-01T02:43:33+00:00",
    "output": "sha256:fb458bf56fc832c076f46aa7704b34037f2e89a740cb409b700b89084824b117",
    "settings": {
     "max_grids": 12
@@ -45,14 +45,30 @@
    "inputs": {
     "image": "sha256:8517b86b3fb48aef8ff92841c41b07d17ef5aaa0b9545b84eacf5ef8ec08246b"
    },
-   "made": "2026-11-01T01:44:53+00:00",
-   "output": "sha256:562361b82b66335665938325802cc5f88a4b9c2ea2343dea265a122166daed20",
+   "made": "2026-11-01T02:43:47+00:00",
+   "output": "sha256:f9325fc4be0c7cd6fae38ffbc049a9689c3825694577587dbd08478394f583be",
    "settings": {
     "engine": "rapidocr",
+    "tiles": 2,
     "upscale_below": 2400
    },
    "stage": "ocr",
-   "version": "ocr/1"
+   "version": "ocr/4"
+  }
+ },
+ "scan:minneapolis-journal-1914-05-03/0000#key-5802e025e2c1": {
+  "keysearch": {
+   "code": "xword-ocr 0.1.0",
+   "inputs": {
+    "image": "sha256:8517b86b3fb48aef8ff92841c41b07d17ef5aaa0b9545b84eacf5ef8ec08246b"
+   },
+   "made": "2026-11-01T02:33:30+00:00",
+   "output": "sha256:a3378ada6358798c5754d61e485afb6ef109d6fc22991489085d3b5db676058b",
+   "settings": {
+    "only_pointed": false
+   },
+   "stage": "keysearch",
+   "version": "keysearch/2"
   }
  }
 }

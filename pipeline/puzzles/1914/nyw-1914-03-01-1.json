@@ -8,18 +8,18 @@
  "date": "1914-03-01",
  "grid": {
   "unit": "scan:minneapolis-journal-1914-03-01/0000",
-  "extract": "sha256:c9c5fd8d588fe74ccd1e8fb8eeb4cb32c0c469c7927d1f5f52933f41b9a13d94",
+  "extract": "sha256:36f442448ba0c50a3c74f69048e8982c8e6fd8e1c6a71c4e798e16a3b6c20013",
   "size": "13x13",
   "nth": 0
  },
  "clues": null,
  "continued": null,
  "copies": [],
- "reading": "sha256:c480e3be5a3aa91f7dce3ce4b356d716ec3747eb94f42089b3bce86d102730fb",
+ "reading": "sha256:b3c8898ceba74a217bce7c62e8c20e440838aa651d676729b692b705d48b589b",
  "checks": {
   "solution": [],
   "asymmetric": 0,
   "warnings": []
  },
- "xd": "sha256:d50de0292f1678992d244f54917ae7eb4f43984f47444d05cf0622880a5cee3c"
+ "xd": "sha256:f43d03dcd5221be17e64d210d9156be0626206b27a7b889187886887bdc1f923"
 }

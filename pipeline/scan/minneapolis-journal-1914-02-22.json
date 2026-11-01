@@ -5,10 +5,10 @@
    "inputs": {
     "image": "sha256:4c49541ce002bc9076a158737c5f8cbcc2b2f840dcae99a12b71f30956ac47ec",
     "layout": "sha256:30a802511d301680c92135449ef550e5599bbf11fc55607fe2f38058480ad035",
-    "ocr": "sha256:6a23431a63ac7226871ba07391919b6580b88b167fa5f7c02f61741cd00b5e84"
+    "ocr": "sha256:2e4399321fef4246b5fa8e11acb35e96f6d567c9fe46010fd48b9109394c1287"
    },
-   "made": "2026-11-01T02:21:21+00:00",
-   "output": "sha256:ed871107ce6c10b7a5a33275da91659731bd30e44449fa2ef65e3936c226359c",
+   "made": "2026-11-01T02:42:17+00:00",
+   "output": "sha256:27ba10b72554df7105e49bf7dd8ae284fe42c103da8e87ac3994047f147bd52b",
    "settings": {
     "sure_swaps": []
    },
@@ -31,7 +31,7 @@
    "inputs": {
     "image": "sha256:4c49541ce002bc9076a158737c5f8cbcc2b2f840dcae99a12b71f30956ac47ec"
    },
-   "made": "2026-11-01T02:28:14+00:00",
+   "made": "2026-11-01T02:41:59+00:00",
    "output": "sha256:30a802511d301680c92135449ef550e5599bbf11fc55607fe2f38058480ad035",
    "settings": {
     "max_grids": 12
@@ -44,14 +44,15 @@
    "inputs": {
     "image": "sha256:4c49541ce002bc9076a158737c5f8cbcc2b2f840dcae99a12b71f30956ac47ec"
    },
-   "made": "2026-11-01T00:21:50+00:00",
-   "output": "sha256:6a23431a63ac7226871ba07391919b6580b88b167fa5f7c02f61741cd00b5e84",
+   "made": "2026-11-01T02:42:14+00:00",
+   "output": "sha256:2e4399321fef4246b5fa8e11acb35e96f6d567c9fe46010fd48b9109394c1287",
    "settings": {
     "engine": "rapidocr",
+    "tiles": 2,
     "upscale_below": 2400
    },
    "stage": "ocr",
-   "version": "ocr/1"
+   "version": "ocr/4"
   }
  }
 }

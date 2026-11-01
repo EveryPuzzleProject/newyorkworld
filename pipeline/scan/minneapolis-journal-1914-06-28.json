@@ -5,10 +5,10 @@
    "inputs": {
     "image": "sha256:f53443f50ad3d4fbf2fbac8cf16f650c407e7bc0562add9cee51b329ac3d01fa",
     "layout": "sha256:61a805bf6ba6435bbf40893adb8c38562011d651edb73a3430cee13595187310",
-    "ocr": "sha256:d3dbc07fd878d77d1b6860195d93aaffbca8c78a1cca054f53b8cf51157cfb47"
+    "ocr": "sha256:4cba9887b38daf0bbd432cbb1964162e18922d77344f1115c59895b5d26932bc"
    },
-   "made": "2026-11-01T02:22:35+00:00",
-   "output": "sha256:30863f172359bf0c21d6f6d4901df524b6f47ca6e106054e3f9259b11a2ceb56",
+   "made": "2026-11-01T02:44:40+00:00",
+   "output": "sha256:08f9e5bfe64bb24e7fe5db7a52f6552c5e098d805639eff3c606f533c7ba377d",
    "settings": {
     "sure_swaps": []
    },
@@ -31,7 +31,7 @@
    "inputs": {
     "image": "sha256:f53443f50ad3d4fbf2fbac8cf16f650c407e7bc0562add9cee51b329ac3d01fa"
    },
-   "made": "2026-11-01T02:28:41+00:00",
+   "made": "2026-11-01T02:44:29+00:00",
    "output": "sha256:61a805bf6ba6435bbf40893adb8c38562011d651edb73a3430cee13595187310",
    "settings": {
     "max_grids": 12
@@ -44,14 +44,30 @@
    "inputs": {
     "image": "sha256:f53443f50ad3d4fbf2fbac8cf16f650c407e7bc0562add9cee51b329ac3d01fa"
    },
-   "made": "2026-11-01T01:45:56+00:00",
-   "output": "sha256:d3dbc07fd878d77d1b6860195d93aaffbca8c78a1cca054f53b8cf51157cfb47",
+   "made": "2026-11-01T02:44:38+00:00",
+   "output": "sha256:4cba9887b38daf0bbd432cbb1964162e18922d77344f1115c59895b5d26932bc",
    "settings": {
     "engine": "rapidocr",
+    "tiles": 2,
     "upscale_below": 2400
    },
    "stage": "ocr",
-   "version": "ocr/1"
+   "version": "ocr/4"
+  }
+ },
+ "scan:minneapolis-journal-1914-06-28/0000#key-a08b85ef8976": {
+  "keysearch": {
+   "code": "xword-ocr 0.1.0",
+   "inputs": {
+    "image": "sha256:f53443f50ad3d4fbf2fbac8cf16f650c407e7bc0562add9cee51b329ac3d01fa"
+   },
+   "made": "2026-11-01T02:33:31+00:00",
+   "output": "sha256:c09154c0724db425eeb663624b0f52992b2ce44098a5662e74bea5be3eac952c",
+   "settings": {
+    "only_pointed": false
+   },
+   "stage": "keysearch",
+   "version": "keysearch/2"
   }
  }
 }
