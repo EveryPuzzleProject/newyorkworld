@@ -32,3 +32,5 @@
 - The copyright line and the clue-list instructions ("Fill in the small squares with words
   corresponding to the clues and definitions given below") are "instructions" / "credit"
   lines, kept.
+- **Every clue ends in a period** ("A lamb's cry."). A comma or other mark where a clue ends
+  is that period, misread; a clue with nothing at its end was cut short, so look for the rest.

@@ -1,6 +1,6 @@
 {
  "_about": "The FUN harvest's text step runs (xword-ocr harvests/nyw-c1): which one is current (the batch page opens on it, the import reads it) and what each is.",
- "current": "c11",
+ "current": "c12",
  "runs": {
   "c1": {
    "status": "old",
@@ -27,8 +27,12 @@
    "what": "C1 from the same crops as c8, with the clue list read as printed where the OCR broke a pair (a hyphen read as a period, a pair alone on its line, \"29 To let fall\" no pair) and a misread pair placed on the word the list's sequence says; the printed pairs on the proof page; the text step and the AI proof review (2026-11-01). Alex found run c9 had put No. 7's across texts one word off."
   },
   "c11": {
-   "status": "current",
+   "status": "old",
    "what": "c10's reading with the text step allowed to move a clue text to the word the key's answer fits, each move with its reason on the proof page (Alex's decision, 2026-11-01); the text step re-run on all 22 and the AI proof review"
+  },
+  "c12": {
+   "status": "current",
+   "what": "c11's text-step answers applied with the key misreads the text step is sure of put into the grid as its change (8 squares in 5 puzzles, each with the finding as its reason); the AI proof reviewer may fix key squares from the answers crop as a person does, and reads editorial.md (every clue ends in a period); the AI proof review (2026-11-01)"
   }
  }
 }
