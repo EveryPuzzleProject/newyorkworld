@@ -880,3 +880,8 @@ date = "1917-08-19"
 [issue."tacoma-daily-ledger-1917-09-09"]
 date = "1917-08-26"
 # --- end generated ---
+
+# Each puzzle's solution is printed in the next issue; the solution printed beside a puzzle is
+# the previous one's, and every diamond has the same block pattern, so the next issue's key comes first.
+[assembly]
+keys_next_issue = true
