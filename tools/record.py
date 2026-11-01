@@ -340,7 +340,7 @@ def rebuild_all(pr: list[dict], se: list[dict], st: list[dict]) -> int:
         if len(fps) > 1:
             for r in rs:
                 r["flag"] = "; ".join(x for x in (r["flag"], f"No. {n} has copies with different first clues") if x)
-    # searches: found when a printing exists for that paper and date; a QUEUED row is also
+    # searches: found when a printing exists for that paper and date; a QUEUED row before 1918 is also
     # satisfied by any paper's copy of that Sunday (one good copy per Sunday is the aim)
     have = {(r["paper"], r["date"]) for r in pr}
     by_date: dict[str, list[str]] = {}
@@ -349,7 +349,7 @@ def rebuild_all(pr: list[dict], se: list[dict], st: list[dict]) -> int:
     for s in se:
         if (s["paper"], s["date"]) in have:
             s["result"] = "found"
-        elif s["result"] == "queued" and s["date"] in by_date:
+        elif s["result"] == "queued" and s["date"] in by_date and s["date"] < "1918-01-01":  # later dates: a partner's Sunday is not the Globe's
             s["result"] = "found"
             s["note"] = "copy taken from " + ", ".join(sorted(set(by_date[s["date"]]))) + (f"; {s['note']}" if s["note"] else "")
     # status: one row per number
@@ -537,7 +537,7 @@ def sync_pages_tsv(pr: list[dict]) -> None:
                      "captured": o.get("captured") or dt.date.today().isoformat(),
                      "note": o.get("note") or ("puzzle: heading, intro, grid and clues (Newspapers.com Select portion)" if info["crop"] == "fun"
                                                else "solutions box (Newspapers.com Select portion)"),
-                     "crop_of": o.get("crop_of") or (f"pages/{parent}" if parent else "")})
+                     "crop_of": o["crop_of"] if o else (f"pages/{parent}" if parent else "")})
     for c in crops:  # each crop follows the last row of its day
         at = max((i for i, r in enumerate(rows) if r["issue"] == c["issue"]), default=len(rows) - 1)
         rows.insert(at + 1, c)
