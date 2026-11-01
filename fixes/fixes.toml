@@ -1,0 +1,20 @@
+# Fixes for the New York World FUN harvest (xword-ocr harvests/nyw-c1).
+# See xword-ocr docs/fixing.md.
+#
+# The pages are Newspapers.com full pages of the papers that reprinted the World's
+# Sunday FUN section, described in newyorkworld-scans/pages.tsv (xword-ocr
+# docs/sources.md). An issue is a key like minneapolis-journal-1914-02-15; its leaves
+# are its rows in pages.tsv, in order (one page per issue so far).
+#
+# The puzzle's identity is the World's Sunday (nyw1914-02-15), not the paper's printing
+# date; the two diverge from May 1914 (printings.tsv, column sunday_inferred). The printed
+# World number is a Number header. Clues and answers are never typed in here: a value the
+# pipeline can't read goes to the exceptions queue with a diagnosis.
+#
+# Puzzle fixes are keyed by the puzzle's id (shown on each proof page):
+#   [puzzle."nyw1914-MM-DD"]
+#   title = "..."
+#
+# Page hints are keyed by issue and leaf:
+#   [page."minneapolis-journal-1914-02-15".0]
+#   include = true
