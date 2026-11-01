@@ -51,7 +51,7 @@ LINK_KINDS = ["grid", "label", "dated", "series"]  # the solution grid compared 
 STATUS_COLS = ["world_no", "sunday_inferred", "status", "copies", "heading", "credit", "fingerprint",
                "solution_seen", "flag", "notes"]
 RESULTS = ["queued", "found", "no-hit", "not-carried", "missing-from-scans"]
-FILE_RE = re.compile(r"^(?P<paper>.+?)_(?P<y>\d{4})_(?P<m>\d{2})_(?P<d>\d{2})_(?:Page_)?(?P<page>[A-Za-z]?\d+)(?P<crop>_fun|_key)?(?: \(\d+\))?\.(?:jpe?g|png|pdf)$", re.I)
+FILE_RE = re.compile(r"^(?P<paper>.+?)_(?P<y>\d{4})_(?P<m>\d{2})_(?P<d>\d{2})_(?:Page_)?(?P<page>[A-Za-z]?\d+[A-Za-z]?)(?P<crop>_fun|_key)?(?: \(\d+\))?\.(?:jpe?g|png|pdf)$", re.I)
 
 
 def sunday_of(n: int) -> dt.date:
