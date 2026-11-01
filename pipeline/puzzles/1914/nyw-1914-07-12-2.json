@@ -1,0 +1,25 @@
+{
+ "id": "nyw-1914-07-12-2",
+ "aliases": [
+  "nyw1914-07-12-L001"
+ ],
+ "xdid": "nyw1914-07-12-L001",
+ "issue": "1914-07-12",
+ "date": "1914-07-12",
+ "grid": {
+  "unit": "scan:minneapolis-journal-1914-08-02/0001",
+  "extract": "sha256:6ac0266d8267386c0db12ed7e2fa199444d4a8a55b07f40307f0eefa2dd8181d",
+  "size": "8x31",
+  "nth": 0
+ },
+ "clues": null,
+ "continued": null,
+ "copies": [],
+ "reading": "sha256:acb15b7663ee6238d5f3d1ec59fbd2689107b0637b9687ea1cf5586696557c28",
+ "checks": {
+  "solution": [],
+  "asymmetric": 0,
+  "warnings": []
+ },
+ "xd": "sha256:538b7c55635754d213555dc7ccf807f44cfef4589306ca5cd6a82552a48a77ba"
+}

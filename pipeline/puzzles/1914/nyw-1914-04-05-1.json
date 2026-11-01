@@ -1,0 +1,27 @@
+{
+ "id": "nyw-1914-04-05-1",
+ "aliases": [
+  "nyw1914-04-05-L001"
+ ],
+ "xdid": "nyw1914-04-05-L001",
+ "issue": "1914-04-05",
+ "date": "1914-04-05",
+ "grid": {
+  "unit": "scan:minneapolis-journal-1914-04-05/0001",
+  "extract": "sha256:b37cdf1aeceb04ff0b70efbbc2e7b19445e7cd5058f68d79f55969d53946de4f",
+  "size": "14x13",
+  "nth": 0
+ },
+ "clues": null,
+ "continued": null,
+ "copies": [],
+ "reading": "sha256:f31f3bb862dd5ff1e4e44e9227bba5c2eaec77e3eec5d820ced65df8069d4e96",
+ "checks": {
+  "solution": [],
+  "asymmetric": 11,
+  "warnings": [
+   "Grid isn't symmetric: 11 square pair(s) differ (r2c6/r13c8, r2c8/r13c6, r3c3/r12c11, r3c5/r12c9, r4c10/r11c4, r5c11/r10c3, r6c2/r9c12, r6c7/r9c7). Check those black squares against the scan, or confirm the design is asymmetric."
+  ]
+ },
+ "xd": "sha256:22f97d0c88ab72c651b980a1deb6c92416bd8ec7b640ef02a94c2a39f1914461"
+}
