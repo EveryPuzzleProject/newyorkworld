@@ -46,4 +46,6 @@ C44	new-orleans-states 1918-05-12	new-orleans-states 1918-05-12	1918-05-12	1918-
 C45	pittsburgh-press 1918-05-12	pittsburgh-press 1918-05-12	1918-05-12	1918-05-12	1	0	0		floating	verified
 C46	boston-globe 1918-05-19	boston-globe 1918-05-19	1918-05-19	1918-05-19	1	0	0		floating	verified
 C47	pittsburgh-press 1918-05-19	pittsburgh-press 1918-05-19	1918-05-19	1918-05-19	1	0	0		floating	verified
-C48	boston-globe 1918-05-26	boston-globe 1924-10-12	1918-05-26	1924-10-12	333	332	0		floating	verified
+C48	boston-globe 1918-05-26	boston-globe 1918-09-01	1918-05-26	1918-09-01	15	14	0		floating	verified
+C49	pittsburgh-press 1918-09-01	pittsburgh-press 1918-09-01	1918-09-01	1918-09-01	1	0	0		floating	verified
+C50	boston-globe 1918-09-15	boston-globe 1924-10-12	1918-09-15	1924-10-12	318	317	0		floating	verified

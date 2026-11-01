@@ -51,7 +51,7 @@ LINK_KINDS = ["grid", "label", "dated", "series"]  # the solution grid compared 
 STATUS_COLS = ["world_no", "sunday_inferred", "status", "copies", "heading", "credit", "fingerprint",
                "solution_seen", "flag", "notes"]
 RESULTS = ["queued", "found", "no-hit", "not-carried", "missing-from-scans"]
-FILE_RE = re.compile(r"^(?P<paper>.+?)_(?P<y>\d{4})_(?P<m>\d{2})_(?P<d>\d{2})_(?:Page_)?(?P<page>[A-Za-z]?\d+[A-Za-z]?)(?P<crop>_fun|_key)?(?: \(\d+\))?\.(?:jpe?g|png|pdf)$", re.I)
+FILE_RE = re.compile(r"^(?P<paper>.+?)_(?P<y>\d{4})_(?P<m>\d{2})_(?P<d>\d{2})_(?:(?:Page_)?(?P<page>[A-Za-z]?\d+[A-Za-z]?)|(?P<shot>screenshot))(?P<crop>_fun|_key)?(?: \(\d+\))?\.(?:jpe?g|png|pdf)$", re.I)
 
 
 def sunday_of(n: int) -> dt.date:
@@ -72,7 +72,7 @@ def parse_file(name: str):
     if not m:
         return None
     return {"paper": paper_id(m.group("paper")), "date": dt.date(int(m.group("y")), int(m.group("m")), int(m.group("d"))).isoformat(),
-            "page": m.group("page"), "crop": (m.group("crop") or "")[1:]}
+            "page": m.group("page") or "", "crop": (m.group("crop") or "")[1:]}
 
 
 def read_tsv(path: Path, cols: list[str]) -> list[dict]:
@@ -118,6 +118,7 @@ def new(args) -> None:
     folder = Path(args.folder)
     known = {r["file"].split("#")[0] for r in printings()}
     n = 0
+    listed = set()
     for p in sorted(folder.iterdir()):
         if p.suffix.lower() not in (".jpg", ".jpeg", ".png", ".pdf"):
             continue
@@ -129,6 +130,10 @@ def new(args) -> None:
             continue
         if info["crop"] and any(r["paper"] == info["paper"] and r["date"] == info["date"] for r in printings()):
             continue  # a Select-portion crop (_fun puzzle, _key solutions box) of a page already recorded
+        if info["crop"]:  # list one crop per day: the _fun one is the printing, the _key one hangs off it
+            if (info["paper"], info["date"]) in listed:
+                continue
+            listed.add((info["paper"], info["date"]))
         n += 1
         d = dt.date.fromisoformat(info["date"])
         exp = f"World No. {number_of(d)} if on the World's date" if d.weekday() == 6 and FIRST <= d <= sunday_of(LAST_NO) else "outside the run"

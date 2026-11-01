@@ -27,6 +27,13 @@ is not a new printing: `record.py new` skips it when its paper and date already 
 `pages.tsv` row with `crop_of` pointing at the whole page (or, if only crops are held, at the `_fun` file). When only
 crops of a page exist, the printing row's `file` is the `_fun` crop (or the `_key` crop for a solution-only page).
 
+**Screenshots (2026-11-01).** When Alex is rate-limited he takes zoomed screenshots instead of downloads:
+`<Paper>_<yyyy>_<mm>_<dd>_screenshot_fun.png` (heading and first clues) and `..._screenshot_key.png` (the solution box).
+No viewer page and no URL. `record.py new` lists the pair once; the printing's `file` is the `_fun` screenshot with
+no page, its notes start 'screenshot, not a page', and the `_key` gets a `pages.tsv` row with `crop_of`. Index the pair
+with one Sonnet agent (heading, credit, shape, first clue, key label and a word or two of its top row), match the first
+clue to the Globe's fingerprints (`awk` on printings.tsv) and the key's top row to the previous puzzle's first clue.
+
 ## 1. List the new pages
 
     python tools/new_with_prev.py > <scratch>/new_prev.txt
