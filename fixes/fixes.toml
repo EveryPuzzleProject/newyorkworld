@@ -885,3 +885,62 @@ date = "1917-08-26"
 # the previous one's, and every diamond has the same block pattern, so the next issue's key comes first.
 [assembly]
 keys_next_issue = true
+
+# ---------------------------------------------------------------------------
+# Hand-drawn grids: the lattice's rectangle (page pixels, TL TR BR BL) and size, for the
+# World's irregular templates the detector reads at the wrong size. Drawn by Claude from the
+# page image on 2026-11-01 (a diagnosis of where the squares are, not a transcription); the
+# squares inside are read from the page as for any grid. Source: the page itself.
+# ---------------------------------------------------------------------------
+
+# No. 18 (1914-04-19): a cross with a square at each corner, 11 x 11
+[page."minneapolis-journal-1914-04-19".0]
+grids = [ { corners = [[149, 609], [668, 609], [668, 1195], [149, 1195]], rows = 11, cols = 11 } ]
+
+# No. 22 (1914-05-31, World 05-17): an hourglass, 11 rows x 19 cols, the corners shaded
+[page."minneapolis-journal-1914-05-31".0]
+grids = [ { corners = [[1670, 621], [2558, 621], [2558, 1167], [1670, 1167]], rows = 11, cols = 19 } ]
+
+# No. 16 (1914-04-05): a diamond 13 wide; the detector lost its left column
+[page."minneapolis-journal-1914-04-05".0]
+grids = [ { corners = [[181, 475], [695, 475], [695, 1020], [181, 1020]], rows = 13, cols = 13 } ]
+
+# No. 17 (1914-04-12, the Easter puzzle): a diamond 13 wide with EASTER printed across row 3
+[page."minneapolis-journal-1914-04-12".0]
+# The six squares of row 3 hold the letters E A S T E R, printed; they are white squares of the
+# puzzle (the detector reads a big printed letter as a shaded block). Their letters come from the key.
+grids = [ { corners = [[104, 532], [671, 532], [671, 1147], [104, 1147]], rows = 13, cols = 13, white = ["r3c4", "r3c5", "r3c6", "r3c7", "r3c8", "r3c9"] } ]
+
+# The 1914-03-01 page's solution to No. 10 (the George Washington diamond, 15 wide): the
+# detector reads it 12 x 13, the apex rows faint
+[page."minneapolis-journal-1914-03-01".0]
+grids = [ { corners = [[2977, 1232], [3405, 1232], [3405, 1600], [2977, 1600]], rows = 15, cols = 15 } ]
+
+# No. 30 (1914-08-02, World 07-12): a zigzag W of squares, 8 rows x 30 cols
+[page."minneapolis-journal-1914-08-02".0]
+grids = [ { corners = [[1647, 404], [2488, 404], [2488, 638], [1647, 638]], rows = 8, cols = 30 } ]
+
+# No. 24 (1914-06-21, World 05-31): a diamond 13 wide, the page a little skewed (the lattice
+# detector's own corners, run on a crop round the puzzle)
+[page."minneapolis-journal-1914-06-21".0]
+grids = [ { corners = [[2003, 464], [2544, 440], [2560, 1013], [2030, 1033]], rows = 13, cols = 13 } ]
+
+# No. 23 (1914-06-14, World 05-24): two diagonal bands of squares crossing, 28 rows x 20 cols
+# (the detector's corners on a crop)
+[page."minneapolis-journal-1914-06-14".0]
+grids = [ { corners = [[1049, 382], [1583, 364], [1572, 1115], [1056, 1111]], rows = 28, cols = 20 } ]
+
+# No. 20 (1914-05-03): an X of two diagonal bands, 20 x 20 (the detector's corners on a crop)
+[page."minneapolis-journal-1914-05-03".0]
+grids = [ { corners = [[1522, 392], [2341, 402], [2336, 1268], [1511, 1256]], rows = 20, cols = 20 } ]
+
+# No. 27 (1914-07-12, World 06-21): a pyramid 21 wide with F, U, N printed in three squares and
+# "SOLUTION NEXT WEEK" in the centre block (the detector's corners on a crop)
+[page."minneapolis-journal-1914-07-12".0]
+grids = [ { corners = [[966, 391], [1935, 390], [1931, 1026], [966, 1017]], rows = 13, cols = 21 } ]
+
+# No. 29 (1914-07-26, World 07-05): the main staircase, 17 rows x 8 cols. The puzzle also has a
+# second staircase and three small squares (words 1-36, 73-104): pieces the pipeline reads as
+# separate grids, so this puzzle stays an exception until the pieces can be one puzzle.
+[page."minneapolis-journal-1914-07-26".0]
+grids = [ { corners = [[2115, 606], [2457, 605], [2451, 1376], [2112, 1365]], rows = 17, cols = 8 } ]
