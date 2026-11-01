@@ -413,7 +413,7 @@ boston-globe	1919-04-13		found	nothing ran in between: the 1919-05-11 page's sol
 boston-globe	1919-04-20		found	nothing ran in between: the 1919-05-11 page's solution answers the 1918-09-29 puzzle
 boston-globe	1919-04-27		found	nothing ran in between: the 1919-05-11 page's solution answers the 1918-09-29 puzzle
 boston-globe	1919-05-04		found	nothing ran in between: the 1919-05-11 page's solution answers the 1918-09-29 puzzle
-pittsburgh-press	1919-05-04	16	queued	seen, download pending: browsed by Alex 2026-11-01, a solution box only (top-left word HOBO), no puzzle
+pittsburgh-press	1919-05-04	16	found	seen, download pending: browsed by Alex 2026-11-01, a solution box only (top-left word HOBO), no puzzle
 pittsburgh-press	1919-06-01	16	found	seen, download pending: browsed by Alex 2026-11-01, a puzzle in the shape of an eight-pointed star, plus the solution to 05-25
 boston-globe	1919-07-13	11	found	nothing ran in between: the 1919-08-03 page's solution answers the 1919-07-06 puzzle
 boston-globe	1919-07-20	11	found	nothing ran in between: the 1919-08-03 page's solution answers the 1919-07-06 puzzle
@@ -443,4 +443,16 @@ boston-globe	1919-11-30	11	found	batch 11: the Globe onward through 1919
 boston-globe	1919-12-07	11	found	batch 11: the Globe onward through 1919
 boston-globe	1919-12-14	11	found	batch 11: the Globe onward through 1919
 boston-globe	1919-12-21	11	found	batch 11: the Globe onward through 1919
+pittsburgh-press	1919-12-21	17	queued	break after 1919-12-14 (last World-line page); check before Jerry King starts 1920-03-14
 boston-globe	1919-12-28	11	found	batch 11: the Globe onward through 1919
+pittsburgh-press	1919-12-28	17	queued	break after 1919-12-14 (last World-line page); check before Jerry King starts 1920-03-14
+pittsburgh-press	1920-01-04	17	queued	break after 1919-12-14 (last World-line page); check before Jerry King starts 1920-03-14
+pittsburgh-press	1920-01-11	17	queued	break after 1919-12-14 (last World-line page); check before Jerry King starts 1920-03-14
+pittsburgh-press	1920-01-18	17	queued	break after 1919-12-14 (last World-line page); check before Jerry King starts 1920-03-14
+pittsburgh-press	1920-01-25	17	queued	break after 1919-12-14 (last World-line page); check before Jerry King starts 1920-03-14
+pittsburgh-press	1920-02-01	17	queued	break after 1919-12-14 (last World-line page); check before Jerry King starts 1920-03-14
+pittsburgh-press	1920-02-08	17	queued	break after 1919-12-14 (last World-line page); check before Jerry King starts 1920-03-14
+pittsburgh-press	1920-02-15	17	queued	break after 1919-12-14 (last World-line page); check before Jerry King starts 1920-03-14
+pittsburgh-press	1920-02-22	17	queued	break after 1919-12-14 (last World-line page); check before Jerry King starts 1920-03-14
+pittsburgh-press	1920-02-29	17	queued	break after 1919-12-14 (last World-line page); check before Jerry King starts 1920-03-14
+pittsburgh-press	1920-03-07	17	queued	break after 1919-12-14 (last World-line page); check before Jerry King starts 1920-03-14
