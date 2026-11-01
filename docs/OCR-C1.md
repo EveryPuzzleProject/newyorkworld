@@ -4,8 +4,8 @@ Run through xword-ocr (branch `claude/nyw-fun-c1`), 2026-11-01, as far as the pi
 allowed interventions go: the harvest, hand-fitted lattices where the detector reads a template at
 the wrong size, the text step (Claude Sonnet) and the AI proof review (Claude Sonnet), triage.
 Nothing typed in. The harvest is `xword-ocr/harvests/nyw-c1` (pubid `nyw`); the current run is
-`c10` (`pipeline/triage/runs.json`); its proof packets are on the review site as batch
-`nyw-1914-c1`; triage is `harvests/nyw-c1/triage/c10`. The fix file is `fixes/fixes.toml`: the
+`c11` (`pipeline/triage/runs.json`); its proof packets are on the review site as batch
+`nyw-1914-c1`; triage is `harvests/nyw-c1/triage/c11`. The fix file is `fixes/fixes.toml`: the
 World's clue style (`[ocr] linked_ends`), pages read in tiles (`[ocr] tiles`), solutions in the
 next issue (`[assembly] keys_next_issue`), each issue's World date (`tools/ocr_fixes.py`, plus
 the key-only issue of 06-07 by hand), and the hand-fitted grids. The text step's conventions are
@@ -21,7 +21,7 @@ rows of `newyorkworld-scans/pages.tsv` with `crop_of` naming the page's own row;
 reads a page with crops through its crops (each a leaf of the issue, with the page's link) and
 never the page itself. 02-01 and 02-08 (Nos. 7 and 8) have no full page: their two crops are
 two pages, and the file named `_fun` holds the solutions box, the one named `_key` the puzzle.
-Run c10 reads 02-22 to 03-15, 03-29, 04-26, 05-03 and 07-19 on from the full pages; everything
+Runs c10 and c11 read 02-22 to 03-15, 03-29, 04-26, 05-03 and 07-19 on from the full pages; everything
 else from crops.
 
 ## Coverage
@@ -34,8 +34,8 @@ else from crops.
 | of those, with the next week's key matched | 16 |
 | the World's number read from the centre block or the banner (Number header) | 11 (Nos. 7, 8, 9, 11, 12, 15, 16, 17, 19, 22, 24); the rest print none in the centre (Nos. 10, 13, 25), or the crop cut the box (No. 20, 23, 26, 27, 30), or the list has no number crop (14, 18, 21) |
 | keys recorded without a puzzle page | No. 6 (the 02-01 solutions box) |
-| triage | 3 ready for review (Nos. 7, 11, 12), 19 needs work; 0 pass the ship check |
-| the AI proof review | 21 of 22 Not ready with flags on the proof page; No. 7 (02-01) Ready after run c10 (two spelling edits, every clue on its word). Run c10's reviewers mostly judged from the text without the crops, so Nos. 7, 11 and 12 were reviewed again with the crops read: No. 11's flag is the W of WELD (the clues say MELD), No. 12's an unread key square (an L) |
+| triage (run c11) | 5 ready for review, 17 needs work; 0 pass the ship check |
+| the AI proof review (run c11) | 22 of 22 Not ready, each with flags on the proof page, the crops read. The text step moved 227 clue texts to the word the key's answer fits, each with its reason; the reviewers' flags are now chiefly key squares (No. 11: the W of WELD where the clues say MELD; No. 12: an unread L), words the key runs together (ALES+TOME on No. 13), and the puzzles with no key, where texts stay where the pairs put them |
 
 **What the pipeline gets right now:** the templates' shapes at native resolution (the diamonds,
 the even diamond with EASTER, the cross with corner squares, the hourglass, the X of bands, the
@@ -52,7 +52,11 @@ the OCR broke a pair (a hyphen read as a period, "21.22 What the wind did"; a pa
 line; "29 To let fall" taken for the "29 to l" form) and puts a pair misread in a digit on the
 word the list's sequence says (a lost 3-4 before "6-6" leaves "6-6" as 5-6; "46-49" between
 44-45 and 50-51 is the earlier word). On Nos. 7, 8 and 12 every clue read is on its word; run c9
-had No. 7's across texts one word off from "What the wind did" on, which Alex caught.
+had No. 7's across texts one word off from "What the wind did" on, which Alex caught. Since run
+c11 the text step (Claude Sonnet) may move a clue's text to the word the key's answer fits, with
+its reason ("moved from A18: the key gives RIIS, printed 23-24") shown on the proof page as the
+text step's change (Alex's decision, 2026-11-01; `editorial.md`). Where the key is unread the texts
+stay where the pairs put them.
 The gates were lowered to a quarter of the words so these puzzles come through for review at
 all: the words no pair reached show as missing.
 
@@ -67,8 +71,8 @@ deployed, the live site shows the standard numbers.
 ## What Alex must do by hand
 
 1. **On the proof page, batch nyw-1914-c1**, for each of the 22 puzzles: answer the AI reviewer's
-   yes/no flags (a clue on the wrong word, a key square), and fix what the flags point at. No. 7 is
-   Ready (confirm it), then No. 12 (one key square) and No. 11 (one key square). Every value entered shows as the
+   yes/no flags (a clue on the wrong word, a key square), and fix what the flags point at. No. 7's two flags
+   are nits (a pair unread for PEARS, a smudged period), then No. 12 (one key square) and No. 11 (one key square). Every value entered shows as the
    reviewer's, with its source. Merge and deploy blitz `claude/nyw-linked-proof` first, so the
    page shows the printed pairs and the squares' numbers.
 2. **No. 10 (02-22) and No. 13 (03-15) print no number in the centre:** confirm "no number
@@ -95,7 +99,7 @@ deployed, the live site shows the standard numbers.
 ## Where to look
 
 - the review site: batch `nyw-1914-c1`, e.g. https://blitz.xwordapp.com/review/?p=nyw1914-03-08-L000
-- locally: the proof-proto launch config, `http://localhost:8790/blitz/src/blitz/proof.html?p=nyw1914-03-08-L000&base=/xword-ocr/harvests/nyw-c1/proof/c10/`; the list `harvests/nyw-c1/proof/c10/index.html`; triage `harvests/nyw-c1/triage/c10/summary.md`; the text step's changes with crops `harvests/nyw-c1/textstep/c10/index.html`.
+- locally: the proof-proto launch config, `http://localhost:8790/blitz/src/blitz/proof.html?p=nyw1914-03-08-L000&base=/xword-ocr/harvests/nyw-c1/proof/c11/`; the list `harvests/nyw-c1/proof/c11/index.html`; triage `harvests/nyw-c1/triage/c11/summary.md`; the text step's changes with crops `harvests/nyw-c1/textstep/c11/index.html`.
 
 ## Decisions taken (in each puzzle's note)
 
