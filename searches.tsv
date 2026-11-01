@@ -337,49 +337,49 @@ boston-globe	1918-03-17		found	nothing ran in between: the 1918-04-14 page's sol
 boston-globe	1918-03-24		found	nothing ran in between: the 1918-04-14 page's solution answers the 1918-01-27 puzzle
 boston-globe	1918-03-31		found	nothing ran in between: the 1918-04-14 page's solution answers the 1918-01-27 puzzle
 boston-globe	1918-04-07		found	nothing ran in between: the 1918-04-14 page's solution answers the 1918-01-27 puzzle
-pittsburgh-press	1918-05-26	13	queued	1918 partners, next batch: Alex was rate-limited after 05-19; dates the Globe's 1918 run (lag was 1 week by May)
-pittsburgh-press	1918-06-02	13	queued	1918 partners, next batch: Alex was rate-limited after 05-19; dates the Globe's 1918 run (lag was 1 week by May)
-pittsburgh-press	1918-06-09	13	queued	1918 partners, next batch: Alex was rate-limited after 05-19; dates the Globe's 1918 run (lag was 1 week by May)
+pittsburgh-press	1918-05-26	13	found	1918 partners, next batch: Alex was rate-limited after 05-19; dates the Globe's 1918 run (lag was 1 week by May)
+pittsburgh-press	1918-06-02	13	found	1918 partners, next batch: Alex was rate-limited after 05-19; dates the Globe's 1918 run (lag was 1 week by May)
+pittsburgh-press	1918-06-09	13	found	1918 partners, next batch: Alex was rate-limited after 05-19; dates the Globe's 1918 run (lag was 1 week by May)
 boston-globe	1918-06-16	10	found	nothing ran in between: the 1918-08-11 page's solution answers the 1918-06-09 puzzle
-pittsburgh-press	1918-06-16	13	queued	1918 partners, next batch: Alex was rate-limited after 05-19; dates the Globe's 1918 run (lag was 1 week by May)
+pittsburgh-press	1918-06-16	13	found	1918 partners, next batch: Alex was rate-limited after 05-19; dates the Globe's 1918 run (lag was 1 week by May)
 boston-globe	1918-06-23	10	found	nothing ran in between: the 1918-08-11 page's solution answers the 1918-06-09 puzzle
-pittsburgh-press	1918-06-23	13	queued	1918 partners, next batch: Alex was rate-limited after 05-19; dates the Globe's 1918 run (lag was 1 week by May)
+pittsburgh-press	1918-06-23	13	found	1918 partners, next batch: Alex was rate-limited after 05-19; dates the Globe's 1918 run (lag was 1 week by May)
 boston-globe	1918-06-30	10	found	nothing ran in between: the 1918-08-11 page's solution answers the 1918-06-09 puzzle
-pittsburgh-press	1918-06-30	13	queued	1918 partners, next batch: Alex was rate-limited after 05-19; dates the Globe's 1918 run (lag was 1 week by May)
+pittsburgh-press	1918-06-30	13	found	1918 partners, next batch: Alex was rate-limited after 05-19; dates the Globe's 1918 run (lag was 1 week by May)
 boston-globe	1918-07-07	10	found	nothing ran in between: the 1918-08-11 page's solution answers the 1918-06-09 puzzle
-pittsburgh-press	1918-07-07	13	queued	1918 partners, next batch: Alex was rate-limited after 05-19; dates the Globe's 1918 run (lag was 1 week by May)
+pittsburgh-press	1918-07-07	13	found	1918 partners, next batch: Alex was rate-limited after 05-19; dates the Globe's 1918 run (lag was 1 week by May)
 boston-globe	1918-07-14	10	found	nothing ran in between: the 1918-08-11 page's solution answers the 1918-06-09 puzzle
-pittsburgh-press	1918-07-14	13	queued	1918 partners, next batch: Alex was rate-limited after 05-19; dates the Globe's 1918 run (lag was 1 week by May)
+pittsburgh-press	1918-07-14	13	found	1918 partners, next batch: Alex was rate-limited after 05-19; dates the Globe's 1918 run (lag was 1 week by May)
 boston-globe	1918-07-21	10	found	nothing ran in between: the 1918-08-11 page's solution answers the 1918-06-09 puzzle
-pittsburgh-press	1918-07-21	13	queued	1918 partners, next batch: Alex was rate-limited after 05-19; dates the Globe's 1918 run (lag was 1 week by May)
+pittsburgh-press	1918-07-21	13	found	1918 partners, next batch: Alex was rate-limited after 05-19; dates the Globe's 1918 run (lag was 1 week by May)
 boston-globe	1918-07-28	10	found	nothing ran in between: the 1918-08-11 page's solution answers the 1918-06-09 puzzle
-pittsburgh-press	1918-07-28	13	queued	1918 partners, next batch: Alex was rate-limited after 05-19; dates the Globe's 1918 run (lag was 1 week by May)
+pittsburgh-press	1918-07-28	13	found	1918 partners, next batch: Alex was rate-limited after 05-19; dates the Globe's 1918 run (lag was 1 week by May)
 boston-globe	1918-08-04	10	found	nothing ran in between: the 1918-08-11 page's solution answers the 1918-06-09 puzzle
-pittsburgh-press	1918-08-04	13	queued	1918 partners, next batch: Alex was rate-limited after 05-19; dates the Globe's 1918 run (lag was 1 week by May)
+pittsburgh-press	1918-08-04	13	found	1918 partners, next batch: Alex was rate-limited after 05-19; dates the Globe's 1918 run (lag was 1 week by May)
 boston-globe	1918-08-11	10	found	batch 10: the Globe onward through 1918 (World date = Globe date)
-pittsburgh-press	1918-08-11	13	queued	1918 partners, next batch: Alex was rate-limited after 05-19; dates the Globe's 1918 run (lag was 1 week by May)
+pittsburgh-press	1918-08-11	13	found	1918 partners, next batch: Alex was rate-limited after 05-19; dates the Globe's 1918 run (lag was 1 week by May)
 boston-globe	1918-08-18	10	found	batch 10: the Globe onward through 1918 (World date = Globe date)
-pittsburgh-press	1918-08-18	13	queued	1918 partners, next batch: Alex was rate-limited after 05-19; dates the Globe's 1918 run (lag was 1 week by May)
+pittsburgh-press	1918-08-18	13	found	1918 partners, next batch: Alex was rate-limited after 05-19; dates the Globe's 1918 run (lag was 1 week by May)
 boston-globe	1918-08-25	10	found	batch 10: the Globe onward through 1918 (World date = Globe date)
-pittsburgh-press	1918-08-25	13	queued	1918 partners, next batch: Alex was rate-limited after 05-19; dates the Globe's 1918 run (lag was 1 week by May)
+pittsburgh-press	1918-08-25	13	found	1918 partners, next batch: Alex was rate-limited after 05-19; dates the Globe's 1918 run (lag was 1 week by May)
 boston-globe	1918-09-01	10	found	batch 10: the Globe onward through 1918 (World date = Globe date)
 boston-globe	1918-09-08	10	not-carried	Alex checked the page 2026-10-31: the Globe printed a comics page in place of the puzzle; the 1918-09-15 page's solution answers the 1918-09-01 puzzle
 boston-globe	1918-09-15	10	found	batch 10: the Globe onward through 1918 (World date = Globe date)
 boston-globe	1918-09-22	10	found	batch 10: the Globe onward through 1918 (World date = Globe date)
-pittsburgh-press	1918-09-22	14	queued	Sunday between held 1918 pages; Pittsburgh runs ahead of the Globe here
+pittsburgh-press	1918-09-22	14	not-carried	Alex browsed the issue 2026-11-01: no crossword (other features, puzzles and games); 10-20 is the next crossword. Pittsburgh gap, autumn 1918 (after the 09-15 key)
 boston-globe	1918-09-29	10	found	batch 10: the Globe onward through 1918 (World date = Globe date)
-pittsburgh-press	1918-09-29	14	queued	Sunday between held 1918 pages; Pittsburgh runs ahead of the Globe here
+pittsburgh-press	1918-09-29	14	not-carried	Alex browsed the issue 2026-11-01: no crossword (other features, puzzles and games); 10-20 is the next crossword. Pittsburgh gap, autumn 1918 (after the 09-15 key)
 boston-globe	1918-10-06	10	found	nothing ran in between: the 1919-05-11 page's solution answers the 1918-09-29 puzzle
-pittsburgh-press	1918-10-06	14	queued	Sunday between held 1918 pages; Pittsburgh runs ahead of the Globe here
+pittsburgh-press	1918-10-06	14	not-carried	Alex browsed the issue 2026-11-01: no crossword (other features, puzzles and games); 10-20 is the next crossword. Pittsburgh gap, autumn 1918 (after the 09-15 key)
 boston-globe	1918-10-13	10	found	nothing ran in between: the 1919-05-11 page's solution answers the 1918-09-29 puzzle
-pittsburgh-press	1918-10-13	14	queued	Sunday between held 1918 pages; Pittsburgh runs ahead of the Globe here
+pittsburgh-press	1918-10-13	14	not-carried	Alex browsed the issue 2026-11-01: no crossword (other features, puzzles and games); 10-20 is the next crossword. Pittsburgh gap, autumn 1918 (after the 09-15 key)
 boston-globe	1918-10-20	10	found	nothing ran in between: the 1919-05-11 page's solution answers the 1918-09-29 puzzle
 boston-globe	1918-10-27	10	found	nothing ran in between: the 1919-05-11 page's solution answers the 1918-09-29 puzzle
 boston-globe	1918-11-03	10	found	nothing ran in between: the 1919-05-11 page's solution answers the 1918-09-29 puzzle
 boston-globe	1918-11-10	10	found	nothing ran in between: the 1919-05-11 page's solution answers the 1918-09-29 puzzle
 boston-globe	1918-11-17	10	found	nothing ran in between: the 1919-05-11 page's solution answers the 1918-09-29 puzzle
 boston-globe	1918-11-24	10	found	nothing ran in between: the 1919-05-11 page's solution answers the 1918-09-29 puzzle
-pittsburgh-press	1918-11-24	14	queued	Sunday between held 1918 pages; Pittsburgh runs ahead of the Globe here
+pittsburgh-press	1918-11-24	14	not-carried	Alex browsed the issue 2026-11-01: no crossword. Pittsburgh gap, autumn 1918 (after the 09-15 key; next crossword 10-20)
 boston-globe	1918-12-01	10	found	nothing ran in between: the 1919-05-11 page's solution answers the 1918-09-29 puzzle
 boston-globe	1918-12-08	10	found	nothing ran in between: the 1919-05-11 page's solution answers the 1918-09-29 puzzle
 boston-globe	1918-12-15	10	found	nothing ran in between: the 1919-05-11 page's solution answers the 1918-09-29 puzzle
