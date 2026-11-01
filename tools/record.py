@@ -6,8 +6,10 @@ Three tables, all tab-separated, all edited only through this tool:
   printings.tsv  one row per crossword printing we have a page for (hand-indexed from the image)
   searches.tsv   one row per paper+Sunday looked for: queued (a batch), found, no-hit,
                  not-carried, missing-from-scans
+  links.tsv      one row per checked link: which page's solution answers which page's puzzle
   status.tsv     one row per World number, 1 to 211, DERIVED from printings.tsv by `rebuild`
                  (only its notes column is kept by hand)
+  chains.tsv, chain_breaks.tsv, chain_pages.tsv  DERIVED by `rebuild` (tools/chains.py, docs/CHAINS.md)
 
   python tools/record.py new [FOLDER]         page images not yet in printings.tsv (default ../newyorkworld-scans/pages)
   python tools/record.py add FILE key=value…  add or update the printing on FILE (a second puzzle on
@@ -15,6 +17,9 @@ Three tables, all tab-separated, all edited only through this tool:
                                               clip:<paper>:<date>). Keys: world_no_printed heading_no
                                               heading credit copyright_line fun_credit shape fingerprint
                                               solution_label solution_of (a number or a puzzle_key) url printed_page notes match world_no puzzle_key (copies of one unnumbered puzzle share a key) continuity (the solution on this page answers the previous found page's puzzle: yes / no / none printed / unclear)
+  python tools/record.py link PUZZLE_FILE SOLUTION_FILE kind=grid|label|dated|series verdict=yes|no|unclear|tentative checked_by=… [next_page=FILE] [note=…]
+                                              a checked link: the solution on SOLUTION_FILE answers the puzzle on PUZZLE_FILE
+                                              (links.tsv; papers may differ; next_page: the puzzle that follows, when it isn't SOLUTION_FILE's own)
   python tools/record.py search PAPER DATE result=no-hit|not-carried|missing-from-scans [note=…]
   python tools/record.py queue [--paper minneapolis-journal] [--n 30] [--from DATE] [DATES…]
   python tools/record.py rebuild              status.tsv, flags, searches 'found', the scans repo's pages.tsv
@@ -40,6 +45,9 @@ PRINTING_COLS = ["file", "paper", "date", "page", "printed_page", "world_no_prin
                  "credit", "copyright_line", "fun_credit", "shape", "fingerprint", "solution_label", "solution_of",
                  "url", "world_no", "puzzle_key", "sunday_inferred", "lag_weeks", "match", "continuity", "flag", "notes"]
 SEARCH_COLS = ["paper", "date", "batch", "result", "note"]
+LINK_COLS = ["puzzle_page", "solution_page", "next_page", "kind", "verdict", "checked_by", "note"]
+LINK_KINDS = ["grid", "label", "dated", "series"]  # the solution grid compared by eye; a printed "solution of No. n"; a printed date;
+# series: no solution, but the puzzles plainly belong together. Always verdict tentative, never counted as verified.
 STATUS_COLS = ["world_no", "sunday_inferred", "status", "copies", "heading", "credit", "fingerprint",
                "solution_seen", "flag", "notes"]
 RESULTS = ["queued", "found", "no-hit", "not-carried", "missing-from-scans"]
@@ -98,6 +106,10 @@ def searches() -> list[dict]:
 
 def status() -> list[dict]:
     return read_tsv(ROOT / "status.tsv", STATUS_COLS)
+
+
+def links() -> list[dict]:
+    return read_tsv(ROOT / "links.tsv", LINK_COLS)
 
 
 # ---------------------------------------------------------------- new
@@ -169,6 +181,35 @@ def url_from_zone(path: Path) -> str:
         return f"https://www.newspapers.com/image/{m.group(1)}/" if m else ""
     except Exception:
         return ""
+
+
+# ---------------------------------------------------------------- link
+
+def link(args) -> None:
+    pr = {r["file"] for r in printings()}
+    for f in (args.puzzle_page, args.solution_page):
+        if f not in pr:
+            sys.exit(f"{f}: not in printings.tsv")
+    kv = dict(p.split("=", 1) for p in args.pairs)
+    unknown = set(kv) - {"kind", "verdict", "checked_by", "next_page", "note"}
+    if unknown:
+        sys.exit(f"can't set {' '.join(sorted(unknown))}")
+    if kv.get("kind") not in LINK_KINDS or kv.get("verdict") not in ("yes", "no", "unclear", "tentative") or not kv.get("checked_by"):
+        sys.exit(f"kind ({'/'.join(LINK_KINDS)}), verdict (yes/no/unclear/tentative) and checked_by are required")
+    if (kv["kind"] == "series") != (kv["verdict"] == "tentative"):
+        sys.exit("a series link is tentative, and only a series link is")
+    if kv.get("next_page") and kv["next_page"] not in pr:
+        sys.exit(f"{kv['next_page']}: not in printings.tsv")
+    rows = links()
+    row = next((r for r in rows if r["puzzle_page"] == args.puzzle_page and r["solution_page"] == args.solution_page), None)
+    if row is None:
+        row = {c: "" for c in LINK_COLS}
+        row.update(puzzle_page=args.puzzle_page, solution_page=args.solution_page)
+        rows.append(row)
+    row.update(kv)
+    write_tsv(ROOT / "links.tsv", LINK_COLS, sorted(rows, key=lambda r: (r["solution_page"], r["puzzle_page"])))
+    rebuild_all(printings(), searches(), status())
+    print(f"{args.puzzle_page} <- {args.solution_page}: {row['verdict']} ({row['kind']})")
 
 
 # ---------------------------------------------------------------- search / queue
@@ -336,7 +377,9 @@ def rebuild_all(pr: list[dict], se: list[dict], st: list[dict]) -> int:
     write_tsv(ROOT / "printings.tsv", PRINTING_COLS, sorted(pr, key=lambda r: (r["date"], r["paper"], r["file"])))
     write_tsv(ROOT / "searches.tsv", SEARCH_COLS, sorted(se, key=lambda r: (r["date"], r["paper"])))
     write_tsv(ROOT / "status.tsv", STATUS_COLS, new_st)
-    write_wanted(pr, se, new_st, gaps_rows)
+    import chains  # imports this module; here so that `rebuild` writes the chains too
+    breaks = chains.write(pr, se, links())
+    write_wanted(pr, se, new_st, gaps_rows, breaks)
     sync_pages_tsv(pr)
     return nflags
 
@@ -405,7 +448,7 @@ LAGS = {
 WANTED_COLS = ["puzzle", "reference_date", "why", "paper", "date", "status"]
 
 
-def write_wanted(pr: list[dict], se: list[dict], st: list[dict], gaps: list[dict]) -> None:
+def write_wanted(pr: list[dict], se: list[dict], st: list[dict], gaps: list[dict], breaks: list[dict]) -> None:
     """wanted.tsv: one row per (missing puzzle, candidate paper, date). A missing puzzle is a World
     number with no copy in the anchored years (1917 on, within the Globe's run), or a Journal week
     in 1915-16 whose puzzle the next page's solution proves existed. Candidate dates come from LAGS;
@@ -433,6 +476,16 @@ def write_wanted(pr: list[dict], se: list[dict], st: list[dict], gaps: list[dict
         if g["paper"] == "minneapolis-journal" and g["kind"] == "missing-puzzle":
             for d in g["sundays"].split():
                 offer(f"Journal week {d}", d, f"the Journal's {g['before']} page answers a puzzle it printed between {g['after']} and {g['before']}")
+    # chain breaks: the page that would join the two chains either side
+    for b in breaks:
+        if b["want_paper"] and ((b["want_paper"], b["want_date"]) not in have or b["want_why"].startswith("full page")):
+            rows.append({"puzzle": f"chain break {b['break']}", "reference_date": b["want_date"], "why": b["want_why"], "paper": b["want_paper"],
+                         "date": b["want_date"], "status": searched.get((b["want_paper"], b["want_date"]), "")})
+    # pages held only as a clip, whose full page is still to come
+    for r in pr:
+        if r["file"].startswith("clip:") and "full page still to download" in r["notes"] and not any(w["paper"] == r["paper"] and w["date"] == r["date"] for w in rows):
+            rows.append({"puzzle": f"full page of {r['paper']} {r['date']}", "reference_date": r["date"], "why": "full page: only a clip is held", "paper": r["paper"],
+                         "date": r["date"], "status": ""})
     write_tsv(ROOT / "wanted.tsv", WANTED_COLS, sorted(rows, key=lambda r: (r["paper"], r["date"], r["puzzle"])))
 
 
@@ -492,6 +545,7 @@ def main() -> None:
     sub = ap.add_subparsers(dest="cmd", required=True)
     p = sub.add_parser("new"); p.add_argument("folder", nargs="?", default=str(PAGES)); p.set_defaults(fn=new)
     p = sub.add_parser("add"); p.add_argument("file"); p.add_argument("pairs", nargs="*"); p.set_defaults(fn=add)
+    p = sub.add_parser("link"); p.add_argument("puzzle_page"); p.add_argument("solution_page"); p.add_argument("pairs", nargs="*"); p.set_defaults(fn=link)
     p = sub.add_parser("search"); p.add_argument("paper"); p.add_argument("date"); p.add_argument("result"); p.add_argument("note", nargs="?", default="")
     p.set_defaults(fn=search)
     p = sub.add_parser("queue"); p.add_argument("--paper", default="minneapolis-journal"); p.add_argument("--n", type=int, default=30)
