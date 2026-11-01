@@ -19,6 +19,14 @@ draw nothing from those numbers. See [CAMPBELL-CROSSCHECK.md](CAMPBELL-CROSSCHEC
   (derived), `gaps.tsv` and `wanted.tsv` (derived), `papers.tsv`. Only `tools/record.py`
   writes them. `git pull --rebase` before starting: other sessions commit here too.
 
+**Journal pages: ask for crops (2026-11-01).** Newspapers.com's "Entire page" download is capped near 2650 px
+for the Minneapolis Journal, too small to read the clues. For OCR we ask Alex for "Select portion" crops at native
+resolution of the puzzle and of the solutions box, named `<page>_fun.jpg` and `<page>_key.jpg` (e.g.
+`The_Minneapolis_Journal_1914_02_01_30_fun.jpg`). Claude files them from Downloads, so Alex does not rename. A crop
+is not a new printing: `record.py new` skips it when its paper and date already have a row, and `rebuild` gives it a
+`pages.tsv` row with `crop_of` pointing at the whole page (or, if only crops are held, at the `_fun` file). When only
+crops of a page exist, the printing row's `file` is the `_fun` crop (or the `_key` crop for a solution-only page).
+
 ## 1. List the new pages
 
     python tools/new_with_prev.py > <scratch>/new_prev.txt

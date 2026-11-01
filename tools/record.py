@@ -51,7 +51,7 @@ LINK_KINDS = ["grid", "label", "dated", "series"]  # the solution grid compared 
 STATUS_COLS = ["world_no", "sunday_inferred", "status", "copies", "heading", "credit", "fingerprint",
                "solution_seen", "flag", "notes"]
 RESULTS = ["queued", "found", "no-hit", "not-carried", "missing-from-scans"]
-FILE_RE = re.compile(r"^(?P<paper>.+?)_(?P<y>\d{4})_(?P<m>\d{2})_(?P<d>\d{2})_(?:Page_)?(?P<page>[A-Za-z]?\d+)(?: \(\d+\))?\.(?:jpe?g|png|pdf)$", re.I)
+FILE_RE = re.compile(r"^(?P<paper>.+?)_(?P<y>\d{4})_(?P<m>\d{2})_(?P<d>\d{2})_(?:Page_)?(?P<page>[A-Za-z]?\d+)(?P<crop>_fun|_key)?(?: \(\d+\))?\.(?:jpe?g|png|pdf)$", re.I)
 
 
 def sunday_of(n: int) -> dt.date:
@@ -72,7 +72,7 @@ def parse_file(name: str):
     if not m:
         return None
     return {"paper": paper_id(m.group("paper")), "date": dt.date(int(m.group("y")), int(m.group("m")), int(m.group("d"))).isoformat(),
-            "page": m.group("page")}
+            "page": m.group("page"), "crop": (m.group("crop") or "")[1:]}
 
 
 def read_tsv(path: Path, cols: list[str]) -> list[dict]:
@@ -127,6 +127,8 @@ def new(args) -> None:
             continue
         if p.name in known:
             continue
+        if info["crop"] and any(r["paper"] == info["paper"] and r["date"] == info["date"] for r in printings()):
+            continue  # a Select-portion crop (_fun puzzle, _key solutions box) of a page already recorded
         n += 1
         d = dt.date.fromisoformat(info["date"])
         exp = f"World No. {number_of(d)} if on the World's date" if d.weekday() == 6 and FIRST <= d <= sunday_of(LAST_NO) else "outside the run"
@@ -494,10 +496,12 @@ def fp_key(s: str) -> str:
 
 
 def sync_pages_tsv(pr: list[dict]) -> None:
-    """The scans repo's pages.tsv (xword-ocr folder-source format): one row per image we have."""
+    """The scans repo's pages.tsv (xword-ocr folder-source format): one row per image we have. Select-portion
+    crops (<page>_fun.jpg the puzzle, <page>_key.jpg the solutions box) get a row of their own with crop_of."""
     if not SCANS.exists():
         return
-    old = {r["file"]: r for r in read_tsv(PAGES_TSV, ["file", "issue", "date", "page", "url", "captured", "note"])}
+    cols = ["file", "issue", "date", "page", "url", "captured", "note", "crop_of"]
+    old = {r["file"]: r for r in read_tsv(PAGES_TSV, cols)}
     rows = []
     seen = set()
     for r in pr:
@@ -508,8 +512,31 @@ def sync_pages_tsv(pr: list[dict]) -> None:
         o = old.get(f"pages/{base}", {})
         rows.append({"file": f"pages/{base}", "issue": f"{r['paper']}-{r['date']}", "date": r["date"], "page": r["page"],
                      "url": r["url"] or o.get("url", ""), "captured": o.get("captured") or dt.date.today().isoformat(),
-                     "note": o.get("note", "") or (f"printed {r['printed_page']}" if r["printed_page"] else "")})
-    write_tsv(PAGES_TSV, ["file", "issue", "date", "page", "url", "captured", "note"], rows)
+                     "note": o.get("note", "") or (f"printed {r['printed_page']}" if r["printed_page"] else ""), "crop_of": o.get("crop_of", "")})
+    crops = []
+    by_day = {}
+    for r in pr:
+        if not r["file"].startswith("clip:"):
+            by_day.setdefault((r["paper"], r["date"]), []).append(r["file"].split("#")[0])
+    for p in sorted(PAGES.iterdir()):
+        info = parse_file(p.name)
+        if not info or not info["crop"] or p.name in seen:
+            continue
+        held = by_day.get((info["paper"], info["date"]))
+        if not held:
+            continue
+        whole = p.name.replace("_" + info["crop"], "")
+        parent = whole if (PAGES / whole).exists() else next((h for h in held if h != p.name), "")
+        o = old.get(f"pages/{p.name}", {})
+        crops.append({"file": f"pages/{p.name}", "issue": f"{info['paper']}-{info['date']}", "date": info["date"], "page": "", "url": "",
+                     "captured": o.get("captured") or dt.date.today().isoformat(),
+                     "note": o.get("note") or ("puzzle: heading, intro, grid and clues (Newspapers.com Select portion)" if info["crop"] == "fun"
+                                               else "solutions box (Newspapers.com Select portion)"),
+                     "crop_of": o.get("crop_of") or (f"pages/{parent}" if parent else "")})
+    for c in crops:  # each crop follows the last row of its day
+        at = max((i for i, r in enumerate(rows) if r["issue"] == c["issue"]), default=len(rows) - 1)
+        rows.insert(at + 1, c)
+    write_tsv(PAGES_TSV, cols, rows)
 
 
 # ---------------------------------------------------------------- show
