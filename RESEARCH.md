@@ -87,3 +87,7 @@ aren't lost; move each into a catalog entry with its source.
 ## How firm the no-hits are
 
 The gap-Sunday sweeps of 2026-10-31 (Los Angeles Tribune, Shreveport, Pittsburgh, Tacoma) recorded a Sunday as no-hit when Alex DeJarnatt's "puzzle" and "crossword" searches downloaded no page for it. Alex says he did not work hard at the gaps, so these no-hits are "nothing turned up quickly", not proof of absence. If a wanted puzzle (see wanted.tsv) might sit on one of them, search that Sunday again, and browse the issue if the text search misses.
+
+## The World's 1924 Sunday crossword and its clients (2026-11-03)
+
+The Dec. 7, 1924 magazine page in the Underwood & Underwood photo of 1924-12-09 is the World's own. No online copy of the World exists for 1924-25 (Chronicling America and NYS Historic Newspapers stop at 1922; Ben Zimmer, ADS-L, 2024-11-07). Editor & Publisher, 1924-09-06 to 1925-06-27, names no client paper, but shows how it was sold: Houdini's "Red Magic and Cross Word Section" for the World Syndicate (manager F. B. Knapp), four pages from 1924-11-16, eight pages by 1925-01-03 (details and sources in catalog syndicates/new-york-world.md). Fultonhistory.com and a Newspapers.com search for "Red Magic" in 1924-11 to 1925-06 are the open leads.
