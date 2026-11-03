@@ -91,3 +91,5 @@ The gap-Sunday sweeps of 2026-10-31 (Los Angeles Tribune, Shreveport, Pittsburgh
 ## The World's 1924 Sunday crossword and its clients (2026-11-03)
 
 The Dec. 7, 1924 magazine page in the Underwood & Underwood photo of 1924-12-09 is the World's own. No online copy of the World exists for 1924-25 (Chronicling America and NYS Historic Newspapers stop at 1922; Ben Zimmer, ADS-L, 2024-11-07). Editor & Publisher, 1924-09-06 to 1925-06-27, names no client paper, but shows how it was sold: Houdini's "Red Magic and Cross Word Section" for the World Syndicate (manager F. B. Knapp), four pages from 1924-11-16, eight pages by 1925-01-03 (details and sources in catalog syndicates/new-york-world.md). Fultonhistory.com and a Newspapers.com search for "Red Magic" in 1924-11 to 1925-06 are the open leads.
+
+Update (Alex DeJarnatt, 2026-11-03): Fultonhistory.com's search asks for email verification and sends no email, so it is unchecked. A Newspapers.com search for "Red Magic" mostly returns ads; one possible client is the Detroit Free Press, whose ad says the Sunday section appears 1925-01-11; Alex is paging that issue.
