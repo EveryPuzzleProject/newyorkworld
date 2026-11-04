@@ -4,8 +4,8 @@ Run through xword-ocr (branch `claude/nyw-fun-c1`), 2026-11-01, as far as the pi
 allowed interventions go: the harvest, hand-fitted lattices where the detector reads a template at
 the wrong size, the text step (Claude Sonnet) and the AI proof review (Claude Sonnet), triage.
 Nothing typed in. The harvest is `xword-ocr/harvests/nyw-c1` (pubid `nyw`); the current run is
-`c9` (`pipeline/triage/runs.json`); its proof packets are on the review site as batch
-`nyw-1914-c1`; triage is `harvests/nyw-c1/triage/c9`. The fix file is `fixes/fixes.toml`: the
+`c13` (`pipeline/triage/runs.json`); its proof packets are on the review site as batch
+`nyw-1914-c1`; triage is `harvests/nyw-c1/triage/c13`. The fix file is `fixes/fixes.toml`: the
 World's clue style (`[ocr] linked_ends`), pages read in tiles (`[ocr] tiles`), solutions in the
 next issue (`[assembly] keys_next_issue`), each issue's World date (`tools/ocr_fixes.py`, plus
 the key-only issue of 06-07 by hand), and the hand-fitted grids. The text step's conventions are
@@ -21,7 +21,7 @@ rows of `newyorkworld-scans/pages.tsv` with `crop_of` naming the page's own row;
 reads a page with crops through its crops (each a leaf of the issue, with the page's link) and
 never the page itself. 02-01 and 02-08 (Nos. 7 and 8) have no full page: their two crops are
 two pages, and the file named `_fun` holds the solutions box, the one named `_key` the puzzle.
-Run c9 reads 02-22 to 03-15, 03-29, 04-26, 05-03 and 07-19 on from the full pages; everything
+Runs c10 and c11 read 02-22 to 03-15, 03-29, 04-26, 05-03 and 07-19 on from the full pages; everything
 else from crops.
 
 ## Coverage
@@ -34,8 +34,8 @@ else from crops.
 | of those, with the next week's key matched | 16 |
 | the World's number read from the centre block or the banner (Number header) | 11 (Nos. 7, 8, 9, 11, 12, 15, 16, 17, 19, 22, 24); the rest print none in the centre (Nos. 10, 13, 25), or the crop cut the box (No. 20, 23, 26, 27, 30), or the list has no number crop (14, 18, 21) |
 | keys recorded without a puzzle page | No. 6 (the 02-01 solutions box) |
-| triage | 3 ready for review (Nos. 7, 11, 12), 19 needs work; 0 pass the ship check |
-| the AI proof review | 22 of 22 Not ready, each with yes/no flags on the proof page (one small edit on No. 12; everything else flagged, never moved): clue texts on the wrong word where a pair was lost or misread, key squares, missing numbers. No. 12's clues all match their crops now; its flags are two unread key letters |
+| triage (run c13) | 4 ready for review (Nos. 11, 12, 13, 19), 18 needs work; 0 pass the ship check |
+| the AI proof review (run c13) | of the 4 ready for review: Nos. 11 (03-01) and 12 (03-08) Ready (No. 11: its number line and one clue; No. 12: the L of SETTLER); Nos. 13 (03-15) and 19 (04-26) Not ready, each for the grid's shape against the key (SAVE short an E, SNIP's P outside the grid; LADY, BIDE, SANE, STIPPLE, SPEED squeezed into the wrong squares) and the words those shapes leave without a clue. Run c12's review of the other 18 stands (21 of 22 Not ready then) |
 
 **What the pipeline gets right now:** the templates' shapes at native resolution (the diamonds,
 the even diamond with EASTER, the cross with corner squares, the hourglass, the X of bands, the
@@ -45,9 +45,23 @@ gxd's form for nyw1913-12-28.
 **What it still gets wrong, and the proof page shows as flags:** the word a clue's text is put
 on. The numbers are inferred from the clue list and the grid; a pair the OCR garbles beyond
 repair ("8-86", "$-4") leaves its squares unnumbered, and the Down pairs that pass through
-them can't be placed or land on a near match. Run c9 places more of them (a pair garbled in
+them can't be placed or land on a near match. Run c9 placed more of them (a pair garbled in
 one digit is kept for its word, pairs of new numbers go to words in number order, a lost word
-keeps its numbers when the next pair confirms them): on No. 12 every clue read is on its word.
+keeps its numbers when the next pair confirms them). Run c10 reads the list as printed where
+the OCR broke a pair (a hyphen read as a period, "21.22 What the wind did"; a pair alone on its
+line; "29 To let fall" taken for the "29 to l" form) and puts a pair misread in a digit on the
+word the list's sequence says (a lost 3-4 before "6-6" leaves "6-6" as 5-6; "46-49" between
+44-45 and 50-51 is the earlier word). On Nos. 7, 8 and 12 every clue read is on its word; run c9
+had No. 7's across texts one word off from "What the wind did" on, which Alex caught. Since run
+c11 the text step (Claude Sonnet) may move a clue's text to the word the key's answer fits, with
+its reason ("moved from A18: the key gives RIIS, printed 23-24") shown on the proof page as the
+text step's change (Alex's decision, 2026-11-01; `editorial.md`). Where the key is unread the texts
+stay where the pairs put them.
+Since run c12 the AI does what a person reviewing would with a key square (Alex's rule, 2026-11-01): the
+text step puts the letter in when its key-misread findings agree on it, and the proof reviewer puts in the
+letter the answers crop shows when it fits both crossings, each as its own change with the reason on the
+proof page; only the grid's shape stays a flag. The proof reviewer also reads `editorial.md` (every clue
+ends in a period: a comma or stray mark at a clue's end is that period).
 The gates were lowered to a quarter of the words so these puzzles come through for review at
 all: the words no pair reached show as missing.
 
@@ -56,14 +70,26 @@ all: the words no pair reached show as missing.
 numbers printed in the squares, so a text on the wrong word can be checked against the two
 end squares it names. The xd writes the clues with their pairs ("1-2. An insect. ~ BEE") and a
 Numbering section, as gxd writes nyw1913-12-28; a clue whose pair wasn't read keeps its slot
-label (A4). The page change is on the blitz branch `claude/nyw-linked-proof`; until it is
-deployed, the live site shows the standard numbers.
+label (A4).
+
+**Run c13 (2026-11-03): the numbers by rule, clues by pair.** The World numbered the end squares
+by one of a few rules (xword-ocr numbering.SCHEMES: the across words' ends in reading order and
+then the squares that only end a down word, as No. 8; every end in reading order; the apex
+first). Each rule's numbering is scored by the pairs the OCR read on the clue list, and the best
+stands when enough pairs name a word under it (17 of the 22 puzzles; the other 5 fall back to
+reading the numbers off the list in sequence). Each clue then goes to the word its pair names,
+exactly or a digit off, so a clue the OCR lost shifts no other. Which way was taken is the xd's
+`Numbering-Rule` header and the proof page's blank grid says it. On the proof page (blitz branch
+`claude/linked-pairs`) a reviewer can click a square of the blank grid and type its printed number,
+move a clue's text to the word whose pair it carries ("Move text to…"), or shift every text from a
+word on by one word; each is the reviewer's edit with its source, and import applies them (a
+corrected number rewrites the Numbering section and the pair labels).
 
 ## What Alex must do by hand
 
 1. **On the proof page, batch nyw-1914-c1**, for each of the 22 puzzles: answer the AI reviewer's
-   yes/no flags (a clue on the wrong word, a key square), and fix what the flags point at. No. 12
-   is nearest to done (two key letters), then Nos. 7 and 11. Every value entered shows as the
+   yes/no flags (a grid's shape, a clue on the wrong word), and fix what the flags point at. No. 12 is Ready;
+   No. 7 has one flag (the pair for PEARS unread); No. 8's key is fixed but its row 3 has a square too many. Every value entered shows as the
    reviewer's, with its source. Merge and deploy blitz `claude/nyw-linked-proof` first, so the
    page shows the printed pairs and the squares' numbers.
 2. **No. 10 (02-22) and No. 13 (03-15) print no number in the centre:** confirm "no number
@@ -90,7 +116,7 @@ deployed, the live site shows the standard numbers.
 ## Where to look
 
 - the review site: batch `nyw-1914-c1`, e.g. https://blitz.xwordapp.com/review/?p=nyw1914-03-08-L000
-- locally: the proof-proto launch config, `http://localhost:8790/blitz/src/blitz/proof.html?p=nyw1914-03-08-L000&base=/xword-ocr/harvests/nyw-c1/proof/c9/`; the list `harvests/nyw-c1/proof/c9/index.html`; triage `harvests/nyw-c1/triage/c9/summary.md`; the text step's changes with crops `harvests/nyw-c1/textstep/c9/index.html`.
+- locally: the proof-proto launch config, `http://localhost:8790/blitz/src/blitz/proof.html?p=nyw1914-03-08-L000&base=/xword-ocr/harvests/nyw-c1/proof/c13/`; the list `harvests/nyw-c1/proof/c13/index.html`; triage `harvests/nyw-c1/triage/c13/summary.md`; the text step's changes with crops `harvests/nyw-c1/textstep/c13/index.html`.
 
 ## Decisions taken (in each puzzle's note)
 
