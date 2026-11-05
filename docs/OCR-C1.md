@@ -85,6 +85,19 @@ move a clue's text to the word whose pair it carries ("Move text to…"), or shi
 word on by one word; each is the reviewer's edit with its source, and import applies them (a
 corrected number rewrites the Numbering section and the pair labels).
 
+**Given words and re-placing from the page (2026-11-05).** A word the puzzle prints as a start (No. 9's
+FUN and PUZZLES; gxd's nyw1913-12-28 has NEW) has no numbers and no clue: on the proof page, type each
+of its squares' letters on the blank grid; a word through one is then named by the letter ("N-6"), a
+word printed whole shows "printed in the grid, not clued", and the xd lists no clue for it (its letters
+stand in the Numbering section, as gxd writes them). What reviewers give the squares (letters and
+numbers, the ledger's proof records after `blitz site-import`) is the numbering's hint on the next text
+step run: letters take no number under any rule, numbers stand over the rule's, and when they cover
+half the end squares they are the numbering outright. So the loop for a puzzle like No. 9, whose OCR
+pairs are too garbled for any rule: fix the shape and type the printed numbers and letters on the page,
+mark it Not ready, `blitz site-import`, then re-run the text step for it (`text_trial <run> --all` with
+`XWORD_ONLY=<pid>`, `textstep-reuse`, `proof-packets`, `site-publish`): the clues are placed again by
+those numbers, instead of being moved one by one.
+
 ## What Alex must do by hand
 
 1. **On the proof page, batch nyw-1914-c1**, for each of the 22 puzzles: answer the AI reviewer's
