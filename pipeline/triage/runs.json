@@ -1,6 +1,6 @@
 {
  "_about": "The FUN harvest's text step runs (xword-ocr harvests/nyw-c1): which one is current (the batch page opens on it, the import reads it) and what each is.",
- "current": "c13",
+ "current": "c14",
  "runs": {
   "c1": {
    "status": "old",
@@ -35,8 +35,12 @@
    "what": "c11's text-step answers applied with the key misreads the text step is sure of put into the grid as its change (8 squares in 5 puzzles, each with the finding as its reason); the AI proof reviewer may fix key squares from the answers crop as a person does, and reads editorial.md (every clue ends in a period); the AI proof review (2026-11-01)"
   },
   "c13": {
-   "status": "current",
+   "status": "old",
    "what": "c12 with the numbering decided by a rule the clue pairs bear out (across ends first, every end, or the apex first) and each clue placed by its pair, never by its place in the list; the text step re-run on 20 puzzles (Sonnet); the proof page lets a reviewer correct a square's number, move a clue's text by its pair, and shift texts"
+  },
+  "c14": {
+   "status": "current",
+   "what": "c13 with No. 9 (02-15) re-placed from the numbers Alex typed on the proof page (the first use of the re-place loop: site-import, the ledger's num: edits as the numbering, the text step on Nos. 9 and 13 only); the Numbering section writes shaded squares as '_'"
   }
  }
 }
