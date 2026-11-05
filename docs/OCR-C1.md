@@ -4,8 +4,8 @@ Run through xword-ocr (branch `claude/nyw-fun-c1`), 2026-11-01, as far as the pi
 allowed interventions go: the harvest, hand-fitted lattices where the detector reads a template at
 the wrong size, the text step (Claude Sonnet) and the AI proof review (Claude Sonnet), triage.
 Nothing typed in. The harvest is `xword-ocr/harvests/nyw-c1` (pubid `nyw`); the current run is
-`c13` (`pipeline/triage/runs.json`); its proof packets are on the review site as batch
-`nyw-1914-c1`; triage is `harvests/nyw-c1/triage/c13`. The fix file is `fixes/fixes.toml`: the
+`c14` (`pipeline/triage/runs.json`); its proof packets are on the review site as batch
+`nyw-1914-c1`; triage is `harvests/nyw-c1/triage/c14`. The fix file is `fixes/fixes.toml`: the
 World's clue style (`[ocr] linked_ends`), pages read in tiles (`[ocr] tiles`), solutions in the
 next issue (`[assembly] keys_next_issue`), each issue's World date (`tools/ocr_fixes.py`, plus
 the key-only issue of 06-07 by hand), and the hand-fitted grids. The text step's conventions are
@@ -129,7 +129,7 @@ those numbers, instead of being moved one by one.
 ## Where to look
 
 - the review site: batch `nyw-1914-c1`, e.g. https://blitz.xwordapp.com/review/?p=nyw1914-03-08-L000
-- locally: the proof-proto launch config, `http://localhost:8790/blitz/src/blitz/proof.html?p=nyw1914-03-08-L000&base=/xword-ocr/harvests/nyw-c1/proof/c13/`; the list `harvests/nyw-c1/proof/c13/index.html`; triage `harvests/nyw-c1/triage/c13/summary.md`; the text step's changes with crops `harvests/nyw-c1/textstep/c13/index.html`.
+- locally: the proof-proto launch config, `http://localhost:8790/blitz/src/blitz/proof.html?p=nyw1914-03-08-L000&base=/xword-ocr/harvests/nyw-c1/proof/c14/`; the list `harvests/nyw-c1/proof/c14/index.html`; triage `harvests/nyw-c1/triage/c14/summary.md`; the text step's changes with crops `harvests/nyw-c1/textstep/c14/index.html`.
 
 ## Decisions taken (in each puzzle's note)
 
