@@ -379,21 +379,23 @@ def main() -> None:
     page = f"""<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>The World's FUN Crosswords</title>
+<link rel="stylesheet" href="https://everypuzzleproject.org/site.css">
 <style>
-:root {{ --bg:#fbfaf7; --fg:#1d1d1b; --muted:#6b6a65; --line:#e3e0d8; --card:#ffffff; --accent:#1c4f8a; --warn:#a33a1c;
+h1, h2 {{ font-family:inherit; font-weight:bold; line-height:inherit }} .epp-header .wrap {{ max-width:1100px }}
+:root {{ --pg-bg:#fbfaf7; --fg:#1d1d1b; --pg-muted:#6b6a65; --pg-line:#e3e0d8; --card:#ffffff; --pg-accent:#1c4f8a; --warn:#a33a1c;
   --s-have:#2f6f4f; --s-wanted:#d9d5cc; }}
-@media (prefers-color-scheme: dark) {{ :root:not([data-theme="light"]) {{ --bg:#161614; --fg:#ecebe6; --muted:#a3a19a; --line:#34332f; --card:#1f1f1c; --accent:#7aaee0; --warn:#e0794f;
+@media (prefers-color-scheme: dark) {{ :root:not([data-theme="light"]) {{ --pg-bg:#161614; --fg:#ecebe6; --pg-muted:#a3a19a; --pg-line:#34332f; --card:#1f1f1c; --pg-accent:#7aaee0; --warn:#e0794f;
   --s-have:#5fae86; --s-wanted:#3b3a36; }} }}
-:root[data-theme="dark"] {{ --bg:#161614; --fg:#ecebe6; --muted:#a3a19a; --line:#34332f; --card:#1f1f1c; --accent:#7aaee0; --warn:#e0794f;
+:root[data-theme="dark"] {{ --pg-bg:#161614; --fg:#ecebe6; --pg-muted:#a3a19a; --pg-line:#34332f; --card:#1f1f1c; --pg-accent:#7aaee0; --warn:#e0794f;
   --s-have:#5fae86; --s-wanted:#3b3a36; }}
 * {{ box-sizing:border-box }}
-body {{ margin:0; background:var(--bg); color:var(--fg); font:16px/1.55 Georgia, "Times New Roman", serif }}
+body {{ margin:0; background:var(--pg-bg); color:var(--fg); font:16px/1.55 Georgia, "Times New Roman", serif }}
 main {{ max-width:1100px; margin:0 auto; padding:32px 16px 64px }}
 h1 {{ font-size:2rem; margin:0 0 4px }} h2 {{ margin:40px 0 8px; font-size:1.35rem; border-bottom:2px solid var(--fg); padding-bottom:4px }}
-a {{ color:var(--accent) }} .muted {{ color:var(--muted) }} .lede {{ font-size:1.1rem }} code {{ font-size:0.9em }}
-.rule {{ background:var(--card); border:1px solid var(--line); border-left:4px solid var(--accent); padding:12px 20px; margin:16px 0; font-size:0.95rem }}
+a {{ color:var(--pg-accent) }} .muted {{ color:var(--pg-muted) }} .lede {{ font-size:1.1rem }} code {{ font-size:0.9em }}
+.rule {{ background:var(--card); border:1px solid var(--pg-line); border-left:4px solid var(--pg-accent); padding:12px 20px; margin:16px 0; font-size:0.95rem }}
 table {{ width:100%; border-collapse:collapse; font:14px/1.4 system-ui, sans-serif }}
-th, td {{ text-align:left; padding:6px 8px; border-bottom:1px solid var(--line); vertical-align:top }}
+th, td {{ text-align:left; padding:6px 8px; border-bottom:1px solid var(--pg-line); vertical-align:top }}
 th {{ font-weight:600 }} .scroll {{ overflow-x:auto }} td:first-child {{ white-space:nowrap }}
 #pr, #all {{ table-layout:fixed }} #pr td, #all td {{ white-space:normal; overflow-wrap:anywhere }} #pr td:first-child, #all td:first-child {{ white-space:normal }}
 #pr th:nth-child(1) {{ width:7% }} #pr th:nth-child(2) {{ width:8% }} #pr th:nth-child(3) {{ width:4% }} #pr th:nth-child(4) {{ width:5% }} #pr th:nth-child(5) {{ width:8% }}
@@ -401,24 +403,30 @@ th {{ font-weight:600 }} .scroll {{ overflow-x:auto }} td:first-child {{ white-s
 #all th:nth-child(1) {{ width:6% }} #all th:nth-child(2) {{ width:8% }} #all th:nth-child(3) {{ width:8% }} #all th:nth-child(4) {{ width:16% }} #all th:nth-child(5) {{ width:10% }} #all th:nth-child(6) {{ width:9% }} #all th:nth-child(7) {{ width:9% }} #all th:nth-child(8) {{ width:9% }}
 tr.flagged td {{ background:color-mix(in srgb, var(--warn) 10%, transparent) }}
 .bar {{ display:flex; align-items:center; gap:8px; font:12px system-ui, sans-serif; margin:2px 0 }}
-.yr {{ width:3em; color:var(--muted) }} .n {{ width:4.5em; text-align:right; color:var(--muted) }}
+.yr {{ width:3em; color:var(--pg-muted) }} .n {{ width:4.5em; text-align:right; color:var(--pg-muted) }}
 .track {{ flex:1; display:flex; height:12px; border-radius:2px; overflow:hidden; background:var(--s-wanted) }}
 .seg.have, .pill.have {{ background:var(--s-have) }} .seg.wanted, .pill.wanted {{ background:var(--s-wanted) }}
 .warn {{ color:var(--warn) }} .have {{ color:var(--s-have) }}
-.ct {{ position:relative; height:18px; background:var(--s-wanted); border-radius:2px; margin:12px 0 2px; overflow:hidden }} .cs {{ position:absolute; top:0; bottom:0; border-right:1px solid var(--bg) }}
-.cs.an {{ background:var(--s-have) }} .cs.fl {{ background:var(--accent) }} .cs.te {{ opacity:.55 }} .cyr {{ position:relative; height:16px; font:11px system-ui, sans-serif; color:var(--muted); margin-bottom:10px }} .cy {{ position:absolute }}
+.ct {{ position:relative; height:18px; background:var(--s-wanted); border-radius:2px; margin:12px 0 2px; overflow:hidden }} .cs {{ position:absolute; top:0; bottom:0; border-right:1px solid var(--pg-bg) }}
+.cs.an {{ background:var(--s-have) }} .cs.fl {{ background:var(--pg-accent) }} .cs.te {{ opacity:.55 }} .cyr {{ position:relative; height:16px; font:11px system-ui, sans-serif; color:var(--pg-muted); margin-bottom:10px }} .cy {{ position:absolute }}
 tr.brk td {{ background:color-mix(in srgb, var(--warn) 7%, transparent) }}
 .cg {{ font:11px system-ui, sans-serif; overflow-x:auto; margin:4px 0 12px }} .cr {{ display:flex; align-items:center; gap:2px; margin:2px 0 }}
-.cl {{ width:11em; flex:none; color:var(--muted); white-space:nowrap; overflow:hidden; text-overflow:ellipsis }}
+.cl {{ width:11em; flex:none; color:var(--pg-muted); white-space:nowrap; overflow:hidden; text-overflow:ellipsis }}
 .c {{ width:13px; height:13px; flex:none; border-radius:2px; display:inline-block; background:var(--s-wanted) }}
-.c.have {{ background:var(--s-have) }} a.c.have:hover {{ outline:2px solid var(--accent) }} .c.nc {{ background:var(--line); border:1px solid var(--muted); box-sizing:border-box }}
-.c.nh {{ background:color-mix(in srgb, var(--warn) 45%, var(--bg)) }} .c.q {{ background:color-mix(in srgb, var(--accent) 40%, var(--bg)) }} .c.none {{ background:var(--s-wanted); opacity:.45 }}
-.c.mo {{ background:none; color:var(--muted); font-size:10px; text-align:center; line-height:13px }} h3 {{ margin:14px 0 2px; font-size:1rem }}
+.c.have {{ background:var(--s-have) }} a.c.have:hover {{ outline:2px solid var(--pg-accent) }} .c.nc {{ background:var(--pg-line); border:1px solid var(--pg-muted); box-sizing:border-box }}
+.c.nh {{ background:color-mix(in srgb, var(--warn) 45%, var(--pg-bg)) }} .c.q {{ background:color-mix(in srgb, var(--pg-accent) 40%, var(--pg-bg)) }} .c.none {{ background:var(--s-wanted); opacity:.45 }}
+.c.mo {{ background:none; color:var(--pg-muted); font-size:10px; text-align:center; line-height:13px }} h3 {{ margin:14px 0 2px; font-size:1rem }}
 .pill {{ font-size:12px; padding:1px 6px; border-radius:9px; color:#fff; white-space:nowrap }} .pill.wanted {{ color:var(--fg) }}
 .filters {{ display:flex; flex-wrap:wrap; gap:8px; margin:8px 0; font:14px system-ui, sans-serif }}
-input, select {{ font:inherit; padding:4px 8px; background:var(--card); color:var(--fg); border:1px solid var(--line); border-radius:4px }}
-footer {{ margin-top:48px; font:13px system-ui, sans-serif; color:var(--muted) }}
-</style></head><body><main>
+input, select {{ font:inherit; padding:4px 8px; background:var(--card); color:var(--fg); border:1px solid var(--pg-line); border-radius:4px }}
+footer {{ margin-top:48px; font:13px system-ui, sans-serif; color:var(--pg-muted) }}
+</style></head><body>
+<header class="epp-header"><div class="wrap">
+  <a href="https://everypuzzleproject.org/">Every Puzzle Project</a>
+  <span class="epp-page">New York World</span>
+  <nav><a href="https://github.com/EveryPuzzleProject/newyorkworld">Repo</a></nav>
+</div></header>
+<main>
 <h1>The New York World's FUN crosswords, 1913–1917</h1>
 <p class="lede">The first crossword ran in the New York World's Sunday FUN supplement on December 21, 1913, and a new one every Sunday after.
 Other papers reprinted the section, so where the World's own pages are lost, a partner's copy is a second copy of the puzzle.
