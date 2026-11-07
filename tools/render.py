@@ -14,7 +14,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 REPO = "https://github.com/EveryPuzzleProject/newyorkworld"
-CATALOG = "https://github.com/EveryPuzzleProject/catalog/blob/main/publications/new-york-world.md"
+CENSUS = "https://github.com/EveryPuzzleProject/census/blob/main/publications/new-york-world.md"
 # Newspapers.com search for one date. If this link form stops working, change it here only.
 SEARCH = "https://www.newspapers.com/search/results/?date={date}&keyword=%22cross-word%22"  # Newspapers.com results URL; add &publication-ids=<id> per paper in papers.tsv `search`
 RESULT_LABEL = {"found": "Found", "queued": "To do", "no-hit": "No hit", "not-carried": "Not carried", "missing-from-scans": "Missing from scans"}
@@ -520,7 +520,7 @@ partner is known to have carried FUN then.</p>
 </tbody></table></div>
 
 <footer>Part of the <a href="https://github.com/EveryPuzzleProject">Every Puzzle Project</a>. Data: <a href="{REPO}">{REPO.split('github.com/')[1]}</a>
-(status.tsv, printings.tsv, searches.tsv, links.tsv, chains.tsv); what's known about the World's puzzles: the <a href="{CATALOG}">catalog entry</a>. Page images stay out of this repo.
+(status.tsv, printings.tsv, searches.tsv, links.tsv, chains.tsv); what's known about the World's puzzles: the <a href="{CENSUS}">census entry</a>. Page images stay out of this repo.
 Generated {dt.date.today().isoformat()}.</footer>
 </main>
 <script>
