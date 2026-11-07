@@ -96,9 +96,9 @@ Pittsburgh Press, the Tacoma Daily Ledger or, best of all, the World's own FUN s
 (especially December 1913 to January 1914, World Nos. 1–6), see the status page for the
 Sundays wanted and open an issue with the date and a clipping link. Please don't upload
 page images: issues are public. What's known about the World's puzzles and its partner
-papers, with sources, is in the catalog:
-[new-york-world.md](https://github.com/EveryPuzzleProject/catalog/blob/main/publications/new-york-world.md)
-and [first-runs.md](https://github.com/EveryPuzzleProject/catalog/blob/main/first-runs.md).
+papers, with sources, is in the census:
+[new-york-world.md](https://github.com/EveryPuzzleProject/census/blob/main/publications/new-york-world.md)
+and [first-runs.md](https://github.com/EveryPuzzleProject/census/blob/main/first-runs.md).
 
 ## Images
 
