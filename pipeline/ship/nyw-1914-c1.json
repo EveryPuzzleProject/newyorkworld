@@ -5,15 +5,13 @@
  "packets": "nyw/proof/c14",
  "rule": {
   "ai_ready": "off",
-  "hold_codes": [
-   "clue-typed"
-  ],
+  "hold_codes": [],
   "ignore": [],
   "owner": [
    "oops6498"
   ]
  },
- "at": "2026-11-12T18:49:46+00:00",
+ "at": "2026-11-12T19:04:00+00:00",
  "counts": {
   "puzzles": 22,
   "shipped": 0,
@@ -21,16 +19,19 @@
   "held": 22,
   "out": 0,
   "held_by": {
-   "needs-work": 19,
+   "needs-work": 17,
    "owner-hold": 1,
-   "proof-stale": 1,
+   "no-ready": 1,
+   "proof-stale": 2,
    "not-ready": 1
   },
-  "ships_with": {},
+  "ships_with": {
+   "either": 1
+  },
   "queues": {
    "question": 2,
-   "unchecked": 1,
-   "broken": 19,
+   "unchecked": 3,
+   "broken": 17,
    "shippable": 0,
    "shipped": 0,
    "set-aside": 0,
@@ -57,10 +58,10 @@
    "ships_with": "",
    "queue": "broken",
    "group": "",
-   "order": 3,
+   "order": 5,
    "reviewed": true,
    "spot_check": false,
-   "why": "needs work: clue-typed; clues-unread; the owner's Ready was on an earlier version of the puzzle: look again",
+   "why": "needs work: clues-unread; the owner's Ready was on an earlier version of the puzzle: look again",
    "asks": [],
    "also": [],
    "broken": [
@@ -69,12 +70,6 @@
      "stage": "parts",
      "code": "clues-unread",
      "detail": "A19 A21 A22 A24 A25"
-    },
-    {
-     "what": "a block of clues the text step typed",
-     "stage": "parts",
-     "code": "clue-typed",
-     "detail": "11 supplied with no OCR reading: 0 from a crop it names, 11 with no source recorded; a block typed (4 in Across, 7 in Down; more than 3 in a list): read the list again from parts"
     }
    ],
    "said": [
@@ -112,10 +107,10 @@
    "ships_with": "",
    "queue": "broken",
    "group": "",
-   "order": 4,
+   "order": 6,
    "reviewed": true,
    "spot_check": false,
-   "why": "needs work: clue-typed; key-blacks-differ; the owner's Ready was on an earlier version of the puzzle: look again",
+   "why": "needs work: key-blacks-differ; the owner's Ready was on an earlier version of the puzzle: look again",
    "asks": [],
    "also": [],
    "broken": [
@@ -124,12 +119,6 @@
      "stage": "assembly",
      "code": "key-blacks-differ",
      "detail": "1 square(s): R5C7 R6C6 R6C8 R7C5 R7C9 R8C6 R8C8 R9C7"
-    },
-    {
-     "what": "a block of clues the text step typed",
-     "stage": "parts",
-     "code": "clue-typed",
-     "detail": "19 supplied with no OCR reading: 0 from a crop it names, 19 with no source recorded; a block typed (16 in Down; more than 3 in a list): read the list again from parts"
     }
    ],
    "said": [
@@ -221,10 +210,10 @@
    "ships_with": "",
    "queue": "broken",
    "group": "",
-   "order": 5,
+   "order": 7,
    "reviewed": false,
    "spot_check": false,
-   "why": "needs work: clue-typed; key-digits; Claude (AI proof reviewer, claude-sonnet-5-5)'s Not ready was on an earlier version of the puzzle",
+   "why": "needs work: key-digits; Claude (AI proof reviewer, claude-sonnet-5-5)'s Not ready was on an earlier version of the puzzle",
    "asks": [],
    "also": [],
    "broken": [
@@ -233,12 +222,6 @@
      "stage": "key reading",
      "code": "key-digits",
      "detail": "detected: 4 key squares read as digits (r10c12 8 r11c11 3 r12c6 5 r5c12 8)"
-    },
-    {
-     "what": "a block of clues the text step typed",
-     "stage": "parts",
-     "code": "clue-typed",
-     "detail": "13 supplied with no OCR reading: 0 from a crop it names, 13 with no source recorded; a block typed (10 in Down; more than 3 in a list): read the list again from parts"
     }
    ],
    "said": [
@@ -265,25 +248,18 @@
    "title": "",
    "date": "1914-03-01",
    "status": "held",
-   "reason": "needs-work",
+   "reason": "no-ready",
    "rule": "",
-   "ships_with": "",
-   "queue": "broken",
+   "ships_with": "either",
+   "queue": "unchecked",
    "group": "",
-   "order": 6,
+   "order": 2,
    "reviewed": false,
    "spot_check": false,
-   "why": "needs work: clue-typed; no person has said Ready (the AI proof reviewer said Ready)",
+   "why": "no person has said Ready (the AI proof reviewer said Ready)",
    "asks": [],
    "also": [],
-   "broken": [
-    {
-     "what": "a block of clues the text step typed",
-     "stage": "parts",
-     "code": "clue-typed",
-     "detail": "7 supplied with no OCR reading: 0 from a crop it names, 7 with no source recorded; a block typed (5 in Across; more than 3 in a list): read the list again from parts"
-    }
-   ],
+   "broken": [],
    "said": [
     {
      "kind": "ai",
@@ -310,7 +286,7 @@
    "ships_with": "",
    "queue": "unchecked",
    "group": "",
-   "order": 2,
+   "order": 3,
    "reviewed": false,
    "spot_check": false,
    "why": "Claude (AI proof reviewer, claude-sonnet-5-5)'s Ready was on an earlier version of the puzzle",
@@ -339,25 +315,18 @@
    "title": "",
    "date": "1914-03-15",
    "status": "held",
-   "reason": "needs-work",
+   "reason": "proof-stale",
    "rule": "",
    "ships_with": "",
-   "queue": "broken",
+   "queue": "unchecked",
    "group": "",
-   "order": 7,
+   "order": 4,
    "reviewed": false,
    "spot_check": false,
-   "why": "needs work: clue-typed; Claude (AI proof reviewer, claude-sonnet-5-5)'s Not ready was on an earlier version of the puzzle",
+   "why": "Claude (AI proof reviewer, claude-sonnet-5-5)'s Not ready was on an earlier version of the puzzle",
    "asks": [],
    "also": [],
-   "broken": [
-    {
-     "what": "a block of clues the text step typed",
-     "stage": "parts",
-     "code": "clue-typed",
-     "detail": "8 supplied with no OCR reading: 0 from a crop it names, 8 with no source recorded; a block typed (6 in Down; more than 3 in a list): read the list again from parts"
-    }
-   ],
+   "broken": [],
    "said": [
     {
      "kind": "ai",
@@ -441,7 +410,7 @@
    "order": 9,
    "reviewed": false,
    "spot_check": false,
-   "why": "needs work: clue-typed; key-blacks-differ; Claude (AI proof reviewer, claude-sonnet-5-5)'s Not ready was on an earlier version of the puzzle",
+   "why": "needs work: key-blacks-differ; Claude (AI proof reviewer, claude-sonnet-5-5)'s Not ready was on an earlier version of the puzzle",
    "asks": [],
    "also": [],
    "broken": [
@@ -450,12 +419,6 @@
      "stage": "assembly",
      "code": "key-blacks-differ",
      "detail": "2 square(s): R6C6 R7C6 R7C7 R8C12 R9C11 R10C10"
-    },
-    {
-     "what": "a block of clues the text step typed",
-     "stage": "parts",
-     "code": "clue-typed",
-     "detail": "9 supplied with no OCR reading: 0 from a crop it names, 9 with no source recorded; a block typed (7 in Down; more than 3 in a list): read the list again from parts"
     }
    ],
    "said": [
@@ -548,7 +511,7 @@
    "order": 11,
    "reviewed": false,
    "spot_check": false,
-   "why": "needs work: clue-typed; clues-unread; key-blacks-differ; Claude (AI proof reviewer, claude-sonnet-5-5)'s Not ready was on an earlier version of the puzzle",
+   "why": "needs work: clues-unread; key-blacks-differ; Claude (AI proof reviewer, claude-sonnet-5-5)'s Not ready was on an earlier version of the puzzle",
    "asks": [],
    "also": [],
    "broken": [
@@ -563,12 +526,6 @@
      "stage": "parts",
      "code": "clues-unread",
      "detail": "A1 A5 D4 D12 D21"
-    },
-    {
-     "what": "a block of clues the text step typed",
-     "stage": "parts",
-     "code": "clue-typed",
-     "detail": "15 supplied with no OCR reading: 0 from a crop it names, 15 with no source recorded; a block typed (4 in Across, 11 in Down; more than 3 in a list): read the list again from parts"
     }
    ],
    "said": [
@@ -762,7 +719,7 @@
    "order": 13,
    "reviewed": false,
    "spot_check": false,
-   "why": "needs work: clue-typed; clues-unread; key-blacks-differ; Claude (AI proof reviewer, claude-sonnet-5-5)'s Not ready was on an earlier version of the puzzle",
+   "why": "needs work: clues-unread; key-blacks-differ; Claude (AI proof reviewer, claude-sonnet-5-5)'s Not ready was on an earlier version of the puzzle",
    "asks": [],
    "also": [],
    "broken": [
@@ -777,12 +734,6 @@
      "stage": "parts",
      "code": "clues-unread",
      "detail": "A1 A5 A10 A11 A13 A14 A16 A17 …"
-    },
-    {
-     "what": "a block of clues the text step typed",
-     "stage": "parts",
-     "code": "clue-typed",
-     "detail": "7 supplied with no OCR reading: 0 from a crop it names, 7 with no source recorded; a block typed (5 in Down; more than 3 in a list): read the list again from parts"
     }
    ],
    "said": [
@@ -872,7 +823,7 @@
    "order": 15,
    "reviewed": false,
    "spot_check": false,
-   "why": "needs work: clue-typed; clues-unread; Claude (AI proof reviewer, claude-sonnet-5-5)'s Not ready was on an earlier version of the puzzle",
+   "why": "needs work: clues-unread; Claude (AI proof reviewer, claude-sonnet-5-5)'s Not ready was on an earlier version of the puzzle",
    "asks": [],
    "also": [],
    "broken": [
@@ -881,12 +832,6 @@
      "stage": "parts",
      "code": "clues-unread",
      "detail": "A34 D6 D7 D8 D9 D12 D13 D23 …"
-    },
-    {
-     "what": "a block of clues the text step typed",
-     "stage": "parts",
-     "code": "clue-typed",
-     "detail": "11 supplied with no OCR reading: 0 from a crop it names, 11 with no source recorded; a block typed (6 in Across, 5 in Down; more than 3 in a list): read the list again from parts"
     }
    ],
    "said": [
@@ -923,7 +868,7 @@
    "order": 16,
    "reviewed": false,
    "spot_check": false,
-   "why": "needs work: clue-typed; clues-unread; key-blacks-differ; key-digits; Claude (AI proof reviewer, claude-sonnet-5-5)'s Not ready was on an earlier version of the puzzle",
+   "why": "needs work: clues-unread; key-blacks-differ; key-digits; Claude (AI proof reviewer, claude-sonnet-5-5)'s Not ready was on an earlier version of the puzzle",
    "asks": [],
    "also": [],
    "broken": [
@@ -944,12 +889,6 @@
      "stage": "parts",
      "code": "clues-unread",
      "detail": "A28 A29 A34 A35 A40 A41 A43 A44 …"
-    },
-    {
-     "what": "a block of clues the text step typed",
-     "stage": "parts",
-     "code": "clue-typed",
-     "detail": "5 supplied with no OCR reading: 0 from a crop it names, 5 with no source recorded; a block typed (5 in Across; more than 3 in a list): read the list again from parts"
     }
    ],
    "said": [
@@ -1085,7 +1024,7 @@
    "order": 19,
    "reviewed": false,
    "spot_check": false,
-   "why": "needs work: clue-typed; clues-unread; key-blacks-differ; Claude (AI proof reviewer, claude-sonnet-5-5)'s Not ready was on an earlier version of the puzzle",
+   "why": "needs work: clues-unread; key-blacks-differ; Claude (AI proof reviewer, claude-sonnet-5-5)'s Not ready was on an earlier version of the puzzle",
    "asks": [],
    "also": [],
    "broken": [
@@ -1100,12 +1039,6 @@
      "stage": "parts",
      "code": "clues-unread",
      "detail": "A21 D4 D20"
-    },
-    {
-     "what": "a block of clues the text step typed",
-     "stage": "parts",
-     "code": "clue-typed",
-     "detail": "7 supplied with no OCR reading: 0 from a crop it names, 7 with no source recorded; a block typed (7 in Across; more than 3 in a list): read the list again from parts"
     }
    ],
    "said": [
@@ -1143,7 +1076,7 @@
    "order": 20,
    "reviewed": false,
    "spot_check": false,
-   "why": "needs work: clue-typed; clues-unread; Claude (AI proof reviewer, claude-sonnet-5-5)'s Not ready was on an earlier version of the puzzle",
+   "why": "needs work: clues-unread; Claude (AI proof reviewer, claude-sonnet-5-5)'s Not ready was on an earlier version of the puzzle",
    "asks": [],
    "also": [],
    "broken": [
@@ -1152,12 +1085,6 @@
      "stage": "parts",
      "code": "clues-unread",
      "detail": "A26 A27 A29 A33 A41 A42 A43 A44 …"
-    },
-    {
-     "what": "a block of clues the text step typed",
-     "stage": "parts",
-     "code": "clue-typed",
-     "detail": "18 supplied with no OCR reading: 0 from a crop it names, 18 with no source recorded; a block typed (13 in Across, 5 in Down; more than 3 in a list): read the list again from parts"
     }
    ],
    "said": [
@@ -1194,7 +1121,7 @@
    "order": 21,
    "reviewed": false,
    "spot_check": false,
-   "why": "needs work: clue-typed; clues-unread; key-missing; Claude (AI proof reviewer, claude-sonnet-5-5)'s Not ready was on an earlier version of the puzzle",
+   "why": "needs work: clues-unread; key-missing; Claude (AI proof reviewer, claude-sonnet-5-5)'s Not ready was on an earlier version of the puzzle",
    "asks": [],
    "also": [],
    "broken": [
@@ -1209,12 +1136,6 @@
      "stage": "parts",
      "code": "clues-unread",
      "detail": "D2 D3 D4 D5 D7 D8 D14 D16 …"
-    },
-    {
-     "what": "a block of clues the text step typed",
-     "stage": "parts",
-     "code": "clue-typed",
-     "detail": "4 supplied with no OCR reading: 0 from a crop it names, 4 with no source recorded; a block typed (4 in Across; more than 3 in a list): read the list again from parts"
     }
    ],
    "said": [
