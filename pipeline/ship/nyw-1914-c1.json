@@ -1,0 +1,1239 @@
+{
+ "_about": "blitz ship: which puzzles of the batch are shipped (in the publication repo's xd/), shippable (pass the ship rule, not written yet) or held, with the reason, and the queue each is in: what the batch page asks of people. Format: blitz design/ship.md.",
+ "batch": "nyw-1914-c1",
+ "run": "c14",
+ "packets": "nyw/proof/c14",
+ "rule": {
+  "ai_ready": "off",
+  "hold_codes": [
+   "clue-typed"
+  ],
+  "ignore": [],
+  "owner": [
+   "oops6498"
+  ]
+ },
+ "at": "2026-11-12T18:49:46+00:00",
+ "counts": {
+  "puzzles": 22,
+  "shipped": 0,
+  "shippable": 0,
+  "held": 22,
+  "out": 0,
+  "held_by": {
+   "needs-work": 19,
+   "owner-hold": 1,
+   "proof-stale": 1,
+   "not-ready": 1
+  },
+  "ships_with": {},
+  "queues": {
+   "question": 2,
+   "unchecked": 1,
+   "broken": 19,
+   "shippable": 0,
+   "shipped": 0,
+   "set-aside": 0,
+   "not-a-crossword": 0
+  },
+  "reviewed": 3,
+  "spot_check": 0
+ },
+ "groups": [],
+ "spot": {
+  "one_in": 10,
+  "of": "puzzles shipped on someone else's word than the owner's",
+  "by": "sha1 of the puzzle's id"
+ },
+ "puzzles": [
+  {
+   "pid": "nyw1914-02-01-L001",
+   "xdid": "",
+   "title": "",
+   "date": "1914-02-01",
+   "status": "held",
+   "reason": "needs-work",
+   "rule": "",
+   "ships_with": "",
+   "queue": "broken",
+   "group": "",
+   "order": 3,
+   "reviewed": true,
+   "spot_check": false,
+   "why": "needs work: clue-typed; clues-unread; the owner's Ready was on an earlier version of the puzzle: look again",
+   "asks": [],
+   "also": [],
+   "broken": [
+    {
+     "what": "a block of clues",
+     "stage": "parts",
+     "code": "clues-unread",
+     "detail": "A19 A21 A22 A24 A25"
+    },
+    {
+     "what": "a block of clues the text step typed",
+     "stage": "parts",
+     "code": "clue-typed",
+     "detail": "11 supplied with no OCR reading: 0 from a crop it names, 11 with no source recorded; a block typed (4 in Across, 7 in Down; more than 3 in a list): read the list again from parts"
+    }
+   ],
+   "said": [
+    {
+     "kind": "ai",
+     "answer": "notready",
+     "at": "2026-11-01",
+     "stale": true,
+     "who": "Claude (AI proof reviewer, claude-sonnet-5-5)"
+    },
+    {
+     "kind": "owner",
+     "answer": "ready",
+     "at": "2026-11-02",
+     "stale": true,
+     "who": "the owner"
+    }
+   ],
+   "check": {
+    "ok": false,
+    "findings": [
+     "clue-empty",
+     "triage-doubt"
+    ]
+   }
+  },
+  {
+   "pid": "nyw1914-02-08-L001",
+   "xdid": "",
+   "title": "",
+   "date": "1914-02-08",
+   "status": "held",
+   "reason": "needs-work",
+   "rule": "",
+   "ships_with": "",
+   "queue": "broken",
+   "group": "",
+   "order": 4,
+   "reviewed": true,
+   "spot_check": false,
+   "why": "needs work: clue-typed; key-blacks-differ; the owner's Ready was on an earlier version of the puzzle: look again",
+   "asks": [],
+   "also": [],
+   "broken": [
+    {
+     "what": "the answer key (its black squares differ from the grid's)",
+     "stage": "assembly",
+     "code": "key-blacks-differ",
+     "detail": "1 square(s): R5C7 R6C6 R6C8 R7C5 R7C9 R8C6 R8C8 R9C7"
+    },
+    {
+     "what": "a block of clues the text step typed",
+     "stage": "parts",
+     "code": "clue-typed",
+     "detail": "19 supplied with no OCR reading: 0 from a crop it names, 19 with no source recorded; a block typed (16 in Down; more than 3 in a list): read the list again from parts"
+    }
+   ],
+   "said": [
+    {
+     "kind": "ai",
+     "answer": "notready",
+     "at": "2026-11-01",
+     "stale": true,
+     "who": "Claude (AI proof reviewer, claude-sonnet-5-5)"
+    },
+    {
+     "kind": "owner",
+     "answer": "ready",
+     "at": "2026-11-03",
+     "stale": true,
+     "who": "the owner"
+    }
+   ],
+   "check": {
+    "ok": false,
+    "findings": [
+     "grid-unsolved",
+     "triage-doubt"
+    ]
+   }
+  },
+  {
+   "pid": "nyw1914-02-15-L001",
+   "xdid": "",
+   "title": "",
+   "date": "1914-02-15",
+   "status": "held",
+   "reason": "owner-hold",
+   "rule": "",
+   "ships_with": "",
+   "queue": "question",
+   "group": "",
+   "order": 0,
+   "reviewed": true,
+   "spot_check": false,
+   "why": "the owner said Not ready on the proof page: clues don't match the numbers",
+   "asks": [
+    {
+     "who": "the owner",
+     "kind": "owner",
+     "at": "2026-11-05",
+     "row": "",
+     "group": "",
+     "text": "clues don't match the numbers"
+    }
+   ],
+   "also": [
+    "clues with no text: A2 A6 D19 D22",
+    "2 square(s) unsolved"
+   ],
+   "broken": [],
+   "said": [
+    {
+     "kind": "ai",
+     "answer": "notready",
+     "at": "2026-11-01",
+     "stale": true,
+     "who": "Claude (AI proof reviewer, claude-sonnet-5-5)"
+    },
+    {
+     "kind": "owner",
+     "answer": "notready",
+     "at": "2026-11-05",
+     "who": "the owner"
+    }
+   ],
+   "check": {
+    "ok": false,
+    "findings": [
+     "clue-empty",
+     "grid-unsolved",
+     "triage-doubt"
+    ]
+   }
+  },
+  {
+   "pid": "nyw1914-02-22-L000",
+   "xdid": "",
+   "title": "A GEORGE WASHINGTON CROSS-WORD PUZZLE",
+   "date": "1914-02-22",
+   "status": "held",
+   "reason": "needs-work",
+   "rule": "",
+   "ships_with": "",
+   "queue": "broken",
+   "group": "",
+   "order": 5,
+   "reviewed": false,
+   "spot_check": false,
+   "why": "needs work: clue-typed; key-digits; Claude (AI proof reviewer, claude-sonnet-5-5)'s Not ready was on an earlier version of the puzzle",
+   "asks": [],
+   "also": [],
+   "broken": [
+    {
+     "what": "the answer key's digits",
+     "stage": "key reading",
+     "code": "key-digits",
+     "detail": "detected: 4 key squares read as digits (r10c12 8 r11c11 3 r12c6 5 r5c12 8)"
+    },
+    {
+     "what": "a block of clues the text step typed",
+     "stage": "parts",
+     "code": "clue-typed",
+     "detail": "13 supplied with no OCR reading: 0 from a crop it names, 13 with no source recorded; a block typed (10 in Down; more than 3 in a list): read the list again from parts"
+    }
+   ],
+   "said": [
+    {
+     "kind": "ai",
+     "answer": "notready",
+     "at": "2026-11-01",
+     "stale": true,
+     "who": "Claude (AI proof reviewer, claude-sonnet-5-5)"
+    }
+   ],
+   "check": {
+    "ok": false,
+    "findings": [
+     "clue-empty",
+     "grid-unsolved",
+     "triage-doubt"
+    ]
+   }
+  },
+  {
+   "pid": "nyw1914-03-01-L000",
+   "xdid": "",
+   "title": "",
+   "date": "1914-03-01",
+   "status": "held",
+   "reason": "needs-work",
+   "rule": "",
+   "ships_with": "",
+   "queue": "broken",
+   "group": "",
+   "order": 6,
+   "reviewed": false,
+   "spot_check": false,
+   "why": "needs work: clue-typed; no person has said Ready (the AI proof reviewer said Ready)",
+   "asks": [],
+   "also": [],
+   "broken": [
+    {
+     "what": "a block of clues the text step typed",
+     "stage": "parts",
+     "code": "clue-typed",
+     "detail": "7 supplied with no OCR reading: 0 from a crop it names, 7 with no source recorded; a block typed (5 in Across; more than 3 in a list): read the list again from parts"
+    }
+   ],
+   "said": [
+    {
+     "kind": "ai",
+     "answer": "ready",
+     "at": "2026-11-03",
+     "who": "Claude (AI proof reviewer, claude-sonnet-5-5)"
+    }
+   ],
+   "check": {
+    "ok": false,
+    "findings": [
+     "triage-doubt"
+    ]
+   }
+  },
+  {
+   "pid": "nyw1914-03-08-L000",
+   "xdid": "",
+   "title": "",
+   "date": "1914-03-08",
+   "status": "held",
+   "reason": "proof-stale",
+   "rule": "",
+   "ships_with": "",
+   "queue": "unchecked",
+   "group": "",
+   "order": 2,
+   "reviewed": false,
+   "spot_check": false,
+   "why": "Claude (AI proof reviewer, claude-sonnet-5-5)'s Ready was on an earlier version of the puzzle",
+   "asks": [],
+   "also": [],
+   "broken": [],
+   "said": [
+    {
+     "kind": "ai",
+     "answer": "ready",
+     "at": "2026-11-03",
+     "stale": true,
+     "who": "Claude (AI proof reviewer, claude-sonnet-5-5)"
+    }
+   ],
+   "check": {
+    "ok": false,
+    "findings": [
+     "triage-doubt"
+    ]
+   }
+  },
+  {
+   "pid": "nyw1914-03-15-L000",
+   "xdid": "",
+   "title": "",
+   "date": "1914-03-15",
+   "status": "held",
+   "reason": "needs-work",
+   "rule": "",
+   "ships_with": "",
+   "queue": "broken",
+   "group": "",
+   "order": 7,
+   "reviewed": false,
+   "spot_check": false,
+   "why": "needs work: clue-typed; Claude (AI proof reviewer, claude-sonnet-5-5)'s Not ready was on an earlier version of the puzzle",
+   "asks": [],
+   "also": [],
+   "broken": [
+    {
+     "what": "a block of clues the text step typed",
+     "stage": "parts",
+     "code": "clue-typed",
+     "detail": "8 supplied with no OCR reading: 0 from a crop it names, 8 with no source recorded; a block typed (6 in Down; more than 3 in a list): read the list again from parts"
+    }
+   ],
+   "said": [
+    {
+     "kind": "ai",
+     "answer": "notready",
+     "at": "2026-11-03",
+     "stale": true,
+     "who": "Claude (AI proof reviewer, claude-sonnet-5-5)"
+    }
+   ],
+   "check": {
+    "ok": false,
+    "findings": [
+     "clue-missing",
+     "clue-extra",
+     "triage-doubt"
+    ]
+   }
+  },
+  {
+   "pid": "nyw1914-03-22-L001",
+   "xdid": "",
+   "title": "",
+   "date": "1914-03-22",
+   "status": "held",
+   "reason": "needs-work",
+   "rule": "",
+   "ships_with": "",
+   "queue": "broken",
+   "group": "",
+   "order": 8,
+   "reviewed": false,
+   "spot_check": false,
+   "why": "needs work: clues-unread; key-missing; Claude (AI proof reviewer, claude-sonnet-5-5)'s Not ready was on an earlier version of the puzzle",
+   "asks": [],
+   "also": [],
+   "broken": [
+    {
+     "what": "the answer key",
+     "stage": "assembly",
+     "code": "key-missing",
+     "detail": ""
+    },
+    {
+     "what": "a block of clues",
+     "stage": "parts",
+     "code": "clues-unread",
+     "detail": "A1 A8 A15 A17 A20 A27 A28 A29 …"
+    }
+   ],
+   "said": [
+    {
+     "kind": "ai",
+     "answer": "notready",
+     "at": "2026-11-01",
+     "stale": true,
+     "who": "Claude (AI proof reviewer, claude-sonnet-5-5)"
+    }
+   ],
+   "check": {
+    "ok": false,
+    "findings": [
+     "clue-missing",
+     "clue-extra",
+     "clue-empty",
+     "grid-unsolved",
+     "triage-doubt"
+    ]
+   }
+  },
+  {
+   "pid": "nyw1914-03-29-L000",
+   "xdid": "",
+   "title": "",
+   "date": "1914-03-29",
+   "status": "held",
+   "reason": "needs-work",
+   "rule": "",
+   "ships_with": "",
+   "queue": "broken",
+   "group": "",
+   "order": 9,
+   "reviewed": false,
+   "spot_check": false,
+   "why": "needs work: clue-typed; key-blacks-differ; Claude (AI proof reviewer, claude-sonnet-5-5)'s Not ready was on an earlier version of the puzzle",
+   "asks": [],
+   "also": [],
+   "broken": [
+    {
+     "what": "the answer key (its black squares differ from the grid's)",
+     "stage": "assembly",
+     "code": "key-blacks-differ",
+     "detail": "2 square(s): R6C6 R7C6 R7C7 R8C12 R9C11 R10C10"
+    },
+    {
+     "what": "a block of clues the text step typed",
+     "stage": "parts",
+     "code": "clue-typed",
+     "detail": "9 supplied with no OCR reading: 0 from a crop it names, 9 with no source recorded; a block typed (7 in Down; more than 3 in a list): read the list again from parts"
+    }
+   ],
+   "said": [
+    {
+     "kind": "ai",
+     "answer": "notready",
+     "at": "2026-11-01",
+     "stale": true,
+     "who": "Claude (AI proof reviewer, claude-sonnet-5-5)"
+    }
+   ],
+   "check": {
+    "ok": false,
+    "findings": [
+     "clue-empty",
+     "grid-unsolved",
+     "triage-doubt"
+    ]
+   }
+  },
+  {
+   "pid": "nyw1914-04-05-L001",
+   "xdid": "",
+   "title": "",
+   "date": "1914-04-05",
+   "status": "held",
+   "reason": "needs-work",
+   "rule": "",
+   "ships_with": "",
+   "queue": "broken",
+   "group": "",
+   "order": 10,
+   "reviewed": false,
+   "spot_check": false,
+   "why": "needs work: clues-unread; key-missing; verdict-missing; Claude (AI proof reviewer, claude-sonnet-5-5)'s Not ready was on an earlier version of the puzzle",
+   "asks": [],
+   "also": [],
+   "broken": [
+    {
+     "what": "the answer key",
+     "stage": "assembly",
+     "code": "key-missing",
+     "detail": ""
+    },
+    {
+     "what": "a block of clues",
+     "stage": "parts",
+     "code": "clues-unread",
+     "detail": "A4 A9 A11 A15 A19 A21 D17 D18"
+    },
+    {
+     "what": "a part the text step found missing",
+     "stage": "assembly",
+     "code": "verdict-missing",
+     "detail": ""
+    }
+   ],
+   "said": [
+    {
+     "kind": "ai",
+     "answer": "notready",
+     "at": "2026-11-01",
+     "stale": true,
+     "who": "Claude (AI proof reviewer, claude-sonnet-5-5)"
+    }
+   ],
+   "check": {
+    "ok": false,
+    "findings": [
+     "no-author",
+     "clue-missing",
+     "clue-extra",
+     "clue-empty",
+     "grid-unsolved",
+     "triage-doubt"
+    ]
+   }
+  },
+  {
+   "pid": "nyw1914-04-12-L001",
+   "xdid": "",
+   "title": "\"EASTER\"",
+   "date": "1914-04-12",
+   "status": "held",
+   "reason": "needs-work",
+   "rule": "",
+   "ships_with": "",
+   "queue": "broken",
+   "group": "",
+   "order": 11,
+   "reviewed": false,
+   "spot_check": false,
+   "why": "needs work: clue-typed; clues-unread; key-blacks-differ; Claude (AI proof reviewer, claude-sonnet-5-5)'s Not ready was on an earlier version of the puzzle",
+   "asks": [],
+   "also": [],
+   "broken": [
+    {
+     "what": "the answer key (its black squares differ from the grid's)",
+     "stage": "assembly",
+     "code": "key-blacks-differ",
+     "detail": "2 square(s): R1C1 R2C2 R3C5 R5C5"
+    },
+    {
+     "what": "a block of clues",
+     "stage": "parts",
+     "code": "clues-unread",
+     "detail": "A1 A5 D4 D12 D21"
+    },
+    {
+     "what": "a block of clues the text step typed",
+     "stage": "parts",
+     "code": "clue-typed",
+     "detail": "15 supplied with no OCR reading: 0 from a crop it names, 15 with no source recorded; a block typed (4 in Across, 11 in Down; more than 3 in a list): read the list again from parts"
+    }
+   ],
+   "said": [
+    {
+     "kind": "ai",
+     "answer": "notready",
+     "at": "2026-11-01",
+     "stale": true,
+     "who": "Claude (AI proof reviewer, claude-sonnet-5-5)"
+    }
+   ],
+   "check": {
+    "ok": false,
+    "findings": [
+     "clue-empty",
+     "grid-unsolved",
+     "triage-doubt"
+    ]
+   }
+  },
+  {
+   "pid": "nyw1914-04-19-L001",
+   "xdid": "",
+   "title": "",
+   "date": "1914-04-19",
+   "status": "held",
+   "reason": "needs-work",
+   "rule": "",
+   "ships_with": "",
+   "queue": "broken",
+   "group": "",
+   "order": 12,
+   "reviewed": false,
+   "spot_check": false,
+   "why": "needs work: clues-unread; Claude (AI proof reviewer, claude-sonnet-5-5)'s Not ready was on an earlier version of the puzzle",
+   "asks": [],
+   "also": [],
+   "broken": [
+    {
+     "what": "a block of clues",
+     "stage": "parts",
+     "code": "clues-unread",
+     "detail": "A2 A4 A9 A11 A12 A13 A17"
+    }
+   ],
+   "said": [
+    {
+     "kind": "ai",
+     "answer": "notready",
+     "at": "2026-11-01",
+     "stale": true,
+     "who": "Claude (AI proof reviewer, claude-sonnet-5-5)"
+    }
+   ],
+   "check": {
+    "ok": false,
+    "findings": [
+     "clue-missing",
+     "clue-extra",
+     "clue-empty",
+     "grid-unsolved",
+     "triage-doubt"
+    ]
+   }
+  },
+  {
+   "pid": "nyw1914-04-26-L000",
+   "xdid": "",
+   "title": "",
+   "date": "1914-04-26",
+   "status": "held",
+   "reason": "not-ready",
+   "rule": "",
+   "ships_with": "",
+   "queue": "question",
+   "group": "",
+   "order": 1,
+   "reviewed": false,
+   "spot_check": false,
+   "why": "said Not ready by Claude (AI proof reviewer, claude-sonnet-5-5): grid: Is the grid wrong in shape? The key crop reads LEAD/LADY, ASIA/BIDE, TENT/SANE, STIPPLE, SPEED, SOD with the centre block empty; the xd has TLADY, FBID, TENT.SAN, STIPPL, PEED and dots between BOAT and SEES. Re-run assembly or key matching for the right-hand and bottom words?; clue:A13: Clue 'Used by plumbers.' (13-14, LEAD) sits in A13, which the grid has no slot for; the key gives LEAD in the left-hand row. Should it move to that row's slot and the A14 text 'A gentlewoman' go with LADY?; clue:D8: D8 (BOAST by key) has no text; the crops show no clue plainly belonging to it ('Perceives.",
+   "asks": [
+    {
+     "who": "Claude (AI proof reviewer, claude-sonnet-5-5)",
+     "kind": "ai",
+     "at": "2026-11-03",
+     "row": "grid",
+     "group": "",
+     "text": "The answers crop shows LEAD, ASIA, BIDE, SANE, STIPPLE, SPEED, SOD, SEES, with the middle word of row 5 BOAT/SEES split by the centre block. The xd grid has extra letters or dots in several words (TLADY, FBID, TENT.SAN, BOAT.SEES, STIPPL, PEED, with the end letters shifted), so the xd rows do not match the printed solution."
+    },
+    {
+     "who": "Claude (AI proof reviewer, claude-sonnet-5-5)",
+     "kind": "ai",
+     "at": "2026-11-03",
+     "row": "grid",
+     "group": "",
+     "text": "Is the grid wrong in shape? The key crop reads LEAD/LADY, ASIA/BIDE, TENT/SANE, STIPPLE, SPEED, SOD with the centre block empty; the xd has TLADY, FBID, TENT.SAN, STIPPL, PEED and dots between BOAT and SEES. Re-run assembly or key matching for the right-hand and bottom words?",
+     "suggest": "send back to the key-matching stage; do not ship"
+    },
+    {
+     "who": "Claude (AI proof reviewer, claude-sonnet-5-5)",
+     "kind": "ai",
+     "at": "2026-11-03",
+     "row": "clue:A13",
+     "group": "",
+     "text": "Clue 'Used by plumbers.' (13-14, LEAD) sits in A13, which the grid has no slot for; the key gives LEAD in the left-hand row. Should it move to that row's slot and the A14 text 'A gentlewoman' go with LADY?",
+     "suggest": "move by key after the grid is fixed"
+    },
+    {
+     "who": "Claude (AI proof reviewer, claude-sonnet-5-5)",
+     "kind": "ai",
+     "at": "2026-11-03",
+     "row": "clue:D8",
+     "group": "",
+     "text": "D8 (BOAST by key) has no text; the crops show no clue plainly belonging to it ('Perceives.' 9-10 and 'Mentally sound.' 25-26 belong to SEES and SANE). Is the clue list missing a line for it, or does it need a new slot?",
+     "suggest": "leave missing; add SEES and SANE slots"
+    },
+    {
+     "who": "Claude (AI proof reviewer, claude-sonnet-5-5)",
+     "kind": "ai",
+     "at": "2026-11-03",
+     "row": "clue:A8",
+     "group": "",
+     "text": "'Perceives.' (9-10) has no slot of its own because BOAT.SEES is one slot. Should the row be split into BOAT and SEES?",
+     "suggest": "split the slot"
+    },
+    {
+     "who": "Claude (AI proof reviewer, claude-sonnet-5-5)",
+     "kind": "ai",
+     "at": "2026-11-03",
+     "row": "clue:A18",
+     "group": "",
+     "text": "'Mentally sound.' (25-26) has no slot because TENT.SAN merges two words; split into TENT and SANE?",
+     "suggest": "split the slot"
+    },
+    {
+     "who": "Claude (AI proof reviewer, claude-sonnet-5-5)",
+     "kind": "ai",
+     "at": "2026-11-03",
+     "row": "clue:D19",
+     "group": "",
+     "text": "'A hairless scalp.' (21-30, BALD) and 'Insects.' (30-29) are in the clue crops but have no slot; D19 holds 'A Mexican laborer.' Is the Down numbering misaligned for most Down words (D2 LOST, D4 LEANS, D5 BALD, D6 ROWDIES etc. read as joined strings like LEANSANT, SNEETBALD)?",
+     "suggest": "send back to assembly for Down slots"
+    },
+    {
+     "who": "Claude (AI proof reviewer, claude-sonnet-5-5)",
+     "kind": "ai",
+     "at": "2026-11-03",
+     "row": "clue:A1",
+     "group": "",
+     "text": "Many slots (A1, A14-A17, A19-A21, A23-A25, D1, D3, D5, D6, D9-D13) have no clue under their label while the crops show the clues printed with pairs; the numbering rule read the pairs in sequence. Re-run numbering with the pairs?",
+     "suggest": "re-run linked-ends numbering"
+    }
+   ],
+   "also": [
+    "slots the grid numbers with no clue: D19",
+    "clues the grid has no slot for: 21-80",
+    "clues with no text: D8",
+    "2 square(s) unsolved"
+   ],
+   "broken": [],
+   "said": [
+    {
+     "kind": "ai",
+     "answer": "notready",
+     "at": "2026-11-03",
+     "who": "Claude (AI proof reviewer, claude-sonnet-5-5)"
+    }
+   ],
+   "check": {
+    "ok": false,
+    "findings": [
+     "clue-missing",
+     "clue-extra",
+     "clue-empty",
+     "grid-unsolved",
+     "triage-doubt"
+    ]
+   }
+  },
+  {
+   "pid": "nyw1914-05-03-L000",
+   "xdid": "",
+   "title": "",
+   "date": "1914-05-03",
+   "status": "held",
+   "reason": "needs-work",
+   "rule": "",
+   "ships_with": "",
+   "queue": "broken",
+   "group": "",
+   "order": 13,
+   "reviewed": false,
+   "spot_check": false,
+   "why": "needs work: clue-typed; clues-unread; key-blacks-differ; Claude (AI proof reviewer, claude-sonnet-5-5)'s Not ready was on an earlier version of the puzzle",
+   "asks": [],
+   "also": [],
+   "broken": [
+    {
+     "what": "the answer key (its black squares differ from the grid's)",
+     "stage": "assembly",
+     "code": "key-blacks-differ",
+     "detail": "4 square(s): R1C20 R2C19 R8C3 R8C6 R9C2 R9C4 R9C16 R12C18 R13C20"
+    },
+    {
+     "what": "a block of clues",
+     "stage": "parts",
+     "code": "clues-unread",
+     "detail": "A1 A5 A10 A11 A13 A14 A16 A17 …"
+    },
+    {
+     "what": "a block of clues the text step typed",
+     "stage": "parts",
+     "code": "clue-typed",
+     "detail": "7 supplied with no OCR reading: 0 from a crop it names, 7 with no source recorded; a block typed (5 in Down; more than 3 in a list): read the list again from parts"
+    }
+   ],
+   "said": [
+    {
+     "kind": "ai",
+     "answer": "notready",
+     "at": "2026-11-01",
+     "stale": true,
+     "who": "Claude (AI proof reviewer, claude-sonnet-5-5)"
+    }
+   ],
+   "check": {
+    "ok": false,
+    "findings": [
+     "clue-missing",
+     "clue-extra",
+     "clue-empty",
+     "grid-unsolved",
+     "candidate-undecided",
+     "clue-hygiene",
+     "triage-doubt"
+    ]
+   }
+  },
+  {
+   "pid": "nyw1914-05-10-L001",
+   "xdid": "",
+   "title": "",
+   "date": "1914-05-10",
+   "status": "held",
+   "reason": "needs-work",
+   "rule": "",
+   "ships_with": "",
+   "queue": "broken",
+   "group": "",
+   "order": 14,
+   "reviewed": false,
+   "spot_check": false,
+   "why": "needs work: clues-unread; key-missing; Claude (AI proof reviewer, claude-sonnet-5-5)'s Not ready was on an earlier version of the puzzle",
+   "asks": [],
+   "also": [],
+   "broken": [
+    {
+     "what": "the answer key",
+     "stage": "assembly",
+     "code": "key-missing",
+     "detail": ""
+    },
+    {
+     "what": "a block of clues",
+     "stage": "parts",
+     "code": "clues-unread",
+     "detail": "A20 D2 D3 D4 D6 D8 D12 D13 …"
+    }
+   ],
+   "said": [
+    {
+     "kind": "ai",
+     "answer": "notready",
+     "at": "2026-11-01",
+     "stale": true,
+     "who": "Claude (AI proof reviewer, claude-sonnet-5-5)"
+    }
+   ],
+   "check": {
+    "ok": false,
+    "findings": [
+     "clue-missing",
+     "clue-extra",
+     "clue-empty",
+     "grid-unsolved",
+     "triage-doubt"
+    ]
+   }
+  },
+  {
+   "pid": "nyw1914-05-17-L001",
+   "xdid": "",
+   "title": "",
+   "date": "1914-05-17",
+   "status": "held",
+   "reason": "needs-work",
+   "rule": "",
+   "ships_with": "",
+   "queue": "broken",
+   "group": "",
+   "order": 15,
+   "reviewed": false,
+   "spot_check": false,
+   "why": "needs work: clue-typed; clues-unread; Claude (AI proof reviewer, claude-sonnet-5-5)'s Not ready was on an earlier version of the puzzle",
+   "asks": [],
+   "also": [],
+   "broken": [
+    {
+     "what": "a block of clues",
+     "stage": "parts",
+     "code": "clues-unread",
+     "detail": "A34 D6 D7 D8 D9 D12 D13 D23 …"
+    },
+    {
+     "what": "a block of clues the text step typed",
+     "stage": "parts",
+     "code": "clue-typed",
+     "detail": "11 supplied with no OCR reading: 0 from a crop it names, 11 with no source recorded; a block typed (6 in Across, 5 in Down; more than 3 in a list): read the list again from parts"
+    }
+   ],
+   "said": [
+    {
+     "kind": "ai",
+     "answer": "notready",
+     "at": "2026-11-01",
+     "stale": true,
+     "who": "Claude (AI proof reviewer, claude-sonnet-5-5)"
+    }
+   ],
+   "check": {
+    "ok": false,
+    "findings": [
+     "clue-missing",
+     "clue-extra",
+     "clue-empty",
+     "grid-unsolved",
+     "triage-doubt"
+    ]
+   }
+  },
+  {
+   "pid": "nyw1914-05-24-L001",
+   "xdid": "",
+   "title": "",
+   "date": "1914-05-24",
+   "status": "held",
+   "reason": "needs-work",
+   "rule": "",
+   "ships_with": "",
+   "queue": "broken",
+   "group": "",
+   "order": 16,
+   "reviewed": false,
+   "spot_check": false,
+   "why": "needs work: clue-typed; clues-unread; key-blacks-differ; key-digits; Claude (AI proof reviewer, claude-sonnet-5-5)'s Not ready was on an earlier version of the puzzle",
+   "asks": [],
+   "also": [],
+   "broken": [
+    {
+     "what": "the answer key (its black squares differ from the grid's)",
+     "stage": "assembly",
+     "code": "key-blacks-differ",
+     "detail": "4 square(s): R2C10 R4C12 R6C4 R7C3 R7C5 R7C6 R13C5"
+    },
+    {
+     "what": "the answer key's digits",
+     "stage": "key reading",
+     "code": "key-digits",
+     "detail": "detected: 4 key squares read as digits (r11c7 2 r2c2 5 r2c3 7 r9c7 7)"
+    },
+    {
+     "what": "a block of clues",
+     "stage": "parts",
+     "code": "clues-unread",
+     "detail": "A28 A29 A34 A35 A40 A41 A43 A44 …"
+    },
+    {
+     "what": "a block of clues the text step typed",
+     "stage": "parts",
+     "code": "clue-typed",
+     "detail": "5 supplied with no OCR reading: 0 from a crop it names, 5 with no source recorded; a block typed (5 in Across; more than 3 in a list): read the list again from parts"
+    }
+   ],
+   "said": [
+    {
+     "kind": "ai",
+     "answer": "notready",
+     "at": "2026-11-01",
+     "stale": true,
+     "who": "Claude (AI proof reviewer, claude-sonnet-5-5)"
+    }
+   ],
+   "check": {
+    "ok": false,
+    "findings": [
+     "no-author",
+     "clue-missing",
+     "clue-extra",
+     "clue-empty",
+     "grid-unsolved",
+     "triage-doubt"
+    ]
+   }
+  },
+  {
+   "pid": "nyw1914-05-31-L001",
+   "xdid": "",
+   "title": "",
+   "date": "1914-05-31",
+   "status": "held",
+   "reason": "needs-work",
+   "rule": "",
+   "ships_with": "",
+   "queue": "broken",
+   "group": "",
+   "order": 17,
+   "reviewed": false,
+   "spot_check": false,
+   "why": "needs work: clues-unread; key-missing; Claude (AI proof reviewer, claude-sonnet-5-5)'s Not ready was on an earlier version of the puzzle",
+   "asks": [],
+   "also": [],
+   "broken": [
+    {
+     "what": "the answer key",
+     "stage": "assembly",
+     "code": "key-missing",
+     "detail": ""
+    },
+    {
+     "what": "a block of clues",
+     "stage": "parts",
+     "code": "clues-unread",
+     "detail": "D2 D3 D4 D5 D6 D7 D8 D9 …"
+    }
+   ],
+   "said": [
+    {
+     "kind": "ai",
+     "answer": "notready",
+     "at": "2026-11-01",
+     "stale": true,
+     "who": "Claude (AI proof reviewer, claude-sonnet-5-5)"
+    }
+   ],
+   "check": {
+    "ok": false,
+    "findings": [
+     "clue-empty",
+     "grid-unsolved",
+     "triage-doubt"
+    ]
+   }
+  },
+  {
+   "pid": "nyw1914-06-07-L001",
+   "xdid": "",
+   "title": "",
+   "date": "1914-06-07",
+   "status": "held",
+   "reason": "needs-work",
+   "rule": "",
+   "ships_with": "",
+   "queue": "broken",
+   "group": "",
+   "order": 18,
+   "reviewed": false,
+   "spot_check": false,
+   "why": "needs work: clues-unread; key-missing; Claude (AI proof reviewer, claude-sonnet-5-5)'s Not ready was on an earlier version of the puzzle",
+   "asks": [],
+   "also": [],
+   "broken": [
+    {
+     "what": "the answer key",
+     "stage": "assembly",
+     "code": "key-missing",
+     "detail": ""
+    },
+    {
+     "what": "a block of clues",
+     "stage": "parts",
+     "code": "clues-unread",
+     "detail": "A16 A19 A20 A21 A22 A24 A25 D1 …"
+    }
+   ],
+   "said": [
+    {
+     "kind": "ai",
+     "answer": "notready",
+     "at": "2026-11-01",
+     "stale": true,
+     "who": "Claude (AI proof reviewer, claude-sonnet-5-5)"
+    }
+   ],
+   "check": {
+    "ok": false,
+    "findings": [
+     "clue-empty",
+     "grid-unsolved",
+     "triage-doubt"
+    ]
+   }
+  },
+  {
+   "pid": "nyw1914-06-14-L001",
+   "xdid": "",
+   "title": "",
+   "date": "1914-06-14",
+   "status": "held",
+   "reason": "needs-work",
+   "rule": "",
+   "ships_with": "",
+   "queue": "broken",
+   "group": "",
+   "order": 19,
+   "reviewed": false,
+   "spot_check": false,
+   "why": "needs work: clue-typed; clues-unread; key-blacks-differ; Claude (AI proof reviewer, claude-sonnet-5-5)'s Not ready was on an earlier version of the puzzle",
+   "asks": [],
+   "also": [],
+   "broken": [
+    {
+     "what": "the answer key (its black squares differ from the grid's)",
+     "stage": "assembly",
+     "code": "key-blacks-differ",
+     "detail": "1 square(s)"
+    },
+    {
+     "what": "a block of clues",
+     "stage": "parts",
+     "code": "clues-unread",
+     "detail": "A21 D4 D20"
+    },
+    {
+     "what": "a block of clues the text step typed",
+     "stage": "parts",
+     "code": "clue-typed",
+     "detail": "7 supplied with no OCR reading: 0 from a crop it names, 7 with no source recorded; a block typed (7 in Across; more than 3 in a list): read the list again from parts"
+    }
+   ],
+   "said": [
+    {
+     "kind": "ai",
+     "answer": "notready",
+     "at": "2026-11-01",
+     "stale": true,
+     "who": "Claude (AI proof reviewer, claude-sonnet-5-5)"
+    }
+   ],
+   "check": {
+    "ok": false,
+    "findings": [
+     "clue-missing",
+     "clue-extra",
+     "clue-empty",
+     "grid-unsolved",
+     "clue-hygiene",
+     "triage-doubt"
+    ]
+   }
+  },
+  {
+   "pid": "nyw1914-06-21-L001",
+   "xdid": "",
+   "title": "",
+   "date": "1914-06-21",
+   "status": "held",
+   "reason": "needs-work",
+   "rule": "",
+   "ships_with": "",
+   "queue": "broken",
+   "group": "",
+   "order": 20,
+   "reviewed": false,
+   "spot_check": false,
+   "why": "needs work: clue-typed; clues-unread; Claude (AI proof reviewer, claude-sonnet-5-5)'s Not ready was on an earlier version of the puzzle",
+   "asks": [],
+   "also": [],
+   "broken": [
+    {
+     "what": "a block of clues",
+     "stage": "parts",
+     "code": "clues-unread",
+     "detail": "A26 A27 A29 A33 A41 A42 A43 A44 …"
+    },
+    {
+     "what": "a block of clues the text step typed",
+     "stage": "parts",
+     "code": "clue-typed",
+     "detail": "18 supplied with no OCR reading: 0 from a crop it names, 18 with no source recorded; a block typed (13 in Across, 5 in Down; more than 3 in a list): read the list again from parts"
+    }
+   ],
+   "said": [
+    {
+     "kind": "ai",
+     "answer": "notready",
+     "at": "2026-11-01",
+     "stale": true,
+     "who": "Claude (AI proof reviewer, claude-sonnet-5-5)"
+    }
+   ],
+   "check": {
+    "ok": false,
+    "findings": [
+     "clue-missing",
+     "clue-extra",
+     "clue-empty",
+     "grid-unsolved",
+     "triage-doubt"
+    ]
+   }
+  },
+  {
+   "pid": "nyw1914-07-12-L001",
+   "xdid": "",
+   "title": "",
+   "date": "1914-07-12",
+   "status": "held",
+   "reason": "needs-work",
+   "rule": "",
+   "ships_with": "",
+   "queue": "broken",
+   "group": "",
+   "order": 21,
+   "reviewed": false,
+   "spot_check": false,
+   "why": "needs work: clue-typed; clues-unread; key-missing; Claude (AI proof reviewer, claude-sonnet-5-5)'s Not ready was on an earlier version of the puzzle",
+   "asks": [],
+   "also": [],
+   "broken": [
+    {
+     "what": "the answer key",
+     "stage": "assembly",
+     "code": "key-missing",
+     "detail": ""
+    },
+    {
+     "what": "a block of clues",
+     "stage": "parts",
+     "code": "clues-unread",
+     "detail": "D2 D3 D4 D5 D7 D8 D14 D16 …"
+    },
+    {
+     "what": "a block of clues the text step typed",
+     "stage": "parts",
+     "code": "clue-typed",
+     "detail": "4 supplied with no OCR reading: 0 from a crop it names, 4 with no source recorded; a block typed (4 in Across; more than 3 in a list): read the list again from parts"
+    }
+   ],
+   "said": [
+    {
+     "kind": "ai",
+     "answer": "notready",
+     "at": "2026-11-01",
+     "stale": true,
+     "who": "Claude (AI proof reviewer, claude-sonnet-5-5)"
+    }
+   ],
+   "check": {
+    "ok": false,
+    "findings": [
+     "clue-empty",
+     "grid-unsolved",
+     "triage-doubt"
+    ]
+   }
+  }
+ ]
+}

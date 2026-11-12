@@ -19,6 +19,17 @@
 #   [page."minneapolis-journal-1914-02-15".0]
 #   include = true
 
+# Publication rules (xword-ocr pubrules.py). The project manager's proposal of 2026-11-12, which
+# the owner has not objected to; not yet the owner's own word. To take it back, delete this table
+# and run triage again.
+# No title is not a question for chain C1: the Journal's column headings ("Cross-Word Puzzles /
+# Can You Solve Them?") are the page's, not the puzzle's. A title a printed line gives is still
+# the title (No. 10, 1914-02-22). What gxd's Title says is decided at the export.
+# "No byline printed" has no rule form in pubrules: it is one gap:<pid>/byline record per puzzle
+# in decisions.jsonl (20 of the 22; Nos. 16 and 23 name a contributor on the page).
+[publication]
+untitled = { note = "the World's FUN printed its cross-word puzzle under the page's column heading, with no title of its own, in the issues of chain C1", from = "1914-02-01", to = "1914-08-09" }
+
 # The World's clue style: a clue names its word by the numbers printed in its two end squares
 # ("1-2 To unite in matrimony"); xword-ocr linkedends.py.
 [ocr]

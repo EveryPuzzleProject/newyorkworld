@@ -40,7 +40,8 @@
   },
   "c14": {
    "status": "current",
-   "what": "c13 with No. 9 (02-15) re-placed from the numbers Alex typed on the proof page (the first use of the re-place loop: site-import, the ledger's num: edits as the numbering, the text step on Nos. 9 and 13 only); the Numbering section writes shaded squares as '_'"
+   "what": "c13 with No. 9 (02-15) re-placed from the numbers Alex typed on the proof page (the first use of the re-place loop: site-import, the ledger's num: edits as the numbering, the text step on Nos. 9 and 13 only); the Numbering section writes shaded squares as '_'",
+   "prepared": "2026-11-12: packets, triage, the ship record and the batch snapshot made again from c14's text step with merged code (xword-ocr aac2c09, blitz a5d2920), in the run folder C:/Users/adeja/Projects/blitz-work/runs/nyw (outside every checkout; xword-ocr run-root --pubid nyw); 8 of the 22 xd files differ from the ones on the site (key letters the text step is sure of are in the grid again). Prepared for publishing, not published: the site still shows the packets of 2026-11-05 (xword-ocr harvests/nyw-c1/proof/c14). manager/2026-11-12.md, Prepared."
   }
  }
 }
