@@ -11,7 +11,7 @@
    "oops6498"
   ]
  },
- "at": "2026-11-12T19:04:00+00:00",
+ "at": "2026-11-12T20:03:07+00:00",
  "counts": {
   "puzzles": 22,
   "shipped": 0,
@@ -20,10 +20,9 @@
   "out": 0,
   "held_by": {
    "needs-work": 17,
-   "owner-hold": 1,
+   "owner-hold": 2,
    "no-ready": 1,
-   "proof-stale": 2,
-   "not-ready": 1
+   "proof-stale": 2
   },
   "ships_with": {
    "either": 1
@@ -37,7 +36,7 @@
    "set-aside": 0,
    "not-a-crossword": 0
   },
-  "reviewed": 3,
+  "reviewed": 4,
   "spot_check": 0
  },
  "groups": [],
@@ -159,15 +158,15 @@
    "order": 0,
    "reviewed": true,
    "spot_check": false,
-   "why": "the owner said Not ready on the proof page: clues don't match the numbers",
+   "why": "the owner said Not ready on the proof page: i renumbered the grid. doesn't look like the clues match and will need to be rebuilt.",
    "asks": [
     {
      "who": "the owner",
      "kind": "owner",
-     "at": "2026-11-05",
+     "at": "2026-11-12",
      "row": "",
      "group": "",
-     "text": "clues don't match the numbers"
+     "text": "i renumbered the grid. doesn't look like the clues match and will need to be rebuilt."
     }
    ],
    "also": [
@@ -186,7 +185,7 @@
     {
      "kind": "owner",
      "answer": "notready",
-     "at": "2026-11-05",
+     "at": "2026-11-12",
      "who": "the owner"
     }
    ],
@@ -597,86 +596,23 @@
    "title": "",
    "date": "1914-04-26",
    "status": "held",
-   "reason": "not-ready",
+   "reason": "owner-hold",
    "rule": "",
    "ships_with": "",
    "queue": "question",
    "group": "",
    "order": 1,
-   "reviewed": false,
+   "reviewed": true,
    "spot_check": false,
-   "why": "said Not ready by Claude (AI proof reviewer, claude-sonnet-5-5): grid: Is the grid wrong in shape? The key crop reads LEAD/LADY, ASIA/BIDE, TENT/SANE, STIPPLE, SPEED, SOD with the centre block empty; the xd has TLADY, FBID, TENT.SAN, STIPPL, PEED and dots between BOAT and SEES. Re-run assembly or key matching for the right-hand and bottom words?; clue:A13: Clue 'Used by plumbers.' (13-14, LEAD) sits in A13, which the grid has no slot for; the key gives LEAD in the left-hand row. Should it move to that row's slot and the A14 text 'A gentlewoman' go with LADY?; clue:D8: D8 (BOAST by key) has no text; the crops show no clue plainly belonging to it ('Perceives.",
+   "why": "the owner said Not ready on the proof page: i've corrected the numbering. the clues need to be renumbered.",
    "asks": [
     {
-     "who": "Claude (AI proof reviewer, claude-sonnet-5-5)",
-     "kind": "ai",
-     "at": "2026-11-03",
-     "row": "grid",
+     "who": "the owner",
+     "kind": "owner",
+     "at": "2026-11-12",
+     "row": "",
      "group": "",
-     "text": "The answers crop shows LEAD, ASIA, BIDE, SANE, STIPPLE, SPEED, SOD, SEES, with the middle word of row 5 BOAT/SEES split by the centre block. The xd grid has extra letters or dots in several words (TLADY, FBID, TENT.SAN, BOAT.SEES, STIPPL, PEED, with the end letters shifted), so the xd rows do not match the printed solution."
-    },
-    {
-     "who": "Claude (AI proof reviewer, claude-sonnet-5-5)",
-     "kind": "ai",
-     "at": "2026-11-03",
-     "row": "grid",
-     "group": "",
-     "text": "Is the grid wrong in shape? The key crop reads LEAD/LADY, ASIA/BIDE, TENT/SANE, STIPPLE, SPEED, SOD with the centre block empty; the xd has TLADY, FBID, TENT.SAN, STIPPL, PEED and dots between BOAT and SEES. Re-run assembly or key matching for the right-hand and bottom words?",
-     "suggest": "send back to the key-matching stage; do not ship"
-    },
-    {
-     "who": "Claude (AI proof reviewer, claude-sonnet-5-5)",
-     "kind": "ai",
-     "at": "2026-11-03",
-     "row": "clue:A13",
-     "group": "",
-     "text": "Clue 'Used by plumbers.' (13-14, LEAD) sits in A13, which the grid has no slot for; the key gives LEAD in the left-hand row. Should it move to that row's slot and the A14 text 'A gentlewoman' go with LADY?",
-     "suggest": "move by key after the grid is fixed"
-    },
-    {
-     "who": "Claude (AI proof reviewer, claude-sonnet-5-5)",
-     "kind": "ai",
-     "at": "2026-11-03",
-     "row": "clue:D8",
-     "group": "",
-     "text": "D8 (BOAST by key) has no text; the crops show no clue plainly belonging to it ('Perceives.' 9-10 and 'Mentally sound.' 25-26 belong to SEES and SANE). Is the clue list missing a line for it, or does it need a new slot?",
-     "suggest": "leave missing; add SEES and SANE slots"
-    },
-    {
-     "who": "Claude (AI proof reviewer, claude-sonnet-5-5)",
-     "kind": "ai",
-     "at": "2026-11-03",
-     "row": "clue:A8",
-     "group": "",
-     "text": "'Perceives.' (9-10) has no slot of its own because BOAT.SEES is one slot. Should the row be split into BOAT and SEES?",
-     "suggest": "split the slot"
-    },
-    {
-     "who": "Claude (AI proof reviewer, claude-sonnet-5-5)",
-     "kind": "ai",
-     "at": "2026-11-03",
-     "row": "clue:A18",
-     "group": "",
-     "text": "'Mentally sound.' (25-26) has no slot because TENT.SAN merges two words; split into TENT and SANE?",
-     "suggest": "split the slot"
-    },
-    {
-     "who": "Claude (AI proof reviewer, claude-sonnet-5-5)",
-     "kind": "ai",
-     "at": "2026-11-03",
-     "row": "clue:D19",
-     "group": "",
-     "text": "'A hairless scalp.' (21-30, BALD) and 'Insects.' (30-29) are in the clue crops but have no slot; D19 holds 'A Mexican laborer.' Is the Down numbering misaligned for most Down words (D2 LOST, D4 LEANS, D5 BALD, D6 ROWDIES etc. read as joined strings like LEANSANT, SNEETBALD)?",
-     "suggest": "send back to assembly for Down slots"
-    },
-    {
-     "who": "Claude (AI proof reviewer, claude-sonnet-5-5)",
-     "kind": "ai",
-     "at": "2026-11-03",
-     "row": "clue:A1",
-     "group": "",
-     "text": "Many slots (A1, A14-A17, A19-A21, A23-A25, D1, D3, D5, D6, D9-D13) have no clue under their label while the crops show the clues printed with pairs; the numbering rule read the pairs in sequence. Re-run numbering with the pairs?",
-     "suggest": "re-run linked-ends numbering"
+     "text": "i've corrected the numbering. the clues need to be renumbered."
     }
    ],
    "also": [
@@ -692,6 +628,12 @@
      "answer": "notready",
      "at": "2026-11-03",
      "who": "Claude (AI proof reviewer, claude-sonnet-5-5)"
+    },
+    {
+     "kind": "owner",
+     "answer": "notready",
+     "at": "2026-11-12",
+     "who": "the owner"
     }
    ],
    "check": {
