@@ -11,7 +11,7 @@
    "oops6498"
   ]
  },
- "at": "2026-11-12T20:03:07+00:00",
+ "at": "2026-11-13T02:41:37+00:00",
  "counts": {
   "puzzles": 22,
   "shipped": 0,
@@ -19,17 +19,17 @@
   "held": 22,
   "out": 0,
   "held_by": {
+   "proof-stale": 3,
    "needs-work": 17,
-   "owner-hold": 2,
    "no-ready": 1,
-   "proof-stale": 2
+   "owner-hold": 1
   },
   "ships_with": {
    "either": 1
   },
   "queues": {
-   "question": 2,
-   "unchecked": 3,
+   "question": 1,
+   "unchecked": 4,
    "broken": 17,
    "shippable": 0,
    "shipped": 0,
@@ -52,25 +52,18 @@
    "title": "",
    "date": "1914-02-01",
    "status": "held",
-   "reason": "needs-work",
+   "reason": "proof-stale",
    "rule": "",
    "ships_with": "",
-   "queue": "broken",
+   "queue": "unchecked",
    "group": "",
-   "order": 5,
+   "order": 1,
    "reviewed": true,
    "spot_check": false,
-   "why": "needs work: clues-unread; the owner's Ready was on an earlier version of the puzzle: look again",
+   "why": "the owner's Ready was on an earlier version of the puzzle: look again",
    "asks": [],
    "also": [],
-   "broken": [
-    {
-     "what": "a block of clues",
-     "stage": "parts",
-     "code": "clues-unread",
-     "detail": "A19 A21 A22 A24 A25"
-    }
-   ],
+   "broken": [],
    "said": [
     {
      "kind": "ai",
@@ -90,7 +83,6 @@
    "check": {
     "ok": false,
     "findings": [
-     "clue-empty",
      "triage-doubt"
     ]
    }
@@ -106,18 +98,18 @@
    "ships_with": "",
    "queue": "broken",
    "group": "",
-   "order": 6,
+   "order": 5,
    "reviewed": true,
    "spot_check": false,
-   "why": "needs work: key-blacks-differ; the owner's Ready was on an earlier version of the puzzle: look again",
+   "why": "needs work: clues-unread; the owner's Ready was on an earlier version of the puzzle: look again",
    "asks": [],
    "also": [],
    "broken": [
     {
-     "what": "the answer key (its black squares differ from the grid's)",
-     "stage": "assembly",
-     "code": "key-blacks-differ",
-     "detail": "1 square(s): R5C7 R6C6 R6C8 R7C5 R7C9 R8C6 R8C8 R9C7"
+     "what": "a block of clues",
+     "stage": "parts",
+     "code": "clues-unread",
+     "detail": "D1 D2 D3 D4 D5 D6 D8 D11 …"
     }
    ],
    "said": [
@@ -139,7 +131,7 @@
    "check": {
     "ok": false,
     "findings": [
-     "grid-unsolved",
+     "clue-empty",
      "triage-doubt"
     ]
    }
@@ -150,30 +142,25 @@
    "title": "",
    "date": "1914-02-15",
    "status": "held",
-   "reason": "owner-hold",
+   "reason": "needs-work",
    "rule": "",
    "ships_with": "",
-   "queue": "question",
+   "queue": "broken",
    "group": "",
-   "order": 0,
+   "order": 6,
    "reviewed": true,
    "spot_check": false,
-   "why": "the owner said Not ready on the proof page: i renumbered the grid. doesn't look like the clues match and will need to be rebuilt.",
-   "asks": [
+   "why": "needs work after the reviewer's fixes to the grid were read in: clues-unread; the owner said Not ready on the proof page: i renumbered the grid. doesn't look like the clues match and will need to be rebuilt.",
+   "asks": [],
+   "also": [],
+   "broken": [
     {
-     "who": "the owner",
-     "kind": "owner",
-     "at": "2026-11-12",
-     "row": "",
-     "group": "",
-     "text": "i renumbered the grid. doesn't look like the clues match and will need to be rebuilt."
+     "what": "a block of clues",
+     "stage": "parts",
+     "code": "clues-unread",
+     "detail": "A2 A6 D7 D17 D18"
     }
    ],
-   "also": [
-    "clues with no text: A2 A6 D19 D22",
-    "2 square(s) unsolved"
-   ],
-   "broken": [],
    "said": [
     {
      "kind": "ai",
@@ -193,10 +180,19 @@
     "ok": false,
     "findings": [
      "clue-empty",
-     "grid-unsolved",
      "triage-doubt"
     ]
-   }
+   },
+   "asked": [
+    {
+     "who": "the owner",
+     "kind": "owner",
+     "at": "2026-11-12",
+     "row": "",
+     "group": "",
+     "text": "i renumbered the grid. doesn't look like the clues match and will need to be rebuilt."
+    }
+   ]
   },
   {
    "pid": "nyw1914-02-22-L000",
@@ -324,7 +320,10 @@
    "spot_check": false,
    "why": "Claude (AI proof reviewer, claude-sonnet-5-5)'s Not ready was on an earlier version of the puzzle",
    "asks": [],
-   "also": [],
+   "also": [
+    "slots the grid numbers with no clue: D19 D22",
+    "clues the grid has no slot for: 24-16 30-88"
+   ],
    "broken": [],
    "said": [
     {
@@ -601,7 +600,7 @@
    "ships_with": "",
    "queue": "question",
    "group": "",
-   "order": 1,
+   "order": 0,
    "reviewed": true,
    "spot_check": false,
    "why": "the owner said Not ready on the proof page: i've corrected the numbering. the clues need to be renumbered.",
@@ -616,10 +615,7 @@
     }
    ],
    "also": [
-    "slots the grid numbers with no clue: D19",
-    "clues the grid has no slot for: 21-80",
-    "clues with no text: D8",
-    "2 square(s) unsolved"
+    "clues with no text: D1"
    ],
    "broken": [],
    "said": [
@@ -627,6 +623,7 @@
      "kind": "ai",
      "answer": "notready",
      "at": "2026-11-03",
+     "stale": true,
      "who": "Claude (AI proof reviewer, claude-sonnet-5-5)"
     },
     {
@@ -639,10 +636,7 @@
    "check": {
     "ok": false,
     "findings": [
-     "clue-missing",
-     "clue-extra",
      "clue-empty",
-     "grid-unsolved",
      "triage-doubt"
     ]
    }
