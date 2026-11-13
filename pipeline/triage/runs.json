@@ -40,7 +40,8 @@
   },
   "c14": {
    "status": "current",
-   "what": "c13 with No. 9 (02-15) re-placed from the numbers Alex typed on the proof page (the first use of the re-place loop: site-import, the ledger's num: edits as the numbering, the text step on Nos. 9 and 13 only); the Numbering section writes shaded squares as '_'"
+   "what": "c13 with No. 9 (02-15) re-placed from the numbers Alex typed on the proof page (the first use of the re-place loop: site-import, the ledger's num: edits as the numbering, the text step on Nos. 9 and 13 only); the Numbering section writes shaded squares as '_'",
+   "prepared": "2026-11-12: packets, triage, the ship record and the batch snapshot made again from c14's text step with merged code (xword-ocr aac2c09, blitz a5d2920), in the run folder C:/Users/adeja/Projects/blitz-work/runs/nyw (outside every checkout; xword-ocr run-root --pubid nyw); 8 of the 22 xd files differ from the ones on the site (key letters the text step is sure of are in the grid again). Published 2026-11-12 (the owner's yes in the manager's session): the site shows these packets and the batch page has the snapshot and its ship record. manager/2026-11-12.md, Prepared. Later on 2026-11-12, by the owner's decision (\"Yes, doubt not hold\"): clue-typed is out of the ship rule's hold codes and settled as a proof-page doubt in 15 puzzles; triage, the ship record and the snapshot made again locally (2 on a question, 3 not checked, 17 broken); published the same night with the owner's yes. Then, by the owner's \"Yes, re-place them\" (2026-11-12): Nos. 8, 9 and 19 re-placed from the owner's grid, letter and number fixes and No. 7 repacked (xword-ocr 2a5e53f, blitz 2173b8f), the text step run on those four (Sonnet), triage, the ship record and the snapshot made again locally (1 on a question, 4 not checked, 17 broken); a backup of the run folder as it was is in backup-2026-11-12-before-replace; published 2026-11-13 with the owner's yes."
   }
  }
 }

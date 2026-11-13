@@ -1,0 +1,9 @@
+{
+ "_about": "The ship rule's options for the New York World (blitz ship; blitz design/ship.md). ai_ready: off | both | either (whether an AI's Ready counts as the one Ready when no person has said it). off for the World: the project manager's proposal of 2026-11-12, which the owner has not objected to; not yet the owner's own word (22 puzzles are a short pass for a person, the clue placing is inferred, and the AI reviewer's verdicts on these moved between rounds; the other publications have both). hold_codes: triage reason codes that hold a puzzle whoever said Ready. Empty for the World by the owner's decision of 2026-11-12: asked \"For the World, let clue-typed show as a doubt instead of holding a puzzle you've said Ready on?\", the owner answered \"Yes, doubt not hold\" (GAMES and the Collegian keep clue-typed here). ignore: review-site accounts whose decisions don't count. owner: the owner's own accounts on the review site, whose decisions override as the owner's do (oops6498 is Alex: confirmed for GAMES 2026-11-10).",
+ "ai_ready": "off",
+ "hold_codes": [],
+ "ignore": [],
+ "owner": [
+  "oops6498"
+ ]
+}
