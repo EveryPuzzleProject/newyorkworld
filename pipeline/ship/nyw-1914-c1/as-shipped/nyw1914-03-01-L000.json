@@ -1,0 +1,192 @@
+{
+ "_about": "blitz ship: the xd exactly as `blitz ship --write` writes it for this puzzle, with the record of every edit behind it (design/ship.md, \"The xd as it will ship\"). Made with the batch's ship record; stale when the record is made again.",
+ "pid": "nyw1914-03-01-L000",
+ "xdid": "nyw1914-03-01",
+ "batch": "nyw-1914-c1",
+ "run": "c14",
+ "at": "2026-11-13T19:53:11+00:00",
+ "status": "shipped",
+ "xd": "Date: 1914-03-01\nRights: Public domain in the US (published before 1931)\nSolution: matched\nSolution-Source: https://www.newspapers.com/image/810516697/\nSource: https://www.newspapers.com/image/810515275/\nAssembly: hands-off: the harvest's regions, parts linked by assembly (xword-ocr), no person's edits\nNumbering-Rule: across ends, then the rest (23 of 28 clue pairs read name a word under it, 5 more a digit off)\nClues: linked ends: see Numbering\nNumber: 11\nText-Review: AI reviewer (claude-sonnet-5-5): 15 change(s), listed in the review\n\n\n______Z______\n_____WED_____\n____HABIT____\n___JANUARY___\n__PALE_LOOK__\n_DOVE___TUNA_\nYOKE_____NOTE\n_WELD___AGUE_\n__RIOT_FRET__\n___NOISIER___\n____MELBA____\n_____SIS_____\n______P______\n\n\n1-2. To unite in matrimony. ~ WED\n3-4. A woman's costume for horseback riding. ~ HABIT\n5-6. One month. ~ JANUARY\n7-8. Lacking in color. ~ PALE\n9-10. Behold. ~ LOOK\n11-12. A bird. ~ DOVE\n13-14. A West Indian prickly pear. ~ TUNA\n15-16. A cross bar attachment for driving oxen. ~ YOKE\n17-18. A brief letter. ~ NOTE\n19-20. To declare in card-playing. ~ WELD\n21-22. Chills and fever. ~ AGUE\n23-24. A tumultuous disturbance. ~ RIOT\n25-26. To be irritated or worried. ~ FRET\n27-28. More than noisy. ~ NOISIER\n29-30. A famous singer. ~ MELBA\n31-32. An abbreviation of sister. ~ SIS\n\n33-34. A Brahmin ox. ~ ZEBU\n1-8. What the moon does. ~ WANE\n2-9. The face of a watch. ~ DIAL\n3-12. Of vigorous health. ~ HALE\n4-13. A pace. ~ TROT\n5-27. A short, light spear. ~ JAVELIN\n6-28. Not older. ~ YOUNGER\n7-23. A card game. ~ POKER\n10-26. Used in Russian prisons. ~ KNOUT\n11-19. A don. ~ DOW\n14-22. The goddess of malicious mischief. ~ ATE\n20-29. Condemnatory judgment. ~ DOOM\n21-30. Space. ~ AREA\n24-31. Bonds. ~ TIES\n25-32. Humorous prevarications. ~ FIBS\n35-36. A sudden slide. ~ SLIP\n\n\nPrinted with puzzle:\nSOLUTION NEXT WEEK.\nSolutions to Last Week's Puszles To solve the pumle of the thtrty-atx atrdles and the atz oenta, place the first cent on the third cirole in the top row; the second cent on the sixth eircle, second row; third, seeond circle, third row; fourth, fifth cirole, fourth row: fifth, first olrole, fifth row, and sixth, fourth circle, bottom row. WHAT AM 11-Thera. A CHARADE-Nameless. AN ENIGMA-U, Yeu, Hugh, Yew, Hew. FUN'S WEEKLY RID- DLE-When did George Washington shoot 120 hares at one shot? When he shot at a wig. Herewith is shown the Bo  e ore Washington cross - word puzsle. An easter and l eas complicated cross- day    te\n\nAssembly flags:\nkey found in the next issue\n\nOCR review flags:\nA6: pair-corrected:5-8\nA12: missing\nA18: missing\nA19: missing\nA21: missing\nA24: missing\nD13: missing\nD20: missing\nD21: pair-corrected:-32\nD23: low-ocr-score\n\nClue style: each clue names its word by the numbers printed in its two end squares, as the World's FUN did in 1913-14; the words run across or down as the grid has them. The numbers were decided from the grid and the clue list (Numbering-Rule) and are listed under Numbering. The shaded squares are the template's, not black squares of the puzzle ('_', as gxd writes nyw1913-12-28).\n\nClues read with a pair no word of the grid took (the pair misread, the grid's shape wrong, or a square with a printed letter):\n12-14. A West Indian prfekly pear.\n1-22. Chilla and fever.\n-24. A tumultuous disturbance.\n9-80. A famous singer.\n24-21. Bonds.\n\nNumbering: a=10 A=36\n______x______\n_____1.2_____\n____3...4____\n___5..y..6___\n__7..8_9..a__\n_b..c___d..e_\nf..g_____h..i\n_j..k___l..m_\n__n..o_p..q__\n___r..z..s___\n____t...u____\n_____v.w_____\n______A______\n\nText step, unsure:\nL15: crop shows the number as No 11\nD23: key SLIP fits 'A sudden slide.' (printed 35-36); text read ok\n",
+ "xd_fp": "fc81ea721154",
+ "packet": "nyw/proof/c14/nyw1914-03-01-L000",
+ "packet_xd": "0e63e4ec84a4",
+ "decision": {
+  "rule": "owner",
+  "ai_ready": "off",
+  "why": "in xd/ as nyw1914-03-01: Ready by the owner",
+  "said": [
+   {
+    "kind": "ai",
+    "answer": "ready",
+    "at": "2026-11-03",
+    "who": "Claude (AI proof reviewer, claude-sonnet-5-5)"
+   },
+   {
+    "kind": "owner",
+    "answer": "ready",
+    "at": "2026-11-13",
+    "who": "the owner"
+   }
+  ]
+ },
+ "edits": {
+  "records": [
+   {
+    "key": "clue:D23",
+    "what": "clue",
+    "class": "reading",
+    "before": "A sudden alide.",
+    "after": "A sudden slide.",
+    "by": "Claude (AI proof reviewer, claude-sonnet-5-5)",
+    "kind": "ai",
+    "via": "agent review",
+    "at": "2026-11-03T20:40:13Z",
+    "stage": "proof review",
+    "why": "The crop reads 'A sudden slide.' (35-36); 'alide' was an OCR slip, and SLIP fits.",
+    "evidence": {
+     "proof": "https://blitz.xwordapp.com/review/?p=nyw1914-03-01-L000&k=clue:D23",
+     "image": "page.jpg",
+     "box": [
+      194,
+      533,
+      283,
+      548
+     ]
+    },
+    "pair": "35-36"
+   }
+  ],
+  "packet": [
+   {
+    "key": "line:B15",
+    "what": "printed line",
+    "before": "No. ? (the label in the grid's centre block: unread)",
+    "after": "No. 11",
+    "by": "AI reviewer · claude-sonnet-5-5",
+    "stage": "text review",
+    "why": "Changed by the AI reviewer: read from the crop of the grid's centre block"
+   },
+   {
+    "key": "clue:A12",
+    "what": "clue",
+    "before": "",
+    "after": "A West Indian prickly pear.",
+    "by": "AI reviewer · claude-sonnet-5-5",
+    "stage": "text review",
+    "why": "Changed by the AI reviewer: missing; printed 13-14, key TUNA"
+   },
+   {
+    "key": "clue:A18",
+    "what": "clue",
+    "before": "",
+    "after": "Chills and fever.",
+    "by": "AI reviewer · claude-sonnet-5-5",
+    "stage": "text review",
+    "why": "Changed by the AI reviewer: missing; printed 21-22, key AGUE"
+   },
+   {
+    "key": "clue:A19",
+    "what": "clue",
+    "before": "",
+    "after": "A tumultuous disturbance.",
+    "by": "AI reviewer · claude-sonnet-5-5",
+    "stage": "text review",
+    "why": "Changed by the AI reviewer: missing; printed 23-24, key RIOT"
+   },
+   {
+    "key": "clue:A21",
+    "what": "clue",
+    "before": "",
+    "after": "To be irritated or worried.",
+    "by": "AI reviewer · claude-sonnet-5-5",
+    "stage": "text review",
+    "why": "Changed by the AI reviewer: missing; printed 25-26, key FRET"
+   },
+   {
+    "key": "clue:A22",
+    "what": "clue",
+    "before": "More than noiny.",
+    "after": "More than noisy.",
+    "by": "AI reviewer · claude-sonnet-5-5",
+    "stage": "text review",
+    "why": "Changed by the AI reviewer: OCR misread 'noisy'"
+   },
+   {
+    "key": "clue:A24",
+    "what": "clue",
+    "before": "",
+    "after": "A famous singer.",
+    "by": "AI reviewer · claude-sonnet-5-5",
+    "stage": "text review",
+    "why": "Changed by the AI reviewer: missing; printed 29-30, key MELBA"
+   },
+   {
+    "key": "clue:A25",
+    "what": "clue",
+    "before": "An abbreviation of stster.",
+    "after": "An abbreviation of sister.",
+    "by": "AI reviewer · claude-sonnet-5-5",
+    "stage": "text review",
+    "why": "Changed by the AI reviewer: OCR misread 'sister'"
+   },
+   {
+    "key": "clue:D10",
+    "what": "clue",
+    "before": "Used in Russian prisons. mischief.",
+    "after": "Used in Russian prisons.",
+    "by": "AI reviewer · claude-sonnet-5-5",
+    "stage": "text review",
+    "why": "Changed by the AI reviewer: 'mischief.' belongs to D13's clue, split onto this one"
+   },
+   {
+    "key": "clue:D13",
+    "what": "clue",
+    "before": "",
+    "after": "The goddess of malicious mischief.",
+    "by": "AI reviewer · claude-sonnet-5-5",
+    "stage": "text review",
+    "why": "Changed by the AI reviewer: missing; printed 14-22, key ATE; text split onto D10"
+   },
+   {
+    "key": "clue:D17",
+    "what": "clue",
+    "before": "Condemnatory fudgment.",
+    "after": "Condemnatory judgment.",
+    "by": "AI reviewer · claude-sonnet-5-5",
+    "stage": "text review",
+    "why": "Changed by the AI reviewer: OCR misread 'judgment'"
+   },
+   {
+    "key": "clue:D20",
+    "what": "clue",
+    "before": "",
+    "after": "Bonds.",
+    "by": "AI reviewer · claude-sonnet-5-5",
+    "stage": "text review",
+    "why": "Changed by the AI reviewer: missing; printed 24-31, key TIES"
+   },
+   {
+    "key": "clue:D21",
+    "what": "clue",
+    "before": "Humòrous prevarications.",
+    "after": "Humorous prevarications.",
+    "by": "AI reviewer · claude-sonnet-5-5",
+    "stage": "text review",
+    "why": "Changed by the AI reviewer: OCR accent mark on 'Humorous'"
+   }
+  ]
+ },
+ "corrections": [],
+ "notes": [],
+ "proposals": [],
+ "printed": [
+  {
+   "label": "instructions",
+   "text": "SOLUTION NEXT WEEK."
+  },
+  {
+   "label": "other",
+   "text": "Solutions to Last Week's Puszles To solve the pumle of the thtrty-atx atrdles and the atz oenta, place the first cent on the third cirole in the top row; the second cent on the sixth eircle, second row; third, seeond circle, third row; fourth, fifth cirole, fourth row: fifth, first olrole, fifth row, and sixth, fourth circle, bottom row. WHAT AM 11-Thera. A CHARADE-Nameless. AN ENIGMA-U, Yeu, Hugh, Yew, Hew. FUN'S WEEKLY RID- DLE-When did George Washington shoot 120 hares at one shot? When he shot at a wig. Herewith is shown the Bo  e ore Washington cross - word puzsle. An easter and l eas complicated cross- day    te"
+  }
+ ]
+}
