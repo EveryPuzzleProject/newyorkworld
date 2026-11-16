@@ -9,11 +9,17 @@ milwaukee-sentinel	1914-08-30	1914-11-22	1914-09-06 1914-09-13 1914-09-20 1914-0
 minneapolis-journal	1914-11-08	1914-11-22	1914-11-15	unknown	vs 1914-11-08 none: no solution grid; only text 'Solution to the European War Puzzle'
 milwaukee-sentinel	1914-11-29	1914-12-20	1914-12-06 1914-12-13	missing-puzzle	no
 minneapolis-journal	1915-01-03	1915-01-17	1915-01-10	skip-confirmed	vs 1915-01-03 yes: large filled diamond ~29 wide; previous puzzle diamond ~29 wide
+milwaukee-sentinel	1915-01-10	1915-01-24	1915-01-17	unknown	
+milwaukee-sentinel	1915-01-24	1915-02-07	1915-01-31	unknown	
 minneapolis-journal	1915-01-24	1915-01-31		mystery	vs 1915-01-24 no: solution is a large ~19-wide diamond (D/FAN/ORION/OPOSSUM...); previous puzzle is a letter F shape
+milwaukee-sentinel	1915-02-07	1915-02-21	1915-02-14	unknown	
 minneapolis-journal	1915-02-07	1915-03-07	1915-02-14 1915-02-21 1915-02-28	unknown	vs 1915-02-07 none: No solution grid on page; text says solution next week
+milwaukee-sentinel	1915-03-28	1915-04-25	1915-04-04 1915-04-11 1915-04-18	unknown	
+milwaukee-sentinel	1915-05-02	1915-06-13	1915-05-09 1915-05-16 1915-05-23 1915-05-30 1915-06-06	unknown	
 minneapolis-journal	1915-05-09	1915-05-23	1915-05-16	unknown	vs 1915-05-09 none: No solution grid on page
 minneapolis-journal	1915-05-23	1915-06-06	1915-05-30	unknown	vs 1915-05-23 none (medium): No solution grid on page (puzzle only)
 minneapolis-journal	1915-06-06	1915-06-27	1915-06-13 1915-06-20	missing-puzzle	vs 1915-06-06 no (medium): Solution is an X-shaped ~20x25 grid; prev found puzzle is Jun 6's 24x24 square (Jun 13 page carries no puzzle), so Jun 20 puzzle is missing
+milwaukee-sentinel	1915-07-04	1915-07-18	1915-07-11	unknown	
 minneapolis-journal	1915-07-25	1915-11-21	1915-08-01 1915-08-08 1915-08-15 1915-08-22 1915-08-29 1915-09-05 1915-09-12 1915-09-19 1915-09-26 1915-10-03 1915-10-10 1915-10-17 1915-10-24 1915-10-31 1915-11-07 1915-11-14	unknown	vs 1915-07-25 none: No solution grid; text says solution next week
 los-angeles-tribune	1916-08-06	1916-09-03	1916-08-13 1916-08-20 1916-08-27	missing-puzzle	vs 1916-08-06 no (high that printed_no is none (grid centre has no number or shaded cross)): Previous page (08-06, filed Rural_World) puzzle is a symmetric ~15x15 grid starting '1-2 Hide'; this page's solution is a different irregular grid (top row starts 'A CON DO PAT'), i.e. the puzzle of a later week (about 08-27); gap of weeks.
 minneapolis-journal	1916-08-06	1916-08-20	1916-08-13	missing-puzzle	vs 1916-08-06 no (high none printed)

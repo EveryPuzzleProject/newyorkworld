@@ -11,8 +11,9 @@ puzzles rather than falling behind. A zero offset in January 1917 therefore hold
 1915-11-21: World No. = the number of the Journal's own date. Marked inferred on every row.
 The exception is November 1916, when the Journal ran a week late: tools/world_dates_copies.py corrects it.
 
-Not covered: 1915-01-17 to 07-25, where the offset is three weeks at No. 54 and grows by one for
-each Sunday the Journal skipped, with three February Sundays unknown: a range, not a number.
+Not covered: 1915-01-17 to 11-14. tools/world_dates_1915.py dates those from the Milwaukee
+Sentinel, which carried FUN on the World's own Sundays; the Journal was on the same dates (the old
+reading of a three-to-six-week offset came from the weekly count, not from the Journal).
 """
 import datetime as dt
 import subprocess

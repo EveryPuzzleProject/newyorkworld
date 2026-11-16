@@ -47,6 +47,10 @@ does, because the World printed the numbers on either side, so that puzzle exist
 
 ## Result
 
+> **1915 updated 2026-11-16:** the Milwaukee Sentinel's 1915 FUN pages date the Journal's 1915 chains
+> and add ten puzzles; see [SENTINEL-1915.md](SENTINEL-1915.md). The tables below are the 2026-10-31 snapshot;
+> `chains.tsv` is current.
+
 9 chains, 8 breaks, 2 of the links tentative. All 828 pages are accounted for in `chain_pages.tsv`: 699 sit in exactly
 one chain, 117 are the Globe's own weekday series, 11 hold no puzzle, and one, the World's
 1914-01-11 (No. 4), comes before the chains start on 1914-02-01 (No. 7).

@@ -5,7 +5,9 @@ The first crossword ran in the New York World's Sunday supplement, FUN, on Decem
 other papers reprinted the section, crossword and all, almost from the start. This is the
 Every Puzzle Project's record of the World's series, one row per Sunday, built from those
 reprints: the Minneapolis Journal from February 1, 1914, and, where the Journal stops
-carrying FUN, the Pittsburgh Press (from 1916-06-11) or the Tacoma Daily Ledger.
+carrying FUN, the Pittsburgh Press (from 1916-06-11) or the Tacoma Daily Ledger. The
+Milwaukee Sentinel carried the FUN section itself on the World's own Sundays (1914 and 1915 so
+far): it dates the series where the others can't ([docs/SENTINEL-1915.md](docs/SENTINEL-1915.md)).
 
 **Status page: https://everypuzzleproject.github.io/newyorkworld/** (every Sunday as
 clipped / to clip / missing, mismatches flagged, and the next batch to clip).
