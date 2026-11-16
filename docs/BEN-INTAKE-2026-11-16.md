@@ -169,3 +169,32 @@ November. The Sentinel of **1914-08-30** (No. 35 with "Solution to No. 33"?) or 
 existed. The offset grew from zero (No. 7 on 1914-02-01) to three by August, mostly in
 May–June, where the Journal's flags for Nos. 22 and 23 sit. Sentinel pages for
 **1914-05-17, 05-24 and 06-07** would show whether FUN skipped those Sundays.
+
+## Addendum: the Sentinel of May and June 1914 (Alex, by search; pages not yet saved)
+
+Alex reports finding the Sentinel's No. 20 on 1914-05-03 and No. 21 on 05-10, and on 06-07
+"the solution to cross-word puzzle No. 22, given in last week's Fun" (an hourglass grid, the
+same shape as the Journal's No. 22). His searches found nothing on 05-17, 05-24 and 05-31.
+The 06-07 page means No. 22 was in the Sentinel's FUN of 05-31, so that no-hit is a search
+miss. The three no-hits are recorded in `searches.tsv`; the found pages wait until they are
+saved.
+
+The Sentinel's run matches the Journal's week for week: No. 21 on 05-10, only its solution on
+05-17, a map-of-Mexico game and no crossword on 05-24, No. 22 on 05-31, only No. 22's
+solution on 06-07, and No. 23 on 06-14. Two papers that copy the same weeks in step point to
+**FUN itself running no new crossword on three Sundays: 1914-05-17, 05-24 and 06-07**, rather
+than to delay by the papers. That accounts for the whole three-week offset from the weekly
+count by June. With the World's 33-to-35 jump in August (offset three to two), and the
+November and December holiday puzzles on their own dates, a consistent account of 1914 is:
+
+- Nos. 1-21: the count holds (No. *n* on 1913-12-21 plus *n*−1 weeks).
+- FUN runs no new crossword on 05-17, 05-24 and 06-07.
+- Nos. 22-33: the count plus three weeks (No. 22 on 05-31, No. 33 on 08-23).
+- No. 34 is never used.
+- Nos. 35-54 and on: the count plus two weeks (No. 35 on 08-30, No. 47 on 11-22, No. 52 on 12-27).
+
+On this account the Minneapolis Journal ran FUN on its own dates throughout 1914. Its "lag"
+on the status page is the count's error, and the record's flags at Nos. 22, 23 and 35 are
+the World's own skips. The README's dating rule and `status.tsv`'s inferred dates are left
+as they are for Alex to decide. Still to check: whether the Sentinel also goes from No. 33
+to No. 35 (1914-08-23 and 08-30), and No. 46 (Sentinel 1914-11-15).
