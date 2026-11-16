@@ -61,5 +61,9 @@ In order of value (the status page's "Missing puzzles" list now names these too)
    05-02's pinwheel.
 7. Back into 1914 and to December 1913: Nos. 1, 2, 4 and the solutions the 1914 intake asked for.
 
+**The run ends in late 1915.** Alex found no crossword in the Sentinel in 1916 at all (GenealogyBank,
+2026-11-16), so the Sentinel can't date the World after 1915, and the ten Sundays to 11-21 are the
+only way it can reach the 1916-17 chain.
+
 Not recorded as searches: the Sundays between the saved ones. Whether GenealogyBank's search
 missed them or they weren't saved isn't known, so they stay unsearched rather than `no-hit`.
