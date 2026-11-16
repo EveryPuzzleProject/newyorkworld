@@ -126,3 +126,46 @@ Journal, both papers were following the same syndicated schedule and the AMERICA
 No. 31. One numbered Sentinel page decides it: **1914-08-02** (No. 33 if on date, No. 30 if
 behind) or **1914-08-16** (No. 35 or No. 32; its solution box should also be the AMERICA
 puzzle's).
+
+## Addendum: the Sentinel of November and December 1914 (Alex)
+
+Alex saved four more Sentinel FUN pages. Each has the same puzzle as the Minneapolis
+Journal's page of the same day:
+
+| File | Date | Puzzle | Number | Solution box |
+|---|---|---|---|---|
+| `Milwaukee_Sentinel_1914_11_22_77.png` | 1914-11-22 | FUN'S THANKSGIVING CROSS-WORD PUZZLE, 2-3 A rodent | **No 47, printed** | last week's: No. 46 (no held copy) |
+| `Milwaukee_Sentinel_1914_11_29_79.png` | 1914-11-29 | FUN'S CROSS-WORD PUZZLE, double diamond by B. A. Havens, 1-10 To fall behind | **No 48, printed** | No. 47 (linked, `kind=grid`) |
+| `Milwaukee_Sentinel_1914_12_20_66.png` | 1914-12-20 | FUN'S CHRISTMAS CROSS-WORD PUZZLE, half-filled, no clues | none; No. 51 by sequence | No. 50 |
+| `Milwaukee_Sentinel_1914_12_27_59.png` | 1914-12-27 | FUN'S NEW YEAR CROSS-WORD PUZZLE, 2-3 Away from | none; No. 52 by sequence | No. 51 (linked, `kind=grid`) |
+
+**The Journal's late-1914 numbers were one too low, and are corrected.** The record had
+numbered the Journal's unnumbered puzzles from 1914-11-22 by sequence, assuming the dropped
+week came later: Thanksgiving 46, then 47 to 52. The Sentinel prints 47 and 48 on the same
+puzzles. The Journal's seven rows from 1914-11-22 to 1915-01-03 are renumbered 47 to 53,
+and each says why in `match`. The Journal never ran **No. 46**: its 11-15 page has only
+No. 45's solution. No. 46 is now wanted. Only its solution is held, in the Sentinel box of
+11-22. **No. 53** (Journal 1915-01-03) goes from wanted to have, and the Journal's printed
+No. 54 on 01-17 now follows without a gap. The Journal's flag "No. 45 to No. 54 in 10
+weeks: -1" still stands, and it is correct: the Journal did drop one puzzle, No. 46.
+
+**The World's own dates.** The holiday puzzles were written for the day they appeared:
+Thanksgiving on 11-22 (Thanksgiving was 11-26), Christmas on 12-20, and New Year on 12-27,
+whose clues say New Year's Day "arrives next Friday" and give "Jan. 1, 1915". So in late
+1914 both papers ran FUN's puzzles on FUN's own Sundays, and FUN's numbering ran **two weeks
+behind the README's weekly count** (No. 47 on 11-22, where the count puts it on 11-08). The
+"lag 2w" that `status.tsv` now shows for both papers is the count's error, not delay by the
+papers. The README's dating rule ("No. *n* on 1913-12-21 plus *n*−1 weeks") is therefore
+wrong by late 1914. This intake does not change it; that is for Alex to decide.
+
+**What this means for August and No. 34.** If the papers were also on FUN's dates in
+August, as they were in January and in November and December, then the AMERICA puzzle of
+1914-08-09 is FUN's puzzle of that day. Its place in the sequence is No. 31 (between the
+Journal's printed 30 and 32), the same as before. The jump from No. 33 (08-23) to No. 35
+(08-30) would then be **the World skipping the number 34**, not the Journal dropping a
+week. That fits the offset: three weeks behind the count in August and two weeks behind in
+November. The Sentinel of **1914-08-30** (No. 35 with "Solution to No. 33"?) or of
+**08-23** would show whether the Sentinel also goes from 33 to 35. If it does, No. 34 never
+existed. The offset grew from zero (No. 7 on 1914-02-01) to three by August, mostly in
+May–June, where the Journal's flags for Nos. 22 and 23 sit. Sentinel pages for
+**1914-05-17, 05-24 and 06-07** would show whether FUN skipped those Sundays.

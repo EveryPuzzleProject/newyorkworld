@@ -44,14 +44,14 @@ world_no	sunday_inferred	status	copies	heading	credit	fingerprint	solution_seen	
 43	1914-10-11	have	minneapolis-journal 1914-10-25 (lag 2w)	CROSS-WORD PUZZLES-NO. 43.		1-2 Away from.			
 44	1914-10-18	have	minneapolis-journal 1914-11-01 (lag 2w)	CAN YOU SOLVE IT?		1-10 A puzzle (medium)			
 45	1914-10-25	have	minneapolis-journal 1914-11-08 (lag 2w)	Cross-Word Puzzles-No. 45		1-17 A problem	minneapolis-journal 1914-11-15		
-46	1914-11-01	have	minneapolis-journal 1914-11-22 (lag 3w)	Thanksgiving Cross-Word Puzzle		2-3 A rodent.			
-47	1914-11-08	have	minneapolis-journal 1914-11-29 (lag 3w)	Cross-Word Puzzle		1-10 To fall behind.			
-48	1914-11-15	have	minneapolis-journal 1914-12-06 (lag 3w)	Cross-Word Puzzle		1-58 Best ever			
-49	1914-11-22	have	minneapolis-journal 1914-12-13 (lag 3w)	CROSS WORD PUZZLE		2-3 Something woven.			
-50	1914-11-29	have	minneapolis-journal 1914-12-20 (lag 3w)	Christmas Cross Word Puzzle		none: no clue list; letters given in grid			
-51	1914-12-06	have	minneapolis-journal 1914-12-27 (lag 3w)	CROSS-WORD PUZZLE		2-3 Away from.			
-52	1914-12-13	have	minneapolis-journal 1915-01-03 (lag 3w)	Cross-Word Puzzle	Paul West, the author	2-3 A loose fold			
-53	1914-12-20	wanted							
+46	1914-11-01	wanted					milwaukee-sentinel 1914-11-22		
+47	1914-11-08	have	milwaukee-sentinel 1914-11-22 (lag 2w); minneapolis-journal 1914-11-22 (lag 2w)	FUN'S THANKSGIVING CROSS-WORD PUZZLE No 47		2-3 A rodent	milwaukee-sentinel 1914-11-29	No. 7 on 1914-02-01 to No. 47 in 42 weeks: -2	
+48	1914-11-15	have	milwaukee-sentinel 1914-11-29 (lag 2w); minneapolis-journal 1914-11-29 (lag 2w)	FUN'S CROSS-WORD PUZZLE No 48 / SEE SOLUTION IN NEXT WEEK'S FUN	This puzzle was sent in by B. A. Havens of Prospect street, Flushing, L. I.	1-10 To fall behind			
+49	1914-11-22	have	minneapolis-journal 1914-12-06 (lag 2w)	Cross-Word Puzzle		1-58 Best ever			
+50	1914-11-29	have	minneapolis-journal 1914-12-13 (lag 2w)	CROSS WORD PUZZLE		2-3 Something woven.	milwaukee-sentinel 1914-12-20		
+51	1914-12-06	have	milwaukee-sentinel 1914-12-20 (lag 2w); minneapolis-journal 1914-12-20 (lag 2w)	FUN'S CHRISTMAS CROSS-WORD PUZZLE		none: no clue list; letters given in grid	milwaukee-sentinel 1914-12-27		
+52	1914-12-13	have	milwaukee-sentinel 1914-12-27 (lag 2w); minneapolis-journal 1914-12-27 (lag 2w)	FUN'S NEW YEAR CROSS-WORD PUZZLE		2-3 Away from			
+53	1914-12-20	have	minneapolis-journal 1915-01-03 (lag 2w)	Cross-Word Puzzle	Paul West, the author	2-3 A loose fold			
 54	1914-12-27	have	minneapolis-journal 1915-01-17 (lag 3w)	Cross-Word Puzzle No. 54 (grid label); clue heading 'Can You Solve This One?'		3-4 Atmosphere		No. 45 on 1914-11-08 to No. 54 in 10 weeks: -1	
 55	1915-01-03	wanted							
 56	1915-01-10	wanted							
