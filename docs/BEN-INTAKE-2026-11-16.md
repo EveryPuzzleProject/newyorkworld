@@ -232,3 +232,15 @@ better copy to read: the Journal's page shows the clue list only from 63-64, and
 has it in full from 1-2. No. 19's solution is linked to the Journal's No. 19 (04-26) by its
 printed label. Alex also reported the Sentinel's No. 21 on 05-10, but that page has not been
 saved yet.
+
+## Addendum: the Sentinel of 1914-05-10 and 06-07 (Alex)
+
+| File | Date | What it is |
+|---|---|---|
+| `Milwaukee_Sentinel_1914_05_10_89.png` | 1914-05-10, FUN p. 14 | **No. 21, printed**, Miss Butzinger's second puzzle; 1-2 A conveyance |
+| `Milwaukee_Sentinel_1914_05_10_90.png` | 1914-05-10 | solution only: "SOLUTION TO No 20" (linked to No. 20 of 05-03 by label) |
+| `Milwaukee_Sentinel_1914_06_07_85.png` | 1914-06-07, FUN p. 15 | solution only: "the solution to cross-word puzzle No. 22, given in last week's Fun" (linked to the Journal's No. 22 of 05-31 by label); no new crossword |
+
+Every Sentinel page from May 1914 matches the Journal's of the same day. The Sentinel now
+holds both puzzle and solution for No. 20, and the solutions to Nos. 19 and 22. Its 06-07
+page confirms that No. 22 ran on 05-31 and that 06-07 had no new crossword.
