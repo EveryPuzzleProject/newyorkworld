@@ -107,3 +107,22 @@ diamond), and the Sentinel's solution box calls it that rather than by number.
    reads badly; Newspapers.com links (clipping URLs) for all his Sentinel clippings.
 3. Any search notes he kept (Sundays he looked at and found nothing), so they can go in
    `searches.tsv`.
+
+## Addendum: the Sentinel of 1914-08-09 (Alex, looking for No. 34)
+
+Alex saved the Sentinel's FUN page of 1914-08-09 (`Milwaukee_Sentinel_1914_08_09_83.png`,
+FUN p. 15), the World's date for No. 34. It has no number and is not a new puzzle. It is
+"SOME GEOGRAPHY!", the AMERICA puzzle contributed by E. W. Fuller of New York, with the
+same grid and first clue ("1 to 2 A city in Persia") as the Minneapolis Journal's page of
+the **same day**. The record already places that puzzle at No. 31, by its position between
+the Journal's numbered Nos. 30 and 32, so the Sentinel copy is recorded as a second copy of
+No. 31, and No. 34 stays wanted.
+
+That leaves one question open. The Sentinel was on the World's dates in January 1914. If it
+still was in August, the AMERICA puzzle is No. 34. On that reading the Journal printed it on
+its World date and dropped No. 31, and that would explain the Journal's jump from No. 33 to
+No. 35 (it had already run No. 34). If the Sentinel had drifted three weeks behind like the
+Journal, both papers were following the same syndicated schedule and the AMERICA puzzle is
+No. 31. One numbered Sentinel page decides it: **1914-08-02** (No. 33 if on date, No. 30 if
+behind) or **1914-08-16** (No. 35 or No. 32; its solution box should also be the AMERICA
+puzzle's).
