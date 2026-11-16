@@ -11,7 +11,7 @@
    "oops6498"
   ]
  },
- "at": "2026-11-13T18:31:57+00:00",
+ "at": "2026-11-13T19:53:11+00:00",
  "counts": {
   "puzzles": 22,
   "shipped": 2,
@@ -91,6 +91,19 @@
     "findings": [
      "triage-doubt"
     ]
+   },
+   "printed": {
+    "head": "Printed with puzzle:",
+    "lines": [
+     3,
+     4,
+     5
+    ],
+    "edits": "applied",
+    "fixed": [
+     2
+    ],
+    "says": "the import writes this block again from the kept lines, in the packet's order, with each line's text as edited"
    }
   },
   {
@@ -140,6 +153,17 @@
      "clue-empty",
      "triage-doubt"
     ]
+   },
+   "printed": {
+    "head": "Printed with puzzle:",
+    "lines": [
+     2
+    ],
+    "edits": "applied",
+    "fixed": [
+     1
+    ],
+    "says": "the import writes this block again from the kept lines, in the packet's order, with each line's text as edited"
    }
   },
   {
@@ -198,7 +222,20 @@
      "group": "",
      "text": "i renumbered the grid. doesn't look like the clues match and will need to be rebuilt."
     }
-   ]
+   ],
+   "printed": {
+    "head": "Printed with puzzle:",
+    "lines": [
+     1,
+     4
+    ],
+    "edits": "applied",
+    "fixed": [
+     2,
+     5
+    ],
+    "says": "the import writes this block again from the kept lines, in the packet's order, with each line's text as edited"
+   }
   },
   {
    "pid": "nyw1914-02-22-L000",
@@ -241,6 +278,31 @@
      "grid-unsolved",
      "triage-doubt"
     ]
+   },
+   "printed": {
+    "head": "Printed with puzzle:",
+    "lines": [
+     7,
+     11,
+     12,
+     14,
+     16,
+     18,
+     20,
+     23,
+     24,
+     25,
+     29,
+     30,
+     32,
+     35,
+     36
+    ],
+    "edits": "applied",
+    "fixed": [
+     8
+    ],
+    "says": "the import writes this block again from the kept lines, in the packet's order, with each line's text as edited"
    }
   },
   {
@@ -280,7 +342,20 @@
     "findings": [
      "triage-doubt"
     ]
-   }
+   },
+   "printed": {
+    "head": "Printed with puzzle:",
+    "lines": [
+     17,
+     18
+    ],
+    "edits": "applied",
+    "fixed": [
+     15
+    ],
+    "says": "the import writes this block again from the kept lines, in the packet's order, with each line's text as edited"
+   },
+   "as_shipped": "fc81ea721154"
   },
   {
    "pid": "nyw1914-03-08-L000",
@@ -320,7 +395,43 @@
     "findings": [
      "triage-doubt"
     ]
-   }
+   },
+   "printed": {
+    "head": "Printed with puzzle:",
+    "lines": [
+     1,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     16,
+     17,
+     18,
+     19,
+     20,
+     21,
+     22,
+     23,
+     26,
+     27,
+     28,
+     29,
+     30
+    ],
+    "edits": "applied",
+    "fixed": [
+     25
+    ],
+    "says": "the import writes this block again from the kept lines, in the packet's order, with each line's text as edited"
+   },
+   "as_shipped": "77f8f559836b"
   },
   {
    "pid": "nyw1914-03-15-L000",
@@ -359,6 +470,17 @@
      "clue-extra",
      "triage-doubt"
     ]
+   },
+   "printed": {
+    "head": "Printed with puzzle:",
+    "lines": [
+     3,
+     11,
+     19
+    ],
+    "edits": "applied",
+    "fixed": [],
+    "says": "the import writes this block again from the kept lines, in the packet's order, with each line's text as edited"
    }
   },
   {
@@ -410,6 +532,16 @@
      "grid-unsolved",
      "triage-doubt"
     ]
+   },
+   "printed": {
+    "head": "Printed with puzzle:",
+    "lines": [
+     2,
+     3
+    ],
+    "edits": "applied",
+    "fixed": [],
+    "says": "the import writes this block again from the kept lines, in the packet's order, with each line's text as edited"
    }
   },
   {
@@ -453,6 +585,32 @@
      "grid-unsolved",
      "triage-doubt"
     ]
+   },
+   "printed": {
+    "head": "Printed with puzzle:",
+    "lines": [
+     8,
+     11,
+     31,
+     32,
+     33,
+     34,
+     35,
+     36,
+     37,
+     39,
+     40,
+     41,
+     42,
+     43,
+     44,
+     45
+    ],
+    "edits": "applied",
+    "fixed": [
+     15
+    ],
+    "says": "the import writes this block again from the kept lines, in the packet's order, with each line's text as edited"
    }
   },
   {
@@ -511,6 +669,18 @@
      "grid-unsolved",
      "triage-doubt"
     ]
+   },
+   "printed": {
+    "head": "Printed with puzzle:",
+    "lines": [
+     3,
+     4
+    ],
+    "edits": "applied",
+    "fixed": [
+     2
+    ],
+    "says": "the import writes this block again from the kept lines, in the packet's order, with each line's text as edited"
    }
   },
   {
@@ -560,6 +730,24 @@
      "grid-unsolved",
      "triage-doubt"
     ]
+   },
+   "printed": {
+    "head": "Printed with puzzle:",
+    "lines": [
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9
+    ],
+    "edits": "applied",
+    "fixed": [
+     1,
+     2
+    ],
+    "says": "the import writes this block again from the kept lines, in the packet's order, with each line's text as edited"
    }
   },
   {
@@ -605,6 +793,16 @@
      "grid-unsolved",
      "triage-doubt"
     ]
+   },
+   "printed": {
+    "head": "Printed with puzzle:",
+    "lines": [
+     2,
+     3
+    ],
+    "edits": "applied",
+    "fixed": [],
+    "says": "the import writes this block again from the kept lines, in the packet's order, with each line's text as edited"
    }
   },
   {
@@ -653,6 +851,41 @@
      "clue-empty",
      "triage-doubt"
     ]
+   },
+   "printed": {
+    "head": "Printed with puzzle:",
+    "lines": [
+     3,
+     4,
+     6,
+     7,
+     9,
+     11,
+     12,
+     13,
+     14,
+     15,
+     16,
+     17,
+     18,
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30
+    ],
+    "edits": "applied",
+    "fixed": [
+     10
+    ],
+    "says": "the import writes this block again from the kept lines, in the packet's order, with each line's text as edited"
    }
   },
   {
@@ -706,6 +939,13 @@
      "clue-hygiene",
      "triage-doubt"
     ]
+   },
+   "printed": {
+    "head": "Printed with puzzle:",
+    "lines": [],
+    "edits": "applied",
+    "fixed": [],
+    "says": "the import writes this block again from the kept lines, in the packet's order, with each line's text as edited"
    }
   },
   {
@@ -757,6 +997,15 @@
      "grid-unsolved",
      "triage-doubt"
     ]
+   },
+   "printed": {
+    "head": "Printed with puzzle:",
+    "lines": [
+     1
+    ],
+    "edits": "applied",
+    "fixed": [],
+    "says": "the import writes this block again from the kept lines, in the packet's order, with each line's text as edited"
    }
   },
   {
@@ -802,6 +1051,17 @@
      "grid-unsolved",
      "triage-doubt"
     ]
+   },
+   "printed": {
+    "head": "Printed with puzzle:",
+    "lines": [
+     2
+    ],
+    "edits": "applied",
+    "fixed": [
+     1
+    ],
+    "says": "the import writes this block again from the kept lines, in the packet's order, with each line's text as edited"
    }
   },
   {
@@ -909,6 +1169,15 @@
      "grid-unsolved",
      "triage-doubt"
     ]
+   },
+   "printed": {
+    "head": "Printed with puzzle:",
+    "lines": [],
+    "edits": "applied",
+    "fixed": [
+     2
+    ],
+    "says": "the import writes this block again from the kept lines, in the packet's order, with each line's text as edited"
    }
   },
   {
@@ -958,6 +1227,18 @@
      "grid-unsolved",
      "triage-doubt"
     ]
+   },
+   "printed": {
+    "head": "Printed with puzzle:",
+    "lines": [
+     1,
+     2,
+     3,
+     4
+    ],
+    "edits": "applied",
+    "fixed": [],
+    "says": "the import writes this block again from the kept lines, in the packet's order, with each line's text as edited"
    }
   },
   {
@@ -1010,6 +1291,19 @@
      "clue-hygiene",
      "triage-doubt"
     ]
+   },
+   "printed": {
+    "head": "Printed with puzzle:",
+    "lines": [
+     1,
+     2,
+     3,
+     5,
+     6
+    ],
+    "edits": "applied",
+    "fixed": [],
+    "says": "the import writes this block again from the kept lines, in the packet's order, with each line's text as edited"
    }
   },
   {
@@ -1055,6 +1349,21 @@
      "grid-unsolved",
      "triage-doubt"
     ]
+   },
+   "printed": {
+    "head": "Printed with puzzle:",
+    "lines": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7
+    ],
+    "edits": "applied",
+    "fixed": [],
+    "says": "the import writes this block again from the kept lines, in the packet's order, with each line's text as edited"
    }
   },
   {
@@ -1104,6 +1413,13 @@
      "grid-unsolved",
      "triage-doubt"
     ]
+   },
+   "printed": {
+    "head": "Printed with puzzle:",
+    "lines": [],
+    "edits": "applied",
+    "fixed": [],
+    "says": "the import writes this block again from the kept lines, in the packet's order, with each line's text as edited"
    }
   }
  ]
