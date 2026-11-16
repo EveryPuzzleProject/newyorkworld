@@ -10,6 +10,8 @@ computed by tools/record.py rebuild, not here.
 import collections
 import datetime as dt
 import html
+import json
+import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -39,6 +41,54 @@ def link(url: str, text: str) -> str:
 
 def no_on(date: str) -> str:
     return str((dt.date.fromisoformat(date) - dt.date(1913, 12, 21)).days // 7 + 1)
+
+
+# How far along each World puzzle is, best first. The page leads with this.
+STAGES = [
+    ("gxd", "In gxd", "transcribed and in the gxd corpus"),
+    ("shipped", "Transcribed", "transcribed and reviewed: an .xd in this repo's xd/ folder"),
+    ("review", "In review", "read by OCR, on the review site, not yet passed"),
+    ("have", "Page found", "a copy is held, not yet read"),
+    ("wanted", "Wanted", "no copy found yet"),
+    ("unused", "No such puzzle", "the World skipped this number"),
+]
+STAGE_LABEL = {k: label for k, label, _ in STAGES}
+SERIES_END = 211  # the run this page is about: No. 211 is 1917-12-30; later rows are the Globe's, kept for research
+REVIEW = "https://blitz.xwordapp.com/review/?p={pid}"
+GXD_NOTE = re.compile(r"in gxd as (nyw\d{4}-\d\d-\d\d)")  # status notes record a puzzle already in gxd from elsewhere
+UNUSED_NOTE = re.compile(r"never used")  # status notes record a number the World skipped
+
+
+def stages(status: list[dict]) -> dict[str, dict]:
+    """World No. -> {stage, why, link}: from status (have / wanted, and two notes phrases), the
+    pipeline's ship record (pipeline/ship/*.json: OCR'd, in review, shipped) and xd/. The pipeline
+    names puzzles by the inferred World date, so its rows are matched to numbers by that date."""
+    no_by_date = {r["sunday_inferred"]: r["world_no"] for r in status}
+    ship = {}
+    for f in sorted((ROOT / "pipeline" / "ship").glob("*.json")):
+        for p in json.loads(f.read_text(encoding="utf-8")).get("puzzles", []):
+            n = no_by_date.get(p.get("date", ""))
+            if n:
+                ship[n] = p
+    xd = {no_by_date.get(p.stem[3:13]) for p in (ROOT / "xd").glob("nyw*.xd")}
+    out = {}
+    for r in status:
+        n, notes = r["world_no"], r["notes"]
+        p = ship.get(n)
+        m = GXD_NOTE.search(notes)
+        if m:
+            out[n] = {"stage": "gxd", "why": f"in gxd as {m.group(1)}", "link": ""}
+        elif n in xd or (p and p.get("status") == "shipped"):
+            out[n] = {"stage": "shipped", "why": "shipped from batch " + (p and p.get("pid", "") or ""), "link": REVIEW.format(pid=p["pid"]) if p else ""}
+        elif p:
+            out[n] = {"stage": "review", "why": f"held: {p.get('why') or p.get('reason', '')}", "link": REVIEW.format(pid=p["pid"])}
+        elif r["status"] == "have":
+            out[n] = {"stage": "have", "why": "", "link": ""}
+        elif UNUSED_NOTE.search(notes):
+            out[n] = {"stage": "unused", "why": notes, "link": ""}
+        else:
+            out[n] = {"stage": "wanted", "why": "", "link": ""}
+    return out
 
 
 def main() -> None:
@@ -358,16 +408,97 @@ def main() -> None:
         body = "\n".join(f"<tr><td>{e(s['date'])}</td><td>{e(pname(s['paper']))}</td><td>{e(RESULT_LABEL[s['result']])}</td><td class=muted>{e(s['note'])}</td></tr>" for s in rows)
         return f'<div class="scroll"><table><thead><tr><th>Sunday</th><th>Paper</th><th>Result</th><th>Notes</th></tr></thead><tbody>{body}</tbody></table></div>'
 
-    def status_table() -> str:
-        out = []
-        for r in status:
-            flag = f"<b>{e(r['flag'])}</b> " if r["flag"] else ""
-            label = "Have a copy" if r["status"] == "have" else "Wanted"
-            out.append(f'<tr data-state="{e(r["status"])}" class="{"flagged" if r["flag"] else ""}"><td>No. {e(r["world_no"])}</td>'
-                       f'<td>{e(r["sunday_inferred"])}<span class=muted title="inferred: 1913-12-21 plus n-1 weeks">*</span></td>'
-                       f'<td><span class="pill {e(r["status"])}">{label}</span></td><td>{e(r["copies"])}</td>'
-                       f"<td>{e(r['heading'])}</td><td>{e(r['credit'])}</td><td class=muted>{e(r['fingerprint'])}</td><td>{e(r['solution_seen'])}</td><td>{flag}{e(r['notes'])}</td></tr>")
+    st = stages(status)
+    series = [r for r in status if r["world_no"].isdigit() and int(r["world_no"]) <= SERIES_END]
+    counts = collections.Counter(st[r["world_no"]]["stage"] for r in series)
+    puzzle_copies = collections.defaultdict(list)   # World No. -> printings of its puzzle
+    solution_copies = collections.defaultdict(list)  # World No. -> printings of its solution
+    for r in printings:
+        if r["world_no"] and not r["notes"].lower().startswith(("no new puzzle", "no crossword")):
+            puzzle_copies[r["world_no"]].append(r)
+        if r["solution_of"].isdigit():
+            solution_copies[r["solution_of"]].append(r)
+
+    def copy_links(rs: list[dict]) -> str:
+        rs = sorted(rs, key=lambda r: (r["date"], r["paper"]))
+        return "; ".join(link(r["url"], f"{pname(r['paper'])} {r['date']}") for r in rs)
+
+    def tip(r: dict) -> str:
+        n, s = r["world_no"], st[r["world_no"]]
+        parts = [f"No. {n}", f"{r['sunday_inferred']}*", STAGE_LABEL[s["stage"]]]
+        if puzzle_copies[n]:
+            parts.append("copies: " + ", ".join(f"{pname(x['paper'])} {x['date']}" for x in sorted(puzzle_copies[n], key=lambda x: x["date"])))
+        if solution_copies[n]:
+            parts.append("solution: " + ", ".join(f"{pname(x['paper'])} {x['date']}" for x in sorted(solution_copies[n], key=lambda x: x["date"])))
+        if s["why"]:
+            parts.append(s["why"])
+        return " · ".join(parts)
+
+    def overview() -> str:
+        legend = "".join(f'<span class=key><span class="sq {k}"></span><b>{label}</b> <span class=muted>{counts[k]}</span></span>'
+                         for k, label, _ in STAGES if counts[k] or k in ("gxd", "shipped", "review", "have", "wanted"))
+        years = []
+        for y in ("1913", "1914", "1915", "1916", "1917"):
+            cells = "".join(
+                f'<a class="sq {st[r["world_no"]]["stage"]}{" sol" if solution_copies[r["world_no"]] else ""}" href="#n{e(r["world_no"])}" title="{e(tip(r))}">{e(r["world_no"])}</a>'
+                for r in series if r["sunday_inferred"][:4] == y)
+            years.append(f'<div class=yrow><span class=ylab>{y}</span><div class=cells>{cells}</div></div>')
+        return (f'<div class=legend>{legend}</div>'
+                f'<p class=muted>One square per World puzzle, No. 1 to No. {SERIES_END}, in order. Hover for the copies held; click for its row below. '
+                'A dot means its solution is held too. Squares are placed by number, not by date: the World skipped some Sundays, so the dates drift from the count.</p>'
+                + "".join(years))
+
+    def needed() -> str:
+        wanted_nos = [r for r in series if st[r["world_no"]]["stage"] == "wanted"]
+        runs, cur = [], []
+        for r in wanted_nos:
+            if cur and int(r["world_no"]) != int(cur[-1]["world_no"]) + 1:
+                runs.append(cur); cur = []
+            cur.append(r)
+        if cur:
+            runs.append(cur)
+        lis = []
+        for run in runs:
+            a, b = run[0], run[-1]
+            nos = f"No. {a['world_no']}" if a is b else f"Nos. {a['world_no']}–{b['world_no']}"
+            dates = a["sunday_inferred"] if a is b else f"{a['sunday_inferred']} to {b['sunday_inferred']}"
+            why = "; ".join(dict.fromkeys(x["notes"] for x in run if x["notes"]))
+            lis.append(f"<li><b>{nos}</b> <span class=muted>({e(dates)}*)</span>{' · ' + e(why[:260]) + ('…' if len(why) > 260 else '') if why else ''}</li>")
+        review = [r for r in series if st[r["world_no"]]["stage"] == "review"]
+        have = [r for r in series if st[r["world_no"]]["stage"] == "have"]
+        out = [f"<h3>Puzzles with no copy yet ({len(wanted_nos)})</h3><ul>{''.join(lis)}</ul>"]
+        if review:
+            out.append(f"<h3>Read but not yet passed review ({len(review)})</h3><p>Nos. {', '.join(r['world_no'] for r in review)}: "
+                       f'open one from the table below, or the <a href="https://blitz.xwordapp.com/review/">review site</a>.</p>')
+        if have:
+            out.append(f"<h3>Copies held, not yet read ({len(have)})</h3><p class=muted>Waiting for the OCR pipeline (xword-ocr, then review on blitz).</p>")
+        out.append('<p>If you can reach one of the missing pages, please <a href="' + REPO + '/issues/new">open an issue</a> with the date and where you found it '
+                   "(a clipping link is enough; please don't upload page images).</p>")
         return "\n".join(out)
+
+    def puzzle_table() -> str:
+        out = []
+        for r in series:
+            n, s = r["world_no"], st[r["world_no"]]
+            label = STAGE_LABEL[s["stage"]]
+            stage = f'<span class="pill {s["stage"]}">{link(s["link"], label) if s["link"] else e(label)}</span>'
+            if s["stage"] == "review" and s["why"]:
+                stage += f'<br><span class=muted>{e(s["why"][:120])}</span>'
+            flag = f"<b class=warn>{e(r['flag'])}</b> " if r["flag"] else ""
+            notes = r["notes"]
+            notes_html = (f"<details><summary>{e(notes[:90])}…</summary>{e(notes)}</details>" if len(notes) > 110 else e(notes))
+            out.append(f'<tr id="n{e(n)}" data-stage="{e(s["stage"])}"><td><b>{e(n)}</b></td><td>{e(r["sunday_inferred"])}<span class=muted>*</span></td>'
+                       f'<td>{stage}</td><td>{copy_links(puzzle_copies[n]) or "<span class=muted>none</span>"}</td>'
+                       f'<td>{copy_links(solution_copies[n]) or ""}</td><td>{e(r["heading"])}<br><span class=muted>{e(r["fingerprint"])}</span></td>'
+                       f'<td>{flag}{notes_html}</td></tr>')
+        opts = "".join(f'<option value="{k}">{label} ({counts[k]})</option>' for k, label, _ in STAGES if counts[k])
+        return (f'<div class="filters"><select id="sg"><option value="">All {len(series)} puzzles</option>{opts}</select>'
+                '<input id="q" type="search" placeholder="Search number, date, paper, heading…"></div>'
+                '<div class="scroll"><table id="all"><thead><tr><th>No.</th><th>World date*</th><th>Stage</th><th>Puzzle copies</th><th>Solution copies</th>'
+                f'<th>Heading / first clue</th><th>Notes</th></tr></thead><tbody>{"".join(out)}</tbody></table></div>')
+
+    later = [r for r in status if r["world_no"].isdigit() and int(r["world_no"]) > SERIES_END]
+    later_pr = [r for r in printings if r["date"] > "1917-12-30"]
 
     numbering_note = ""
     if last_numbered:
@@ -383,11 +514,11 @@ def main() -> None:
 <style>
 h1, h2 {{ font-family:inherit; font-weight:bold; line-height:inherit }} .epp-header .wrap {{ max-width:1100px }}
 :root {{ --pg-bg:#fbfaf7; --fg:#1d1d1b; --pg-muted:#6b6a65; --pg-line:#e3e0d8; --card:#ffffff; --pg-accent:#1c4f8a; --warn:#a33a1c;
-  --s-have:#2f6f4f; --s-wanted:#d9d5cc; }}
+  --s-have:#2f6f4f; --s-wanted:#d9d5cc; --st-gxd:#1f5c3f; --st-shipped:#3d8a63; --st-review:#3b6ea8; --st-have:#e2c98a; --st-wanted:#e6e2d9; }}
 @media (prefers-color-scheme: dark) {{ :root:not([data-theme="light"]) {{ --pg-bg:#161614; --fg:#ecebe6; --pg-muted:#a3a19a; --pg-line:#34332f; --card:#1f1f1c; --pg-accent:#7aaee0; --warn:#e0794f;
-  --s-have:#5fae86; --s-wanted:#3b3a36; }} }}
+  --s-have:#5fae86; --s-wanted:#3b3a36; --st-gxd:#3f9a6c; --st-shipped:#5fae86; --st-review:#5b8fd0; --st-have:#8a7340; --st-wanted:#2c2b28; }} }}
 :root[data-theme="dark"] {{ --pg-bg:#161614; --fg:#ecebe6; --pg-muted:#a3a19a; --pg-line:#34332f; --card:#1f1f1c; --pg-accent:#7aaee0; --warn:#e0794f;
-  --s-have:#5fae86; --s-wanted:#3b3a36; }}
+  --s-have:#5fae86; --s-wanted:#3b3a36; --st-gxd:#3f9a6c; --st-shipped:#5fae86; --st-review:#5b8fd0; --st-have:#8a7340; --st-wanted:#2c2b28; }}
 * {{ box-sizing:border-box }}
 body {{ margin:0; background:var(--pg-bg); color:var(--fg); font:16px/1.55 Georgia, "Times New Roman", serif }}
 main {{ max-width:1100px; margin:0 auto; padding:32px 16px 64px }}
@@ -397,15 +528,14 @@ a {{ color:var(--pg-accent) }} .muted {{ color:var(--pg-muted) }} .lede {{ font-
 table {{ width:100%; border-collapse:collapse; font:14px/1.4 system-ui, sans-serif }}
 th, td {{ text-align:left; padding:6px 8px; border-bottom:1px solid var(--pg-line); vertical-align:top }}
 th {{ font-weight:600 }} .scroll {{ overflow-x:auto }} td:first-child {{ white-space:nowrap }}
-#pr, #all {{ table-layout:fixed }} #pr td, #all td {{ white-space:normal; overflow-wrap:anywhere }} #pr td:first-child, #all td:first-child {{ white-space:normal }}
+#pr {{ table-layout:fixed }} #pr td, #all td {{ white-space:normal; overflow-wrap:anywhere }} #pr td:first-child, #all td:first-child {{ white-space:normal }}
 #pr th:nth-child(1) {{ width:7% }} #pr th:nth-child(2) {{ width:8% }} #pr th:nth-child(3) {{ width:4% }} #pr th:nth-child(4) {{ width:5% }} #pr th:nth-child(5) {{ width:8% }}
 #pr th:nth-child(6) {{ width:11% }} #pr th:nth-child(7) {{ width:9% }} #pr th:nth-child(8) {{ width:13% }} #pr th:nth-child(9) {{ width:7% }} #pr th:nth-child(10) {{ width:7% }}
-#all th:nth-child(1) {{ width:6% }} #all th:nth-child(2) {{ width:8% }} #all th:nth-child(3) {{ width:8% }} #all th:nth-child(4) {{ width:16% }} #all th:nth-child(5) {{ width:10% }} #all th:nth-child(6) {{ width:9% }} #all th:nth-child(7) {{ width:9% }} #all th:nth-child(8) {{ width:9% }}
 tr.flagged td {{ background:color-mix(in srgb, var(--warn) 10%, transparent) }}
 .bar {{ display:flex; align-items:center; gap:8px; font:12px system-ui, sans-serif; margin:2px 0 }}
 .yr {{ width:3em; color:var(--pg-muted) }} .n {{ width:4.5em; text-align:right; color:var(--pg-muted) }}
 .track {{ flex:1; display:flex; height:12px; border-radius:2px; overflow:hidden; background:var(--s-wanted) }}
-.seg.have, .pill.have {{ background:var(--s-have) }} .seg.wanted, .pill.wanted {{ background:var(--s-wanted) }}
+.seg.have {{ background:var(--s-have) }} .seg.wanted {{ background:var(--s-wanted) }}
 .warn {{ color:var(--warn) }} .have {{ color:var(--s-have) }}
 .ct {{ position:relative; height:18px; background:var(--s-wanted); border-radius:2px; margin:12px 0 2px; overflow:hidden }} .cs {{ position:absolute; top:0; bottom:0; border-right:1px solid var(--pg-bg) }}
 .cs.an {{ background:var(--s-have) }} .cs.fl {{ background:var(--pg-accent) }} .cs.te {{ opacity:.55 }} .cyr {{ position:relative; height:16px; font:11px system-ui, sans-serif; color:var(--pg-muted); margin-bottom:10px }} .cy {{ position:absolute }}
@@ -416,9 +546,22 @@ tr.brk td {{ background:color-mix(in srgb, var(--warn) 7%, transparent) }}
 .c.have {{ background:var(--s-have) }} a.c.have:hover {{ outline:2px solid var(--pg-accent) }} .c.nc {{ background:var(--pg-line); border:1px solid var(--pg-muted); box-sizing:border-box }}
 .c.nh {{ background:color-mix(in srgb, var(--warn) 45%, var(--pg-bg)) }} .c.q {{ background:color-mix(in srgb, var(--pg-accent) 40%, var(--pg-bg)) }} .c.none {{ background:var(--s-wanted); opacity:.45 }}
 .c.mo {{ background:none; color:var(--pg-muted); font-size:10px; text-align:center; line-height:13px }} h3 {{ margin:14px 0 2px; font-size:1rem }}
-.pill {{ font-size:12px; padding:1px 6px; border-radius:9px; color:#fff; white-space:nowrap }} .pill.wanted {{ color:var(--fg) }}
+.pill {{ font-size:12px; padding:1px 7px; border-radius:9px; white-space:nowrap }}
 .filters {{ display:flex; flex-wrap:wrap; gap:8px; margin:8px 0; font:14px system-ui, sans-serif }}
 input, select {{ font:inherit; padding:4px 8px; background:var(--card); color:var(--fg); border:1px solid var(--pg-line); border-radius:4px }}
+.stats {{ display:flex; flex-wrap:wrap; gap:12px; margin:20px 0 8px }} .stats div {{ background:var(--card); border:1px solid var(--pg-line); border-radius:6px; padding:10px 16px; min-width:9em; font:14px system-ui, sans-serif }}
+.stats b {{ display:block; font:bold 1.8rem Georgia, serif }} .stats span {{ color:var(--pg-muted) }}
+.legend {{ display:flex; flex-wrap:wrap; gap:6px 16px; margin:8px 0; font:13px system-ui, sans-serif }} .key {{ display:inline-flex; align-items:center; gap:6px }}
+.yrow {{ display:flex; gap:10px; align-items:flex-start; margin:6px 0 }} .ylab {{ width:3em; flex:none; font:13px system-ui, sans-serif; color:var(--pg-muted); padding-top:6px }}
+.cells {{ display:flex; flex-wrap:wrap; gap:3px }}
+.sq {{ position:relative; display:inline-flex; align-items:center; justify-content:center; width:30px; height:26px; border-radius:3px; font:11px system-ui, sans-serif; text-decoration:none; color:var(--fg); background:var(--st-wanted) }}
+.legend .sq {{ width:14px; height:14px }} a.sq:hover {{ outline:2px solid var(--pg-accent) }}
+.sq.gxd, .pill.gxd {{ background:var(--st-gxd); color:#fff }} .sq.shipped, .pill.shipped {{ background:var(--st-shipped); color:#fff }} .sq.review, .pill.review {{ background:var(--st-review); color:#fff }}
+.sq.have, .pill.have {{ background:var(--st-have); color:var(--fg) }} .sq.wanted, .pill.wanted {{ background:var(--st-wanted); color:var(--pg-muted) }}
+.sq.unused, .pill.unused {{ background:repeating-linear-gradient(45deg, transparent 0 4px, var(--pg-line) 4px 6px); color:var(--pg-muted); border:1px dashed var(--pg-muted) }}
+.sq.sol::after {{ content:""; position:absolute; top:3px; right:3px; width:5px; height:5px; border-radius:50%; background:currentColor; opacity:.8 }}
+.pill a {{ color:inherit }} details {{ margin:6px 0; border-top:1px solid var(--pg-line); padding:6px 0 }} details > summary {{ cursor:pointer }}
+details details {{ border:0; padding:0; margin:0 }} #all td {{ font-size:13px }} #all td:nth-child(2) {{ white-space:nowrap }}
 footer {{ margin-top:48px; font:13px system-ui, sans-serif; color:var(--pg-muted) }}
 </style></head><body>
 <header class="epp-header"><div class="wrap">
@@ -428,105 +571,115 @@ footer {{ margin-top:48px; font:13px system-ui, sans-serif; color:var(--pg-muted
 </div></header>
 <main>
 <h1>The New York World's FUN crosswords, 1913–1917</h1>
-<p class="lede">The first crossword ran in the New York World's Sunday FUN supplement on December 21, 1913, and a new one every Sunday after.
-Other papers reprinted the section, so where the World's own pages are lost, a partner's copy is a second copy of the puzzle.
-This page tracks the World's series by number, No. 1 to No. {len(status)}, and every copy of each puzzle we have found in a partner paper.</p>
-<p>Puzzles with at least one copy: <b>{len(have)}</b> of {len(status)}, from <b>{len(printings)}</b> printings in {len({r['paper'] for r in printings})} papers. {numbering_note}</p>
+<p class="lede">The first crossword ran in the New York World's Sunday FUN supplement on December 21, 1913, and a new one most Sundays after.
+The World's own pages survive badly, but other papers reprinted FUN, crossword and all. The Every Puzzle Project is recovering the whole series,
+No. 1 to No. {SERIES_END}, from those reprints, and transcribing each puzzle into the gxd crossword corpus.</p>
 
-<div class="rule"><b>The dating rule.</b> The World printed its series number in the grid (No. 7 on 1914-02-01, No. 8 on 1914-02-08, in the Minneapolis Journal).
-That fits one puzzle every Sunday from No. 1 on 1913-12-21, so World No. <i>n</i> is expected on 1913-12-21 plus <i>n</i>−1 weeks.
-<b>Every World date here is an inference from that count</b>, marked *. A copy's own date is a printing date, days to weeks after the World's;
-the gap is shown as its lag. A copy with a printed number is tied to that World puzzle; a copy with none is tied by its first clue and grid,
-and the record says how. A number that repeats or jumps within one paper's run is flagged: a skip, repeat or misprint, which is what this run is looking for.
-A page missing from the scans is never counted as a skip.</div>
+<div class="stats">
+<div><b>{counts['gxd'] + counts['shipped']}</b><span>transcribed</span></div>
+<div><b>{counts['review']}</b><span>in review</span></div>
+<div><b>{counts['have']}</b><span>page found, not read</span></div>
+<div><b>{counts['wanted']}</b><span>still wanted</span></div>
+</div>
 
-<p>Tasks where finding is the work (a puzzle that moved off its page, the Journal's 1917 end, World Nos. 3 to 6): <a href="{REPO}/blob/main/RESEARCH.md">RESEARCH.md</a>.</p>
+<h2 id="progress">Every puzzle at a glance</h2>
+{overview()}
 
-<h2 id="wanted">Wanted: the gaps anyone can close</h2>
-<p>Specific pages that would complete the record. Each is one Sunday's puzzle page; a clipping link or a scan is enough.
-If you have access to one of these, please <a href="{REPO}/issues/new">open an issue</a> with the date and where you found it (please don't upload page images).</p>
-<ul>
-<li><b>World Nos. 3 to 6, January 4 to 25, 1914.</b> Not on Newspapers.com in any partner paper. They need the World's own Sunday FUN section:
-a private collection, the New York Public Library's microfilm of the World, or another researcher's copy.</li>
-<li><b>Minneapolis Journal Sundays whose puzzle ran but isn't on the usual page:</b> 1915-04-04 and 1915-06-20.
-The following week's solution proves each one exists.</li>
-<li><b>Any paper's copy of the Sundays still open below</b>, under "Next batch to find".</li>
-</ul>
+<h2 id="needed">What's needed</h2>
+{needed()}
 
-<h2 id="chains">Chains: what links to what</h2>
-<p>A link says that a page's printed solution answers an earlier puzzle, checked on the scans, across papers where it has to be. A chain is an unbroken run of links:
-each puzzle's successor is proved, not inferred from a date. Green chains reach a fixed point (a printed grid number, or the World Magazine's dated solutions box of July 1917);
-blue chains float, in order among themselves. A chain resting on a tentative link, one no printed solution proves, is marked so and drawn paler. The series is dated: a puzzle goes by its World Sunday, inferred, with its number in brackets (printed by the World only through 1915-01-17, an index after that). A puzzle with no World date yet goes by its page. Method and results: <a href="{REPO}/blob/main/docs/CHAINS.md">docs/CHAINS.md</a>.</p>
-{chains_section()}
-<p>The same first clue can come back years later: the Globe seems to have reprinted much of 1916 in 1918 and 1919, which may explain more of its "drift" than delay does. Nothing here treats these as the same puzzle; they are for checking.</p>
-{reruns_table()}
+<h2 id="puzzles">Every puzzle</h2>
+<p class=muted>* The World date is inferred from the number: No. <i>n</i> on 1913-12-21 plus <i>n</i>−1 weeks. In 1914 the World skipped some Sundays,
+so from No. 22 on the real dates run two or three weeks later than shown (<a href="{REPO}/blob/main/docs/BEN-INTAKE-2026-11-16.md">details</a>).
+Links go to the page on Newspapers.com where we have one.</p>
+{puzzle_table()}
+<p class=muted>The record runs on past 1917 ({len(later)} numbers to {later[-1]['sunday_inferred'] if later else ''}) for the Boston Globe's pages, {len(later_pr)} of them,
+held without World numbers because the Globe fell out of step with the World after 1917. They are in the research detail below.</p>
 
-<h2 id="next">Next batch to find</h2>
+<h2 id="research">Research detail</h2>
+<p>How the record is built: every page found, every search, how copies are matched and linked, and what is still open.
+Tasks where finding is the work: <a href="{REPO}/blob/main/RESEARCH.md">RESEARCH.md</a>. The intake loop: <a href="{REPO}/blob/main/README.md">README</a>.</p>
+
+<details><summary><b>The dating rule</b></summary>
+<div class="rule">The World printed its series number in the grid (No. 7 on 1914-02-01, No. 8 on 1914-02-08). One puzzle every Sunday from No. 1 on 1913-12-21
+gives World No. <i>n</i> on 1913-12-21 plus <i>n</i>−1 weeks, and <b>every World date on this page is that inference</b>, marked *. A copy's own date is its printing date;
+the difference is shown as its lag. A copy with a printed number is tied to that puzzle; a copy with none is tied by its first clue and grid, and the record says how.
+A number that repeats or jumps within one paper's run is flagged. A page missing from the scans is never counted as a skip.
+The Milwaukee Sentinel's copies (2026-11-16) show the count drifting in 1914: FUN ran no new crossword on 1914-05-17, 05-24 and 06-07, and never used the number 34,
+so the papers' "lag" from May 1914 on is mostly the count's error.</div>
+</details>
+
+<details><summary><b>Next batch to find</b></summary>
 {batch_table()}
+</details>
 
-<h2 id="missing">Missing puzzles: where else to look</h2>
+<details><summary><b>Missing puzzles: where else to look</b></summary>
 <p>One line per missing puzzle and the paper and date where its copy should be, worked out from each paper's known delay behind the
 World in 1917 (the Globe ran on the World's date that year, and not after; Pittsburgh one to two weeks later, Tacoma and Shreveport two, New Orleans two to three,
-Salt Lake three, the LA Tribune three to eight; in 1915-16 the delays are counted from the Journal). Work one paper at a time.
-A date searched and not found is reported as a dead end (<code>record.py search &lt;paper&gt; &lt;date&gt; no-hit</code>, or tell the research session),
-and it drops out of the list; a copy found closes the puzzle in every paper.</p>
+Salt Lake three, the LA Tribune three to eight; in 1915-16 the delays are counted from the Journal). A date searched and not found is recorded as a dead end
+(<code>record.py search &lt;paper&gt; &lt;date&gt; no-hit</code>) and drops out of the list.</p>
 {wanted_by_paper()}
-<details><summary>Gaps by paper (what each paper's own run lacks)</summary>{gaps_table()}</details>
+<h3>Gaps by paper</h3>
+{gaps_table()}
+</details>
 
-<h2 id="coverage">Coverage by week and paper</h2>
+<details><summary><b>Chains: which solution answers which puzzle</b></summary>
+<p>A link says that a page's printed solution answers an earlier puzzle, checked on the scans. A chain is an unbroken run of links:
+each puzzle's successor is proved, not inferred from a date. Green chains reach a fixed point (a printed grid number, or the World Magazine's dated solutions box of July 1917);
+blue chains float. A chain resting on a tentative link is drawn paler. Method: <a href="{REPO}/blob/main/docs/CHAINS.md">docs/CHAINS.md</a>.</p>
+{chains_section()}
+<p>The same first clue can come back years later: the Globe seems to have reprinted much of 1916 in 1918 and 1919. Nothing here treats these as the same puzzle; they are for checking.</p>
+{reruns_table()}
+</details>
+
+<details><summary><b>Coverage by week and paper</b></summary>
 <p>Every Sunday of the run, one column each; one row per paper. A filled cell is a page we hold, and links to it on Newspapers.com.
 The top row of each year shows whether any paper's copy of that Sunday is in.</p>
 {coverage_grid()}
+</details>
 
-<h2 id="papers">The papers and how far behind the World they ran</h2>
-<p>Each paper's lag is its printing date minus the World date inferred from the number. A steady lag means the paper ran late;
-a lag that grows means the World skipped weeks, or the paper did.</p>
+<details><summary><b>The papers and their lag behind the count</b></summary>
+<p>Each paper's lag is its printing date minus the World date inferred from the number. Where two papers show the same lag on the same puzzles, the count is
+probably wrong rather than both papers late.</p>
 {lag_table()}
+</details>
 
-<h2 id="flags">Flags</h2>
+<details><summary><b>Flags</b> ({len(flagged)})</summary>
 {flags_table()}
+</details>
 
-<h2>Progress by year</h2>
-<p><b>Puzzles held, by the year they were printed.</b> Every distinct puzzle we have a page for, counted once (numbered puzzles by number,
-unnumbered ones by their copies), against the Sundays of that year.</p>
+<details><summary><b>Progress by year</b></summary>
+<p><b>Puzzles held, by the year they were printed.</b> Every distinct puzzle we have a page for, counted once, against the Sundays of that year.</p>
 {bars_held()}
-<p><b>World numbers with a copy.</b> The same puzzles placed on the World's own calendar: printed numbers to January 1915; the Journal's
-dates from 1915-11-21 (it was on the World's date in January 1917 and the chains run back to that day, with the Journal a week late for three weeks of November 1916); the Globe's dates in 1917
-(proven by the World Magazine solutions box of July 1917). All marked inferred. From 1918 the Globe ran increasingly late (its 1920-05-02 puzzle
-is the World's 1919-10-12, per T Campbell), so its later pages are held without a World number until dated copies from other papers plot the drift.
-February to July 1915 is empty because the Journal's offset there is three to six weeks, undetermined; August to mid-November 1915 because no
-partner is known to have carried FUN then.</p>
+<p><b>World numbers with a copy</b>, by inferred year.</p>
 {bars()}
+</details>
 
-<h2 id="unnumbered">Unnumbered puzzles matched across papers</h2>
-<p>From late 1914 the grids carry no number, so a puzzle is known only by its copies. Copies of one puzzle share a key; the dates show how far apart the papers ran it.</p>
+<details><summary><b>Unnumbered puzzles matched across papers</b></summary>
+<p>From late 1914 the grids carry no number, so a puzzle is known only by its copies. Copies of one puzzle share a key.</p>
 {groups_table()}
+</details>
 
-<h2 id="printings">Every printing</h2>
+<details><summary><b>Every printing</b> ({len(printings)} pages from {len({r['paper'] for r in printings})} papers)</summary>
+<p class=muted>{numbering_note}</p>
 <div class="filters"><select id="pp"><option value="">All papers</option>{paper_options}</select></div>
 <div class="scroll"><table id="pr"><thead><tr><th>Printed</th><th>Paper</th><th>Page</th><th>Grid No.</th><th>World puzzle*</th><th>Heading</th><th>Credit</th><th>Solution on page</th><th>Follows previous?</th><th>Copyright line</th><th>Notes</th></tr></thead><tbody>
 {printings_table()}
 </tbody></table></div>
+</details>
 
-<h2 id="coverage">Sundays searched without a page</h2>
+<details><summary><b>Sundays searched without a page</b></summary>
 {coverage()}
-
-<h2>Every World puzzle</h2>
-<div class="filters"><input id="q" type="search" placeholder="Search number, date, heading, credit…">
-<select id="st"><option value="">All</option><option value="have">Have a copy</option><option value="wanted">Wanted</option></select>
-<label><input type="checkbox" id="fl"> flagged only</label></div>
-<div class="scroll"><table id="all"><thead><tr><th>World No.</th><th>World date*</th><th>Status</th><th>Copies</th><th>Heading</th><th>Credit</th><th>First clue (key)</th><th>Solution seen</th><th>Notes</th></tr></thead><tbody>
-{status_table()}
-</tbody></table></div>
+</details>
 
 <footer>Part of the <a href="https://github.com/EveryPuzzleProject">Every Puzzle Project</a>. Data: <a href="{REPO}">{REPO.split('github.com/')[1]}</a>
-(status.tsv, printings.tsv, searches.tsv, links.tsv, chains.tsv); what's known about the World's puzzles: the <a href="{CENSUS}">census entry</a>. Page images stay out of this repo.
+(status.tsv, printings.tsv, searches.tsv, links.tsv, chains.tsv, pipeline/ship); what's known about the World's puzzles: the <a href="{CENSUS}">census entry</a>. Page images stay out of this repo.
 Generated {dt.date.today().isoformat()}.</footer>
 </main>
 <script>
-const q=document.getElementById('q'), st=document.getElementById('st'), fl=document.getElementById('fl'), rows=[...document.querySelectorAll('#all tbody tr')];
-function f(){{const t=q.value.toLowerCase(), s=st.value, o=fl.checked; for(const r of rows) r.hidden=(s&&r.dataset.state!==s)||(o&&!r.classList.contains('flagged'))||(t&&!r.textContent.toLowerCase().includes(t));}}
-q.addEventListener('input',f); st.addEventListener('change',f); fl.addEventListener('change',f);
+const q=document.getElementById('q'), sg=document.getElementById('sg'), rows=[...document.querySelectorAll('#all tbody tr')];
+function f(){{const t=q.value.toLowerCase(), s=sg.value; for(const r of rows) r.hidden=(s&&r.dataset.stage!==s)||(t&&!r.textContent.toLowerCase().includes(t));}}
+q.addEventListener('input',f); sg.addEventListener('change',f);
 const pp=document.getElementById('pp'), prs=[...document.querySelectorAll('#pr tbody tr')];
 pp.addEventListener('change',()=>{{for(const r of prs) r.hidden=pp.value&&r.dataset.paper!==pp.value;}});
 </script>
