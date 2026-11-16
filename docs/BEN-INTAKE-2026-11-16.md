@@ -198,3 +198,24 @@ on the status page is the count's error, and the record's flags at Nos. 22, 23 a
 the World's own skips. The README's dating rule and `status.tsv`'s inferred dates are left
 as they are for Alex to decide. Still to check: whether the Sentinel also goes from No. 33
 to No. 35 (1914-08-23 and 08-30), and No. 46 (Sentinel 1914-11-15).
+
+## Addendum: the Sentinel of 1914-08-23 and 08-30 (Alex): no No. 34
+
+| File | Date | Puzzle |
+|---|---|---|
+| `Milwaukee_Sentinel_1914_08_23_85.png` | 1914-08-23 | **No. 33, printed**, by Harold Smith of Waterford, N. Y.; 1-2 Part of a fish |
+| `Milwaukee_Sentinel_1914_08_30_85.png` | 1914-08-30 | **No. 35, printed**, by S. Worcester of Biddle street, Milwaukee; 1-2 A dress of state |
+
+Both are the Journal's puzzles of the same days. The Sentinel goes from No. 33 to No. 35 in
+one week, as the Journal does, whose 08-30 page labels its solution "No 33". Two papers
+carrying FUN on the same Sundays skip the same number. So the World's FUN never numbered
+a puzzle 34, and the 33-to-35 jump is the World's. `status.tsv` keeps No. 34 as
+wanted, because only the tool can change that, with a note that it was probably never used.
+This settles the August question in the first addendum: the AMERICA puzzle of 08-09 is
+No. 31 on FUN's own date, not No. 34. The account of 1914 set out above (the count holds to
+No. 21, three weeks behind from No. 22, two weeks behind from No. 35) now has printed
+evidence at each step except the three weeks without a crossword in May and June, and for
+those both papers agree.
+
+Neither page has a solution box, so the Sentinel's solutions for this stretch are on other
+pages of FUN.
