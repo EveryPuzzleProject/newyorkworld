@@ -4,9 +4,14 @@
   matrimony", "3-12 Of vigorous health". There are no Across and Down lists. In the packet
   each clue has the pipeline's slot label and the printed pair beside it ("A2 (printed 1-2)").
   Keep the slot labels as the packet gives them; the printed pair is evidence. The pairs were
-  read off the clue list and the grid together and can be wrong, above all for Down words:
-  when a clue's text plainly belongs to another slot (its answer from the key says so), do not
-  move it; say so in "unsure" or as a finding, so the reviewer sees it on the proof page.
+  read off the clue list and the grid together and can be wrong, above all for Down words.
+  When a clue's text plainly belongs to another slot (the key's answer for that slot fits the
+  text, and the text's own printed pair names that slot's end squares), move it: give the text
+  under the slot it belongs to, with "why" saying what the key's answer is and which pair the
+  sheet prints by it ("moved from A18: the key gives RIIS, printed 23-24"). The slot it came
+  from then takes the text that belongs to it, or stays missing. Every move shows on the proof
+  page as the text step's change with its reason; a move you are not sure of goes in "unsure"
+  instead. (Decided by Alex, 2026-11-01: moving by key is allowed when the reason is shown.)
 - **The grid is a template**: a diamond, a cross, an hourglass. The squares outside it and
   its shaded centre block are not squares of the puzzle (`_` in the grid). Blocks are printed
   as shading, not solid black.
