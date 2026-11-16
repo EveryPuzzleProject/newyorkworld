@@ -51,44 +51,44 @@ world_no	sunday_inferred	status	copies	heading	credit	fingerprint	solution_seen	
 50	1914-11-29	have	minneapolis-journal 1914-12-13 (lag 2w)	CROSS WORD PUZZLE		2-3 Something woven.	milwaukee-sentinel 1914-12-20		
 51	1914-12-06	have	milwaukee-sentinel 1914-12-20 (lag 2w); minneapolis-journal 1914-12-20 (lag 2w)	FUN'S CHRISTMAS CROSS-WORD PUZZLE		none: no clue list; letters given in grid	milwaukee-sentinel 1914-12-27		
 52	1914-12-13	have	milwaukee-sentinel 1914-12-27 (lag 2w); minneapolis-journal 1914-12-27 (lag 2w)	FUN'S NEW YEAR CROSS-WORD PUZZLE		2-3 Away from			
-53	1914-12-20	have	minneapolis-journal 1915-01-03 (lag 2w)	Cross-Word Puzzle	Paul West, the author	2-3 A loose fold			
-54	1914-12-27	have	minneapolis-journal 1915-01-17 (lag 3w)	Cross-Word Puzzle No. 54 (grid label); clue heading 'Can You Solve This One?'		3-4 Atmosphere		No. 45 on 1914-11-08 to No. 54 in 10 weeks: -1	
+53	1914-12-20	have	milwaukee-sentinel 1915-01-03 (lag 2w); minneapolis-journal 1915-01-03 (lag 2w)	FUN'S CROSS-WORD PUZZLES	Intro: Paul West, author of the famous "Bill" stories, contributes today's cross word puzzle	2-3 A loose fold			
+54	1914-12-27	have	milwaukee-sentinel 1915-01-10 (lag 2w); minneapolis-journal 1915-01-17 (lag 3w)	FUN'S CROSS-WORD PUZZLE No 54	Mrs. May Hurst of Third avenue, New York City, who sent in the original of today's cross-word puzzle	3-4 Atmosphere		No. 45 on 1914-11-08 to No. 54 in 10 weeks: -1	
 55	1915-01-03	wanted							
 56	1915-01-10	wanted							
 57	1915-01-17	wanted							
-58	1915-01-24	wanted							
-59	1915-01-31	wanted							
-60	1915-02-07	wanted							
+58	1915-01-24	have	milwaukee-sentinel 1915-01-24; minneapolis-journal 1915-01-24	FUN'S CROSS WORD PUZZLE (banner); caption 'Can You Solve it?'	Idea for this puzzle was sent in by George E. Price of Catherine street, Hornell, N. Y.	1-12 To shove.			
+59	1915-01-31	have	minneapolis-journal 1915-01-31	Cross Word Puzzle Can You Solve It?		3-4 This means you			
+60	1915-02-07	have	milwaukee-sentinel 1915-02-07; minneapolis-journal 1915-02-07	FUN'S CROSS WORD PUZZLE (banner); 'Can You Solve It?'		4-2 Not wet.			
 61	1915-02-14	wanted							
-62	1915-02-21	wanted							
-63	1915-02-28	wanted							
-64	1915-03-07	wanted							
-65	1915-03-14	wanted							
-66	1915-03-21	wanted							
-67	1915-03-28	wanted							
-68	1915-04-04	wanted							
-69	1915-04-11	wanted							
-70	1915-04-18	wanted							
-71	1915-04-25	wanted							
-72	1915-05-02	wanted							
-73	1915-05-09	wanted							
+62	1915-02-21	have	milwaukee-sentinel 1915-02-21	FUN'S PENTACLE PUZZLE		1 to 2 What we feel			
+63	1915-02-28	have	milwaukee-sentinel 1915-02-28	FUN'S CROSS-WORD PUZZLE (banner)	CAN YOU SOLVE THIS? text: puzzle from Mr. J. W. Gaskill of No. 609 West One Hundred and Thirty-fifth street, New York City	2-3 Belonging to him.			
+64	1915-03-07	have	milwaukee-sentinel 1915-03-07; minneapolis-journal 1915-03-07	FUN'S CROSS-WORD PUZZLES	Today's cross-word puzzle was sent in by George L. Mengel of North Twelfth street, Reading, Pa.	1-2 A wooden nail.			
+65	1915-03-14	have	milwaukee-sentinel 1915-03-14; minneapolis-journal 1915-03-14	FUN'S CROSS WORD PUZZLE.	Today's cross word puzzle, sent in by Miss Mamie Bergen of Lakeside avenue, Orange, N. J.	1-8 Ire.			
+66	1915-03-21	have	milwaukee-sentinel 1915-03-21; minneapolis-journal 1915-03-21	FUN'S CROSS-WORD PUZZLE (lettering) / "Can you solve it?" in grid centre	Today's cross-word puzzle was submitted by Al J. Hemer of No. 1249 Madison street, Brooklyn, N. Y.	1-29 To satisfy			
+67	1915-03-28	have	milwaukee-sentinel 1915-03-28; minneapolis-journal 1915-03-28	FUN'S CROSS WORD PUZZLE (lettering)	Today's cross-word puzzle was submitted by Henry M. Rose of No. 1595 Pitkin avenue, Brooklyn, N. Y.	2-3 A small rodent			
+68	1915-04-04	have	minneapolis-journal 1915-04-04	Cross-Word Puzzle				no grid number, and no shape or first clue recorded to match it by	
+69	1915-04-11	have	minneapolis-journal 1915-04-11	CROSS-WORD PUZZLE (under banner PUZZLES and HUMOR)		1-2 A preposition			
+70	1915-04-18	have	minneapolis-journal 1915-04-18	CROSS-WORD PUZZLE (banner PUZZLES and HUMOR)		1-29 A solid figure tapering			
+71	1915-04-25	have	milwaukee-sentinel 1915-04-25; minneapolis-journal 1915-04-25	FUN'S CROSS-WORD PUZZLE (lettering)	The cross-word puzzle published in today's Fun was submitted by J. Leroy Gibson of 1 Parkside court, Brooklyn, N. Y.	1-25 The female equine			
+72	1915-05-02	have	milwaukee-sentinel 1915-05-02; minneapolis-journal 1915-05-02	FUN'S CROSS-WORD PUZZLE (lettering), sub-puzzles lettered A-H around a central T	The ingenious pinwheel cross-word puzzle printed today is furnished by Charles P. Huntington of 41 West Eighty-third street	Part A. 1-2 Tranquil			
+73	1915-05-09	have	minneapolis-journal 1915-05-09	FUN'S AUTO CROSS-WORD PUZZLE - CAN YOU SOLVE IT? (banner PUZZLES AND HUMOR)		1-4 Near the stern			
 74	1915-05-16	wanted							
-75	1915-05-23	wanted							
+75	1915-05-23	have	minneapolis-journal 1915-05-23	CROSS-WORD PUZZLE (no PUZZLES banner; placed in the classified-ads page, top right)		INNER PART 1-2 To agitate the air			
 76	1915-05-30	wanted							
-77	1915-06-06	wanted							
-78	1915-06-13	wanted							
-79	1915-06-20	wanted							
-80	1915-06-27	wanted							
-81	1915-07-04	wanted							
-82	1915-07-11	wanted							
-83	1915-07-18	wanted							
-84	1915-07-25	wanted							
-85	1915-08-01	wanted							
-86	1915-08-08	wanted							
-87	1915-08-15	wanted							
-88	1915-08-22	wanted							
-89	1915-08-29	wanted							
-90	1915-09-05	wanted							
+77	1915-06-06	have	minneapolis-journal 1915-06-06	CROSS-WORD PUZZLE		271-272. A lofty building			
+78	1915-06-13	have	milwaukee-sentinel 1915-06-13	FUN'S CROSS WORD PUZZLE (lettering)	Allan W. Lohr of No. 2122 [..]agler place, N. W., Washington, D. C., contributes this week's cross-word puzzle (left margin clipped)	[?]-2 Barren (left edge clipped)			
+79	1915-06-20	have	milwaukee-sentinel 1915-06-20	FUN'S CROSS WORD PUZZLE	Miss Rae Dinsmore has contributed the interesting cross word puzzle printed today.	Horizontal Cross Words. 1-2. A single deep breath			
+80	1915-06-27	have	milwaukee-sentinel 1915-06-27; minneapolis-journal 1915-06-27	Fun's Cross-Word Puzzle	The compact cross word printed today was submitted by R. Mitchell of 271 Tomkins avenue, New Brighton, Staten Island.	1-4. Designs or purposes			
+81	1915-07-04	have	milwaukee-sentinel 1915-07-04; minneapolis-journal 1915-07-04	FUN'S CROSS-WORD PUZZLE (hand-lettered title graphic)	key of definitions as furnished by Joseph Timmons of No. 268 East One Hundred and Eighty-first street	1-2 Baked Pastry			
+82	1915-07-11	have	minneapolis-journal 1915-07-11	CROSS-WORD PUZZLE (hand-lettered beside grid)		1-2 A member of a religious order (clues in several columns, "CENTRE" section also)			
+83	1915-07-18	have	milwaukee-sentinel 1915-07-18; minneapolis-journal 1915-07-18	FUN'S CROSS-WORD PUZZLE.	Thanks to a reader of FUN who prefers not to give his (or perhaps it's her) name	1 to 4 In advance			
+84	1915-07-25	have	milwaukee-sentinel 1915-07-25; minneapolis-journal 1915-07-25	FUN'S CROSS-WORD PUZZLE (hand-lettered title graphic)	William E. Kinghorn of No. 202 Hamilton street, Hartford, Conn., has furnished the cross-word puzzle for this week	1-2 Girl's name			
+85	1915-08-01	have	milwaukee-sentinel 1915-08-01	FUN'S CROSS-WORD PUZZLE.	Thomas C. Kelly of No. 58 (or 53) West One Hundred and Eighteenth street has furnished a cross-word puzzle	1-2 At the end of			
+86	1915-08-08	have	milwaukee-sentinel 1915-08-08	FUN'S Cross-Word Puzzle	Joseph T. Pomayzl of No. 333 East Seventieth Street has supplied a novel cross-word puzzle for this week	1-2 To take possession of			
+87	1915-08-15	have	milwaukee-sentinel 1915-08-15	FUN'S CROSS-WORD PUZZLE.	William N. Williams and Edward Salmonsen of No. 104 Harrison Avenue, Schenectady	1-4 Pretentious fools			
+88	1915-08-22	have	milwaukee-sentinel 1915-08-22	FUN'S Cross-Word Puzzle.	Louis Lang of No. 313 West Thirty-eighth Street, New York, has supplied this week's cross-word puzzle	1-4. The rendering of vocal			
+89	1915-08-29	have	milwaukee-sentinel 1915-08-29	FUN'S CROSS-WORD PUZZLE. (title partly smudged)	furnished by E. H. Sheppard of Somerville, N. J.	2-3 A covering for			
+90	1915-09-05	have	milwaukee-sentinel 1915-09-05	FUN'S CROSS-WORD PUZZLE. (with hand-lettered UPPER SECTION / LOWER SECTION)	furnished by Frank M. Hart of 170 Vine street, Hartford, Conn.	1-2. By reason or on			
 91	1915-09-12	wanted							
 92	1915-09-19	wanted							
 93	1915-09-26	wanted							

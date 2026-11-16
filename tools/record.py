@@ -451,6 +451,7 @@ LAGS = {
     "los-angeles-tribune": (3, 8, "1916-08-06", "1919-12-28"),
     "boston-globe": (0, 0, "1917-02-25", "1917-12-30"),  # on the World's date in 1917 only (docs/CAMPBELL-CROSSCHECK.md)
     "minneapolis-journal": (0, 0, "1914-02-01", "1917-01-28"),
+    "milwaukee-sentinel": (0, 0, "1913-12-21", "1915-12-26"),  # carried FUN itself; held to 1915-09-12 (GenealogyBank)
 }
 WANTED_COLS = ["puzzle", "reference_date", "why", "paper", "date", "status"]
 
