@@ -11,8 +11,11 @@ minneapolis-journal	1914-04-19	2	found	batch 2: fill 1914 sequentially from 02-2
 minneapolis-journal	1914-04-26	3	found	batch 3: finish 1914 (where the lag grows in April-June, the skipped No. 34 around 08-23, the end of numbering 10-25 to 11-22, December)
 minneapolis-journal	1914-05-03	3	found	no hit by text search on 2026-10-27: browse the issue (the puzzles page's OCR rarely says cross-word)
 minneapolis-journal	1914-05-10	3	found	batch 3: finish 1914 (where the lag grows in April-June, the skipped No. 34 around 08-23, the end of numbering 10-25 to 11-22, December)
+milwaukee-sentinel	1914-05-17		no-hit	Alex DeJarnatt, 2026-11-16: no hit; the Sentinel has No. 21 on 05-10. The Journal's page this day has only No. 21's solution, so FUN probably ran no new crossword
 minneapolis-journal	1914-05-17	2	found	no text hit; browsed 2026-11-01 (Alex DeJarnatt): viewer page 46 prints the solution to No. 21 and no new puzzle, so no new FUN puzzle this week (it is not not-carried: the page exists)
+milwaukee-sentinel	1914-05-24		no-hit	Alex DeJarnatt, 2026-11-16: no hit. The Journal ran a map-of-Mexico game in the crossword's place this day, so FUN probably ran no crossword
 minneapolis-journal	1914-05-24	3	not-carried	confirmed by browsing, 2026-11-01 (Alex DeJarnatt): no crossword that Sunday, a map-of-Mexico game in its place; No. 21 ran 05-10 and No. 22 on 05-31
+milwaukee-sentinel	1914-05-31		no-hit	Alex DeJarnatt, 2026-11-16: no hit by search, but the Sentinel of 06-07 prints 'the solution to cross-word puzzle No. 22, given in last week's Fun', so No. 22 should be in this issue: browse it by hand
 minneapolis-journal	1914-05-31	2	found	batch 2: fill 1914 sequentially from 02-22; pin where the count falls behind between No. 16 (04-05) and No. 30 (08-02); find where the numbering stops between 08-02 and 12-06
 minneapolis-journal	1914-06-07	3	found	no hit by text search on 2026-10-27: browse the issue (the puzzles page's OCR rarely says cross-word)
 minneapolis-journal	1914-06-14	2	found	batch 2: fill 1914 sequentially from 02-22; pin where the count falls behind between No. 16 (04-05) and No. 30 (08-02); find where the numbering stops between 08-02 and 12-06
