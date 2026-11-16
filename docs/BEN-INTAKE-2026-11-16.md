@@ -219,3 +219,16 @@ those both papers agree.
 
 Neither page has a solution box, so the Sentinel's solutions for this stretch are on other
 pages of FUN.
+
+## Addendum: the Sentinel of 1914-05-03 (Alex)
+
+| File | Date | What it is |
+|---|---|---|
+| `Milwaukee_Sentinel_1914_05_03_95.png` | 1914-05-03, FUN p. 13 | **No. 20, printed**, "the twentieth in FUN'S series", by Miss Elizabeth M. Butzinger of New York; X-shaped; 1-2 A young hawk |
+| `Milwaukee_Sentinel_1914_05_03_97.png` | 1914-05-03, FUN p. 15 | solution only: "SOLUTION TO No 19", with the Tango puzzle's solution |
+
+These are the Journal's puzzle and solution of the same day. The Sentinel's No. 20 is the
+better copy to read: the Journal's page shows the clue list only from 63-64, and this one
+has it in full from 1-2. No. 19's solution is linked to the Journal's No. 19 (04-26) by its
+printed label. Alex also reported the Sentinel's No. 21 on 05-10, but that page has not been
+saved yet.
