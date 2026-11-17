@@ -46,7 +46,9 @@ def is_tentative(evidence: list[str]) -> bool:
 def label(node) -> str:
     """A puzzle's name: its World date in gxd's form, the number only in brackets (the series is dated, not numbered).
     A puzzle with no World date yet goes by the page it's on: paper and printing date."""
-    return f"nyw{sunday_of(node).isoformat()} (No. {node})" if isinstance(node, int) else f"{node[0]} {node[1]}"
+    if isinstance(node, int):
+        return f"nyw{sunday_of(node).isoformat()} (No. {node})" if sunday_of(node) else f"No. {node} (never used)"
+    return f"{node[0]} {node[1]}"
 
 
 def verdict(c: str) -> tuple[str, str]:
@@ -149,7 +151,7 @@ def linked(a, b, edges) -> bool:
 
 
 def date_of(node) -> str:
-    return sunday_of(node).isoformat() if isinstance(node, int) else node[1]
+    return (sunday_of(node) or "") and sunday_of(node).isoformat() if isinstance(node, int) else node[1]
 
 
 def anchor_of(ns: list, nodes: dict) -> str:
@@ -167,7 +169,7 @@ def want(a, b, dead, absent, have) -> tuple:
     """The one page most likely to join a break: (paper, date, why). Past partners first, then the
     Journal's own Sundays in between, searched or not (a text search misses these pages), then the World."""
     n = a + 1 if isinstance(a, int) and isinstance(b, int) and b - a > 1 else b
-    if isinstance(n, int):
+    if isinstance(n, int) and sunday_of(n):
         for paper, (lo, hi, first, last) in LAGS.items():
             for w in range(lo, hi + 1):
                 d = (sunday_of(n) + dt.timedelta(weeks=w)).isoformat()
@@ -183,7 +185,7 @@ def want(a, b, dead, absent, have) -> tuple:
             d += dt.timedelta(weeks=1)
         if between:
             return "", "", "another paper's copy: the Journal's issues in between have no puzzle, and no partner is known in 1915"
-    if isinstance(n, int) and n <= LAST_PRINTED:
+    if isinstance(n, int) and n <= LAST_PRINTED and sunday_of(n):
         return "new-york-world", sunday_of(n).isoformat(), f"the World's own page: no partner printed {label(n)}" if n != b else f"the World's own page: the Journal's copy of {label(a)}'s solution is too small to read"
     return "", "", ""
 

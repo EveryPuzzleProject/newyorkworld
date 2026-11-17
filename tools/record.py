@@ -54,12 +54,36 @@ RESULTS = ["queued", "found", "no-hit", "not-carried", "missing-from-scans"]
 FILE_RE = re.compile(r"^(?P<paper>.+?)_(?P<y>\d{4})_(?P<m>\d{2})_(?P<d>\d{2})_(?:(?:Page_)?(?P<page>[A-Za-z]?\d+[A-Za-z]?)|(?P<shot>screenshot))(?P<crop>_fun|_key)?(?: \(\d+\))?\.(?:jpe?g|png|pdf)$", re.I)
 
 
-def sunday_of(n: int) -> dt.date:
-    return FIRST + dt.timedelta(weeks=n - 1)
+# The World's numbers are not a weekly count. FUN ran no new crossword on 1914-05-17 (only No. 21's
+# solution), 05-24 (the Mexico map puzzle) or 06-07 (only No. 22's solution), and never used No. 34:
+# the Milwaukee Sentinel, which carried FUN on the World's own Sundays, prints No. 22 on 05-31, No. 23
+# on 06-14, No. 33 on 08-23, No. 35 on 08-30 and Nos. 47-54 week by week to 1915-01-10
+# (docs/SENTINEL-BATCH.md). From 1915-01-17 a number is the count's index for its date
+# (tools/world_dates_1915.py), so the count's Nos. 55 and 56 (1915-01-03, 01-10, which carry printed
+# Nos. 53 and 54) are not used either.
+UNUSED = {34, 55, 56}
 
 
-def number_of(sunday: dt.date) -> int:
-    return (sunday - FIRST).days // 7 + 1
+def _weeks_late(n: int) -> int:
+    """How many weeks after the count's Sunday the World printed No. n."""
+    if n == 22 or 35 <= n <= 54:
+        return 2
+    if 23 <= n <= 33:
+        return 3
+    return 0
+
+
+def sunday_of(n: int) -> dt.date | None:
+    """The World's Sunday for No. n; None for a number the World never used."""
+    if n in UNUSED:
+        return None
+    return FIRST + dt.timedelta(weeks=n - 1 + _weeks_late(n))
+
+
+def number_of(sunday: dt.date) -> int | None:
+    """The World's number printed on that Sunday; None for a Sunday with no new crossword."""
+    k = (sunday - FIRST).days // 7 + 1  # the count
+    return next((n for n in range(k, k - 4, -1) if n >= 1 and sunday_of(n) == sunday), None)
 
 
 def paper_id(token: str) -> str:
@@ -136,7 +160,8 @@ def new(args) -> None:
             listed.add((info["paper"], info["date"]))
         n += 1
         d = dt.date.fromisoformat(info["date"])
-        exp = f"World No. {number_of(d)} if on the World's date" if d.weekday() == 6 and FIRST <= d <= sunday_of(LAST_NO) else "outside the run"
+        no = number_of(d) if d.weekday() == 6 and FIRST <= d <= sunday_of(LAST_NO) else 0
+        exp = "outside the run" if no == 0 else f"World No. {no} if on the World's date" if no else "a Sunday with no new World crossword"
         print(f"{p.name}\t{info['paper']}\t{info['date']}\tp.{info['page']}\t{exp}")
     if not n:
         print("nothing new")
@@ -286,8 +311,9 @@ def rebuild_all(pr: list[dict], se: list[dict], st: list[dict]) -> int:
         n = r["world_no"]
         if n:
             r["puzzle_key"] = f"no-{n}"
-        r["sunday_inferred"] = sunday_of(int(n)).isoformat() if n else ""
-        r["lag_weeks"] = str((dt.date.fromisoformat(r["date"]) - sunday_of(int(n))).days // 7) if n else ""
+        w = sunday_of(int(n)) if n else None
+        r["sunday_inferred"] = w.isoformat() if w else ""
+        r["lag_weeks"] = str((dt.date.fromisoformat(r["date"]) - w).days // 7) if w else ""
         flags = []
         if r["world_no_printed"] and r["world_no"] and r["world_no_printed"] != r["world_no"]:
             flags.append(f"matched to No. {r['world_no']} but the grid says No. {r['world_no_printed']}")
@@ -307,8 +333,11 @@ def rebuild_all(pr: list[dict], se: list[dict], st: list[dict]) -> int:
             dn = int(b["world_no_printed"]) - int(a["world_no_printed"])
             if dn == 0:
                 b["flag"] = "; ".join(x for x in (b["flag"], f"repeats No. {a['world_no_printed']} of {a['date']}") if x)
-            elif dn != weeks:
-                b["flag"] = "; ".join(x for x in (b["flag"], f"No. {a['world_no_printed']} on {a['date']} to No. {b['world_no_printed']} in {weeks} weeks: {dn - weeks:+d}") if x)
+            else:  # the World's own weeks between the two numbers (not dn: FUN skipped Sundays and No. 34)
+                wa, wb = sunday_of(int(a["world_no_printed"])), sunday_of(int(b["world_no_printed"]))
+                world = (wb - wa).days // 7 if wa and wb else dn
+                if world != weeks:
+                    b["flag"] = "; ".join(x for x in (b["flag"], f"No. {a['world_no_printed']} on {a['date']} to No. {b['world_no_printed']} in {weeks} weeks, the World {world}: {world - weeks:+d}") if x)
     # copies with the same first clue and no key yet: group them automatically
     by_fp: dict[str, list[dict]] = {}
     for r in pr:
@@ -360,7 +389,7 @@ def rebuild_all(pr: list[dict], se: list[dict], st: list[dict]) -> int:
         rs = sorted(by_no.get(str(n), []), key=lambda r: r["date"])
         sols = [r for r in pr if r["solution_of"] in (str(n), f"no-{n}")]
         row = {c: "" for c in STATUS_COLS}
-        row["world_no"], row["sunday_inferred"], row["notes"] = str(n), sunday_of(n).isoformat(), notes.get(str(n), "")
+        row["world_no"], row["sunday_inferred"], row["notes"] = str(n), (sunday_of(n) or "") and sunday_of(n).isoformat(), notes.get(str(n), "")
         row["status"] = "have" if rs else "wanted"
         row["copies"] = "; ".join(f"{r['paper']} {r['date']}" + (f" (lag {r['lag_weeks']}w)" if r["lag_weeks"] not in ("", "0") else "") for r in rs)
         if rs:
@@ -503,22 +532,48 @@ def fp_key(s: str) -> str:
 
 def sync_pages_tsv(pr: list[dict]) -> None:
     """The scans repo's pages.tsv (xword-ocr folder-source format): one row per image we have. Select-portion
-    crops (<page>_fun.jpg the puzzle, <page>_key.jpg the solutions box) get a row of their own with crop_of."""
+    crops (<page>_fun.jpg the puzzle, <page>_key.jpg the solutions box) get a row of their own with crop_of,
+    naming their own page (<page>.jpg) when it is held: a page with crops is read only through its crops, so a
+    crop of anything else would hide that page. A crop whose page isn't held stands as a page. When a clipping
+    is the printing and its full page is held too, the full page gets a row before it (Ben's January 1914
+    Sentinel clippings). `answers` pins a solution to its puzzle from links.tsv (verdict yes): it goes on the row
+    holding the key (the page's _key crop if listed) and names the puzzle's row (its _fun crop if listed);
+    left blank where one solution row answers more than one puzzle."""
     if not SCANS.exists():
         return
-    cols = ["file", "issue", "date", "page", "url", "captured", "note", "crop_of"]
+    cols = ["file", "issue", "date", "page", "url", "captured", "note", "crop_of", "answers"]
     old = {r["file"]: r for r in read_tsv(PAGES_TSV, cols)}
     rows = []
     seen = set()
+
+    def crop_parent(name: str) -> str:
+        info = parse_file(name)
+        if not info or not info["crop"]:
+            return ""
+        whole = name.replace("_" + info["crop"], "")
+        if (PAGES / whole).exists():
+            return whole
+        was = old.get(f"pages/{name}", {}).get("crop_of", "").removeprefix("pages/")  # set by hand (a screenshot's page)
+        w = parse_file(was) if was else None
+        return was if w and not w["crop"] and (PAGES / was).exists() else ""
+
     for r in pr:
         base = r["file"].split("#")[0]
         if base in seen or not (PAGES / base).exists():
             continue
+        whole = crop_parent(base)
+        if whole and whole not in seen:  # a clipping is the printing: its full page first
+            seen.add(whole)
+            o = old.get(f"pages/{whole}", {})
+            rows.append({"file": f"pages/{whole}", "issue": f"{r['paper']}-{r['date']}", "date": r["date"], "page": r["page"],
+                         "url": r["url"] or o.get("url", ""), "captured": o.get("captured") or dt.date.today().isoformat(),
+                         "note": o.get("note", "") or "full page", "crop_of": "", "answers": ""})
         seen.add(base)
         o = old.get(f"pages/{base}", {})
         rows.append({"file": f"pages/{base}", "issue": f"{r['paper']}-{r['date']}", "date": r["date"], "page": r["page"],
                      "url": r["url"] or o.get("url", ""), "captured": o.get("captured") or dt.date.today().isoformat(),
-                     "note": o.get("note", "") or (f"printed {r['printed_page']}" if r["printed_page"] else ""), "crop_of": o.get("crop_of", "")})
+                     "note": o.get("note", "") or (f"printed {r['printed_page']}" if r["printed_page"] else ""),
+                     "crop_of": f"pages/{whole}" if whole else "", "answers": ""})
     crops = []
     by_day = {}
     for r in pr:
@@ -531,17 +586,45 @@ def sync_pages_tsv(pr: list[dict]) -> None:
         held = by_day.get((info["paper"], info["date"]))
         if not held:
             continue
-        whole = p.name.replace("_" + info["crop"], "")
-        parent = whole if (PAGES / whole).exists() else next((h for h in held if h != p.name), "")
+        parent = crop_parent(p.name)
         o = old.get(f"pages/{p.name}", {})
         crops.append({"file": f"pages/{p.name}", "issue": f"{info['paper']}-{info['date']}", "date": info["date"], "page": "", "url": "",
                      "captured": o.get("captured") or dt.date.today().isoformat(),
                      "note": o.get("note") or ("puzzle: heading, intro, grid and clues (Newspapers.com Select portion)" if info["crop"] == "fun"
                                                else "solutions box (Newspapers.com Select portion)"),
-                     "crop_of": o["crop_of"] if o else (f"pages/{parent}" if parent else "")})
-    for c in crops:  # each crop follows the last row of its day
-        at = max((i for i, r in enumerate(rows) if r["issue"] == c["issue"]), default=len(rows) - 1)
+                     "crop_of": f"pages/{parent}" if parent else "", "answers": ""})
+    for c in crops:  # each crop follows its own page, or the last row of its day
+        at = next((i for i, r in enumerate(rows) if c["crop_of"] and r["file"] == c["crop_of"]), None)
+        if at is not None:
+            while at + 1 < len(rows) and rows[at + 1]["crop_of"] == c["crop_of"]:
+                at += 1
+        else:
+            at = max((i for i, r in enumerate(rows) if r["issue"] == c["issue"]), default=len(rows) - 1)
         rows.insert(at + 1, c)
+    # answers, from the links
+    by_file = {r["file"]: r for r in rows}
+
+    def crop(name: str, kind: str) -> str:
+        """The row to use for page `name`: its _fun (puzzle) or _key (solutions) crop when listed."""
+        f = f"pages/{name}"
+        if parse_file(name) and parse_file(name)["crop"]:
+            return f if f in by_file else ""
+        stem, ext = name.rsplit(".", 1)
+        c = next((r["file"] for r in rows if r["crop_of"] == f and r["file"].startswith(f"pages/{stem}_{kind}.")), "")
+        return c or (f if f in by_file else "")
+
+    answers: dict[str, set] = {}
+    for li in links():
+        if li["verdict"] != "yes" or li["puzzle_page"].startswith("clip:") or li["solution_page"].startswith("clip:"):
+            continue
+        key, puzzle = crop(li["solution_page"], "key"), crop(li["puzzle_page"], "fun")
+        if key and puzzle and key != puzzle:
+            answers.setdefault(key, set()).add(puzzle)
+    for f, ps in answers.items():
+        own = {q for q in ps if by_file[q]["issue"].rsplit("-", 3)[0] == by_file[f]["issue"].rsplit("-", 3)[0]}
+        ps = own if len(ps) > 1 and own else ps  # a key linked to two papers' copies pins its own paper's
+        if len(ps) == 1:
+            by_file[f]["answers"] = next(iter(ps))
     write_tsv(PAGES_TSV, cols, rows)
 
 
