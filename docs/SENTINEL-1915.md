@@ -74,3 +74,9 @@ missed them or they weren't saved isn't known, so they stay unsearched rather th
   Journal's 06-27 box already gave).
 - **1915-06-20 p. 65**: the same FUN page 7 as p. 61 (Miss Rae Dinsmore's puzzle), a second, sharper
   GenealogyBank scan. Recorded as its own row; use it for OCR.
+
+## Addendum: the run ends 1915-09-12 (Alex, 2026-11-16)
+
+Alex looked past 09-12: the Sentinel's last crossword item is that day's solution-only page, with no puzzle
+after it and none in 1916. Item 1 above (09-19 to 11-21) is closed as no-hits. The fall-1915 hole needs another
+paper. The remaining Sentinel pages worth saving are in [SENTINEL-WANTED.md](SENTINEL-WANTED.md).
