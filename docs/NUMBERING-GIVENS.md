@@ -34,7 +34,7 @@ grids looked at, 2026-11-17):
 | 13 | E, the centre square | a letter, not a word: the eight three-letter words of the inner star all use it |
 | 17 | E A S T E R, row 3 | EASTER, in black-letter; two clues start on its letters |
 | 27 | F U N across and down, crossing at U | FUN twice; the down word 10-26 runs on to FUND, and has no clue |
-| 28 | 50 letters, no numbers, no clues | the whole puzzle is "uncompleted": fill in the rest (two givens disagree with next week's solution: H/W at r7c1, N/R at r13c7) |
+| 28 | 38 letters, no numbers, no clues | the whole puzzle is "uncompleted": fill in the rest (two givens disagree with next week's solution: H/W at r7c1, N/R at r13c7) |
 | 31 | A M E R I C A, middle row | AMERICA |
 
 The other words with no printed clue are **not** givens (their squares are blank): No. 1 2-3
@@ -136,6 +136,14 @@ new property for the Design section, which is otherwise visual (circle, shaded, 
 given is between the two: the cell is drawn with its letter. If Saul would rather keep Design
 purely visual, the fallback is a `Givens: r2c6 r2c7 r2c8 ...` metadata field.
 
+**4b. Why spell the givens out, not infer them (tested 2026-11-17).** The rule "a word of the
+grid with no clue line is a given" finds the givens exactly in Nos. 1, 2, 9 and 31 (FUN, NEW and
+YEAR, FUN and PUZZLES, AMERICA). It fails on the rest: No. 13's given is one letter, not a word;
+No. 17 would add the DS run beside EASTER (two words' ends side by side); No. 18 would add SREM (an
+unclued column of crossing letters); No. 27's given FUN runs into the unclued FUND; and No. 28's
+givens are scattered letters, two of them different from the solution. Writing them costs a Design
+block in 8 files of 33, and the numbering rules need them.
+
 **5. A word with no printed clue (and not a given) gets a clue line with an empty body and a reason.**
 
 ```
@@ -152,7 +160,7 @@ runs both ways from one F).
 letter is printed on the corner between two squares` (No. 13's inner star).
 
 **6. No. 28 (letters given, no clues, no numbers):** the Grid holds next week's solution, the
-Design marks the 50 given squares, `Numbering: none`, and there are no clue lines and no Labels. Its two clashes
+Design marks the 38 given squares, `Numbering: none`, and there are no clue lines and no Labels. Its two clashes
 stay in Notes.
 
 ### Not covered: shapes for you to look at
