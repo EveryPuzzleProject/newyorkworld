@@ -1,8 +1,11 @@
 # Nos. 1-33 from the Milwaukee Sentinel: sources, dates and ids, harvest plan (2026-11-16)
 
 A plan for the review batch of the World's FUN crosswords Nos. 1-33, read from the Milwaukee
-Sentinel's FUN pages instead of the Minneapolis Journal's. Nothing here has been run yet. The
-decisions marked **Alex** are open.
+Sentinel's FUN pages instead of the Minneapolis Journal's.
+
+**Decided (Alex, 2026-11-16):** the date table in section 2, and retiring batch c1. Both are done
+in the record (this PR). Still open: URLs for the Sentinel's 1913-14 rows (section 3), and running
+the harvest. Nothing has been harvested or published.
 
 The data comes from PR #28 (`nyw/queue-sentinel`: `printings.tsv`, `links.tsv`,
 `docs/SENTINEL-WANTED.md`) and scans PR #5 (the page images and `pages.tsv`). Both are still open
@@ -101,9 +104,9 @@ date in `fixes/fixes.toml`), and from there the harvest's ids. That is why batch
 has No. 22 as `nyw1914-05-17`, and why the record shows the Sentinel and the Journal running
 "2-3 weeks late" when both ran on the World's day.
 
-### Proposal: World date = the Sentinel's date (**Alex**)
+### World date = the Sentinel's date (decided; done)
 
-Replace the count in `sunday_of(n)` with the dates the Sentinel prints:
+`sunday_of(n)` now gives the dates the Sentinel prints:
 
 | Nos. | World date | how it differs from the count |
 |---|---|---|
@@ -130,7 +133,7 @@ and 24 and three at No. 29, the five-in-one; No. 13 is printed as a two-in-one),
 gives the second `b`, and the gxd export maps it to gxd's `a` (blitz `design/judge-postmortem.md`).
 Whether a two-in-one is one xd or two is for Alex at review, puzzle by puzzle.
 
-### What happens to batch `nyw-1914-c1` (**Alex**)
+### Batch `nyw-1914-c1` is retired (decided; done)
 
 c1 is 22 puzzles from the Journal: 2 shipped (Nos. 11, 12), 20 held (17 needs-work, 1 each
 edits-unapplied, proof-stale, incomplete). Its ids for Nos. 22-30 use count dates. Reusing it
@@ -150,15 +153,19 @@ alongside a Sentinel batch is not safe, because the same names would mean differ
 
 Proposal:
 
-1. **Retire c1.** Move c1's rows out of the live files into `fixes/retired/nyw-1914-c1/`:
-   `corrections.jsonl` and `decisions.jsonl` rows for its pids, its `[page."minneapolis-journal-…"]`
-   hand-fitted grids, and its `pipeline/ids.tsv` rows (into `pipeline/ids-retired.tsv`). Keep
-   `pipeline/ship/nyw-1914-c1.json` as the record of what happened, and mark it retired.
+1. **Retire c1.** Done: its `decisions.jsonl`, `corrections.jsonl` and `tool-notes.jsonl` rows,
+   its `pipeline/ids.tsv` rows and its assembly packets are in `fixes/retired/nyw-1914-c1/`
+   (README there). The Journal's hand-fitted grids stay in `fixes/fixes.toml`: they are keyed by the
+   Journal's pages and touch nothing else. `pipeline/ship/nyw-1914-c1.json` stays as the record.
 2. **Keep Nos. 11 and 12 as shipped.** Their `xd/`, `provenance.jsonl` and `fixes/xdids.tsv` rows
-   stay. The Sentinel reading is compared against them.
+   stay. The Sentinel reading is compared against them. `fixes/xdids.tsv` pins `nyw1914-03-01` and
+   `03-08` to the Journal's pages; a pinned id follows other scans of the same issue only, and the
+   Sentinel is another issue key, so `assign-ids` would give its copies `nyw1914-03-01b`. After the
+   harvest, pin the Sentinel's pages to the same two ids (or keep those two out of `assign-ids`).
 3. **Carry over the reviewers' work as evidence, not edits.** For each of Nos. 7-30, the proof
-   reviewer gets c1's corrections and the owner's notes for that number (looked up by number, not
-   pid) as a list of known trouble spots to check. Nothing from c1 applies automatically.
+   reviewer gets c1's corrections and the owner's notes for that number (`by-number.tsv` in the
+   retired folder maps each c1 id to its number) as a list of known trouble spots to check. Nothing
+   from c1 applies automatically.
 4. **Take c1 off the review site** before the new batch is published (needs Alex's say-so: the
    site is public).
 
@@ -167,11 +174,12 @@ Proposal:
 ### Before the harvest
 
 1. Merge PR #28 and scans PR #5 (Alex).
-2. In the record (this repo): apply the date change in section 2, rebuild (`tools/record.py
-   rebuild`), add the two missing links, run `tools/ocr_fixes.py`, and retire c1 (section 2). One
-   PR.
-3. In `newyorkworld-scans/pages.tsv` (scans repo PR):
-   - **Fix `crop_of` on the January clippings.** Today 01-18's and 01-25's solution clippings are
+2. In the record (this repo; done in this PR): the date change in section 2, rebuilt, the two
+   missing links, `tools/ocr_fixes.py` re-run (the 1914 Journal issues are no longer re-dated), c1
+   retired.
+3. In `newyorkworld-scans/pages.tsv` (the scans PR; `pages.tsv` is written by `tools/record.py
+   rebuild`, so the changes are in `sync_pages_tsv`, here, and the scans PR is its output):
+   - **Fix `crop_of` on the January clippings** (done). Today 01-18's and 01-25's solution clippings are
      marked as crops of the puzzle clippings, and 02-01's puzzle clipping as a crop of its solution
      clipping. The harvest reads a page that has crops only through its crops, so as it stands it
      would never read Nos. 5 and 6 or No. 6's solution. Ben's clippings are separate pages (the
@@ -180,8 +188,10 @@ Proposal:
      already in `pages/`) as rows and make each clipping a crop of its own page. The second is the
      documented form, and it gives the proof page the whole page to look at. The clippings are
      sharper than the full pages (about 1300 px across one column against 1600 for the whole page),
-     so they stay what is read.
-   - **Add an `answers` column** from `links.tsv`: each solution row names the puzzle row it
+     so they stay what is read. Done the second way: the six full pages are listed, each clipping is a
+     crop of its own page, and 02-01's two clippings (no full page held) stand as pages.
+   - **Add an `answers` column** from `links.tsv` (done, for every paper; 77 rows, 32 of them the
+     Sentinel's 1913-14 solutions): each solution row names the puzzle row it
      answers. That pins all 32 keys rather than leaving the harvest to match black squares across
      weeks.
    - **URLs.** None of the 1913-14 Sentinel rows has a `url` (the 1915 GenealogyBank rows do).
@@ -222,10 +232,8 @@ different paper than its puzzle). Nos. 1, 2, 11 and 12 are check-only.
 - The ship check runs against the World dates and xdids above. Nothing ships with a count date,
   and nothing goes to gxd without Alex's say-so. gxd branches go to Alex's fork.
 
-## Decisions for Alex
+## Still open for Alex
 
-1. The date table in section 2 (`sunday_of` by the Sentinel's dates, to No. 54).
-2. Retire c1 as in section 2 (archive its corrections, decisions and registry rows; keep Nos. 11
-   and 12 shipped; take it off the site).
-3. URLs for the 1913-14 Sentinel rows, or go without.
-4. Go-ahead to make the record PR and the scans `pages.tsv` PR, then run the harvest as `nyw-s1`.
+1. URLs for the 1913-14 Sentinel rows, or go without.
+2. Taking c1 off the review site (it is public).
+3. Go-ahead to run the harvest as `nyw-s1` once PRs #28, scans #5 and these two are merged.

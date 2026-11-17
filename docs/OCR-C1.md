@@ -1,5 +1,9 @@
 # OCR of chain C1 (the Journal's pages, 1914-02-01 to 08-09): coverage and exceptions
 
+**Retired 2026-11-16.** The batch is replaced by one read from the Milwaukee Sentinel's pages
+(`docs/SENTINEL-BATCH.md`); its ledger and registry rows are in `fixes/retired/nyw-1914-c1/`. Its ids
+for Nos. 22-30 carry count dates, two or three weeks early. Nos. 11 and 12 stay shipped.
+
 Run through xword-ocr (branch `claude/nyw-fun-c1`), 2026-11-01, as far as the pipeline and its
 allowed interventions go: the harvest, hand-fitted lattices where the detector reads a template at
 the wrong size, the text step (Claude Sonnet) and the AI proof review (Claude Sonnet), triage.

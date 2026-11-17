@@ -532,22 +532,48 @@ def fp_key(s: str) -> str:
 
 def sync_pages_tsv(pr: list[dict]) -> None:
     """The scans repo's pages.tsv (xword-ocr folder-source format): one row per image we have. Select-portion
-    crops (<page>_fun.jpg the puzzle, <page>_key.jpg the solutions box) get a row of their own with crop_of."""
+    crops (<page>_fun.jpg the puzzle, <page>_key.jpg the solutions box) get a row of their own with crop_of,
+    naming their own page (<page>.jpg) when it is held: a page with crops is read only through its crops, so a
+    crop of anything else would hide that page. A crop whose page isn't held stands as a page. When a clipping
+    is the printing and its full page is held too, the full page gets a row before it (Ben's January 1914
+    Sentinel clippings). `answers` pins a solution to its puzzle from links.tsv (verdict yes): it goes on the row
+    holding the key (the page's _key crop if listed) and names the puzzle's row (its _fun crop if listed);
+    left blank where one solution row answers more than one puzzle."""
     if not SCANS.exists():
         return
-    cols = ["file", "issue", "date", "page", "url", "captured", "note", "crop_of"]
+    cols = ["file", "issue", "date", "page", "url", "captured", "note", "crop_of", "answers"]
     old = {r["file"]: r for r in read_tsv(PAGES_TSV, cols)}
     rows = []
     seen = set()
+
+    def crop_parent(name: str) -> str:
+        info = parse_file(name)
+        if not info or not info["crop"]:
+            return ""
+        whole = name.replace("_" + info["crop"], "")
+        if (PAGES / whole).exists():
+            return whole
+        was = old.get(f"pages/{name}", {}).get("crop_of", "").removeprefix("pages/")  # set by hand (a screenshot's page)
+        w = parse_file(was) if was else None
+        return was if w and not w["crop"] and (PAGES / was).exists() else ""
+
     for r in pr:
         base = r["file"].split("#")[0]
         if base in seen or not (PAGES / base).exists():
             continue
+        whole = crop_parent(base)
+        if whole and whole not in seen:  # a clipping is the printing: its full page first
+            seen.add(whole)
+            o = old.get(f"pages/{whole}", {})
+            rows.append({"file": f"pages/{whole}", "issue": f"{r['paper']}-{r['date']}", "date": r["date"], "page": r["page"],
+                         "url": r["url"] or o.get("url", ""), "captured": o.get("captured") or dt.date.today().isoformat(),
+                         "note": o.get("note", "") or "full page", "crop_of": "", "answers": ""})
         seen.add(base)
         o = old.get(f"pages/{base}", {})
         rows.append({"file": f"pages/{base}", "issue": f"{r['paper']}-{r['date']}", "date": r["date"], "page": r["page"],
                      "url": r["url"] or o.get("url", ""), "captured": o.get("captured") or dt.date.today().isoformat(),
-                     "note": o.get("note", "") or (f"printed {r['printed_page']}" if r["printed_page"] else ""), "crop_of": o.get("crop_of", "")})
+                     "note": o.get("note", "") or (f"printed {r['printed_page']}" if r["printed_page"] else ""),
+                     "crop_of": f"pages/{whole}" if whole else "", "answers": ""})
     crops = []
     by_day = {}
     for r in pr:
@@ -560,17 +586,45 @@ def sync_pages_tsv(pr: list[dict]) -> None:
         held = by_day.get((info["paper"], info["date"]))
         if not held:
             continue
-        whole = p.name.replace("_" + info["crop"], "")
-        parent = whole if (PAGES / whole).exists() else next((h for h in held if h != p.name), "")
+        parent = crop_parent(p.name)
         o = old.get(f"pages/{p.name}", {})
         crops.append({"file": f"pages/{p.name}", "issue": f"{info['paper']}-{info['date']}", "date": info["date"], "page": "", "url": "",
                      "captured": o.get("captured") or dt.date.today().isoformat(),
                      "note": o.get("note") or ("puzzle: heading, intro, grid and clues (Newspapers.com Select portion)" if info["crop"] == "fun"
                                                else "solutions box (Newspapers.com Select portion)"),
-                     "crop_of": o["crop_of"] if o else (f"pages/{parent}" if parent else "")})
-    for c in crops:  # each crop follows the last row of its day
-        at = max((i for i, r in enumerate(rows) if r["issue"] == c["issue"]), default=len(rows) - 1)
+                     "crop_of": f"pages/{parent}" if parent else "", "answers": ""})
+    for c in crops:  # each crop follows its own page, or the last row of its day
+        at = next((i for i, r in enumerate(rows) if c["crop_of"] and r["file"] == c["crop_of"]), None)
+        if at is not None:
+            while at + 1 < len(rows) and rows[at + 1]["crop_of"] == c["crop_of"]:
+                at += 1
+        else:
+            at = max((i for i, r in enumerate(rows) if r["issue"] == c["issue"]), default=len(rows) - 1)
         rows.insert(at + 1, c)
+    # answers, from the links
+    by_file = {r["file"]: r for r in rows}
+
+    def crop(name: str, kind: str) -> str:
+        """The row to use for page `name`: its _fun (puzzle) or _key (solutions) crop when listed."""
+        f = f"pages/{name}"
+        if parse_file(name) and parse_file(name)["crop"]:
+            return f if f in by_file else ""
+        stem, ext = name.rsplit(".", 1)
+        c = next((r["file"] for r in rows if r["crop_of"] == f and r["file"].startswith(f"pages/{stem}_{kind}.")), "")
+        return c or (f if f in by_file else "")
+
+    answers: dict[str, set] = {}
+    for li in links():
+        if li["verdict"] != "yes" or li["puzzle_page"].startswith("clip:") or li["solution_page"].startswith("clip:"):
+            continue
+        key, puzzle = crop(li["solution_page"], "key"), crop(li["puzzle_page"], "fun")
+        if key and puzzle and key != puzzle:
+            answers.setdefault(key, set()).add(puzzle)
+    for f, ps in answers.items():
+        own = {q for q in ps if by_file[q]["issue"].rsplit("-", 3)[0] == by_file[f]["issue"].rsplit("-", 3)[0]}
+        ps = own if len(ps) > 1 and own else ps  # a key linked to two papers' copies pins its own paper's
+        if len(ps) == 1:
+            by_file[f]["answers"] = next(iter(ps))
     write_tsv(PAGES_TSV, cols, rows)
 
 

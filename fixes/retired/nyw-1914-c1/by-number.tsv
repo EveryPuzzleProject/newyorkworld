@@ -1,0 +1,23 @@
+pid	registry_id	world_no	count_date	world_date	journal_page	status	reason
+nyw1914-02-01-L001	nyw-1914-02-01-1	7	1914-02-01	1914-02-01	minneapolis-journal-1914-02-01	held	edits-unapplied
+nyw1914-02-08-L001		8	1914-02-08	1914-02-08		held	needs-work
+nyw1914-02-15-L001	nyw-1914-02-15-1	9	1914-02-15	1914-02-15	minneapolis-journal-1914-02-15	held	needs-work
+nyw1914-02-22-L000	nyw-1914-02-22-1	10	1914-02-22	1914-02-22	minneapolis-journal-1914-02-22	held	needs-work
+nyw1914-03-01-L000	nyw-1914-03-01-1	11	1914-03-01	1914-03-01	minneapolis-journal-1914-03-01	shipped	
+nyw1914-03-08-L000	nyw-1914-03-08-1	12	1914-03-08	1914-03-08	minneapolis-journal-1914-03-08	shipped	
+nyw1914-03-15-L000	nyw-1914-03-15-1	13	1914-03-15	1914-03-15	minneapolis-journal-1914-03-15	held	proof-stale
+nyw1914-03-22-L001	nyw-1914-03-22-1	14	1914-03-22	1914-03-22	minneapolis-journal-1914-03-22	held	needs-work
+nyw1914-03-29-L000	nyw-1914-03-29-1	15	1914-03-29	1914-03-29	minneapolis-journal-1914-03-29	held	needs-work
+nyw1914-04-05-L001	nyw-1914-04-05-1	16	1914-04-05	1914-04-05	minneapolis-journal-1914-04-05	held	needs-work
+nyw1914-04-12-L001	nyw-1914-04-12-1	17	1914-04-12	1914-04-12	minneapolis-journal-1914-04-12	held	needs-work
+nyw1914-04-19-L001	nyw-1914-04-19-1	18	1914-04-19	1914-04-19	minneapolis-journal-1914-04-19	held	needs-work
+nyw1914-04-26-L000	nyw-1914-04-26-1	19	1914-04-26	1914-04-26	minneapolis-journal-1914-04-26	held	incomplete
+nyw1914-05-03-L000	nyw-1914-05-03-1	20	1914-05-03	1914-05-03	minneapolis-journal-1914-05-03	held	needs-work
+nyw1914-05-10-L001	nyw-1914-05-10-1	21	1914-05-10	1914-05-10	minneapolis-journal-1914-05-10	held	needs-work
+nyw1914-05-17-L001	nyw-1914-05-17-2	22	1914-05-17	1914-05-31	minneapolis-journal-1914-05-31	held	needs-work
+nyw1914-05-24-L001	nyw-1914-05-24-2	23	1914-05-24	1914-06-14	minneapolis-journal-1914-06-14	held	needs-work
+nyw1914-05-31-L001	nyw-1914-05-31-2	24	1914-05-31	1914-06-21	minneapolis-journal-1914-06-21	held	needs-work
+nyw1914-06-07-L001	nyw-1914-06-07-1	25	1914-06-07	1914-06-28	minneapolis-journal-1914-06-28	held	needs-work
+nyw1914-06-14-L001	nyw-1914-06-14-1	26	1914-06-14	1914-07-05	minneapolis-journal-1914-07-05	held	needs-work
+nyw1914-06-21-L001	nyw-1914-06-21-1	27	1914-06-21	1914-07-12	minneapolis-journal-1914-07-12	held	needs-work
+nyw1914-07-12-L001	nyw-1914-07-12-2	30	1914-07-12	1914-08-02	minneapolis-journal-1914-08-02	held	needs-work
