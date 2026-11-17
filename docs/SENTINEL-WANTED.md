@@ -5,11 +5,14 @@ crossword item is that day's solution-only page; Alex found no puzzle after it a
 fill the fall-1915 hole (Nos. 91-100 by the count, 1915-09-19 to 11-14). That needs another paper that carried
 FUN then. Those Sundays are recorded as Sentinel no-hits.
 
-**Still open.** Only one thing is left that the Sentinel can supply:
+**Still open.** The Sentinel's run of Nos. 1-33 is now complete as puzzles, except No. 4 (held from other papers) and No. 11's puzzle page. What's left is single pages:
 
 | Sunday | What it adds |
 |---|---|
-| 1914-05-17 (No. 21's solution only: FUN ran no new crossword that day), 06-14 to 08-16, and 03-01's puzzle page (No. 11), 02-22's solution page (No. 9's), 03-08's solution page (No. 11's) | sharper copies to read than the Journal's for Nos. 11 and 23-30. 17 of the first review batch (Nos. 7-30) are held as needs-work, mostly for the Journal's poor print. Save both the puzzle page and the solutions page. Nos. 8-10 and 12-22 are done |
+| 1914-03-01 | No. 11's puzzle page (only the solutions page was saved) |
+| 1914-02-22, 03-08 | their solution pages (the solutions to Nos. 9 and 11) |
+| 1914-05-17 | No. 21's solution (FUN ran no new crossword that day; look on FUN p. 15) |
+| 1914-06-28 | No. 24's solution, on another page of the issue (the saved p. 84 has No. 25 only) |
 
 Save as before into Downloads; Claude files them (`Milwaukee_Sentinel_<yyyy>_<mm>_<dd>_<page>.png`).
 
@@ -36,3 +39,6 @@ Save as before into Downloads; Claude files them (`Milwaukee_Sentinel_<yyyy>_<mm
 - **1914-04-05 to 04-26 (Nos. 16-19), 8 pages:** each puzzle with the next week's labelled solution (Nos. 15-18), all linked by label, and No. 19 linked to the 05-03 "Solution to No 19".
   The Sentinel numbers No. 18: the Journal's 04-19 puzzle is unnumbered, but the Sentinel's intro calls it "the eighteenth", and its solution is labelled "No 18".
   No. 17's clue list as printed starts at 3-4 "It comes before Easter". Credits: Katherine Reilly (No. 16), Alex B. Miller of Portsmouth, Va. (No. 18), Olga Lehander (No. 19).
+- **1914-06-14 to 08-16 (Nos. 23-32), 14 pages:** puzzles for Nos. 23-30 and 32, and solutions to Nos. 23 and 25-31, all linked (by label for 23, 25 and 26, by grid for the rest).
+  Credits the Journal rows lack: H. J. Stack (No. 23), Ernest A. Grant (No. 24), Charles L. Rives (No. 26), W. G. H. Tiedemann (No. 27; the editor changed some of his words), Aloysius E. Pracny (No. 29, five puzzles in one, unnumbered here), T. W. Martin, Jr. (No. 30), William Callander (No. 32).
+  No. 25's first clue reads 2-3 here and 1-3 in the Journal row: check when reading.
