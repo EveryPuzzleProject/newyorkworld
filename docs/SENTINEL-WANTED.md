@@ -9,7 +9,7 @@ FUN then. Those Sundays are recorded as Sentinel no-hits.
 
 | Sunday | What it adds |
 |---|---|
-| 1914-04-05 to 08-16, and 03-01's puzzle page (No. 11), 02-22's solution page (No. 9's), 03-08's solution page (No. 11's) | sharper copies to read than the Journal's for Nos. 11 and 16-30. 17 of the first review batch (Nos. 7-30) are held as needs-work, mostly for the Journal's poor print. Save both the puzzle page and the solutions page. Nos. 8-10 and 12-15 are done |
+| 1914-05-17 (No. 21's solution only: FUN ran no new crossword that day), 06-14 to 08-16, and 03-01's puzzle page (No. 11), 02-22's solution page (No. 9's), 03-08's solution page (No. 11's) | sharper copies to read than the Journal's for Nos. 11 and 23-30. 17 of the first review batch (Nos. 7-30) are held as needs-work, mostly for the Journal's poor print. Save both the puzzle page and the solutions page. Nos. 8-10 and 12-22 are done |
 
 Save as before into Downloads; Claude files them (`Milwaukee_Sentinel_<yyyy>_<mm>_<dd>_<page>.png`).
 
@@ -33,3 +33,6 @@ Save as before into Downloads; Claude files them (`Milwaukee_Sentinel_<yyyy>_<mm
   The Sentinel names two puzzles the Journal left unnumbered: the George Washington puzzle is "the tenth" (No. 10), and the 03-15 two-in-one is captioned "No 13".
   Constructor credits the Journal lacks: Evangeline Kearney (No. 12), Harry Cleaver of Montreal (No. 13), "G. H. F." (No. 14), Florence A. Reif (No. 15).
   Not saved: No. 11's puzzle page (03-01; only the solutions page came), and the solution pages of 02-22 and 03-08.
+- **1914-04-05 to 04-26 (Nos. 16-19), 8 pages:** each puzzle with the next week's labelled solution (Nos. 15-18), all linked by label, and No. 19 linked to the 05-03 "Solution to No 19".
+  The Sentinel numbers No. 18: the Journal's 04-19 puzzle is unnumbered, but the Sentinel's intro calls it "the eighteenth", and its solution is labelled "No 18".
+  No. 17's clue list as printed starts at 3-4 "It comes before Easter". Credits: Katherine Reilly (No. 16), Alex B. Miller of Portsmouth, Va. (No. 18), Olga Lehander (No. 19).
