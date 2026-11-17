@@ -184,5 +184,20 @@
    "stage": "keysearch",
    "version": "keysearch/2"
   }
+ },
+ "scan:milwaukee-sentinel-1914-05-03/0001#key-f11ea602b1f7a": {
+  "keysearch": {
+   "code": "xword-ocr 0.1.0",
+   "inputs": {
+    "image": "sha256:f90285588c04c2c92198e9e86b610e9984f7f050f34900f788aa5eac99061512"
+   },
+   "made": "2026-11-17T03:39:33+00:00",
+   "output": "sha256:27ade9e82608d877aeb0934457fc16cb1328adc2f84bc6a06d069008daf392f6",
+   "settings": {
+    "only_pointed": true
+   },
+   "stage": "keysearch",
+   "version": "keysearch/2"
+  }
  }
 }

@@ -1,0 +1,666 @@
+{
+ "xdid": "nyw1914-01-11",
+ "no": 4,
+ "pages": {
+  "puzzle": "Kansas_Farmer_and_Mail_and_Breeze_1914_02_14_16.jpg",
+  "solution": "Milwaukee_Sentinel_1914_01_18_83_key.png"
+ },
+ "grid": {
+  "page": "puzzle",
+  "corners": [
+   [
+    1441,
+    2176
+   ],
+   [
+    2317,
+    2174
+   ],
+   [
+    2323,
+    3088
+   ],
+   [
+    1448,
+    3094
+   ]
+  ],
+  "rows": 13,
+  "cols": 13
+ },
+ "key": {
+  "page": "solution",
+  "corners": [
+   [
+    562,
+    494
+   ],
+   [
+    1272,
+    487
+   ],
+   [
+    1281,
+    1180
+   ],
+   [
+    565,
+    1190
+   ]
+  ],
+  "rows": 13,
+  "cols": 13
+ },
+ "lines": [
+  {
+   "label": "heading (the reprint's own)",
+   "text": "A Puzzle For Mail and Breeze Boys and Girls",
+   "page": "puzzle",
+   "ocr": [
+    "o133",
+    "o137"
+   ],
+   "box": [
+    1390,
+    1943,
+    2383,
+    2105
+   ]
+  },
+  {
+   "label": "centre block",
+   "text": "CAN YOU SOLVE IT?",
+   "page": "puzzle",
+   "ocr": [
+    "o176",
+    "o180",
+    "o188"
+   ],
+   "box": [
+    1775,
+    2535,
+    2062,
+    2715
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "label": "intro",
+   "text": "HERE is a cross-word puzzle. Can you solve it? Fill in the spaces in diagram with words which agree with the definitions, apportioning one letter to each square. For instance, 1-2 means to help; the word is aid. Can you find the rest?",
+   "page": "puzzle",
+   "ocr": [
+    "o227",
+    "o228",
+    "o230",
+    "o234",
+    "o236"
+   ],
+   "box": [
+    1315,
+    3115,
+    2462,
+    3258
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "label": "prize notice (the reprint's own)",
+   "text": "A prize of a set of postcards will be given for each of the ten best answers received before February 24. In awarding prizes not only the accuracy of the solution but the general appearance of the letter will be considered. Be sure to write in the corner of your envelope, \"Puzzle Editor,\" and enclose no other business with your solution.",
+   "page": "puzzle",
+   "ocr": [
+    "o292",
+    "o296",
+    "o298",
+    "o300",
+    "o303"
+   ],
+   "box": [
+    1318,
+    3615,
+    2462,
+    3780
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "label": "solution caption",
+   "text": "The accompanying diagram gives the solution to last week's cross word puzzle, showing how the letters can be arranged to form words that fit the list of definitions given. Another cross-word puzzle will be found on page 6. See if you can solve it. The solution to today's puzzles will be given in next week's FUN.",
+   "page": "solution",
+   "ocr": [
+    "o25",
+    "o26",
+    "o28",
+    "o31",
+    "o33",
+    "o35",
+    "o38",
+    "o40",
+    "o41",
+    "o43",
+    "o45",
+    "o47",
+    "o48"
+   ],
+   "box": [
+    20,
+    644,
+    544,
+    1176
+   ]
+  }
+ ],
+ "clues": [
+  {
+   "pair": "1-2",
+   "text": "To help.",
+   "answer": "AID",
+   "page": "puzzle",
+   "ocr": [
+    "o239"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    1331,
+    3257,
+    1499,
+    3289
+   ]
+  },
+  {
+   "pair": "3-4",
+   "text": "A musical performance.",
+   "answer": "OPERA",
+   "page": "puzzle",
+   "ocr": [
+    "o242"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    1322,
+    3280,
+    1700,
+    3311
+   ]
+  },
+  {
+   "pair": "5-6",
+   "text": "A continent.",
+   "answer": "AMERICA",
+   "page": "puzzle",
+   "ocr": [
+    "o245"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    1332,
+    3303,
+    1553,
+    3334
+   ]
+  },
+  {
+   "pair": "7-8",
+   "text": "A plant.",
+   "answer": "FLAX",
+   "page": "puzzle",
+   "ocr": [
+    "o248"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    1330,
+    3324,
+    1500,
+    3357
+   ]
+  },
+  {
+   "pair": "9-10",
+   "text": "Saucy.",
+   "answer": "PERT",
+   "page": "puzzle",
+   "ocr": [
+    "o252"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    1325,
+    3341,
+    1484,
+    3381
+   ]
+  },
+  {
+   "pair": "11-12",
+   "text": "To shout.",
+   "answer": "ROAR",
+   "page": "puzzle",
+   "ocr": [
+    "o255"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    1322,
+    3370,
+    1526,
+    3399
+   ]
+  },
+  {
+   "pair": "13-14",
+   "text": "An ancestor.",
+   "answer": "SIRE",
+   "page": "puzzle",
+   "ocr": [
+    "o258"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    1322,
+    3390,
+    1565,
+    3421
+   ]
+  },
+  {
+   "pair": "15-16",
+   "text": "A son of Lot.",
+   "answer": "ROAB",
+   "page": "puzzle",
+   "ocr": [
+    "o263"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    1322,
+    3415,
+    1580,
+    3444
+   ]
+  },
+  {
+   "pair": "17-18",
+   "text": "Enthusiasm.",
+   "answer": "ZEAL",
+   "page": "puzzle",
+   "ocr": [
+    "o267"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    1322,
+    3437,
+    1561,
+    3465
+   ]
+  },
+  {
+   "pair": "19-20",
+   "text": "To talk thoughtlessly.",
+   "answer": "BLAB",
+   "page": "puzzle",
+   "ocr": [
+    "o269"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    1322,
+    3457,
+    1697,
+    3488
+   ]
+  },
+  {
+   "pair": "21-22",
+   "text": "Used at a baptism.",
+   "answer": "FONT",
+   "page": "puzzle",
+   "ocr": [
+    "o272"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    1323,
+    3478,
+    1661,
+    3511
+   ]
+  },
+  {
+   "pair": "23-24",
+   "text": "A water bird.",
+   "answer": "SMEE",
+   "page": "puzzle",
+   "ocr": [
+    "o276"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    1321,
+    3499,
+    1585,
+    3531
+   ]
+  },
+  {
+   "pair": "25-26",
+   "text": "A company of musicians.",
+   "answer": "BAND",
+   "page": "puzzle",
+   "ocr": [
+    "o281"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    1325,
+    3525,
+    1737,
+    3552
+   ]
+  },
+  {
+   "pair": "27-28",
+   "text": "A part of Long Island.",
+   "answer": "ASTORIA",
+   "page": "puzzle",
+   "ocr": [
+    "o282"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    1323,
+    3544,
+    1715,
+    3576
+   ]
+  },
+  {
+   "pair": "29-30",
+   "text": "A cloth used for drying and wiping.",
+   "answer": "TOWEL",
+   "page": "puzzle",
+   "ocr": [
+    "o286"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    1320,
+    3561,
+    1880,
+    3600
+   ]
+  },
+  {
+   "pair": "31-32",
+   "text": "A boy's name.",
+   "answer": "NED",
+   "page": "puzzle",
+   "ocr": [
+    "o290"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    1325,
+    3592,
+    1590,
+    3620
+   ]
+  },
+  {
+   "pair": "33-34",
+   "text": "One row of a series.",
+   "answer": "TIER",
+   "page": "puzzle",
+   "ocr": [
+    "o240"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    1883,
+    3255,
+    2236,
+    3287
+   ]
+  },
+  {
+   "pair": "35-36",
+   "text": "An obligation.",
+   "answer": "OWED",
+   "page": "puzzle",
+   "ocr": [
+    "o243"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    1884,
+    3278,
+    2147,
+    3309
+   ]
+  },
+  {
+   "pair": "1-8",
+   "text": "The highest point.",
+   "answer": "APEX",
+   "page": "puzzle",
+   "ocr": [
+    "o246"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    1891,
+    3300,
+    2203,
+    3332
+   ]
+  },
+  {
+   "pair": "3-12",
+   "text": "A grandson of Esau.",
+   "answer": "OMAR",
+   "page": "puzzle",
+   "ocr": [
+    "o249"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    1894,
+    3324,
+    2238,
+    3352
+   ]
+  },
+  {
+   "pair": "5-27",
+   "text": "A Southern state.",
+   "answer": "ALABAMA",
+   "page": "puzzle",
+   "ocr": [
+    "o253"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    1891,
+    3343,
+    2194,
+    3375
+   ]
+  },
+  {
+   "pair": "7-23",
+   "text": "Young horses.",
+   "answer": "FOALS",
+   "page": "puzzle",
+   "ocr": [
+    "o256"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    1894,
+    3369,
+    2149,
+    3397
+   ]
+  },
+  {
+   "pair": "11-19",
+   "text": "To steal.",
+   "answer": "ROB",
+   "page": "puzzle",
+   "ocr": [
+    "o259"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    1886,
+    3390,
+    2076,
+    3418
+   ]
+  },
+  {
+   "pair": "20-29",
+   "text": "Excelling all others.",
+   "answer": "BEST",
+   "page": "puzzle",
+   "ocr": [
+    "o262"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    1886,
+    3411,
+    2229,
+    3439
+   ]
+  },
+  {
+   "pair": "24-31",
+   "text": "A famous English school.",
+   "answer": "ETON",
+   "page": "puzzle",
+   "ocr": [
+    "o266"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    1885,
+    3432,
+    2309,
+    3463
+   ]
+  },
+  {
+   "pair": "2-9",
+   "text": "To fall in drops.",
+   "answer": "DRIP",
+   "page": "puzzle",
+   "ocr": [
+    "o270"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    1893,
+    3454,
+    2191,
+    3484
+   ]
+  },
+  {
+   "pair": "4-13",
+   "text": "Cards.",
+   "answer": "ACES",
+   "page": "puzzle",
+   "ocr": [
+    "o273"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    1895,
+    3478,
+    2042,
+    3505
+   ]
+  },
+  {
+   "pair": "6-28",
+   "text": "A Western state.",
+   "answer": "ARIZONA",
+   "page": "puzzle",
+   "ocr": [
+    "o277"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    1894,
+    3499,
+    2186,
+    3528
+   ]
+  },
+  {
+   "pair": "10-26",
+   "text": "General course or direction.",
+   "answer": "TREND",
+   "page": "puzzle",
+   "ocr": [
+    "o279"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    1885,
+    3520,
+    2336,
+    3551
+   ]
+  },
+  {
+   "pair": "14-22",
+   "text": "To swallow.",
+   "answer": "EAT",
+   "page": "puzzle",
+   "ocr": [
+    "o283"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    1885,
+    3541,
+    2124,
+    3572
+   ]
+  },
+  {
+   "pair": "21-30",
+   "text": "To be unsuccessful.",
+   "answer": "FAIL",
+   "page": "puzzle",
+   "ocr": [
+    "o286"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    1883,
+    3561,
+    2225,
+    3600
+   ]
+  },
+  {
+   "pair": "25-32",
+   "text": "What she was in Old Kentucky.",
+   "answer": "BRED",
+   "page": "puzzle",
+   "ocr": [
+    "o289"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    1883,
+    3583,
+    2409,
+    3619
+   ]
+  }
+ ]
+}

@@ -1,0 +1,631 @@
+{
+ "xdid": "nyw1914-04-12",
+ "no": 17,
+ "pages": {
+  "puzzle": "Milwaukee_Sentinel_1914_04_12_88.png",
+  "solution": "Milwaukee_Sentinel_1914_04_19_95.png"
+ },
+ "grid": {
+  "page": "puzzle",
+  "corners": [
+   [
+    486,
+    248
+   ],
+   [
+    1136,
+    250
+   ],
+   [
+    1127,
+    897
+   ],
+   [
+    484,
+    897
+   ]
+  ],
+  "rows": 12,
+  "cols": 12
+ },
+ "key": {
+  "page": "solution",
+  "corners": [
+   [
+    733,
+    1549
+   ],
+   [
+    1116,
+    1549
+   ],
+   [
+    1116,
+    1925
+   ],
+   [
+    733,
+    1925
+   ]
+  ],
+  "rows": 12,
+  "cols": 12
+ },
+ "lines": [
+  {
+   "label": "heading",
+   "text": "FUN'S \"EASTER\"",
+   "page": "puzzle",
+   "ocr": [
+    "o2",
+    "o3"
+   ],
+   "box": [
+    460,
+    68,
+    1158,
+    230
+   ]
+  },
+  {
+   "label": "heading",
+   "text": "CROSS-",
+   "page": "puzzle",
+   "box": [
+    485,
+    238,
+    718,
+    308
+   ]
+  },
+  {
+   "label": "heading",
+   "text": "WORD",
+   "page": "puzzle",
+   "ocr": [
+    "o18"
+   ],
+   "box": [
+    474,
+    297,
+    647,
+    398
+   ]
+  },
+  {
+   "label": "heading",
+   "text": "PUZZLE",
+   "page": "puzzle",
+   "ocr": [
+    "o16"
+   ],
+   "box": [
+    926,
+    230,
+    1143,
+    315
+   ]
+  },
+  {
+   "label": "tagline",
+   "text": "CAN YOU SOLVE IT?",
+   "page": "puzzle",
+   "ocr": [
+    "o20",
+    "o21",
+    "o22"
+   ],
+   "box": [
+    976,
+    310,
+    1138,
+    461
+   ]
+  },
+  {
+   "label": "number",
+   "text": "No 17",
+   "page": "puzzle",
+   "ocr": [
+    "o31"
+   ],
+   "box": [
+    736,
+    537,
+    863,
+    604
+   ]
+  },
+  {
+   "label": "intro",
+   "text": "Today being Easter Sunday, FUN'S cross word puzzle, the seventeenth in the series, is given an Easter flavoring. Fill in the small squares with letters spelling words corresponding to the clews and definitions given below. Only one letter is to be placed in each square. The solution to this puzzle will be published in next week's FUN.",
+   "page": "puzzle",
+   "ocr": [
+    "o55",
+    "o57",
+    "o60",
+    "o63",
+    "o65",
+    "o68",
+    "o72",
+    "o75",
+    "o77",
+    "o80",
+    "o82",
+    "o84"
+   ],
+   "box": [
+    470,
+    897,
+    800,
+    1161
+   ]
+  },
+  {
+   "label": "clue 21-22, continued",
+   "text": "time is reckoned.",
+   "page": "puzzle",
+   "ocr": [
+    "o56"
+   ],
+   "box": [
+    858,
+    895,
+    1040,
+    924
+   ]
+  },
+  {
+   "label": "solution heading",
+   "text": "SOLUTION TO No 17",
+   "page": "solution",
+   "box": [
+    868,
+    1715,
+    978,
+    1790
+   ]
+  }
+ ],
+ "clues": [
+  {
+   "pair": "3-4",
+   "text": "It comes before Easter.",
+   "answer": "LENT",
+   "page": "puzzle",
+   "ocr": [
+    "o87"
+   ],
+   "box": [
+    472,
+    1158,
+    772,
+    1184
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "5-8",
+   "text": "That which fastens.",
+   "answer": "FASTENER",
+   "page": "puzzle",
+   "ocr": [
+    "o91"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    471,
+    1176,
+    735,
+    1206
+   ]
+  },
+  {
+   "pair": "9-10",
+   "text": "When compelled.",
+   "answer": "MUST",
+   "page": "puzzle",
+   "ocr": [
+    "o96"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    472,
+    1199,
+    713,
+    1226
+   ]
+  },
+  {
+   "pair": "11-12",
+   "text": "A horse mackerel.",
+   "answer": "SCAD",
+   "page": "puzzle",
+   "ocr": [
+    "o99"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    472,
+    1219,
+    735,
+    1249
+   ]
+  },
+  {
+   "pair": "13-14",
+   "text": "Loose earth.",
+   "answer": "DIRT",
+   "page": "puzzle",
+   "ocr": [
+    "o102"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    473,
+    1239,
+    676,
+    1270
+   ]
+  },
+  {
+   "pair": "15-16",
+   "text": "A poem.",
+   "answer": "EPIC",
+   "page": "puzzle",
+   "ocr": [
+    "o105"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    470,
+    1263,
+    638,
+    1292
+   ]
+  },
+  {
+   "pair": "17-18",
+   "text": "To put away.",
+   "answer": "STOW",
+   "page": "puzzle",
+   "ocr": [
+    "o108"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    471,
+    1282,
+    690,
+    1317
+   ]
+  },
+  {
+   "pair": "19-20",
+   "text": "In hac salus.",
+   "answer": "IHS",
+   "page": "puzzle",
+   "ocr": [
+    "o110"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    471,
+    1306,
+    688,
+    1337
+   ]
+  },
+  {
+   "pair": "21-22",
+   "text": "Events from which time is reckoned.",
+   "answer": "ERAS",
+   "page": "puzzle",
+   "ocr": [
+    "o112",
+    "o113"
+   ],
+   "box": [
+    471,
+    1328,
+    805,
+    1360
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "23-24",
+   "text": "Derived from grapes.",
+   "answer": "UVIC",
+   "page": "puzzle",
+   "ocr": [
+    "o58"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    811,
+    914,
+    1112,
+    946
+   ]
+  },
+  {
+   "pair": "25-28",
+   "text": "Thorough scholars.",
+   "answer": "ERUDITES",
+   "page": "puzzle",
+   "ocr": [
+    "o61"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    814,
+    939,
+    1088,
+    967
+   ]
+  },
+  {
+   "pair": "29-30",
+   "text": "They gather no honey.",
+   "answer": "DRONES",
+   "page": "puzzle",
+   "ocr": [
+    "o64"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    805,
+    960,
+    1122,
+    989
+   ]
+  },
+  {
+   "pair": "31-32",
+   "text": "Enemies.",
+   "answer": "FOES",
+   "page": "puzzle",
+   "ocr": [
+    "o66",
+    "o67"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    808,
+    985,
+    981,
+    1008
+   ]
+  },
+  {
+   "pair": "1-6",
+   "text": "Excelling all others.",
+   "answer": "BEST",
+   "page": "puzzle",
+   "ocr": [
+    "o69",
+    "o70"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    805,
+    1005,
+    1097,
+    1032
+   ]
+  },
+  {
+   "pair": "2-7",
+   "text": "Before.",
+   "answer": "ANTE",
+   "page": "puzzle",
+   "ocr": [
+    "o73",
+    "o74"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    822,
+    1024,
+    968,
+    1053
+   ]
+  },
+  {
+   "pair": "3-10",
+   "text": "Used by a cobbler.",
+   "answer": "LAST",
+   "page": "puzzle",
+   "ocr": [
+    "o76"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    812,
+    1046,
+    1079,
+    1074
+   ]
+  },
+  {
+   "pair": "4-11",
+   "text": "X X X X X X X.",
+   "answer": "TENS",
+   "page": "puzzle",
+   "ocr": [
+    "o78",
+    "o79"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    823,
+    1069,
+    1086,
+    1096
+   ]
+  },
+  {
+   "pair": "E-29",
+   "text": "In an easterly direction.",
+   "answer": "EASTWARD",
+   "page": "puzzle",
+   "ocr": [
+    "o81"
+   ],
+   "box": [
+    806,
+    1092,
+    1129,
+    1118
+   ],
+   "how": "ocr-exact"
+  },
+  {
+   "pair": "R-30",
+   "text": "Accepts with approval.",
+   "answer": "RECEIVES",
+   "page": "puzzle",
+   "ocr": [
+    "o83"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    806,
+    1113,
+    1119,
+    1140
+   ]
+  },
+  {
+   "pair": "5-25",
+   "text": "Great enthusiasm.",
+   "answer": "FURORE",
+   "page": "puzzle",
+   "ocr": [
+    "o85"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    814,
+    1134,
+    1071,
+    1160
+   ]
+  },
+  {
+   "pair": "8-28",
+   "text": "Found in plant cells.",
+   "answer": "RAPHIS",
+   "page": "puzzle",
+   "ocr": [
+    "o88"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    817,
+    1154,
+    1106,
+    1184
+   ]
+  },
+  {
+   "pair": "9-21",
+   "text": "A small particle.",
+   "answer": "MITE",
+   "page": "puzzle",
+   "ocr": [
+    "o92"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    814,
+    1178,
+    1067,
+    1206
+   ]
+  },
+  {
+   "pair": "12-24",
+   "text": "A flat circular plate.",
+   "answer": "DISC",
+   "page": "puzzle",
+   "ocr": [
+    "o97"
+   ],
+   "box": [
+    807,
+    1198,
+    1100,
+    1228
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "22-31",
+   "text": "Breakers at the seashore.",
+   "answer": "SURF",
+   "page": "puzzle",
+   "ocr": [
+    "o100",
+    "o104"
+   ],
+   "box": [
+    807,
+    1220,
+    1130,
+    1270
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "23-32",
+   "text": "Indians of the Shoshonean tribe.",
+   "answer": "UTES",
+   "page": "puzzle",
+   "ocr": [
+    "o106",
+    "o109"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    810,
+    1265,
+    1129,
+    1313
+   ]
+  },
+  {
+   "pair": "26-33",
+   "text": "Often found locked.",
+   "answer": "DOOR",
+   "page": "puzzle",
+   "ocr": [
+    "o111"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    809,
+    1308,
+    1095,
+    1336
+   ]
+  },
+  {
+   "pair": "27-34",
+   "text": "Poison for arrows.",
+   "answer": "INEE",
+   "page": "puzzle",
+   "ocr": [
+    "o113"
+   ],
+   "box": [
+    806,
+    1330,
+    1075,
+    1358
+   ],
+   "how": "ocr-corrected"
+  }
+ ]
+}

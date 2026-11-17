@@ -1,0 +1,680 @@
+{
+ "xdid": "nyw1914-04-26",
+ "no": 19,
+ "pages": {
+  "puzzle": "Milwaukee_Sentinel_1914_04_26_90.png",
+  "solution": "Milwaukee_Sentinel_1914_05_03_97.png"
+ },
+ "grid": {
+  "page": "puzzle",
+  "corners": [
+   [
+    520,
+    212
+   ],
+   [
+    1135,
+    212
+   ],
+   [
+    1135,
+    830
+   ],
+   [
+    520,
+    830
+   ]
+  ],
+  "rows": 13,
+  "cols": 13
+ },
+ "key": {
+  "page": "solution",
+  "corners": [
+   [
+    758,
+    150
+   ],
+   [
+    1113,
+    150
+   ],
+   [
+    1113,
+    510
+   ],
+   [
+    758,
+    510
+   ]
+  ],
+  "rows": 13,
+  "cols": 13
+ },
+ "lines": [
+  {
+   "label": "heading",
+   "text": "FUN'S CROSS-WORD PUZZLES",
+   "page": "puzzle",
+   "ocr": [
+    "o1"
+   ],
+   "box": [
+    518,
+    85,
+    1145,
+    200
+   ]
+  },
+  {
+   "label": "tagline",
+   "text": "Can You",
+   "page": "puzzle",
+   "ocr": [
+    "o4"
+   ],
+   "box": [
+    525,
+    184,
+    727,
+    349
+   ]
+  },
+  {
+   "label": "tagline",
+   "text": "Solve Them?",
+   "page": "puzzle",
+   "ocr": [
+    "o5",
+    "o6"
+   ],
+   "box": [
+    926,
+    204,
+    1154,
+    386
+   ]
+  },
+  {
+   "label": "number",
+   "text": "No 19",
+   "page": "puzzle",
+   "ocr": [
+    "o7"
+   ],
+   "box": [
+    748,
+    461,
+    901,
+    581
+   ]
+  },
+  {
+   "label": "intro",
+   "text": "Here is a very cleverly constructed cross word puzzle for you to work out. It was sent in by Miss Olga Lehander of East Seventy-sixth street, New York City. Can you solve it? Fill in the small squares with letters spelling words corresponding to the list of clews and definitions given below. The solutions will be given in next week's FUN.",
+   "page": "puzzle",
+   "ocr": [
+    "o30",
+    "o31",
+    "o32",
+    "o33",
+    "o34",
+    "o35",
+    "o37",
+    "o38"
+   ],
+   "box": [
+    503,
+    840,
+    1145,
+    975
+   ]
+  },
+  {
+   "label": "credit",
+   "text": "It was sent in by Miss Olga Lehander of East Seventy-sixth street, New York City.",
+   "page": "puzzle",
+   "ocr": [
+    "o32",
+    "o33"
+   ],
+   "box": [
+    505,
+    862,
+    1145,
+    913
+   ]
+  },
+  {
+   "label": "solution heading",
+   "text": "SOLUTION TO No 19",
+   "page": "solution",
+   "box": [
+    873,
+    330,
+    1000,
+    370
+   ]
+  }
+ ],
+ "clues": [
+  {
+   "pair": "1-2",
+   "text": "The side opposite to that from which the wind blows.",
+   "answer": "LEE",
+   "page": "puzzle",
+   "ocr": [
+    "o39",
+    "o42"
+   ],
+   "box": [
+    515,
+    990,
+    820,
+    1035
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "3-4",
+   "text": "Sums of money that are lent.",
+   "answer": "LOANS",
+   "page": "puzzle",
+   "ocr": [
+    "o44",
+    "o47"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    514,
+    1029,
+    815,
+    1074
+   ]
+  },
+  {
+   "pair": "5-6",
+   "text": "To reply.",
+   "answer": "RESPOND",
+   "page": "puzzle",
+   "ocr": [
+    "o49"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    514,
+    1067,
+    661,
+    1100
+   ]
+  },
+  {
+   "pair": "7-8",
+   "text": "It floats.",
+   "answer": "BOAT",
+   "page": "puzzle",
+   "ocr": [
+    "o51"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    517,
+    1090,
+    655,
+    1118
+   ]
+  },
+  {
+   "pair": "9-10",
+   "text": "Perceives.",
+   "answer": "SEES",
+   "page": "puzzle",
+   "ocr": [
+    "o53"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    516,
+    1111,
+    668,
+    1137
+   ]
+  },
+  {
+   "pair": "11-12",
+   "text": "What grass seed is.",
+   "answer": "SOWN",
+   "page": "puzzle",
+   "ocr": [
+    "o56"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    506,
+    1131,
+    756,
+    1160
+   ]
+  },
+  {
+   "pair": "13-14",
+   "text": "A reflected sound.",
+   "answer": "ECHO",
+   "page": "puzzle",
+   "ocr": [
+    "o59"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    507,
+    1151,
+    750,
+    1180
+   ]
+  },
+  {
+   "pair": "15-16",
+   "text": "Used by plumbers.",
+   "answer": "LEAD",
+   "page": "puzzle",
+   "ocr": [
+    "o63"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    508,
+    1173,
+    752,
+    1199
+   ]
+  },
+  {
+   "pair": "17-18",
+   "text": "A gentlewoman.",
+   "answer": "LADY",
+   "page": "puzzle",
+   "ocr": [
+    "o66"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    507,
+    1193,
+    731,
+    1221
+   ]
+  },
+  {
+   "pair": "19-20",
+   "text": "Where you can find a portion of Turkey.",
+   "answer": "ASIA",
+   "page": "puzzle",
+   "ocr": [
+    "o69",
+    "o72"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    509,
+    1216,
+    820,
+    1263
+   ]
+  },
+  {
+   "pair": "21-22",
+   "text": "To wait for.",
+   "answer": "BIDE",
+   "page": "puzzle",
+   "ocr": [
+    "o73"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    503,
+    1254,
+    700,
+    1283
+   ]
+  },
+  {
+   "pair": "23-24",
+   "text": "A canvas shelter.",
+   "answer": "TENT",
+   "page": "puzzle",
+   "ocr": [
+    "o75"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    503,
+    1275,
+    742,
+    1304
+   ]
+  },
+  {
+   "pair": "25-26",
+   "text": "Mentally sound.",
+   "answer": "SANE",
+   "page": "puzzle",
+   "ocr": [
+    "o77"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    508,
+    1297,
+    731,
+    1325
+   ]
+  },
+  {
+   "pair": "27-28",
+   "text": "Dots.",
+   "answer": "STIPPLE",
+   "page": "puzzle",
+   "ocr": [
+    "o80"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    508,
+    1318,
+    625,
+    1343
+   ]
+  },
+  {
+   "pair": "29-30",
+   "text": "Rapidity of motion.",
+   "answer": "SPEED",
+   "page": "puzzle",
+   "ocr": [
+    "o83"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    506,
+    1337,
+    765,
+    1365
+   ]
+  },
+  {
+   "pair": "25-32",
+   "text": "The past tense of speed.",
+   "answer": "SPED",
+   "page": "puzzle",
+   "ocr": [
+    "o86"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    509,
+    1359,
+    806,
+    1388
+   ]
+  },
+  {
+   "pair": "31-32",
+   "text": "Turf.",
+   "answer": "SOD",
+   "page": "puzzle",
+   "ocr": [
+    "o41"
+   ],
+   "box": [
+    829,
+    988,
+    948,
+    1014
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "33-34",
+   "text": "Always look before you do this.",
+   "answer": "LEAP",
+   "page": "puzzle",
+   "ocr": [
+    "o43",
+    "o45"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    834,
+    1008,
+    1142,
+    1053
+   ]
+  },
+  {
+   "pair": "35-36",
+   "text": "A Mexican laborer.",
+   "answer": "PEON",
+   "page": "puzzle",
+   "ocr": [
+    "o46",
+    "o48"
+   ],
+   "box": [
+    833,
+    1048,
+    1090,
+    1078
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "1-8",
+   "text": "Not sound.",
+   "answer": "LOST",
+   "page": "puzzle",
+   "ocr": [
+    "o50"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    839,
+    1072,
+    1007,
+    1098
+   ]
+  },
+  {
+   "pair": "3-12",
+   "text": "To incline.",
+   "answer": "LEAN",
+   "page": "puzzle",
+   "ocr": [
+    "o52"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    841,
+    1090,
+    1005,
+    1119
+   ]
+  },
+  {
+   "pair": "5-27",
+   "text": "Roughs.",
+   "answer": "ROWDIES",
+   "page": "puzzle",
+   "ocr": [
+    "o54"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    838,
+    1114,
+    968,
+    1138
+   ]
+  },
+  {
+   "pair": "7-23",
+   "text": "To brag.",
+   "answer": "BOAST",
+   "page": "puzzle",
+   "ocr": [
+    "o57"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    837,
+    1131,
+    983,
+    1161
+   ]
+  },
+  {
+   "pair": "11-19",
+   "text": "An ocean.",
+   "answer": "SEA",
+   "page": "puzzle",
+   "ocr": [
+    "o60"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    831,
+    1154,
+    996,
+    1180
+   ]
+  },
+  {
+   "pair": "2-9",
+   "text": "A son of Seth.",
+   "answer": "ENOS",
+   "page": "puzzle",
+   "ocr": [
+    "o64"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    836,
+    1173,
+    1026,
+    1201
+   ]
+  },
+  {
+   "pair": "4-13",
+   "text": "A knife.",
+   "answer": "SNEE",
+   "page": "puzzle",
+   "ocr": [
+    "o67"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    841,
+    1197,
+    979,
+    1221
+   ]
+  },
+  {
+   "pair": "6-28",
+   "text": "To refuse.",
+   "answer": "DECLINE",
+   "page": "puzzle",
+   "ocr": [
+    "o70"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    839,
+    1216,
+    996,
+    1241
+   ]
+  },
+  {
+   "pair": "10-26",
+   "text": "A place sheltered from strong lignt.",
+   "answer": "SHADE",
+   "page": "puzzle",
+   "ocr": [
+    "o71",
+    "o74"
+   ],
+   "box": [
+    829,
+    1235,
+    1140,
+    1285
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "14-22",
+   "text": "A lyric poem.",
+   "answer": "ODE",
+   "page": "puzzle",
+   "ocr": [
+    "o76"
+   ],
+   "box": [
+    829,
+    1276,
+    1030,
+    1305
+   ],
+   "how": "eye"
+  },
+  {
+   "pair": "20-29",
+   "text": "Insects.",
+   "answer": "ANTS",
+   "page": "puzzle",
+   "ocr": [
+    "o78"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    831,
+    1299,
+    972,
+    1323
+   ]
+  },
+  {
+   "pair": "24-31",
+   "text": "Appreciated by waiters.",
+   "answer": "TIPS",
+   "page": "puzzle",
+   "ocr": [
+    "o81"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    827,
+    1318,
+    1135,
+    1347
+   ]
+  },
+  {
+   "pair": "21-30",
+   "text": "A hairless scalp.",
+   "answer": "BALD",
+   "page": "puzzle",
+   "ocr": [
+    "o84"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    831,
+    1339,
+    1051,
+    1368
+   ]
+  }
+ ]
+}

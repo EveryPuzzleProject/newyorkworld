@@ -1,0 +1,12 @@
+# Doubts: No. 23 (World 1914-06-14), nyw1914-06-14.xd
+
+Puzzle page Milwaukee_Sentinel_1914_06_14_87.png; solution Milwaukee_Sentinel_1914_06_21_86.png. The key is clear and all 75 answers run between their end squares, letter for letter with it. The grid lattice uses the corners I was given; every printed number sits in its square.
+
+1. **28-52 "To build fires in." gives CRATES.** The key prints C-R-A-T-E-S in column 5, and the C of COREY (28-29, "A proper name.") is clearly a C in the key. GRATES fits the clue, and GOREY is just as good a "proper name", so the key or the clue likely has a slip. The xd follows the key (C).
+2. **An unclued word: 63-77, column 8, rows 23-26, B-U-N-T.** It runs down from the B of BANKER through FURS, PINT and SORT. Both ends carry printed numbers (63 and 77), but no clue "63-77" is printed in either column. The xd keeps the letters (they are the key's) without a clue.
+3. **Printed pair numbers misread because of the type** (8 and 3, 6 and 5, 2 and 3 look alike in this small face). The page appears to read "69-72" or "59-72" for "A measure of quantity larger than from 72-73.", which is 59-73 QUART (column 9). It shows "16-25" with a smudged 1, "18-27" as "1S-27", "48-53" as "4S-53" and "85-87" as "35-S7". The xd uses the pairs that fit the grid.
+4. **Misprints kept.** "A summed month." (for summer, JULY). "A wicked thing to." (the word "do" is dropped, STAB). "What a policeman does." The s is half printed ("doe:"), read as does. "Boilers do sometimes." The B is faint and the OCR read it as R.
+5. **Answers that are odd but are the key's:** 37-46 "A possessive pronoun." gives HAS. 16-25 "Boy's first name." gives HARRY. 6-15 "A small city in western New York." gives OLEAN.
+6. **Credit.** "This cross-word puzzle is furnished by H. J. Stack of Hartford, Conn." It is letter-spaced in the print ("This c r o s s- w o r d puzzle i s f u r nished by H. J. Stack of H a rtford, Conn."), and the xd normalises the spacing.
+7. **Numbering above 61.** There are 91 numbers. The Numbering section uses a=10 to z=35, A=36 to Z=61, then Greek lowercase α=62 to ω=85, then the Greek capitals that don't look like Latin ones (Γ Δ Θ Λ Ξ Π Σ Φ Ψ Ω) from Γ=86 (Π=91), as its header says. Note that ο (omicron, 76) looks like a Latin o.
+8. **Key lattice.** The key grid's corners (540,122), (1138,122), (1138,906), (540,906) were fitted by eye. The overlay lies on the printed squares to within a few pixels.

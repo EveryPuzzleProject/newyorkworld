@@ -1,0 +1,676 @@
+{
+ "xdid": "nyw1914-08-23",
+ "no": 33,
+ "pages": {
+  "puzzle": "Milwaukee_Sentinel_1914_08_23_85.png",
+  "solution": "Milwaukee_Sentinel_1914_08_30_84.png"
+ },
+ "grid": {
+  "page": "puzzle",
+  "corners": [
+   [
+    479,
+    142
+   ],
+   [
+    1243,
+    140
+   ],
+   [
+    1244,
+    912
+   ],
+   [
+    478,
+    910
+   ]
+  ],
+  "rows": 13,
+  "cols": 13
+ },
+ "key": {
+  "page": "solution",
+  "corners": [
+   [
+    1176,
+    1471
+   ],
+   [
+    1525,
+    1471
+   ],
+   [
+    1525,
+    1819
+   ],
+   [
+    1176,
+    1819
+   ]
+  ],
+  "rows": 13,
+  "cols": 13
+ },
+ "lines": [
+  {
+   "label": "heading",
+   "text": "FUN'S CROSS-WORD PUZZLES",
+   "page": "puzzle",
+   "ocr": [
+    "o5",
+    "o3"
+   ],
+   "box": [
+    459,
+    110,
+    1277,
+    446
+   ]
+  },
+  {
+   "label": "number",
+   "text": "No 33.",
+   "page": "puzzle",
+   "box": [
+    1095,
+    140,
+    1252,
+    292
+   ]
+  },
+  {
+   "label": "credit",
+   "text": "Today's cross-word puzzle was sent in by Harold Smith of Waterford, N. Y.",
+   "page": "puzzle",
+   "ocr": [
+    "o76",
+    "o77",
+    "o80"
+   ],
+   "box": [
+    473,
+    905,
+    1254,
+    958
+   ]
+  },
+  {
+   "label": "instructions",
+   "text": "See if you can solve it. Fill in the small squares with words corresponding to the list of clews and definitions given below. The solution to this puzzle will appear in next week's FUN.",
+   "page": "puzzle",
+   "ocr": [
+    "o80",
+    "o81",
+    "o85",
+    "o87"
+   ],
+   "box": [
+    473,
+    926,
+    1254,
+    998
+   ]
+  },
+  {
+   "label": "solution heading",
+   "text": "SOLUTION TO",
+   "page": "solution",
+   "box": [
+    1193,
+    1484,
+    1276,
+    1530
+   ]
+  },
+  {
+   "label": "solution heading",
+   "text": "CROSS-WORD",
+   "page": "solution",
+   "box": [
+    1425,
+    1484,
+    1497,
+    1530
+   ]
+  },
+  {
+   "label": "solution heading",
+   "text": "PUZZLE",
+   "page": "solution",
+   "box": [
+    1198,
+    1780,
+    1278,
+    1797
+   ]
+  },
+  {
+   "label": "solution heading",
+   "text": "No 33",
+   "page": "solution",
+   "box": [
+    1443,
+    1780,
+    1497,
+    1797
+   ]
+  }
+ ],
+ "clues": [
+  {
+   "pair": "1-2",
+   "text": "Part of a fish.",
+   "answer": "FIN",
+   "page": "puzzle",
+   "ocr": [
+    "o90"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    484,
+    989,
+    692,
+    1018
+   ]
+  },
+  {
+   "pair": "3-4",
+   "text": "Rendered docile.",
+   "answer": "TAMED",
+   "page": "puzzle",
+   "ocr": [
+    "o93"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    483,
+    1011,
+    710,
+    1038
+   ]
+  },
+  {
+   "pair": "5-6",
+   "text": "Used by photographers.",
+   "answer": "CAMERAS",
+   "page": "puzzle",
+   "ocr": [
+    "o96"
+   ],
+   "box": [
+    480,
+    1031,
+    787,
+    1060
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "7-8",
+   "text": "A walking stick.",
+   "answer": "CANE",
+   "page": "puzzle",
+   "ocr": [
+    "o99"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    488,
+    1051,
+    717,
+    1081
+   ]
+  },
+  {
+   "pair": "9-10",
+   "text": "Minerals.",
+   "answer": "ORES",
+   "page": "puzzle",
+   "ocr": [
+    "o102"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    487,
+    1072,
+    641,
+    1100
+   ]
+  },
+  {
+   "pair": "11-12",
+   "text": "\"Bow-wow.\"",
+   "answer": "BARK",
+   "page": "puzzle",
+   "ocr": [
+    "o105",
+    "o107"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    478,
+    1092,
+    685,
+    1121
+   ]
+  },
+  {
+   "pair": "13-14",
+   "text": "Every one of any number.",
+   "answer": "EACH",
+   "page": "puzzle",
+   "ocr": [
+    "o109"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    477,
+    1113,
+    812,
+    1142
+   ]
+  },
+  {
+   "pair": "15-16",
+   "text": "A sale of fancy work.",
+   "answer": "FAIR",
+   "page": "puzzle",
+   "ocr": [
+    "o112"
+   ],
+   "box": [
+    478,
+    1134,
+    812,
+    1163
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "17-18",
+   "text": "To float aloft.",
+   "answer": "SOAR",
+   "page": "puzzle",
+   "ocr": [
+    "o115"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    478,
+    1155,
+    689,
+    1183
+   ]
+  },
+  {
+   "pair": "19-20",
+   "text": "To adjust to a nicety.",
+   "answer": "TRIM",
+   "page": "puzzle",
+   "ocr": [
+    "o119"
+   ],
+   "box": [
+    478,
+    1175,
+    785,
+    1205
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "21-22",
+   "text": "Transferred to another for a valuable consideration.",
+   "answer": "SOLD",
+   "page": "puzzle",
+   "ocr": [
+    "o123",
+    "o125"
+   ],
+   "box": [
+    478,
+    1196,
+    862,
+    1247
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "23-24",
+   "text": "A requirement.",
+   "answer": "NEED",
+   "page": "puzzle",
+   "ocr": [
+    "o128"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    479,
+    1233,
+    698,
+    1267
+   ]
+  },
+  {
+   "pair": "25-26",
+   "text": "The outer coat of a lemon.",
+   "answer": "RIND",
+   "page": "puzzle",
+   "ocr": [
+    "o131"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    479,
+    1256,
+    817,
+    1288
+   ]
+  },
+  {
+   "pair": "27-28",
+   "text": "Dried grapes.",
+   "answer": "RAISINS",
+   "page": "puzzle",
+   "ocr": [
+    "o133"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    481,
+    1278,
+    696,
+    1308
+   ]
+  },
+  {
+   "pair": "29-30",
+   "text": "A petty artifice.",
+   "answer": "TRICK",
+   "page": "puzzle",
+   "ocr": [
+    "o136"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    480,
+    1299,
+    710,
+    1328
+   ]
+  },
+  {
+   "pair": "31-32",
+   "text": "A very large deer.",
+   "answer": "ELK",
+   "page": "puzzle",
+   "ocr": [
+    "o139"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    481,
+    1319,
+    732,
+    1350
+   ]
+  },
+  {
+   "pair": "33-34",
+   "text": "A coin.",
+   "answer": "DIME",
+   "page": "puzzle",
+   "ocr": [
+    "o91"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    871,
+    992,
+    1010,
+    1019
+   ]
+  },
+  {
+   "pair": "35-36",
+   "text": "Made from cocoons.",
+   "answer": "SILK",
+   "page": "puzzle",
+   "ocr": [
+    "o94"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    870,
+    1012,
+    1141,
+    1042
+   ]
+  },
+  {
+   "pair": "1-8",
+   "text": "Celebrity.",
+   "answer": "FAME",
+   "page": "puzzle",
+   "ocr": [
+    "o97"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    880,
+    1033,
+    1037,
+    1062
+   ]
+  },
+  {
+   "pair": "2-9",
+   "text": "A tyrannical Roman emperor.",
+   "answer": "NERO",
+   "page": "puzzle",
+   "ocr": [
+    "o100"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    880,
+    1052,
+    1238,
+    1082
+   ]
+  },
+  {
+   "pair": "3-12",
+   "text": "A large wooden or metal receptacle.",
+   "answer": "TANK",
+   "page": "puzzle",
+   "ocr": [
+    "o103",
+    "o108"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    880,
+    1074,
+    1248,
+    1121
+   ]
+  },
+  {
+   "pair": "4-13",
+   "text": "A challenge.",
+   "answer": "DARE",
+   "page": "puzzle",
+   "ocr": [
+    "o110"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    881,
+    1114,
+    1066,
+    1144
+   ]
+  },
+  {
+   "pair": "5-27",
+   "text": "One who carries.",
+   "answer": "CARRIER",
+   "page": "puzzle",
+   "ocr": [
+    "o113"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    880,
+    1135,
+    1109,
+    1164
+   ]
+  },
+  {
+   "pair": "6-28",
+   "text": "Four in every year.",
+   "answer": "SEASONS",
+   "page": "puzzle",
+   "ocr": [
+    "o117"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    882,
+    1157,
+    1148,
+    1186
+   ]
+  },
+  {
+   "pair": "7-23",
+   "text": "A memorial mound, or mark.",
+   "answer": "CAIRN",
+   "page": "puzzle",
+   "ocr": [
+    "o120"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    881,
+    1178,
+    1233,
+    1207
+   ]
+  },
+  {
+   "pair": "10-26",
+   "text": "To reprove harshly.",
+   "answer": "SCOLD",
+   "page": "puzzle",
+   "ocr": [
+    "o124"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    869,
+    1199,
+    1137,
+    1228
+   ]
+  },
+  {
+   "pair": "11-19",
+   "text": "Used in baseball.",
+   "answer": "BAT",
+   "page": "puzzle",
+   "ocr": [
+    "o126"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    869,
+    1218,
+    1117,
+    1247
+   ]
+  },
+  {
+   "pair": "14-22",
+   "text": "Past tense of have.",
+   "answer": "HAD",
+   "page": "puzzle",
+   "ocr": [
+    "o130"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    870,
+    1238,
+    1139,
+    1269
+   ]
+  },
+  {
+   "pair": "20-29",
+   "text": "Sold by butchers.",
+   "answer": "MEAT",
+   "page": "puzzle",
+   "ocr": [
+    "o132"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    871,
+    1260,
+    1123,
+    1288
+   ]
+  },
+  {
+   "pair": "24-31",
+   "text": "Dreadful.",
+   "answer": "DIRE",
+   "page": "puzzle",
+   "ocr": [
+    "o134"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    870,
+    1279,
+    1047,
+    1309
+   ]
+  },
+  {
+   "pair": "25-32",
+   "text": "A stock of hay.",
+   "answer": "RICK",
+   "page": "puzzle",
+   "ocr": [
+    "o137"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    870,
+    1300,
+    1100,
+    1330
+   ]
+  },
+  {
+   "pair": "21-30",
+   "text": "In every kitchen.",
+   "answer": "SINK",
+   "page": "puzzle",
+   "ocr": [
+    "o140"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    871,
+    1321,
+    1111,
+    1351
+   ]
+  }
+ ]
+}

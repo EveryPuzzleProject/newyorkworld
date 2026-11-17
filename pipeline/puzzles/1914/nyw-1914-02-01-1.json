@@ -14,12 +14,7 @@
  },
  "clues": null,
  "continued": null,
- "copies": [
-  {
-   "unit": "scan:minneapolis-journal-1914-02-01/0001",
-   "extract": "sha256:746fcd2953aa3cf9dad03e4b7c8bbfb779bf0838fd4c1411c93bcab333180af1"
-  }
- ],
+ "copies": [],
  "reading": "sha256:df7dd4125e050405104495c3f00629287e9943fa11baff06af06f7b47e1bc6fd",
  "key": {
   "unit": "scan:milwaukee-sentinel-1914-02-08/0001",
@@ -27,9 +22,6 @@
   "solution_id": "milwaukee-sentinel-1914-02-08/1#0",
   "how": "answers column, grids differ in 6 squares"
  },
- "alternates": [
-  "scan:minneapolis-journal-1914-02-01/0001"
- ],
  "checks": {
   "solution": [
    "puzzle and solution grids differ at r5c7 r6c8 r7c5 r7c9 r8c8 r9c7",
@@ -42,5 +34,5 @@
    "Grid isn't symmetric: 1 square pair(s) differ (r3c10/r11c4). Check those black squares against the scan, or confirm the design is asymmetric."
   ]
  },
- "xd": "sha256:fc2f535810cc1fe8e5b58b5ec12e26579438dbfbdea8e98cc5357a85515235db"
+ "xd": "sha256:89584c74f1b8b59aa4c5810ab7049e0a77e5ca53c8588815a7cdef57c3acb144"
 }

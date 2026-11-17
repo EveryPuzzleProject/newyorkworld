@@ -1,0 +1,713 @@
+{
+ "xdid": "nyw1914-02-15",
+ "no": 9,
+ "pages": {
+  "puzzle": "Milwaukee_Sentinel_1914_02_15_83.png",
+  "solution": "Milwaukee_Sentinel_1914_02_22_83.png"
+ },
+ "grid": {
+  "page": "puzzle",
+  "corners": [
+   [
+    638,
+    311
+   ],
+   [
+    1470,
+    310
+   ],
+   [
+    1469,
+    1128
+   ],
+   [
+    637,
+    1129
+   ]
+  ],
+  "rows": 13,
+  "cols": 13
+ },
+ "key": {
+  "page": "solution",
+  "corners": [
+   [
+    721,
+    654
+   ],
+   [
+    1090,
+    654
+   ],
+   [
+    1090,
+    1016
+   ],
+   [
+    721,
+    1016
+   ]
+  ],
+  "rows": 13,
+  "cols": 13
+ },
+ "lines": [
+  {
+   "label": "heading",
+   "text": "FUN'S CROSS-WORD PUZZLES",
+   "page": "puzzle",
+   "ocr": [
+    "o2",
+    "o3"
+   ],
+   "box": [
+    123,
+    174,
+    1471,
+    317
+   ]
+  },
+  {
+   "label": "subheading",
+   "text": "SOLVE THEM IF YOU CAN.",
+   "page": "puzzle",
+   "ocr": [
+    "o4"
+   ],
+   "box": [
+    147,
+    302,
+    548,
+    336
+   ]
+  },
+  {
+   "label": "intro",
+   "text": "Today's cross-word puzzle, the ninth in FUN'S series, will be found somewhat easier than the one given last week. You have two words already provided as a starter—FUN and PUZZLES.",
+   "page": "puzzle",
+   "ocr": [
+    "o6",
+    "o7",
+    "o9",
+    "o10",
+    "o11"
+   ],
+   "box": [
+    136,
+    336,
+    565,
+    453
+   ]
+  },
+  {
+   "label": "instructions",
+   "text": "Fill in the small squares in the diamond with words corresponding to the clews and definitions given herewith, allowing one letter of the word to each small square.",
+   "page": "puzzle",
+   "ocr": [
+    "o13",
+    "o14",
+    "o16",
+    "o17"
+   ],
+   "box": [
+    136,
+    452,
+    565,
+    543
+   ]
+  },
+  {
+   "label": "intro",
+   "text": "On another page you will find the solution to last week's cross-word puzzle, showing just how the letters are to be placed to form words reading across and up and down.",
+   "page": "puzzle",
+   "ocr": [
+    "o18",
+    "o23",
+    "o24",
+    "o25"
+   ],
+   "box": [
+    136,
+    544,
+    563,
+    624
+   ]
+  },
+  {
+   "label": "intro",
+   "text": "The solution to today's puzzle will be given in next week's FUN.",
+   "page": "puzzle",
+   "ocr": [
+    "o26",
+    "o30"
+   ],
+   "box": [
+    136,
+    617,
+    562,
+    660
+   ]
+  },
+  {
+   "label": "given letters",
+   "text": "FUN",
+   "page": "puzzle",
+   "ocr": [
+    "o8"
+   ],
+   "box": [
+    951,
+    358,
+    1158,
+    441
+   ]
+  },
+  {
+   "label": "given letters",
+   "text": "PUZZLES",
+   "page": "puzzle",
+   "ocr": [
+    "o15"
+   ],
+   "box": [
+    833,
+    490,
+    1278,
+    562
+   ]
+  },
+  {
+   "label": "number",
+   "text": "No 9",
+   "page": "puzzle",
+   "ocr": [
+    "o39"
+   ],
+   "box": [
+    965,
+    655,
+    1140,
+    790
+   ]
+  },
+  {
+   "label": "solution heading",
+   "text": "SOLUTION TO No. 9 PUZZLE",
+   "page": "solution",
+   "box": [
+    865,
+    800,
+    945,
+    870
+   ]
+  },
+  {
+   "label": "solution caption",
+   "text": "Here is the solution to the ninth in FUN'S series, cross-word puzzles, showing the cross-words that fit the list of clews and definitions given. See if you can solve today's cross-word puzzle.",
+   "page": "solution",
+   "ocr": [
+    "o51",
+    "o56",
+    "o62",
+    "o66",
+    "o67",
+    "o68",
+    "o76",
+    "o86",
+    "o93",
+    "o101",
+    "o103"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    449,
+    736,
+    704,
+    931
+   ]
+  }
+ ],
+ "clues": [
+  {
+   "pair": "1-2",
+   "text": "A barber's implemeut.",
+   "answer": "RAZOR",
+   "page": "puzzle",
+   "ocr": [
+    "o31"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    144,
+    653,
+    415,
+    678
+   ]
+  },
+  {
+   "pair": "3-4",
+   "text": "A story.",
+   "answer": "TALE",
+   "page": "puzzle",
+   "ocr": [
+    "o32"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    145,
+    673,
+    278,
+    697
+   ]
+  },
+  {
+   "pair": "5-6",
+   "text": "Not early.",
+   "answer": "LATE",
+   "page": "puzzle",
+   "ocr": [
+    "o36"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    145,
+    693,
+    296,
+    716
+   ]
+  },
+  {
+   "pair": "7-8",
+   "text": "Belonging to me.",
+   "answer": "MINE",
+   "page": "puzzle",
+   "ocr": [
+    "o37"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    145,
+    710,
+    365,
+    736
+   ]
+  },
+  {
+   "pair": "9-10",
+   "text": "Before Easter.",
+   "answer": "LENT",
+   "page": "puzzle",
+   "ocr": [
+    "o38"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    145,
+    728,
+    337,
+    753
+   ]
+  },
+  {
+   "pair": "11-12",
+   "text": "What FUN is.",
+   "answer": "READ",
+   "page": "puzzle",
+   "ocr": [
+    "o41"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    135,
+    748,
+    340,
+    770
+   ]
+  },
+  {
+   "pair": "13-14",
+   "text": "A small particle.",
+   "answer": "ATOM",
+   "page": "puzzle",
+   "ocr": [
+    "o42"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    135,
+    767,
+    362,
+    790
+   ]
+  },
+  {
+   "pair": "15-16",
+   "text": "Stepped.",
+   "answer": "TROD",
+   "page": "puzzle",
+   "ocr": [
+    "o45"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    135,
+    784,
+    284,
+    810
+   ]
+  },
+  {
+   "pair": "17-18",
+   "text": "An expression of hearty assent.",
+   "answer": "AMEN",
+   "page": "puzzle",
+   "ocr": [
+    "o46"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    135,
+    803,
+    496,
+    828
+   ]
+  },
+  {
+   "pair": "19-20",
+   "text": "Space.",
+   "answer": "AREA",
+   "page": "puzzle",
+   "ocr": [
+    "o49"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    134,
+    820,
+    266,
+    848
+   ]
+  },
+  {
+   "pair": "21-22",
+   "text": "Above.",
+   "answer": "OVER",
+   "page": "puzzle",
+   "ocr": [
+    "o50"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    136,
+    841,
+    270,
+    865
+   ]
+  },
+  {
+   "pair": "23-24",
+   "text": "A town in Massachusetts.",
+   "answer": "ANDOVER",
+   "page": "puzzle",
+   "ocr": [
+    "o53"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    134,
+    858,
+    456,
+    883
+   ]
+  },
+  {
+   "pair": "25-26",
+   "text": "A burning wick.",
+   "answer": "TAPER",
+   "page": "puzzle",
+   "ocr": [
+    "o55"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    136,
+    883,
+    359,
+    903
+   ]
+  },
+  {
+   "pair": "27-28",
+   "text": "One man and another man.",
+   "answer": "MEN",
+   "page": "puzzle",
+   "ocr": [
+    "o57"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    134,
+    894,
+    463,
+    921
+   ]
+  },
+  {
+   "pair": "29-30",
+   "text": "The noise a bee makes.",
+   "answer": "BUZZ",
+   "page": "puzzle",
+   "ocr": [
+    "o60"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    135,
+    913,
+    420,
+    940
+   ]
+  },
+  {
+   "pair": "F-4",
+   "text": "To worry.",
+   "answer": "FAZE",
+   "page": "puzzle",
+   "ocr": [
+    "o61"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    135,
+    933,
+    277,
+    958
+   ]
+  },
+  {
+   "pair": "1-8",
+   "text": "A measure.",
+   "answer": "RULE",
+   "page": "puzzle",
+   "ocr": [
+    "o62"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    135,
+    953,
+    285,
+    976
+   ]
+  },
+  {
+   "pair": "P-23",
+   "text": "A mythical beauty who carried a famous box.",
+   "answer": "PANDORA",
+   "page": "puzzle",
+   "ocr": [
+    "o64",
+    "o66"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    133,
+    969,
+    558,
+    1013
+   ]
+  },
+  {
+   "pair": "3-19",
+   "text": "A jeweled headdress.",
+   "answer": "TIARA",
+   "page": "puzzle",
+   "ocr": [
+    "o67"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    133,
+    1005,
+    389,
+    1035
+   ]
+  },
+  {
+   "pair": "7-15",
+   "text": "Assembled,",
+   "answer": "MET",
+   "page": "puzzle",
+   "ocr": [
+    "o68"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    133,
+    1026,
+    296,
+    1051
+   ]
+  },
+  {
+   "pair": "N-5",
+   "text": "The head.",
+   "answer": "NOLL",
+   "page": "puzzle",
+   "ocr": [
+    "o71"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    132,
+    1043,
+    276,
+    1068
+   ]
+  },
+  {
+   "pair": "2-9",
+   "text": "Actual.",
+   "answer": "REAL",
+   "page": "puzzle",
+   "ocr": [
+    "o72"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    132,
+    1062,
+    250,
+    1088
+   ]
+  },
+  {
+   "pair": "S-24",
+   "text": "A modern ship.",
+   "answer": "STEAMER",
+   "page": "puzzle",
+   "ocr": [
+    "o73"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    132,
+    1080,
+    342,
+    1110
+   ]
+  },
+  {
+   "pair": "6-22",
+   "text": "To go inside.",
+   "answer": "ENTER",
+   "page": "puzzle",
+   "ocr": [
+    "o74"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    131,
+    1098,
+    316,
+    1126
+   ]
+  },
+  {
+   "pair": "10-18",
+   "text": "A weight.",
+   "answer": "TON",
+   "page": "puzzle",
+   "ocr": [
+    "o76"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    131,
+    1118,
+    290,
+    1145
+   ]
+  },
+  {
+   "pair": "16-25",
+   "text": "A small depression make by striking.",
+   "answer": "DENT",
+   "page": "puzzle",
+   "ocr": [
+    "o79"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    131,
+    1136,
+    557,
+    1165
+   ]
+  },
+  {
+   "pair": "20-27",
+   "text": "the first man.",
+   "answer": "ADAM",
+   "page": "puzzle",
+   "ocr": [
+    "o77"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    630,
+    1122,
+    828,
+    1147
+   ]
+  },
+  {
+   "pair": "30-31",
+   "text": "Not closed.",
+   "answer": "OPEN",
+   "page": "puzzle",
+   "ocr": [
+    "o80"
+   ],
+   "box": [
+    630,
+    1141,
+    828,
+    1167
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "21-28",
+   "text": "What mother bakes her pies in.",
+   "answer": "OVEN",
+   "page": "puzzle",
+   "ocr": [
+    "o78"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    1046,
+    1121,
+    1413,
+    1149
+   ]
+  },
+  {
+   "pair": "17-26",
+   "text": "To affirm.",
+   "answer": "AVER",
+   "page": "puzzle",
+   "ocr": [
+    "o81"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    1047,
+    1142,
+    1202,
+    1164
+   ]
+  }
+ ]
+}

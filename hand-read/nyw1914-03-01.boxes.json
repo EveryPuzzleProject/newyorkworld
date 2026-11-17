@@ -1,0 +1,654 @@
+{
+ "xdid": "nyw1914-03-01",
+ "no": 11,
+ "pages": {
+  "puzzle": "Milwaukee_Sentinel_1914_03_01_82.png",
+  "solution": "Milwaukee_Sentinel_1914_03_08_85.png"
+ },
+ "grid": {
+  "page": "puzzle",
+  "corners": [
+   [
+    533,
+    292
+   ],
+   [
+    1129,
+    273
+   ],
+   [
+    1147,
+    874
+   ],
+   [
+    537,
+    882
+   ]
+  ],
+  "rows": 13,
+  "cols": 13
+ },
+ "key": {
+  "page": "solution",
+  "corners": [
+   [
+    714,
+    1505
+   ],
+   [
+    1083,
+    1503
+   ],
+   [
+    1085,
+    1872
+   ],
+   [
+    716,
+    1873
+   ]
+  ],
+  "rows": 13,
+  "cols": 13
+ },
+ "lines": [
+  {
+   "label": "heading",
+   "text": "FUN'S CROSS-WORD PUZZLES",
+   "page": "puzzle",
+   "ocr": [
+    "o2"
+   ],
+   "box": [
+    520,
+    135,
+    1140,
+    262
+   ]
+  },
+  {
+   "label": "heading (left of grid)",
+   "text": "Can You",
+   "page": "puzzle",
+   "box": [
+    538,
+    268,
+    700,
+    455
+   ]
+  },
+  {
+   "label": "heading (right of grid)",
+   "text": "Solve Them?",
+   "page": "puzzle",
+   "ocr": [
+    "o5"
+   ],
+   "box": [
+    928,
+    248,
+    1132,
+    412
+   ]
+  },
+  {
+   "label": "number",
+   "text": "No 11",
+   "page": "puzzle",
+   "box": [
+    785,
+    545,
+    880,
+    605
+   ]
+  },
+  {
+   "label": "instructions",
+   "text": "Fill in the small squares in the above diamond with words corresponding to the clews and definitions given below. On another page you will find the solution to last week's cross-word puzzle, which you can study as an example of what is required in this puzzle. The solution will be given in next week's FUN.",
+   "page": "puzzle",
+   "ocr": [
+    "o34",
+    "o38",
+    "o36",
+    "o43",
+    "o39",
+    "o46",
+    "o47",
+    "o50",
+    "o51"
+   ],
+   "box": [
+    524,
+    884,
+    1148,
+    993
+   ]
+  },
+  {
+   "label": "solution caption",
+   "text": "Herewith is shown the solution to last week's cross word puzzle, showing how the letters should be arranged to fit the list of definitions an dclews given. Another cross work puzzle will be found on another page. See if you can solve it.",
+   "page": "solution",
+   "box": [
+    440,
+    1686,
+    698,
+    1918
+   ],
+   "how": "eye"
+  }
+ ],
+ "clues": [
+  {
+   "pair": "1-2",
+   "text": "To unite in matrimony.",
+   "answer": "WED",
+   "page": "puzzle",
+   "ocr": [
+    "o54"
+   ],
+   "box": [
+    525,
+    988,
+    826,
+    1009
+   ],
+   "how": "eye"
+  },
+  {
+   "pair": "3-4",
+   "text": "A woman's costume for horseback riding.",
+   "answer": "HABIT",
+   "page": "puzzle",
+   "ocr": [
+    "o58",
+    "o61"
+   ],
+   "box": [
+    525,
+    1009,
+    826,
+    1050
+   ],
+   "how": "eye"
+  },
+  {
+   "pair": "5-6",
+   "text": "One month.",
+   "answer": "JANUARY",
+   "page": "puzzle",
+   "ocr": [
+    "o66"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    536,
+    1044,
+    707,
+    1071
+   ]
+  },
+  {
+   "pair": "7-8",
+   "text": "Lacking in color.",
+   "answer": "PALE",
+   "page": "puzzle",
+   "box": [
+    525,
+    1067,
+    826,
+    1087
+   ],
+   "how": "eye"
+  },
+  {
+   "pair": "9-10",
+   "text": "Behold.",
+   "answer": "LOOK",
+   "page": "puzzle",
+   "ocr": [
+    "o74"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    535,
+    1085,
+    666,
+    1109
+   ]
+  },
+  {
+   "pair": "11-12",
+   "text": "A bird.",
+   "answer": "DOVE",
+   "page": "puzzle",
+   "ocr": [
+    "o77"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    525,
+    1105,
+    663,
+    1129
+   ]
+  },
+  {
+   "pair": "13-14",
+   "text": "A West Indian prickly pear.",
+   "answer": "TUNA",
+   "page": "puzzle",
+   "ocr": [
+    "o79",
+    "o83"
+   ],
+   "box": [
+    525,
+    1126,
+    826,
+    1167
+   ],
+   "how": "eye"
+  },
+  {
+   "pair": "15-16",
+   "text": "A cross bar attachment for driving oxen.",
+   "answer": "YOKE",
+   "page": "puzzle",
+   "ocr": [
+    "o87",
+    "o91"
+   ],
+   "box": [
+    525,
+    1166,
+    826,
+    1207
+   ],
+   "how": "eye"
+  },
+  {
+   "pair": "17-18",
+   "text": "A brief letter.",
+   "answer": "NOTE",
+   "page": "puzzle",
+   "ocr": [
+    "o95"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    527,
+    1202,
+    729,
+    1228
+   ]
+  },
+  {
+   "pair": "19-20",
+   "text": "To declare in card playing.",
+   "answer": "WELD",
+   "page": "puzzle",
+   "ocr": [
+    "o98",
+    "o103"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    524,
+    1220,
+    823,
+    1268
+   ]
+  },
+  {
+   "pair": "21-22",
+   "text": "Chills and fever.",
+   "answer": "AGUE",
+   "page": "puzzle",
+   "box": [
+    525,
+    1264,
+    826,
+    1284
+   ],
+   "how": "eye"
+  },
+  {
+   "pair": "23-24",
+   "text": "A tumultuous disturbance.",
+   "answer": "RIOT",
+   "page": "puzzle",
+   "ocr": [
+    "o108",
+    "o113"
+   ],
+   "box": [
+    525,
+    1283,
+    826,
+    1324
+   ],
+   "how": "eye"
+  },
+  {
+   "pair": "25-26",
+   "text": "To be irritated or worried.",
+   "answer": "FRET",
+   "page": "puzzle",
+   "ocr": [
+    "o116",
+    "o121"
+   ],
+   "box": [
+    525,
+    1321,
+    826,
+    1365
+   ],
+   "how": "eye"
+  },
+  {
+   "pair": "27-28",
+   "text": "More than noisy.",
+   "answer": "NOISIER",
+   "page": "puzzle",
+   "ocr": [
+    "o124"
+   ],
+   "box": [
+    525,
+    1361,
+    826,
+    1383
+   ],
+   "how": "eye"
+  },
+  {
+   "pair": "29-30",
+   "text": "A famous singer.",
+   "answer": "MELBA",
+   "page": "puzzle",
+   "ocr": [
+    "o126"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    526,
+    1380,
+    756,
+    1406
+   ]
+  },
+  {
+   "pair": "31-32",
+   "text": "An abbreviation of sister.",
+   "answer": "SIS",
+   "page": "puzzle",
+   "ocr": [
+    "o59"
+   ],
+   "box": [
+    842,
+    986,
+    1146,
+    1027
+   ],
+   "how": "eye"
+  },
+  {
+   "pair": "33-34",
+   "text": "A Brahmin ox.",
+   "answer": "ZEBU",
+   "page": "puzzle",
+   "ocr": [
+    "o62"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    844,
+    1024,
+    1054,
+    1047
+   ]
+  },
+  {
+   "pair": "35-36",
+   "text": "A sudden slide.",
+   "answer": "SLIP",
+   "page": "puzzle",
+   "box": [
+    842,
+    1046,
+    1146,
+    1066
+   ],
+   "how": "eye"
+  },
+  {
+   "pair": "1-8",
+   "text": "What the moon does.",
+   "answer": "WANE",
+   "page": "puzzle",
+   "ocr": [
+    "o71"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    853,
+    1063,
+    1117,
+    1086
+   ]
+  },
+  {
+   "pair": "3-12",
+   "text": "Of vigorous health.",
+   "answer": "HALE",
+   "page": "puzzle",
+   "ocr": [
+    "o73"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    852,
+    1080,
+    1097,
+    1107
+   ]
+  },
+  {
+   "pair": "5-27",
+   "text": "A short, light spear.",
+   "answer": "JAVELIN",
+   "page": "puzzle",
+   "ocr": [
+    "o78"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    853,
+    1101,
+    1109,
+    1128
+   ]
+  },
+  {
+   "pair": "7-23",
+   "text": "A card game.",
+   "answer": "POKER",
+   "page": "puzzle",
+   "ocr": [
+    "o80"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    853,
+    1124,
+    1034,
+    1147
+   ]
+  },
+  {
+   "pair": "11-19",
+   "text": "A don.",
+   "answer": "DOW",
+   "page": "puzzle",
+   "ocr": [
+    "o84"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    844,
+    1140,
+    978,
+    1166
+   ]
+  },
+  {
+   "pair": "20-29",
+   "text": "Condemnatory judgment.",
+   "answer": "DOOM",
+   "page": "puzzle",
+   "ocr": [
+    "o88",
+    "o92"
+   ],
+   "box": [
+    842,
+    1162,
+    1146,
+    1206
+   ],
+   "how": "eye"
+  },
+  {
+   "pair": "24-31",
+   "text": "Bonds.",
+   "answer": "TIES",
+   "page": "puzzle",
+   "ocr": [
+    "o96"
+   ],
+   "box": [
+    842,
+    1202,
+    1146,
+    1224
+   ],
+   "how": "eye"
+  },
+  {
+   "pair": "2-9",
+   "text": "The face of a watch.",
+   "answer": "DIAL",
+   "page": "puzzle",
+   "ocr": [
+    "o99"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    848,
+    1218,
+    1120,
+    1244
+   ]
+  },
+  {
+   "pair": "4-13",
+   "text": "A pace.",
+   "answer": "TROT",
+   "page": "puzzle",
+   "ocr": [
+    "o104"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    851,
+    1240,
+    983,
+    1263
+   ]
+  },
+  {
+   "pair": "6-28",
+   "text": "Not older.",
+   "answer": "YOUNGER",
+   "page": "puzzle",
+   "ocr": [
+    "o106"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    851,
+    1258,
+    1010,
+    1281
+   ]
+  },
+  {
+   "pair": "10-26",
+   "text": "Used in Russian prisons.",
+   "answer": "KNOUT",
+   "page": "puzzle",
+   "ocr": [
+    "o109"
+   ],
+   "box": [
+    842,
+    1280,
+    1146,
+    1302
+   ],
+   "how": "eye"
+  },
+  {
+   "pair": "14-22",
+   "text": "The goddess of malicious mischief.",
+   "answer": "ATE",
+   "page": "puzzle",
+   "ocr": [
+    "o112",
+    "o117"
+   ],
+   "box": [
+    842,
+    1299,
+    1146,
+    1342
+   ],
+   "how": "eye"
+  },
+  {
+   "pair": "21-30",
+   "text": "Space.",
+   "answer": "AREA",
+   "page": "puzzle",
+   "ocr": [
+    "o118"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    844,
+    1336,
+    975,
+    1362
+   ]
+  },
+  {
+   "pair": "25-32",
+   "text": "Humorous prevarications.",
+   "answer": "FIBS",
+   "page": "puzzle",
+   "ocr": [
+    "o125",
+    "o127"
+   ],
+   "box": [
+    842,
+    1356,
+    1146,
+    1402
+   ],
+   "how": "eye"
+  }
+ ]
+}

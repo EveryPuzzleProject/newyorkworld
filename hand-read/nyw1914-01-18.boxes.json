@@ -1,0 +1,665 @@
+{
+ "xdid": "nyw1914-01-18",
+ "no": 5,
+ "pages": {
+  "puzzle": "Milwaukee_Sentinel_1914_01_18_81_fun.png",
+  "solution": "Milwaukee_Sentinel_1914_01_25_68_key.png"
+ },
+ "grid": {
+  "page": "puzzle",
+  "corners": [
+   [
+    36,
+    170
+   ],
+   [
+    1245,
+    175
+   ],
+   [
+    1234,
+    1377
+   ],
+   [
+    17,
+    1368
+   ]
+  ],
+  "rows": 13,
+  "cols": 13
+ },
+ "key": {
+  "page": "solution",
+  "corners": [
+   [
+    544,
+    22
+   ],
+   [
+    1272,
+    33
+   ],
+   [
+    1268,
+    772
+   ],
+   [
+    523,
+    760
+   ]
+  ],
+  "rows": 13,
+  "cols": 13
+ },
+ "lines": [
+  {
+   "label": "heading",
+   "text": "FUN'S CROSS-WORD PUZZLE, NO. 5.",
+   "page": "puzzle",
+   "ocr": [
+    "o0"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    3,
+    48,
+    1124,
+    125
+   ]
+  },
+  {
+   "label": "centre",
+   "text": "CAN YOU SOLVE IT?",
+   "page": "puzzle",
+   "ocr": [
+    "o16",
+    "o18",
+    "o20",
+    "o23"
+   ],
+   "box": [
+    400,
+    640,
+    860,
+    885
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "label": "intro",
+   "text": "Here is another of FUN'S word cross puzzles. See if you can solve it.",
+   "page": "puzzle",
+   "ocr": [
+    "o38",
+    "o39",
+    "o40"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    10,
+    1426,
+    1252,
+    1519
+   ]
+  },
+  {
+   "label": "instructions",
+   "text": "Fill in the squares in the above diagram with words which correspond with the clues and definitions given below. The solution will be given in next week's FUN.",
+   "page": "puzzle",
+   "ocr": [
+    "o41",
+    "o42",
+    "o43",
+    "o44"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    6,
+    1509,
+    1252,
+    1636
+   ]
+  },
+  {
+   "label": "solution-caption",
+   "text": "Here is the solution to FUN'S cross-word puzzle No. 5, showing an arrangement of cross-words that fit the list of definitions given.",
+   "page": "solution",
+   "ocr": [
+    "o11",
+    "o12",
+    "o15",
+    "o18",
+    "o20",
+    "o22",
+    "o23"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    9,
+    245,
+    636,
+    501
+   ]
+  }
+ ],
+ "clues": [
+  {
+   "pair": "1-2",
+   "text": "Provided with food.",
+   "answer": "FED",
+   "page": "puzzle",
+   "ocr": [
+    "o46"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    33,
+    1637,
+    530,
+    1679
+   ]
+  },
+  {
+   "pair": "3-4",
+   "text": "Large evergreen trees.",
+   "answer": "PINES",
+   "page": "puzzle",
+   "ocr": [
+    "o47"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    31,
+    1675,
+    573,
+    1725
+   ]
+  },
+  {
+   "pair": "5-6",
+   "printed": "6- 6",
+   "text": "Marred.",
+   "answer": "DEFACED",
+   "page": "puzzle",
+   "ocr": [
+    "o49"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    34,
+    1716,
+    291,
+    1764
+   ]
+  },
+  {
+   "pair": "7-8",
+   "text": "A position.",
+   "answer": "SITE",
+   "page": "puzzle",
+   "ocr": [
+    "o51"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    34,
+    1758,
+    352,
+    1807
+   ]
+  },
+  {
+   "pair": "9-10",
+   "text": "Sharp.",
+   "answer": "KEEN",
+   "page": "puzzle",
+   "ocr": [
+    "o54"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    33,
+    1798,
+    263,
+    1846
+   ]
+  },
+  {
+   "pair": "11-12",
+   "text": "A covering for the foot.",
+   "answer": "SHOE",
+   "page": "puzzle",
+   "ocr": [
+    "o55"
+   ],
+   "box": [
+    15,
+    1838,
+    625,
+    1884
+   ],
+   "how": "eye"
+  },
+  {
+   "pair": "13-14",
+   "text": "To drive away by shouting \"scat.\"",
+   "answer": "SCAT",
+   "page": "puzzle",
+   "ocr": [
+    "o57",
+    "o60"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    15,
+    1879,
+    617,
+    1973
+   ]
+  },
+  {
+   "pair": "15-16",
+   "text": "Close at hand.",
+   "answer": "NEAR",
+   "page": "puzzle",
+   "ocr": [
+    "o63"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    17,
+    1964,
+    416,
+    2009
+   ]
+  },
+  {
+   "pair": "17-18",
+   "text": "A claim.",
+   "answer": "LIEN",
+   "page": "puzzle",
+   "ocr": [
+    "o65"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    17,
+    2006,
+    306,
+    2049
+   ]
+  },
+  {
+   "pair": "19-20",
+   "printed": "19 20",
+   "text": "A snare.",
+   "answer": "TRAP",
+   "page": "puzzle",
+   "ocr": [
+    "o66"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    17,
+    2046,
+    307,
+    2092
+   ]
+  },
+  {
+   "pair": "21-22",
+   "text": "The main body of a church.",
+   "answer": "NAVE",
+   "page": "puzzle",
+   "ocr": [
+    "o69",
+    "o70"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    15,
+    2084,
+    516,
+    2172
+   ]
+  },
+  {
+   "pair": "23-24",
+   "text": "Birds.",
+   "answer": "EMUS",
+   "page": "puzzle",
+   "ocr": [
+    "o72"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    16,
+    2168,
+    254,
+    2214
+   ]
+  },
+  {
+   "pair": "25-26",
+   "text": "Simple.",
+   "answer": "MERE",
+   "page": "puzzle",
+   "ocr": [
+    "o74"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    15,
+    2206,
+    280,
+    2256
+   ]
+  },
+  {
+   "pair": "27-28",
+   "text": "To satisfy.",
+   "answer": "APPEASE",
+   "page": "puzzle",
+   "ocr": [
+    "o76"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    15,
+    2248,
+    345,
+    2293
+   ]
+  },
+  {
+   "pair": "29-30",
+   "text": "Holy.",
+   "answer": "SAINT",
+   "page": "puzzle",
+   "ocr": [
+    "o78"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    12,
+    2288,
+    244,
+    2337
+   ]
+  },
+  {
+   "pair": "31-32",
+   "text": "To attempt.",
+   "answer": "TRY",
+   "page": "puzzle",
+   "ocr": [
+    "o80"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    14,
+    2330,
+    366,
+    2379
+   ]
+  },
+  {
+   "pair": "33-34",
+   "text": "A girl's name.",
+   "answer": "LENA",
+   "page": "puzzle",
+   "ocr": [
+    "o45"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    649,
+    1631,
+    1054,
+    1682
+   ]
+  },
+  {
+   "pair": "35-36",
+   "text": "Same,as air.",
+   "answer": "EIRE",
+   "page": "puzzle",
+   "ocr": [
+    "o48"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    653,
+    1677,
+    1019,
+    1720
+   ]
+  },
+  {
+   "pair": "1-8",
+   "text": "A musical instrument.",
+   "answer": "FIFE",
+   "page": "puzzle",
+   "ocr": [
+    "o50"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    672,
+    1717,
+    1210,
+    1759
+   ]
+  },
+  {
+   "pair": "3-12",
+   "text": "A boy's name.",
+   "answer": "PETE",
+   "page": "puzzle",
+   "ocr": [
+    "o52"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    671,
+    1758,
+    1058,
+    1801
+   ]
+  },
+  {
+   "pair": "5-27",
+   "text": "A painting.",
+   "answer": "DIORAMA",
+   "page": "puzzle",
+   "ocr": [
+    "o53"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    670,
+    1794,
+    997,
+    1847
+   ]
+  },
+  {
+   "pair": "7-23",
+   "text": "To divide.",
+   "answer": "SHARE",
+   "page": "puzzle",
+   "ocr": [
+    "o56"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    669,
+    1839,
+    972,
+    1883
+   ]
+  },
+  {
+   "pair": "11-19",
+   "text": "A complete assortment.",
+   "answer": "SET",
+   "page": "puzzle",
+   "ocr": [
+    "o59"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    646,
+    1880,
+    1224,
+    1927
+   ]
+  },
+  {
+   "pair": "2-9",
+   "text": "Part of a ship.",
+   "answer": "DECK",
+   "page": "puzzle",
+   "ocr": [
+    "o61"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    669,
+    1919,
+    1062,
+    1970
+   ]
+  },
+  {
+   "pair": "4-13",
+   "text": "Perceives.",
+   "answer": "SEES",
+   "page": "puzzle",
+   "ocr": [
+    "o62"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    670,
+    1960,
+    967,
+    2008
+   ]
+  },
+  {
+   "pair": "6-28",
+   "text": "To proclaim.",
+   "answer": "DECLARE",
+   "page": "puzzle",
+   "ocr": [
+    "o64"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    671,
+    2001,
+    1016,
+    2052
+   ]
+  },
+  {
+   "pair": "10-26",
+   "text": "Having unaffected simplicity.",
+   "answer": "NAIVE",
+   "page": "puzzle",
+   "ocr": [
+    "o67",
+    "o68"
+   ],
+   "box": [
+    646,
+    2045,
+    1250,
+    2135
+   ],
+   "how": "eye"
+  },
+  {
+   "pair": "14-22",
+   "printed": "14-32",
+   "text": "Used by golfers",
+   "answer": "TEE",
+   "page": "puzzle",
+   "ocr": [
+    "o71"
+   ],
+   "box": [
+    646,
+    2125,
+    1080,
+    2174
+   ],
+   "how": "eye"
+  },
+  {
+   "pair": "21-30",
+   "text": "A bird's home.",
+   "answer": "NEST",
+   "page": "puzzle",
+   "ocr": [
+    "o73"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    650,
+    2169,
+    1061,
+    2215
+   ]
+  },
+  {
+   "pair": "25-32",
+   "text": "Numerous.",
+   "answer": "MANY",
+   "page": "puzzle",
+   "ocr": [
+    "o75"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    646,
+    2207,
+    976,
+    2254
+   ]
+  },
+  {
+   "pair": "24-31",
+   "text": "A trifling dispute.",
+   "answer": "SPAT",
+   "page": "puzzle",
+   "ocr": [
+    "o77"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    641,
+    2248,
+    1115,
+    2299
+   ]
+  },
+  {
+   "pair": "20-29",
+   "text": "Young dog.",
+   "answer": "PUPS",
+   "page": "puzzle",
+   "ocr": [
+    "o79"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    644,
+    2289,
+    1001,
+    2344
+   ]
+  }
+ ]
+}

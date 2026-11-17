@@ -251,7 +251,15 @@ made by hand from the scan. So Nos. 28 and 31 are read from the page (xd files i
 `hand-read/`, with a doubts list), and No. 2 is compared with gxd's copy. The same goes for any
 odd design the text step and review can't bring right (likely Nos. 23, 27, 29 and 30).
 
-**Text step.** 29 puzzles in 8 batches of 4 (Sonnet agents, as c1), run `textstep/s1`.
+**Text step.** 30 puzzles in 8 batches of 4 (Sonnet agents, as c1), run `textstep/s1`. It could not
+bring them right: 29 of 30 asked for a clue list to be read again, and the keys came out garbled or
+unread on most (only Nos. 11-13 got usable key fixes).
+
+**Read from the scans instead (Alex, 2026-11-16).** All 33 were read by hand from the page images
+(Claude agents, Opus), with every clue and printed line tied to its box on the page: the result and
+its open decisions are in [`hand-read/`](../hand-read/README.md); the review packets (each scan with
+its boxes beside the text) are in the scans repo, `packets/nyw-1914-s1/`. Nothing is shipped or
+published.
 
 ## Still open for Alex
 

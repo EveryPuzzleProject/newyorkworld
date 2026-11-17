@@ -1,0 +1,1354 @@
+{
+ "xdid": "nyw1914-06-14",
+ "no": 23,
+ "pages": {
+  "puzzle": "Milwaukee_Sentinel_1914_06_14_87.png",
+  "solution": "Milwaukee_Sentinel_1914_06_21_86.png"
+ },
+ "grid": {
+  "page": "puzzle",
+  "corners": [
+   [
+    450,
+    117
+   ],
+   [
+    1077,
+    98
+   ],
+   [
+    1077,
+    926
+   ],
+   [
+    452,
+    925
+   ]
+  ],
+  "rows": 28,
+  "cols": 21
+ },
+ "key": {
+  "page": "solution",
+  "corners": [
+   [
+    540,
+    122
+   ],
+   [
+    1138,
+    122
+   ],
+   [
+    1138,
+    906
+   ],
+   [
+    540,
+    906
+   ]
+  ],
+  "rows": 28,
+  "cols": 21
+ },
+ "lines": [
+  {
+   "label": "heading",
+   "text": "FUN'S CROSS-WORD PUZZLE",
+   "page": "puzzle",
+   "ocr": [
+    "o2",
+    "o5",
+    "o19"
+   ],
+   "box": [
+    433,
+    57,
+    890,
+    424
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "label": "number",
+   "text": "No 23",
+   "page": "puzzle",
+   "ocr": [
+    "o25"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    441,
+    406,
+    626,
+    504
+   ]
+  },
+  {
+   "label": "credit",
+   "text": "This cross-word puzzle is furnished by H. J. Stack of Hartford, Conn.",
+   "page": "puzzle",
+   "ocr": [
+    "o8",
+    "o10",
+    "o12",
+    "o13",
+    "o15",
+    "o16"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    954,
+    203,
+    1089,
+    307
+   ]
+  },
+  {
+   "label": "instructions",
+   "text": "The solution will appear in next week's FUN.",
+   "page": "puzzle",
+   "ocr": [
+    "o17",
+    "o18",
+    "o21",
+    "o22"
+   ],
+   "box": [
+    954,
+    298,
+    1092,
+    390
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "label": "solution heading",
+   "text": "SOLUTION TO FUN'S CROSS-WORD PUZZLE No 23",
+   "page": "solution",
+   "box": [
+    562,
+    140,
+    962,
+    452
+   ],
+   "how": "eye"
+  }
+ ],
+ "clues": [
+  {
+   "pair": "2-3",
+   "text": "Plural personal pronoun.",
+   "answer": "WE",
+   "page": "puzzle",
+   "ocr": [
+    "o101"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    447,
+    947,
+    727,
+    971
+   ]
+  },
+  {
+   "pair": "4-5",
+   "text": "Opposite of off.",
+   "answer": "ON",
+   "page": "puzzle",
+   "ocr": [
+    "o106",
+    "o107"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    448,
+    966,
+    644,
+    987
+   ]
+  },
+  {
+   "pair": "6-7",
+   "text": "A conjunction.",
+   "answer": "OR",
+   "page": "puzzle",
+   "ocr": [
+    "o110",
+    "o111"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    448,
+    980,
+    633,
+    1002
+   ]
+  },
+  {
+   "pair": "8-9",
+   "text": "Meaning everything.",
+   "answer": "ALL",
+   "page": "puzzle",
+   "ocr": [
+    "o115"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    446,
+    996,
+    686,
+    1019
+   ]
+  },
+  {
+   "pair": "10-11",
+   "text": "A bright color.",
+   "answer": "RED",
+   "page": "puzzle",
+   "ocr": [
+    "o119"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    441,
+    1013,
+    645,
+    1033
+   ]
+  },
+  {
+   "pair": "12-13",
+   "text": "Space of time.",
+   "answer": "ERA",
+   "page": "puzzle",
+   "ocr": [
+    "o121"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    440,
+    1027,
+    628,
+    1048
+   ]
+  },
+  {
+   "pair": "14-15",
+   "text": "A man's favorite room.",
+   "answer": "DEN",
+   "page": "puzzle",
+   "ocr": [
+    "o125"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    435,
+    1042,
+    716,
+    1067
+   ]
+  },
+  {
+   "pair": "16-17",
+   "text": "Possessive masculine pronoun.",
+   "answer": "HIS",
+   "page": "puzzle",
+   "ocr": [
+    "o130",
+    "o135"
+   ],
+   "box": [
+    440,
+    1053,
+    755,
+    1096
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "18-19",
+   "text": "The end.",
+   "answer": "LAST",
+   "page": "puzzle",
+   "ocr": [
+    "o140"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    440,
+    1094,
+    580,
+    1115
+   ]
+  },
+  {
+   "pair": "20-21",
+   "text": "An object of praise.",
+   "answer": "HERO",
+   "page": "puzzle",
+   "ocr": [
+    "o142"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    441,
+    1109,
+    683,
+    1133
+   ]
+  },
+  {
+   "pair": "22-23",
+   "text": "What school children do.",
+   "answer": "LEARN",
+   "page": "puzzle",
+   "ocr": [
+    "o145"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    441,
+    1125,
+    738,
+    1148
+   ]
+  },
+  {
+   "pair": "24-25",
+   "text": "A children's pet.",
+   "answer": "BUNNY",
+   "page": "puzzle",
+   "ocr": [
+    "o149"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    439,
+    1143,
+    653,
+    1163
+   ]
+  },
+  {
+   "pair": "26-27",
+   "text": "A machinery term meaning rough edges.",
+   "answer": "BURRS",
+   "page": "puzzle",
+   "ocr": [
+    "o156"
+   ],
+   "box": [
+    440,
+    1158,
+    755,
+    1196
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "28-29",
+   "text": "A proper name.",
+   "answer": "COREY",
+   "page": "puzzle",
+   "ocr": [
+    "o159"
+   ],
+   "box": [
+    435,
+    1186,
+    648,
+    1208
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "30-32",
+   "text": "An abbreviation of a boy's name.",
+   "answer": "ROB",
+   "page": "puzzle",
+   "ocr": [
+    "o164",
+    "o167"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    442,
+    1206,
+    754,
+    1241
+   ]
+  },
+  {
+   "pair": "33-34",
+   "text": "A metal that shines.",
+   "answer": "BRASS",
+   "page": "puzzle",
+   "ocr": [
+    "o171"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    443,
+    1237,
+    690,
+    1257
+   ]
+  },
+  {
+   "pair": "35-36",
+   "text": "A summed month.",
+   "answer": "JULY",
+   "page": "puzzle",
+   "ocr": [
+    "o173"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    441,
+    1252,
+    669,
+    1272
+   ]
+  },
+  {
+   "pair": "37-39",
+   "text": "An important organ of the body.",
+   "answer": "HEART",
+   "page": "puzzle",
+   "ocr": [
+    "o174",
+    "o176"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    442,
+    1267,
+    753,
+    1305
+   ]
+  },
+  {
+   "pair": "40-41",
+   "text": "What many men are.",
+   "answer": "BALD",
+   "page": "puzzle",
+   "ocr": [
+    "o179"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    443,
+    1305,
+    697,
+    1325
+   ]
+  },
+  {
+   "pair": "42-43",
+   "text": "What farmers do in the spring.",
+   "answer": "PLANT",
+   "page": "puzzle",
+   "ocr": [
+    "o181",
+    "o183"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    441,
+    1318,
+    764,
+    1363
+   ]
+  },
+  {
+   "pair": "44-45",
+   "text": "The fruit of the cedar.",
+   "answer": "CONE",
+   "page": "puzzle",
+   "ocr": [
+    "o185"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    443,
+    1358,
+    715,
+    1377
+   ]
+  },
+  {
+   "pair": "46-49",
+   "text": "What water often becomes.",
+   "answer": "STEAM",
+   "page": "puzzle",
+   "ocr": [
+    "o187"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    440,
+    1372,
+    752,
+    1393
+   ]
+  },
+  {
+   "pair": "50-51",
+   "text": "A golfing term.",
+   "answer": "FORE",
+   "page": "puzzle",
+   "ocr": [
+    "o189"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    440,
+    1388,
+    641,
+    1409
+   ]
+  },
+  {
+   "pair": "52-55",
+   "text": "A wicked thing to.",
+   "answer": "STAB",
+   "page": "puzzle",
+   "ocr": [
+    "o191"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    437,
+    1403,
+    679,
+    1423
+   ]
+  },
+  {
+   "pair": "56-57",
+   "text": "Food for animals.",
+   "answer": "BRAN",
+   "page": "puzzle",
+   "ocr": [
+    "o193"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    440,
+    1419,
+    662,
+    1442
+   ]
+  },
+  {
+   "pair": "58-60",
+   "text": "Two and two are.",
+   "answer": "EQUAL",
+   "page": "puzzle",
+   "ocr": [
+    "o195"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    442,
+    1436,
+    667,
+    1455
+   ]
+  },
+  {
+   "pair": "61-62",
+   "text": "A kind of vase.",
+   "answer": "URN",
+   "page": "puzzle",
+   "ocr": [
+    "o198"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    441,
+    1451,
+    643,
+    1472
+   ]
+  },
+  {
+   "pair": "63-66",
+   "text": "A man who handles money.",
+   "answer": "BANKER",
+   "page": "puzzle",
+   "ocr": [
+    "o200"
+   ],
+   "box": [
+    440,
+    1469,
+    755,
+    1488
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "67-68",
+   "text": "Keeps you warm in winter.",
+   "answer": "FURS",
+   "page": "puzzle",
+   "ocr": [
+    "o202"
+   ],
+   "box": [
+    440,
+    1485,
+    755,
+    1503
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "69-71",
+   "text": "Important part of a sailboat.",
+   "answer": "MAST",
+   "page": "puzzle",
+   "ocr": [
+    "o204"
+   ],
+   "box": [
+    440,
+    1500,
+    755,
+    1518
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "72-73",
+   "text": "A measure of quantity.",
+   "answer": "PINT",
+   "page": "puzzle",
+   "ocr": [
+    "o206"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    441,
+    1514,
+    714,
+    1535
+   ]
+  },
+  {
+   "pair": "74-75",
+   "text": "A little animal.",
+   "answer": "TOAD",
+   "page": "puzzle",
+   "ocr": [
+    "o208"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    441,
+    1530,
+    643,
+    1549
+   ]
+  },
+  {
+   "pair": "76-77",
+   "text": "To separate into classes.",
+   "answer": "SORT",
+   "page": "puzzle",
+   "ocr": [
+    "o210"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    441,
+    1545,
+    724,
+    1565
+   ]
+  },
+  {
+   "pair": "78-80",
+   "text": "It rests you.",
+   "answer": "SLEEP",
+   "page": "puzzle",
+   "ocr": [
+    "o212"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    443,
+    1561,
+    616,
+    1581
+   ]
+  },
+  {
+   "pair": "81-82",
+   "text": "A title of respect in addressing a sovereign.",
+   "answer": "SIRE",
+   "page": "puzzle",
+   "ocr": [
+    "o214",
+    "o216"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    442,
+    1575,
+    754,
+    1617
+   ]
+  },
+  {
+   "pair": "83-84",
+   "text": "A kind of cabbage.",
+   "answer": "KALE",
+   "page": "puzzle",
+   "ocr": [
+    "o218"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    442,
+    1613,
+    679,
+    1632
+   ]
+  },
+  {
+   "pair": "85-87",
+   "text": "The first numeral.",
+   "answer": "ONE",
+   "page": "puzzle",
+   "ocr": [
+    "o221"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    471,
+    1628,
+    694,
+    1648
+   ]
+  },
+  {
+   "pair": "88-91",
+   "text": "The end.",
+   "answer": "FINISH",
+   "page": "puzzle",
+   "ocr": [
+    "o104"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    773,
+    949,
+    911,
+    969
+   ]
+  },
+  {
+   "pair": "1-5",
+   "text": "A number.",
+   "answer": "TEN",
+   "page": "puzzle",
+   "ocr": [
+    "o108"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    784,
+    967,
+    930,
+    983
+   ]
+  },
+  {
+   "pair": "2-11",
+   "text": "Where we live.",
+   "answer": "WORLD",
+   "page": "puzzle",
+   "ocr": [
+    "o112"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    782,
+    980,
+    971,
+    1000
+   ]
+  },
+  {
+   "pair": "6-15",
+   "text": "A small city in western New York.",
+   "answer": "OLEAN",
+   "page": "puzzle",
+   "ocr": [
+    "o116",
+    "o120"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    782,
+    996,
+    1086,
+    1037
+   ]
+  },
+  {
+   "pair": "8-19",
+   "text": "What a policeman does.",
+   "answer": "ARREST",
+   "page": "puzzle",
+   "ocr": [
+    "o123"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    782,
+    1033,
+    1048,
+    1053
+   ]
+  },
+  {
+   "pair": "12-23",
+   "text": "A famous inventor.",
+   "answer": "EDISON",
+   "page": "puzzle",
+   "ocr": [
+    "o127",
+    "o128"
+   ],
+   "box": [
+    771,
+    1045,
+    1020,
+    1070
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "16-25",
+   "text": "Boy's first name.",
+   "answer": "HARRY",
+   "page": "puzzle",
+   "ocr": [
+    "o131",
+    "o132"
+   ],
+   "box": [
+    771,
+    1064,
+    1000,
+    1085
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "18-27",
+   "text": "What the tower of Pisa does.",
+   "answer": "LEANS",
+   "page": "puzzle",
+   "ocr": [
+    "o136"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    772,
+    1079,
+    1085,
+    1099
+   ]
+  },
+  {
+   "pair": "20-29",
+   "text": "A boy's name.",
+   "answer": "HENRY",
+   "page": "puzzle",
+   "ocr": [
+    "o137"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    772,
+    1092,
+    962,
+    1117
+   ]
+  },
+  {
+   "pair": "22-34",
+   "text": "How some animals catch their prey.",
+   "answer": "LURES",
+   "page": "puzzle",
+   "ocr": [
+    "o143",
+    "o146"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    773,
+    1110,
+    1089,
+    1147
+   ]
+  },
+  {
+   "pair": "24-39",
+   "text": "Boilers do sometimes.",
+   "answer": "BURST",
+   "page": "puzzle",
+   "ocr": [
+    "o150"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    772,
+    1147,
+    1028,
+    1167
+   ]
+  },
+  {
+   "pair": "26-38",
+   "text": "A wild animal in Germany.",
+   "answer": "BOAR",
+   "page": "puzzle",
+   "ocr": [
+    "o154"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    772,
+    1163,
+    1085,
+    1184
+   ]
+  },
+  {
+   "pair": "28-52",
+   "text": "To build fires in.",
+   "answer": "CRATES",
+   "page": "puzzle",
+   "ocr": [
+    "o157"
+   ],
+   "box": [
+    771,
+    1175,
+    975,
+    1200
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "33-47",
+   "text": "Determined.",
+   "answer": "BENT",
+   "page": "puzzle",
+   "ocr": [
+    "o163"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    774,
+    1197,
+    937,
+    1214
+   ]
+  },
+  {
+   "pair": "37-46",
+   "text": "A possessive pronoun.",
+   "answer": "HAS",
+   "page": "puzzle",
+   "ocr": [
+    "o166"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    773,
+    1212,
+    1027,
+    1231
+   ]
+  },
+  {
+   "pair": "48-53",
+   "text": "In contact with.",
+   "answer": "AT",
+   "page": "puzzle",
+   "ocr": [
+    "o168"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    774,
+    1226,
+    976,
+    1246
+   ]
+  },
+  {
+   "pair": "49-54",
+   "text": "What you may call your mother.",
+   "answer": "MA",
+   "page": "puzzle",
+   "ocr": [
+    "o172",
+    "o175"
+   ],
+   "box": [
+    771,
+    1240,
+    1090,
+    1285
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "55-58",
+   "text": "To exist.",
+   "answer": "BE",
+   "page": "puzzle",
+   "ocr": [
+    "o177"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    772,
+    1276,
+    916,
+    1301
+   ]
+  },
+  {
+   "pair": "30-45",
+   "text": "To govern.",
+   "answer": "RULE",
+   "page": "puzzle",
+   "ocr": [
+    "o178"
+   ],
+   "box": [
+    771,
+    1293,
+    935,
+    1314
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "31-41",
+   "text": "Opposite to young.",
+   "answer": "OLD",
+   "page": "puzzle",
+   "ocr": [
+    "o180"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    772,
+    1309,
+    1000,
+    1330
+   ]
+  },
+  {
+   "pair": "32-36",
+   "text": "Next to.",
+   "answer": "BY",
+   "page": "puzzle",
+   "ocr": [
+    "o182"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    773,
+    1325,
+    908,
+    1346
+   ]
+  },
+  {
+   "pair": "35-51",
+   "text": "A girl's name.",
+   "answer": "JANE",
+   "page": "puzzle",
+   "ocr": [
+    "o184"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    772,
+    1340,
+    963,
+    1364
+   ]
+  },
+  {
+   "pair": "40-57",
+   "text": "Babies are.",
+   "answer": "BORN",
+   "page": "puzzle",
+   "ocr": [
+    "o186"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    773,
+    1357,
+    934,
+    1378
+   ]
+  },
+  {
+   "pair": "50-64",
+   "text": "A boy's name.",
+   "answer": "FRANK",
+   "page": "puzzle",
+   "ocr": [
+    "o188"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    772,
+    1372,
+    962,
+    1393
+   ]
+  },
+  {
+   "pair": "44-60",
+   "text": "Something that gives heat.",
+   "answer": "COAL",
+   "page": "puzzle",
+   "ocr": [
+    "o190"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    773,
+    1388,
+    1077,
+    1409
+   ]
+  },
+  {
+   "pair": "56-68",
+   "text": "What a fire does.",
+   "answer": "BURNS",
+   "page": "puzzle",
+   "ocr": [
+    "o192"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    774,
+    1404,
+    994,
+    1424
+   ]
+  },
+  {
+   "pair": "59-73",
+   "text": "A measure of quantity larger than from 72-73.",
+   "answer": "QUART",
+   "page": "puzzle",
+   "ocr": [
+    "o194",
+    "o196"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    775,
+    1420,
+    1087,
+    1461
+   ]
+  },
+  {
+   "pair": "67-82",
+   "text": "Something to beware of.",
+   "answer": "FIRE",
+   "page": "puzzle",
+   "ocr": [
+    "o199"
+   ],
+   "box": [
+    771,
+    1454,
+    1085,
+    1472
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "72-87",
+   "text": "A passage for perspiration.",
+   "answer": "PORE",
+   "page": "puzzle",
+   "ocr": [
+    "o201"
+   ],
+   "box": [
+    771,
+    1470,
+    1090,
+    1490
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "76-86",
+   "text": "Something very wicked.",
+   "answer": "SIN",
+   "page": "puzzle",
+   "ocr": [
+    "o203"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    771,
+    1485,
+    1052,
+    1509
+   ]
+  },
+  {
+   "pair": "81-85",
+   "text": "In like manner.",
+   "answer": "SO",
+   "page": "puzzle",
+   "ocr": [
+    "o205"
+   ],
+   "box": [
+    771,
+    1502,
+    975,
+    1522
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "65-69",
+   "text": "A measure of type.",
+   "answer": "EM",
+   "page": "puzzle",
+   "ocr": [
+    "o207"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    775,
+    1519,
+    1012,
+    1538
+   ]
+  },
+  {
+   "pair": "66-74",
+   "text": "A small animal women fear.",
+   "answer": "RAT",
+   "page": "puzzle",
+   "ocr": [
+    "o209"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    773,
+    1531,
+    1089,
+    1555
+   ]
+  },
+  {
+   "pair": "70-78",
+   "text": "A wireless call.",
+   "answer": "SOS",
+   "page": "puzzle",
+   "ocr": [
+    "o211"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    775,
+    1549,
+    971,
+    1570
+   ]
+  },
+  {
+   "pair": "71-83",
+   "text": "How we express ourselves.",
+   "answer": "TALK",
+   "page": "puzzle",
+   "ocr": [
+    "o213"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    776,
+    1565,
+    1070,
+    1585
+   ]
+  },
+  {
+   "pair": "75-88",
+   "text": "An awful affliction.",
+   "answer": "DEAF",
+   "page": "puzzle",
+   "ocr": [
+    "o215"
+   ],
+   "box": [
+    771,
+    1580,
+    995,
+    1600
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "79-89",
+   "text": "A proper name used for a college.",
+   "answer": "ELI",
+   "page": "puzzle",
+   "ocr": [
+    "o217",
+    "o219"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    776,
+    1596,
+    1091,
+    1631
+   ]
+  },
+  {
+   "pair": "80-90",
+   "text": "What we write with.",
+   "answer": "PEN",
+   "page": "puzzle",
+   "ocr": [
+    "o220"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    776,
+    1626,
+    1030,
+    1649
+   ]
+  }
+ ]
+}

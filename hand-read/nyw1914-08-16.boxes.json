@@ -1,0 +1,647 @@
+{
+ "xdid": "nyw1914-08-16",
+ "no": 32,
+ "pages": {
+  "puzzle": "Milwaukee_Sentinel_1914_08_16_82.png",
+  "solution": "Milwaukee_Sentinel_1914_08_23_76.png"
+ },
+ "grid": {
+  "page": "puzzle",
+  "corners": [
+   [
+    491,
+    115
+   ],
+   [
+    1095,
+    109
+   ],
+   [
+    1097,
+    728
+   ],
+   [
+    487,
+    727
+   ]
+  ],
+  "rows": 13,
+  "cols": 13
+ },
+ "key": {
+  "page": "solution",
+  "corners": [
+   [
+    506,
+    1348
+   ],
+   [
+    862,
+    1347
+   ],
+   [
+    862,
+    1709
+   ],
+   [
+    506,
+    1709
+   ]
+  ],
+  "rows": 13,
+  "cols": 13
+ },
+ "lines": [
+  {
+   "label": "heading",
+   "text": "FUN'S CROSS-WORD PUZZLES",
+   "page": "puzzle",
+   "ocr": [
+    "o6",
+    "o3",
+    "o2"
+   ],
+   "box": [
+    462,
+    83,
+    1122,
+    352
+   ]
+  },
+  {
+   "label": "number",
+   "text": "No 32",
+   "page": "puzzle",
+   "ocr": [
+    "o4"
+   ],
+   "box": [
+    959,
+    89,
+    1118,
+    252
+   ]
+  },
+  {
+   "label": "credit",
+   "text": "Today's cross-word, the thirty-second in FUN'S series, was sent in by William Callander of Pulaski street, Brooklyn. He writes as follows: \"The solving of your cross-word puzzles has been a source of keen delight not only to myself but to various members of my family and friends; but, hard as some of the puzzles have been to solve, I find it much more of a task to construct one.\"",
+   "page": "puzzle",
+   "ocr": [
+    "o51",
+    "o53",
+    "o54",
+    "o55",
+    "o59",
+    "o63",
+    "o65",
+    "o66",
+    "o67",
+    "o68",
+    "o69"
+   ],
+   "box": [
+    475,
+    724,
+    1108,
+    875
+   ]
+  },
+  {
+   "label": "instructions",
+   "text": "Fill in the small squares with words corersponding to the list of clues and definitions given below. The solution to this puzzle will be published in next week's FUN.",
+   "page": "puzzle",
+   "ocr": [
+    "o70",
+    "o71",
+    "o72",
+    "o73",
+    "o74"
+   ],
+   "box": [
+    477,
+    868,
+    1104,
+    936
+   ]
+  },
+  {
+   "label": "solution heading",
+   "text": "Solution to last week's cross-word puzzle.",
+   "page": "solution",
+   "box": [
+    490,
+    1728,
+    880,
+    1769
+   ]
+  }
+ ],
+ "clues": [
+  {
+   "pair": "1-2",
+   "text": "A historical period or reckoning.",
+   "answer": "ERA",
+   "page": "puzzle",
+   "ocr": [
+    "o75",
+    "o77"
+   ],
+   "box": [
+    480,
+    930,
+    790,
+    978
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "3-4",
+   "text": "To equal.",
+   "answer": "MATCH",
+   "page": "puzzle",
+   "ocr": [
+    "o79"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    485,
+    970,
+    633,
+    996
+   ]
+  },
+  {
+   "pair": "5-6",
+   "text": "An officer.",
+   "answer": "MARSHAL",
+   "page": "puzzle",
+   "ocr": [
+    "o81"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    485,
+    991,
+    640,
+    1015
+   ]
+  },
+  {
+   "pair": "7-8",
+   "text": "To bring together.",
+   "answer": "MASS",
+   "page": "puzzle",
+   "printed": "7-2",
+   "ocr": [
+    "o83"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    484,
+    1011,
+    713,
+    1036
+   ]
+  },
+  {
+   "pair": "9-10",
+   "text": "The god of love.",
+   "answer": "EROS",
+   "page": "puzzle",
+   "ocr": [
+    "o85"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    484,
+    1031,
+    706,
+    1057
+   ]
+  },
+  {
+   "pair": "11-12",
+   "text": "What the boy did when told he could go to he ball game.",
+   "answer": "WENT",
+   "page": "puzzle",
+   "ocr": [
+    "o88",
+    "o92",
+    "o97"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    478,
+    1051,
+    781,
+    1117
+   ]
+  },
+  {
+   "pair": "13-14",
+   "text": "Part of the face.",
+   "answer": "EYES",
+   "page": "puzzle",
+   "ocr": [
+    "o98"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    478,
+    1111,
+    715,
+    1137
+   ]
+  },
+  {
+   "pair": "15-16",
+   "text": "Made every day.",
+   "answer": "BEDS",
+   "page": "puzzle",
+   "ocr": [
+    "o101"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    476,
+    1132,
+    703,
+    1158
+   ]
+  },
+  {
+   "pair": "19-20",
+   "text": "Used in fishing.",
+   "answer": "BAIT",
+   "page": "puzzle",
+   "ocr": [
+    "o102"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    475,
+    1151,
+    696,
+    1179
+   ]
+  },
+  {
+   "pair": "21-22",
+   "text": "Otherwise.",
+   "answer": "ELSE",
+   "page": "puzzle",
+   "ocr": [
+    "o104"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    476,
+    1172,
+    642,
+    1198
+   ]
+  },
+  {
+   "pair": "23-24",
+   "text": "A title of honor or nobility.",
+   "answer": "LORD",
+   "page": "puzzle",
+   "ocr": [
+    "o106",
+    "o109"
+   ],
+   "box": [
+    476,
+    1192,
+    782,
+    1237
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "25-26",
+   "text": "To satisfy the appetite.",
+   "answer": "SATE",
+   "page": "puzzle",
+   "ocr": [
+    "o110"
+   ],
+   "box": [
+    476,
+    1231,
+    786,
+    1258
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "27-28",
+   "text": "What little boys sometimes are.",
+   "answer": "NAUGHTY",
+   "page": "puzzle",
+   "ocr": [
+    "o112",
+    "o114"
+   ],
+   "box": [
+    479,
+    1253,
+    782,
+    1297
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "29-30",
+   "text": "Entreaties.",
+   "answer": "PLEAS",
+   "page": "puzzle",
+   "ocr": [
+    "o117"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    480,
+    1293,
+    650,
+    1318
+   ]
+  },
+  {
+   "pair": "31-32",
+   "text": "A youth.",
+   "answer": "LAD",
+   "page": "puzzle",
+   "printed": "31-22",
+   "ocr": [
+    "o76"
+   ],
+   "box": [
+    794,
+    931,
+    1000,
+    955
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "33-34",
+   "text": "Painting, engraving, sculpture, etc.",
+   "answer": "ARTS",
+   "page": "puzzle",
+   "ocr": [
+    "o78",
+    "o80"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    795,
+    948,
+    1100,
+    995
+   ]
+  },
+  {
+   "pair": "35-36",
+   "text": "To mesh together.",
+   "answer": "GEAR",
+   "page": "puzzle",
+   "ocr": [
+    "o82"
+   ],
+   "box": [
+    797,
+    989,
+    1050,
+    1014
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "1-8",
+   "text": "Organs of hearing.",
+   "answer": "EARS",
+   "page": "puzzle",
+   "ocr": [
+    "o84"
+   ],
+   "box": [
+    805,
+    1009,
+    1052,
+    1036
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "2-9",
+   "text": "A dull pain.",
+   "answer": "ACHE",
+   "page": "puzzle",
+   "ocr": [
+    "o86",
+    "o87"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    807,
+    1029,
+    984,
+    1058
+   ]
+  },
+  {
+   "pair": "3-12",
+   "text": "Part of a ship.",
+   "answer": "MAST",
+   "page": "puzzle",
+   "ocr": [
+    "o89"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    805,
+    1048,
+    1013,
+    1078
+   ]
+  },
+  {
+   "pair": "4-13",
+   "text": "A small animal.",
+   "answer": "HARE",
+   "page": "puzzle",
+   "ocr": [
+    "o93"
+   ],
+   "box": [
+    805,
+    1070,
+    1022,
+    1097
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "5-27",
+   "text": "A residence.",
+   "answer": "MANSION",
+   "page": "puzzle",
+   "ocr": [
+    "o95"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    807,
+    1091,
+    983,
+    1117
+   ]
+  },
+  {
+   "pair": "6-28",
+   "text": "Allegiance.",
+   "answer": "LOYALTY",
+   "page": "puzzle",
+   "ocr": [
+    "o99"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    806,
+    1109,
+    970,
+    1138
+   ]
+  },
+  {
+   "pair": "7-23",
+   "text": "A reward of merit.",
+   "answer": "MEDAL",
+   "page": "puzzle",
+   "ocr": [
+    "o100"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    804,
+    1130,
+    1042,
+    1156
+   ]
+  },
+  {
+   "pair": "10-26",
+   "text": "Moral perception.",
+   "answer": "SENSE",
+   "page": "puzzle",
+   "ocr": [
+    "o103"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    799,
+    1150,
+    1037,
+    1177
+   ]
+  },
+  {
+   "pair": "11-19",
+   "text": "Texture of threads.",
+   "answer": "WEB",
+   "page": "puzzle",
+   "ocr": [
+    "o105"
+   ],
+   "box": [
+    800,
+    1170,
+    1050,
+    1196
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "14-22",
+   "text": "To perceive.",
+   "answer": "SEE",
+   "page": "puzzle",
+   "ocr": [
+    "o107"
+   ],
+   "box": [
+    797,
+    1190,
+    992,
+    1218
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "20-29",
+   "text": "An ambush.",
+   "answer": "TRAP",
+   "page": "puzzle",
+   "ocr": [
+    "o108"
+   ],
+   "box": [
+    798,
+    1211,
+    1000,
+    1236
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "21-30",
+   "text": "What a man does when hungry.",
+   "answer": "EATS",
+   "page": "puzzle",
+   "ocr": [
+    "o111",
+    "o113"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    799,
+    1231,
+    1102,
+    1279
+   ]
+  },
+  {
+   "pair": "24-31",
+   "text": "Not sharp.",
+   "answer": "DULL",
+   "page": "puzzle",
+   "ocr": [
+    "o115"
+   ],
+   "box": [
+    798,
+    1271,
+    968,
+    1296
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "25-32",
+   "text": "A fish.",
+   "answer": "SHAD",
+   "page": "puzzle",
+   "ocr": [
+    "o116"
+   ],
+   "box": [
+    798,
+    1290,
+    928,
+    1318
+   ],
+   "how": "ocr-corrected"
+  }
+ ]
+}

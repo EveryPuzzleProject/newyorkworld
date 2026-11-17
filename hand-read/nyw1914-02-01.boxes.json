@@ -1,0 +1,682 @@
+{
+ "xdid": "nyw1914-02-01",
+ "no": 7,
+ "pages": {
+  "puzzle": "Milwaukee_Sentinel_1914_02_01_66_fun.png",
+  "solution": "Milwaukee_Sentinel_1914_02_08_82.png"
+ },
+ "grid": {
+  "page": "puzzle",
+  "corners": [
+   [
+    45,
+    264
+   ],
+   [
+    1270,
+    272
+   ],
+   [
+    1257,
+    1499
+   ],
+   [
+    7,
+    1474
+   ]
+  ],
+  "rows": 13,
+  "cols": 13
+ },
+ "key": {
+  "page": "solution",
+  "corners": [
+   [
+    719,
+    805
+   ],
+   [
+    1094,
+    811
+   ],
+   [
+    1090,
+    1180
+   ],
+   [
+    713,
+    1179
+   ]
+  ],
+  "rows": 13,
+  "cols": 13
+ },
+ "lines": [
+  {
+   "label": "heading",
+   "text": "FUN'S CROSS-WORD PUZZLES",
+   "page": "puzzle",
+   "box": [
+    33,
+    11,
+    1286,
+    234
+   ],
+   "how": "eye"
+  },
+  {
+   "label": "banner",
+   "text": "Can You Solve Them?",
+   "page": "puzzle",
+   "box": [
+    44,
+    262,
+    1275,
+    610
+   ],
+   "how": "eye"
+  },
+  {
+   "label": "number",
+   "text": "No 7",
+   "page": "puzzle",
+   "box": [
+    523,
+    807,
+    720,
+    981
+   ],
+   "how": "eye"
+  },
+  {
+   "label": "intro",
+   "text": "FUN'S cross word puzzles apparently are getting more popular than ever. The puzzle editor has received from readers many interesting new cross word puzzles, which he will be glad to use from time to time. It is more difficult to make up a cross word puzzle than it is to solve one. If you doubt this try to make one yourself.",
+   "page": "puzzle",
+   "ocr": [
+    "o31",
+    "o32",
+    "o33",
+    "o34",
+    "o35",
+    "o36",
+    "o37",
+    "o38"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    12,
+    1558,
+    1289,
+    1812
+   ]
+  },
+  {
+   "label": "instructions",
+   "text": "Today the seventh puzzle in the series is presented. Fill in the small squares in the above diamonds with words corresponding to the clews and definitions given below. On page 15 you will find the solution to last week's puzzle. The solution to today's puzzle will be given in next week's FUN.",
+   "page": "puzzle",
+   "ocr": [
+    "o39",
+    "o40",
+    "o41",
+    "o42",
+    "o43",
+    "o44",
+    "o45",
+    "o46",
+    "o47"
+   ],
+   "box": [
+    14,
+    1800,
+    1290,
+    2015
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "label": "solution-caption",
+   "text": "Herewith is the solution to last week's cross-word puzzles, showing how the letters should be arranged to form words that fit the list of clues and dlinitions given.",
+   "page": "solution",
+   "box": [
+    438,
+    800,
+    705,
+    1003
+   ],
+   "how": "eye"
+  },
+  {
+   "label": "solution-centre",
+   "text": "SOLUTION TO No 7 PUZZLE",
+   "page": "solution",
+   "box": [
+    862,
+    953,
+    945,
+    1025
+   ],
+   "how": "eye"
+  }
+ ],
+ "clues": [
+  {
+   "pair": "1-2",
+   "text": "United in Matrimony.",
+   "answer": "WED",
+   "page": "puzzle",
+   "ocr": [
+    "o48"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    57,
+    2005,
+    585,
+    2056
+   ]
+  },
+  {
+   "pair": "3-4",
+   "text": "A fruit",
+   "answer": "PEARS",
+   "page": "puzzle",
+   "ocr": [
+    "o50"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    57,
+    2043,
+    295,
+    2095
+   ]
+  },
+  {
+   "pair": "5-6",
+   "text": "A gas bag.",
+   "answer": "BALLOON",
+   "page": "puzzle",
+   "ocr": [
+    "o52"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    58,
+    2087,
+    362,
+    2138
+   ]
+  },
+  {
+   "pair": "7-8",
+   "text": "To separate.",
+   "answer": "PART",
+   "page": "puzzle",
+   "ocr": [
+    "o55"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    60,
+    2130,
+    384,
+    2173
+   ]
+  },
+  {
+   "pair": "9-10",
+   "text": "A whip used in Russian prisons.",
+   "answer": "PLET",
+   "page": "puzzle",
+   "ocr": [
+    "o56",
+    "o58"
+   ],
+   "box": [
+    40,
+    2165,
+    630,
+    2258
+   ],
+   "how": "eye"
+  },
+  {
+   "pair": "11-12",
+   "text": "A cavern.",
+   "answer": "CAVE",
+   "page": "puzzle",
+   "ocr": [
+    "o60"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    12,
+    2244,
+    340,
+    2295
+   ]
+  },
+  {
+   "pair": "13-14",
+   "text": "Very black.",
+   "answer": "EBON",
+   "page": "puzzle",
+   "ocr": [
+    "o62"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    15,
+    2288,
+    377,
+    2335
+   ]
+  },
+  {
+   "pair": "15-16",
+   "text": "Another name for father.",
+   "answer": "PAPA",
+   "page": "puzzle",
+   "ocr": [
+    "o64",
+    "o66"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    16,
+    2328,
+    624,
+    2411
+   ]
+  },
+  {
+   "pair": "17-18",
+   "text": "The same as on.",
+   "answer": "UPON",
+   "page": "puzzle",
+   "ocr": [
+    "o68"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    15,
+    2408,
+    474,
+    2457
+   ]
+  },
+  {
+   "pair": "19-20",
+   "text": "An eminence.",
+   "answer": "BERG",
+   "page": "puzzle",
+   "ocr": [
+    "o70"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    16,
+    2449,
+    408,
+    2495
+   ]
+  },
+  {
+   "pair": "21-22",
+   "text": "What the wind did.",
+   "answer": "BLEW",
+   "page": "puzzle",
+   "ocr": [
+    "o72"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    11,
+    2487,
+    548,
+    2535
+   ]
+  },
+  {
+   "pair": "23-24",
+   "printed": "23 24",
+   "text": "A friend of Roosevelt.",
+   "answer": "RIIS",
+   "page": "puzzle",
+   "ocr": [
+    "o74"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    11,
+    2528,
+    579,
+    2575
+   ]
+  },
+  {
+   "pair": "25-26",
+   "text": "To float aloft.",
+   "answer": "SOAR",
+   "page": "puzzle",
+   "ocr": [
+    "o76"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    8,
+    2566,
+    421,
+    2616
+   ]
+  },
+  {
+   "pair": "27-28",
+   "text": "An aeronaut.",
+   "answer": "AVIATOR",
+   "page": "puzzle",
+   "ocr": [
+    "o78"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    9,
+    2607,
+    398,
+    2654
+   ]
+  },
+  {
+   "pair": "29-30",
+   "text": "A plumed bird.",
+   "answer": "EGRET",
+   "page": "puzzle",
+   "ocr": [
+    "o80"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    6,
+    2646,
+    443,
+    2697
+   ]
+  },
+  {
+   "pair": "31-32",
+   "text": "Not old.",
+   "answer": "NEW",
+   "page": "puzzle",
+   "ocr": [
+    "o82"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    9,
+    2688,
+    305,
+    2735
+   ]
+  },
+  {
+   "pair": "1-8",
+   "text": "A swollen strip.",
+   "answer": "WELT",
+   "page": "puzzle",
+   "ocr": [
+    "o84"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    50,
+    2728,
+    447,
+    2779
+   ]
+  },
+  {
+   "pair": "3-12",
+   "text": "To shave.",
+   "answer": "PARE",
+   "page": "puzzle",
+   "ocr": [
+    "o49"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    690,
+    2009,
+    988,
+    2052
+   ]
+  },
+  {
+   "pair": "5-27",
+   "text": "Part of the German Empire.",
+   "answer": "BAVARIA",
+   "page": "puzzle",
+   "ocr": [
+    "o51",
+    "o53"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    688,
+    2043,
+    1276,
+    2136
+   ]
+  },
+  {
+   "pair": "7-23",
+   "text": "What FUN is printed on.",
+   "answer": "PAPER",
+   "page": "puzzle",
+   "ocr": [
+    "o54",
+    "o57"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    685,
+    2122,
+    1279,
+    2214
+   ]
+  },
+  {
+   "pair": "11-19",
+   "text": "A vehicle.",
+   "answer": "CAB",
+   "page": "puzzle",
+   "ocr": [
+    "o59"
+   ],
+   "box": [
+    665,
+    2210,
+    905,
+    2252
+   ],
+   "how": "eye"
+  },
+  {
+   "pair": "20-29",
+   "text": "To bestrow.",
+   "answer": "GIVE",
+   "page": "puzzle",
+   "ocr": [
+    "o61"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    667,
+    2249,
+    1031,
+    2292
+   ]
+  },
+  {
+   "pair": "24-31",
+   "text": "An indication.",
+   "answer": "SIGN",
+   "page": "puzzle",
+   "ocr": [
+    "o63"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    666,
+    2289,
+    1079,
+    2332
+   ]
+  },
+  {
+   "pair": "2-9",
+   "text": "To let fall.",
+   "answer": "DROP",
+   "page": "puzzle",
+   "ocr": [
+    "o65"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    702,
+    2327,
+    1019,
+    2373
+   ]
+  },
+  {
+   "pair": "4-13",
+   "text": "The bottom of a shoe.",
+   "answer": "SOLE",
+   "page": "puzzle",
+   "ocr": [
+    "o67"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    686,
+    2366,
+    1231,
+    2414
+   ]
+  },
+  {
+   "pair": "6-28",
+   "text": "Resembling a nebula.",
+   "answer": "NEBULAR",
+   "page": "puzzle",
+   "ocr": [
+    "o69"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    685,
+    2406,
+    1220,
+    2455
+   ]
+  },
+  {
+   "pair": "10-26",
+   "text": "A habitual drunkard.",
+   "answer": "TOPER",
+   "page": "puzzle",
+   "ocr": [
+    "o71"
+   ],
+   "box": [
+    666,
+    2449,
+    1150,
+    2493
+   ],
+   "how": "eye"
+  },
+  {
+   "pair": "14-22",
+   "text": "The present time.",
+   "answer": "NOW",
+   "page": "puzzle",
+   "ocr": [
+    "o73"
+   ],
+   "box": [
+    665,
+    2489,
+    1050,
+    2531
+   ],
+   "how": "eye"
+  },
+  {
+   "pair": "21-30",
+   "text": "A covering for the foot and leg.",
+   "answer": "BOOT",
+   "page": "puzzle",
+   "ocr": [
+    "o75",
+    "o77"
+   ],
+   "box": [
+    664,
+    2528,
+    1280,
+    2615
+   ],
+   "how": "eye"
+  },
+  {
+   "pair": "25-32",
+   "text": "Slowly boiled food.",
+   "answer": "STEW",
+   "page": "puzzle",
+   "ocr": [
+    "o79"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    665,
+    2607,
+    1170,
+    2654
+   ]
+  },
+  {
+   "pair": "33-34",
+   "text": "Not fictitious.",
+   "answer": "REAL",
+   "page": "puzzle",
+   "ocr": [
+    "o81"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    662,
+    2647,
+    1066,
+    2697
+   ]
+  },
+  {
+   "pair": "35-36",
+   "printed": "25 36",
+   "text": "Space.",
+   "answer": "AREA",
+   "page": "puzzle",
+   "ocr": [
+    "o83"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    668,
+    2691,
+    912,
+    2735
+   ]
+  }
+ ]
+}

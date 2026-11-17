@@ -1,0 +1,672 @@
+{
+ "xdid": "nyw1914-03-29",
+ "no": 15,
+ "pages": {
+  "puzzle": "Milwaukee_Sentinel_1914_03_29_86.png",
+  "solution": "Milwaukee_Sentinel_1914_04_05_90.png"
+ },
+ "grid": {
+  "page": "puzzle",
+  "corners": [
+   [
+    518,
+    234
+   ],
+   [
+    1112,
+    234
+   ],
+   [
+    1112,
+    831
+   ],
+   [
+    518,
+    831
+   ]
+  ],
+  "rows": 13,
+  "cols": 13
+ },
+ "key": {
+  "page": "solution",
+  "corners": [
+   [
+    1139,
+    1455
+   ],
+   [
+    1514,
+    1457
+   ],
+   [
+    1519,
+    1826
+   ],
+   [
+    1140,
+    1832
+   ]
+  ],
+  "rows": 13,
+  "cols": 13
+ },
+ "lines": [
+  {
+   "label": "heading",
+   "text": "FUN'S CROSS-WORD PUZZLES",
+   "page": "puzzle",
+   "ocr": [
+    "o2",
+    "o3"
+   ],
+   "box": [
+    498,
+    82,
+    1144,
+    250
+   ]
+  },
+  {
+   "label": "heading",
+   "text": "Can You Solve Them?",
+   "page": "puzzle",
+   "ocr": [
+    "o6",
+    "o9",
+    "o7",
+    "o11"
+   ],
+   "box": [
+    517,
+    224,
+    1133,
+    434
+   ]
+  },
+  {
+   "label": "number",
+   "text": "No 15",
+   "page": "puzzle",
+   "ocr": [
+    "o17"
+   ],
+   "box": [
+    734,
+    472,
+    863,
+    593
+   ]
+  },
+  {
+   "label": "intro",
+   "text": "Today's cross work puzzle, the fifteenth in FUN'S series, was sent in by Miss Florence A. Reif of Honesdale, Pa. See if you can solve it. Fill in the little squares in the above diamond with words corresponding to the clews and definitions given below. On another page you will find the solution to last week's cross work puzzle. The solution to today's puzzle will be given in next week's FUN.",
+   "page": "puzzle",
+   "ocr": [
+    "o50",
+    "o52",
+    "o54",
+    "o55",
+    "o59",
+    "o60",
+    "o61",
+    "o62",
+    "o64",
+    "o65",
+    "o68",
+    "o69",
+    "o72"
+   ],
+   "box": [
+    502,
+    824,
+    1125,
+    972
+   ]
+  },
+  {
+   "label": "credit",
+   "text": "was sent in by Miss Florence A. Reif of Honesdale, Pa.",
+   "page": "puzzle",
+   "ocr": [
+    "o54",
+    "o55"
+   ],
+   "box": [
+    504,
+    850,
+    1048,
+    875
+   ]
+  }
+ ],
+ "clues": [
+  {
+   "pair": "1-2",
+   "printed": "1-1",
+   "text": "One of the sons of Noah.",
+   "answer": "HAM",
+   "page": "puzzle",
+   "ocr": [
+    "o74",
+    "o79"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    513,
+    969,
+    807,
+    1015
+   ]
+  },
+  {
+   "pair": "3-4",
+   "text": "A colorless, transparent fluid.",
+   "answer": "WATER",
+   "page": "puzzle",
+   "ocr": [
+    "o85",
+    "o82",
+    "o88"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    515,
+    1011,
+    805,
+    1054
+   ]
+  },
+  {
+   "pair": "5-6",
+   "text": "Various.",
+   "answer": "SEVERAL",
+   "page": "puzzle",
+   "ocr": [
+    "o90"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    512,
+    1046,
+    649,
+    1074
+   ]
+  },
+  {
+   "pair": "7-8",
+   "text": "A hollow place.",
+   "answer": "HOLE",
+   "page": "puzzle",
+   "ocr": [
+    "o93"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    514,
+    1066,
+    716,
+    1096
+   ]
+  },
+  {
+   "pair": "9-10",
+   "text": "Always.",
+   "answer": "EVER",
+   "page": "puzzle",
+   "ocr": [
+    "o96"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    511,
+    1088,
+    653,
+    1113
+   ]
+  },
+  {
+   "pair": "11-12",
+   "text": "What a door is sometimes fastened with.",
+   "answer": "BOLT",
+   "page": "puzzle",
+   "ocr": [
+    "o101",
+    "o103"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    506,
+    1109,
+    804,
+    1151
+   ]
+  },
+  {
+   "pair": "13-14",
+   "text": "A reflected sound.",
+   "answer": "ECHO",
+   "page": "puzzle",
+   "ocr": [
+    "o106"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    503,
+    1149,
+    751,
+    1174
+   ]
+  },
+  {
+   "pair": "15-16",
+   "text": "Noisy.",
+   "answer": "LOUD",
+   "page": "puzzle",
+   "ocr": [
+    "o108"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    502,
+    1169,
+    638,
+    1194
+   ]
+  },
+  {
+   "pair": "17-18",
+   "text": "A thin slab of baked clay.",
+   "answer": "TILE",
+   "page": "puzzle",
+   "ocr": [
+    "o110",
+    "o115"
+   ],
+   "box": [
+    500,
+    1190,
+    808,
+    1238
+   ],
+   "how": "eye"
+  },
+  {
+   "pair": "19-20",
+   "text": "Where you can always find China.",
+   "answer": "ASIA",
+   "page": "puzzle",
+   "ocr": [
+    "o116",
+    "o120"
+   ],
+   "box": [
+    500,
+    1232,
+    810,
+    1279
+   ],
+   "how": "eye"
+  },
+  {
+   "pair": "21-22",
+   "text": "An accumulation of money.",
+   "answer": "FUND",
+   "page": "puzzle",
+   "ocr": [
+    "o121",
+    "o124"
+   ],
+   "box": [
+    500,
+    1272,
+    808,
+    1319
+   ],
+   "how": "eye"
+  },
+  {
+   "pair": "23-24",
+   "text": "Fish.",
+   "answer": "EELS",
+   "page": "puzzle",
+   "ocr": [
+    "o125"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    499,
+    1313,
+    622,
+    1339
+   ]
+  },
+  {
+   "pair": "25-26",
+   "text": "To venture.",
+   "answer": "DARE",
+   "page": "puzzle",
+   "ocr": [
+    "o127"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    501,
+    1332,
+    687,
+    1358
+   ]
+  },
+  {
+   "pair": "27-28",
+   "text": "Ecstasy.",
+   "answer": "RAPTURE",
+   "page": "puzzle",
+   "ocr": [
+    "o75"
+   ],
+   "box": [
+    815,
+    969,
+    948,
+    996
+   ],
+   "how": "eye"
+  },
+  {
+   "pair": "29-30",
+   "text": "A kingdom.",
+   "answer": "REALM",
+   "page": "puzzle",
+   "ocr": [
+    "o80"
+   ],
+   "box": [
+    815,
+    989,
+    1006,
+    1016
+   ],
+   "how": "eye"
+  },
+  {
+   "pair": "31-32",
+   "printed": "31-33",
+   "text": "Not wet.",
+   "answer": "DRY",
+   "page": "puzzle",
+   "ocr": [
+    "o83"
+   ],
+   "box": [
+    815,
+    1010,
+    958,
+    1036
+   ],
+   "how": "eye"
+  },
+  {
+   "pair": "33-34",
+   "text": "Tardy.",
+   "answer": "LATE",
+   "page": "puzzle",
+   "ocr": [
+    "o89"
+   ],
+   "box": [
+    815,
+    1031,
+    932,
+    1056
+   ],
+   "how": "eye"
+  },
+  {
+   "pair": "35-36",
+   "text": "An open face pie.",
+   "answer": "TART",
+   "page": "puzzle",
+   "ocr": [
+    "o91"
+   ],
+   "box": [
+    815,
+    1050,
+    1068,
+    1075
+   ],
+   "how": "eye"
+  },
+  {
+   "pair": "1-8",
+   "printed": "1-6",
+   "text": "To possess.",
+   "answer": "HAVE",
+   "page": "puzzle",
+   "ocr": [
+    "o95"
+   ],
+   "box": [
+    824,
+    1070,
+    990,
+    1096
+   ],
+   "how": "eye"
+  },
+  {
+   "pair": "3-12",
+   "text": "Part of a shoe.",
+   "answer": "WELT",
+   "page": "puzzle",
+   "ocr": [
+    "o97"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    828,
+    1090,
+    1034,
+    1115
+   ]
+  },
+  {
+   "pair": "5-27",
+   "text": "A military man.",
+   "answer": "SOLDIER",
+   "page": "puzzle",
+   "ocr": [
+    "o102"
+   ],
+   "box": [
+    822,
+    1110,
+    1022,
+    1136
+   ],
+   "how": "eye"
+  },
+  {
+   "pair": "11-19",
+   "text": "A fur neckpiece.",
+   "answer": "BOA",
+   "page": "puzzle",
+   "ocr": [
+    "o104"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    819,
+    1132,
+    1048,
+    1155
+   ]
+  },
+  {
+   "pair": "2-9",
+   "text": "Nothing but.",
+   "answer": "MERE",
+   "page": "puzzle",
+   "ocr": [
+    "o107"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    826,
+    1149,
+    1003,
+    1175
+   ]
+  },
+  {
+   "pair": "4-13",
+   "text": "To rage.",
+   "answer": "RAVE",
+   "page": "puzzle",
+   "ocr": [
+    "o109"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    823,
+    1166,
+    975,
+    1201
+   ]
+  },
+  {
+   "pair": "6-28",
+   "text": "A discourse.",
+   "answer": "LECTURE",
+   "page": "puzzle",
+   "ocr": [
+    "o111",
+    "o112"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    824,
+    1191,
+    1004,
+    1216
+   ]
+  },
+  {
+   "pair": "10-26",
+   "text": "A river in Germany.",
+   "answer": "RHINE",
+   "page": "puzzle",
+   "ocr": [
+    "o113",
+    "o114"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    816,
+    1210,
+    1085,
+    1236
+   ]
+  },
+  {
+   "pair": "14-22",
+   "printed": "14-23",
+   "text": "Not young.",
+   "answer": "OLD",
+   "page": "puzzle",
+   "ocr": [
+    "o117",
+    "o118"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    816,
+    1230,
+    996,
+    1256
+   ]
+  },
+  {
+   "pair": "20-29",
+   "text": "Wing Shaped.",
+   "answer": "ALAR",
+   "page": "puzzle",
+   "ocr": [
+    "o119"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    814,
+    1250,
+    1024,
+    1276
+   ]
+  },
+  {
+   "pair": "24-31",
+   "text": "Moved quickly.",
+   "answer": "SPED",
+   "page": "puzzle",
+   "ocr": [
+    "o122"
+   ],
+   "box": [
+    812,
+    1272,
+    1036,
+    1297
+   ],
+   "how": "eye"
+  },
+  {
+   "pair": "25-32",
+   "text": "Regularly.",
+   "answer": "DULY",
+   "page": "puzzle",
+   "ocr": [
+    "o123"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    814,
+    1288,
+    986,
+    1317
+   ]
+  },
+  {
+   "pair": "7-23",
+   "text": "Place of abode.",
+   "answer": "HOUSE",
+   "page": "puzzle",
+   "ocr": [
+    "o126"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    821,
+    1313,
+    1041,
+    1339
+   ]
+  },
+  {
+   "pair": "21-30",
+   "text": "A tract of cultivated land.",
+   "answer": "FARM",
+   "page": "puzzle",
+   "ocr": [
+    "o128",
+    "o129"
+   ],
+   "box": [
+    814,
+    1332,
+    1114,
+    1378
+   ],
+   "how": "eye"
+  }
+ ]
+}

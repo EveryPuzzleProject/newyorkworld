@@ -1,0 +1,690 @@
+{
+ "xdid": "nyw1914-07-05",
+ "no": 26,
+ "pages": {
+  "puzzle": "Milwaukee_Sentinel_1914_07_05_81.png",
+  "solution": "Milwaukee_Sentinel_1914_07_12_80.png"
+ },
+ "grid": {
+  "page": "puzzle",
+  "corners": [
+   [
+    698,
+    170
+   ],
+   [
+    1452,
+    170
+   ],
+   [
+    1448,
+    915
+   ],
+   [
+    696,
+    914
+   ]
+  ],
+  "rows": 13,
+  "cols": 13
+ },
+ "key": {
+  "page": "solution",
+  "corners": [
+   [
+    769,
+    533
+   ],
+   [
+    1126,
+    535
+   ],
+   [
+    1122,
+    887
+   ],
+   [
+    767,
+    884
+   ]
+  ],
+  "rows": 13,
+  "cols": 13
+ },
+ "lines": [
+  {
+   "label": "heading",
+   "text": "FUN'S",
+   "page": "puzzle",
+   "ocr": [
+    "o2"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    689,
+    140,
+    870,
+    280
+   ]
+  },
+  {
+   "label": "heading",
+   "text": "CROSS WORD PUZZLE",
+   "page": "puzzle",
+   "ocr": [
+    "o4",
+    "o7",
+    "o10"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    1175,
+    150,
+    1470,
+    350
+   ]
+  },
+  {
+   "label": "number",
+   "text": "No 26",
+   "page": "puzzle",
+   "ocr": [
+    "o22"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    739,
+    743,
+    902,
+    814
+   ]
+  },
+  {
+   "label": "heading",
+   "text": "Can You Solve It?",
+   "page": "puzzle",
+   "ocr": [
+    "o23",
+    "o25"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    1250,
+    756,
+    1465,
+    866
+   ]
+  },
+  {
+   "label": "intro",
+   "text": "Today's cross-word puzzle, the twenty-sixth in FUN'S series, is contributed by Charles L. Rives of Spring Valley, N. Y. Mr. Rives writes that he has found it easier to solve one of these puzzles than to originate one and he wonders how many of FUN'S readers will succeed in solving his puzzle. Fill in the small squares with words coresponding to the list of clews and definitions given below, allowing one letter to each square. The solution to this puzzle will be given in next week's FUN.",
+   "page": "puzzle",
+   "ocr": [
+    "o28",
+    "o30",
+    "o31",
+    "o32",
+    "o34",
+    "o35",
+    "o37",
+    "o38"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    670,
+    912,
+    1492,
+    1068
+   ]
+  },
+  {
+   "label": "solution heading",
+   "text": "SOLUTION TO X-WORD PUZZLE No 26",
+   "page": "solution",
+   "ocr": [
+    "o64",
+    "o74",
+    "o75",
+    "o80"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    905,
+    670,
+    995,
+    765
+   ]
+  }
+ ],
+ "clues": [
+  {
+   "pair": "2-3",
+   "text": "A hobby.",
+   "answer": "FAD",
+   "page": "puzzle",
+   "ocr": [
+    "o41"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    675,
+    1062,
+    860,
+    1089
+   ]
+  },
+  {
+   "pair": "4-5",
+   "text": "To commence.",
+   "answer": "BEGIN",
+   "page": "puzzle",
+   "ocr": [
+    "o43"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    675,
+    1086,
+    900,
+    1113
+   ]
+  },
+  {
+   "pair": "6-7",
+   "text": "Fruit.",
+   "answer": "BANANAS",
+   "page": "puzzle",
+   "ocr": [
+    "o45"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    675,
+    1112,
+    820,
+    1138
+   ]
+  },
+  {
+   "pair": "8-9",
+   "text": "What debts should be.",
+   "answer": "PAID",
+   "page": "puzzle",
+   "ocr": [
+    "o47"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    675,
+    1134,
+    982,
+    1160
+   ]
+  },
+  {
+   "pair": "10-11",
+   "text": "A weight measure.",
+   "answer": "TROY",
+   "page": "puzzle",
+   "ocr": [
+    "o49"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    675,
+    1159,
+    950,
+    1186
+   ]
+  },
+  {
+   "pair": "12-13",
+   "text": "1913 A. D.",
+   "answer": "PAST",
+   "page": "puzzle",
+   "ocr": [
+    "o51"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    677,
+    1184,
+    863,
+    1211
+   ]
+  },
+  {
+   "pair": "14-15",
+   "text": "Female deer.",
+   "answer": "DOES",
+   "page": "puzzle",
+   "ocr": [
+    "o53"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    676,
+    1209,
+    884,
+    1236
+   ]
+  },
+  {
+   "pair": "16-17",
+   "text": "Baseball enthusiasts.",
+   "answer": "FANS",
+   "page": "puzzle",
+   "ocr": [
+    "o56"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    675,
+    1236,
+    966,
+    1262
+   ]
+  },
+  {
+   "pair": "21-22",
+   "text": "A tumultuous disturbance.",
+   "answer": "RIOT",
+   "page": "puzzle",
+   "ocr": [
+    "o59"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    675,
+    1258,
+    1022,
+    1287
+   ]
+  },
+  {
+   "pair": "18-19",
+   "text": "A small spike.",
+   "answer": "NAIL",
+   "page": "puzzle",
+   "ocr": [
+    "o61"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    676,
+    1282,
+    897,
+    1306
+   ]
+  },
+  {
+   "pair": "23-24",
+   "text": "Saucy.",
+   "answer": "PERT",
+   "page": "puzzle",
+   "ocr": [
+    "o40"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    1079,
+    1056,
+    1230,
+    1089
+   ]
+  },
+  {
+   "pair": "25-26",
+   "text": "A close fitting cap.",
+   "answer": "COIF",
+   "page": "puzzle",
+   "ocr": [
+    "o42"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    1081,
+    1078,
+    1357,
+    1110
+   ]
+  },
+  {
+   "pair": "27-28",
+   "text": "A girl's name.",
+   "answer": "BESS",
+   "page": "puzzle",
+   "ocr": [
+    "o44"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    1080,
+    1100,
+    1314,
+    1130
+   ]
+  },
+  {
+   "pair": "29-30",
+   "text": "Closest.",
+   "answer": "NEAREST",
+   "page": "puzzle",
+   "ocr": [
+    "o46"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    1084,
+    1124,
+    1243,
+    1148
+   ]
+  },
+  {
+   "pair": "31-32",
+   "text": "To move suddenly.",
+   "answer": "START",
+   "page": "puzzle",
+   "ocr": [
+    "o48"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    1084,
+    1144,
+    1351,
+    1170
+   ]
+  },
+  {
+   "pair": "33-34",
+   "text": "Best when fresh laid.",
+   "answer": "EGG",
+   "page": "puzzle",
+   "ocr": [
+    "o50"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    1083,
+    1164,
+    1379,
+    1188
+   ]
+  },
+  {
+   "pair": "1-20",
+   "text": "An ancient Scandinavian legend.",
+   "answer": "SAGA",
+   "page": "puzzle",
+   "ocr": [
+    "o52",
+    "o54"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    1083,
+    1186,
+    1484,
+    1232
+   ]
+  },
+  {
+   "pair": "2-9",
+   "text": "To ward off.",
+   "answer": "FEND",
+   "page": "puzzle",
+   "ocr": [
+    "o55"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    1089,
+    1224,
+    1288,
+    1254
+   ]
+  },
+  {
+   "pair": "3-10",
+   "text": "The mark made by a blow.",
+   "answer": "DINT",
+   "page": "puzzle",
+   "ocr": [
+    "o58"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    1092,
+    1247,
+    1433,
+    1273
+   ]
+  },
+  {
+   "pair": "4-13",
+   "text": "Used by fishermen.",
+   "answer": "BAIT",
+   "page": "puzzle",
+   "ocr": [
+    "o60"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    1092,
+    1266,
+    1355,
+    1296
+   ]
+  },
+  {
+   "pair": "5-14",
+   "text": "A plant.",
+   "answer": "NARD",
+   "page": "puzzle",
+   "ocr": [
+    "o62"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    1094,
+    1290,
+    1252,
+    1314
+   ]
+  },
+  {
+   "pair": "6-29",
+   "text": "A musical instrument.",
+   "answer": "BASSOON",
+   "page": "puzzle",
+   "ocr": [
+    "o64"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    1094,
+    1309,
+    1382,
+    1335
+   ]
+  },
+  {
+   "pair": "7-30",
+   "text": "Earliest.",
+   "answer": "SOONEST",
+   "page": "puzzle",
+   "ocr": [
+    "o65"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    1095,
+    1332,
+    1249,
+    1355
+   ]
+  },
+  {
+   "pair": "8-25",
+   "text": "A sudden fright.",
+   "answer": "PANIC",
+   "page": "puzzle",
+   "ocr": [
+    "o66"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    1093,
+    1351,
+    1332,
+    1378
+   ]
+  },
+  {
+   "pair": "11-28",
+   "text": "More than one year.",
+   "answer": "YEARS",
+   "page": "puzzle",
+   "ocr": [
+    "o67"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    1084,
+    1371,
+    1370,
+    1399
+   ]
+  },
+  {
+   "pair": "12-21",
+   "text": "State of equality.",
+   "answer": "PAR",
+   "page": "puzzle",
+   "ocr": [
+    "o68"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    1081,
+    1392,
+    1346,
+    1420
+   ]
+  },
+  {
+   "pair": "15-24",
+   "text": "To repose on a seat.",
+   "answer": "SIT",
+   "page": "puzzle",
+   "ocr": [
+    "o69"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    1082,
+    1413,
+    1371,
+    1440
+   ]
+  },
+  {
+   "pair": "22-31",
+   "text": "Moral obligations.",
+   "answer": "TIES",
+   "page": "puzzle",
+   "ocr": [
+    "o70"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    1082,
+    1432,
+    1348,
+    1460
+   ]
+  },
+  {
+   "pair": "23-32",
+   "text": "A plague.",
+   "answer": "PEST",
+   "page": "puzzle",
+   "ocr": [
+    "o72"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    1081,
+    1452,
+    1261,
+    1484
+   ]
+  },
+  {
+   "pair": "26-33",
+   "text": "Destiny.",
+   "answer": "FATE",
+   "page": "puzzle",
+   "ocr": [
+    "o73"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    1083,
+    1474,
+    1248,
+    1503
+   ]
+  },
+  {
+   "pair": "27-34",
+   "text": "Destiny.",
+   "answer": "BERG",
+   "page": "puzzle",
+   "ocr": [
+    "o75"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    1083,
+    1493,
+    1246,
+    1523
+   ]
+  },
+  {
+   "pair": "27-34",
+   "text": "A mountain.",
+   "answer": "BERG",
+   "page": "puzzle",
+   "ocr": [
+    "o77"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    1084,
+    1516,
+    1290,
+    1542
+   ]
+  },
+  {
+   "pair": "35-36",
+   "text": "Violent anger.",
+   "answer": "RAGE",
+   "page": "puzzle",
+   "ocr": [
+    "o79"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    1084,
+    1536,
+    1306,
+    1563
+   ]
+  }
+ ]
+}
