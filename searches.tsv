@@ -1,4 +1,6 @@
 paper	date	batch	result	note
+milwaukee-sentinel	1913-12-21	19	queued	Nos. 1 and 2: the Sentinel carried FUN by 1913-12-28 (its 01-04 box solves No. 2)
+milwaukee-sentinel	1913-12-28	19	queued	Nos. 1 and 2: the Sentinel carried FUN by 1913-12-28 (its 01-04 box solves No. 2)
 minneapolis-journal	1914-02-15	1	found	batch 1: spot check, one Sunday every two months, plus the Sundays around the Globe's 1917-02-25 puzzle
 minneapolis-journal	1914-02-22	2	found	batch 2: fill 1914 sequentially from 02-22; pin where the count falls behind between No. 16 (04-05) and No. 30 (08-02); find where the numbering stops between 08-02 and 12-06
 minneapolis-journal	1914-03-01	2	found	batch 2: fill 1914 sequentially from 02-22; pin where the count falls behind between No. 16 (04-05) and No. 30 (08-02); find where the numbering stops between 08-02 and 12-06
@@ -51,6 +53,7 @@ minneapolis-journal	1915-01-17	4	found	batch 4: 1915 sequential fill
 minneapolis-journal	1915-01-24	4	found	batch 4: 1915 sequential fill
 minneapolis-journal	1915-01-31	4	found	batch 4: 1915 sequential fill
 minneapolis-journal	1915-02-07	1	found	batch 1: spot check, one Sunday every two months, plus the Sundays around the Globe's 1917-02-25 puzzle
+milwaukee-sentinel	1915-02-14	18	queued	1915 Sundays with no page in any paper: 02-14 (the valentine puzzle) and 05-30 (closes the break after 05-23)
 minneapolis-journal	1915-02-14	4	not-carried	Alex DeJarnatt went page by page through the issue, 2026-10-31: no puzzle
 minneapolis-journal	1915-02-21	4	not-carried	Alex DeJarnatt browsed the issue, 2026-10-31: no puzzle, at least in the scans Newspapers.com holds
 minneapolis-journal	1915-02-28	4	not-carried	Alex DeJarnatt browsed the issue, 2026-10-31: no puzzle, at least in the scans Newspapers.com holds
@@ -66,6 +69,7 @@ minneapolis-journal	1915-05-02	4	found	batch 4: 1915 sequential fill
 minneapolis-journal	1915-05-09	4	found	batch 4: 1915 sequential fill
 minneapolis-journal	1915-05-16	4	found	batch 4: 1915 sequential fill
 minneapolis-journal	1915-05-23	4	found	batch 4: 1915 sequential fill
+milwaukee-sentinel	1915-05-30	18	queued	1915 Sundays with no page in any paper: 02-14 (the valentine puzzle) and 05-30 (closes the break after 05-23)
 minneapolis-journal	1915-05-30	4	not-carried	Alex DeJarnatt went page by page through the issue, 2026-10-31: no puzzle
 minneapolis-journal	1915-06-06	1	found	batch 1: spot check, one Sunday every two months, plus the Sundays around the Globe's 1917-02-25 puzzle
 minneapolis-journal	1915-06-13	4	found	Alex browsed the issue (2026-10-30): only the answer key to the previous puzzle, no new puzzle that week
@@ -82,15 +86,25 @@ minneapolis-journal	1915-08-22	4	not-carried	the Journal ran a puzzle corner of 
 minneapolis-journal	1915-08-29	5	not-carried	the Journal ran a puzzle corner of its own, not FUN's crossword (Alex DeJarnatt, Newspapers.com, 2026-10-29)
 minneapolis-journal	1915-09-05	5	not-carried	the Journal ran a puzzle corner of its own, not FUN's crossword (Alex DeJarnatt, Newspapers.com, 2026-10-29)
 minneapolis-journal	1915-09-12	5	not-carried	the Journal ran a puzzle corner of its own, not FUN's crossword (Alex DeJarnatt, Newspapers.com, 2026-10-29)
+milwaukee-sentinel	1915-09-19		no-hit	Alex DeJarnatt, 2026-11-16 (GenealogyBank): the Sentinel's last crossword item is the solution-only page of 1915-09-12; no puzzle after it, and none in 1916. The run ends there.
 minneapolis-journal	1915-09-19	5	not-carried	the Journal ran a puzzle corner of its own, not FUN's crossword (Alex DeJarnatt, Newspapers.com, 2026-10-29)
+milwaukee-sentinel	1915-09-26		no-hit	Alex DeJarnatt, 2026-11-16 (GenealogyBank): the Sentinel's last crossword item is the solution-only page of 1915-09-12; no puzzle after it, and none in 1916. The run ends there.
 minneapolis-journal	1915-09-26	5	not-carried	the Journal ran a puzzle corner of its own, not FUN's crossword (Alex DeJarnatt, Newspapers.com, 2026-10-29)
+milwaukee-sentinel	1915-10-03		no-hit	Alex DeJarnatt, 2026-11-16 (GenealogyBank): the Sentinel's last crossword item is the solution-only page of 1915-09-12; no puzzle after it, and none in 1916. The run ends there.
 minneapolis-journal	1915-10-03	1	no-hit	text search for cross-word on this date found no Journal page (Alex DeJarnatt, 2026-10-27); search again more closely, e.g. browse the Sunday feature section
+milwaukee-sentinel	1915-10-10		no-hit	Alex DeJarnatt, 2026-11-16 (GenealogyBank): the Sentinel's last crossword item is the solution-only page of 1915-09-12; no puzzle after it, and none in 1916. The run ends there.
 minneapolis-journal	1915-10-10	5	not-carried	the Journal ran a puzzle corner of its own, not FUN's crossword (Alex DeJarnatt, Newspapers.com, 2026-10-29)
+milwaukee-sentinel	1915-10-17		no-hit	Alex DeJarnatt, 2026-11-16 (GenealogyBank): the Sentinel's last crossword item is the solution-only page of 1915-09-12; no puzzle after it, and none in 1916. The run ends there.
 minneapolis-journal	1915-10-17	5	not-carried	the Journal ran a puzzle corner of its own, not FUN's crossword (Alex DeJarnatt, Newspapers.com, 2026-10-29)
+milwaukee-sentinel	1915-10-24		no-hit	Alex DeJarnatt, 2026-11-16 (GenealogyBank): the Sentinel's last crossword item is the solution-only page of 1915-09-12; no puzzle after it, and none in 1916. The run ends there.
 minneapolis-journal	1915-10-24	5	not-carried	the Journal ran a puzzle corner of its own, not FUN's crossword (Alex DeJarnatt, Newspapers.com, 2026-10-29)
+milwaukee-sentinel	1915-10-31		no-hit	Alex DeJarnatt, 2026-11-16 (GenealogyBank): the Sentinel's last crossword item is the solution-only page of 1915-09-12; no puzzle after it, and none in 1916. The run ends there.
 minneapolis-journal	1915-10-31	5	not-carried	the Journal ran a puzzle corner of its own, not FUN's crossword (Alex DeJarnatt, Newspapers.com, 2026-10-29)
+milwaukee-sentinel	1915-11-07		no-hit	Alex DeJarnatt, 2026-11-16 (GenealogyBank): the Sentinel's last crossword item is the solution-only page of 1915-09-12; no puzzle after it, and none in 1916. The run ends there.
 minneapolis-journal	1915-11-07	5	not-carried	the Journal ran a puzzle corner of its own, not FUN's crossword (Alex DeJarnatt, Newspapers.com, 2026-10-29)
+milwaukee-sentinel	1915-11-14		no-hit	Alex DeJarnatt, 2026-11-16 (GenealogyBank): the Sentinel's last crossword item is the solution-only page of 1915-09-12; no puzzle after it, and none in 1916. The run ends there.
 minneapolis-journal	1915-11-14	5	not-carried	the Journal ran a puzzle corner of its own, not FUN's crossword (Alex DeJarnatt, Newspapers.com, 2026-10-29)
+milwaukee-sentinel	1915-11-21		no-hit	Alex DeJarnatt, 2026-11-16 (GenealogyBank): the Sentinel's last crossword item is the solution-only page of 1915-09-12; no puzzle after it, and none in 1916. The run ends there.
 minneapolis-journal	1915-11-21	5	found	batch 5: 1915-16 sequential fill
 minneapolis-journal	1915-11-28	5	found	batch 5: 1915-16 sequential fill
 minneapolis-journal	1915-12-05	1	found	text search for cross-word on this date found no Journal page (Alex DeJarnatt, 2026-10-27); search again more closely, e.g. browse the Sunday feature section
