@@ -51,6 +51,9 @@ In order of value (the status page's "Missing puzzles" list now names these too)
 1. **1915-09-19 to 11-21** (ten Sundays): joins 1915 to 1916-17.
 2. **1915-02-14** (the valentine puzzle) and the page after 02-21's Pentacle (its solution, on
    02-28): closes N / 02-21 / 02-28.
+   The valentine puzzle is worth finding for itself: its solution (Sentinel 02-21) is a heart,
+   probably the first heart-shaped crossword and the first valentine one, a tradition that
+   lasts to today. February 1914's puzzles (Nos. 8 and 9) are plain diamonds (Alex, 2026-11-17).
 3. **1915-05-30** (and 05-09, 05-16, 05-23, 06-06): closes 05-23 / 06-06.
 4. **1915-04-04 / 04-11** (the Journal holds only a clip of 04-04).
 5. **1915-01-17 and 01-31**: whether the World ran a puzzle on 01-17 (the Journal printed No. 54
