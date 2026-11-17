@@ -1,0 +1,812 @@
+{
+ "xdid": "nyw1914-02-22",
+ "no": 10,
+ "pages": {
+  "puzzle": "Milwaukee_Sentinel_1914_02_22_80.png",
+  "solution": "Milwaukee_Sentinel_1914_03_01_85.png"
+ },
+ "grid": {
+  "page": "puzzle",
+  "corners": [
+   [
+    478,
+    178
+   ],
+   [
+    1532,
+    159
+   ],
+   [
+    1551,
+    1200
+   ],
+   [
+    497,
+    1219
+   ]
+  ],
+  "rows": 15,
+  "cols": 15
+ },
+ "key": {
+  "page": "solution",
+  "corners": [
+   [
+    726,
+    904
+   ],
+   [
+    1088,
+    897
+   ],
+   [
+    1094,
+    1252
+   ],
+   [
+    732,
+    1259
+   ]
+  ],
+  "rows": 15,
+  "cols": 15
+ },
+ "lines": [
+  {
+   "label": "heading",
+   "text": "A GEORGE WASHINGTON CROSS-WORD PUZZLE.",
+   "page": "puzzle",
+   "ocr": [
+    "o1"
+   ],
+   "box": [
+    486,
+    86,
+    1252,
+    122
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "label": "intro",
+   "text": "Today being the anniversary of George Washington's birthday, what could be more appropriate to the occasio: than a real, patriotic Georga Washington puzzle. So here is one, the tenth in FUN'S series of cross-word puzzles",
+   "page": "puzzle",
+   "ocr": [
+    "o2",
+    "o4",
+    "o5",
+    "o6",
+    "o7",
+    "o8",
+    "o9",
+    "o10"
+   ],
+   "box": [
+    133,
+    118,
+    462,
+    314
+   ]
+  },
+  {
+   "label": "instructions",
+   "text": "Fill in the small squares in the diamond with words corresponding to the clews and definitions given herewith, allowing one letter of the word to each square.",
+   "page": "puzzle",
+   "ocr": [
+    "o11",
+    "o13",
+    "o14",
+    "o15",
+    "o16"
+   ],
+   "box": [
+    132,
+    304,
+    459,
+    433
+   ]
+  },
+  {
+   "label": "intro",
+   "text": "On another page you will find the solution to last week's cross-word puzzle showing just how the letters are placed to form words reading up and down and across.",
+   "page": "puzzle",
+   "ocr": [
+    "o17",
+    "o19",
+    "o20",
+    "o21",
+    "o24"
+   ],
+   "box": [
+    127,
+    427,
+    457,
+    548
+   ]
+  },
+  {
+   "label": "solution caption",
+   "text": "Herewith is shown the solution to the George Washington cross-word puzzle. An easier and less complicated cross-word puzzle is given today. See if you can solve it. The answers to today's puzzles will be given in next week's FUN.",
+   "page": "solution",
+   "box": [
+    468,
+    1060,
+    722,
+    1272
+   ],
+   "how": "eye"
+  },
+  {
+   "label": "art credit",
+   "text": "CALLAHAN",
+   "page": "puzzle",
+   "box": [
+    1440,
+    1185,
+    1535,
+    1250
+   ]
+  }
+ ],
+ "clues": [
+  {
+   "pair": "2-3",
+   "text": "What George Washington couldn't tell.",
+   "answer": "LIE",
+   "page": "puzzle",
+   "ocr": [
+    "o25",
+    "o26"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    148,
+    538,
+    455,
+    589
+   ]
+  },
+  {
+   "pair": "4-5",
+   "text": "The Feast of the Passover.",
+   "answer": "PASCH",
+   "page": "puzzle",
+   "ocr": [
+    "o28"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    149,
+    589,
+    452,
+    614
+   ]
+  },
+  {
+   "pair": "6-7",
+   "text": "What George Washington chopped down the cherry tree with.",
+   "answer": "HATCHET",
+   "page": "puzzle",
+   "ocr": [
+    "o29",
+    "o31",
+    "o33"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    148,
+    611,
+    452,
+    688
+   ]
+  },
+  {
+   "pair": "8-9",
+   "text": "A wind storm.",
+   "answer": "GALE",
+   "page": "puzzle",
+   "ocr": [
+    "o34"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    147,
+    688,
+    330,
+    713
+   ]
+  },
+  {
+   "pair": "10-11",
+   "text": "Used in propelling George Washington's boats across the Delaware.",
+   "answer": "OARS",
+   "page": "puzzle",
+   "ocr": [
+    "o35",
+    "o39",
+    "o40"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    124,
+    708,
+    452,
+    784
+   ]
+  },
+  {
+   "pair": "12-13",
+   "text": "To roll a flag around a staff,",
+   "answer": "FURL",
+   "page": "puzzle",
+   "ocr": [
+    "o41",
+    "o43"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    123,
+    780,
+    451,
+    836
+   ]
+  },
+  {
+   "pair": "14-15",
+   "text": "Carried away with lofty emotion.",
+   "answer": "RAPT",
+   "page": "puzzle",
+   "ocr": [
+    "o44",
+    "o47"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    122,
+    828,
+    449,
+    883
+   ]
+  },
+  {
+   "pair": "16-17",
+   "text": "Fermented grape juice.",
+   "answer": "WINE",
+   "page": "puzzle",
+   "ocr": [
+    "o48"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    122,
+    879,
+    405,
+    911
+   ]
+  },
+  {
+   "pair": "18-19",
+   "text": "To shave off.",
+   "answer": "PARE",
+   "page": "puzzle",
+   "ocr": [
+    "o49"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    124,
+    904,
+    313,
+    927
+   ]
+  },
+  {
+   "pair": "20-21",
+   "text": "Lacerated.",
+   "answer": "TORN",
+   "page": "puzzle",
+   "ocr": [
+    "o51"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    124,
+    923,
+    283,
+    946
+   ]
+  },
+  {
+   "pair": "22-23",
+   "text": "Eaten by squirrels.",
+   "answer": "NUTS",
+   "page": "puzzle",
+   "ocr": [
+    "o54"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    122,
+    941,
+    364,
+    967
+   ]
+  },
+  {
+   "pair": "24-25",
+   "text": "A black bird.",
+   "answer": "OSEL",
+   "page": "puzzle",
+   "ocr": [
+    "o55"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    122,
+    961,
+    317,
+    987
+   ]
+  },
+  {
+   "pair": "26-27",
+   "text": "A girl's name.",
+   "answer": "RITA",
+   "page": "puzzle",
+   "ocr": [
+    "o57"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    121,
+    981,
+    323,
+    1007
+   ]
+  },
+  {
+   "pair": "28-29",
+   "text": "What George Washington chopped down.",
+   "answer": "TREE",
+   "page": "puzzle",
+   "ocr": [
+    "o58",
+    "o59"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    121,
+    1001,
+    446,
+    1048
+   ]
+  },
+  {
+   "pair": "30-31",
+   "text": "A desire.",
+   "answer": "WISH",
+   "page": "puzzle",
+   "ocr": [
+    "o60"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    120,
+    1038,
+    269,
+    1066
+   ]
+  },
+  {
+   "pair": "32-33",
+   "text": "To rescue.",
+   "answer": "SAVE",
+   "page": "puzzle",
+   "ocr": [
+    "o63"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    121,
+    1060,
+    279,
+    1084
+   ]
+  },
+  {
+   "pair": "34-35",
+   "text": "Reckless.",
+   "answer": "RASH",
+   "page": "puzzle",
+   "ocr": [
+    "o64"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    120,
+    1079,
+    266,
+    1102
+   ]
+  },
+  {
+   "pair": "36-37",
+   "text": "Where George Washington was made President of the United States.",
+   "answer": "NEWYORK",
+   "page": "puzzle",
+   "ocr": [
+    "o65",
+    "o66",
+    "o67"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    118,
+    1096,
+    445,
+    1162
+   ]
+  },
+  {
+   "pair": "38-39",
+   "text": "Wants.",
+   "answer": "NEEDS",
+   "page": "puzzle",
+   "ocr": [
+    "o68"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    118,
+    1156,
+    246,
+    1179
+   ]
+  },
+  {
+   "pair": "40-41",
+   "text": "Scotch for a roe.",
+   "answer": "RAE",
+   "page": "puzzle",
+   "ocr": [
+    "o69"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    119,
+    1176,
+    349,
+    1200
+   ]
+  },
+  {
+   "pair": "1-42",
+   "text": "A flat circular plate.",
+   "answer": "DISC",
+   "page": "puzzle",
+   "ocr": [
+    "o70"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    125,
+    1193,
+    382,
+    1223
+   ]
+  },
+  {
+   "pair": "2-9",
+   "text": "Not early.",
+   "answer": "LATE",
+   "page": "puzzle",
+   "ocr": [
+    "o73"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    135,
+    1212,
+    279,
+    1241
+   ]
+  },
+  {
+   "pair": "4-13",
+   "text": "A coronation robe.",
+   "answer": "PALL",
+   "page": "puzzle",
+   "ocr": [
+    "o74"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    126,
+    1234,
+    354,
+    1261
+   ]
+  },
+  {
+   "pair": "6-17",
+   "text": "A rodent.",
+   "answer": "HARE",
+   "page": "puzzle",
+   "ocr": [
+    "o75"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    127,
+    1254,
+    275,
+    1279
+   ]
+  },
+  {
+   "pair": "8-32",
+   "text": "Soldiers who fought under George Washington.",
+   "answer": "GUNNERS",
+   "page": "puzzle",
+   "ocr": [
+    "o76",
+    "o77"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    126,
+    1271,
+    442,
+    1321
+   ]
+  },
+  {
+   "pair": "12-28",
+   "text": "George Washington's position in war, peace and the hearts of his countrymen.",
+   "answer": "FIRST",
+   "page": "puzzle",
+   "ocr": [
+    "o78",
+    "o80",
+    "o82",
+    "o86"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    115,
+    1309,
+    441,
+    1395
+   ]
+  },
+  {
+   "pair": "16-24",
+   "text": "To make love to.",
+   "answer": "WOO",
+   "page": "puzzle",
+   "ocr": [
+    "o89"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    113,
+    1388,
+    341,
+    1417
+   ]
+  },
+  {
+   "pair": "25-36",
+   "text": "Free from fat.",
+   "answer": "LEAN",
+   "page": "puzzle",
+   "ocr": [
+    "o90"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    113,
+    1408,
+    317,
+    1435
+   ]
+  },
+  {
+   "pair": "29-38",
+   "text": "Smooth.",
+   "answer": "EVEN",
+   "page": "puzzle",
+   "ocr": [
+    "o93"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    113,
+    1428,
+    252,
+    1455
+   ]
+  },
+  {
+   "pair": "33-40",
+   "text": "A water pitcher.",
+   "answer": "EWER",
+   "page": "puzzle",
+   "ocr": [
+    "o96"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    112,
+    1447,
+    334,
+    1477
+   ]
+  },
+  {
+   "pair": "43-44",
+   "text": "1776.",
+   "answer": "YEAR",
+   "page": "puzzle",
+   "ocr": [
+    "o99"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    114,
+    1469,
+    223,
+    1492
+   ]
+  },
+  {
+   "pair": "3-10",
+   "text": "A reflected sound.",
+   "answer": "ECHO",
+   "page": "puzzle",
+   "ocr": [
+    "o100"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    120,
+    1486,
+    347,
+    1516
+   ]
+  },
+  {
+   "pair": "5-14",
+   "text": "To listen to.",
+   "answer": "HEAR",
+   "page": "puzzle",
+   "ocr": [
+    "o102"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    120,
+    1505,
+    293,
+    1534
+   ]
+  },
+  {
+   "pair": "7-18",
+   "text": "What Washington caught Cornwallis in.",
+   "answer": "TRAP",
+   "page": "puzzle",
+   "ocr": [
+    "o104",
+    "o105"
+   ],
+   "box": [
+    118,
+    1525,
+    440,
+    1575
+   ],
+   "how": "eye"
+  },
+  {
+   "pair": "11-35",
+   "text": "Belonging to Spain.",
+   "answer": "SPANISH",
+   "page": "puzzle",
+   "ocr": [
+    "o107"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    110,
+    1564,
+    360,
+    1594
+   ]
+  },
+  {
+   "pair": "15-31",
+   "text": "What Washington always told.",
+   "answer": "TRUTH",
+   "page": "puzzle",
+   "ocr": [
+    "o109",
+    "o111"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    108,
+    1582,
+    437,
+    1631
+   ]
+  },
+  {
+   "pair": "19-27",
+   "text": "The seventh letter and third vowel of the Greek alphabet.",
+   "answer": "ETA",
+   "page": "puzzle",
+   "ocr": [
+    "o113",
+    "o114",
+    "o117"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    108,
+    1621,
+    435,
+    1691
+   ]
+  },
+  {
+   "pair": "26-37",
+   "text": "Hazard.",
+   "answer": "RISK",
+   "page": "puzzle",
+   "ocr": [
+    "o118"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    108,
+    1679,
+    248,
+    1710
+   ]
+  },
+  {
+   "pair": "30-39",
+   "text": "What Washington fought in.",
+   "answer": "WARS",
+   "page": "puzzle",
+   "ocr": [
+    "o120",
+    "o122"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    106,
+    1698,
+    434,
+    1747
+   ]
+  },
+  {
+   "pair": "34-41",
+   "text": "What Paul Revere did.",
+   "answer": "RODE",
+   "page": "puzzle",
+   "ocr": [
+    "o123"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    106,
+    1739,
+    385,
+    1771
+   ]
+  }
+ ]
+}

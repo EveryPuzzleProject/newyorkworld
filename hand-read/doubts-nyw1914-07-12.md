@@ -1,0 +1,13 @@
+# Doubts and oddities: No. 27 (World 1914-07-12), nyw1914-07-12.xd
+
+1. **"25-61—A fruit." is a misprint for 25-64.** The answer ORANGE runs down column 9 from square 25 (r8c9) to square 64 (r13c9). Square 61 is the end of TEASER (r12c20), and 45-61 (TAR) and 59-61 also end there. At 4x the figure is plainly "61", the same shape as in "59-61"; it is not a blurred 64. The xd writes 25-64.
+2. **10-26 has no clue.** Column 11 reads F-U-N-D from square 10 (the printed F, r5c11) to square 26 (r8c11). The number 26 is printed, but no "10-26" clue appears in the list. The xd keeps FUND in the grid with no clue. The F, U and N squares are printed in the puzzle as part of the design, with no rules between them (r5c11 F; r6c10-c12 F U N; r7c11 N). The solution prints them as heavy black letters.
+3. **The FUN squares as words.** Row 6 reads PLOWFUNFEAR with no black square between the words: 13-14 PLOW and 15-16 FEAR are clued, and FUN between them is not. Row 7's ANT (19-20) uses the N of FUN, and row 5's 1-10 CHIEF and 8-9 PROP, 11-12 ALOE lie on either side of the F.
+4. **"19-33—To-fortify."** The hyphen in "To-fortify" is printed (clear at 4x). It is kept as printed, though it is probably a stray mark or a dash slip.
+5. **37-67 SAREE.** Column 19 reads S-A-R-E-E in the solution, all letters clear. That is the printer's spelling of saree/sari, and is recorded as printed.
+6. **Clue punctuation.** The clues are printed "1-10—Highest in rank or authority." with an em dash after the pair. Some pairs have a space ("2- 9", "2- 3", "4- 5", "6- 7", "8- 9"). They are written in the xd's form, "1-10.".
+7. **Misread-looking figures.** "S-24", "S- 9", "40-5S", "2S-29", "3S-39", "4S-63" and "3S-56" are 8s in this face (the OCR reads them as S). "44-15" in the OCR is "44-45" (clear at 4x).
+8. **Voids.** The "SOLUTION NEXT WEEK" panel covers r10-r12 c10-c12. r9c11 opens into it, with rules on three sides and none below. r12c8 and r12c14 are outside the template; the solution leaves all of these empty. All are `_`. The hatched squares are true blacks (`#`), as in the solution, which prints them hatched or solid.
+9. **Numbers above 35.** The Numbering section runs a-z for 10-35, then A-Z for 36-61 and the symbols & * + ? @ ^ for 62-67, as its header declares. Uppercase letters there are numbers, not given letters.
+10. **Author.** The author comes from the intro, "a contribution from W. G. H. Tiedemann of Third avenue, New York City". The intro adds that the puzzle editor changed "several words and definitions".
+11. **Ragged bottom row.** Row 13 has squares only at c3, c6, c9-c13, c16 and c19. These are the ends of PINES, SON, ORANGE/ENDED/RISKED, PET and SAREE, as printed in both the puzzle and the solution.

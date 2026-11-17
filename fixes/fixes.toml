@@ -897,10 +897,48 @@ grids = [ { corners = [[89, 115], [1328, 116], [1321, 1934], [74, 1919]], rows =
 [page."minneapolis-journal-1914-06-21".2]
 grids = [ { corners = [[379, 19], [2500, 19], [2500, 2992], [432, 2992]], rows = 28, cols = 20 } ]
 
-# A Journal issue that prints only a solution has no row in printings.tsv, so the generated map above
-# gives it no World date: by hand, the World's Sunday whose solution it carries. 1914-06-07 prints
-# No. 22's solution, which the World printed on 1914-05-24 (a week after No. 22); so the pipeline
-# finds it as the key printed "in the next issue" after No. 22's (1914-05-17). The Journal's 05-17,
-# No. 21's solution, keeps its own date: it is the World's 05-17 issue's solution page.
-[issue."minneapolis-journal-1914-06-07"]
-date = "1914-05-24"
+# (Retired 2026-11-16: the hand-dated [issue."minneapolis-journal-1914-06-07"], date 1914-05-24, was
+# batch c1's count date. The Journal's 06-07 is the World's own 06-07, which prints No. 22's solution.)
+
+# ---------------------------------------------------------------------------
+# The Milwaukee Sentinel's pages, batch nyw-1914-s1 (docs/SENTINEL-BATCH.md). The World printed the
+# end-square numbers large inside its squares; on these pages the detector reads them as letters and
+# takes the puzzle for a solution grid, so `puzzle = true` says it is the puzzle. The corners and size
+# are the detector's own (layout stage, 2026-11-16) unless a note says otherwise: where the squares
+# are, not what is in them. Drawn by Claude.
+# ---------------------------------------------------------------------------
+
+# No. 2 (1913-12-28, p. 77, the New Year puzzle): a diamond 13 wide
+[page."milwaukee-sentinel-1913-12-28".0]
+grids = [ { corners = [[482, 581], [1112, 577], [1113, 1194], [489, 1203]], rows = 13, cols = 13, puzzle = true } ]
+
+# No. 3 (1914-01-04, leaf 1 = Ben's clipping of p. 80): a diamond 13 wide
+[page."milwaukee-sentinel-1914-01-04".1]
+grids = [ { corners = [[31, 388], [1269, 388], [1263, 1607], [31, 1620]], rows = 13, cols = 13, puzzle = true } ]
+
+# No. 5 (1914-01-18, leaf 1 = Ben's clipping of p. 81): a diamond 13 wide
+[page."milwaukee-sentinel-1914-01-18".1]
+grids = [ { corners = [[36, 170], [1245, 175], [1234, 1377], [17, 1368]], rows = 13, cols = 13, puzzle = true } ]
+
+# No. 4 (the Farmers Mail and Breeze, 1914-02-14 p. 16; the World's 1914-01-11): a diamond 13 wide
+[page."kansas-farmer-and-mail-and-breeze-1914-02-14".0]
+grids = [ { corners = [[1441, 2176], [2316, 2174], [2322, 3088], [1448, 3094]], rows = 13, cols = 13, puzzle = true } ]
+
+# No. 23 (1914-06-14, p. 87): the X of bands, 28 rows x 21 cols. The detector read 28 x 17: it lost the
+# lone square at the left (42) and the tail at the bottom right (88-91). Corners widened to those
+# squares' outer edges at the detector's pitch (29.5 px) and slope.
+[page."milwaukee-sentinel-1914-06-14".0]
+grids = [ { corners = [[450, 117], [1077, 98], [1077, 926], [452, 925]], rows = 28, cols = 21, puzzle = true } ]
+
+# No. 27 (1914-07-12, p. 79): the pyramid 21 wide (F, U, N printed in three squares)
+[page."milwaukee-sentinel-1914-07-12".0]
+grids = [ { corners = [[57, 120], [1199, 116], [1188, 825], [53, 814]], rows = 13, cols = 21, puzzle = true } ]
+
+# No. 28 (1914-07-19, p. 79, top): FUN's "uncompleted" puzzle, a diamond 13 wide with letters given in
+# its squares and no clue list. Below it on the page, No. 27's solution (the pyramid, a solution grid).
+[page."milwaukee-sentinel-1914-07-19".0]
+grids = [ { corners = [[444, 78], [1084, 73], [1090, 716], [445, 711]], rows = 13, cols = 13, puzzle = true }, { corners = [[448, 1165], [1088, 1169], [1086, 1566], [440, 1558]], rows = 13, cols = 21 } ]
+
+# No. 31 (1914-08-09, p. 83, the geography puzzle): a diamond 13 wide
+[page."milwaukee-sentinel-1914-08-09".1]
+grids = [ { corners = [[476, 198], [1110, 198], [1110, 831], [474, 835]], rows = 13, cols = 13, puzzle = true } ]

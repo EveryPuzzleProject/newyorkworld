@@ -1,0 +1,1016 @@
+{
+ "xdid": "nyw1914-08-02",
+ "no": 30,
+ "pages": {
+  "puzzle": "Milwaukee_Sentinel_1914_08_02_69.png",
+  "solution": "Milwaukee_Sentinel_1914_08_09_75.png"
+ },
+ "grid": {
+  "page": "puzzle",
+  "corners": [
+   [
+    471,
+    124
+   ],
+   [
+    1485,
+    129
+   ],
+   [
+    1483,
+    385
+   ],
+   [
+    472,
+    385
+   ]
+  ],
+  "rows": 8,
+  "cols": 31
+ },
+ "key": {
+  "page": "solution",
+  "corners": [
+   [
+    475,
+    1586
+   ],
+   [
+    1099,
+    1584
+   ],
+   [
+    1099,
+    1743
+   ],
+   [
+    475,
+    1746
+   ]
+  ],
+  "rows": 8,
+  "cols": 31
+ },
+ "lines": [
+  {
+   "label": "heading",
+   "text": "FUN'S CROSS-WORD PUZZLE",
+   "page": "puzzle",
+   "ocr": [
+    "o2",
+    "o3",
+    "o5"
+   ],
+   "box": [
+    478,
+    82,
+    1492,
+    154
+   ]
+  },
+  {
+   "label": "number",
+   "text": "No 30.",
+   "page": "puzzle",
+   "ocr": [
+    "o9"
+   ],
+   "box": [
+    904,
+    150,
+    1034,
+    213
+   ]
+  },
+  {
+   "label": "credit",
+   "text": "FUN'S cross word puzzle No. 30 was designed by T. W. Martin, Jr., of Baltimore, Md. This puzzle in FUN'S series may truthfully be called the young folks' number. As will be readily seen, it contains only one syllable words.",
+   "page": "puzzle",
+   "ocr": [
+    "o32",
+    "o33",
+    "o34",
+    "o35",
+    "o36"
+   ],
+   "box": [
+    438,
+    401,
+    1492,
+    475
+   ]
+  },
+  {
+   "label": "instructions",
+   "text": "The following clews will aid you in correctly solving the puzzle. Work it out yourself and then see how your solution compares with that which will be published in next week's issue of FUN.",
+   "page": "puzzle",
+   "ocr": [
+    "o37",
+    "o38",
+    "o39",
+    "o40"
+   ],
+   "box": [
+    440,
+    469,
+    1490,
+    518
+   ]
+  },
+  {
+   "label": "solution heading",
+   "text": "Solution to Last Week's Cross-Word Puzzle.",
+   "page": "solution",
+   "ocr": [
+    "o67"
+   ],
+   "box": [
+    575,
+    1763,
+    1003,
+    1790
+   ]
+  }
+ ],
+ "clues": [
+  {
+   "pair": "1-2",
+   "text": "An animal.",
+   "answer": "CAT",
+   "page": "puzzle",
+   "ocr": [
+    "o41"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    460,
+    512,
+    612,
+    537
+   ]
+  },
+  {
+   "pair": "3-4",
+   "text": "Negative.",
+   "answer": "NO",
+   "page": "puzzle",
+   "printed": "2-4",
+   "ocr": [
+    "o44"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    460,
+    531,
+    605,
+    560
+   ]
+  },
+  {
+   "pair": "5-6",
+   "text": "Seed-vessel of plant.",
+   "answer": "POD",
+   "page": "puzzle",
+   "ocr": [
+    "o47"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    459,
+    552,
+    709,
+    582
+   ]
+  },
+  {
+   "pair": "7-8",
+   "text": "Token of respect.",
+   "answer": "BOW",
+   "page": "puzzle",
+   "ocr": [
+    "o51"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    461,
+    573,
+    689,
+    602
+   ]
+  },
+  {
+   "pair": "9-10",
+   "text": "Favorite.",
+   "answer": "PET",
+   "page": "puzzle",
+   "ocr": [
+    "o53"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    446,
+    593,
+    599,
+    623
+   ]
+  },
+  {
+   "pair": "11-12",
+   "text": "Used mostly in summer.",
+   "answer": "FAN",
+   "page": "puzzle",
+   "ocr": [
+    "o56"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    438,
+    616,
+    741,
+    644
+   ]
+  },
+  {
+   "pair": "13-14",
+   "text": "Noise.",
+   "answer": "DIN",
+   "page": "puzzle",
+   "ocr": [
+    "o60"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    440,
+    639,
+    563,
+    663
+   ]
+  },
+  {
+   "pair": "15-16",
+   "text": "A piece of ground.",
+   "answer": "LOT",
+   "page": "puzzle",
+   "ocr": [
+    "o62"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    438,
+    657,
+    690,
+    684
+   ]
+  },
+  {
+   "pair": "17-18",
+   "text": "Indefinite article.",
+   "answer": "AN",
+   "page": "puzzle",
+   "ocr": [
+    "o66"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    437,
+    678,
+    682,
+    708
+   ]
+  },
+  {
+   "pair": "19-20",
+   "text": "Fresh.",
+   "answer": "NEW",
+   "page": "puzzle",
+   "ocr": [
+    "o71"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    439,
+    701,
+    566,
+    725
+   ]
+  },
+  {
+   "pair": "21-22",
+   "text": "A metal that shines.",
+   "answer": "TIN",
+   "page": "puzzle",
+   "box": [
+    440,
+    727,
+    712,
+    749
+   ],
+   "how": "eye"
+  },
+  {
+   "pair": "23-24",
+   "text": "Abbreviation for boy's name.",
+   "answer": "NAT",
+   "page": "puzzle",
+   "ocr": [
+    "o82"
+   ],
+   "box": [
+    438,
+    749,
+    782,
+    790
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "25-26",
+   "text": "It rests you.",
+   "answer": "NAP",
+   "page": "puzzle",
+   "ocr": [
+    "o83"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    438,
+    781,
+    631,
+    813
+   ]
+  },
+  {
+   "pair": "27-28",
+   "text": "To exist.",
+   "answer": "BE",
+   "page": "puzzle",
+   "ocr": [
+    "o89"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    439,
+    806,
+    600,
+    831
+   ]
+  },
+  {
+   "pair": "29-30",
+   "text": "You can go no higher.",
+   "answer": "TOP",
+   "page": "puzzle",
+   "ocr": [
+    "o91"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    438,
+    825,
+    728,
+    855
+   ]
+  },
+  {
+   "pair": "31-32",
+   "text": "Not out.",
+   "answer": "IN",
+   "page": "puzzle",
+   "ocr": [
+    "o96"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    438,
+    847,
+    596,
+    874
+   ]
+  },
+  {
+   "pair": "33-34",
+   "text": "Something awful.",
+   "answer": "SIN",
+   "page": "puzzle",
+   "ocr": [
+    "o101"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    439,
+    868,
+    684,
+    895
+   ]
+  },
+  {
+   "pair": "35-36",
+   "text": "We all have one.",
+   "answer": "BED",
+   "page": "puzzle",
+   "ocr": [
+    "o102"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    439,
+    887,
+    677,
+    916
+   ]
+  },
+  {
+   "pair": "37-38",
+   "text": "Something to wear.",
+   "answer": "HAT",
+   "page": "puzzle",
+   "ocr": [
+    "o42"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    800,
+    511,
+    1063,
+    538
+   ]
+  },
+  {
+   "pair": "39-40",
+   "text": "To gamble.",
+   "answer": "BET",
+   "page": "puzzle",
+   "ocr": [
+    "o45"
+   ],
+   "box": [
+    797,
+    532,
+    977,
+    560
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "41-42",
+   "text": "Not still.",
+   "answer": "GO",
+   "page": "puzzle",
+   "ocr": [
+    "o48"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    803,
+    554,
+    958,
+    579
+   ]
+  },
+  {
+   "pair": "43-44",
+   "text": "They bite.",
+   "answer": "DOG",
+   "page": "puzzle",
+   "ocr": [
+    "o52"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    802,
+    575,
+    974,
+    601
+   ]
+  },
+  {
+   "pair": "45-46",
+   "text": "An exclamation.",
+   "answer": "EH",
+   "page": "puzzle",
+   "ocr": [
+    "o55"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    802,
+    597,
+    1030,
+    620
+   ]
+  },
+  {
+   "pair": "47-48",
+   "text": "To wipe your feet on.",
+   "answer": "MAT",
+   "page": "puzzle",
+   "ocr": [
+    "o57"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    799,
+    615,
+    1084,
+    643
+   ]
+  },
+  {
+   "pair": "49-50",
+   "text": "A deer.",
+   "answer": "DOE",
+   "page": "puzzle",
+   "ocr": [
+    "o61"
+   ],
+   "box": [
+    799,
+    638,
+    958,
+    663
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "51-52",
+   "text": "Affirmation.",
+   "answer": "YES",
+   "page": "puzzle",
+   "ocr": [
+    "o63"
+   ],
+   "box": [
+    799,
+    658,
+    985,
+    686
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "53-54",
+   "text": "Illuminated.",
+   "answer": "LIT",
+   "page": "puzzle",
+   "ocr": [
+    "o67"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    799,
+    680,
+    989,
+    705
+   ]
+  },
+  {
+   "pair": "55-56",
+   "text": "Boy's name.",
+   "answer": "TED",
+   "page": "puzzle",
+   "ocr": [
+    "o72"
+   ],
+   "box": [
+    799,
+    700,
+    992,
+    725
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "57-58",
+   "text": "Expresses negation.",
+   "answer": "NOT",
+   "page": "puzzle",
+   "ocr": [
+    "o74"
+   ],
+   "box": [
+    799,
+    719,
+    1065,
+    747
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "1-6",
+   "text": "A fish.",
+   "answer": "COD",
+   "page": "puzzle",
+   "ocr": [
+    "o78"
+   ],
+   "box": [
+    820,
+    742,
+    935,
+    768
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "3-8",
+   "text": "Present.",
+   "answer": "NOW",
+   "page": "puzzle",
+   "ocr": [
+    "o79"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    822,
+    762,
+    949,
+    789
+   ]
+  },
+  {
+   "pair": "5-10",
+   "text": "Cooking vessel.",
+   "answer": "POT",
+   "page": "puzzle",
+   "ocr": [
+    "o84"
+   ],
+   "box": [
+    810,
+    785,
+    1020,
+    811
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "7-12",
+   "text": "Boy's name.",
+   "answer": "BEN",
+   "page": "puzzle",
+   "ocr": [
+    "o90"
+   ],
+   "box": [
+    808,
+    805,
+    987,
+    831
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "9-14",
+   "text": "A shallow vessel.",
+   "answer": "PAN",
+   "page": "puzzle",
+   "ocr": [
+    "o92"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    808,
+    827,
+    1035,
+    851
+   ]
+  },
+  {
+   "pair": "11-16",
+   "text": "Suitable.",
+   "answer": "FIT",
+   "page": "puzzle",
+   "ocr": [
+    "o97"
+   ],
+   "box": [
+    802,
+    848,
+    970,
+    873
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "13-59",
+   "text": "To act.",
+   "answer": "DO",
+   "page": "puzzle",
+   "ocr": [
+    "o98"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    801,
+    868,
+    944,
+    895
+   ]
+  },
+  {
+   "pair": "2-19",
+   "text": "You get it at the seashore.",
+   "answer": "TAN",
+   "page": "puzzle",
+   "ocr": [
+    "o103"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    809,
+    886,
+    1127,
+    916
+   ]
+  },
+  {
+   "pair": "18-21",
+   "text": "Used to catch fish",
+   "answer": "NET",
+   "page": "puzzle",
+   "ocr": [
+    "o43"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    1167,
+    510,
+    1411,
+    534
+   ]
+  },
+  {
+   "pair": "20-23",
+   "text": "Successful.",
+   "answer": "WIN",
+   "page": "puzzle",
+   "ocr": [
+    "o46"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    1171,
+    531,
+    1343,
+    557
+   ]
+  },
+  {
+   "pair": "22-25",
+   "text": "Girl's name.",
+   "answer": "NAN",
+   "page": "puzzle",
+   "ocr": [
+    "o49"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    1169,
+    550,
+    1359,
+    577
+   ]
+  },
+  {
+   "pair": "24-27",
+   "text": "A tag.",
+   "answer": "TAB",
+   "page": "puzzle",
+   "ocr": [
+    "o50"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    1168,
+    570,
+    1305,
+    599
+   ]
+  },
+  {
+   "pair": "26-29",
+   "text": "To fondle.",
+   "answer": "PET",
+   "page": "puzzle",
+   "ocr": [
+    "o54"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    1169,
+    591,
+    1337,
+    618
+   ]
+  },
+  {
+   "pair": "33-30",
+   "text": "The way you drink something hot.",
+   "answer": "SIP",
+   "page": "puzzle",
+   "ocr": [
+    "o58",
+    "o59"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    1169,
+    614,
+    1511,
+    662
+   ]
+  },
+  {
+   "pair": "35-32",
+   "text": "To keep corn in.",
+   "answer": "BIN",
+   "page": "puzzle",
+   "ocr": [
+    "o64"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    1167,
+    653,
+    1402,
+    683
+   ]
+  },
+  {
+   "pair": "37-34",
+   "text": "Chicken.",
+   "answer": "HEN",
+   "page": "puzzle",
+   "ocr": [
+    "o68"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    1171,
+    679,
+    1324,
+    701
+   ]
+  },
+  {
+   "pair": "39-36",
+   "text": "Not good.",
+   "answer": "BAD",
+   "page": "puzzle",
+   "ocr": [
+    "o70"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    1168,
+    696,
+    1330,
+    722
+   ]
+  },
+  {
+   "pair": "41-38",
+   "text": "To obtain.",
+   "answer": "GET",
+   "page": "puzzle",
+   "ocr": [
+    "o75"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    1169,
+    718,
+    1336,
+    744
+   ]
+  },
+  {
+   "pair": "43-40",
+   "text": "Period.",
+   "answer": "DOT",
+   "page": "puzzle",
+   "ocr": [
+    "o76"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    1168,
+    739,
+    1305,
+    764
+   ]
+  },
+  {
+   "pair": "44-47",
+   "text": "Jewel.",
+   "answer": "GEM",
+   "page": "puzzle",
+   "ocr": [
+    "o80"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    1170,
+    760,
+    1300,
+    785
+   ]
+  },
+  {
+   "pair": "46-49",
+   "text": "Possessed.",
+   "answer": "HAD",
+   "page": "puzzle",
+   "ocr": [
+    "o85"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    1170,
+    781,
+    1338,
+    807
+   ]
+  },
+  {
+   "pair": "48-51",
+   "text": "What children like.",
+   "answer": "TOY",
+   "page": "puzzle",
+   "ocr": [
+    "o87"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    1169,
+    799,
+    1428,
+    828
+   ]
+  },
+  {
+   "pair": "50-53",
+   "text": "A fish.",
+   "answer": "EEL",
+   "page": "puzzle",
+   "ocr": [
+    "o93"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    1170,
+    824,
+    1301,
+    848
+   ]
+  },
+  {
+   "pair": "52-55",
+   "text": "To rest.",
+   "answer": "SIT",
+   "page": "puzzle",
+   "ocr": [
+    "o95"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    1168,
+    841,
+    1314,
+    870
+   ]
+  },
+  {
+   "pair": "54-57",
+   "text": "A numeral.",
+   "answer": "TEN",
+   "page": "puzzle",
+   "ocr": [
+    "o99"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    1170,
+    865,
+    1346,
+    891
+   ]
+  },
+  {
+   "pair": "56-60",
+   "text": "To perform.",
+   "answer": "DO",
+   "page": "puzzle",
+   "ocr": [
+    "o104"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    1171,
+    886,
+    1351,
+    912
+   ]
+  }
+ ]
+}

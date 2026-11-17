@@ -1,0 +1,656 @@
+{
+ "xdid": "nyw1914-04-05",
+ "no": 16,
+ "pages": {
+  "puzzle": "Milwaukee_Sentinel_1914_04_05_89.png",
+  "solution": "Milwaukee_Sentinel_1914_04_12_89.png"
+ },
+ "grid": {
+  "page": "puzzle",
+  "corners": [
+   [
+    129,
+    201
+   ],
+   [
+    725,
+    201
+   ],
+   [
+    725,
+    802
+   ],
+   [
+    129,
+    802
+   ]
+  ],
+  "rows": 13,
+  "cols": 13
+ },
+ "key": {
+  "page": "solution",
+  "corners": [
+   [
+    758,
+    497
+   ],
+   [
+    1114,
+    504
+   ],
+   [
+    1113,
+    857
+   ],
+   [
+    752,
+    861
+   ]
+  ],
+  "rows": 13,
+  "cols": 13
+ },
+ "lines": [
+  {
+   "label": "heading",
+   "text": "FUN'S CROSS-WORD PUZZLES",
+   "page": "puzzle",
+   "ocr": [
+    "o1"
+   ],
+   "box": [
+    99,
+    46,
+    756,
+    221
+   ]
+  },
+  {
+   "label": "heading",
+   "text": "Can You Solve Them?",
+   "page": "puzzle",
+   "ocr": [
+    "o3",
+    "o6"
+   ],
+   "box": [
+    150,
+    200,
+    740,
+    365
+   ]
+  },
+  {
+   "label": "number",
+   "text": "No 16",
+   "page": "puzzle",
+   "ocr": [
+    "o8"
+   ],
+   "box": [
+    350,
+    443,
+    503,
+    555
+   ]
+  },
+  {
+   "label": "intro",
+   "text": "Today's cross-word puzzle, the sixteenth in FUN'S series, was sent in by Miss Katherine Reilly, 332 East Fifty-sixth street, New York City. See if you can solve it. Fill in the small squares in the above diamond with words corresponding to the clews and definitions given below. On another page you will find the solution to last week's cross-word puzzle. The solution to today's puzzle will be given in next week's FUN.",
+   "page": "puzzle",
+   "ocr": [
+    "o23",
+    "o24",
+    "o26",
+    "o28",
+    "o31",
+    "o32",
+    "o36"
+   ],
+   "box": [
+    118,
+    802,
+    741,
+    952
+   ]
+  },
+  {
+   "label": "credit",
+   "text": "was sent in by Miss Katherine Reilly, 332 East Fifty-sixth street, New York City.",
+   "page": "puzzle",
+   "ocr": [
+    "o24",
+    "o26"
+   ],
+   "box": [
+    120,
+    822,
+    520,
+    871
+   ]
+  }
+ ],
+ "clues": [
+  {
+   "pair": "1-2",
+   "text": "A child.",
+   "answer": "TOT",
+   "page": "puzzle",
+   "ocr": [
+    "o38"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    121,
+    945,
+    255,
+    968
+   ]
+  },
+  {
+   "pair": "3-4",
+   "text": "To follow.",
+   "answer": "TRAIL",
+   "page": "puzzle",
+   "ocr": [
+    "o43"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    123,
+    966,
+    276,
+    990
+   ]
+  },
+  {
+   "pair": "5-6",
+   "text": "The art of speaking correctly.",
+   "answer": "GRAMMAR",
+   "page": "puzzle",
+   "ocr": [
+    "o45",
+    "o47"
+   ],
+   "box": [
+    120,
+    986,
+    426,
+    1033
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "7-8",
+   "text": "A sly look.",
+   "answer": "PEEP",
+   "page": "puzzle",
+   "ocr": [
+    "o49"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    121,
+    1028,
+    288,
+    1054
+   ]
+  },
+  {
+   "pair": "9-10",
+   "text": "Inhabited by Adam and Eve.",
+   "answer": "EDEN",
+   "page": "puzzle",
+   "ocr": [
+    "o52",
+    "o53"
+   ],
+   "box": [
+    119,
+    1047,
+    426,
+    1093
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "11-12",
+   "text": "Fruit of the Blockthorn.",
+   "answer": "SLOE",
+   "page": "puzzle",
+   "ocr": [
+    "o55",
+    "o57"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    119,
+    1086,
+    425,
+    1131
+   ]
+  },
+  {
+   "pair": "13-14",
+   "text": "The mark on a wound.",
+   "answer": "SCAR",
+   "page": "puzzle",
+   "ocr": [
+    "o59"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    123,
+    1131,
+    408,
+    1154
+   ]
+  },
+  {
+   "pair": "15-16",
+   "text": "A wild animal.",
+   "answer": "BEAR",
+   "page": "puzzle",
+   "ocr": [
+    "o61"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    122,
+    1150,
+    344,
+    1175
+   ]
+  },
+  {
+   "pair": "17-18",
+   "text": "The king of beasts.",
+   "answer": "LION",
+   "page": "puzzle",
+   "ocr": [
+    "o63"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    123,
+    1171,
+    392,
+    1196
+   ]
+  },
+  {
+   "pair": "19-20",
+   "text": "Green ones are fashionable today.",
+   "answer": "WIGS",
+   "page": "puzzle",
+   "ocr": [
+    "o65",
+    "o67"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    123,
+    1192,
+    424,
+    1237
+   ]
+  },
+  {
+   "pair": "21-22",
+   "text": "The act of selling.",
+   "answer": "SALE",
+   "page": "puzzle",
+   "ocr": [
+    "o69"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    120,
+    1231,
+    374,
+    1259
+   ]
+  },
+  {
+   "pair": "23-24",
+   "text": "The face of a watch.",
+   "answer": "DIAL",
+   "page": "puzzle",
+   "ocr": [
+    "o71"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    121,
+    1251,
+    411,
+    1280
+   ]
+  },
+  {
+   "pair": "25-26",
+   "text": "That which is present.",
+   "answer": "THIS",
+   "page": "puzzle",
+   "ocr": [
+    "o73"
+   ],
+   "box": [
+    121,
+    1272,
+    422,
+    1301
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "27-28",
+   "text": "An inversion of the letters of a word.",
+   "answer": "ANAGRAM",
+   "page": "puzzle",
+   "ocr": [
+    "o74",
+    "o75"
+   ],
+   "box": [
+    120,
+    1292,
+    426,
+    1340
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "29-30",
+   "text": "To imagine during sleep.",
+   "answer": "DREAM",
+   "page": "puzzle",
+   "ocr": [
+    "o77",
+    "o78",
+    "o39"
+   ],
+   "box": [
+    121,
+    1333,
+    426,
+    1365
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "31-32",
+   "text": "Part of a week.",
+   "answer": "DAY",
+   "page": "puzzle",
+   "ocr": [
+    "o41"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    432,
+    964,
+    654,
+    991
+   ]
+  },
+  {
+   "pair": "33-34",
+   "text": "To wander.",
+   "answer": "ROAM",
+   "page": "puzzle",
+   "ocr": [
+    "o45"
+   ],
+   "box": [
+    430,
+    986,
+    626,
+    1012
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "35-36",
+   "text": "To mesh together.",
+   "answer": "GEAR",
+   "page": "puzzle",
+   "ocr": [
+    "o48"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    432,
+    1006,
+    690,
+    1032
+   ]
+  },
+  {
+   "pair": "1-8",
+   "text": "A snare.",
+   "answer": "TRAP",
+   "page": "puzzle",
+   "ocr": [
+    "o50"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    432,
+    1027,
+    570,
+    1052
+   ]
+  },
+  {
+   "pair": "3-12",
+   "text": "A woody plant.",
+   "answer": "TREE",
+   "page": "puzzle",
+   "ocr": [
+    "o52"
+   ],
+   "box": [
+    430,
+    1047,
+    653,
+    1073
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "5-27",
+   "text": "A southern state.",
+   "answer": "GEORGIA",
+   "page": "puzzle",
+   "ocr": [
+    "o54"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    434,
+    1068,
+    670,
+    1093
+   ]
+  },
+  {
+   "pair": "7-23",
+   "text": "A cross bar pattern for shawls.",
+   "answer": "PLAID",
+   "page": "puzzle",
+   "ocr": [
+    "o56",
+    "o58"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    429,
+    1088,
+    735,
+    1134
+   ]
+  },
+  {
+   "pair": "11-19",
+   "text": "To stitch.",
+   "answer": "SEW",
+   "page": "puzzle",
+   "ocr": [
+    "o60"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    431,
+    1128,
+    601,
+    1154
+   ]
+  },
+  {
+   "pair": "20-29",
+   "text": "Found on the seashore.",
+   "answer": "SAND",
+   "page": "puzzle",
+   "ocr": [
+    "o62"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    434,
+    1149,
+    733,
+    1177
+   ]
+  },
+  {
+   "pair": "24-31",
+   "text": "Used in the frying pan.",
+   "answer": "LARD",
+   "page": "puzzle",
+   "ocr": [
+    "o64"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    434,
+    1172,
+    733,
+    1198
+   ]
+  },
+  {
+   "pair": "2-9",
+   "text": "What some clocks keep.",
+   "answer": "TIME",
+   "page": "puzzle",
+   "ocr": [
+    "o66"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    428,
+    1190,
+    723,
+    1221
+   ]
+  },
+  {
+   "pair": "4-13",
+   "text": "Boys.",
+   "answer": "LADS",
+   "page": "puzzle",
+   "ocr": [
+    "o68"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    434,
+    1214,
+    550,
+    1238
+   ]
+  },
+  {
+   "pair": "6-28",
+   "text": "To recover.",
+   "answer": "RECLAIM",
+   "page": "puzzle",
+   "ocr": [
+    "o70"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    433,
+    1233,
+    608,
+    1258
+   ]
+  },
+  {
+   "pair": "10-26",
+   "text": "Metal spikes.",
+   "answer": "NAILS",
+   "page": "puzzle",
+   "ocr": [
+    "o72"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    430,
+    1252,
+    638,
+    1281
+   ]
+  },
+  {
+   "pair": "14-22",
+   "text": "Part of a fish.",
+   "answer": "ROE",
+   "page": "puzzle",
+   "ocr": [
+    "o73"
+   ],
+   "box": [
+    430,
+    1272,
+    646,
+    1301
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "21-30",
+   "text": "Fictitious.",
+   "answer": "SHAM",
+   "page": "puzzle",
+   "ocr": [
+    "o74"
+   ],
+   "box": [
+    430,
+    1292,
+    608,
+    1321
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "25-32",
+   "text": "A shallow flat vessel.",
+   "answer": "TRAY",
+   "page": "puzzle",
+   "ocr": [
+    "o76"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    432,
+    1315,
+    733,
+    1342
+   ]
+  }
+ ]
+}

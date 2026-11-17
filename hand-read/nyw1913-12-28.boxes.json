@@ -1,0 +1,661 @@
+{
+ "xdid": "nyw1913-12-28",
+ "no": 2,
+ "pages": {
+  "puzzle": "Milwaukee_Sentinel_1913_12_28_77.png",
+  "solution": "Milwaukee_Sentinel_1914_01_04_81_key.png"
+ },
+ "grid": {
+  "page": "puzzle",
+  "corners": [
+   [
+    482,
+    581
+   ],
+   [
+    1112,
+    577
+   ],
+   [
+    1113,
+    1195
+   ],
+   [
+    489,
+    1204
+   ]
+  ],
+  "rows": 13,
+  "cols": 13
+ },
+ "key": {
+  "page": "solution",
+  "corners": [
+   [
+    585,
+    251
+   ],
+   [
+    1302,
+    258
+   ],
+   [
+    1294,
+    960
+   ],
+   [
+    576,
+    952
+   ]
+  ],
+  "rows": 13,
+  "cols": 13
+ },
+ "lines": [
+  {
+   "label": "heading",
+   "text": "FUN'S NEW YEAR PUZZLE",
+   "page": "puzzle",
+   "ocr": [
+    "o3",
+    "o4",
+    "o5",
+    "o6"
+   ],
+   "box": [
+    501,
+    106,
+    1113,
+    498
+   ]
+  },
+  {
+   "label": "subheading",
+   "text": "FIND THE MISSING WORD!",
+   "page": "puzzle",
+   "ocr": [
+    "o7"
+   ],
+   "box": [
+    547,
+    490,
+    1028,
+    543
+   ]
+  },
+  {
+   "label": "centre block",
+   "text": "1914",
+   "page": "puzzle",
+   "box": [
+    735,
+    808,
+    875,
+    958
+   ],
+   "how": "eye"
+  },
+  {
+   "label": "intro",
+   "text": "The great interest shown ii FUN'S word-cross puzzle, published last week, has prompted the puzzle editor to submit another of the same kind.",
+   "page": "puzzle",
+   "ocr": [
+    "o62",
+    "o63",
+    "o64",
+    "o65"
+   ],
+   "box": [
+    471,
+    1220,
+    1118,
+    1287
+   ]
+  },
+  {
+   "label": "intro (garbled)",
+   "text": "The great interest shown in FUN'S word-cross puzzle, pub- which agree with the definitions given below. The solution to the word-cross puzzle, given on the preceding page, shows how the squares are to be filled in, using one square for each letter.",
+   "page": "puzzle",
+   "ocr": [
+    "o66",
+    "o67",
+    "o68",
+    "o69",
+    "o70"
+   ],
+   "box": [
+    472,
+    1297,
+    1119,
+    1386
+   ]
+  },
+  {
+   "label": "solution caption",
+   "text": "And here is the solution to the New Year cross-word puzzle showing how the letters are to be arranged to form words that fit the list of definitions given. Another puzzle of the same kind is given to-day. See if you can solve it. The solutions to today's",
+   "page": "solution",
+   "ocr": [
+    "o15",
+    "o18",
+    "o21",
+    "o23",
+    "o25",
+    "o27",
+    "o29",
+    "o30",
+    "o32",
+    "o33",
+    "o35",
+    "o37"
+   ],
+   "box": [
+    38,
+    509,
+    570,
+    962
+   ]
+  },
+  {
+   "label": "solution caption (end)",
+   "text": "puzzle will be given in next week's FUN.",
+   "page": "solution",
+   "ocr": [
+    "o38",
+    "o39"
+   ],
+   "box": [
+    40,
+    953,
+    868,
+    1007
+   ]
+  }
+ ],
+ "clues": [
+  {
+   "pair": "1-2",
+   "text": "Wild animals.",
+   "answer": "BOARS",
+   "page": "puzzle",
+   "ocr": [
+    "o71"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    479,
+    1378,
+    673,
+    1407
+   ]
+  },
+  {
+   "pair": "3-4",
+   "text": "Coating with tar.",
+   "answer": "TARRING",
+   "page": "puzzle",
+   "ocr": [
+    "o73"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    475,
+    1401,
+    710,
+    1429
+   ]
+  },
+  {
+   "pair": "5-6",
+   "text": "A grating.",
+   "answer": "GRID",
+   "page": "puzzle",
+   "ocr": [
+    "o75"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    475,
+    1421,
+    635,
+    1451
+   ]
+  },
+  {
+   "pair": "7-8",
+   "text": "Conversation.",
+   "answer": "TALK",
+   "page": "puzzle",
+   "ocr": [
+    "o77"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    473,
+    1441,
+    667,
+    1471
+   ]
+  },
+  {
+   "pair": "9-10",
+   "text": "An iron wedge",
+   "answer": "PIEL",
+   "page": "puzzle",
+   "ocr": [
+    "o79"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    471,
+    1461,
+    685,
+    1492
+   ]
+  },
+  {
+   "pair": "11-12",
+   "text": "To bind.",
+   "answer": "GIRD",
+   "page": "puzzle",
+   "ocr": [
+    "o81"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    466,
+    1482,
+    613,
+    1510
+   ]
+  },
+  {
+   "pair": "13-14",
+   "text": "A young woman",
+   "answer": "GIRL",
+   "page": "puzzle",
+   "ocr": [
+    "o84"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    467,
+    1503,
+    699,
+    1532
+   ]
+  },
+  {
+   "pair": "15-16",
+   "text": "Used as a gem.",
+   "answer": "SARD",
+   "page": "puzzle",
+   "ocr": [
+    "o87"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    467,
+    1523,
+    686,
+    1554
+   ]
+  },
+  {
+   "pair": "17-18",
+   "text": "Ninety inches.",
+   "answer": "ELLS",
+   "page": "puzzle",
+   "ocr": [
+    "o91"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    465,
+    1545,
+    675,
+    1574
+   ]
+  },
+  {
+   "pair": "19-20",
+   "text": "To remain.",
+   "answer": "STAY",
+   "page": "puzzle",
+   "ocr": [
+    "o94"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    464,
+    1565,
+    636,
+    1595
+   ]
+  },
+  {
+   "pair": "21-22",
+   "text": "A food chamber.",
+   "answer": "SILO",
+   "page": "puzzle",
+   "ocr": [
+    "o96"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    461,
+    1583,
+    695,
+    1617
+   ]
+  },
+  {
+   "pair": "23-24",
+   "text": "To stagger.",
+   "answer": "REEL",
+   "page": "puzzle",
+   "ocr": [
+    "o99"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    462,
+    1604,
+    641,
+    1638
+   ]
+  },
+  {
+   "pair": "25-27",
+   "text": "A number.",
+   "answer": "SIXTEEN",
+   "page": "puzzle",
+   "ocr": [
+    "o101"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    459,
+    1622,
+    635,
+    1658
+   ]
+  },
+  {
+   "pair": "28-29",
+   "text": "Gull-like birds.",
+   "answer": "TERNS",
+   "page": "puzzle",
+   "ocr": [
+    "o104"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    462,
+    1645,
+    675,
+    1680
+   ]
+  },
+  {
+   "pair": "30-31",
+   "text": "The egg of an insect.",
+   "answer": "NIT",
+   "page": "puzzle",
+   "ocr": [
+    "o108"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    462,
+    1669,
+    745,
+    1701
+   ]
+  },
+  {
+   "pair": "1-10",
+   "text": "Security for release.",
+   "answer": "BAIL",
+   "page": "puzzle",
+   "ocr": [
+    "o72"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    821,
+    1381,
+    1082,
+    1408
+   ]
+  },
+  {
+   "pair": "3-25",
+   "text": "A lattice.",
+   "answer": "TRELLIS",
+   "page": "puzzle",
+   "ocr": [
+    "o74"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    811,
+    1399,
+    964,
+    1429
+   ]
+  },
+  {
+   "pair": "5-21",
+   "text": "Young women.",
+   "answer": "GIRLS",
+   "page": "puzzle",
+   "ocr": [
+    "o76"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    812,
+    1421,
+    1012,
+    1451
+   ],
+   "printed": "5-24"
+  },
+  {
+   "pair": "9-17",
+   "text": "Good to eat.",
+   "answer": "PIE",
+   "page": "puzzle",
+   "ocr": [
+    "o78"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    812,
+    1443,
+    988,
+    1471
+   ],
+   "printed": "2-17"
+  },
+  {
+   "pair": "18-28",
+   "text": "To cut lengthwise.",
+   "answer": "SLIT",
+   "page": "puzzle",
+   "ocr": [
+    "o80"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    802,
+    1463,
+    1054,
+    1493
+   ],
+   "printed": "13-23"
+  },
+  {
+   "pair": "N-6",
+   "text": "The German for north.",
+   "answer": "NORD",
+   "page": "puzzle",
+   "ocr": [
+    "o82"
+   ],
+   "box": [
+    800,
+    1484,
+    1101,
+    1515
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "22-30",
+   "text": "Cattle.",
+   "answer": "OXEN",
+   "page": "puzzle",
+   "ocr": [
+    "o85"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    799,
+    1504,
+    936,
+    1534
+   ]
+  },
+  {
+   "pair": "26-32",
+   "text": "A journey.",
+   "answer": "TRIP",
+   "page": "puzzle",
+   "ocr": [
+    "o88"
+   ],
+   "box": [
+    800,
+    1526,
+    976,
+    1553
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "W-7",
+   "text": "A summons.",
+   "answer": "WRIT",
+   "page": "puzzle",
+   "ocr": [
+    "o92"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    801,
+    1547,
+    984,
+    1577
+   ]
+  },
+  {
+   "pair": "23-31",
+   "text": "Torn.",
+   "answer": "RENT",
+   "page": "puzzle",
+   "ocr": [
+    "o95"
+   ],
+   "box": [
+    800,
+    1568,
+    905,
+    1595
+   ],
+   "how": "ocr-corrected",
+   "printed": "28-31"
+  },
+  {
+   "pair": "2-11",
+   "text": "A hidden obstacle.",
+   "answer": "SNAG",
+   "page": "puzzle",
+   "ocr": [
+    "o97"
+   ],
+   "box": [
+    805,
+    1589,
+    1050,
+    1616
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "19-29",
+   "text": "Perceives.",
+   "answer": "SEES",
+   "page": "puzzle",
+   "ocr": [
+    "o100"
+   ],
+   "box": [
+    805,
+    1610,
+    962,
+    1637
+   ],
+   "how": "ocr-corrected",
+   "printed": "9-29"
+  },
+  {
+   "pair": "4-27",
+   "text": "To sparkle.",
+   "answer": "GLISTEN",
+   "page": "puzzle",
+   "ocr": [
+    "o103"
+   ],
+   "box": [
+    805,
+    1630,
+    955,
+    1659
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "8-24",
+   "text": "A Hottentot's home.",
+   "answer": "KRAAL",
+   "page": "puzzle",
+   "ocr": [
+    "o105"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    807,
+    1652,
+    1073,
+    1683
+   ]
+  },
+  {
+   "pair": "12-20",
+   "text": "Not wet.",
+   "answer": "DRY",
+   "page": "puzzle",
+   "ocr": [
+    "o109"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    804,
+    1675,
+    954,
+    1699
+   ]
+  }
+ ]
+}

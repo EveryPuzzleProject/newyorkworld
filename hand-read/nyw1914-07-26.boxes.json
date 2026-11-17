@@ -1,0 +1,1476 @@
+{
+ "xdid": "nyw1914-07-26",
+ "no": 29,
+ "pages": {
+  "puzzle": "Milwaukee_Sentinel_1914_07_26_81.png",
+  "solution": "Milwaukee_Sentinel_1914_08_02_68.png"
+ },
+ "grid": {
+  "page": "puzzle",
+  "corners": [
+   [
+    452,
+    113
+   ],
+   [
+    1504,
+    115
+   ],
+   [
+    1504,
+    1009
+   ],
+   [
+    452,
+    1007
+   ]
+  ],
+  "rows": 17,
+  "cols": 20
+ },
+ "key": {
+  "page": "solution",
+  "corners": [
+   [
+    564,
+    1437
+   ],
+   [
+    1101,
+    1436
+   ],
+   [
+    1103,
+    1891
+   ],
+   [
+    564,
+    1892
+   ]
+  ],
+  "rows": 17,
+  "cols": 20
+ },
+ "lines": [
+  {
+   "label": "intro",
+   "text": "Here are five puzzles in one, a contribution for FUN'S puzzle solvers to ponder over, from Aloysius E. Pracny of Jackson street, Brooklyn. He writes as follows: \"The pleasure I have found in solving the cross word puzzles in FUN has prompted me to construct the enclosed.\" Fill in the small squares with words corresponding to the list of clews and definitions given below, allowing one letter to each square. Then compare your solution with the one to be given in next week's FUN.",
+   "page": "puzzle",
+   "ocr": [
+    "o114",
+    "o115",
+    "o118",
+    "o119",
+    "o121",
+    "o122",
+    "o124",
+    "o126",
+    "o127",
+    "o129",
+    "o131"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    445,
+    1012,
+    1520,
+    1185
+   ]
+  },
+  {
+   "label": "solution heading",
+   "text": "SOLUTIONS TO LAST WEEK'S PUZZLES.",
+   "page": "solution",
+   "box": [
+    505,
+    1100,
+    1125,
+    1140
+   ],
+   "how": "eye"
+  },
+  {
+   "label": "solution intro",
+   "text": "The solution to last week's cross word puzzle is given below.",
+   "page": "solution",
+   "box": [
+    545,
+    1396,
+    1120,
+    1422
+   ],
+   "how": "eye"
+  }
+ ],
+ "clues": [
+  {
+   "pair": "1-4",
+   "text": "A narrow passage.",
+   "answer": "LANE",
+   "page": "puzzle",
+   "ocr": [
+    "o133"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    470,
+    1185,
+    718,
+    1214
+   ]
+  },
+  {
+   "pair": "5-6",
+   "text": "A river in Egypt.",
+   "answer": "NILE",
+   "page": "puzzle",
+   "ocr": [
+    "o137"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    468,
+    1209,
+    715,
+    1241
+   ]
+  },
+  {
+   "pair": "7-8",
+   "text": "To diminish.",
+   "answer": "PARE",
+   "page": "puzzle",
+   "ocr": [
+    "o141"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    470,
+    1236,
+    659,
+    1263
+   ]
+  },
+  {
+   "pair": "9-10",
+   "text": "Not one.",
+   "answer": "NONE",
+   "page": "puzzle",
+   "ocr": [
+    "o147"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    471,
+    1264,
+    621,
+    1291
+   ]
+  },
+  {
+   "pair": "11-12",
+   "text": "Account.",
+   "answer": "SAKE",
+   "page": "puzzle",
+   "ocr": [
+    "o150"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    458,
+    1287,
+    618,
+    1316
+   ]
+  },
+  {
+   "pair": "13-14",
+   "text": "Used in gambling.",
+   "answer": "DICE",
+   "page": "puzzle",
+   "ocr": [
+    "o153"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    460,
+    1309,
+    721,
+    1339
+   ]
+  },
+  {
+   "pair": "15-16",
+   "text": "Simplified for wrought.",
+   "answer": "WROT",
+   "page": "puzzle",
+   "ocr": [
+    "o156"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    461,
+    1331,
+    772,
+    1359
+   ]
+  },
+  {
+   "pair": "17-18",
+   "text": "A leguminous plant.",
+   "answer": "BEAN",
+   "page": "puzzle",
+   "ocr": [
+    "o159"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    459,
+    1351,
+    738,
+    1382
+   ]
+  },
+  {
+   "pair": "19-20",
+   "text": "Digits.",
+   "answer": "TOES",
+   "page": "puzzle",
+   "ocr": [
+    "o162"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    462,
+    1373,
+    602,
+    1403
+   ]
+  },
+  {
+   "pair": "21-22",
+   "text": "The lowest voice of a woman.",
+   "answer": "ALTO",
+   "page": "puzzle",
+   "ocr": [
+    "o165",
+    "o168"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    464,
+    1398,
+    813,
+    1446
+   ]
+  },
+  {
+   "pair": "23-24",
+   "text": "A pit for preserving fodder.",
+   "answer": "SILO",
+   "page": "puzzle",
+   "ocr": [
+    "o171",
+    "o173"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    462,
+    1440,
+    818,
+    1488
+   ]
+  },
+  {
+   "pair": "25-26",
+   "text": "To quote.",
+   "answer": "CITE",
+   "page": "puzzle",
+   "ocr": [
+    "o176"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    463,
+    1481,
+    631,
+    1512
+   ]
+  },
+  {
+   "pair": "27-28",
+   "text": "A plant used as food for cattle.",
+   "answer": "TARE",
+   "page": "puzzle",
+   "ocr": [
+    "o179",
+    "o182"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    461,
+    1505,
+    817,
+    1554
+   ]
+  },
+  {
+   "pair": "29-30",
+   "text": "In greater numbers.",
+   "answer": "MORE",
+   "page": "puzzle",
+   "ocr": [
+    "o185"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    463,
+    1547,
+    737,
+    1577
+   ]
+  },
+  {
+   "pair": "31-32",
+   "text": "A girl's name.",
+   "answer": "MARY",
+   "page": "puzzle",
+   "ocr": [
+    "o188"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    462,
+    1568,
+    689,
+    1598
+   ]
+  },
+  {
+   "pair": "33-34",
+   "text": "A woman of distinction.",
+   "answer": "LADY",
+   "page": "puzzle",
+   "ocr": [
+    "o191"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    458,
+    1590,
+    812,
+    1617
+   ]
+  },
+  {
+   "pair": "35-36",
+   "text": "Unfrequented.",
+   "answer": "LONE",
+   "page": "puzzle",
+   "ocr": [
+    "o194"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    464,
+    1611,
+    681,
+    1640
+   ]
+  },
+  {
+   "pair": "37-38",
+   "text": "A hostile incursion.",
+   "answer": "RAID",
+   "page": "puzzle",
+   "ocr": [
+    "o197"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    461,
+    1631,
+    734,
+    1661
+   ]
+  },
+  {
+   "pair": "39-40",
+   "text": "Past of tear.",
+   "answer": "TORN",
+   "page": "puzzle",
+   "ocr": [
+    "o201"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    459,
+    1654,
+    661,
+    1681
+   ]
+  },
+  {
+   "pair": "41-42",
+   "text": "Beyond in time.",
+   "answer": "PAST",
+   "page": "puzzle",
+   "ocr": [
+    "o204"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    464,
+    1676,
+    705,
+    1703
+   ]
+  },
+  {
+   "pair": "43-44",
+   "text": "A cord used for fastening shoes.",
+   "answer": "LACE",
+   "page": "puzzle",
+   "ocr": [
+    "o207",
+    "o209"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    458,
+    1697,
+    815,
+    1745
+   ]
+  },
+  {
+   "pair": "45-46",
+   "text": "Forward.",
+   "answer": "PERT",
+   "page": "puzzle",
+   "ocr": [
+    "o213"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    467,
+    1740,
+    625,
+    1765
+   ]
+  },
+  {
+   "pair": "47-48",
+   "text": "Where Chinese came from.",
+   "answer": "ASIA",
+   "page": "puzzle",
+   "ocr": [
+    "o215"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    458,
+    1762,
+    812,
+    1789
+   ]
+  },
+  {
+   "pair": "49-50",
+   "text": "Otherwise.",
+   "answer": "ELSE",
+   "page": "puzzle",
+   "ocr": [
+    "o217"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    466,
+    1784,
+    642,
+    1808
+   ]
+  },
+  {
+   "pair": "51-52",
+   "text": "A table cooking utensil.",
+   "answer": "ETNA",
+   "page": "puzzle",
+   "ocr": [
+    "o222"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    458,
+    1803,
+    800,
+    1830
+   ]
+  },
+  {
+   "pair": "53-54",
+   "text": "To produce figures on a copper plate.",
+   "answer": "ETCH",
+   "page": "puzzle",
+   "ocr": [
+    "o223",
+    "o227"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    458,
+    1826,
+    800,
+    1877
+   ]
+  },
+  {
+   "pair": "55-56",
+   "text": "To corrode.",
+   "answer": "FRET",
+   "page": "puzzle",
+   "ocr": [],
+   "how": "eye",
+   "box": [
+    458,
+    1868,
+    640,
+    1895
+   ]
+  },
+  {
+   "pair": "93-95",
+   "text": "A rodent.",
+   "answer": "RAT",
+   "page": "puzzle",
+   "ocr": [
+    "o134"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    812,
+    1180,
+    985,
+    1214
+   ]
+  },
+  {
+   "pair": "57-58",
+   "text": "Favorable.",
+   "answer": "FAIR",
+   "page": "puzzle",
+   "ocr": [
+    "o138"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    812,
+    1207,
+    993,
+    1239
+   ]
+  },
+  {
+   "pair": "59-60",
+   "text": "A bone in the forearm.",
+   "answer": "ULNA",
+   "page": "puzzle",
+   "ocr": [
+    "o142"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    812,
+    1232,
+    1114,
+    1262
+   ]
+  },
+  {
+   "pair": "61-62",
+   "text": "To run with small steps.",
+   "answer": "TROT",
+   "page": "puzzle",
+   "ocr": [
+    "o145"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    813,
+    1258,
+    1141,
+    1288
+   ]
+  },
+  {
+   "pair": "63-64",
+   "text": "The grandson of Methuselah.",
+   "answer": "NOAH",
+   "page": "puzzle",
+   "ocr": [
+    "o149",
+    "o154"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    814,
+    1282,
+    1172,
+    1337
+   ]
+  },
+  {
+   "pair": "65-66",
+   "text": "Allowance of provisions.",
+   "answer": "DIET",
+   "page": "puzzle",
+   "ocr": [
+    "o157"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    812,
+    1334,
+    1150,
+    1362
+   ]
+  },
+  {
+   "pair": "67-68",
+   "text": "A glade in a forest.",
+   "answer": "LAWN",
+   "page": "puzzle",
+   "ocr": [
+    "o160"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    816,
+    1359,
+    1083,
+    1386
+   ]
+  },
+  {
+   "pair": "69-70",
+   "text": "The origin of anything.",
+   "answer": "ROOT",
+   "page": "puzzle",
+   "ocr": [
+    "o163"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    815,
+    1379,
+    1119,
+    1409
+   ]
+  },
+  {
+   "pair": "2-5",
+   "text": "One.",
+   "answer": "AN",
+   "page": "puzzle",
+   "ocr": [
+    "o166"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    812,
+    1401,
+    940,
+    1426
+   ]
+  },
+  {
+   "pair": "3-7",
+   "text": "To pinch.",
+   "answer": "NIP",
+   "page": "puzzle",
+   "ocr": [
+    "o169"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    812,
+    1421,
+    960,
+    1448
+   ]
+  },
+  {
+   "pair": "4-9",
+   "text": "Ardor inspired by enthusiasm.",
+   "answer": "ELAN",
+   "page": "puzzle",
+   "ocr": [
+    "o175"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    812,
+    1442,
+    1150,
+    1492
+   ]
+  },
+  {
+   "pair": "6-18",
+   "text": "Corrosion.",
+   "answer": "EROSION",
+   "page": "puzzle",
+   "ocr": [
+    "o177"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    826,
+    1483,
+    987,
+    1513
+   ]
+  },
+  {
+   "pair": "8-16",
+   "text": "To institute.",
+   "answer": "ENACT",
+   "page": "puzzle",
+   "ocr": [
+    "o180"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    817,
+    1507,
+    1011,
+    1534
+   ]
+  },
+  {
+   "pair": "10-14",
+   "text": "To add to.",
+   "answer": "EKE",
+   "page": "puzzle",
+   "ocr": [
+    "o183"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    812,
+    1528,
+    1000,
+    1556
+   ]
+  },
+  {
+   "pair": "13-25",
+   "text": "Vigorous.",
+   "answer": "DRASTIC",
+   "page": "puzzle",
+   "ocr": [
+    "o187"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    812,
+    1549,
+    1000,
+    1577
+   ]
+  },
+  {
+   "pair": "15-23",
+   "text": "Whirlpools.",
+   "answer": "WEELS",
+   "page": "puzzle",
+   "ocr": [
+    "o189"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    814,
+    1568,
+    1002,
+    1599
+   ]
+  },
+  {
+   "pair": "17-21",
+   "text": "The name of certain serpents.",
+   "answer": "BOA",
+   "page": "puzzle",
+   "ocr": [
+    "o192",
+    "o195"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    812,
+    1591,
+    1155,
+    1640
+   ]
+  },
+  {
+   "pair": "22-34",
+   "text": "Belonging to a kitchen garden.",
+   "answer": "OLITORY",
+   "page": "puzzle",
+   "ocr": [
+    "o198",
+    "o200",
+    "o202"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    812,
+    1634,
+    1175,
+    1683
+   ]
+  },
+  {
+   "pair": "24-32",
+   "text": "A certain species of seal.",
+   "answer": "OTARY",
+   "page": "puzzle",
+   "ocr": [
+    "o205"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    814,
+    1678,
+    1141,
+    1705
+   ]
+  },
+  {
+   "pair": "26-30",
+   "text": "Before.",
+   "answer": "ERE",
+   "page": "puzzle",
+   "ocr": [
+    "o207"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    812,
+    1697,
+    970,
+    1726
+   ]
+  },
+  {
+   "pair": "29-36",
+   "text": "Past of make.",
+   "answer": "MADE",
+   "page": "puzzle",
+   "ocr": [
+    "o210"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    815,
+    1720,
+    1028,
+    1746
+   ]
+  },
+  {
+   "pair": "31-102",
+   "text": "A human being.",
+   "answer": "MAN",
+   "page": "puzzle",
+   "ocr": [
+    "o214"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    812,
+    1740,
+    1050,
+    1768
+   ]
+  },
+  {
+   "pair": "33-101",
+   "text": "Observe.",
+   "answer": "LO",
+   "page": "puzzle",
+   "ocr": [
+    "o215"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    812,
+    1762,
+    981,
+    1789
+   ]
+  },
+  {
+   "pair": "72-40",
+   "text": "Within.",
+   "answer": "IN",
+   "page": "puzzle",
+   "ocr": [
+    "o218"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    817,
+    1781,
+    966,
+    1810
+   ]
+  },
+  {
+   "pair": "71-42",
+   "text": "Dexterity.",
+   "answer": "ART",
+   "page": "puzzle",
+   "ocr": [
+    "o220"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    816,
+    1803,
+    987,
+    1830
+   ]
+  },
+  {
+   "pair": "37-44",
+   "text": "A purplish red color.",
+   "answer": "ROSE",
+   "page": "puzzle",
+   "ocr": [
+    "o224"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    812,
+    1826,
+    1098,
+    1853
+   ]
+  },
+  {
+   "pair": "39-51",
+   "text": "Tangible.",
+   "answer": "TACTILE",
+   "page": "puzzle",
+   "ocr": [
+    "o228"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    817,
+    1845,
+    982,
+    1874
+   ]
+  },
+  {
+   "pair": "41-49",
+   "text": "To analyze.",
+   "answer": "PARSE",
+   "page": "puzzle",
+   "ocr": [
+    "o229"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    817,
+    1865,
+    1002,
+    1896
+   ]
+  },
+  {
+   "pair": "81-84",
+   "text": "A kiln for drying tobacco.",
+   "answer": "OAST",
+   "page": "puzzle",
+   "ocr": [
+    "o135"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    1164,
+    1184,
+    1512,
+    1215
+   ]
+  },
+  {
+   "pair": "43-47",
+   "text": "A grassy plain.",
+   "answer": "LEA",
+   "page": "puzzle",
+   "ocr": [
+    "o139"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    1168,
+    1210,
+    1391,
+    1236
+   ]
+  },
+  {
+   "pair": "48-60",
+   "text": "A variety of sapphire.",
+   "answer": "ASTERIA",
+   "page": "puzzle",
+   "ocr": [
+    "o143"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    1164,
+    1228,
+    1462,
+    1258
+   ]
+  },
+  {
+   "pair": "50-58",
+   "text": "To penetrate.",
+   "answer": "ENTER",
+   "page": "puzzle",
+   "ocr": [
+    "o144"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    1166,
+    1250,
+    1378,
+    1278
+   ]
+  },
+  {
+   "pair": "52-56",
+   "text": "A decree.",
+   "answer": "ACT",
+   "page": "puzzle",
+   "ocr": [
+    "o148"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    1165,
+    1271,
+    1336,
+    1298
+   ]
+  },
+  {
+   "pair": "55-67",
+   "text": "A variety of domestic pigeons.",
+   "answer": "FANTAIL",
+   "page": "puzzle",
+   "ocr": [
+    "o151",
+    "o155"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    1162,
+    1291,
+    1512,
+    1342
+   ]
+  },
+  {
+   "pair": "57-65",
+   "text": "To inundate.",
+   "answer": "FLOOD",
+   "page": "puzzle",
+   "ocr": [
+    "o158"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    1166,
+    1334,
+    1368,
+    1363
+   ]
+  },
+  {
+   "pair": "59-63",
+   "text": "A vase.",
+   "answer": "URN",
+   "page": "puzzle",
+   "ocr": [
+    "o161"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    1165,
+    1357,
+    1321,
+    1383
+   ]
+  },
+  {
+   "pair": "64-69",
+   "text": "To listen to.",
+   "answer": "HEAR",
+   "page": "puzzle",
+   "ocr": [
+    "o164"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    1169,
+    1380,
+    1363,
+    1403
+   ]
+  },
+  {
+   "pair": "66-103",
+   "text": "Twice one.",
+   "answer": "TWO",
+   "page": "puzzle",
+   "ocr": [
+    "o167"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    1167,
+    1398,
+    1360,
+    1427
+   ]
+  },
+  {
+   "pair": "68-104",
+   "text": "A denial.",
+   "answer": "NO",
+   "page": "puzzle",
+   "ocr": [
+    "o170"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    1170,
+    1422,
+    1339,
+    1445
+   ]
+  },
+  {
+   "pair": "73-77",
+   "text": "Short for Abraham.",
+   "answer": "ABE",
+   "page": "puzzle",
+   "ocr": [
+    "o172"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    1162,
+    1440,
+    1440,
+    1475
+   ]
+  },
+  {
+   "pair": "74-80",
+   "text": "A scheme.",
+   "answer": "WAY",
+   "page": "puzzle",
+   "ocr": [
+    "o174"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    1169,
+    1465,
+    1348,
+    1488
+   ]
+  },
+  {
+   "pair": "75-79",
+   "text": "Water impregnated with alkaline salt.",
+   "answer": "LYE",
+   "page": "puzzle",
+   "ocr": [
+    "o178",
+    "o181"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    1167,
+    1482,
+    1514,
+    1531
+   ]
+  },
+  {
+   "pair": "76-78",
+   "text": "To bark at.",
+   "answer": "BAY",
+   "page": "puzzle",
+   "ocr": [
+    "o184"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    1165,
+    1527,
+    1358,
+    1553
+   ]
+  },
+  {
+   "pair": "77-79",
+   "text": "The organ of vision.",
+   "answer": "EYE",
+   "page": "puzzle",
+   "ocr": [
+    "o186"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    1165,
+    1547,
+    1443,
+    1575
+   ]
+  },
+  {
+   "pair": "77-79",
+   "text": "The organ of vision.",
+   "answer": "EYE",
+   "page": "puzzle",
+   "ocr": [
+    "o190"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    1166,
+    1570,
+    1442,
+    1596
+   ]
+  },
+  {
+   "pair": "81-87",
+   "text": "An imprecation.",
+   "answer": "OATH",
+   "page": "puzzle",
+   "ocr": [
+    "o193"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    1165,
+    1591,
+    1405,
+    1617
+   ]
+  },
+  {
+   "pair": "82-91",
+   "text": "Superficial contents.",
+   "answer": "AREA",
+   "page": "puzzle",
+   "ocr": [
+    "o196"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    1169,
+    1612,
+    1442,
+    1638
+   ]
+  },
+  {
+   "pair": "83-92",
+   "text": "A threshold.",
+   "answer": "SILL",
+   "page": "puzzle",
+   "ocr": [
+    "o199"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    1165,
+    1633,
+    1366,
+    1657
+   ]
+  },
+  {
+   "pair": "84-90",
+   "text": "High in stature.",
+   "answer": "TALL",
+   "page": "puzzle",
+   "ocr": [
+    "o203"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    1168,
+    1653,
+    1406,
+    1680
+   ]
+  },
+  {
+   "pair": "85-88",
+   "text": "An air.",
+   "answer": "ARIA",
+   "page": "puzzle",
+   "ocr": [
+    "o206"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    1168,
+    1676,
+    1313,
+    1701
+   ]
+  },
+  {
+   "pair": "86-89",
+   "text": "To narrate.",
+   "answer": "TELL",
+   "page": "puzzle",
+   "ocr": [
+    "o208"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    1168,
+    1697,
+    1357,
+    1721
+   ]
+  },
+  {
+   "pair": "87-90",
+   "text": "A vestibule.",
+   "answer": "HALL",
+   "page": "puzzle",
+   "ocr": [
+    "o211"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    1171,
+    1718,
+    1363,
+    1744
+   ]
+  },
+  {
+   "pair": "93-97",
+   "text": "To tear.",
+   "answer": "RIP",
+   "page": "puzzle",
+   "ocr": [
+    "o212"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    1167,
+    1739,
+    1322,
+    1764
+   ]
+  },
+  {
+   "pair": "94-98",
+   "text": "A unit.",
+   "answer": "ACE",
+   "page": "puzzle",
+   "ocr": [
+    "o216"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    1171,
+    1761,
+    1316,
+    1785
+   ]
+  },
+  {
+   "pair": "95-99",
+   "text": "Nine and one.",
+   "answer": "TEN",
+   "page": "puzzle",
+   "ocr": [
+    "o219"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    1172,
+    1781,
+    1387,
+    1807
+   ]
+  },
+  {
+   "pair": "96-100",
+   "text": "Water in a solid mass.",
+   "answer": "ICE",
+   "page": "puzzle",
+   "ocr": [
+    "o221"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    1170,
+    1802,
+    1469,
+    1829
+   ]
+  },
+  {
+   "pair": "97-99",
+   "text": "A coop.",
+   "answer": "PEN",
+   "page": "puzzle",
+   "ocr": [
+    "o225"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    1170,
+    1822,
+    1318,
+    1850
+   ]
+  },
+  {
+   "pair": "73-75",
+   "text": "An instrument for piercing holes.",
+   "answer": "AWL",
+   "page": "puzzle",
+   "ocr": [
+    "o226"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    1162,
+    1843,
+    1520,
+    1898
+   ]
+  }
+ ]
+}

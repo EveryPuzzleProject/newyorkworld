@@ -1,0 +1,708 @@
+{
+ "xdid": "nyw1914-03-08",
+ "no": 12,
+ "pages": {
+  "puzzle": "Milwaukee_Sentinel_1914_03_08_82.png",
+  "solution": "Milwaukee_Sentinel_1914_03_15_86.png"
+ },
+ "grid": {
+  "page": "puzzle",
+  "corners": [
+   [
+    555,
+    269
+   ],
+   [
+    1145,
+    268
+   ],
+   [
+    1147,
+    860
+   ],
+   [
+    556,
+    860
+   ]
+  ],
+  "rows": 13,
+  "cols": 13
+ },
+ "key": {
+  "page": "solution",
+  "corners": [
+   [
+    473,
+    615
+   ],
+   [
+    823,
+    612
+   ],
+   [
+    827,
+    966
+   ],
+   [
+    470,
+    967
+   ]
+  ],
+  "rows": 13,
+  "cols": 13
+ },
+ "lines": [
+  {
+   "label": "heading",
+   "text": "FUN'S CROSS-WORD PUZZLES",
+   "page": "puzzle",
+   "ocr": [
+    "o3"
+   ],
+   "box": [
+    556,
+    140,
+    1150,
+    255
+   ]
+  },
+  {
+   "label": "heading (left of grid)",
+   "text": "Can You",
+   "page": "puzzle",
+   "ocr": [
+    "o7",
+    "o8"
+   ],
+   "box": [
+    535,
+    238,
+    750,
+    444
+   ]
+  },
+  {
+   "label": "heading (right of grid)",
+   "text": "Solve Them?",
+   "page": "puzzle",
+   "ocr": [
+    "o6",
+    "o9"
+   ],
+   "box": [
+    937,
+    231,
+    1147,
+    411
+   ]
+  },
+  {
+   "label": "number",
+   "text": "No 12",
+   "page": "puzzle",
+   "ocr": [
+    "o10"
+   ],
+   "box": [
+    796,
+    521,
+    906,
+    602
+   ]
+  },
+  {
+   "label": "credit",
+   "text": "Today's cross work puzzle, the twelfth in FUN'S series, was sent in by Miss Evangeline Kearney of 207 Winthrop street, Brooklyn.",
+   "page": "puzzle",
+   "ocr": [
+    "o38",
+    "o39",
+    "o41",
+    "o46"
+   ],
+   "box": [
+    550,
+    852,
+    1152,
+    918
+   ]
+  },
+  {
+   "label": "instructions",
+   "text": "See if you can solve it. Fill in the small squares in the above diamond with words corresponding to the clews and definitions given below. On another page you will find the solutions of last week's puzzle. The solution to today's puzzle will be given in next week's FUN.",
+   "page": "puzzle",
+   "ocr": [
+    "o46",
+    "o47",
+    "o49",
+    "o50",
+    "o52",
+    "o56",
+    "o57",
+    "o59"
+   ],
+   "box": [
+    550,
+    892,
+    1154,
+    996
+   ]
+  },
+  {
+   "label": "solution heading",
+   "text": "SOLUTION TO No 12 PUZZLE",
+   "page": "solution",
+   "box": [
+    610,
+    750,
+    685,
+    826
+   ],
+   "how": "eye"
+  },
+  {
+   "label": "solution caption",
+   "text": "So many FUN puzzle solvers are sending in cross word puzzle, made by themselves with a request that they be published, that the puzzle editor is beginning to wonder what to do with them all. Those puzzles which are available will be published as early as possible. The",
+   "page": "solution",
+   "box": [
+    864,
+    712,
+    1105,
+    964
+   ],
+   "how": "eye"
+  },
+  {
+   "label": "solution caption (continued)",
+   "text": "solution to last week's cross word puzzle is given herewith. Today's cross work puzzle is more difficult than last week's.",
+   "page": "solution",
+   "box": [
+    464,
+    992,
+    716,
+    1117
+   ],
+   "how": "eye"
+  }
+ ],
+ "clues": [
+  {
+   "pair": "1-2",
+   "text": "An insect.",
+   "answer": "BEE",
+   "page": "puzzle",
+   "ocr": [
+    "o61"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    578,
+    993,
+    726,
+    1015
+   ]
+  },
+  {
+   "pair": "3-4",
+   "text": "What we get in restaurants.",
+   "answer": "MEALS",
+   "page": "puzzle",
+   "ocr": [
+    "o64",
+    "o67"
+   ],
+   "box": [
+    576,
+    1010,
+    840,
+    1054
+   ],
+   "how": "eye"
+  },
+  {
+   "pair": "5-6",
+   "text": "One who inhabits a new country.",
+   "answer": "SETTLER",
+   "page": "puzzle",
+   "ocr": [
+    "o71",
+    "o75"
+   ],
+   "box": [
+    576,
+    1049,
+    842,
+    1095
+   ],
+   "how": "eye"
+  },
+  {
+   "pair": "7-8",
+   "text": "Traps for catching game.",
+   "answer": "NETS",
+   "page": "puzzle",
+   "ocr": [
+    "o79",
+    "o80",
+    "o84"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    584,
+    1088,
+    842,
+    1134
+   ]
+  },
+  {
+   "pair": "9-10",
+   "text": "Spoken.",
+   "answer": "SAID",
+   "page": "puzzle",
+   "ocr": [
+    "o87"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    580,
+    1128,
+    715,
+    1152
+   ]
+  },
+  {
+   "pair": "11-12",
+   "text": "Hair on the neck of an animal.",
+   "answer": "MANE",
+   "page": "puzzle",
+   "ocr": [
+    "o91",
+    "o94"
+   ],
+   "box": [
+    568,
+    1127,
+    842,
+    1192
+   ],
+   "how": "eye"
+  },
+  {
+   "pair": "13-14",
+   "text": "A reptile.",
+   "answer": "TOAD",
+   "page": "puzzle",
+   "ocr": [
+    "o96"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    573,
+    1187,
+    732,
+    1210
+   ]
+  },
+  {
+   "pair": "15-16",
+   "text": "Mother.",
+   "answer": "MAMA",
+   "page": "puzzle",
+   "ocr": [
+    "o98"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    574,
+    1208,
+    715,
+    1228
+   ]
+  },
+  {
+   "pair": "17-18",
+   "text": "Made fast.",
+   "answer": "TIED",
+   "page": "puzzle",
+   "ocr": [
+    "o100"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    574,
+    1227,
+    745,
+    1250
+   ]
+  },
+  {
+   "pair": "19-20",
+   "text": "Dogs, birds and cats.",
+   "answer": "PETS",
+   "page": "puzzle",
+   "ocr": [
+    "o102"
+   ],
+   "box": [
+    568,
+    1246,
+    845,
+    1270
+   ],
+   "how": "eye"
+  },
+  {
+   "pair": "21-22",
+   "text": "An oven.",
+   "answer": "KILN",
+   "page": "puzzle",
+   "ocr": [
+    "o105"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    573,
+    1267,
+    725,
+    1287
+   ]
+  },
+  {
+   "pair": "23-24",
+   "text": "Words and music.",
+   "answer": "SONG",
+   "page": "puzzle",
+   "ocr": [
+    "o107"
+   ],
+   "box": [
+    568,
+    1284,
+    845,
+    1309
+   ],
+   "how": "eye"
+  },
+  {
+   "pair": "25-26",
+   "text": "Very small.",
+   "answer": "TINY",
+   "page": "puzzle",
+   "ocr": [
+    "o109"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    571,
+    1304,
+    749,
+    1327
+   ]
+  },
+  {
+   "pair": "27-28",
+   "text": "Tolling.",
+   "answer": "RINGING",
+   "page": "puzzle",
+   "ocr": [
+    "o112"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    571,
+    1324,
+    712,
+    1348
+   ]
+  },
+  {
+   "pair": "29-30",
+   "text": "Trimmed.",
+   "answer": "PARED",
+   "page": "puzzle",
+   "ocr": [
+    "o113"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    572,
+    1344,
+    727,
+    1368
+   ]
+  },
+  {
+   "pair": "31-32",
+   "text": "A sailor.",
+   "answer": "TAR",
+   "page": "puzzle",
+   "ocr": [
+    "o62"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    884,
+    989,
+    1034,
+    1014
+   ]
+  },
+  {
+   "pair": "33-34",
+   "text": "Flesh for food.",
+   "answer": "MEAT",
+   "page": "puzzle",
+   "ocr": [
+    "o65"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    882,
+    1010,
+    1090,
+    1033
+   ]
+  },
+  {
+   "pair": "35-36",
+   "text": "A color.",
+   "answer": "GRAY",
+   "page": "puzzle",
+   "ocr": [
+    "o68"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    882,
+    1030,
+    1026,
+    1053
+   ]
+  },
+  {
+   "pair": "1-8",
+   "text": "Wagers.",
+   "answer": "BETS",
+   "page": "puzzle",
+   "ocr": [
+    "o72"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    890,
+    1049,
+    1028,
+    1073
+   ]
+  },
+  {
+   "pair": "3-12",
+   "text": "To measure.",
+   "answer": "METE",
+   "page": "puzzle",
+   "ocr": [
+    "o76"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    891,
+    1069,
+    1062,
+    1092
+   ]
+  },
+  {
+   "pair": "5-27",
+   "text": "A member of the Senate.",
+   "answer": "SENATOR",
+   "page": "puzzle",
+   "ocr": [
+    "o81",
+    "o85"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    889,
+    1085,
+    1165,
+    1130
+   ]
+  },
+  {
+   "pair": "7-23",
+   "text": "Titles.",
+   "answer": "NAMES",
+   "page": "puzzle",
+   "ocr": [
+    "o88"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    891,
+    1127,
+    1011,
+    1150
+   ]
+  },
+  {
+   "pair": "11-19",
+   "text": "A chart.",
+   "answer": "MAP",
+   "page": "puzzle",
+   "ocr": [
+    "o92"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    882,
+    1148,
+    1029,
+    1171
+   ]
+  },
+  {
+   "pair": "2-9",
+   "text": "Measures.",
+   "answer": "ELLS",
+   "page": "puzzle",
+   "ocr": [
+    "o95"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    891,
+    1167,
+    1036,
+    1190
+   ]
+  },
+  {
+   "pair": "4-13",
+   "text": "A chair.",
+   "answer": "SEAT",
+   "page": "puzzle",
+   "ocr": [
+    "o97"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    891,
+    1186,
+    1029,
+    1209
+   ]
+  },
+  {
+   "pair": "6-28",
+   "text": "Raising an uproar.",
+   "answer": "RIOTING",
+   "page": "puzzle",
+   "ocr": [
+    "o99"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    890,
+    1206,
+    1125,
+    1231
+   ]
+  },
+  {
+   "pair": "14-22",
+   "text": "His own room.",
+   "answer": "DEN",
+   "page": "puzzle",
+   "ocr": [
+    "o101"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    882,
+    1226,
+    1091,
+    1250
+   ]
+  },
+  {
+   "pair": "10-26",
+   "text": "Every day.",
+   "answer": "DAILY",
+   "page": "puzzle",
+   "ocr": [
+    "o103"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    882,
+    1244,
+    1055,
+    1270
+   ]
+  },
+  {
+   "pair": "21-30",
+   "text": "Benevolent.",
+   "answer": "KIND",
+   "page": "puzzle",
+   "ocr": [
+    "o106"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    882,
+    1265,
+    1059,
+    1288
+   ]
+  },
+  {
+   "pair": "25-32",
+   "text": "A row.",
+   "answer": "TIER",
+   "page": "puzzle",
+   "ocr": [
+    "o108"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    881,
+    1282,
+    1016,
+    1308
+   ]
+  },
+  {
+   "pair": "20-29",
+   "text": "To cut.",
+   "answer": "SNIP",
+   "page": "puzzle",
+   "ocr": [
+    "o110"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    882,
+    1302,
+    1018,
+    1328
+   ]
+  },
+  {
+   "pair": "24-31",
+   "text": "A small insect.",
+   "answer": "GNAT",
+   "page": "puzzle",
+   "ocr": [
+    "o111"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    887,
+    1322,
+    1094,
+    1345
+   ]
+  }
+ ]
+}

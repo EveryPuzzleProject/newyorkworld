@@ -1,0 +1,1326 @@
+{
+ "xdid": "nyw1914-05-03",
+ "no": 20,
+ "pages": {
+  "puzzle": "Milwaukee_Sentinel_1914_05_03_95.png",
+  "solution": "Milwaukee_Sentinel_1914_05_10_90.png"
+ },
+ "grid": {
+  "page": "puzzle",
+  "corners": [
+   [
+    331,
+    110
+   ],
+   [
+    1262,
+    113
+   ],
+   [
+    1260,
+    1047
+   ],
+   [
+    325,
+    1045
+   ]
+  ],
+  "rows": 20,
+  "cols": 20
+ },
+ "key": {
+  "page": "solution",
+  "corners": [
+   [
+    549,
+    983
+   ],
+   [
+    1017,
+    982
+   ],
+   [
+    1019,
+    1452
+   ],
+   [
+    549,
+    1451
+   ]
+  ],
+  "rows": 20,
+  "cols": 20
+ },
+ "lines": [
+  {
+   "label": "heading",
+   "text": "FUN'S",
+   "page": "puzzle",
+   "ocr": [
+    "o2"
+   ],
+   "box": [
+    635,
+    100,
+    965,
+    277
+   ]
+  },
+  {
+   "label": "heading",
+   "text": "CROSS-",
+   "page": "puzzle",
+   "ocr": [
+    "o40"
+   ],
+   "box": [
+    304,
+    392,
+    676,
+    579
+   ]
+  },
+  {
+   "label": "heading",
+   "text": "WORD",
+   "page": "puzzle",
+   "ocr": [
+    "o69"
+   ],
+   "box": [
+    304,
+    564,
+    659,
+    760
+   ]
+  },
+  {
+   "label": "heading",
+   "text": "PUZ-",
+   "page": "puzzle",
+   "ocr": [
+    "o45"
+   ],
+   "box": [
+    1012,
+    402,
+    1283,
+    577
+   ]
+  },
+  {
+   "label": "heading",
+   "text": "ZLES",
+   "page": "puzzle",
+   "ocr": [
+    "o70"
+   ],
+   "box": [
+    960,
+    571,
+    1280,
+    745
+   ]
+  },
+  {
+   "label": "number",
+   "text": "No 20",
+   "page": "puzzle",
+   "ocr": [
+    "o114"
+   ],
+   "box": [
+    695,
+    875,
+    905,
+    1028
+   ]
+  },
+  {
+   "label": "intro heading",
+   "text": "CAN YOU SOLVE THIS ONE?",
+   "page": "puzzle",
+   "ocr": [
+    "o3",
+    "o7",
+    "o10"
+   ],
+   "box": [
+    85,
+    97,
+    288,
+    200
+   ]
+  },
+  {
+   "label": "credit",
+   "text": "FUN'S puzzle solvers are indebted to Miss Elizabeth M. Butzinger of West One Hundred and Thirty-fifth street, New York City, for the accompanying cross word puzzle, the twentieth in FUN'S series.",
+   "page": "puzzle",
+   "ocr": [
+    "o13",
+    "o15",
+    "o18",
+    "o19",
+    "o23",
+    "o25",
+    "o29",
+    "o31",
+    "o36",
+    "o38"
+   ],
+   "box": [
+    69,
+    194,
+    306,
+    408
+   ]
+  },
+  {
+   "label": "intro",
+   "text": "\"I am sure,\" she writes, \"your readers will find this puzzle more difficult than any published so far.\" Whether it is more difficult or not, is a question you will have to decide for yourselves. The puzzle is certainly different and its construction must have required considerable ingenuity and patience. Fill in the small squares with words corresponding to the list of clews and definitions given herewith. The solution will be given in next week's FUN.",
+   "page": "puzzle",
+   "ocr": [
+    "o44",
+    "o47",
+    "o52",
+    "o54",
+    "o58",
+    "o59",
+    "o62",
+    "o66",
+    "o68",
+    "o72",
+    "o75",
+    "o79",
+    "o81",
+    "o83",
+    "o86",
+    "o88",
+    "o92",
+    "o96",
+    "o100",
+    "o102",
+    "o105",
+    "o107"
+   ],
+   "box": [
+    70,
+    400,
+    306,
+    866
+   ]
+  },
+  {
+   "label": "note",
+   "text": "Nos. 1, 14, 51 and 64 are the four points of the compass.",
+   "page": "puzzle",
+   "ocr": [
+    "o169",
+    "o173",
+    "o175"
+   ],
+   "box": [
+    1278,
+    1151,
+    1515,
+    1218
+   ]
+  },
+  {
+   "label": "solution heading",
+   "text": "SOLUTION TO No 20",
+   "page": "solution",
+   "box": [
+    742,
+    1375,
+    828,
+    1440
+   ]
+  }
+ ],
+ "clues": [
+  {
+   "pair": "1-2",
+   "text": "A young hawk.",
+   "answer": "NIAS",
+   "page": "puzzle",
+   "ocr": [
+    "o112"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    81,
+    861,
+    274,
+    889
+   ]
+  },
+  {
+   "pair": "3-4",
+   "text": "What Samson did to the Philistines.",
+   "answer": "SLEW",
+   "page": "puzzle",
+   "ocr": [
+    "o115",
+    "o117"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    81,
+    880,
+    305,
+    928
+   ]
+  },
+  {
+   "pair": "5-6",
+   "text": "A farm implement",
+   "answer": "PLOW",
+   "page": "puzzle",
+   "ocr": [
+    "o123"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    81,
+    922,
+    304,
+    954
+   ]
+  },
+  {
+   "pair": "7-8",
+   "text": "An ensign.",
+   "answer": "FLAG",
+   "page": "puzzle",
+   "ocr": [
+    "o125"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    82,
+    943,
+    231,
+    972
+   ]
+  },
+  {
+   "pair": "9-10",
+   "text": "A small amphibious animal.",
+   "answer": "FROG",
+   "page": "puzzle",
+   "ocr": [
+    "o129",
+    "o131"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    81,
+    964,
+    301,
+    1011
+   ]
+  },
+  {
+   "pair": "11-12",
+   "text": "To kill.",
+   "answer": "SLAY",
+   "page": "puzzle",
+   "ocr": [
+    "o133"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    70,
+    1003,
+    208,
+    1033
+   ]
+  },
+  {
+   "pair": "13-14",
+   "text": "That which is here present.",
+   "answer": "THIS",
+   "page": "puzzle",
+   "ocr": [
+    "o138",
+    "o142"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    69,
+    1026,
+    303,
+    1073
+   ]
+  },
+  {
+   "pair": "15-16",
+   "text": "It revolves arount the earth.",
+   "answer": "MOON",
+   "page": "puzzle",
+   "ocr": [
+    "o144",
+    "o148"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    72,
+    1067,
+    305,
+    1116
+   ]
+  },
+  {
+   "pair": "17-18",
+   "text": "A cavity.",
+   "answer": "HOLE",
+   "page": "puzzle",
+   "ocr": [
+    "o154"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    72,
+    1109,
+    229,
+    1137
+   ]
+  },
+  {
+   "pair": "19-20",
+   "text": "Autumn time.",
+   "answer": "FALL",
+   "page": "puzzle",
+   "ocr": [
+    "o159"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    73,
+    1129,
+    272,
+    1159
+   ]
+  },
+  {
+   "pair": "21-22",
+   "text": "Concern.",
+   "answer": "CARE",
+   "page": "puzzle",
+   "ocr": [
+    "o164"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    73,
+    1151,
+    219,
+    1180
+   ]
+  },
+  {
+   "pair": "23-24",
+   "text": "What you do when you don't win.",
+   "answer": "LOSE",
+   "page": "puzzle",
+   "ocr": [
+    "o170",
+    "o176"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    70,
+    1172,
+    305,
+    1220
+   ]
+  },
+  {
+   "pair": "25-26",
+   "text": "A boat with a flat bottom.",
+   "answer": "FLATBOAT",
+   "page": "puzzle",
+   "ocr": [
+    "o149"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    318,
+    1072,
+    550,
+    1118
+   ]
+  },
+  {
+   "pair": "27-28",
+   "text": "To apprehend.",
+   "answer": "ARREST",
+   "page": "puzzle",
+   "ocr": [
+    "o155"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    318,
+    1111,
+    530,
+    1140
+   ]
+  },
+  {
+   "pair": "29-30",
+   "text": "Part of your face",
+   "answer": "NOSE",
+   "page": "puzzle",
+   "ocr": [
+    "o161"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    318,
+    1133,
+    552,
+    1159
+   ]
+  },
+  {
+   "pair": "31-32",
+   "text": "Myself.",
+   "answer": "ME",
+   "page": "puzzle",
+   "ocr": [
+    "o165"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    320,
+    1154,
+    455,
+    1178
+   ]
+  },
+  {
+   "pair": "33-34",
+   "text": "To have existence.",
+   "answer": "BE",
+   "page": "puzzle",
+   "ocr": [
+    "o170",
+    "o177"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    318,
+    1172,
+    555,
+    1222
+   ]
+  },
+  {
+   "pair": "35-36",
+   "text": "An infernal machine.",
+   "answer": "BOMB",
+   "page": "puzzle",
+   "ocr": [
+    "o151"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    558,
+    1070,
+    790,
+    1118
+   ]
+  },
+  {
+   "pair": "37-38",
+   "text": "A little stream.",
+   "answer": "RUNLET",
+   "page": "puzzle",
+   "ocr": [
+    "o156"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    558,
+    1112,
+    790,
+    1138
+   ]
+  },
+  {
+   "pair": "39-40",
+   "text": "A measure.",
+   "answer": "METEYARD",
+   "page": "puzzle",
+   "ocr": [
+    "o161"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    558,
+    1133,
+    740,
+    1159
+   ]
+  },
+  {
+   "pair": "41-42",
+   "text": "Sold by butchers.",
+   "answer": "MEAT",
+   "page": "puzzle",
+   "ocr": [
+    "o166"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    558,
+    1153,
+    795,
+    1180
+   ]
+  },
+  {
+   "pair": "43-44",
+   "text": "A yellow metal.",
+   "answer": "GOLD",
+   "page": "puzzle",
+   "ocr": [
+    "o170"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    558,
+    1173,
+    785,
+    1201
+   ]
+  },
+  {
+   "pair": "45-46",
+   "text": "Detained.",
+   "answer": "KEPT",
+   "page": "puzzle",
+   "ocr": [
+    "o178"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    560,
+    1196,
+    715,
+    1219
+   ]
+  },
+  {
+   "pair": "47-48",
+   "text": "Ten cents.",
+   "answer": "DIME",
+   "page": "puzzle",
+   "ocr": [
+    "o145"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    795,
+    1069,
+    962,
+    1098
+   ]
+  },
+  {
+   "pair": "49-50",
+   "text": "A crytogamous plant.",
+   "answer": "MOSS",
+   "page": "puzzle",
+   "ocr": [
+    "o152",
+    "o157"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    795,
+    1090,
+    1035,
+    1137
+   ]
+  },
+  {
+   "pair": "51-52",
+   "text": "What every one does to prolong life.",
+   "answer": "EATS",
+   "page": "puzzle",
+   "ocr": [
+    "o160",
+    "o167"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    795,
+    1130,
+    1035,
+    1180
+   ]
+  },
+  {
+   "pair": "53-54",
+   "text": "A highway.",
+   "answer": "ROAD",
+   "page": "puzzle",
+   "ocr": [
+    "o171"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    790,
+    1175,
+    975,
+    1200
+   ]
+  },
+  {
+   "pair": "55-56",
+   "text": "To haul.",
+   "answer": "DRAW",
+   "page": "puzzle",
+   "ocr": [
+    "o174"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    795,
+    1195,
+    915,
+    1222
+   ]
+  },
+  {
+   "pair": "57-58",
+   "text": "Beloved by all Irishmen.",
+   "answer": "ERIN",
+   "page": "puzzle",
+   "ocr": [
+    "o146",
+    "o153"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    1040,
+    1070,
+    1274,
+    1115
+   ]
+  },
+  {
+   "pair": "59-60",
+   "text": "To be acquainted with.",
+   "answer": "KNOW",
+   "page": "puzzle",
+   "ocr": [
+    "o158",
+    "o162"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    1036,
+    1108,
+    1275,
+    1160
+   ]
+  },
+  {
+   "pair": "61-62",
+   "text": "To prepare for publication.",
+   "answer": "EDIT",
+   "page": "puzzle",
+   "ocr": [
+    "o168",
+    "o172"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    1036,
+    1153,
+    1273,
+    1200
+   ]
+  },
+  {
+   "pair": "63-64",
+   "text": "Enough.",
+   "answer": "ENOW",
+   "page": "puzzle",
+   "ocr": [
+    "o179"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    1039,
+    1196,
+    1182,
+    1223
+   ]
+  },
+  {
+   "pair": "65-66",
+   "text": "A musical instrument.",
+   "answer": "TROMBONE",
+   "page": "puzzle",
+   "ocr": [
+    "o4",
+    "o8"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    1282,
+    97,
+    1515,
+    145
+   ]
+  },
+  {
+   "pair": "67-68",
+   "text": "Becoming.",
+   "answer": "BESEEMLY",
+   "page": "puzzle",
+   "ocr": [
+    "o9"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    1283,
+    140,
+    1447,
+    172
+   ]
+  },
+  {
+   "pair": "69-3",
+   "text": "A verb.",
+   "answer": "IS",
+   "page": "puzzle",
+   "ocr": [
+    "o11"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    1283,
+    163,
+    1412,
+    190
+   ]
+  },
+  {
+   "pair": "70-5",
+   "text": "A lofty mountain.",
+   "answer": "ALP",
+   "page": "puzzle",
+   "ocr": [
+    "o12"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    1281,
+    182,
+    1515,
+    212
+   ]
+  },
+  {
+   "pair": "71-18",
+   "text": "Used in the garden.",
+   "answer": "HOE",
+   "page": "puzzle",
+   "ocr": [
+    "o14",
+    "o17"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    1284,
+    203,
+    1518,
+    251
+   ]
+  },
+  {
+   "pair": "72-16",
+   "text": "Not out.",
+   "answer": "IN",
+   "page": "puzzle",
+   "ocr": [
+    "o21"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    1283,
+    245,
+    1433,
+    272
+   ]
+  },
+  {
+   "pair": "2-7",
+   "text": "Anything considered as having a distinct personality.",
+   "answer": "SELF",
+   "page": "puzzle",
+   "ocr": [
+    "o22",
+    "o24",
+    "o28"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    1293,
+    267,
+    1515,
+    337
+   ]
+  },
+  {
+   "pair": "4-9",
+   "text": "A ferocious animal.",
+   "answer": "WOLF",
+   "page": "puzzle",
+   "ocr": [
+    "o30",
+    "o35"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    1294,
+    331,
+    1514,
+    375
+   ]
+  },
+  {
+   "pair": "6-11",
+   "text": "Physical conflicts between nations.",
+   "answer": "WARS",
+   "page": "puzzle",
+   "ocr": [
+    "o37",
+    "o46",
+    "o48"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    1292,
+    376,
+    1515,
+    444
+   ]
+  },
+  {
+   "pair": "8-25",
+   "text": "An outdoor game",
+   "answer": "GOLF",
+   "page": "puzzle",
+   "ocr": [
+    "o51"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    1287,
+    436,
+    1516,
+    466
+   ]
+  },
+  {
+   "pair": "10-27",
+   "text": "A festivity.",
+   "answer": "GALA",
+   "page": "puzzle",
+   "ocr": [
+    "o53"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    1281,
+    458,
+    1459,
+    487
+   ]
+  },
+  {
+   "pair": "12-29",
+   "text": "Something a sailor loves to spin.",
+   "answer": "YARN",
+   "page": "puzzle",
+   "ocr": [
+    "o57",
+    "o60"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    1282,
+    480,
+    1514,
+    528
+   ]
+  },
+  {
+   "pair": "23-30",
+   "text": "To let slip.",
+   "answer": "LOSE",
+   "page": "puzzle",
+   "ocr": [
+    "o61"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    1280,
+    519,
+    1454,
+    549
+   ]
+  },
+  {
+   "pair": "21-28",
+   "text": "A garment.",
+   "answer": "COAT",
+   "page": "puzzle",
+   "ocr": [
+    "o65"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    1282,
+    543,
+    1456,
+    569
+   ]
+  },
+  {
+   "pair": "19-26",
+   "text": "To abstain from food.",
+   "answer": "FAST",
+   "page": "puzzle",
+   "ocr": [
+    "o67",
+    "o71"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    1282,
+    562,
+    1515,
+    610
+   ]
+  },
+  {
+   "pair": "17-24",
+   "text": "A long eared rodent.",
+   "answer": "HARE",
+   "page": "puzzle",
+   "ocr": [
+    "o76",
+    "o80"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    1282,
+    605,
+    1517,
+    657
+   ]
+  },
+  {
+   "pair": "15-22",
+   "text": "A birthmark.",
+   "answer": "MOLE",
+   "page": "puzzle",
+   "ocr": [
+    "o82"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    1281,
+    652,
+    1472,
+    678
+   ]
+  },
+  {
+   "pair": "13-20",
+   "text": "To strike a bell slowly.",
+   "answer": "TOLL",
+   "page": "puzzle",
+   "ocr": [
+    "o85",
+    "o87"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    1281,
+    671,
+    1515,
+    720
+   ]
+  },
+  {
+   "pair": "35-42",
+   "text": "A large cask.",
+   "answer": "BUTT",
+   "page": "puzzle",
+   "ocr": [
+    "o91"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    1281,
+    715,
+    1469,
+    739
+   ]
+  },
+  {
+   "pair": "37-44",
+   "text": "What FUN is.",
+   "answer": "READ",
+   "page": "puzzle",
+   "ocr": [
+    "o93"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    1282,
+    735,
+    1485,
+    761
+   ]
+  },
+  {
+   "pair": "39-46",
+   "text": "To reduce from a solid to a liquid state by heat.",
+   "answer": "MELT",
+   "page": "puzzle",
+   "ocr": [
+    "o95",
+    "o101",
+    "o103"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    1281,
+    756,
+    1516,
+    824
+   ]
+  },
+  {
+   "pair": "41-48",
+   "text": "To be gloomy.",
+   "answer": "MOPE",
+   "page": "puzzle",
+   "ocr": [
+    "o106"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    1278,
+    817,
+    1483,
+    846
+   ]
+  },
+  {
+   "pair": "43-50",
+   "text": "Precious stones.",
+   "answer": "GEMS",
+   "page": "puzzle",
+   "ocr": [
+    "o108"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    1279,
+    840,
+    1504,
+    865
+   ]
+  },
+  {
+   "pair": "45-52",
+   "text": "An affectionate salutation.",
+   "answer": "KISS",
+   "page": "puzzle",
+   "ocr": [
+    "o113",
+    "o116"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    1281,
+    860,
+    1515,
+    906
+   ]
+  },
+  {
+   "pair": "47-74",
+   "text": "A tiny mark.",
+   "answer": "DOT",
+   "page": "puzzle",
+   "ocr": [
+    "o122"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    1282,
+    902,
+    1480,
+    928
+   ]
+  },
+  {
+   "pair": "49-73",
+   "text": "Mother.",
+   "answer": "MA",
+   "page": "puzzle",
+   "ocr": [
+    "o124"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    1280,
+    921,
+    1421,
+    950
+   ]
+  },
+  {
+   "pair": "36-53",
+   "text": "To sustain.",
+   "answer": "BEAR",
+   "page": "puzzle",
+   "ocr": [
+    "o126"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    1281,
+    943,
+    1454,
+    970
+   ]
+  },
+  {
+   "pair": "38-55",
+   "text": "The past perfect of tread.",
+   "answer": "TROD",
+   "page": "puzzle",
+   "ocr": [
+    "o130",
+    "o132"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    1279,
+    964,
+    1516,
+    1010
+   ]
+  },
+  {
+   "pair": "40-57",
+   "text": "A challenge.",
+   "answer": "DARE",
+   "page": "puzzle",
+   "ocr": [
+    "o137"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    1281,
+    1006,
+    1467,
+    1032
+   ]
+  },
+  {
+   "pair": "54-59",
+   "text": "Not light.",
+   "answer": "DARK",
+   "page": "puzzle",
+   "ocr": [
+    "o141"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    1282,
+    1028,
+    1444,
+    1052
+   ]
+  },
+  {
+   "pair": "56-61",
+   "text": "Fermented grape juice.",
+   "answer": "WINE",
+   "page": "puzzle",
+   "ocr": [
+    "o143",
+    "o147"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    1280,
+    1046,
+    1515,
+    1094
+   ]
+  },
+  {
+   "pair": "58-63",
+   "text": "A knob.",
+   "answer": "NODE",
+   "page": "puzzle",
+   "ocr": [
+    "o150"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    1278,
+    1091,
+    1421,
+    1115
+   ]
+  },
+  {
+   "pair": "60-75",
+   "text": "To gain.",
+   "answer": "WIN",
+   "page": "puzzle",
+   "ocr": [
+    "o158"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    1278,
+    1108,
+    1426,
+    1139
+   ]
+  },
+  {
+   "pair": "62-76",
+   "text": "Toward.",
+   "answer": "TO",
+   "page": "puzzle",
+   "ocr": [
+    "o163"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    1282,
+    1132,
+    1419,
+    1155
+   ]
+  }
+ ]
+}

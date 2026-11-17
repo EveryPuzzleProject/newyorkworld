@@ -1,0 +1,655 @@
+{
+ "xdid": "nyw1914-03-22",
+ "no": 14,
+ "pages": {
+  "puzzle": "Milwaukee_Sentinel_1914_03_22_84.png",
+  "solution": "Milwaukee_Sentinel_1914_03_29_87.png"
+ },
+ "grid": {
+  "page": "puzzle",
+  "corners": [
+   [
+    536,
+    231
+   ],
+   [
+    1138,
+    231
+   ],
+   [
+    1138,
+    838
+   ],
+   [
+    536,
+    838
+   ]
+  ],
+  "rows": 13,
+  "cols": 13
+ },
+ "key": {
+  "page": "solution",
+  "corners": [
+   [
+    750,
+    242
+   ],
+   [
+    1098,
+    242
+   ],
+   [
+    1098,
+    593
+   ],
+   [
+    750,
+    593
+   ]
+  ],
+  "rows": 13,
+  "cols": 13
+ },
+ "lines": [
+  {
+   "label": "heading",
+   "text": "FUN'S CROSS-WORD PUZZLES",
+   "page": "puzzle",
+   "ocr": [
+    "o2"
+   ],
+   "box": [
+    508,
+    84,
+    1168,
+    215
+   ]
+  },
+  {
+   "label": "heading",
+   "text": "CAN YOU SOLVE THEM?",
+   "page": "puzzle",
+   "ocr": [
+    "o11",
+    "o9",
+    "o10"
+   ],
+   "box": [
+    522,
+    173,
+    1150,
+    420
+   ]
+  },
+  {
+   "label": "number",
+   "text": "No 14",
+   "page": "puzzle",
+   "ocr": [
+    "o27"
+   ],
+   "box": [
+    736,
+    481,
+    940,
+    588
+   ]
+  },
+  {
+   "label": "intro",
+   "text": "Today's cross word puzzle, the fourteenth in FUN'S series, will be found different from any previous one. It was sent in by \"G. H. F.,\" of Putnam avenue, Brooklyn. Fill in the small squares with words corresponding to the clews and definitions given below. The solution will be given in next week's FUN.",
+   "page": "puzzle",
+   "ocr": [
+    "o52",
+    "o53",
+    "o54",
+    "o55",
+    "o57",
+    "o59"
+   ],
+   "box": [
+    516,
+    832,
+    1158,
+    947
+   ]
+  },
+  {
+   "label": "credit",
+   "text": "It was sent in by \"G. H. F.,\" of Putnam avenue, Brooklyn.",
+   "page": "puzzle",
+   "ocr": [
+    "o54",
+    "o55"
+   ],
+   "box": [
+    520,
+    853,
+    1158,
+    903
+   ]
+  }
+ ],
+ "clues": [
+  {
+   "pair": "1-2",
+   "text": "A garden implement.",
+   "answer": "HOE",
+   "page": "puzzle",
+   "ocr": [
+    "o61"
+   ],
+   "box": [
+    528,
+    964,
+    798,
+    989
+   ],
+   "how": "eye"
+  },
+  {
+   "pair": "3-4",
+   "text": "To divide into two parts.",
+   "answer": "HALVE",
+   "page": "puzzle",
+   "ocr": [
+    "o63"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    530,
+    987,
+    833,
+    1010
+   ]
+  },
+  {
+   "pair": "5-6",
+   "text": "Generally eaten with beef.",
+   "answer": "MUSTARD",
+   "page": "puzzle",
+   "ocr": [
+    "o65",
+    "o69"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    521,
+    1005,
+    828,
+    1052
+   ]
+  },
+  {
+   "pair": "7-8",
+   "text": "A gentle blow.",
+   "answer": "DAB",
+   "page": "puzzle",
+   "ocr": [
+    "o70"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    527,
+    1048,
+    728,
+    1075
+   ]
+  },
+  {
+   "pair": "9-10",
+   "text": "A color.",
+   "answer": "RED",
+   "page": "puzzle",
+   "ocr": [
+    "o75"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    525,
+    1071,
+    670,
+    1095
+   ]
+  },
+  {
+   "pair": "11-12",
+   "text": "The mythological god of shepherds.",
+   "answer": "PAN",
+   "page": "puzzle",
+   "ocr": [
+    "o77",
+    "o79"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    516,
+    1089,
+    822,
+    1136
+   ]
+  },
+  {
+   "pair": "13-14",
+   "text": "To attempt.",
+   "answer": "TRY",
+   "page": "puzzle",
+   "ocr": [
+    "o83"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    512,
+    1133,
+    704,
+    1158
+   ]
+  },
+  {
+   "pair": "15-16",
+   "text": "Particulars.",
+   "answer": "DATA",
+   "page": "puzzle",
+   "ocr": [
+    "o84"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    511,
+    1152,
+    700,
+    1178
+   ]
+  },
+  {
+   "pair": "17-18",
+   "text": "Found in every house.",
+   "answer": "ROOM",
+   "page": "puzzle",
+   "ocr": [
+    "o88"
+   ],
+   "box": [
+    511,
+    1174,
+    808,
+    1199
+   ],
+   "how": "eye"
+  },
+  {
+   "pair": "19-20",
+   "text": "A limb.",
+   "answer": "LEG",
+   "page": "puzzle",
+   "ocr": [
+    "o91"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    511,
+    1196,
+    661,
+    1219
+   ]
+  },
+  {
+   "pair": "21-22",
+   "text": "To possess.",
+   "answer": "OWN",
+   "page": "puzzle",
+   "ocr": [
+    "o92"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    512,
+    1216,
+    698,
+    1242
+   ]
+  },
+  {
+   "pair": "23-24",
+   "text": "A complete assortment.",
+   "answer": "SET",
+   "page": "puzzle",
+   "ocr": [
+    "o94"
+   ],
+   "box": [
+    511,
+    1236,
+    825,
+    1260
+   ],
+   "how": "eye"
+  },
+  {
+   "pair": "25-26",
+   "text": "Place to put coal.",
+   "answer": "BIN",
+   "page": "puzzle",
+   "ocr": [
+    "o96"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    512,
+    1256,
+    759,
+    1281
+   ]
+  },
+  {
+   "pair": "27-28",
+   "text": "A cheese delicacy.",
+   "answer": "RAREBIT",
+   "page": "puzzle",
+   "ocr": [
+    "o98"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    512,
+    1277,
+    767,
+    1304
+   ]
+  },
+  {
+   "pair": "29-30",
+   "text": "Quick.",
+   "answer": "RAPID",
+   "page": "puzzle",
+   "ocr": [
+    "o100"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    512,
+    1296,
+    654,
+    1325
+   ]
+  },
+  {
+   "pair": "31-32",
+   "text": "Used by \"Chief Meyers.\"",
+   "answer": "MIT",
+   "page": "puzzle",
+   "ocr": [
+    "o102",
+    "o104"
+   ],
+   "box": [
+    511,
+    1317,
+    823,
+    1369
+   ],
+   "how": "eye"
+  },
+  {
+   "pair": "33-34",
+   "text": "A young horse.",
+   "answer": "COLT",
+   "page": "puzzle",
+   "ocr": [
+    "o62"
+   ],
+   "box": [
+    836,
+    963,
+    1062,
+    989
+   ],
+   "how": "eye"
+  },
+  {
+   "pair": "35-36",
+   "text": "Heoric poem.",
+   "answer": "EPIC",
+   "page": "puzzle",
+   "ocr": [
+    "o64"
+   ],
+   "box": [
+    834,
+    987,
+    1046,
+    1010
+   ],
+   "how": "eye"
+  },
+  {
+   "pair": "1-37",
+   "text": "Part of the verb have.",
+   "answer": "HAS",
+   "page": "puzzle",
+   "ocr": [
+    "o66"
+   ],
+   "box": [
+    848,
+    1007,
+    1132,
+    1030
+   ],
+   "how": "eye"
+  },
+  {
+   "pair": "3-8",
+   "text": "Part of a wheel.",
+   "answer": "HUB",
+   "page": "puzzle",
+   "ocr": [
+    "o68"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    851,
+    1027,
+    1067,
+    1050
+   ]
+  },
+  {
+   "pair": "5-27",
+   "text": "A director.",
+   "answer": "MANAGER",
+   "page": "puzzle",
+   "ocr": [
+    "o71"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    851,
+    1048,
+    1024,
+    1071
+   ]
+  },
+  {
+   "pair": "7-23",
+   "text": "Made to keep but often forgotten.",
+   "answer": "DATES",
+   "page": "puzzle",
+   "ocr": [
+    "o74",
+    "o78"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    848,
+    1066,
+    1148,
+    1113
+   ]
+  },
+  {
+   "pair": "11-19",
+   "text": "A chum.",
+   "answer": "PAL",
+   "page": "puzzle",
+   "ocr": [
+    "o80"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    840,
+    1111,
+    1000,
+    1135
+   ]
+  },
+  {
+   "pair": "24-29",
+   "text": "A sailor.",
+   "answer": "TAR",
+   "page": "puzzle",
+   "ocr": [
+    "o82"
+   ],
+   "box": [
+    836,
+    1131,
+    992,
+    1155
+   ],
+   "how": "eye"
+  },
+  {
+   "pair": "39-31",
+   "text": "Ahe steel beak of a fighting ship.",
+   "answer": "RAM",
+   "page": "puzzle",
+   "ocr": [
+    "o85",
+    "o87"
+   ],
+   "box": [
+    836,
+    1151,
+    1152,
+    1199
+   ],
+   "how": "eye"
+  },
+  {
+   "pair": "2-38",
+   "printed": "2-28",
+   "text": "A girl's name.",
+   "answer": "EVA",
+   "page": "puzzle",
+   "ocr": [
+    "o90"
+   ],
+   "box": [
+    844,
+    1194,
+    1052,
+    1218
+   ],
+   "how": "eye"
+  },
+  {
+   "pair": "4-9",
+   "text": "To make an error.",
+   "answer": "ERR",
+   "page": "puzzle",
+   "ocr": [
+    "o93"
+   ],
+   "box": [
+    846,
+    1216,
+    1082,
+    1240
+   ],
+   "how": "eye"
+  },
+  {
+   "pair": "6-28",
+   "text": "A large western city.",
+   "answer": "DETROIT",
+   "page": "puzzle",
+   "ocr": [
+    "o95"
+   ],
+   "box": [
+    836,
+    1236,
+    1118,
+    1260
+   ],
+   "how": "eye"
+  },
+  {
+   "pair": "10-26",
+   "text": "To suffocate in the water.",
+   "answer": "DROWN",
+   "page": "puzzle",
+   "ocr": [
+    "o97",
+    "o99"
+   ],
+   "box": [
+    832,
+    1255,
+    1150,
+    1302
+   ],
+   "how": "eye"
+  },
+  {
+   "pair": "14-22",
+   "text": "Yonder.",
+   "answer": "YON",
+   "page": "puzzle",
+   "ocr": [
+    "o101"
+   ],
+   "box": [
+    831,
+    1297,
+    968,
+    1324
+   ],
+   "how": "eye"
+  },
+  {
+   "pair": "25-30",
+   "text": "An offer.",
+   "answer": "BID",
+   "page": "puzzle",
+   "ocr": [
+    "o103"
+   ],
+   "box": [
+    832,
+    1319,
+    962,
+    1344
+   ],
+   "how": "eye"
+  },
+  {
+   "pair": "40-32",
+   "text": "A small piece.",
+   "answer": "BIT",
+   "page": "puzzle",
+   "ocr": [
+    "o105"
+   ],
+   "box": [
+    835,
+    1340,
+    1042,
+    1366
+   ],
+   "how": "eye"
+  }
+ ]
+}

@@ -1,0 +1,436 @@
+{
+ "xdid": "nyw1914-08-09",
+ "no": 31,
+ "pages": {
+  "puzzle": "Milwaukee_Sentinel_1914_08_09_83.png",
+  "solution": "Milwaukee_Sentinel_1914_08_16_82.png"
+ },
+ "grid": {
+  "page": "puzzle",
+  "corners": [
+   [
+    477,
+    197
+   ],
+   [
+    1110,
+    197
+   ],
+   [
+    1110,
+    834
+   ],
+   [
+    475,
+    835
+   ]
+  ],
+  "rows": 13,
+  "cols": 13
+ },
+ "key": {
+  "page": "solution",
+  "corners": [
+   [
+    507,
+    1436
+   ],
+   [
+    851,
+    1438
+   ],
+   [
+    850,
+    1779
+   ],
+   [
+    504,
+    1777
+   ]
+  ],
+  "rows": 13,
+  "cols": 13
+ },
+ "lines": [
+  {
+   "label": "heading",
+   "text": "SOME GEOGRAPHY!",
+   "page": "puzzle",
+   "ocr": [
+    "o4"
+   ],
+   "box": [
+    636,
+    80,
+    992,
+    114
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "label": "subheading",
+   "text": "Here's a Perplexing Variety of Cross-Word Puzzle for FUN Readers to Ponder Over.",
+   "page": "puzzle",
+   "ocr": [
+    "o5",
+    "o6",
+    "o7"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    465,
+    114,
+    1118,
+    188
+   ]
+  },
+  {
+   "label": "intro",
+   "text": "In response to the oft-repeated challenge of FUN'S cross-word puzzle solvers to give them a really difficult problem to work out, the puzzle editor respectfully tenders the above geographical puzzle. It is a contribution to FUN'S cross-word collection from E. W. Fuller of West Forty-sixth street, New York City. Mr. Fuller writes that he is at work on another puzzle which may prove still more difficult to solve than today's.",
+   "page": "puzzle",
+   "ocr": [
+    "o40",
+    "o47",
+    "o48",
+    "o58",
+    "o59"
+   ],
+   "box": [
+    474,
+    843,
+    1122,
+    996
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "label": "credit",
+   "text": "It is a contribution to FUN'S cross-word collection from E. W. Fuller of West Forty-sixth street, New York City.",
+   "page": "puzzle",
+   "ocr": [
+    "o58"
+   ],
+   "box": [
+    474,
+    911,
+    1122,
+    973
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "label": "instructions",
+   "text": "Get out your atlas or geography and see if you can fill in the blank squares with words corresponding to the list of clews and definitions given below. The solution to this puzzle will be given in next week's FUN.",
+   "page": "puzzle",
+   "ocr": [
+    "o65",
+    "o66",
+    "o69"
+   ],
+   "box": [
+    474,
+    994,
+    1124,
+    1077
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "label": "solution caption",
+   "text": "Solution to Last Week's Cross-Word Puzzle.",
+   "page": "solution",
+   "ocr": [
+    "o189"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    499,
+    1778,
+    805,
+    1824
+   ]
+  }
+ ],
+ "clues": [
+  {
+   "pair": "1-2",
+   "text": "A city in Persia.",
+   "answer": "KOM",
+   "page": "puzzle",
+   "ocr": [
+    "o78"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    488,
+    1077,
+    750,
+    1103
+   ]
+  },
+  {
+   "pair": "1-4",
+   "text": "A sea—Russian empire.",
+   "answer": "KARA",
+   "page": "puzzle",
+   "ocr": [
+    "o81",
+    "o84"
+   ],
+   "box": [
+    484,
+    1101,
+    797,
+    1142
+   ],
+   "how": "eye"
+  },
+  {
+   "pair": "2-6",
+   "text": "An island—Hawaiian.",
+   "answer": "MAUI",
+   "page": "puzzle",
+   "ocr": [
+    "o86",
+    "o89"
+   ],
+   "box": [
+    484,
+    1141,
+    797,
+    1185
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "3-7",
+   "text": "A city in Brazil.",
+   "answer": "BAHIA",
+   "page": "puzzle",
+   "ocr": [
+    "o91"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    488,
+    1180,
+    755,
+    1206
+   ]
+  },
+  {
+   "pair": "8-13",
+   "text": "A city in Turkey.",
+   "answer": "ADANA",
+   "page": "puzzle",
+   "ocr": [
+    "o93"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    488,
+    1203,
+    758,
+    1229
+   ]
+  },
+  {
+   "pair": "9-10",
+   "text": "A city in Persia.",
+   "answer": "YEZD",
+   "page": "puzzle",
+   "ocr": [
+    "o95"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    489,
+    1224,
+    749,
+    1247
+   ]
+  },
+  {
+   "pair": "9-11",
+   "text": "A city in northern Africa.",
+   "answer": "YAT",
+   "page": "puzzle",
+   "ocr": [
+    "o98",
+    "o100"
+   ],
+   "box": [
+    484,
+    1247,
+    797,
+    1289
+   ],
+   "how": "eye"
+  },
+  {
+   "pair": "11-12",
+   "text": "A waterfall in Idaho.",
+   "answer": "TWIN",
+   "page": "puzzle",
+   "ocr": [
+    "o102",
+    "o105"
+   ],
+   "box": [
+    482,
+    1289,
+    797,
+    1334
+   ],
+   "how": "eye"
+  },
+  {
+   "pair": "14-19",
+   "text": "A city in Portugal.",
+   "answer": "BRAGA",
+   "page": "puzzle",
+   "ocr": [
+    "o77"
+   ],
+   "box": [
+    802,
+    1078,
+    1122,
+    1100
+   ],
+   "how": "eye"
+  },
+  {
+   "pair": "15-16",
+   "text": "A city in Spain.",
+   "answer": "REUS",
+   "page": "puzzle",
+   "ocr": [
+    "o80"
+   ],
+   "box": [
+    802,
+    1100,
+    1122,
+    1120
+   ],
+   "how": "eye"
+  },
+  {
+   "pair": "16-18",
+   "text": "A mountain in India.",
+   "answer": "SER",
+   "page": "puzzle",
+   "ocr": [
+    "o85"
+   ],
+   "box": [
+    802,
+    1120,
+    1122,
+    1141
+   ],
+   "how": "eye"
+  },
+  {
+   "pair": "17-18",
+   "text": "A city in Hungary.",
+   "answer": "GYOR",
+   "page": "puzzle",
+   "ocr": [
+    "o87"
+   ],
+   "box": [
+    802,
+    1141,
+    1122,
+    1163
+   ],
+   "how": "eye"
+  },
+  {
+   "pair": "20-24",
+   "text": "A city in Asiatic Russia.",
+   "answer": "TOMSK",
+   "page": "puzzle",
+   "ocr": [
+    "o90",
+    "o92"
+   ],
+   "box": [
+    802,
+    1163,
+    1122,
+    1204
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "21-25",
+   "text": "A city in Japan.",
+   "answer": "OTSU",
+   "page": "puzzle",
+   "ocr": [
+    "o94"
+   ],
+   "box": [
+    802,
+    1204,
+    1122,
+    1225
+   ],
+   "how": "eye"
+  },
+  {
+   "pair": "23-26",
+   "text": "An Asiatic monarchy.",
+   "answer": "SIAM",
+   "page": "puzzle",
+   "ocr": [
+    "o96",
+    "o97",
+    "o99"
+   ],
+   "box": [
+    802,
+    1225,
+    1122,
+    1268
+   ],
+   "how": "eye"
+  },
+  {
+   "pair": "25-26",
+   "text": "A city on the Danube river.",
+   "answer": "ULM",
+   "page": "puzzle",
+   "ocr": [
+    "o101",
+    "o103"
+   ],
+   "box": [
+    802,
+    1267,
+    1122,
+    1309
+   ],
+   "how": "eye"
+  },
+  {
+   "pair": "5-22",
+   "text": "A city in Germany.",
+   "answer": "HAARLEM",
+   "page": "puzzle",
+   "ocr": [
+    "o104"
+   ],
+   "box": [
+    802,
+    1309,
+    1122,
+    1335
+   ],
+   "how": "eye"
+  }
+ ]
+}

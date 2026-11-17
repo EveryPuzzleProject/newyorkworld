@@ -1,0 +1,699 @@
+{
+ "xdid": "nyw1914-06-28",
+ "no": 25,
+ "pages": {
+  "puzzle": "Milwaukee_Sentinel_1914_06_28_84.png",
+  "solution": "Milwaukee_Sentinel_1914_07_05_81.png"
+ },
+ "grid": {
+  "page": "puzzle",
+  "corners": [
+   [
+    114,
+    133
+   ],
+   [
+    846,
+    135
+   ],
+   [
+    845,
+    862
+   ],
+   [
+    113,
+    860
+   ]
+  ],
+  "rows": 13,
+  "cols": 13
+ },
+ "key": {
+  "page": "solution",
+  "corners": [
+   [
+    1111,
+    1569
+   ],
+   [
+    1476,
+    1569
+   ],
+   [
+    1476,
+    1932
+   ],
+   [
+    1111,
+    1932
+   ]
+  ],
+  "rows": 13,
+  "cols": 13
+ },
+ "lines": [
+  {
+   "label": "heading",
+   "text": "FUN'S",
+   "page": "puzzle",
+   "ocr": [
+    "o2"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    100,
+    95,
+    370,
+    240
+   ]
+  },
+  {
+   "label": "heading",
+   "text": "JULY 4",
+   "page": "puzzle",
+   "ocr": [
+    "o10",
+    "o16"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    114,
+    224,
+    297,
+    392
+   ]
+  },
+  {
+   "label": "heading",
+   "text": "CROSS WORD PUZZLE",
+   "page": "puzzle",
+   "ocr": [
+    "o3",
+    "o7"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    585,
+    110,
+    860,
+    315
+   ]
+  },
+  {
+   "label": "number",
+   "text": "No 25",
+   "page": "puzzle",
+   "ocr": [
+    "o49"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    149,
+    691,
+    305,
+    762
+   ]
+  },
+  {
+   "label": "heading",
+   "text": "Can You Solve It?",
+   "page": "puzzle",
+   "ocr": [
+    "o51",
+    "o55"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    648,
+    703,
+    856,
+    816
+   ]
+  },
+  {
+   "label": "intro",
+   "text": "There is a fourth of July flavor to today's cross-word puzzle. You are invited to think of the Declaration of Independence and what it meant in 1776 and what it means today while you are trying to solve this puzzle. Fill in the small squares with words corresponding to the list of clews and definitions given below, allowing one letter of each word to each square. You will find the solution to this puzzle in next week's FUN. Meanwhile, see if you can solve it yourself.",
+   "page": "puzzle",
+   "ocr": [
+    "o65",
+    "o66",
+    "o69",
+    "o70",
+    "o72",
+    "o74",
+    "o76"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    105,
+    858,
+    866,
+    1010
+   ]
+  },
+  {
+   "label": "solution heading",
+   "text": "SOLUTION TO No 25 PUZZLE",
+   "page": "solution",
+   "box": [
+    1250,
+    1715,
+    1340,
+    1785
+   ],
+   "how": "eye"
+  }
+ ],
+ "clues": [
+  {
+   "pair": "2-3",
+   "text": "It followed the Declaration of Independence.",
+   "answer": "WAR",
+   "page": "puzzle",
+   "ocr": [
+    "o82"
+   ],
+   "box": [
+    105,
+    1005,
+    500,
+    1050
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "4-5",
+   "text": "Displayed by Washington's soldiers.",
+   "answer": "VALOR",
+   "page": "puzzle",
+   "ocr": [
+    "o86",
+    "o88"
+   ],
+   "box": [
+    105,
+    1046,
+    500,
+    1095
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "6-7",
+   "text": "Fourth of July celebrations are not complete without these.",
+   "answer": "PARADES",
+   "page": "puzzle",
+   "ocr": [
+    "o91",
+    "o93"
+   ],
+   "box": [
+    105,
+    1092,
+    500,
+    1141
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "8-9",
+   "text": "The American eagle.",
+   "answer": "BIRD",
+   "page": "puzzle",
+   "ocr": [
+    "o96"
+   ],
+   "box": [
+    105,
+    1136,
+    500,
+    1160
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "10-11",
+   "text": "What everybody does at a fourth of July banquet.",
+   "answer": "EATS",
+   "page": "puzzle",
+   "ocr": [
+    "o98",
+    "o101"
+   ],
+   "box": [
+    105,
+    1157,
+    500,
+    1203
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "12-13",
+   "text": "What orators will be on the fourth.",
+   "answer": "BUSY",
+   "page": "puzzle",
+   "ocr": [
+    "o106"
+   ],
+   "box": [
+    105,
+    1200,
+    500,
+    1241
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "14-15",
+   "text": "What tired marchers will feel ready to do after a long parade.",
+   "answer": "DROP",
+   "page": "puzzle",
+   "ocr": [
+    "o108",
+    "o113"
+   ],
+   "box": [
+    105,
+    1238,
+    500,
+    1302
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "16-17",
+   "text": "One kind.",
+   "answer": "SORT",
+   "page": "puzzle",
+   "ocr": [
+    "o116"
+   ],
+   "box": [
+    105,
+    1298,
+    500,
+    1320
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "18-19",
+   "text": "An inspiration.",
+   "answer": "IDEA",
+   "page": "puzzle",
+   "ocr": [
+    "o119"
+   ],
+   "box": [
+    105,
+    1318,
+    500,
+    1340
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "21-22",
+   "text": "In a little while.",
+   "answer": "ANON",
+   "page": "puzzle",
+   "ocr": [
+    "o121"
+   ],
+   "box": [
+    105,
+    1338,
+    500,
+    1360
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "23-24",
+   "text": "To mark off distances from point to point.",
+   "answer": "SPAN",
+   "page": "puzzle",
+   "ocr": [
+    "o124",
+    "o128"
+   ],
+   "box": [
+    105,
+    1356,
+    500,
+    1400
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "25-26",
+   "text": "To slash.",
+   "answer": "SLIT",
+   "page": "puzzle",
+   "ocr": [
+    "o131"
+   ],
+   "box": [
+    105,
+    1398,
+    500,
+    1420
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "27-28",
+   "text": "What a person does in instituting legal proceedings against another.",
+   "answer": "SUES",
+   "page": "puzzle",
+   "ocr": [
+    "o134",
+    "o137",
+    "o140"
+   ],
+   "box": [
+    105,
+    1418,
+    500,
+    1480
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "29-30",
+   "text": "What the American eagle does on the fourth of July.",
+   "answer": "SCREAMS",
+   "page": "puzzle",
+   "ocr": [
+    "o143",
+    "o146"
+   ],
+   "box": [
+    105,
+    1476,
+    500,
+    1522
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "31-32",
+   "text": "Eagles.",
+   "answer": "EARNS",
+   "page": "puzzle",
+   "ocr": [
+    "o149"
+   ],
+   "box": [
+    105,
+    1518,
+    500,
+    1540
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "33-34",
+   "text": "Something good to eat.",
+   "answer": "PIE",
+   "page": "puzzle",
+   "ocr": [
+    "o78"
+   ],
+   "box": [
+    498,
+    1003,
+    890,
+    1027
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "1-20",
+   "text": "A festivity.",
+   "answer": "GALA",
+   "page": "puzzle",
+   "ocr": [
+    "o83"
+   ],
+   "box": [
+    498,
+    1023,
+    890,
+    1045
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "2-9",
+   "text": "To keep in safety.",
+   "answer": "WARD",
+   "page": "puzzle",
+   "ocr": [
+    "o84"
+   ],
+   "box": [
+    498,
+    1043,
+    890,
+    1066
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "4-13",
+   "text": "To change.",
+   "answer": "VARY",
+   "page": "puzzle",
+   "ocr": [
+    "o87"
+   ],
+   "box": [
+    498,
+    1064,
+    890,
+    1086
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "6-29",
+   "text": "What we mustn't shoot off in New York City on July 4.",
+   "answer": "PISTOLS",
+   "page": "puzzle",
+   "ocr": [
+    "o90",
+    "o92"
+   ],
+   "box": [
+    498,
+    1083,
+    890,
+    1127
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "8-25",
+   "text": "What a firecracker does if you hold it too long.",
+   "answer": "BURNS",
+   "page": "puzzle",
+   "ocr": [
+    "o94",
+    "o97"
+   ],
+   "box": [
+    498,
+    1122,
+    890,
+    1168
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "12-21",
+   "text": "A neck wrap worn by women.",
+   "answer": "BOA",
+   "page": "puzzle",
+   "ocr": [
+    "o98"
+   ],
+   "box": [
+    498,
+    1163,
+    890,
+    1186
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "3-10",
+   "text": "What Paul Revere did.",
+   "answer": "RODE",
+   "page": "puzzle",
+   "ocr": [
+    "o102"
+   ],
+   "box": [
+    498,
+    1182,
+    890,
+    1206
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "5-14",
+   "text": "What the Declaration of Independence is on every fourth.",
+   "answer": "READ",
+   "page": "puzzle",
+   "ocr": [
+    "o104",
+    "o107"
+   ],
+   "box": [
+    498,
+    1203,
+    890,
+    1246
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "7-30",
+   "text": "Displayed on every U. S. flag.",
+   "answer": "STRIPES",
+   "page": "puzzle",
+   "ocr": [
+    "o108"
+   ],
+   "box": [
+    498,
+    1242,
+    890,
+    1266
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "11-28",
+   "text": "Swallowed by millions on the fourth.",
+   "answer": "SODAS",
+   "page": "puzzle",
+   "ocr": [
+    "o111",
+    "o114"
+   ],
+   "box": [
+    498,
+    1262,
+    890,
+    1302
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "15-24",
+   "text": "Used in signing the Declaration of Independence.",
+   "answer": "PEN",
+   "page": "puzzle",
+   "ocr": [
+    "o117",
+    "o120"
+   ],
+   "box": [
+    498,
+    1302,
+    890,
+    1343
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "22-31",
+   "text": "What we hope the weather will be on July 4.",
+   "answer": "NICE",
+   "page": "puzzle",
+   "ocr": [
+    "o123",
+    "o126"
+   ],
+   "box": [
+    498,
+    1338,
+    890,
+    1383
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "26-33",
+   "text": "What Washington caught Cornwallis in.",
+   "answer": "TRAP",
+   "page": "puzzle",
+   "ocr": [
+    "o129",
+    "o132"
+   ],
+   "box": [
+    498,
+    1378,
+    890,
+    1422
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "35-36",
+   "text": "Beloved by every Irishman.",
+   "answer": "ERIN",
+   "page": "puzzle",
+   "ocr": [
+    "o135"
+   ],
+   "box": [
+    498,
+    1418,
+    890,
+    1442
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "27-34",
+   "text": "The kind of celebration New York has every fourth.",
+   "answer": "SANE",
+   "page": "puzzle",
+   "ocr": [
+    "o138",
+    "o141"
+   ],
+   "box": [
+    498,
+    1438,
+    890,
+    1484
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "23-32",
+   "text": "What the American school boys need not do on the fourth of July.",
+   "answer": "SUMS",
+   "page": "puzzle",
+   "ocr": [
+    "o144",
+    "o147",
+    "o150"
+   ],
+   "box": [
+    498,
+    1478,
+    890,
+    1540
+   ],
+   "how": "ocr-corrected"
+  }
+ ]
+}

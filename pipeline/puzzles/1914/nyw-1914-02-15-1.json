@@ -1,0 +1,38 @@
+{
+ "id": "nyw-1914-02-15-1",
+ "aliases": [
+  "nyw1914-02-15-L000"
+ ],
+ "xdid": "nyw1914-02-15-L000",
+ "issue": "1914-02-15",
+ "date": "1914-02-15",
+ "grid": {
+  "unit": "scan:milwaukee-sentinel-1914-02-15/0000",
+  "extract": "sha256:d706552d2a65bfc807c9bfd16f34a1a5f89dd7daf5e2c0d424e63fa068123c3c",
+  "size": "13x13",
+  "nth": 0
+ },
+ "clues": null,
+ "continued": null,
+ "copies": [],
+ "reading": "sha256:bafebdb93dcec1ac41b30986be67df6a614dd691b61029b6b4ff23b94c2b4394",
+ "key": {
+  "unit": "scan:milwaukee-sentinel-1914-02-22/0001",
+  "extract": "sha256:871ac78334e22b81c5a35fdee31c8f5d328dcb362be07619df1d1d6a363cc174",
+  "solution_id": "milwaukee-sentinel-1914-02-22/1#0",
+  "how": "answers column, grids differ in 18 squares"
+ },
+ "checks": {
+  "solution": [
+   "puzzle and solution grids differ at r2c6 r2c7 r2c8 r4c4 r4c5 r4c6 r4c7 r4c8 r4c9 r4c10 r5c7 r6c6 r6c8 r7c5 r7c9 r8c6 r8c8 r9c7",
+   "3 unreadable solution letters",
+   "low-confidence letters at r5c7 r7c5 r8c7 r9c7"
+  ],
+  "asymmetric": 11,
+  "warnings": [
+   "Answer key as given by the folder's answers column (milwaukee-sentinel-1914-02-22 leaf 1, milwaukee-sentinel-1914-02-22/1#0) has different black squares from the puzzle (grids differ in 18 squares): puzzle ............. .....###..... ............. ...#######... ......#...... .....#.#..... ....#...#.... .....#.#..... ......#...... ............. ............. ............. .............; key ............. ............. ............. ............. ............. ............. ............. ............. ............. ............. ............. ............. .............. Check the row's pairing, or the grid reading.",
+   "Grid isn't symmetric: 11 square pair(s) differ (r2c6/r12c8, r2c7/r12c7, r2c8/r12c6, r4c3/r10c11, r4c4/r10c10, r4c5/r10c9, r4c6/r10c8, r4c7/r10c7). Check those black squares against the scan, or confirm the design is asymmetric."
+  ]
+ },
+ "xd": "sha256:cd3e9162ab8ee2866f867025d9258f425115fa521fdc8c13b3ae43dd4eabf1c5"
+}

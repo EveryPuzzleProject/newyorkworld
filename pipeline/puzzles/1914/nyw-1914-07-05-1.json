@@ -1,0 +1,36 @@
+{
+ "id": "nyw-1914-07-05-1",
+ "aliases": [
+  "nyw1914-07-05-L000"
+ ],
+ "xdid": "nyw1914-07-05-L000",
+ "issue": "1914-07-05",
+ "date": "1914-07-05",
+ "grid": {
+  "unit": "scan:milwaukee-sentinel-1914-07-05/0000",
+  "extract": "sha256:d5999dffea41f832df7af42f2c2b880d5481728b84ca8c8c89b8e7b150f85467",
+  "size": "13x13",
+  "nth": 0
+ },
+ "clues": null,
+ "continued": null,
+ "copies": [],
+ "reading": "sha256:54f079fb56557d156d7cd01867bc338e1f4b29adde361d4e18939c8bfdcb4527",
+ "key": {
+  "unit": "scan:milwaukee-sentinel-1914-07-12/0001",
+  "extract": "sha256:c7414883aecc8baa67ba584ccff8c7544142bb9e16b15d6ab9f5a7041540dee2",
+  "solution_id": "milwaukee-sentinel-1914-07-12/1#0",
+  "how": "answers column, grids agree"
+ },
+ "checks": {
+  "solution": [
+   "2 unreadable solution letters",
+   "low-confidence letters at r6c8 r7c9 r8c3 r8c8 r9c7 r10c10 r11c7"
+  ],
+  "asymmetric": 1,
+  "warnings": [
+   "Grid isn't symmetric: 1 square pair(s) differ (r1c6/r13c8). Check those black squares against the scan, or confirm the design is asymmetric."
+  ]
+ },
+ "xd": "sha256:794c9f8d50fb39229ece5df069ac0dd6b0cd55517cdbeec0a30d843687386e83"
+}

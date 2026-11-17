@@ -232,6 +232,35 @@ different paper than its puzzle). Nos. 1, 2, 11 and 12 are check-only.
 - The ship check runs against the World dates and xdids above. Nothing ships with a count date,
   and nothing goes to gxd without Alex's say-so. gxd branches go to Alex's fork.
 
+## 4. The run (2026-11-16)
+
+PRs #28, #29 and scans #5, #6 merged (Alex). The run is `blitz-work/runs/nyw-s1` (outside the repos,
+as xword-ocr requires), read from its own `source/pages.tsv`: the 69 rows of `pages.tsv` for the
+batch's 36 issues, with absolute paths. xword-ocr branch `claude/nyw-s1` (no code changes).
+
+**Harvest.** 30 of the 33 puzzles assemble, plus No. 35 from the 08-30 page (left out of the
+batch). Eight pages needed a grid hint (`fixes/fixes.toml`, "The Milwaukee Sentinel's pages"): the
+World prints its end-square numbers large, the detector reads them as letters and takes the puzzle
+for a solution grid; `puzzle = true` on the detector's own corners fixed Nos. 3, 4, 5 and 27, and
+No. 23's X of bands needed its corners widened to 28 x 21. Not assembled: No. 2, No. 28 (letters
+given in the grid, no clue list) and No. 31 (the geography puzzle).
+
+**Alex's rule for this batch (2026-11-16):** use what the OCR library gets, and don't extend it for
+the early puzzles' odd designs. Where it can't, read the scan directly, and record the reading as
+made by hand from the scan. So Nos. 28 and 31 are read from the page (xd files in the run's
+`hand-read/`, with a doubts list), and No. 2 is compared with gxd's copy. The same goes for any
+odd design the text step and review can't bring right (likely Nos. 23, 27, 29 and 30).
+
+**Text step.** 30 puzzles in 8 batches of 4 (Sonnet agents, as c1), run `textstep/s1`. It could not
+bring them right: 29 of 30 asked for a clue list to be read again, and the keys came out garbled or
+unread on most (only Nos. 11-13 got usable key fixes).
+
+**Read from the scans instead (Alex, 2026-11-16).** All 33 were read by hand from the page images
+(Claude agents, Opus), with every clue and printed line tied to its box on the page: the result and
+its open decisions are in [`hand-read/`](../hand-read/README.md); the review packets (each scan with
+its boxes beside the text) are in the scans repo, `packets/nyw-1914-s1/`. Nothing is shipped or
+published.
+
 ## Still open for Alex
 
 1. URLs for the 1913-14 Sentinel rows, or go without.

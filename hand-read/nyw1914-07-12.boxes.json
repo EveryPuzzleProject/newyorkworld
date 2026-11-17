@@ -1,0 +1,1101 @@
+{
+ "xdid": "nyw1914-07-12",
+ "no": 27,
+ "pages": {
+  "puzzle": "Milwaukee_Sentinel_1914_07_12_79.png",
+  "solution": "Milwaukee_Sentinel_1914_07_19_79.png"
+ },
+ "grid": {
+  "page": "puzzle",
+  "corners": [
+   [
+    55,
+    118
+   ],
+   [
+    1190,
+    122
+   ],
+   [
+    1188,
+    824
+   ],
+   [
+    53,
+    817
+   ]
+  ],
+  "rows": 13,
+  "cols": 21
+ },
+ "key": {
+  "page": "solution",
+  "corners": [
+   [
+    443,
+    1166
+   ],
+   [
+    1086,
+    1166
+   ],
+   [
+    1086,
+    1564
+   ],
+   [
+    443,
+    1564
+   ]
+  ],
+  "rows": 13,
+  "cols": 21
+ },
+ "lines": [
+  {
+   "label": "heading",
+   "text": "FUN'S",
+   "page": "puzzle",
+   "ocr": [
+    "o1"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    9,
+    60,
+    450,
+    320
+   ]
+  },
+  {
+   "label": "heading",
+   "text": "CROSS-WORD PUZZLE",
+   "page": "puzzle",
+   "ocr": [
+    "o4",
+    "o9",
+    "o13"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    718,
+    96,
+    1222,
+    400
+   ]
+  },
+  {
+   "label": "number",
+   "text": "No 27",
+   "page": "puzzle",
+   "ocr": [
+    "o20"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    38,
+    342,
+    335,
+    517
+   ]
+  },
+  {
+   "label": "panel",
+   "text": "SOLUTION NEXT WEEK",
+   "page": "puzzle",
+   "ocr": [
+    "o59",
+    "o69",
+    "o75"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    539,
+    619,
+    690,
+    749
+   ]
+  },
+  {
+   "label": "intro",
+   "text": "Here is a new kind of cross-word puzzle for FUN'S puzzle experts to wrestle with. It is a contribution from W. G. H. Tiedemann of Third avenue, New York City, who very naturally suggests that any one who attempts to solve it is going to have a very interesting half hour. However, that remains to be determined when you try the puzzle yourself. The puzzle editor has taken the liberty to change several words and definitions in Mr. Tiedemann's original puzzle so that he, too, will have an interesting time of solving his own puzzle. Fill in the small squares with words corresponding to the list of clues and definitions given herewith. One letter only is to be placed in such square. The solution to this puzzle will be given in next week's FUN.",
+   "page": "puzzle",
+   "ocr": [
+    "o91",
+    "o97",
+    "o102",
+    "o105",
+    "o108",
+    "o111",
+    "o116",
+    "o119",
+    "o122",
+    "o125",
+    "o127",
+    "o130",
+    "o136",
+    "o140",
+    "o142"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    44,
+    817,
+    472,
+    1266
+   ]
+  },
+  {
+   "label": "solution heading",
+   "text": "SOLUTIONS TO LAST WEEK'S PUZZLES.",
+   "page": "solution",
+   "ocr": [
+    "o56",
+    "o57"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    436,
+    969,
+    1095,
+    1009
+   ]
+  },
+  {
+   "label": "solution intro",
+   "text": "Below is shown the solution to last week's cross-word puzzle.",
+   "page": "solution",
+   "ocr": [
+    "o79",
+    "o77"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    463,
+    1116,
+    1110,
+    1146
+   ]
+  }
+ ],
+ "clues": [
+  {
+   "pair": "1-10",
+   "text": "Highest in rank or authority.",
+   "answer": "CHIEF",
+   "page": "puzzle",
+   "ocr": [
+    "o145"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    53,
+    1266,
+    422,
+    1294
+   ]
+  },
+  {
+   "pair": "2-9",
+   "text": "To measure off by taking steps.",
+   "answer": "STEP",
+   "page": "puzzle",
+   "ocr": [
+    "o148"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    52,
+    1287,
+    468,
+    1318
+   ]
+  },
+  {
+   "pair": "19-33",
+   "text": "To-fortify.",
+   "answer": "ARM",
+   "page": "puzzle",
+   "ocr": [
+    "o151"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    49,
+    1309,
+    233,
+    1335
+   ]
+  },
+  {
+   "pair": "4-14",
+   "text": "To exhibit.",
+   "answer": "SHOW",
+   "page": "puzzle",
+   "ocr": [
+    "o154"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    49,
+    1328,
+    238,
+    1358
+   ]
+  },
+  {
+   "pair": "25-64",
+   "text": "A fruit.",
+   "answer": "ORANGE",
+   "page": "puzzle",
+   "ocr": [
+    "o157"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    48,
+    1350,
+    222,
+    1379
+   ]
+  },
+  {
+   "pair": "6-18",
+   "text": "The harvest.",
+   "answer": "CROP",
+   "page": "puzzle",
+   "ocr": [
+    "o160"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    58,
+    1373,
+    252,
+    1399
+   ]
+  },
+  {
+   "pair": "32-49",
+   "text": "An animal.",
+   "answer": "APE",
+   "page": "puzzle",
+   "ocr": [
+    "o163"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    48,
+    1393,
+    239,
+    1421
+   ]
+  },
+  {
+   "pair": "8-24",
+   "text": "Amusement.",
+   "answer": "PLAY",
+   "page": "puzzle",
+   "ocr": [
+    "o167"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    56,
+    1416,
+    248,
+    1443
+   ]
+  },
+  {
+   "pair": "40-58",
+   "text": "To fasten together with needle and thread.",
+   "answer": "SEW",
+   "page": "puzzle",
+   "ocr": [
+    "o171",
+    "o174"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    49,
+    1437,
+    455,
+    1484
+   ]
+  },
+  {
+   "pair": "13-31",
+   "text": "A conspiracy.",
+   "answer": "PLOT",
+   "page": "puzzle",
+   "ocr": [
+    "o178"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    48,
+    1478,
+    263,
+    1507
+   ]
+  },
+  {
+   "pair": "48-63",
+   "text": "A male child.",
+   "answer": "SON",
+   "page": "puzzle",
+   "ocr": [
+    "o181"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    51,
+    1503,
+    262,
+    1527
+   ]
+  },
+  {
+   "pair": "17-39",
+   "text": "Positive.",
+   "answer": "SURE",
+   "page": "puzzle",
+   "ocr": [
+    "o183"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    52,
+    1524,
+    217,
+    1549
+   ]
+  },
+  {
+   "pair": "23-57",
+   "text": "A sloping edge.",
+   "answer": "BEVEL",
+   "page": "puzzle",
+   "ocr": [
+    "o187"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    51,
+    1543,
+    282,
+    1572
+   ]
+  },
+  {
+   "pair": "30-62",
+   "text": "Trees.",
+   "answer": "PINES",
+   "page": "puzzle",
+   "ocr": [
+    "o191"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    53,
+    1566,
+    195,
+    1590
+   ]
+  },
+  {
+   "pair": "38-56",
+   "text": "A shelf in the fireplace.",
+   "answer": "HOB",
+   "page": "puzzle",
+   "ocr": [
+    "o194"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    51,
+    1587,
+    367,
+    1615
+   ]
+  },
+  {
+   "pair": "3-20",
+   "text": "Wandering.",
+   "answer": "ERRANT",
+   "page": "puzzle",
+   "ocr": [
+    "o199"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    60,
+    1608,
+    246,
+    1637
+   ]
+  },
+  {
+   "pair": "20-34",
+   "text": "A beverage.",
+   "answer": "TEA",
+   "page": "puzzle",
+   "ocr": [
+    "o203"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    51,
+    1628,
+    251,
+    1657
+   ]
+  },
+  {
+   "pair": "5-15",
+   "text": "Individual.",
+   "answer": "SELF",
+   "page": "puzzle",
+   "ocr": [
+    "o206"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    61,
+    1651,
+    238,
+    1678
+   ]
+  },
+  {
+   "pair": "27-65",
+   "text": "Chanced.",
+   "answer": "RISKED",
+   "page": "puzzle",
+   "ocr": [
+    "o210"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    53,
+    1670,
+    220,
+    1700
+   ]
+  },
+  {
+   "pair": "7-21",
+   "text": "Female deer.",
+   "answer": "DOES",
+   "page": "puzzle",
+   "ocr": [
+    "o214"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    64,
+    1694,
+    255,
+    1720
+   ]
+  },
+  {
+   "pair": "35-52",
+   "text": "An accumulation of spawn.",
+   "answer": "ROE",
+   "page": "puzzle",
+   "ocr": [
+    "o91"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    458,
+    817,
+    817,
+    852
+   ]
+  },
+  {
+   "pair": "12-28",
+   "text": "Referring to every one of any number individually.",
+   "answer": "EACH",
+   "page": "puzzle",
+   "ocr": [
+    "o94",
+    "o98"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    458,
+    838,
+    872,
+    892
+   ]
+  },
+  {
+   "pair": "43-59",
+   "text": "A stake or pledge.",
+   "answer": "BET",
+   "page": "puzzle",
+   "ocr": [
+    "o100"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    461,
+    886,
+    728,
+    915
+   ]
+  },
+  {
+   "pair": "16-36",
+   "text": "A predatory incursion.",
+   "answer": "RAID",
+   "page": "puzzle",
+   "ocr": [
+    "o103"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    462,
+    909,
+    772,
+    935
+   ]
+  },
+  {
+   "pair": "53-66",
+   "text": "A favorite.",
+   "answer": "PET",
+   "page": "puzzle",
+   "ocr": [
+    "o106"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    461,
+    930,
+    658,
+    955
+   ]
+  },
+  {
+   "pair": "22-44",
+   "text": "Used in guiding a horse.",
+   "answer": "REIN",
+   "page": "puzzle",
+   "ocr": [
+    "o109"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    458,
+    950,
+    800,
+    977
+   ]
+  },
+  {
+   "pair": "29-60",
+   "text": "Legal documents.",
+   "answer": "DEEDS",
+   "page": "puzzle",
+   "ocr": [
+    "o112"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    462,
+    972,
+    718,
+    998
+   ]
+  },
+  {
+   "pair": "37-67",
+   "text": "A long scarf of gauze or silk.",
+   "answer": "SAREE",
+   "page": "puzzle",
+   "ocr": [
+    "o114"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    458,
+    992,
+    872,
+    1020
+   ]
+  },
+  {
+   "pair": "45-61",
+   "text": "A sailor.",
+   "answer": "TAR",
+   "page": "puzzle",
+   "ocr": [
+    "o117"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    463,
+    1014,
+    636,
+    1040
+   ]
+  },
+  {
+   "pair": "2-3",
+   "text": "A pronoun, feminine gender.",
+   "answer": "SHE",
+   "page": "puzzle",
+   "ocr": [
+    "o120"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    468,
+    1036,
+    872,
+    1063
+   ]
+  },
+  {
+   "pair": "4-5",
+   "text": "What the cook does when she puts the spoon in the batter.",
+   "answer": "STIRS",
+   "page": "puzzle",
+   "ocr": [
+    "o123",
+    "o126"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    468,
+    1055,
+    876,
+    1104
+   ]
+  },
+  {
+   "pair": "6-7",
+   "text": "Encouraged.",
+   "answer": "CHEERED",
+   "page": "puzzle",
+   "ocr": [
+    "o128"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    464,
+    1100,
+    666,
+    1125
+   ]
+  },
+  {
+   "pair": "8-9",
+   "text": "A support.",
+   "answer": "PROP",
+   "page": "puzzle",
+   "ocr": [
+    "o131"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    469,
+    1119,
+    657,
+    1148
+   ]
+  },
+  {
+   "pair": "11-12",
+   "text": "The American century plant.",
+   "answer": "ALOE",
+   "page": "puzzle",
+   "ocr": [
+    "o132"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    458,
+    1141,
+    872,
+    1170
+   ]
+  },
+  {
+   "pair": "13-14",
+   "text": "A farming implement.",
+   "answer": "PLOW",
+   "page": "puzzle",
+   "ocr": [
+    "o135"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    458,
+    1163,
+    800,
+    1189
+   ]
+  },
+  {
+   "pair": "15-16",
+   "text": "Dread.",
+   "answer": "FEAR",
+   "page": "puzzle",
+   "ocr": [
+    "o136"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    458,
+    1181,
+    615,
+    1210
+   ]
+  },
+  {
+   "pair": "17-18",
+   "text": "To strike with a flat object.",
+   "answer": "SLAP",
+   "page": "puzzle",
+   "ocr": [
+    "o139"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    458,
+    1205,
+    872,
+    1234
+   ]
+  },
+  {
+   "pair": "19-20",
+   "text": "An insect.",
+   "answer": "ANT",
+   "page": "puzzle",
+   "ocr": [
+    "o140"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    458,
+    1223,
+    650,
+    1255
+   ]
+  },
+  {
+   "pair": "21-22",
+   "text": "The mark left by a wound.",
+   "answer": "SCAR",
+   "page": "puzzle",
+   "ocr": [
+    "o143"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    458,
+    1246,
+    840,
+    1276
+   ]
+  },
+  {
+   "pair": "23-24",
+   "text": "A channel guide for navigators.",
+   "answer": "BUOY",
+   "page": "puzzle",
+   "ocr": [
+    "o146"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    467,
+    1269,
+    863,
+    1297
+   ]
+  },
+  {
+   "pair": "25-27",
+   "text": "A command.",
+   "answer": "ORDER",
+   "page": "puzzle",
+   "ocr": [
+    "o149"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    466,
+    1291,
+    673,
+    1318
+   ]
+  },
+  {
+   "pair": "28-29",
+   "text": "Hastened away.",
+   "answer": "HIED",
+   "page": "puzzle",
+   "ocr": [
+    "o152"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    467,
+    1311,
+    706,
+    1340
+   ]
+  },
+  {
+   "pair": "30-31",
+   "text": "Saucy.",
+   "answer": "PERT",
+   "page": "puzzle",
+   "ocr": [
+    "o156"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    470,
+    1336,
+    612,
+    1360
+   ]
+  },
+  {
+   "pair": "32-33",
+   "text": "A limb.",
+   "answer": "ARM",
+   "page": "puzzle",
+   "ocr": [
+    "o158"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    468,
+    1355,
+    621,
+    1382
+   ]
+  },
+  {
+   "pair": "34-35",
+   "text": "The leading part in a harmonized piece of music.",
+   "answer": "AIR",
+   "page": "puzzle",
+   "ocr": [
+    "o161",
+    "o165"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    458,
+    1376,
+    876,
+    1424
+   ]
+  },
+  {
+   "pair": "36-37",
+   "text": "Hard metal devices for impressing.",
+   "answer": "DIES",
+   "page": "puzzle",
+   "ocr": [
+    "o168",
+    "o172"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    458,
+    1419,
+    876,
+    1466
+   ]
+  },
+  {
+   "pair": "38-39",
+   "text": "A bees' storehouse.",
+   "answer": "HIVE",
+   "page": "puzzle",
+   "ocr": [
+    "o175"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    469,
+    1463,
+    741,
+    1489
+   ]
+  },
+  {
+   "pair": "40-41",
+   "text": "A mineral spring.",
+   "answer": "SPA",
+   "page": "puzzle",
+   "ocr": [
+    "o179"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    469,
+    1485,
+    733,
+    1511
+   ]
+  },
+  {
+   "pair": "42-43",
+   "text": "To weep with short, quick inspirations.",
+   "answer": "SOB",
+   "page": "puzzle",
+   "ocr": [
+    "o182",
+    "o185"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    458,
+    1504,
+    880,
+    1553
+   ]
+  },
+  {
+   "pair": "44-45",
+   "text": "Orderly.",
+   "answer": "NEAT",
+   "page": "puzzle",
+   "ocr": [
+    "o188"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    466,
+    1546,
+    629,
+    1575
+   ]
+  },
+  {
+   "pair": "46-47",
+   "text": "A musical sound.",
+   "answer": "TONE",
+   "page": "puzzle",
+   "ocr": [
+    "o192"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    470,
+    1572,
+    721,
+    1595
+   ]
+  },
+  {
+   "pair": "48-50",
+   "text": "Perceived.",
+   "answer": "SEEN",
+   "page": "puzzle",
+   "ocr": [
+    "o196"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    469,
+    1592,
+    651,
+    1618
+   ]
+  },
+  {
+   "pair": "51-53",
+   "text": "To retain.",
+   "answer": "KEEP",
+   "page": "puzzle",
+   "ocr": [
+    "o200"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    470,
+    1613,
+    650,
+    1639
+   ]
+  },
+  {
+   "pair": "54-55",
+   "text": "What artists do.",
+   "answer": "DRAW",
+   "page": "puzzle",
+   "ocr": [
+    "o204"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    468,
+    1635,
+    714,
+    1661
+   ]
+  },
+  {
+   "pair": "56-58",
+   "text": "To proclaim in a loud voice.",
+   "answer": "BELLOW",
+   "page": "puzzle",
+   "ocr": [
+    "o208"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    470,
+    1658,
+    831,
+    1681
+   ]
+  },
+  {
+   "pair": "59-61",
+   "text": "One who teases.",
+   "answer": "TEASER",
+   "page": "puzzle",
+   "ocr": [
+    "o211"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    471,
+    1679,
+    708,
+    1702
+   ]
+  },
+  {
+   "pair": "64-65",
+   "text": "Finished.",
+   "answer": "ENDED",
+   "page": "puzzle",
+   "ocr": [
+    "o215"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    467,
+    1700,
+    639,
+    1723
+   ]
+  }
+ ]
+}

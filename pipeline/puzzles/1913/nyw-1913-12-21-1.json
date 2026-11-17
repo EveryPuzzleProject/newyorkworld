@@ -1,0 +1,38 @@
+{
+ "id": "nyw-1913-12-21-1",
+ "aliases": [
+  "nyw1913-12-21-L000"
+ ],
+ "xdid": "nyw1913-12-21-L000",
+ "issue": "1913-12-21",
+ "date": "1913-12-21",
+ "grid": {
+  "unit": "scan:milwaukee-sentinel-1913-12-21/0000",
+  "extract": "sha256:10001410d82805c17ff4b015895ff89d5f5f22c2b8e2337e35d61de4eb66b99a",
+  "size": "13x13",
+  "nth": 0
+ },
+ "clues": null,
+ "continued": null,
+ "copies": [],
+ "reading": "sha256:ede10f0c1a189228324ff6869ccdcf3139078484db869d3cc996d194991065fc",
+ "key": {
+  "unit": "scan:milwaukee-sentinel-1913-12-28/0001",
+  "extract": "sha256:d81e99b1071bd08f440f633f6a88902172c80366e6f627f04c5465b9b53f89c7",
+  "solution_id": "milwaukee-sentinel-1913-12-28/1#0",
+  "how": "answers column, grids differ in 35 squares"
+ },
+ "checks": {
+  "solution": [
+   "puzzle and solution grids differ at r2c6 r2c7 r2c8 r3c5 r3c9 r4c4 r4c7 r4c10 r5c3 r5c8 r5c11 r6c2 r6c5 r6c9 r6c12 r7c1 r7c4 r7c10 r7c13 r8c2 r8c5 r8c9 r8c12 r9c3 r9c6 r9c8 r9c11 r10c4 r10c7 r10c10 r11c5 r11c9 r12c6 r12c8 r13c7",
+   "21 unreadable solution letters",
+   "low-confidence letters at r2c6 r2c8 r3c5 r3c8 r3c9 r4c4 r4c8 r4c10 r5c3 r5c7 r5c11 r6c2 r6c3 r6c9 r6c11 r7c2 r7c4 r7c5 r7c9 r7c10 r8c2 r8c4 r8c5 r8c9 r9c4 r9c6 r9c7 r9c8 r9c10 r10c4 r10c7 r10c8 r10c9 r10c10 r11c6 r11c7 r11c8 r12c6 r12c8"
+  ],
+  "asymmetric": 3,
+  "warnings": [
+   "Answer key as given by the folder's answers column (milwaukee-sentinel-1913-12-28 leaf 1, milwaukee-sentinel-1913-12-28/1#0) has different black squares from the puzzle (grids differ in 35 squares): puzzle ............. .....###..... ....#...#.... ...#..#..#... ..#....#..#.. .#..#...#..#. #..#.....#..# .#..#...#..#. ..#..#.#..#.. ...#..#..#... ....#...#.... .....#.#..... ......#......; key ............. ............. ............. ............. ............. ............. ............. ............. ............. ............. ............. ............. .............. Check the row's pairing, or the grid reading.",
+   "Grid isn't symmetric: 3 square pair(s) differ (r1c7/r13c7, r2c7/r12c7, r5c6/r9c8). Check those black squares against the scan, or confirm the design is asymmetric."
+  ]
+ },
+ "xd": "sha256:ea0566defde58c6f9b1aa46cbe8ba6e04fd1dffd4ae7b7518325adb704460dfd"
+}

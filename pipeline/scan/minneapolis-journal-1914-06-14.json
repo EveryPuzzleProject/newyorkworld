@@ -188,6 +188,36 @@
    "version": "keysearch/2"
   }
  },
+ "scan:minneapolis-journal-1914-06-14/0001#key-1cd2637ca6b3": {
+  "keysearch": {
+   "code": "xword-ocr 0.1.0",
+   "inputs": {
+    "image": "sha256:7f9119809b6917219ee9760b0ddeba2069377ea15ea8d878d9ed39c7dc318c09"
+   },
+   "made": "2026-11-17T03:36:53+00:00",
+   "output": "sha256:20f0e7c677012bbbfc9e4aa9210633279238c66b6f1b0aa2c92e3844bca86564",
+   "settings": {
+    "only_pointed": false
+   },
+   "stage": "keysearch",
+   "version": "keysearch/2"
+  }
+ },
+ "scan:minneapolis-journal-1914-06-14/0001#key-25b6df3fc146": {
+  "keysearch": {
+   "code": "xword-ocr 0.1.0",
+   "inputs": {
+    "image": "sha256:7f9119809b6917219ee9760b0ddeba2069377ea15ea8d878d9ed39c7dc318c09"
+   },
+   "made": "2026-11-17T03:36:54+00:00",
+   "output": "sha256:20f0e7c677012bbbfc9e4aa9210633279238c66b6f1b0aa2c92e3844bca86564",
+   "settings": {
+    "only_pointed": false
+   },
+   "stage": "keysearch",
+   "version": "keysearch/2"
+  }
+ },
  "scan:minneapolis-journal-1914-06-14/0001#key-5802e025e2c1": {
   "keysearch": {
    "code": "xword-ocr 0.1.0",

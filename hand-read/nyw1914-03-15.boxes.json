@@ -1,0 +1,843 @@
+{
+ "xdid": "nyw1914-03-15",
+ "no": 13,
+ "pages": {
+  "puzzle": "Milwaukee_Sentinel_1914_03_15_85.png",
+  "solution": "Milwaukee_Sentinel_1914_03_22_85.png"
+ },
+ "grid": {
+  "page": "puzzle",
+  "corners": [
+   [
+    532,
+    293
+   ],
+   [
+    1140,
+    293
+   ],
+   [
+    1140,
+    898
+   ],
+   [
+    532,
+    898
+   ]
+  ],
+  "rows": 13,
+  "cols": 13
+ },
+ "key": {
+  "page": "solution",
+  "corners": [
+   [
+    453,
+    349
+   ],
+   [
+    830,
+    349
+   ],
+   [
+    830,
+    724
+   ],
+   [
+    451,
+    724
+   ]
+  ],
+  "rows": 13,
+  "cols": 13
+ },
+ "lines": [
+  {
+   "label": "heading",
+   "text": "FUN'S CROSS-WORD PUZZLES",
+   "page": "puzzle",
+   "ocr": [
+    "o3"
+   ],
+   "box": [
+    548,
+    168,
+    1152,
+    292
+   ]
+  },
+  {
+   "label": "heading",
+   "text": "CAN YOU SOLVE THEM?",
+   "page": "puzzle",
+   "ocr": [
+    "o12",
+    "o9",
+    "o16"
+   ],
+   "box": [
+    556,
+    262,
+    1184,
+    496
+   ]
+  },
+  {
+   "label": "number",
+   "text": "THIS IS No 13",
+   "page": "puzzle",
+   "ocr": [
+    "o48",
+    "o52"
+   ],
+   "box": [
+    523,
+    750,
+    693,
+    930
+   ]
+  },
+  {
+   "label": "heading",
+   "text": "TWO IN ONE",
+   "page": "puzzle",
+   "ocr": [
+    "o49",
+    "o53",
+    "o57"
+   ],
+   "box": [
+    1028,
+    750,
+    1182,
+    911
+   ]
+  },
+  {
+   "label": "intro",
+   "text": "Here is a very ingeniously constructed cross work puzzle for you to solve. It really consists of two puzzles in one. Mr. Harry Cleaver of 83 Cathedral street, Montreal, sent it in, and he invites all of FUN'S clever puzzle solvers to fathom it if they can:",
+   "page": "puzzle",
+   "ocr": [
+    "o59",
+    "o60",
+    "o62",
+    "o63",
+    "o64",
+    "o65",
+    "o66",
+    "o67",
+    "o68"
+   ],
+   "box": [
+    518,
+    906,
+    1155,
+    1017
+   ]
+  },
+  {
+   "label": "credit",
+   "text": "Mr. Harry Cleaver of 83 Cathedral street, Montreal, sent it in",
+   "page": "puzzle",
+   "ocr": [
+    "o63",
+    "o64",
+    "o65"
+   ],
+   "box": [
+    519,
+    926,
+    1155,
+    973
+   ]
+  },
+  {
+   "label": "subheading",
+   "text": "MAIN DIAMOND PUZZLE.",
+   "page": "puzzle",
+   "ocr": [
+    "o69"
+   ],
+   "box": [
+    690,
+    1008,
+    980,
+    1035
+   ]
+  },
+  {
+   "label": "subheading",
+   "text": "INSIDE DIAMOND PUZZLE.",
+   "page": "puzzle",
+   "ocr": [
+    "o116"
+   ],
+   "box": [
+    694,
+    1385,
+    1000,
+    1408
+   ]
+  },
+  {
+   "label": "instructions",
+   "text": "Starting from 37 and going around to 44 you will find what President Wilson is.",
+   "page": "puzzle",
+   "ocr": [
+    "o122",
+    "o124",
+    "o126"
+   ],
+   "box": [
+    862,
+    1447,
+    1165,
+    1512
+   ]
+  }
+ ],
+ "clues": [
+  {
+   "pair": "2-3",
+   "text": "Did eat.",
+   "answer": "ATE",
+   "page": "puzzle",
+   "ocr": [
+    "o70"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    532,
+    1032,
+    672,
+    1056
+   ]
+  },
+  {
+   "pair": "4-5",
+   "text": "Sour substances.",
+   "answer": "ACIDS",
+   "page": "puzzle",
+   "ocr": [
+    "o73"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    531,
+    1052,
+    749,
+    1079
+   ]
+  },
+  {
+   "pair": "6-8",
+   "text": "A continent.",
+   "answer": "AMERICA",
+   "page": "puzzle",
+   "ocr": [
+    "o74"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    532,
+    1073,
+    713,
+    1096
+   ]
+  },
+  {
+   "pair": "9-10",
+   "text": "Beverages.",
+   "answer": "ALES",
+   "page": "puzzle",
+   "ocr": [
+    "o77"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    530,
+    1095,
+    693,
+    1118
+   ]
+  },
+  {
+   "pair": "11-12",
+   "text": "Part of a blook.",
+   "answer": "TOME",
+   "page": "puzzle",
+   "ocr": [
+    "o79"
+   ],
+   "box": [
+    523,
+    1114,
+    768,
+    1139
+   ],
+   "how": "eye"
+  },
+  {
+   "pair": "13-14",
+   "text": "To paint in water colors.",
+   "answer": "LIMN",
+   "page": "puzzle",
+   "ocr": [
+    "o81"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    523,
+    1135,
+    828,
+    1161
+   ]
+  },
+  {
+   "pair": "15-16",
+   "text": "High.",
+   "answer": "TALL",
+   "page": "puzzle",
+   "ocr": [
+    "o84"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    525,
+    1157,
+    644,
+    1181
+   ]
+  },
+  {
+   "pair": "17-18",
+   "text": "Short for Dorothy.",
+   "answer": "DORA",
+   "page": "puzzle",
+   "ocr": [
+    "o86"
+   ],
+   "box": [
+    523,
+    1176,
+    778,
+    1201
+   ],
+   "how": "eye"
+  },
+  {
+   "pair": "19-20",
+   "text": "To work.",
+   "answer": "TOIL",
+   "page": "puzzle",
+   "ocr": [
+    "o89"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    526,
+    1198,
+    684,
+    1221
+   ]
+  },
+  {
+   "pair": "21-22",
+   "text": "To watch over.",
+   "answer": "TEND",
+   "page": "puzzle",
+   "ocr": [
+    "o92"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    526,
+    1218,
+    742,
+    1244
+   ]
+  },
+  {
+   "pair": "23-24",
+   "text": "To dry with a cloth.",
+   "answer": "WIPE",
+   "page": "puzzle",
+   "ocr": [
+    "o98"
+   ],
+   "box": [
+    523,
+    1240,
+    803,
+    1264
+   ],
+   "how": "eye"
+  },
+  {
+   "pair": "25-26",
+   "text": "A raised platform.",
+   "answer": "DAIS",
+   "page": "puzzle",
+   "ocr": [
+    "o102"
+   ],
+   "box": [
+    523,
+    1262,
+    784,
+    1286
+   ],
+   "how": "eye"
+  },
+  {
+   "pair": "27-28",
+   "text": "To rescue.",
+   "answer": "SAVE",
+   "page": "puzzle",
+   "ocr": [
+    "o105"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    527,
+    1281,
+    694,
+    1307
+   ]
+  },
+  {
+   "pair": "29-31",
+   "text": "Blame.",
+   "answer": "CENSURE",
+   "page": "puzzle",
+   "ocr": [
+    "o108"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    531,
+    1303,
+    663,
+    1326
+   ]
+  },
+  {
+   "pair": "32-33",
+   "text": "One who receives a gift.",
+   "answer": "DONEE",
+   "page": "puzzle",
+   "ocr": [
+    "o111"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    529,
+    1324,
+    832,
+    1347
+   ]
+  },
+  {
+   "pair": "34-35",
+   "text": "Humor.",
+   "answer": "WIT",
+   "page": "puzzle",
+   "ocr": [
+    "o112"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    530,
+    1345,
+    666,
+    1368
+   ]
+  },
+  {
+   "pair": "6-29",
+   "text": "A register of the year.",
+   "answer": "ALMANAC",
+   "page": "puzzle",
+   "ocr": [
+    "o114"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    540,
+    1364,
+    815,
+    1390
+   ]
+  },
+  {
+   "pair": "9-25",
+   "text": "When dried.",
+   "answer": "AIRED",
+   "page": "puzzle",
+   "ocr": [
+    "o71"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    858,
+    1031,
+    1033,
+    1054
+   ]
+  },
+  {
+   "pair": "13-21",
+   "text": "A piece of land.",
+   "answer": "LOT",
+   "page": "puzzle",
+   "ocr": [
+    "o72"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    850,
+    1049,
+    1080,
+    1078
+   ]
+  },
+  {
+   "pair": "3-11",
+   "text": "To prepare for publication.",
+   "answer": "EDIT",
+   "page": "puzzle",
+   "ocr": [
+    "o75",
+    "o78"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    859,
+    1073,
+    1154,
+    1118
+   ]
+  },
+  {
+   "pair": "5-15",
+   "text": "A native of Scotland.",
+   "answer": "SCOT",
+   "page": "puzzle",
+   "ocr": [
+    "o80"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    861,
+    1113,
+    1125,
+    1139
+   ]
+  },
+  {
+   "pair": "8-31",
+   "text": "Disposed to love.",
+   "answer": "AMATIVE",
+   "page": "puzzle",
+   "ocr": [
+    "o82"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    855,
+    1136,
+    1091,
+    1159
+   ]
+  },
+  {
+   "pair": "12-28",
+   "text": "To run away to wed.",
+   "answer": "ELOPE",
+   "page": "puzzle",
+   "ocr": [
+    "o83"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    853,
+    1155,
+    1127,
+    1181
+   ]
+  },
+  {
+   "pair": "16-24",
+   "text": "An untruth.",
+   "answer": "LIE",
+   "page": "puzzle",
+   "ocr": [
+    "o87"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    855,
+    1177,
+    1036,
+    1201
+   ]
+  },
+  {
+   "pair": "22-32",
+   "text": "Die past participle.",
+   "answer": "DIED",
+   "page": "puzzle",
+   "ocr": [
+    "o90"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    855,
+    1197,
+    1108,
+    1223
+   ]
+  },
+  {
+   "pair": "26-34",
+   "text": "It falls in flakes.",
+   "answer": "SNOW",
+   "page": "puzzle",
+   "ocr": [
+    "o93"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    855,
+    1217,
+    1094,
+    1242
+   ]
+  },
+  {
+   "pair": "30-36",
+   "text": "To cut off.",
+   "answer": "SNIP",
+   "page": "puzzle",
+   "ocr": [
+    "o99"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    856,
+    1239,
+    1027,
+    1263
+   ]
+  },
+  {
+   "pair": "27-35",
+   "text": "Hard fat.",
+   "answer": "SUET",
+   "page": "puzzle",
+   "ocr": [
+    "o103"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    856,
+    1260,
+    1017,
+    1283
+   ]
+  },
+  {
+   "pair": "23-33",
+   "text": "Merchandise.",
+   "answer": "WARE",
+   "page": "puzzle",
+   "ocr": [
+    "o106"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    855,
+    1278,
+    1046,
+    1306
+   ]
+  },
+  {
+   "pair": "1-7",
+   "text": "To rouse.",
+   "answer": "STIR",
+   "page": "puzzle",
+   "ocr": [
+    "o107"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    864,
+    1299,
+    1013,
+    1326
+   ]
+  },
+  {
+   "pair": "2-10",
+   "text": "Highest cards.",
+   "answer": "ACES",
+   "page": "puzzle",
+   "ocr": [
+    "o110"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    867,
+    1322,
+    1064,
+    1345
+   ]
+  },
+  {
+   "pair": "4-14",
+   "text": "An expression of approval.",
+   "answer": "AMEN",
+   "page": "puzzle",
+   "ocr": [
+    "o113",
+    "o115"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    866,
+    1344,
+    1164,
+    1389
+   ]
+  },
+  {
+   "pair": "E-37",
+   "text": "Series of years.",
+   "answer": "ERA",
+   "page": "puzzle",
+   "ocr": [
+    "o118"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    532,
+    1405,
+    766,
+    1432
+   ]
+  },
+  {
+   "pair": "E-38",
+   "text": "A tree.",
+   "answer": "ELM",
+   "page": "puzzle",
+   "ocr": [
+    "o120"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    533,
+    1428,
+    690,
+    1451
+   ]
+  },
+  {
+   "pair": "E-39",
+   "text": "Adam's mate.",
+   "answer": "EVE",
+   "page": "puzzle",
+   "ocr": [
+    "o121"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    533,
+    1449,
+    750,
+    1472
+   ]
+  },
+  {
+   "pair": "40-E",
+   "text": "To be sorry for.",
+   "answer": "RUE",
+   "page": "puzzle",
+   "ocr": [
+    "o123"
+   ],
+   "box": [
+    528,
+    1468,
+    788,
+    1493
+   ],
+   "how": "eye"
+  },
+  {
+   "pair": "41-E",
+   "text": "Frozen water.",
+   "answer": "ICE",
+   "page": "puzzle",
+   "ocr": [
+    "o125"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    533,
+    1491,
+    754,
+    1514
+   ]
+  },
+  {
+   "pair": "42-E",
+   "text": "Used to billiards.",
+   "answer": "CUE",
+   "page": "puzzle",
+   "ocr": [
+    "o127"
+   ],
+   "box": [
+    528,
+    1508,
+    790,
+    1535
+   ],
+   "how": "eye"
+  },
+  {
+   "pair": "43-E",
+   "text": "Used for chopping.",
+   "answer": "AXE",
+   "page": "puzzle",
+   "ocr": [
+    "o117"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    858,
+    1403,
+    1132,
+    1432
+   ]
+  },
+  {
+   "pair": "E-44",
+   "text": "A contraction of even.",
+   "answer": "EEN",
+   "page": "puzzle",
+   "ocr": [
+    "o119"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    860,
+    1425,
+    1163,
+    1451
+   ]
+  }
+ ]
+}

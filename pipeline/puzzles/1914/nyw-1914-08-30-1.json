@@ -1,0 +1,27 @@
+{
+ "id": "nyw-1914-08-30-1",
+ "aliases": [
+  "nyw1914-08-30-L001"
+ ],
+ "xdid": "nyw1914-08-30-L001",
+ "issue": "1914-08-30",
+ "date": "1914-08-30",
+ "grid": {
+  "unit": "scan:milwaukee-sentinel-1914-08-30/0001",
+  "extract": "sha256:8a9f2e11e1f1ec4f9fe6d4c30cde043f2faaa41c99b0c4070e7ff0b918fc9208",
+  "size": "11x19",
+  "nth": 0
+ },
+ "clues": null,
+ "continued": null,
+ "copies": [],
+ "reading": "sha256:995ef2039b0394ceda1a663e6fa6fffee3f30174b626fbd9a68da4700042421d",
+ "checks": {
+  "solution": [],
+  "asymmetric": 0,
+  "warnings": [
+   "This copy of the puzzle was filled in by a reader (handwriting in the grid)."
+  ]
+ },
+ "xd": "sha256:f40ab1d2995477a0674f9def2d5692f4d55b804866169ad1783d6b9b50b9ebc9"
+}

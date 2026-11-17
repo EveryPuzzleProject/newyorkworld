@@ -1,0 +1,78 @@
+## Metadata
+Title: FUN'S New Year Puzzle
+Copyright: New York World
+Date: 1913-12-28
+Notes: A 13-wide diamond whose shaded centre block (shown as _) is printed with "1914"; the squares above it are printed with the letters Y, NEW, A, R, spelling NEW YEAR across row 2 and YEAR down the centre column. Subheading as printed: "FIND THE MISSING WORD!". No credit, no number. Five clue pairs are misprinted (5-24, 2-17, 13-23, 28-31, 9-29), kept as printed. Intro as printed (the Sentinel repeats a sentence and loses a line): "The great interest shown ii FUN'S word-cross puzzle, published last week, has prompted the puzzle editor to submit another of the same kind. The great interest shown in FUN'S word-cross puzzle, pub- which agree with the definitions given below. The solution to the word-cross puzzle, given on the preceding page, shows how the squares are to be filled in, using one square for each letter." Read by hand from the Milwaukee Sentinel's page (Milwaukee_Sentinel_1913_12_28_77.png), solution from Milwaukee_Sentinel_1914_01_04_81_key.png, by Claude, 2026-11-16.
+Numbering: reading-order
+
+
+## Grid
+______Y______
+_____NEW_____
+____BOARS____
+___TARRING___
+__GRID_TALK__
+_PIEL___GIRD_
+GIRL_____SARD
+_ELLS___STAY_
+__SILO_REEL__
+___SIXTEEN___
+____TERNS____
+_____NIT_____
+______P______
+
+
+## Clues
+1-2. Wild animals. ~ BOARS
+3-4. Coating with tar. ~ TARRING
+5-6. A grating. ~ GRID
+7-8. Conversation. ~ TALK
+9-10. An iron wedge ~ PIEL
+11-12. To bind. ~ GIRD
+13-14. A young woman ~ GIRL
+15-16. Used as a gem. ~ SARD
+17-18. Ninety inches. ~ ELLS
+19-20. To remain. ~ STAY
+21-22. A food chamber. ~ SILO
+23-24. To stagger. ~ REEL
+25-27. A number. ~ SIXTEEN
+28-29. Gull-like birds. ~ TERNS
+30-31. The egg of an insect. ~ NIT
+1-10. Security for release. ~ BAIL
+3-25. A lattice. ~ TRELLIS
+5-21. Young women. ~ GIRLS
+5-21 ^Printed: 5-24
+9-17. Good to eat. ~ PIE
+9-17 ^Printed: 2-17
+18-28. To cut lengthwise. ~ SLIT
+18-28 ^Printed: 13-23
+N-6. The German for north. ~ NORD
+22-30. Cattle. ~ OXEN
+26-32. A journey. ~ TRIP
+W-7. A summons. ~ WRIT
+23-31. Torn. ~ RENT
+23-31 ^Printed: 28-31
+2-11. A hidden obstacle. ~ SNAG
+19-29. Perceives. ~ SEES
+19-29 ^Printed: 9-29
+4-27. To sparkle. ~ GLISTEN
+8-24. A Hottentot's home. ~ KRAAL
+12-20. Not wet. ~ DRY
+
+
+## Design
+G { given: true }
+
+......G......
+.....GGG.....
+......G......
+......G......
+.............
+.............
+.............
+.............
+.............
+.............
+.............
+.............
+.............

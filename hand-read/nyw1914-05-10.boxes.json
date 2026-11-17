@@ -1,0 +1,972 @@
+{
+ "xdid": "nyw1914-05-10",
+ "no": 21,
+ "pages": {
+  "puzzle": "Milwaukee_Sentinel_1914_05_10_89.png",
+  "solution": "Milwaukee_Sentinel_1914_05_17_89.png"
+ },
+ "grid": {
+  "page": "puzzle",
+  "corners": [
+   [
+    494,
+    113
+   ],
+   [
+    1543,
+    113
+   ],
+   [
+    1543,
+    1163
+   ],
+   [
+    494,
+    1163
+   ]
+  ],
+  "rows": 19,
+  "cols": 19
+ },
+ "key": {
+  "page": "solution",
+  "corners": [
+   [
+    497,
+    1405
+   ],
+   [
+    1062,
+    1405
+   ],
+   [
+    1062,
+    1970
+   ],
+   [
+    497,
+    1970
+   ]
+  ],
+  "rows": 19,
+  "cols": 19
+ },
+ "lines": [
+  {
+   "label": "heading",
+   "text": "FUN'S",
+   "page": "puzzle",
+   "box": [
+    505,
+    100,
+    880,
+    640
+   ]
+  },
+  {
+   "label": "heading",
+   "text": "CROSS-WORD PUZZLE",
+   "page": "puzzle",
+   "ocr": [
+    "o0",
+    "o2",
+    "o3"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    1072,
+    76,
+    1557,
+    374
+   ]
+  },
+  {
+   "label": "number",
+   "text": "No. 21",
+   "page": "puzzle",
+   "ocr": [
+    "o4",
+    "o5"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    1374,
+    359,
+    1535,
+    552
+   ]
+  },
+  {
+   "label": "intro",
+   "text": "Miss Elizabeth M. Rutzinger, who sent in the ingeniously constructed cross word puzzle published in last week's FUN, has contributed another. And here it is. See if you can solve it. Fill in the small squares with words corresponding to the clews and definitions given herewith.",
+   "page": "puzzle",
+   "box": [
+    482,
+    1160,
+    842,
+    1360
+   ]
+  },
+  {
+   "label": "instructions",
+   "text": "The answer to this puzzle will be published in next week's FUN.",
+   "page": "puzzle",
+   "ocr": [
+    "o93",
+    "o97"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    1211,
+    1632,
+    1560,
+    1682
+   ]
+  },
+  {
+   "label": "solution heading",
+   "text": "SOLUTION TO FUN'S CROSS-WORD PUZZLE No. 21",
+   "page": "solution",
+   "box": [
+    490,
+    1395,
+    1070,
+    1630
+   ]
+  }
+ ],
+ "clues": [
+  {
+   "pair": "1-2",
+   "text": "A conveyance.",
+   "answer": "BUS",
+   "page": "puzzle",
+   "ocr": [
+    "o56"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    493,
+    1360,
+    685,
+    1387
+   ]
+  },
+  {
+   "pair": "3-4",
+   "text": "An alluvial deposit, formed at the mouth of a river.",
+   "answer": "DELTA",
+   "page": "puzzle",
+   "ocr": [
+    "o59",
+    "o62"
+   ],
+   "box": [
+    488,
+    1381,
+    840,
+    1430
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "5-6",
+   "text": "Those who heal.",
+   "answer": "HEALERS",
+   "page": "puzzle",
+   "ocr": [
+    "o65"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    492,
+    1429,
+    704,
+    1456
+   ]
+  },
+  {
+   "pair": "7-8",
+   "text": "It has thirty days.",
+   "answer": "SEPTEMBER",
+   "page": "puzzle",
+   "ocr": [
+    "o68"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    495,
+    1450,
+    735,
+    1478
+   ]
+  },
+  {
+   "pair": "9-10",
+   "text": "A confused condition.",
+   "answer": "CHAOS",
+   "page": "puzzle",
+   "ocr": [
+    "o71"
+   ],
+   "box": [
+    495,
+    1470,
+    780,
+    1497
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "11-12",
+   "text": "A sewing machine.",
+   "answer": "SOWER",
+   "page": "puzzle",
+   "ocr": [
+    "o73"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    483,
+    1494,
+    743,
+    1520
+   ]
+  },
+  {
+   "pair": "13-14",
+   "text": "A judicial tribunal.",
+   "answer": "COURT",
+   "page": "puzzle",
+   "ocr": [
+    "o76"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    485,
+    1516,
+    748,
+    1542
+   ]
+  },
+  {
+   "pair": "15-16",
+   "text": "A frolic.",
+   "answer": "REVEL",
+   "page": "puzzle",
+   "ocr": [
+    "o79"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    483,
+    1540,
+    636,
+    1569
+   ]
+  },
+  {
+   "pair": "17-18",
+   "text": "Sailors.",
+   "answer": "SALTS",
+   "page": "puzzle",
+   "ocr": [
+    "o82"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    482,
+    1561,
+    624,
+    1591
+   ]
+  },
+  {
+   "pair": "19-20",
+   "text": "What the sun does.",
+   "answer": "RISES",
+   "page": "puzzle",
+   "ocr": [
+    "o85"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    482,
+    1584,
+    740,
+    1612
+   ]
+  },
+  {
+   "pair": "21-22",
+   "text": "Luminous circles.",
+   "answer": "HALOS",
+   "page": "puzzle",
+   "ocr": [
+    "o88"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    484,
+    1605,
+    727,
+    1634
+   ]
+  },
+  {
+   "pair": "23-24",
+   "text": "Before 9 o'clock.",
+   "answer": "EIGHT",
+   "page": "puzzle",
+   "ocr": [
+    "o91"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    485,
+    1629,
+    730,
+    1654
+   ]
+  },
+  {
+   "pair": "25-26",
+   "text": "A small wild animal.",
+   "answer": "TAPIR",
+   "page": "puzzle",
+   "ocr": [
+    "o95"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    486,
+    1649,
+    760,
+    1675
+   ]
+  },
+  {
+   "pair": "27-28",
+   "text": "Where milk is converted into butter and cheese.",
+   "answer": "DAIRY",
+   "page": "puzzle",
+   "ocr": [
+    "o28",
+    "o31"
+   ],
+   "box": [
+    840,
+    1160,
+    1197,
+    1209
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "29-30",
+   "text": "A subject of discourse.",
+   "answer": "TOPIC",
+   "page": "puzzle",
+   "ocr": [
+    "o33"
+   ],
+   "box": [
+    840,
+    1210,
+    1146,
+    1236
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "31-32",
+   "text": "To tarnish.",
+   "answer": "SULLY",
+   "page": "puzzle",
+   "ocr": [
+    "o37"
+   ],
+   "box": [
+    840,
+    1233,
+    1036,
+    1254
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "33-34",
+   "text": "To hand over for consideration.",
+   "answer": "REFER",
+   "page": "puzzle",
+   "ocr": [
+    "o41",
+    "o45"
+   ],
+   "box": [
+    840,
+    1254,
+    1196,
+    1299
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "35-36",
+   "text": "Incrusted with scales.",
+   "answer": "SCALY",
+   "page": "puzzle",
+   "ocr": [
+    "o48"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    843,
+    1298,
+    1130,
+    1325
+   ]
+  },
+  {
+   "pair": "37-38",
+   "text": "A large sea duck.",
+   "answer": "EIDER",
+   "page": "puzzle",
+   "ocr": [
+    "o51"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    842,
+    1321,
+    1091,
+    1347
+   ]
+  },
+  {
+   "pair": "39-40",
+   "text": "Inclined to take fright.",
+   "answer": "SCARY",
+   "page": "puzzle",
+   "ocr": [
+    "o54"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    844,
+    1343,
+    1145,
+    1368
+   ]
+  },
+  {
+   "pair": "41-42",
+   "text": "The chocolate tree.",
+   "answer": "CACAO",
+   "page": "puzzle",
+   "ocr": [
+    "o57"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    846,
+    1364,
+    1106,
+    1388
+   ]
+  },
+  {
+   "pair": "43-44",
+   "text": "An anecdote.",
+   "answer": "STORY",
+   "page": "puzzle",
+   "ocr": [
+    "o60"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    833,
+    1384,
+    1046,
+    1412
+   ]
+  },
+  {
+   "pair": "45-46",
+   "text": "To tint with red.",
+   "answer": "RUBRICATE",
+   "page": "puzzle",
+   "ocr": [
+    "o63"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    844,
+    1407,
+    1082,
+    1434
+   ]
+  },
+  {
+   "pair": "47-48",
+   "text": "Flat narrow partitions.",
+   "answer": "RIGLETS",
+   "page": "puzzle",
+   "box": [
+    843,
+    1435,
+    1140,
+    1457
+   ],
+   "how": "eye"
+  },
+  {
+   "pair": "49-50",
+   "text": "A deteriorating quality.",
+   "answer": "TAINT",
+   "page": "puzzle",
+   "box": [
+    843,
+    1457,
+    1150,
+    1479
+   ],
+   "how": "eye"
+  },
+  {
+   "pair": "51-52",
+   "text": "A genii worshiped in Burma.",
+   "answer": "NAT",
+   "page": "puzzle",
+   "ocr": [
+    "o74"
+   ],
+   "box": [
+    843,
+    1479,
+    1195,
+    1522
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "53-54",
+   "text": "Used for veils and light dresses.",
+   "answer": "TULLE",
+   "page": "puzzle",
+   "ocr": [
+    "o77",
+    "o80"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    842,
+    1520,
+    1193,
+    1570
+   ]
+  },
+  {
+   "pair": "55-56",
+   "text": "A Greek epic poem.",
+   "answer": "ILIAD",
+   "page": "puzzle",
+   "ocr": [
+    "o83"
+   ],
+   "box": [
+    840,
+    1570,
+    1115,
+    1594
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "1-10",
+   "text": "What your heart does.",
+   "answer": "BEATS",
+   "page": "puzzle",
+   "ocr": [
+    "o87"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    855,
+    1590,
+    1147,
+    1613
+   ]
+  },
+  {
+   "pair": "3-14",
+   "text": "A railroad station.",
+   "answer": "DEPOT",
+   "page": "puzzle",
+   "ocr": [
+    "o89"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    855,
+    1610,
+    1111,
+    1636
+   ]
+  },
+  {
+   "pair": "5-18",
+   "text": "Listens.",
+   "answer": "HEARS",
+   "page": "puzzle",
+   "ocr": [
+    "o92"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    854,
+    1630,
+    988,
+    1657
+   ]
+  },
+  {
+   "pair": "7-22",
+   "text": "Closes.",
+   "answer": "SHUTS",
+   "page": "puzzle",
+   "ocr": [
+    "o96"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    856,
+    1653,
+    975,
+    1677
+   ]
+  },
+  {
+   "pair": "9-41",
+   "text": "Capable of producing color.",
+   "answer": "COLORIFIC",
+   "page": "puzzle",
+   "ocr": [
+    "o29"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    1195,
+    1159,
+    1557,
+    1188
+   ]
+  },
+  {
+   "pair": "13-37",
+   "text": "The part of a turtle next the lower shell.",
+   "answer": "CALIPEE",
+   "page": "puzzle",
+   "ocr": [
+    "o32",
+    "o34"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    1209,
+    1181,
+    1557,
+    1229
+   ]
+  },
+  {
+   "pair": "17-33",
+   "text": "Qpality affecting the sense of taste.",
+   "answer": "SAPOR",
+   "page": "puzzle",
+   "ocr": [
+    "o38",
+    "o42"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    1208,
+    1223,
+    1551,
+    1272
+   ]
+  },
+  {
+   "pair": "21-29",
+   "text": "A covering for the head.",
+   "answer": "HAT",
+   "page": "puzzle",
+   "ocr": [
+    "o43"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    1209,
+    1268,
+    1532,
+    1293
+   ]
+  },
+  {
+   "pair": "30-45",
+   "text": "A fragrant tree.",
+   "answer": "CEDAR",
+   "page": "puzzle",
+   "ocr": [
+    "o47"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    1208,
+    1289,
+    1443,
+    1315
+   ]
+  },
+  {
+   "pair": "34-47",
+   "text": "To happen again.",
+   "answer": "RECUR",
+   "page": "puzzle",
+   "ocr": [
+    "o50"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    1209,
+    1310,
+    1454,
+    1337
+   ]
+  },
+  {
+   "pair": "38-49",
+   "text": "A wooden drinking vessel.",
+   "answer": "RABIT",
+   "page": "puzzle",
+   "ocr": [
+    "o52"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    1209,
+    1331,
+    1557,
+    1358
+   ]
+  },
+  {
+   "pair": "42-51",
+   "text": "A musical instrument.",
+   "answer": "ORGAN",
+   "page": "puzzle",
+   "ocr": [
+    "o55"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    1212,
+    1353,
+    1499,
+    1379
+   ]
+  },
+  {
+   "pair": "2-11",
+   "text": "Stalks.",
+   "answer": "STEMS",
+   "page": "puzzle",
+   "ocr": [
+    "o58"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    1219,
+    1375,
+    1345,
+    1399
+   ]
+  },
+  {
+   "pair": "4-15",
+   "text": "A bower, or summer house.",
+   "answer": "ARBOR",
+   "page": "puzzle",
+   "ocr": [
+    "o61"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    1219,
+    1396,
+    1548,
+    1423
+   ]
+  },
+  {
+   "pair": "6-19",
+   "text": "A drain.",
+   "answer": "SEWER",
+   "page": "puzzle",
+   "ocr": [
+    "o64"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    1220,
+    1419,
+    1364,
+    1443
+   ]
+  },
+  {
+   "pair": "8-23",
+   "text": "To surpass.",
+   "answer": "REVIE",
+   "page": "puzzle",
+   "ocr": [
+    "o67"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    1218,
+    1438,
+    1391,
+    1465
+   ]
+  },
+  {
+   "pair": "12-44",
+   "text": "Pertaining to a remainder.",
+   "answer": "RESIDUARY",
+   "page": "puzzle",
+   "ocr": [
+    "o70"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    1209,
+    1461,
+    1548,
+    1487
+   ]
+  },
+  {
+   "pair": "16-40",
+   "text": "Lawfully.",
+   "answer": "LEGALLY",
+   "page": "puzzle",
+   "ocr": [
+    "o72"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    1207,
+    1481,
+    1376,
+    1509
+   ]
+  },
+  {
+   "pair": "20-36",
+   "text": "Shyly.",
+   "answer": "SHILY",
+   "page": "puzzle",
+   "ocr": [
+    "o75"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    1208,
+    1502,
+    1341,
+    1531
+   ]
+  },
+  {
+   "pair": "24-32",
+   "text": "To attempt.",
+   "answer": "TRY",
+   "page": "puzzle",
+   "ocr": [
+    "o78"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    1189,
+    1522,
+    1398,
+    1555
+   ]
+  },
+  {
+   "pair": "31-46",
+   "text": "A fright.",
+   "answer": "SCARE",
+   "page": "puzzle",
+   "ocr": [
+    "o81"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    1209,
+    1544,
+    1372,
+    1575
+   ]
+  },
+  {
+   "pair": "35-48",
+   "text": "Natives of Scotland.",
+   "answer": "SCOTS",
+   "page": "puzzle",
+   "ocr": [
+    "o84"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    1209,
+    1567,
+    1484,
+    1593
+   ]
+  },
+  {
+   "pair": "39-50",
+   "text": "German for dwelling place.",
+   "answer": "STATT",
+   "page": "puzzle",
+   "ocr": [
+    "o86"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    1209,
+    1588,
+    1557,
+    1619
+   ]
+  },
+  {
+   "pair": "43-52",
+   "text": "Perfume.",
+   "answer": "SCENT",
+   "page": "puzzle",
+   "ocr": [
+    "o90"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    1214,
+    1613,
+    1373,
+    1637
+   ]
+  }
+ ]
+}

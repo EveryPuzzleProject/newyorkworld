@@ -1,0 +1,642 @@
+{
+ "xdid": "nyw1914-06-21",
+ "no": 24,
+ "pages": {
+  "puzzle": "Milwaukee_Sentinel_1914_06_21_87.png",
+  "solution": "Milwaukee_Sentinel_1914_06_28_74.png"
+ },
+ "grid": {
+  "page": "puzzle",
+  "corners": [
+   [
+    463,
+    212
+   ],
+   [
+    1093,
+    212
+   ],
+   [
+    1093,
+    845
+   ],
+   [
+    463,
+    845
+   ]
+  ],
+  "rows": 13,
+  "cols": 13
+ },
+ "key": {
+  "page": "solution",
+  "corners": [
+   [
+    775,
+    1476
+   ],
+   [
+    1118,
+    1478
+   ],
+   [
+    1118,
+    1814
+   ],
+   [
+    775,
+    1812
+   ]
+  ],
+  "rows": 13,
+  "cols": 13
+ },
+ "lines": [
+  {
+   "label": "heading",
+   "text": "FUN'S CROSS-WORD PUZZLES",
+   "page": "puzzle",
+   "ocr": [
+    "o2",
+    "o3"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    446,
+    57,
+    1117,
+    222
+   ]
+  },
+  {
+   "label": "heading",
+   "text": "Can You Solve Them?",
+   "page": "puzzle",
+   "ocr": [
+    "o5",
+    "o7"
+   ],
+   "box": [
+    490,
+    205,
+    1100,
+    380
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "label": "number",
+   "text": "No 24",
+   "page": "puzzle",
+   "ocr": [
+    "o14"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    690,
+    457,
+    866,
+    596
+   ]
+  },
+  {
+   "label": "intro",
+   "text": "Today's cross word puzzle, the twenty-fourth in FUN'S series, is contributed by Ernest A. Grant of Washington, D. C. Can you solve it? Fill in the small squares with words corresponding to the list of clews and definitions given herewith, allowing one letter of the word to each small square. The solution to the puzzle will be published in next week's FUN.",
+   "page": "puzzle",
+   "ocr": [
+    "o50",
+    "o51",
+    "o53",
+    "o54",
+    "o57",
+    "o59",
+    "o60",
+    "o63",
+    "o66"
+   ],
+   "box": [
+    455,
+    840,
+    1112,
+    976
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "label": "solution heading",
+   "text": "SOLUTION TO No 24 PUZZLE",
+   "page": "solution",
+   "box": [
+    912,
+    1610,
+    982,
+    1680
+   ],
+   "how": "eye"
+  }
+ ],
+ "clues": [
+  {
+   "pair": "1-2",
+   "text": "An offer.",
+   "answer": "BID",
+   "page": "puzzle",
+   "ocr": [
+    "o71"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    466,
+    972,
+    609,
+    997
+   ]
+  },
+  {
+   "pair": "3-4",
+   "text": "A broom.",
+   "answer": "BESOM",
+   "page": "puzzle",
+   "ocr": [
+    "o72"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    466,
+    993,
+    610,
+    1018
+   ]
+  },
+  {
+   "pair": "5-6",
+   "text": "Advantage.",
+   "answer": "BENEFIT",
+   "page": "puzzle",
+   "ocr": [
+    "o77"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    467,
+    1015,
+    630,
+    1038
+   ]
+  },
+  {
+   "pair": "7-8",
+   "text": "Prosecuted at law.",
+   "answer": "SUED",
+   "page": "puzzle",
+   "ocr": [
+    "o80"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    466,
+    1035,
+    706,
+    1061
+   ]
+  },
+  {
+   "pair": "9-10",
+   "text": "Opposed to ebb.",
+   "answer": "FLOW",
+   "page": "puzzle",
+   "ocr": [
+    "o84"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    467,
+    1055,
+    692,
+    1081
+   ]
+  },
+  {
+   "pair": "11-12",
+   "text": "Never right.",
+   "answer": "LEFT",
+   "page": "puzzle",
+   "ocr": [
+    "o89"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    457,
+    1076,
+    653,
+    1101
+   ]
+  },
+  {
+   "pair": "13-14",
+   "text": "A son of Seth.",
+   "answer": "ENOS",
+   "page": "puzzle",
+   "ocr": [
+    "o92"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    458,
+    1097,
+    672,
+    1123
+   ]
+  },
+  {
+   "pair": "15-16",
+   "text": "Part of a book.",
+   "answer": "LEAF",
+   "page": "puzzle",
+   "ocr": [
+    "o96"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    458,
+    1118,
+    688,
+    1143
+   ]
+  },
+  {
+   "pair": "17-18",
+   "text": "It leaves in summer.",
+   "answer": "TREE",
+   "page": "puzzle",
+   "ocr": [
+    "o99"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    456,
+    1138,
+    730,
+    1164
+   ]
+  },
+  {
+   "pair": "19-20",
+   "text": "A shallow vessel.",
+   "answer": "TRAY",
+   "page": "puzzle",
+   "ocr": [
+    "o103"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    459,
+    1161,
+    698,
+    1184
+   ]
+  },
+  {
+   "pair": "21-22",
+   "text": "A heap.",
+   "answer": "PILE",
+   "page": "puzzle",
+   "ocr": [
+    "o107"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    456,
+    1178,
+    609,
+    1207
+   ]
+  },
+  {
+   "pair": "23-24",
+   "text": "To hit with a broad object.",
+   "answer": "SLAP",
+   "page": "puzzle",
+   "ocr": [
+    "o110",
+    "o114"
+   ],
+   "box": [
+    455,
+    1198,
+    775,
+    1250
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "25-26",
+   "text": "To tie together.",
+   "answer": "BIND",
+   "page": "puzzle",
+   "ocr": [
+    "o118"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    456,
+    1243,
+    685,
+    1269
+   ]
+  },
+  {
+   "pair": "27-28",
+   "text": "An opening.",
+   "answer": "ORIFICE",
+   "page": "puzzle",
+   "ocr": [
+    "o120"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    454,
+    1263,
+    647,
+    1292
+   ]
+  },
+  {
+   "pair": "29-30",
+   "text": "Found at the mouth of the Mississippi river.",
+   "answer": "DELTA",
+   "page": "puzzle",
+   "ocr": [
+    "o122",
+    "o124"
+   ],
+   "box": [
+    455,
+    1284,
+    775,
+    1333
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "31-32",
+   "text": "To perceive.",
+   "answer": "SEE",
+   "page": "puzzle",
+   "ocr": [
+    "o126"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    455,
+    1327,
+    649,
+    1353
+   ]
+  },
+  {
+   "pair": "1-8",
+   "text": "Curved.",
+   "answer": "BEND",
+   "page": "puzzle",
+   "ocr": [
+    "o128"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    464,
+    1349,
+    591,
+    1373
+   ]
+  },
+  {
+   "pair": "3-12",
+   "text": "A vegetable.",
+   "answer": "BEET",
+   "page": "puzzle",
+   "ocr": [
+    "o68"
+   ],
+   "box": [
+    795,
+    972,
+    990,
+    998
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "5-27",
+   "text": "A large city in New York state.",
+   "answer": "BUFFALO",
+   "page": "puzzle",
+   "ocr": [
+    "o73",
+    "o78"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    799,
+    992,
+    1106,
+    1039
+   ]
+  },
+  {
+   "pair": "7-23",
+   "text": "To dry up (plural).",
+   "answer": "SEARS",
+   "page": "puzzle",
+   "ocr": [
+    "o81"
+   ],
+   "box": [
+    795,
+    1035,
+    1055,
+    1061
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "2-9",
+   "text": "To take off.",
+   "answer": "DOFF",
+   "page": "puzzle",
+   "ocr": [
+    "o85"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    798,
+    1054,
+    975,
+    1080
+   ]
+  },
+  {
+   "pair": "4-13",
+   "text": "320 rods.",
+   "answer": "MILE",
+   "page": "puzzle",
+   "ocr": [
+    "o88"
+   ],
+   "box": [
+    795,
+    1077,
+    935,
+    1101
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "6-28",
+   "text": "An annuity.",
+   "answer": "TONTINE",
+   "page": "puzzle",
+   "ocr": [
+    "o93"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    797,
+    1096,
+    981,
+    1122
+   ]
+  },
+  {
+   "pair": "10-26",
+   "text": "The earth.",
+   "answer": "WORLD",
+   "page": "puzzle",
+   "ocr": [
+    "o97"
+   ],
+   "box": [
+    788,
+    1120,
+    965,
+    1142
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "14-22",
+   "text": "To perceive.",
+   "answer": "SEE",
+   "page": "puzzle",
+   "ocr": [
+    "o100"
+   ],
+   "box": [
+    788,
+    1140,
+    985,
+    1163
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "20-29",
+   "text": "It has three feet.",
+   "answer": "YARD",
+   "page": "puzzle",
+   "ocr": [
+    "o104"
+   ],
+   "box": [
+    788,
+    1161,
+    1036,
+    1183
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "24-31",
+   "text": "Mother makes 'em.",
+   "answer": "PIES",
+   "page": "puzzle",
+   "ocr": [
+    "o109"
+   ],
+   "box": [
+    788,
+    1182,
+    1065,
+    1205
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "25-32",
+   "text": "What fishermen like the fish to do.",
+   "answer": "BITE",
+   "page": "puzzle",
+   "ocr": [
+    "o111",
+    "o115"
+   ],
+   "box": [
+    786,
+    1200,
+    1100,
+    1248
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "21-30",
+   "text": "A measurement used by printers.",
+   "answer": "PICA",
+   "page": "puzzle",
+   "ocr": [
+    "o119",
+    "o121"
+   ],
+   "box": [
+    786,
+    1241,
+    1100,
+    1290
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "33-34",
+   "text": "An instrument with s grip.",
+   "answer": "VISE",
+   "page": "puzzle",
+   "ocr": [
+    "o123",
+    "o125"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    786,
+    1284,
+    1103,
+    1331
+   ]
+  },
+  {
+   "pair": "35-36",
+   "text": "To hasten away.",
+   "answer": "FLEE",
+   "page": "puzzle",
+   "ocr": [
+    "o127"
+   ],
+   "box": [
+    786,
+    1324,
+    1025,
+    1354
+   ],
+   "how": "ocr-corrected"
+  }
+ ]
+}

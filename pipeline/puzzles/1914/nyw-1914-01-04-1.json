@@ -1,0 +1,27 @@
+{
+ "id": "nyw-1914-01-04-1",
+ "aliases": [
+  "nyw1914-01-04-L001"
+ ],
+ "xdid": "nyw1914-01-04-L001",
+ "issue": "1914-01-04",
+ "date": "1914-01-04",
+ "grid": {
+  "unit": "scan:milwaukee-sentinel-1914-01-04/0001",
+  "extract": "sha256:e27b5f20a5c062752300df2fb59438f8561932c1abc506c61b30cac7a4f4f52c",
+  "size": "13x13",
+  "nth": 0
+ },
+ "clues": null,
+ "continued": null,
+ "copies": [],
+ "reading": "sha256:b8b337607ab7220409bb3ec1f73bd0c652a3911d211f36f02bbf39e441ec6a1a",
+ "checks": {
+  "solution": [],
+  "asymmetric": 11,
+  "warnings": [
+   "Grid isn't symmetric: 11 square pair(s) differ (r1c1/r13c13, r1c2/r13c12, r1c3/r13c11, r1c4/r13c10, r1c5/r13c9, r1c9/r13c5, r1c10/r13c4, r1c11/r13c3). Check those black squares against the scan, or confirm the design is asymmetric."
+  ]
+ },
+ "xd": "sha256:d3dc38215877ce12deae0fc725594e21ed11d83f7fc9ecc1bec7cf4779cfdd09"
+}

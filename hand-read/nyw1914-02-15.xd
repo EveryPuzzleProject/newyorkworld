@@ -1,0 +1,75 @@
+## Metadata
+Title: FUN'S Cross-Word Puzzles
+Copyright: New York World
+Date: 1914-02-15
+Number: 9
+Notes: A 13-wide diamond with a shaded cross in the centre printed "No 9" (shown as _), and two words printed in the grid as a starter: FUN (r2c6-c8) and PUZZLES (r4c4-c10); clues name four words by those printed letters (F-4, P-23, N-5, S-24). The number is printed in the centre block ("No 9") and in the intro ("the ninth in FUN'S series"). No credit line is printed. Read by hand from the Milwaukee Sentinel's page (Milwaukee_Sentinel_1914_02_15_83.png), solution from Milwaukee_Sentinel_1914_02_22_83.png, by Claude, 2026-11-16.
+Numbering: across-first
+
+
+## Grid
+______B______
+_____FUN_____
+____RAZOR____
+___PUZZLES___
+__TALE_LATE__
+_MINE___LENT_
+READ_____ATOM
+_TROD___AMEN_
+__AREA_OVER__
+___ANDOVER___
+____TAPER____
+_____MEN_____
+______N______
+
+
+## Clues
+1-2. A barber's implemeut. ~ RAZOR
+3-4. A story. ~ TALE
+5-6. Not early. ~ LATE
+7-8. Belonging to me. ~ MINE
+9-10. Before Easter. ~ LENT
+11-12. What FUN is. ~ READ
+13-14. A small particle. ~ ATOM
+15-16. Stepped. ~ TROD
+17-18. An expression of hearty assent. ~ AMEN
+19-20. Space. ~ AREA
+21-22. Above. ~ OVER
+23-24. A town in Massachusetts. ~ ANDOVER
+25-26. A burning wick. ~ TAPER
+27-28. One man and another man. ~ MEN
+29-Z. The noise a bee makes. ~ BUZZ
+29-Z ^Printed: 29-30
+F-4. To worry. ~ FAZE
+1-8. A measure. ~ RULE
+P-23. A mythical beauty who carried a famous box. ~ PANDORA
+3-19. A jeweled headdress. ~ TIARA
+7-15. Assembled, ~ MET
+N-5. The head. ~ NOLL
+2-9. Actual. ~ REAL
+S-24. A modern ship. ~ STEAMER
+6-22. To go inside. ~ ENTER
+10-18. A weight. ~ TON
+16-25. A small depression make by striking. ~ DENT
+20-27. the first man. ~ ADAM
+30-31. Not closed. ~ OPEN
+21-28. What mother bakes her pies in. ~ OVEN
+17-26. To affirm. ~ AVER
+
+
+## Design
+G { given: true }
+
+.............
+.....GGG.....
+.............
+...GGGGGGG...
+.............
+.............
+.............
+.............
+.............
+.............
+.............
+.............
+.............

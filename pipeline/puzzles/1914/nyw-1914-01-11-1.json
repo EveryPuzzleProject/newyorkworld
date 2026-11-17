@@ -1,0 +1,37 @@
+{
+ "id": "nyw-1914-01-11-1",
+ "aliases": [
+  "nyw1914-01-11-L000"
+ ],
+ "xdid": "nyw1914-01-11-L000",
+ "issue": "1914-01-11",
+ "date": "1914-01-11",
+ "grid": {
+  "unit": "scan:kansas-farmer-and-mail-and-breeze-1914-02-14/0000",
+  "extract": "sha256:928e7e0f73de56ab10a4737d1784e40a564357643a47c2ca2c127f5b48ad409c",
+  "size": "13x13",
+  "nth": 0
+ },
+ "clues": null,
+ "continued": null,
+ "copies": [],
+ "reading": "sha256:a5d85a8ec721e8cc1b5a24963b18f09aab431e0cf36d7820085859c39f8a3e66",
+ "key": {
+  "unit": "scan:milwaukee-sentinel-1914-01-18/0003",
+  "extract": "sha256:10f57a54464d9ad86bfed97085af368be4b1babf939328ac7def60d511b03815",
+  "solution_id": "milwaukee-sentinel-1914-01-18/3#0",
+  "how": "answers column, grids differ in 5 squares"
+ },
+ "checks": {
+  "solution": [
+   "puzzle and solution grids differ at r5c7 r8c6 r8c7 r8c8 r9c7",
+   "1 unreadable solution letters",
+   "low-confidence letters at r2c7 r5c7 r7c5 r12c8"
+  ],
+  "asymmetric": 0,
+  "warnings": [
+   "Answer key as given by the folder's answers column (milwaukee-sentinel-1914-01-18 leaf 3, milwaukee-sentinel-1914-01-18/3#0) has different black squares from the puzzle (grids differ in 5 squares): puzzle ............. ............. ............. ............. ......#...... ............. ............. .....###..... ......#...... ............. ............. ............. .............; key ............. ............. ............. ............. ............. ............. ............. ............. ............. ............. ............. ............. .............. Check the row's pairing, or the grid reading."
+  ]
+ },
+ "xd": "sha256:f8a136578f932b7c8a2aee8608724aed840de39296d9d54b9e46049e242012af"
+}

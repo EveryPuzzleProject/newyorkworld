@@ -1,0 +1,606 @@
+{
+ "xdid": "nyw1913-12-21",
+ "no": 1,
+ "pages": {
+  "puzzle": "Milwaukee_Sentinel_1913_12_21_68.png",
+  "solution": "Milwaukee_Sentinel_1913_12_28_78.png"
+ },
+ "grid": {
+  "page": "puzzle",
+  "corners": [
+   [
+    516,
+    133
+   ],
+   [
+    1135,
+    132
+   ],
+   [
+    1142,
+    754
+   ],
+   [
+    505,
+    756
+   ]
+  ],
+  "rows": 13,
+  "cols": 13
+ },
+ "key": {
+  "page": "solution",
+  "note": "the solution is printed upside down: corners are given in the puzzle's orientation (its TL is the page's bottom right)",
+  "corners": [
+   [
+    1105,
+    787
+   ],
+   [
+    750,
+    788
+   ],
+   [
+    752,
+    434
+   ],
+   [
+    1108,
+    437
+   ]
+  ],
+  "rows": 13,
+  "cols": 13
+ },
+ "lines": [
+  {
+   "label": "heading",
+   "text": "FUN'S CROSS-WORD PUZZLE.",
+   "page": "puzzle",
+   "ocr": [
+    "o2",
+    "o3"
+   ],
+   "box": [
+    576,
+    66,
+    1067,
+    111
+   ]
+  },
+  {
+   "label": "instructions",
+   "text": "Fill in the small squares with words which agree with the following definitions:",
+   "page": "puzzle",
+   "ocr": [
+    "o47",
+    "o48"
+   ],
+   "box": [
+    506,
+    772,
+    1149,
+    823
+   ]
+  },
+  {
+   "label": "solution caption",
+   "text": "Herewith is shown the solution to the word cross puzzle. Another puzzle of the same kind is given this week. See if you can solve it. The answers to today's puzzles will be given in next week's FUN.",
+   "page": "solution",
+   "ocr": [
+    "o58",
+    "o63",
+    "o67",
+    "o73",
+    "o76",
+    "o80",
+    "o88",
+    "o93",
+    "o97"
+   ],
+   "box": [
+    481,
+    531,
+    753,
+    767
+   ]
+  }
+ ],
+ "clues": [
+  {
+   "pair": "4-5",
+   "text": "A written acknowledgment.",
+   "answer": "RECEIPT",
+   "page": "puzzle",
+   "ocr": [
+    "o49",
+    "o53"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    500,
+    824,
+    820,
+    874
+   ]
+  },
+  {
+   "pair": "6-7",
+   "text": "Such and nothing more.",
+   "answer": "MERE",
+   "page": "puzzle",
+   "ocr": [
+    "o59",
+    "o55",
+    "o61"
+   ],
+   "box": [
+    500,
+    866,
+    826,
+    914
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "10-11",
+   "text": "A bird.",
+   "answer": "DOVE",
+   "page": "puzzle",
+   "ocr": [
+    "o63"
+   ],
+   "box": [
+    529,
+    910,
+    702,
+    935
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "18-19",
+   "text": "What this puzzle is.",
+   "answer": "HARD",
+   "page": "puzzle",
+   "ocr": [
+    "o73"
+   ],
+   "box": [
+    527,
+    950,
+    822,
+    976
+   ],
+   "how": "ocr-corrected",
+   "printed": "38-39"
+  },
+  {
+   "pair": "14-15",
+   "text": "Opposed to less.",
+   "answer": "MORE",
+   "page": "puzzle",
+   "ocr": [
+    "o69",
+    "o70"
+   ],
+   "box": [
+    529,
+    929,
+    794,
+    954
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "22-23",
+   "text": "An animal of prey.",
+   "answer": "LION",
+   "page": "puzzle",
+   "ocr": [
+    "o75",
+    "o76"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    527,
+    969,
+    823,
+    997
+   ]
+  },
+  {
+   "pair": "26-27",
+   "text": "The close of a day.",
+   "answer": "EVENING",
+   "page": "puzzle",
+   "ocr": [
+    "o79",
+    "o80"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    527,
+    989,
+    821,
+    1017
+   ]
+  },
+  {
+   "pair": "28-29",
+   "text": "To elude.",
+   "answer": "EVADE",
+   "page": "puzzle",
+   "ocr": [
+    "o83"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    528,
+    1010,
+    721,
+    1036
+   ]
+  },
+  {
+   "pair": "30-31",
+   "text": "The plural of is.",
+   "answer": "ARE",
+   "page": "puzzle",
+   "ocr": [
+    "o85"
+   ],
+   "box": [
+    527,
+    1031,
+    793,
+    1055
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "8-9",
+   "text": "To cultivate.",
+   "answer": "FARM",
+   "page": "puzzle",
+   "ocr": [
+    "o89"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    528,
+    1051,
+    737,
+    1078
+   ]
+  },
+  {
+   "pair": "12-13",
+   "text": "A bar of wood or iron.",
+   "answer": "RAIL",
+   "page": "puzzle",
+   "ocr": [
+    "o92",
+    "o95"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    508,
+    1072,
+    822,
+    1119
+   ]
+  },
+  {
+   "pair": "16-17",
+   "text": "What artists learn to do.",
+   "answer": "DRAW",
+   "page": "puzzle",
+   "how": "ocr-corrected",
+   "ocr": [
+    "o97",
+    "o100"
+   ],
+   "box": [
+    507,
+    1114,
+    820,
+    1160
+   ]
+  },
+  {
+   "pair": "20-21",
+   "text": "Fastened.",
+   "answer": "TIED",
+   "page": "puzzle",
+   "how": "ocr-exact",
+   "ocr": [
+    "o103"
+   ],
+   "box": [
+    526,
+    1154,
+    720,
+    1180
+   ]
+  },
+  {
+   "pair": "24-25",
+   "text": "Found on the seashore.",
+   "answer": "SAND",
+   "page": "puzzle",
+   "how": "ocr-corrected",
+   "ocr": [
+    "o106",
+    "o107",
+    "o110"
+   ],
+   "box": [
+    518,
+    1176,
+    818,
+    1222
+   ]
+  },
+  {
+   "pair": "10-18",
+   "text": "The fibre of the gomuti palm.",
+   "answer": "DOH",
+   "page": "puzzle",
+   "ocr": [
+    "o50",
+    "o54"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    837,
+    824,
+    1149,
+    873
+   ],
+   "printed": "10-12"
+  },
+  {
+   "pair": "6-22",
+   "text": "What we all should be.",
+   "answer": "MORAL",
+   "page": "puzzle",
+   "ocr": [
+    "o56",
+    "o62"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    837,
+    868,
+    1148,
+    912
+   ]
+  },
+  {
+   "pair": "4-26",
+   "text": "A day dream.",
+   "answer": "REVERIE",
+   "page": "puzzle",
+   "ocr": [
+    "o64"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    856,
+    906,
+    1082,
+    937
+   ]
+  },
+  {
+   "pair": "2-11",
+   "text": "A talon.",
+   "answer": "SERE",
+   "page": "puzzle",
+   "ocr": [
+    "o71"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    857,
+    928,
+    1027,
+    957
+   ]
+  },
+  {
+   "pair": "19-28",
+   "text": "A pigeon.",
+   "answer": "DOVE",
+   "page": "puzzle",
+   "ocr": [
+    "o74"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    857,
+    951,
+    1052,
+    977
+   ]
+  },
+  {
+   "pair": "F-7",
+   "text": "Part of your head.",
+   "answer": "FACE",
+   "page": "puzzle",
+   "ocr": [
+    "o77"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    857,
+    971,
+    1125,
+    996
+   ]
+  },
+  {
+   "pair": "23-30",
+   "text": "A river in Russia.",
+   "answer": "NEVA",
+   "page": "puzzle",
+   "ocr": [
+    "o81"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    856,
+    991,
+    1148,
+    1017
+   ],
+   "printed": "26-30"
+  },
+  {
+   "pair": "1-32",
+   "text": "To govern.",
+   "answer": "RULE",
+   "page": "puzzle",
+   "ocr": [
+    "o84"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    857,
+    1010,
+    1051,
+    1036
+   ]
+  },
+  {
+   "pair": "33-34",
+   "text": "An aromatic plant.",
+   "answer": "NARD",
+   "page": "puzzle",
+   "ocr": [
+    "o87"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    855,
+    1031,
+    1144,
+    1059
+   ]
+  },
+  {
+   "pair": "N-8",
+   "text": "A fist.",
+   "answer": "NEIF",
+   "page": "puzzle",
+   "ocr": [
+    "o90"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    858,
+    1054,
+    1004,
+    1078
+   ]
+  },
+  {
+   "pair": "24-31",
+   "text": "To agree with.",
+   "answer": "SIDE",
+   "page": "puzzle",
+   "ocr": [
+    "o93"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    856,
+    1071,
+    1114,
+    1100
+   ]
+  },
+  {
+   "pair": "3-12",
+   "text": "Part of a ship.",
+   "answer": "SPAR",
+   "page": "puzzle",
+   "ocr": [
+    "o96"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    855,
+    1093,
+    1087,
+    1122
+   ]
+  },
+  {
+   "pair": "20-29",
+   "text": "One.",
+   "answer": "TANE",
+   "page": "puzzle",
+   "how": "ocr-corrected",
+   "ocr": [
+    "o99"
+   ],
+   "box": [
+    857,
+    1116,
+    998,
+    1139
+   ]
+  },
+  {
+   "pair": "5-27",
+   "text": "Exchanging.",
+   "answer": "TRADING",
+   "page": "puzzle",
+   "how": "ocr-corrected",
+   "ocr": [
+    "o101"
+   ],
+   "box": [
+    857,
+    1134,
+    1067,
+    1161
+   ]
+  },
+  {
+   "pair": "9-25",
+   "text": "To sink in mud.",
+   "answer": "MIRED",
+   "page": "puzzle",
+   "how": "ocr-corrected",
+   "ocr": [
+    "o104"
+   ],
+   "box": [
+    842,
+    1153,
+    1088,
+    1181
+   ]
+  },
+  {
+   "pair": "13-21",
+   "text": "A boy.",
+   "answer": "LAD",
+   "page": "puzzle",
+   "how": "ocr-corrected",
+   "ocr": [
+    "o108"
+   ],
+   "box": [
+    855,
+    1175,
+    1019,
+    1204
+   ]
+  }
+ ]
+}

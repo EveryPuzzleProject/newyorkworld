@@ -1,0 +1,37 @@
+{
+ "id": "nyw-1914-08-23-1",
+ "aliases": [
+  "nyw1914-08-23-L001"
+ ],
+ "xdid": "nyw1914-08-23-L001",
+ "issue": "1914-08-23",
+ "date": "1914-08-23",
+ "grid": {
+  "unit": "scan:milwaukee-sentinel-1914-08-23/0001",
+  "extract": "sha256:a811676107a7e3aed79887b6dd8403ab8f46ed8fff04986d03a581d4002cbedd",
+  "size": "13x13",
+  "nth": 0
+ },
+ "clues": null,
+ "continued": null,
+ "copies": [],
+ "reading": "sha256:e027fcac1b860b923677536d7237fc986f3063809dce3731426218f1470bdaba",
+ "key": {
+  "unit": "scan:milwaukee-sentinel-1914-08-30/0000",
+  "extract": "sha256:4a59377b58d511f7332d1100ee9e715d8e02b70dce3137223b319ca7853b6d1b",
+  "solution_id": "milwaukee-sentinel-1914-08-30/0#0",
+  "how": "answers column, grids differ in 4 squares"
+ },
+ "checks": {
+  "solution": [
+   "puzzle and solution grids differ at r5c7 r7c5 r7c9 r9c7",
+   "2 unreadable solution letters",
+   "low-confidence letters at r5c7 r7c9 r9c7"
+  ],
+  "asymmetric": 0,
+  "warnings": [
+   "Answer key as given by the folder's answers column (milwaukee-sentinel-1914-08-30 leaf 0, milwaukee-sentinel-1914-08-30/0#0) has different black squares from the puzzle (grids differ in 4 squares): puzzle ............. ............. ............. ............. ......#...... ............. ....#...#.... ............. ......#...... ............. ............. ............. .............; key ............. ............. ............. ............. ............. ............. ............. ............. ............. ............. ............. ............. .............. Check the row's pairing, or the grid reading."
+  ]
+ },
+ "xd": "sha256:0bd7af5e63de00c3b418db629c772155253a33f9e7449dda397a586a780203d1"
+}

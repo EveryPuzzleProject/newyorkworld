@@ -1,0 +1,1073 @@
+{
+ "xdid": "nyw1914-05-31",
+ "no": 22,
+ "pages": {
+  "puzzle": "Milwaukee_Sentinel_1914_05_31_90.png",
+  "solution": "Milwaukee_Sentinel_1914_06_07_85.png"
+ },
+ "grid": {
+  "page": "puzzle",
+  "corners": [
+   [
+    495,
+    348
+   ],
+   [
+    1521,
+    349
+   ],
+   [
+    1521,
+    942
+   ],
+   [
+    492,
+    940
+   ]
+  ],
+  "rows": 11,
+  "cols": 19
+ },
+ "key": {
+  "page": "solution",
+  "corners": [
+   [
+    503,
+    1066
+   ],
+   [
+    1041,
+    1067
+   ],
+   [
+    1040,
+    1380
+   ],
+   [
+    498,
+    1375
+   ]
+  ],
+  "rows": 11,
+  "cols": 19
+ },
+ "lines": [
+  {
+   "label": "heading",
+   "text": "FUN'S CROSS-WORD PUZZLE",
+   "page": "puzzle",
+   "ocr": [
+    "o3"
+   ],
+   "box": [
+    490,
+    95,
+    1525,
+    315
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "label": "number",
+   "text": "No 22",
+   "page": "puzzle",
+   "ocr": [
+    "o10"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    857,
+    216,
+    1125,
+    313
+   ]
+  },
+  {
+   "label": "intro",
+   "text": "Here is number twenty-one in FUN'S series of cross word puzzles. It is different from any of the others published thus far and you will find yourself busily engaged for some time to come when you begin to solve it. Fill in the small squares in the above diamond with words corresponding to the clews and definitions given herewith. The solution will appear in next week's FUN.",
+   "page": "puzzle",
+   "ocr": [
+    "o67",
+    "o68",
+    "o69",
+    "o70",
+    "o71",
+    "o72",
+    "o73",
+    "o74",
+    "o75"
+   ],
+   "box": [
+    488,
+    938,
+    1525,
+    1050
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "label": "solution heading",
+   "text": "SOLUTION TO LAST WEEK'S PUZZLE.",
+   "page": "solution",
+   "box": [
+    466,
+    1020,
+    1078,
+    1062
+   ],
+   "how": "eye"
+  },
+  {
+   "label": "solution caption",
+   "text": "Herewith is given the solution to cross-word puzzle No. 22, given in last week's Fun. The diagram shows how the letters should be arranged to fit the list of clews and definitions given.",
+   "page": "solution",
+   "box": [
+    448,
+    1378,
+    1094,
+    1443
+   ],
+   "how": "eye"
+  }
+ ],
+ "clues": [
+  {
+   "pair": "1-2",
+   "text": "Slang expression for a stupid fellow.",
+   "answer": "BOOB",
+   "page": "puzzle",
+   "ocr": [
+    "o76",
+    "o81"
+   ],
+   "box": [
+    490,
+    1043,
+    830,
+    1095
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "3-4",
+   "text": "What the barber asks you.",
+   "answer": "SHAMPOO",
+   "page": "puzzle",
+   "ocr": [
+    "o84"
+   ],
+   "box": [
+    495,
+    1095,
+    800,
+    1122
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "5-6",
+   "text": "Expressing an indeterminate number.",
+   "answer": "SOME",
+   "page": "puzzle",
+   "ocr": [
+    "o87",
+    "o90"
+   ],
+   "box": [
+    493,
+    1122,
+    830,
+    1172
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "7-8",
+   "text": "To wander.",
+   "answer": "ROAM",
+   "page": "puzzle",
+   "ocr": [
+    "o93"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    495,
+    1169,
+    650,
+    1193
+   ]
+  },
+  {
+   "pair": "9-10",
+   "text": "A second time.",
+   "answer": "AGAIN",
+   "page": "puzzle",
+   "ocr": [
+    "o96"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    492,
+    1189,
+    697,
+    1215
+   ]
+  },
+  {
+   "pair": "11-12",
+   "text": "Absent.",
+   "answer": "AWAY",
+   "page": "puzzle",
+   "ocr": [
+    "o98"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    481,
+    1211,
+    626,
+    1234
+   ]
+  },
+  {
+   "pair": "13-14",
+   "text": "An ensign.",
+   "answer": "FLAG",
+   "page": "puzzle",
+   "ocr": [
+    "o101"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    480,
+    1230,
+    655,
+    1258
+   ]
+  },
+  {
+   "pair": "15-16",
+   "text": "A river in France.",
+   "answer": "SEINE",
+   "page": "puzzle",
+   "ocr": [
+    "o104"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    482,
+    1251,
+    729,
+    1276
+   ]
+  },
+  {
+   "pair": "17-18",
+   "text": "To babble.",
+   "answer": "CLAT",
+   "page": "puzzle",
+   "ocr": [
+    "o106"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    483,
+    1273,
+    651,
+    1297
+   ]
+  },
+  {
+   "pair": "19-20",
+   "text": "Denoting mistakes.",
+   "answer": "ERRS",
+   "page": "puzzle",
+   "ocr": [
+    "o109"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    481,
+    1293,
+    733,
+    1320
+   ]
+  },
+  {
+   "pair": "21-22",
+   "text": "To talk in an easy, familiar manner.",
+   "answer": "CHAT",
+   "page": "puzzle",
+   "ocr": [
+    "o112",
+    "o115"
+   ],
+   "box": [
+    485,
+    1315,
+    830,
+    1360
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "23-24",
+   "text": "Small tubs.",
+   "answer": "KITS",
+   "page": "puzzle",
+   "ocr": [
+    "o118"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    482,
+    1356,
+    660,
+    1382
+   ]
+  },
+  {
+   "pair": "25-26",
+   "text": "Periods of time.",
+   "answer": "ERAS",
+   "page": "puzzle",
+   "ocr": [
+    "o121"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    481,
+    1375,
+    708,
+    1404
+   ]
+  },
+  {
+   "pair": "27-28",
+   "text": "A month.",
+   "answer": "SEPTEMBER",
+   "page": "puzzle",
+   "ocr": [
+    "o125"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    482,
+    1400,
+    645,
+    1423
+   ]
+  },
+  {
+   "pair": "29-30",
+   "text": "To remain.",
+   "answer": "STAY",
+   "page": "puzzle",
+   "ocr": [
+    "o128"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    481,
+    1418,
+    656,
+    1445
+   ]
+  },
+  {
+   "pair": "57-15",
+   "text": "A possessive verb in third person.",
+   "answer": "HAS",
+   "page": "puzzle",
+   "ocr": [
+    "o132",
+    "o138"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    481,
+    1440,
+    825,
+    1486
+   ]
+  },
+  {
+   "pair": "58-64",
+   "text": "A matter of years.",
+   "answer": "AGE",
+   "page": "puzzle",
+   "ocr": [
+    "o140"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    482,
+    1482,
+    722,
+    1507
+   ]
+  },
+  {
+   "pair": "43-68",
+   "text": "Similar to—therefore.",
+   "answer": "SO",
+   "page": "puzzle",
+   "ocr": [
+    "o144"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    483,
+    1504,
+    758,
+    1527
+   ]
+  },
+  {
+   "pair": "59-72",
+   "text": "A domestic.",
+   "answer": "MAIDSERVANT",
+   "page": "puzzle",
+   "ocr": [
+    "o77"
+   ],
+   "box": [
+    828,
+    1046,
+    1010,
+    1069
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "60-65",
+   "text": "A short stiff piece of wire.",
+   "answer": "PIN",
+   "page": "puzzle",
+   "ocr": [
+    "o79"
+   ],
+   "box": [
+    830,
+    1066,
+    1165,
+    1091
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "61-16",
+   "text": "A number.",
+   "answer": "ONE",
+   "page": "puzzle",
+   "ocr": [
+    "o82"
+   ],
+   "box": [
+    830,
+    1086,
+    1000,
+    1112
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "39-70",
+   "text": "Pertaining to the sun.",
+   "answer": "SOL",
+   "page": "puzzle",
+   "ocr": [
+    "o85"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    829,
+    1104,
+    1118,
+    1134
+   ]
+  },
+  {
+   "pair": "66-71",
+   "text": "A number.",
+   "answer": "TWO",
+   "page": "puzzle",
+   "ocr": [
+    "o88"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    829,
+    1126,
+    1000,
+    1153
+   ]
+  },
+  {
+   "pair": "67-73",
+   "text": "To obtain.",
+   "answer": "GET",
+   "page": "puzzle",
+   "ocr": [
+    "o91"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    831,
+    1148,
+    1001,
+    1174
+   ]
+  },
+  {
+   "pair": "40-74",
+   "text": "Meaning before.",
+   "answer": "ERE",
+   "page": "puzzle",
+   "ocr": [
+    "o94"
+   ],
+   "box": [
+    830,
+    1168,
+    1060,
+    1197
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "25-31",
+   "text": "Relating to the movement of the tide.",
+   "answer": "EBB",
+   "page": "puzzle",
+   "ocr": [
+    "o97",
+    "o99"
+   ],
+   "box": [
+    829,
+    1189,
+    1178,
+    1237
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "21-35",
+   "text": "Found in good milk.",
+   "answer": "CREAM",
+   "page": "puzzle",
+   "ocr": [
+    "o102"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    830,
+    1230,
+    1105,
+    1259
+   ]
+  },
+  {
+   "pair": "17-41",
+   "text": "A document giving certain privileges.",
+   "answer": "CHARTER",
+   "page": "puzzle",
+   "ocr": [
+    "o105",
+    "o107"
+   ],
+   "box": [
+    829,
+    1252,
+    1172,
+    1300
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "11-26",
+   "text": "An exclamation of unhappiness.",
+   "answer": "ALAS",
+   "page": "puzzle",
+   "ocr": [
+    "o110",
+    "o113"
+   ],
+   "box": [
+    828,
+    1294,
+    1172,
+    1343
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "32-47",
+   "text": "To call.",
+   "answer": "HAIL",
+   "page": "puzzle",
+   "ocr": [
+    "o116"
+   ],
+   "box": [
+    828,
+    1333,
+    955,
+    1362
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "5-22",
+   "text": "To hit.",
+   "answer": "SWAT",
+   "page": "puzzle",
+   "ocr": [
+    "o119"
+   ],
+   "box": [
+    833,
+    1355,
+    945,
+    1383
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "36-53",
+   "text": "A burden.",
+   "answer": "LOAD",
+   "page": "puzzle",
+   "ocr": [
+    "o122"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    830,
+    1378,
+    997,
+    1404
+   ]
+  },
+  {
+   "pair": "62-18",
+   "text": "A common grain.",
+   "answer": "OAT",
+   "page": "puzzle",
+   "ocr": [
+    "o126"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    829,
+    1396,
+    1066,
+    1428
+   ]
+  },
+  {
+   "pair": "42-75",
+   "text": "To fasten.",
+   "answer": "TIE",
+   "page": "puzzle",
+   "ocr": [
+    "o129"
+   ],
+   "box": [
+    828,
+    1417,
+    985,
+    1447
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "63-12",
+   "text": "A word showing possession.",
+   "answer": "MY",
+   "page": "puzzle",
+   "ocr": [
+    "o133"
+   ],
+   "box": [
+    828,
+    1437,
+    1178,
+    1468
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "48-76",
+   "text": "Meaning again.",
+   "answer": "RE",
+   "page": "puzzle",
+   "ocr": [
+    "o136"
+   ],
+   "box": [
+    828,
+    1458,
+    1050,
+    1487
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "31-32",
+   "text": "Immersion of the body in water.",
+   "answer": "BATH",
+   "page": "puzzle",
+   "ocr": [
+    "o141",
+    "o145"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    830,
+    1482,
+    1174,
+    1531
+   ]
+  },
+  {
+   "pair": "33-34",
+   "text": "Used fo rhealing or soothing.",
+   "answer": "BALM",
+   "page": "puzzle",
+   "ocr": [
+    "o78",
+    "o80"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    1183,
+    1045,
+    1525,
+    1095
+   ]
+  },
+  {
+   "pair": "35-36",
+   "text": "A repast.",
+   "answer": "MEAL",
+   "page": "puzzle",
+   "ocr": [
+    "o83"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    1185,
+    1085,
+    1345,
+    1114
+   ]
+  },
+  {
+   "pair": "37-38",
+   "text": "A married woman.",
+   "answer": "WIFE",
+   "page": "puzzle",
+   "ocr": [
+    "o86"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    1186,
+    1108,
+    1435,
+    1134
+   ]
+  },
+  {
+   "pair": "39-40",
+   "text": "An omnibus.",
+   "answer": "STAGE",
+   "page": "puzzle",
+   "ocr": [
+    "o89"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    1185,
+    1127,
+    1377,
+    1156
+   ]
+  },
+  {
+   "pair": "41-42",
+   "text": "To reveal.",
+   "answer": "RIOT",
+   "page": "puzzle",
+   "ocr": [
+    "o92"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    1187,
+    1151,
+    1352,
+    1174
+   ]
+  },
+  {
+   "pair": "43-44",
+   "text": "An exchange for money.",
+   "answer": "SALE",
+   "page": "puzzle",
+   "ocr": [
+    "o95"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    1184,
+    1170,
+    1487,
+    1198
+   ]
+  },
+  {
+   "pair": "45-46",
+   "text": "A proprietor.",
+   "answer": "OWNER",
+   "page": "puzzle",
+   "ocr": [
+    "o97"
+   ],
+   "box": [
+    1180,
+    1197,
+    1365,
+    1220
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "47-48",
+   "text": "The covert of a wild beast.",
+   "answer": "LAIR",
+   "page": "puzzle",
+   "ocr": [
+    "o100"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    1185,
+    1212,
+    1526,
+    1239
+   ]
+  },
+  {
+   "pair": "49-50",
+   "text": "Part of the animal body.",
+   "answer": "BONE",
+   "page": "puzzle",
+   "ocr": [
+    "o103"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    1181,
+    1232,
+    1495,
+    1259
+   ]
+  },
+  {
+   "pair": "51-52",
+   "text": "One who forms a plan.",
+   "answer": "PLOTTER",
+   "page": "puzzle",
+   "ocr": [
+    "o105"
+   ],
+   "box": [
+    1180,
+    1253,
+    1527,
+    1281
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "53-54",
+   "text": "A swift footed animal.",
+   "answer": "DEER",
+   "page": "puzzle",
+   "ocr": [
+    "o108"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    1187,
+    1276,
+    1484,
+    1300
+   ]
+  },
+  {
+   "pair": "55-7",
+   "text": "A conjunction.",
+   "answer": "OR",
+   "page": "puzzle",
+   "ocr": [
+    "o111"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    1185,
+    1298,
+    1397,
+    1321
+   ]
+  },
+  {
+   "pair": "56-13",
+   "text": "An exclamation.",
+   "answer": "OOF",
+   "page": "puzzle",
+   "ocr": [
+    "o114"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    1187,
+    1317,
+    1413,
+    1343
+   ]
+  },
+  {
+   "pair": "2-19",
+   "text": "A large bundle of goods.",
+   "answer": "BALE",
+   "page": "puzzle",
+   "ocr": [
+    "o117"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    1195,
+    1338,
+    1496,
+    1364
+   ]
+  },
+  {
+   "pair": "8-23",
+   "text": "What we always aim at.",
+   "answer": "MARK",
+   "page": "puzzle",
+   "ocr": [
+    "o120"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    1195,
+    1359,
+    1495,
+    1384
+   ]
+  },
+  {
+   "pair": "14-38",
+   "text": "Cartilage.",
+   "answer": "GRISTLE",
+   "page": "puzzle",
+   "ocr": [
+    "o123"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    1188,
+    1381,
+    1346,
+    1405
+   ]
+  },
+  {
+   "pair": "20-34",
+   "text": "A vapor.",
+   "answer": "STEAM",
+   "page": "puzzle",
+   "ocr": [
+    "o127"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    1186,
+    1400,
+    1338,
+    1428
+   ]
+  },
+  {
+   "pair": "24-30",
+   "text": "A secret agent.",
+   "answer": "SPY",
+   "page": "puzzle",
+   "ocr": [
+    "o130"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    1186,
+    1421,
+    1403,
+    1450
+   ]
+  },
+  {
+   "pair": "29-44",
+   "text": "To be free from danger.",
+   "answer": "SAFE",
+   "page": "puzzle",
+   "ocr": [
+    "o134"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    1185,
+    1442,
+    1505,
+    1470
+   ]
+  },
+  {
+   "pair": "33-50",
+   "text": "A bitter fluid secreted in the body.",
+   "answer": "BILE",
+   "page": "puzzle",
+   "ocr": [
+    "o139",
+    "o143"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    1188,
+    1465,
+    1527,
+    1510
+   ]
+  },
+  {
+   "pair": "37-69",
+   "text": "Meaning pale.",
+   "answer": "WAN",
+   "page": "puzzle",
+   "ocr": [
+    "o146"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    1187,
+    1505,
+    1391,
+    1535
+   ]
+  }
+ ]
+}

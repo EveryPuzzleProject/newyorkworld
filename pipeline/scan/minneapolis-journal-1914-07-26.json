@@ -85,5 +85,20 @@
    "stage": "keysearch",
    "version": "keysearch/2"
   }
+ },
+ "scan:minneapolis-journal-1914-07-26/0000#key-753a029c2408": {
+  "keysearch": {
+   "code": "xword-ocr 0.1.0",
+   "inputs": {
+    "image": "sha256:6f86cd41d3780138d2d9a549a1e2f1235068932063311d781b9770a366b8cce6"
+   },
+   "made": "2026-11-17T03:36:57+00:00",
+   "output": "sha256:20f0e7c677012bbbfc9e4aa9210633279238c66b6f1b0aa2c92e3844bca86564",
+   "settings": {
+    "only_pointed": false
+   },
+   "stage": "keysearch",
+   "version": "keysearch/2"
+  }
  }
 }

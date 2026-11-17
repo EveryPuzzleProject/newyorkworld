@@ -1,0 +1,203 @@
+{
+ "scan:milwaukee-sentinel-1914-05-03/0000": {
+  "extract": {
+   "code": "xword-ocr 0.1.0",
+   "inputs": {
+    "image": "sha256:043f2eb7a028f875686bf5a108e3c3d654f63145926ab6c214f7070548645a16",
+    "layout": "sha256:720455870d6ff171a606f683af86ebe13d353975cfac889d00d8a5944d372985",
+    "ocr": "sha256:dd24268997cb9bd89a173ef376e25629794ccb06c25192a26936ea20adfbfff5"
+   },
+   "made": "2026-11-17T03:32:18+00:00",
+   "output": "sha256:6a282ff520945c2aba50ff9f72353926a02b463aaa07d167a9d6c42dfdeab118",
+   "settings": {
+    "sure_swaps": []
+   },
+   "stage": "extract",
+   "version": "extract/15"
+  },
+  "image": {
+   "code": "xword-ocr 0.1.0",
+   "inputs": {},
+   "made": "2026-11-17T03:32:06+00:00",
+   "output": "sha256:043f2eb7a028f875686bf5a108e3c3d654f63145926ab6c214f7070548645a16",
+   "settings": {
+    "source": "scan"
+   },
+   "stage": "image",
+   "version": "image/1"
+  },
+  "layout": {
+   "code": "xword-ocr 0.1.0",
+   "inputs": {
+    "image": "sha256:043f2eb7a028f875686bf5a108e3c3d654f63145926ab6c214f7070548645a16"
+   },
+   "made": "2026-11-17T03:32:09+00:00",
+   "output": "sha256:720455870d6ff171a606f683af86ebe13d353975cfac889d00d8a5944d372985",
+   "settings": {
+    "max_grids": 12
+   },
+   "stage": "layout",
+   "version": "layout/10"
+  },
+  "ocr": {
+   "code": "xword-ocr 0.1.0",
+   "inputs": {
+    "image": "sha256:043f2eb7a028f875686bf5a108e3c3d654f63145926ab6c214f7070548645a16"
+   },
+   "made": "2026-11-17T03:32:16+00:00",
+   "output": "sha256:dd24268997cb9bd89a173ef376e25629794ccb06c25192a26936ea20adfbfff5",
+   "settings": {
+    "engine": "rapidocr",
+    "tiles": 2,
+    "upscale_below": 2400
+   },
+   "stage": "ocr",
+   "version": "ocr/4"
+  }
+ },
+ "scan:milwaukee-sentinel-1914-05-03/0000#key-5802e025e2c1": {
+  "keysearch": {
+   "code": "xword-ocr 0.1.0",
+   "inputs": {
+    "image": "sha256:043f2eb7a028f875686bf5a108e3c3d654f63145926ab6c214f7070548645a16"
+   },
+   "made": "2026-11-17T03:33:54+00:00",
+   "output": "sha256:20f0e7c677012bbbfc9e4aa9210633279238c66b6f1b0aa2c92e3844bca86564",
+   "settings": {
+    "only_pointed": false
+   },
+   "stage": "keysearch",
+   "version": "keysearch/2"
+  }
+ },
+ "scan:milwaukee-sentinel-1914-05-03/0000#key-e4dde090efa9": {
+  "keysearch": {
+   "code": "xword-ocr 0.1.0",
+   "inputs": {
+    "image": "sha256:043f2eb7a028f875686bf5a108e3c3d654f63145926ab6c214f7070548645a16"
+   },
+   "made": "2026-11-17T03:33:52+00:00",
+   "output": "sha256:20f0e7c677012bbbfc9e4aa9210633279238c66b6f1b0aa2c92e3844bca86564",
+   "settings": {
+    "only_pointed": false
+   },
+   "stage": "keysearch",
+   "version": "keysearch/2"
+  }
+ },
+ "scan:milwaukee-sentinel-1914-05-03/0001": {
+  "extract": {
+   "code": "xword-ocr 0.1.0",
+   "inputs": {
+    "image": "sha256:f90285588c04c2c92198e9e86b610e9984f7f050f34900f788aa5eac99061512",
+    "layout": "sha256:f35ce88991a030da257502b855381501e985c58f2e5d310d7ba3b4b7d967986a"
+   },
+   "made": "2026-11-17T03:32:21+00:00",
+   "output": "sha256:b724546d0e89b30a27ffac87f27a5e798b88e90c8567253c7a8e6bf5489cd6dc",
+   "settings": {
+    "sure_swaps": []
+   },
+   "stage": "extract",
+   "version": "extract/15"
+  },
+  "image": {
+   "code": "xword-ocr 0.1.0",
+   "inputs": {},
+   "made": "2026-11-17T03:32:18+00:00",
+   "output": "sha256:f90285588c04c2c92198e9e86b610e9984f7f050f34900f788aa5eac99061512",
+   "settings": {
+    "source": "scan"
+   },
+   "stage": "image",
+   "version": "image/1"
+  },
+  "layout": {
+   "code": "xword-ocr 0.1.0",
+   "inputs": {
+    "image": "sha256:f90285588c04c2c92198e9e86b610e9984f7f050f34900f788aa5eac99061512"
+   },
+   "made": "2026-11-17T03:32:19+00:00",
+   "output": "sha256:f35ce88991a030da257502b855381501e985c58f2e5d310d7ba3b4b7d967986a",
+   "settings": {
+    "max_grids": 12
+   },
+   "stage": "layout",
+   "version": "layout/10"
+  },
+  "ocr": {
+   "code": "xword-ocr 0.1.0",
+   "inputs": {
+    "image": "sha256:f90285588c04c2c92198e9e86b610e9984f7f050f34900f788aa5eac99061512"
+   },
+   "made": "2026-11-17T03:32:27+00:00",
+   "output": "sha256:f89008c685b4ad905c75a8844f549e91179a6c11b7d911d6874d96dad7ec9647",
+   "settings": {
+    "engine": "rapidocr",
+    "tiles": 2,
+    "upscale_below": 2400
+   },
+   "stage": "ocr",
+   "version": "ocr/4"
+  }
+ },
+ "scan:milwaukee-sentinel-1914-05-03/0001#key-5802e025e2c1": {
+  "keysearch": {
+   "code": "xword-ocr 0.1.0",
+   "inputs": {
+    "image": "sha256:f90285588c04c2c92198e9e86b610e9984f7f050f34900f788aa5eac99061512"
+   },
+   "made": "2026-11-17T03:33:55+00:00",
+   "output": "sha256:9c5b1f9e1d567d1ba779b8e3b4412e0bf7f9d7b468f9c2721e15d62b717d1564",
+   "settings": {
+    "only_pointed": false
+   },
+   "stage": "keysearch",
+   "version": "keysearch/2"
+  }
+ },
+ "scan:milwaukee-sentinel-1914-05-03/0001#key-e4dde090efa9": {
+  "keysearch": {
+   "code": "xword-ocr 0.1.0",
+   "inputs": {
+    "image": "sha256:f90285588c04c2c92198e9e86b610e9984f7f050f34900f788aa5eac99061512"
+   },
+   "made": "2026-11-17T03:33:53+00:00",
+   "output": "sha256:9d3294069c9026b4de36a89df54c445227204faad9deaf72b7bcd0a9e58243d5",
+   "settings": {
+    "only_pointed": false
+   },
+   "stage": "keysearch",
+   "version": "keysearch/2"
+  }
+ },
+ "scan:milwaukee-sentinel-1914-05-03/0001#key-f11ea602b1f7": {
+  "keysearch": {
+   "code": "xword-ocr 0.1.0",
+   "inputs": {
+    "image": "sha256:f90285588c04c2c92198e9e86b610e9984f7f050f34900f788aa5eac99061512"
+   },
+   "made": "2026-11-17T03:33:53+00:00",
+   "output": "sha256:27ade9e82608d877aeb0934457fc16cb1328adc2f84bc6a06d069008daf392f6",
+   "settings": {
+    "only_pointed": false
+   },
+   "stage": "keysearch",
+   "version": "keysearch/2"
+  }
+ },
+ "scan:milwaukee-sentinel-1914-05-03/0001#key-f11ea602b1f7a": {
+  "keysearch": {
+   "code": "xword-ocr 0.1.0",
+   "inputs": {
+    "image": "sha256:f90285588c04c2c92198e9e86b610e9984f7f050f34900f788aa5eac99061512"
+   },
+   "made": "2026-11-17T03:39:33+00:00",
+   "output": "sha256:27ade9e82608d877aeb0934457fc16cb1328adc2f84bc6a06d069008daf392f6",
+   "settings": {
+    "only_pointed": true
+   },
+   "stage": "keysearch",
+   "version": "keysearch/2"
+  }
+ }
+}

@@ -1,0 +1,13 @@
+# Doubts: No. 13 (World 1914-03-15), nyw1914-03-15.xd
+
+1. **Diagonal rays have no middle square.** The inner star's four diagonal words (42-E CUE, 40-E RUE, E-44 EEN, E-38 ELM) print their middle letters (U, U, E, L) on the corners between squares, in both the puzzle (dots) and the solution. The 13x13 lattice has no square for them, so in the xd these four answers run end square to centre with their middle letter missing (CE, RE, EN, EM in the grid). The answers in the clue list are complete. An alternative layout would give the star its own 5x5 piece, but that is not how it is printed.
+2. **Inner and outer diamond touch with no block.** A double rule separates the inner diamond from the outer one. The xd has no way to show that rule, so rows like r5 read ALESITOME and r7 DORAAXEVETOIL as one run. The outer across words stop at the rule (ALES, TOME, DORA, TOIL...). Squares r6c7, r7c6, r7c8 and r8c7 are the orthogonal rays' middle letters (C, X, V, R); r5c7 I, r7c5 A, r7c9 E and r9c7 A are ray ends.
+3. **Numbering above 35.** The model goes a=10 to z=35. Numbers 36-44 are written as capitals, skipping E because the centre square prints the letter E: A=36, B=37, C=38, D=39, F=40, G=41, H=42, I=43, J=44. The header spells this out. Check that gxd accepts it.
+4. **11-12 "Part of a blook."** Printed "blook" (clear at 4x). The answer TOME wants "book". Kept as printed; a misprint.
+5. **27-28 "To rescue."** The last letter prints like "o" ("rescuo"), most likely a worn e. Written "rescue".
+6. **Instruction "you will find".** "find" is struck through by a smudge or scratch on the plate. The word is legible enough to read as "find".
+7. **Pair printing.** The pairs print irregularly: "2- 3", "4- 5", "6- 8", "25 26-", "1- 7", "629" (no hyphen), and the inside clues as "E to 37", "40 to E" etc. The xd writes 2-3, 25-26, 6-29, E-37, 40-E. All name the right end squares.
+8. **Clue order.** Printed in two columns; the xd takes the left column top to bottom, then the right; 6-29 (a down-like clue) is printed last in the left column and kept there.
+9. **Title omitted.** The heading "FUN'S CROSS-WORD PUZZLES" with "CAN YOU SOLVE THEM?" reads as FUN's banner, not the puzzle's own name, so no Title. "TWO IN ONE" is printed beside the grid; it could be taken as a title.
+10. **Author.** From the contribution credit "Mr. Harry Cleaver of 83 Cathedral street, Montreal, sent it in", not a byline.
+11. **Inner answers.** The solution letters are small and crowded in the centre; they read C, C, R / U, U / A, X, E, V, E / E, L / N, R, M / A, all consistent with the eight clues and with AMERICAN read round from 37 to 44.

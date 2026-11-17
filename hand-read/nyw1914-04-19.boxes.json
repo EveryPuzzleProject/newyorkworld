@@ -1,0 +1,576 @@
+{
+ "xdid": "nyw1914-04-19",
+ "no": 18,
+ "pages": {
+  "puzzle": "Milwaukee_Sentinel_1914_04_19_94.png",
+  "solution": "Milwaukee_Sentinel_1914_04_26_91.png"
+ },
+ "grid": {
+  "page": "puzzle",
+  "corners": [
+   [
+    537,
+    352
+   ],
+   [
+    1167,
+    355
+   ],
+   [
+    1152,
+    987
+   ],
+   [
+    528,
+    984
+   ]
+  ],
+  "rows": 11,
+  "cols": 11
+ },
+ "key": {
+  "page": "solution",
+  "corners": [
+   [
+    459,
+    1457
+   ],
+   [
+    842,
+    1453
+   ],
+   [
+    837,
+    1832
+   ],
+   [
+    459,
+    1832
+   ]
+  ],
+  "rows": 11,
+  "cols": 11
+ },
+ "lines": [
+  {
+   "label": "heading",
+   "text": "FUN'S CROSS-WORD PUZZLES",
+   "page": "puzzle",
+   "ocr": [
+    "o2",
+    "o3",
+    "o8"
+   ],
+   "box": [
+    526,
+    58,
+    1183,
+    254
+   ]
+  },
+  {
+   "label": "tagline",
+   "text": "Can You Solve Them?",
+   "page": "puzzle",
+   "ocr": [
+    "o9",
+    "o10"
+   ],
+   "box": [
+    537,
+    236,
+    1179,
+    334
+   ]
+  },
+  {
+   "label": "credit",
+   "text": "Today's ingenious cross-word puzzle, the eighteenth in FUN'S series, was sent in by Alex B. Miller of Portsmouth, Va.",
+   "page": "puzzle",
+   "ocr": [
+    "o60",
+    "o62"
+   ],
+   "box": [
+    525,
+    989,
+    1170,
+    1040
+   ]
+  },
+  {
+   "label": "intro",
+   "text": "It is different from any of the others published thus far and you will find yourself busily engaged for some time to come when once you begin to solve it. In addtiion to the usual cross-words, there are also four diagonal words to be found. They reach from the extreme corners to the cross at the center. Fill in the squares with letters spelling words corresponding to the list of clews and definitions given herewith. The solution will be given in next week's FUN.",
+   "page": "puzzle",
+   "ocr": [
+    "o65",
+    "o67",
+    "o69",
+    "o72",
+    "o75",
+    "o76",
+    "o77",
+    "o80",
+    "o82",
+    "o84"
+   ],
+   "box": [
+    522,
+    1015,
+    1170,
+    1210
+   ]
+  },
+  {
+   "label": "solution heading",
+   "text": "SOLUTION TO No 18",
+   "page": "solution",
+   "box": [
+    600,
+    1635,
+    697,
+    1692
+   ]
+  }
+ ],
+ "clues": [
+  {
+   "pair": "1-3",
+   "text": "A letter in the Greek alphabet.",
+   "answer": "GAMMA",
+   "page": "puzzle",
+   "ocr": [
+    "o85",
+    "o87"
+   ],
+   "box": [
+    536,
+    1204,
+    840,
+    1251
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "4-2",
+   "text": "A trap.",
+   "answer": "SNARE",
+   "page": "puzzle",
+   "ocr": [
+    "o89"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    537,
+    1249,
+    671,
+    1273
+   ]
+  },
+  {
+   "pair": "7-5",
+   "text": "Part of a mandolin.",
+   "answer": "FRETS",
+   "page": "puzzle",
+   "ocr": [
+    "o91"
+   ],
+   "box": [
+    535,
+    1268,
+    800,
+    1296
+   ],
+   "how": "ocr-corrected"
+  },
+  {
+   "pair": "6-8",
+   "text": "Situations.",
+   "answer": "SITES",
+   "page": "puzzle",
+   "ocr": [
+    "o93"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    537,
+    1290,
+    701,
+    1313
+   ]
+  },
+  {
+   "pair": "9-10",
+   "text": "A scheme.",
+   "answer": "PLAN",
+   "page": "puzzle",
+   "ocr": [
+    "o95"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    532,
+    1310,
+    692,
+    1336
+   ]
+  },
+  {
+   "pair": "11-12",
+   "text": "Earth containing carbonate of lime, etc.",
+   "answer": "MARL",
+   "page": "puzzle",
+   "ocr": [
+    "o97",
+    "o99"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    525,
+    1331,
+    837,
+    1379
+   ]
+  },
+  {
+   "pair": "13-14",
+   "text": "It falls from the sky.",
+   "answer": "RAIN",
+   "page": "puzzle",
+   "ocr": [
+    "o101"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    525,
+    1371,
+    806,
+    1401
+   ]
+  },
+  {
+   "pair": "15-16",
+   "text": "Land parched with heat.",
+   "answer": "ARID",
+   "page": "puzzle",
+   "ocr": [
+    "o103"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    524,
+    1394,
+    840,
+    1422
+   ]
+  },
+  {
+   "pair": "17-18",
+   "text": "Fermented malt liquor.",
+   "answer": "ALE",
+   "page": "puzzle",
+   "ocr": [
+    "o105"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    524,
+    1415,
+    837,
+    1445
+   ]
+  },
+  {
+   "pair": "19-20",
+   "text": "A gentle blow.",
+   "answer": "PAT",
+   "page": "puzzle",
+   "ocr": [
+    "o107"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    521,
+    1436,
+    739,
+    1465
+   ]
+  },
+  {
+   "pair": "21-22",
+   "text": "To point.",
+   "answer": "AIM",
+   "page": "puzzle",
+   "ocr": [
+    "o109"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    524,
+    1457,
+    686,
+    1486
+   ]
+  },
+  {
+   "pair": "23-24",
+   "text": "A title used in addressing a man.",
+   "answer": "SIR",
+   "page": "puzzle",
+   "ocr": [
+    "o111",
+    "o113"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    525,
+    1479,
+    833,
+    1528
+   ]
+  },
+  {
+   "pair": "25-26",
+   "text": "A province in Austria.",
+   "answer": "MORAVIA",
+   "page": "puzzle",
+   "ocr": [
+    "o116"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    527,
+    1521,
+    816,
+    1552
+   ]
+  },
+  {
+   "pair": "27-28",
+   "text": "To levy.",
+   "answer": "ESTREAT",
+   "page": "puzzle",
+   "ocr": [
+    "o118"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    527,
+    1542,
+    680,
+    1570
+   ]
+  },
+  {
+   "pair": "25-27",
+   "text": "Honey of roses.",
+   "answer": "MELROSE",
+   "page": "puzzle",
+   "ocr": [
+    "o85"
+   ],
+   "box": [
+    855,
+    1204,
+    1075,
+    1231
+   ],
+   "how": "ocr-exact"
+  },
+  {
+   "pair": "26-28",
+   "text": "To affect injuriously.",
+   "answer": "ATTAINT",
+   "page": "puzzle",
+   "ocr": [
+    "o88"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    853,
+    1228,
+    1136,
+    1255
+   ]
+  },
+  {
+   "pair": "29-30",
+   "text": "Made with eggs.",
+   "answer": "OMELETS",
+   "page": "puzzle",
+   "ocr": [
+    "o90"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    853,
+    1246,
+    1098,
+    1276
+   ]
+  },
+  {
+   "pair": "31-32",
+   "text": "Inactivity.",
+   "answer": "INERTIA",
+   "page": "puzzle",
+   "ocr": [
+    "o92"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    855,
+    1268,
+    1030,
+    1296
+   ]
+  },
+  {
+   "pair": "33-34",
+   "text": "Distinguished.",
+   "answer": "EMINENT",
+   "page": "puzzle",
+   "ocr": [
+    "o94"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    856,
+    1292,
+    1063,
+    1315
+   ]
+  },
+  {
+   "pair": "35-36",
+   "text": "A crystalline compound contained in animal and vegetable fats.",
+   "answer": "STEARIN",
+   "page": "puzzle",
+   "ocr": [
+    "o96",
+    "o98",
+    "o100"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    854,
+    1312,
+    1168,
+    1380
+   ]
+  },
+  {
+   "pair": "17-3",
+   "text": "Words and music.",
+   "answer": "ARIA",
+   "page": "puzzle",
+   "ocr": [
+    "o102"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    855,
+    1376,
+    1101,
+    1401
+   ]
+  },
+  {
+   "pair": "18-4",
+   "text": "They come before Christmas.",
+   "answer": "EVES",
+   "page": "puzzle",
+   "ocr": [
+    "o104",
+    "o106"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    852,
+    1397,
+    1167,
+    1444
+   ]
+  },
+  {
+   "pair": "19-3",
+   "text": "A supplication.",
+   "answer": "PLEA",
+   "page": "puzzle",
+   "ocr": [
+    "o108"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    854,
+    1440,
+    1076,
+    1466
+   ]
+  },
+  {
+   "pair": "20-5",
+   "text": "You have ten.",
+   "answer": "TOES",
+   "page": "puzzle",
+   "ocr": [
+    "o110"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    854,
+    1461,
+    1060,
+    1487
+   ]
+  },
+  {
+   "pair": "4-23",
+   "text": "Complete assortments.",
+   "answer": "SETS",
+   "page": "puzzle",
+   "ocr": [
+    "o112"
+   ],
+   "how": "ocr-corrected",
+   "box": [
+    863,
+    1482,
+    1140,
+    1508
+   ]
+  },
+  {
+   "pair": "6-24",
+   "text": "A commotion.",
+   "answer": "STIR",
+   "page": "puzzle",
+   "ocr": [
+    "o114"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    865,
+    1505,
+    1059,
+    1528
+   ]
+  },
+  {
+   "pair": "5-21",
+   "text": "A bristle.",
+   "answer": "SETA",
+   "page": "puzzle",
+   "ocr": [
+    "o117"
+   ],
+   "how": "ocr-exact",
+   "box": [
+    863,
+    1524,
+    1014,
+    1551
+   ]
+  }
+ ]
+}
