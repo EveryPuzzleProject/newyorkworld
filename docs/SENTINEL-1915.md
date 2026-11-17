@@ -38,8 +38,7 @@ August to mid-November 1915; the Sentinel fills six of those weeks.
 | C4 | 1915-02-21 (Pentacle) | 1 | new |
 | C5 | 1915-02-28 to 04-04 | 6 | 03-07 to 04-04, floating |
 | C6 | 1915-04-11 to 05-23 | 6 | same, now dated |
-| C7 | 1915-06-06 to 06-13 | 2 | 06-06 alone |
-| C8 | 1915-06-20 to 09-05 | 12 | 06-27 to 07-25, floating |
+| C7 | 1915-06-06 to 09-05 | 14 | 06-06 alone; 06-27 to 07-25, floating |
 
 All are still "floating" in `chains.tsv` (the dates are inferred, not proved by a dated
 solution). One run of Sentinel pages from 09-12 to 11-21 would join C8 to the chain that runs
@@ -53,8 +52,7 @@ In order of value (the status page's "Missing puzzles" list now names these too)
 2. **1915-02-14** (the valentine puzzle) and the page after 02-21's Pentacle (its solution, on
    02-28): closes N / 02-21 / 02-28.
 3. **1915-05-30** (and 05-09, 05-16, 05-23, 06-06): closes 05-23 / 06-06.
-4. **1915-06-20's other FUN page** (the solution to 06-13's swastika-shaped puzzle), and
-   **1915-04-04 / 04-11** (the Journal holds only a clip of 04-04).
+4. **1915-04-04 / 04-11** (the Journal holds only a clip of 04-04).
 5. **1915-01-17 and 01-31**: whether the World ran a puzzle on 01-17 (the Journal printed No. 54
    that day), and the U of F-U-N, which would turn its two tentative links into checked ones.
 6. The clue-list continuations: 01-03 says "Continued on Next Page" (p. 61 not saved), as does
@@ -67,3 +65,12 @@ only way it can reach the 1916-17 chain.
 
 Not recorded as searches: the Sundays between the saved ones. Whether GenealogyBank's search
 missed them or they weren't saved isn't known, so they stay unsearched rather than `no-hit`.
+
+## Addendum: three more pages (Alex, later on 2026-11-16)
+
+- **1915-06-20 p. 62**: FUN p. 4, the solution to 06-13's swastika puzzle. Checked by eye: same
+  outline and circle, the first eight clues fit. This joins 06-06/06-13 to 06-20 onward (C7 above).
+- **1915-06-27 p. 63**: FUN p. 7, the solution to 06-20's puzzle (a second check of the link the
+  Journal's 06-27 box already gave).
+- **1915-06-20 p. 65**: the same FUN page 7 as p. 61 (Miss Rae Dinsmore's puzzle), a second, sharper
+  GenealogyBank scan. Recorded as its own row; use it for OCR.
