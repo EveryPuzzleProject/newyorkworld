@@ -130,7 +130,8 @@ G { given: true }
 ...GGGGGGG...
 ```
 
-The letter stays in the Grid (it is the solution's); the Design says it was printed. This is one
+The letter stays in the Grid (it is the solution's); the Design says it was printed, and the numbering rules
+skip it (a given square takes no number). This is one
 new property for the Design section, which is otherwise visual (circle, shaded, bars, images). A
 given is between the two: the cell is drawn with its letter. If Saul would rather keep Design
 purely visual, the fallback is a `Givens: r2c6 r2c7 r2c8 ...` metadata field.
@@ -150,7 +151,7 @@ metadata says why the clue is empty. A fully given word's labels are its printed
 and N above), listed in `## Labels` like any other end.
 
 **6. No. 28 (letters given, no clues, no numbers):** the Grid holds next week's solution, the
-Design marks the 50 given squares, and there are no clue lines and no Labels. Its two clashes
+Design marks the 50 given squares, `Numbering: none`, and there are no clue lines and no Labels. Its two clashes
 stay in Notes.
 
 ### Not covered: shapes for you to look at
