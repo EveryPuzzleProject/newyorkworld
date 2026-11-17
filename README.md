@@ -26,7 +26,15 @@ the Minneapolis Journal). That fits one puzzle every Sunday from No. 1 on 1913-1
 > World No. *n* is expected on 1913-12-21 plus *n*−1 weeks, and the Journal ran each
 > puzzle on the World's own date.
 
-Every World date derived this way is an **inference** from that count, and is shown as
+The count holds to No. 21 (1914-05-10). After that the Milwaukee Sentinel, which carried FUN
+on the World's own Sundays, shows where it breaks: FUN ran no new crossword on 1914-05-17,
+05-24 or 06-07 and never used No. 34, so No. 22 is 1914-05-31, Nos. 23-33 are three weeks
+after the count (06-14 to 08-23), and Nos. 35-54 two weeks after it (08-30 to 1915-01-10).
+From 1915-01-17 a number is the count's index for its date (`tools/world_dates_1915.py`), so
+the count's Nos. 55 and 56 are not used either. `sunday_of` in `tools/record.py` holds this
+table (docs/SENTINEL-BATCH.md).
+
+Every World date derived this way is an **inference**, and is shown as
 one (marked * on the status page). What a page shows goes in `world_no_printed`. A copy's
 own date is a printing date, days to weeks after the World's; the difference is its lag.
 Within one paper's run, a number that repeats or jumps against the previous numbered copy

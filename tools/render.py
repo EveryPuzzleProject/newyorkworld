@@ -605,8 +605,9 @@ Tasks where finding is the work: <a href="{REPO}/blob/main/RESEARCH.md">RESEARCH
 gives World No. <i>n</i> on 1913-12-21 plus <i>n</i>−1 weeks, and <b>every World date on this page is that inference</b>, marked *. A copy's own date is its printing date;
 the difference is shown as its lag. A copy with a printed number is tied to that puzzle; a copy with none is tied by its first clue and grid, and the record says how.
 A number that repeats or jumps within one paper's run is flagged. A page missing from the scans is never counted as a skip.
-The Milwaukee Sentinel's copies (2026-11-16) show the count drifting in 1914: FUN ran no new crossword on 1914-05-17, 05-24 and 06-07, and never used the number 34,
-so the papers' "lag" from May 1914 on is mostly the count's error.</div>
+The count breaks in 1914, and the dates here are corrected for it: the Milwaukee Sentinel, which carried FUN on the World's own Sundays, shows FUN ran no new crossword
+on 1914-05-17, 05-24 and 06-07 and never used the number 34. So No. 22 is 1914-05-31, Nos. 23-33 are three weeks after the count and Nos. 35-54 two weeks after it;
+the count's Nos. 55 and 56 are not used.</div>
 </details>
 
 <details><summary><b>Next batch to find</b></summary>

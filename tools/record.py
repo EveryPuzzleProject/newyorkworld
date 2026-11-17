@@ -54,12 +54,36 @@ RESULTS = ["queued", "found", "no-hit", "not-carried", "missing-from-scans"]
 FILE_RE = re.compile(r"^(?P<paper>.+?)_(?P<y>\d{4})_(?P<m>\d{2})_(?P<d>\d{2})_(?:(?:Page_)?(?P<page>[A-Za-z]?\d+[A-Za-z]?)|(?P<shot>screenshot))(?P<crop>_fun|_key)?(?: \(\d+\))?\.(?:jpe?g|png|pdf)$", re.I)
 
 
-def sunday_of(n: int) -> dt.date:
-    return FIRST + dt.timedelta(weeks=n - 1)
+# The World's numbers are not a weekly count. FUN ran no new crossword on 1914-05-17 (only No. 21's
+# solution), 05-24 (the Mexico map puzzle) or 06-07 (only No. 22's solution), and never used No. 34:
+# the Milwaukee Sentinel, which carried FUN on the World's own Sundays, prints No. 22 on 05-31, No. 23
+# on 06-14, No. 33 on 08-23, No. 35 on 08-30 and Nos. 47-54 week by week to 1915-01-10
+# (docs/SENTINEL-BATCH.md). From 1915-01-17 a number is the count's index for its date
+# (tools/world_dates_1915.py), so the count's Nos. 55 and 56 (1915-01-03, 01-10, which carry printed
+# Nos. 53 and 54) are not used either.
+UNUSED = {34, 55, 56}
 
 
-def number_of(sunday: dt.date) -> int:
-    return (sunday - FIRST).days // 7 + 1
+def _weeks_late(n: int) -> int:
+    """How many weeks after the count's Sunday the World printed No. n."""
+    if n == 22 or 35 <= n <= 54:
+        return 2
+    if 23 <= n <= 33:
+        return 3
+    return 0
+
+
+def sunday_of(n: int) -> dt.date | None:
+    """The World's Sunday for No. n; None for a number the World never used."""
+    if n in UNUSED:
+        return None
+    return FIRST + dt.timedelta(weeks=n - 1 + _weeks_late(n))
+
+
+def number_of(sunday: dt.date) -> int | None:
+    """The World's number printed on that Sunday; None for a Sunday with no new crossword."""
+    k = (sunday - FIRST).days // 7 + 1  # the count
+    return next((n for n in range(k, k - 4, -1) if n >= 1 and sunday_of(n) == sunday), None)
 
 
 def paper_id(token: str) -> str:
@@ -136,7 +160,8 @@ def new(args) -> None:
             listed.add((info["paper"], info["date"]))
         n += 1
         d = dt.date.fromisoformat(info["date"])
-        exp = f"World No. {number_of(d)} if on the World's date" if d.weekday() == 6 and FIRST <= d <= sunday_of(LAST_NO) else "outside the run"
+        no = number_of(d) if d.weekday() == 6 and FIRST <= d <= sunday_of(LAST_NO) else 0
+        exp = "outside the run" if no == 0 else f"World No. {no} if on the World's date" if no else "a Sunday with no new World crossword"
         print(f"{p.name}\t{info['paper']}\t{info['date']}\tp.{info['page']}\t{exp}")
     if not n:
         print("nothing new")
@@ -286,8 +311,9 @@ def rebuild_all(pr: list[dict], se: list[dict], st: list[dict]) -> int:
         n = r["world_no"]
         if n:
             r["puzzle_key"] = f"no-{n}"
-        r["sunday_inferred"] = sunday_of(int(n)).isoformat() if n else ""
-        r["lag_weeks"] = str((dt.date.fromisoformat(r["date"]) - sunday_of(int(n))).days // 7) if n else ""
+        w = sunday_of(int(n)) if n else None
+        r["sunday_inferred"] = w.isoformat() if w else ""
+        r["lag_weeks"] = str((dt.date.fromisoformat(r["date"]) - w).days // 7) if w else ""
         flags = []
         if r["world_no_printed"] and r["world_no"] and r["world_no_printed"] != r["world_no"]:
             flags.append(f"matched to No. {r['world_no']} but the grid says No. {r['world_no_printed']}")
@@ -307,8 +333,11 @@ def rebuild_all(pr: list[dict], se: list[dict], st: list[dict]) -> int:
             dn = int(b["world_no_printed"]) - int(a["world_no_printed"])
             if dn == 0:
                 b["flag"] = "; ".join(x for x in (b["flag"], f"repeats No. {a['world_no_printed']} of {a['date']}") if x)
-            elif dn != weeks:
-                b["flag"] = "; ".join(x for x in (b["flag"], f"No. {a['world_no_printed']} on {a['date']} to No. {b['world_no_printed']} in {weeks} weeks: {dn - weeks:+d}") if x)
+            else:  # the World's own weeks between the two numbers (not dn: FUN skipped Sundays and No. 34)
+                wa, wb = sunday_of(int(a["world_no_printed"])), sunday_of(int(b["world_no_printed"]))
+                world = (wb - wa).days // 7 if wa and wb else dn
+                if world != weeks:
+                    b["flag"] = "; ".join(x for x in (b["flag"], f"No. {a['world_no_printed']} on {a['date']} to No. {b['world_no_printed']} in {weeks} weeks, the World {world}: {world - weeks:+d}") if x)
     # copies with the same first clue and no key yet: group them automatically
     by_fp: dict[str, list[dict]] = {}
     for r in pr:
@@ -360,7 +389,7 @@ def rebuild_all(pr: list[dict], se: list[dict], st: list[dict]) -> int:
         rs = sorted(by_no.get(str(n), []), key=lambda r: r["date"])
         sols = [r for r in pr if r["solution_of"] in (str(n), f"no-{n}")]
         row = {c: "" for c in STATUS_COLS}
-        row["world_no"], row["sunday_inferred"], row["notes"] = str(n), sunday_of(n).isoformat(), notes.get(str(n), "")
+        row["world_no"], row["sunday_inferred"], row["notes"] = str(n), (sunday_of(n) or "") and sunday_of(n).isoformat(), notes.get(str(n), "")
         row["status"] = "have" if rs else "wanted"
         row["copies"] = "; ".join(f"{r['paper']} {r['date']}" + (f" (lag {r['lag_weeks']}w)" if r["lag_weeks"] not in ("", "0") else "") for r in rs)
         if rs:
