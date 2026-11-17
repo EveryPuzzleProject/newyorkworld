@@ -47,7 +47,8 @@ items 2 and 3 below: [docs/CAMPBELL-CROSSCHECK.md](docs/CAMPBELL-CROSSCHECK.md).
 8. **Where the Journal printed its solutions when not on the puzzle page.** Several 1915 pages
    carry a solution with no puzzle or a puzzle with no solution; the issue may have split them.
    **Partly settled (Alex DeJarnatt, Newspapers.com, 2026-10-30):** 1915-06-13's answer-key page is the key to 06-06's puzzle (confirmed), so nothing was split there; the real hole is 06-20's puzzle, whose key runs on 06-27. Other 1915 pages still to check issue by issue.
-9. **Fall 1915: the series' one real hole (opened 2026-11-16).** No paper on record has a FUN puzzle from
+9. **Fall 1915: probably a FUN hiatus, not a hole (opened 2026-11-16; settled as far as it can be 2026-11-17).** Alex DeJarnatt browsed the Milwaukee Sentinel's whole FUN insert of 1915-09-12: it holds the solution to 09-05's puzzle and no new crossword, though 09-05 had promised "another cross-word" for next week. FUN was still being printed, so its crossword stopped, not the Sentinel's copy of FUN. At the other end, the Minneapolis Journal's 11-21 puzzle has no solutions box, and its intro explains how to solve the puzzle, as if a series were starting again. Both edges look like a stop and a restart, as FUN had done on 1914-05-17, 05-24 and 06-07. The ten Sundays 09-12 to 11-14 (count numbers 91-100) are marked "probably never used" in status.tsv. Reopen this if any paper turns up a FUN crossword from those weeks. Original note:
+   **Fall 1915: the series' one real hole (opened 2026-11-16).** No paper on record has a FUN puzzle from
    1915-09-12 to 11-14. The Milwaukee Sentinel's crossword ends with its solution-only page of 09-12, which answers
    09-05's puzzle; there is nothing in 1916. The Minneapolis Journal did not carry FUN from late July until 11-21, and
    its 11-21 page has no solutions box, so the 11-14 puzzle left no trace there either. That is nine Sundays,
