@@ -47,6 +47,17 @@ items 2 and 3 below: [docs/CAMPBELL-CROSSCHECK.md](docs/CAMPBELL-CROSSCHECK.md).
 8. **Where the Journal printed its solutions when not on the puzzle page.** Several 1915 pages
    carry a solution with no puzzle or a puzzle with no solution; the issue may have split them.
    **Partly settled (Alex DeJarnatt, Newspapers.com, 2026-10-30):** 1915-06-13's answer-key page is the key to 06-06's puzzle (confirmed), so nothing was split there; the real hole is 06-20's puzzle, whose key runs on 06-27. Other 1915 pages still to check issue by issue.
+9. **Fall 1915: the series' one real hole (opened 2026-11-16).** No paper on record has a FUN puzzle from
+   1915-09-12 to 11-14. The Milwaukee Sentinel's crossword ends with its solution-only page of 09-12, which answers
+   09-05's puzzle; there is nothing in 1916. The Minneapolis Journal did not carry FUN from late July until 11-21, and
+   its 11-21 page has no solutions box, so the 11-14 puzzle left no trace there either. That is nine Sundays,
+   09-19 to 11-14, plus 09-12 if FUN ran a puzzle that day; at a guess nine or ten puzzles. Searched with nothing useful:
+   "crossword", "puzzle" and "solution", fall 1915 (Alex DeJarnatt, 2026-11-16). Still to try:
+   - FUN's own wording: "cross-word" with the hyphen, "word-cross", "Fun's Cross-Word", "Can You Solve It".
+   - Other collections: GenealogyBank (where the Sentinel's 1915 pages came from) and Chronicling America.
+   - The papers that took FUN up in 1916: the Pittsburgh Press (from 1916-06-11), Tacoma (from 08-27) and the Fort
+     Wayne Journal-Gazette. Check whether any of them ran FUN earlier.
+   - The World's own FUN section: NYPL microfilm, or a collector (Will Shortz; T Campbell).
 
 ## Leads for the catalog (not this run)
 
