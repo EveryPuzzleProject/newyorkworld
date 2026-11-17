@@ -445,7 +445,7 @@
    ]
   },
   {
-   "pair": "5-24",
+   "pair": "5-21",
    "text": "Young women.",
    "answer": "GIRLS",
    "page": "puzzle",
@@ -458,10 +458,11 @@
     1421,
     1012,
     1451
-   ]
+   ],
+   "printed": "5-24"
   },
   {
-   "pair": "2-17",
+   "pair": "9-17",
    "text": "Good to eat.",
    "answer": "PIE",
    "page": "puzzle",
@@ -474,10 +475,11 @@
     1443,
     988,
     1471
-   ]
+   ],
+   "printed": "2-17"
   },
   {
-   "pair": "13-23",
+   "pair": "18-28",
    "text": "To cut lengthwise.",
    "answer": "SLIT",
    "page": "puzzle",
@@ -490,7 +492,8 @@
     1463,
     1054,
     1493
-   ]
+   ],
+   "printed": "13-23"
   },
   {
    "pair": "N-6",
@@ -557,7 +560,7 @@
    ]
   },
   {
-   "pair": "28-31",
+   "pair": "23-31",
    "text": "Torn.",
    "answer": "RENT",
    "page": "puzzle",
@@ -570,7 +573,8 @@
     905,
     1595
    ],
-   "how": "ocr-corrected"
+   "how": "ocr-corrected",
+   "printed": "28-31"
   },
   {
    "pair": "2-11",
@@ -589,7 +593,7 @@
    "how": "ocr-corrected"
   },
   {
-   "pair": "9-29",
+   "pair": "19-29",
    "text": "Perceives.",
    "answer": "SEES",
    "page": "puzzle",
@@ -602,7 +606,8 @@
     962,
     1637
    ],
-   "how": "ocr-corrected"
+   "how": "ocr-corrected",
+   "printed": "9-29"
   },
   {
    "pair": "4-27",

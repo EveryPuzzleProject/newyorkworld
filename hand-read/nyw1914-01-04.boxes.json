@@ -484,7 +484,7 @@
    ]
   },
   {
-   "pair": "6-23",
+   "pair": "6-28",
    "text": "An evergreen tree.",
    "page": "puzzle",
    "ocr": [
@@ -496,10 +496,11 @@
     2224,
     1153,
     2271
-   ]
+   ],
+   "printed": "6-23"
   },
   {
-   "pair": "10-16",
+   "pair": "10-26",
    "text": "Business transactions.",
    "page": "puzzle",
    "ocr": [
@@ -511,7 +512,8 @@
     2267,
     1231,
     2309
-   ]
+   ],
+   "printed": "10-16"
   },
   {
    "pair": "14-22",

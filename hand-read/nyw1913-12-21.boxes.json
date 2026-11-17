@@ -159,7 +159,7 @@
    "how": "ocr-corrected"
   },
   {
-   "pair": "38-39",
+   "pair": "18-19",
    "text": "What this puzzle is.",
    "answer": "HARD",
    "page": "puzzle",
@@ -172,7 +172,8 @@
     822,
     976
    ],
-   "how": "ocr-corrected"
+   "how": "ocr-corrected",
+   "printed": "38-39"
   },
   {
    "pair": "14-15",
@@ -342,7 +343,7 @@
    ]
   },
   {
-   "pair": "10-12",
+   "pair": "10-18",
    "text": "The fibre of the gomuti palm.",
    "answer": "DOH",
    "page": "puzzle",
@@ -356,7 +357,8 @@
     824,
     1149,
     873
-   ]
+   ],
+   "printed": "10-12"
   },
   {
    "pair": "6-22",
@@ -440,7 +442,7 @@
    ]
   },
   {
-   "pair": "26-30",
+   "pair": "23-30",
    "text": "A river in Russia.",
    "answer": "NEVA",
    "page": "puzzle",
@@ -453,7 +455,8 @@
     991,
     1148,
     1017
-   ]
+   ],
+   "printed": "26-30"
   },
   {
    "pair": "1-32",

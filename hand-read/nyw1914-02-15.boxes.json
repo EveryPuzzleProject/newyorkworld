@@ -453,7 +453,7 @@
    ]
   },
   {
-   "pair": "29-30",
+   "pair": "29-Z",
    "text": "The noise a bee makes.",
    "answer": "BUZZ",
    "page": "puzzle",
@@ -466,7 +466,8 @@
     913,
     420,
     940
-   ]
+   ],
+   "printed": "29-30"
   },
   {
    "pair": "F-4",

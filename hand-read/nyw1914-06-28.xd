@@ -1,10 +1,13 @@
+## Metadata
 Title: FUN'S July 4 Cross Word Puzzle
 Copyright: New York World
 Date: 1914-06-28
 Number: 25
 Notes: A 13-wide stepped diamond for the Fourth of July; an eagle with stars is printed over the shaded centre (r5c7, r6c6-c8, r7c5-c9, r8c6-c8, r9c7, shown as _), and the clues are all on Fourth of July themes. The number "No 25" is printed beside the grid, at its lower left. No credit line. Printed intro: "There is a fourth of July flavor to today's cross-word puzzle. You are invited to think of the Declaration of Independence and what it meant in 1776 and what it means today while you are trying to solve this puzzle. Fill in the small squares with words corresponding to the list of clews and definitions given below, allowing one letter of each word to each square. You will find the solution to this puzzle in next week's FUN. Meanwhile, see if you can solve it yourself." Read by hand from the Milwaukee Sentinel's page (Milwaukee_Sentinel_1914_06_28_84.png), solution from Milwaukee_Sentinel_1914_07_05_81.png, by Claude, 2026-11-16.
+Numbering: as-printed
 
 
+## Grid
 ______G______
 _____WAR_____
 ____VALOR____
@@ -20,6 +23,7 @@ _____PIE_____
 ______N______
 
 
+## Clues
 2-3. It followed the Declaration of Independence. ~ WAR
 4-5. Displayed by Washington's soldiers. ~ VALOR
 6-7. Fourth of July celebrations are not complete without these. ~ PARADES
@@ -54,18 +58,40 @@ ______N______
 23-32. What the American school boys need not do on the fourth of July. ~ SUMS
 
 
-
-Numbering: a=10 z=35 A=36
-______1______
-_____2.3_____
-____4...5____
-___6..k..7___
-__8..9_a..b__
-_c..d___e..f_
-g..h_____i..j
-_l..m___n..o_
-__p..q_r..s__
-___t..z..u___
-____v...w____
-_____x.y_____
-______A______
+## Labels
+1 r1c7
+2 r2c6
+3 r2c8
+4 r3c5
+5 r3c9
+6 r4c4
+7 r4c10
+8 r5c3
+9 r5c6
+10 r5c8
+11 r5c11
+12 r6c2
+13 r6c5
+14 r6c9
+15 r6c12
+16 r7c1
+17 r7c4
+18 r7c10
+19 r7c13
+20 r4c7
+21 r8c2
+22 r8c5
+23 r8c9
+24 r8c12
+25 r9c3
+26 r9c6
+27 r9c8
+28 r9c11
+29 r10c4
+30 r10c10
+31 r11c5
+32 r11c9
+33 r12c6
+34 r12c8
+35 r10c7
+36 r13c7

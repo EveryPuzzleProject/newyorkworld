@@ -1,9 +1,12 @@
+## Metadata
 Author: Aloysius E. Pracny
 Copyright: New York World
 Date: 1914-07-26
 Notes: Five puzzles in one, laid out in one grid as printed with _ between the pieces: a zigzag band four squares wide down the left (17 rows, Nos. 1-36, 101-102), its mirror down the right (Nos. 37-72, 103-104), a 3x3 square at the top centre (73-80), a 4x4 square in the middle (81-92) and a 3x3 square at the bottom centre (93-100). On the page the two 3x3 squares sit half a square left of the 4x4's columns and the 4x4 half a square above the rows given here (r8-r11); they are placed at c10-c12 and r8-r11 as the nearest whole squares. No heading, title or number is printed with the puzzle (No. 29 is its place in the series); squares 71 and 72 (r1c18, r1c19) carry no printed number though the list uses them. Credit, from the printed intro: "Here are five puzzles in one, a contribution for FUN'S puzzle solvers to ponder over, from Aloysius E. Pracny of Jackson street, Brooklyn. He writes as follows: "The pleasure I have found in solving the cross word puzzles in FUN has prompted me to construct the enclosed." Fill in the small squares with words corresponding to the list of clews and definitions given below, allowing one letter to each square. Then compare your solution with the one to be given in next week's FUN." The list prints 77-79 twice. Read by hand from the Milwaukee Sentinel's page (Milwaukee_Sentinel_1914_07_26_81.png), solution from Milwaukee_Sentinel_1914_08_02_68.png, by Claude, 2026-11-16.
+Numbering: as-printed
 
 
+## Grid
 LANE_____AWL____RAID
 _NILE____BAY___TORN_
 __PARE___EYE__PAST__
@@ -23,6 +26,7 @@ _LADY____ICE___LAWN_
 LONE_____PEN____ROOT
 
 
+## Clues
 1-4. A narrow passage. ~ LANE
 5-6. A river in Egypt. ~ NILE
 7-8. To diminish. ~ PARE
@@ -110,22 +114,108 @@ LONE_____PEN____ROOT
 73-75. An instrument for piercing holes. ~ AWL
 
 
-
-Numbering: a=10 z=35 A=36 Z=61 α=62 ω=86 б=87 т=104
-1234_____μνξ____BκλC
-_5..6____ο.ρ___D..E_
-__7..8___πσς__F..G__
-___9..a______H..I___
-____b..c____J..K____
-___d..e______L..M___
-__f..g________N..O__
-_h..i___τυφχ___P..Q_
-j..k____ψ..в____R..S
-_l..m___ω..г___T..U_
-__n..o__бежд__V..W__
-___p..q______X..Y___
-____r..s____Z..α____
-___t..u______β..γ___
-__v..w___зий__δ..ε__
-_x..y____к.о___ζ..η_
-zпрA_____лмн____θстι
+## Labels
+1 r1c1
+2 r1c2
+3 r1c3
+4 r1c4
+5 r2c2
+6 r2c5
+7 r3c3
+8 r3c6
+9 r4c4
+10 r4c7
+11 r5c5
+12 r5c8
+13 r6c4
+14 r6c7
+15 r7c3
+16 r7c6
+17 r8c2
+18 r8c5
+19 r9c1
+20 r9c4
+21 r10c2
+22 r10c5
+23 r11c3
+24 r11c6
+25 r12c4
+26 r12c7
+27 r13c5
+28 r13c8
+29 r14c4
+30 r14c7
+31 r15c3
+32 r15c6
+33 r16c2
+34 r16c5
+35 r17c1
+36 r17c4
+37 r1c17
+38 r1c20
+39 r2c16
+40 r2c19
+41 r3c15
+42 r3c18
+43 r4c14
+44 r4c17
+45 r5c13
+46 r5c16
+47 r6c14
+48 r6c17
+49 r7c15
+50 r7c18
+51 r8c16
+52 r8c19
+53 r9c17
+54 r9c20
+55 r10c16
+56 r10c19
+57 r11c15
+58 r11c18
+59 r12c14
+60 r12c17
+61 r13c13
+62 r13c16
+63 r14c14
+64 r14c17
+65 r15c15
+66 r15c18
+67 r16c16
+68 r16c19
+69 r17c17
+70 r17c20
+71 r1c18
+72 r1c19
+73 r1c10
+74 r1c11
+75 r1c12
+76 r2c10
+77 r3c10
+78 r2c12
+79 r3c12
+80 r3c11
+81 r8c9
+82 r8c10
+83 r8c11
+84 r8c12
+85 r9c9
+86 r10c9
+87 r11c9
+88 r9c12
+89 r10c12
+90 r11c12
+91 r11c10
+92 r11c11
+93 r15c10
+94 r15c11
+95 r15c12
+96 r16c10
+97 r17c10
+98 r17c11
+99 r17c12
+100 r16c12
+101 r17c2
+102 r17c3
+103 r17c18
+104 r17c19

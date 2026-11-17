@@ -1,10 +1,13 @@
+## Metadata
 Author: T. W. Martin, Jr.
 Copyright: New York World
 Date: 1914-08-02
 Number: 30
 Notes: A zigzag W of 3-wide stepped bands, 8 rows by 31 columns: two peaks of three squares in the top row, a valley of three in the middle of the bottom row, and three-square ends at bottom left and bottom right; every word is two or three letters. Headed "FUN'S CROSS-WORD PUZZLE No 30."; the number is printed in the heading and again in the intro. Credit as printed: "FUN'S cross word puzzle No. 30 was designed by T. W. Martin, Jr., of Baltimore, Md. This puzzle in FUN'S series may truthfully be called the young folks' number. As will be readily seen, it contains only one syllable words." Read by hand from the Milwaukee Sentinel's page (Milwaukee_Sentinel_1914_08_02_69.png), solution from Milwaukee_Sentinel_1914_08_09_75.png, by Claude, 2026-11-16.
+Numbering: as-printed
 
 
+## Grid
 _______CAT___________DOG_______
 ______NO_AN_________GO_EH______
 _____POD_NEW_______BET_MAT_____
@@ -15,6 +18,7 @@ _DIN_________BE_IN_________TED_
 LOT___________TOP___________NOT
 
 
+## Clues
 1-2. An animal. ~ CAT
 3-4. Negative. ~ NO
 5-6. Seed-vessel of plant. ~ POD
@@ -72,13 +76,64 @@ LOT___________TOP___________NOT
 56-60. To perform. ~ DO
 
 
-
-Numbering: a=10 z=35 A=36 Y=60
-_______1.2___________H.I_______
-______34_hi_________FG_JK______
-_____5.6_j.k_______D.E_L.M_____
-____7.8___l.m_____B.C___N.O____
-___9.a_____n.o___z.A_____P.Q___
-__b.c_______p.q_x.y_______R.S__
-_d.e_________rs_vw_________T.U_
-fXg___________t.u___________VYW
+## Labels
+1 r1c8
+2 r1c10
+3 r2c7
+4 r2c8
+5 r3c6
+6 r3c8
+7 r4c5
+8 r4c7
+9 r5c4
+10 r5c6
+11 r6c3
+12 r6c5
+13 r7c2
+14 r7c4
+15 r8c1
+16 r8c3
+17 r2c10
+18 r2c11
+19 r3c10
+20 r3c12
+21 r4c11
+22 r4c13
+23 r5c12
+24 r5c14
+25 r6c13
+26 r6c15
+27 r7c14
+28 r7c15
+29 r8c15
+30 r8c17
+31 r7c17
+32 r7c18
+33 r6c17
+34 r6c19
+35 r5c18
+36 r5c20
+37 r4c19
+38 r4c21
+39 r3c20
+40 r3c22
+41 r2c21
+42 r2c22
+43 r1c22
+44 r1c24
+45 r2c24
+46 r2c25
+47 r3c24
+48 r3c26
+49 r4c25
+50 r4c27
+51 r5c26
+52 r5c28
+53 r6c27
+54 r6c29
+55 r7c28
+56 r7c30
+57 r8c29
+58 r8c31
+59 r8c2
+60 r8c30

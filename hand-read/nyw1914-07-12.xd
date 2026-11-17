@@ -1,10 +1,13 @@
+## Metadata
 Author: W. G. H. Tiedemann
 Copyright: New York World
 Date: 1914-07-12
 Number: 27
 Notes: A stepped pyramid 21 squares wide and 13 rows deep, with a ragged bottom row; two diagonal lines of hatched black squares (#) run down from the apex like a roof, and a "SOLUTION NEXT WEEK" panel fills the centre (r9c11, r10-r12 c10-c12; with r12c8 and r12c14, shown as _). F, U and N are printed in the squares at the top of the centre as a cross reading FUN across (r6c10-c12) and down (r5c11-r7c11), with no rules between them; they are squares of the puzzle, and the down word 10-26 they start (FUND) has no clue. The number "No 27" is printed beside the grid, at its left. Credit, from the printed intro: "Here is a new kind of cross-word puzzle for FUN'S puzzle experts to wrestle with. It is a contribution from W. G. H. Tiedemann of Third avenue, New York City, who very naturally suggests that any one who attempts to solve it is going to have a very interesting half hour. However, that remains to be determined when you try the puzzle yourself. The puzzle editor has taken the liberty to change several words and definitions in Mr. Tiedemann's original puzzle so that he, too, will have an interesting time of solving his own puzzle. Fill in the small squares with words corresponding to the list of clues and definitions given herewith. One letter only is to be placed in such square. The solution to this puzzle will be given in next week's FUN." The clues are printed as "1-10—Highest in rank or authority."; the fruit is printed "25-61" but runs 25-64 (ORANGE). Read by hand from the Milwaukee Sentinel's page (Milwaukee_Sentinel_1914_07_12_79.png), solution from Milwaukee_Sentinel_1914_07_19_79.png, by Claude, 2026-11-16.
+Numbering: as-printed
 
 
+## Grid
 __________C__________
 _________SHE_________
 ________STIRS________
@@ -20,6 +23,7 @@ _BELLOW_G___E_TEASER_
 __S__N__ENDED__T__E__
 
 
+## Clues
 1-10. Highest in rank or authority. ~ CHIEF
 2-9. To measure off by taking steps. ~ STEP
 19-33. To-fortify. ~ ARM
@@ -79,18 +83,89 @@ __S__N__ENDED__T__E__
 64-65. Finished. ~ ENDED
 
 
+## Labels
+1 r1c11
+2 r2c10
+3 r2c12
+4 r3c9
+5 r3c13
+6 r4c8
+7 r4c14
+8 r5c7
+9 r5c10
+10 r5c11
+11 r5c12
+12 r5c15
+13 r6c6
+14 r6c9
+15 r6c13
+16 r6c16
+17 r7c5
+18 r7c8
+19 r7c10
+20 r7c12
+21 r7c14
+22 r7c17
+23 r8c4
+24 r8c7
+25 r8c9
+26 r8c11
+27 r8c13
+28 r8c15
+29 r8c18
+30 r9c3
+31 r9c6
+32 r9c8
+33 r9c10
+34 r9c12
+35 r9c14
+36 r9c16
+37 r9c19
+38 r10c2
+39 r10c5
+40 r10c7
+41 r10c9
+42 r10c13
+43 r10c15
+44 r10c17
+45 r10c20
+46 r11c1
+47 r11c4
+48 r11c6
+49 r11c8
+50 r11c9
+51 r11c13
+52 r11c14
+53 r11c16
+54 r11c18
+55 r11c21
+56 r12c2
+57 r12c4
+58 r12c7
+59 r12c15
+60 r12c18
+61 r12c20
+62 r13c3
+63 r13c6
+64 r13c9
+65 r13c13
+66 r13c16
+67 r13c19
 
-Numbering: a=10 z=35 A=36 Z=61 &=62 *=63 +=64 ?=65 @=66 ^=67
-__________1__________
-_________2.3_________
-________4...5________
-_______6.....7_______
-______8..9ab..c______
-_____d..e...f..g_____
-____h..i#j.k#l..m____
-___n..o#p.q.r#s..t___
-__u..v#w.x_y.z#A..B__
-_C..D#E.F___G.H#I..J_
-K..L#M.NO___PQ.R#S..T
-_U.V..W_.___._X..Y.Z_
-__&__*__+...?__@__^__
+
+## Design
+G { given: true }
+
+.....................
+.....................
+.....................
+.....................
+..........G..........
+.........GGG.........
+..........G..........
+.....................
+.....................
+.....................
+.....................
+.....................
+.....................

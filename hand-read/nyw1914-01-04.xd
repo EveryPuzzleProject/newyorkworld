@@ -1,24 +1,28 @@
+## Metadata
 Title: Find the Missing Cross Words
 Copyright: New York World
 Date: 1914-01-04
 Notes: A 13-wide diamond (the same outline as No. 1) with a black cross in the centre (shown as _) lettered in white "IT'S READS BOTH WAYS" (the first word is unsure). No solution was printed anywhere, so the letters are unknown: every square of the puzzle is written as "." and the clues have no answers. No credit, no number. Two clue pairs name the wrong end squares (6-23 for 6-28, 10-16 for 10-26), kept as printed. Intro as printed: "Here is another one of FUN'S word-cross puzzles. See if you can fill in the missing words. Fill in the squares in the above diagram with words which correspond with the definitions given below. The solution will be given in next week's FUN." Read by hand from the Milwaukee Sentinel's page (Milwaukee_Sentinel_1914_01_04_80_fun.png); no solution was printed, by Claude, 2026-11-16.
+Numbering: across-first
 
 
-______.______
-_____..._____
-____.....____
-___.......___
-__...._....__
-_....___...._
-...._____....
-_....___...._
-__...._....__
-___.......___
-____.....____
-_____..._____
-______.______
+## Grid
+______?______
+_____???_____
+____?????____
+___???????___
+__????_????__
+_????___????_
+????_____????
+_????___????_
+__????_????__
+___???????___
+____?????____
+_____???_____
+______?______
 
 
+## Clues
 1-2. Used on washday.
 3-4. A man servant.
 5-6. A month.
@@ -44,27 +48,12 @@ ______.______
 24-31. The Emperor of Russia.
 2-9. To strike.
 4-13. Three together.
-6-23. An evergreen tree.
-10-16. Business transactions.
+6-28. An evergreen tree.
+6-28 ^Printed: 6-23
+10-26. Business transactions.
+10-26 ^Printed: 10-16
 14-22. A stamp.
 21-30. A single time.
 25-32. Exclusively.
 33-34. A Kaffir.
 35-36. The god of love.
-
-
-
-Numbering: a=10 z=35 A=36
-______x______
-_____1.2_____
-____3...4____
-___5..y..6___
-__7..8_9..a__
-_b..c___d..e_
-f..g_____h..i
-_j..k___l..m_
-__n..o_p..q__
-___r..z..s___
-____t...u____
-_____v.w_____
-______A______

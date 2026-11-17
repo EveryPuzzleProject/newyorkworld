@@ -19,10 +19,10 @@ LINK = sys.argv[2] if len(sys.argv) > 2 else None  # relative path from a puzzle
 
 
 def parse_xd(text: str):
-    parts = re.split(r"\n\s*\n\s*\n", text.strip("\n"), maxsplit=3)
-    heads = dict(l.split(": ", 1) for l in parts[0].splitlines() if ": " in l)
-    grid = parts[1].splitlines() if len(parts) > 1 else []
-    return heads, grid
+    """(metadata, grid rows), from the headed form (worldxd.py)."""
+    import worldxd
+    z = worldxd.parse(text)
+    return z["meta"], z["grid"]
 
 
 def lerp(p, q, t):

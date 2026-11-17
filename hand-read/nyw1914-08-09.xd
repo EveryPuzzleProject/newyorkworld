@@ -1,10 +1,13 @@
+## Metadata
 Title: Some Geography!
 Author: E. W. Fuller
 Copyright: New York World
 Date: 1914-08-09
 Notes: A cross-shaped grid, 13 wide and 13 high: a 3-wide arm at top and bottom, a 4-wide arm left and right, AMERICA printed across the middle row as given letters (r7c4-c10). The checkered squares inside the outline are printed as blocks (#). Headline: "SOME GEOGRAPHY! Here's a Perplexing Variety of Cross-Word Puzzle for FUN Readers to Ponder Over." No number is printed on the puzzle; the next week's puzzle calls itself the thirty-second in FUN's series. The text credits it as "a contribution to FUN'S cross-word collection from E. W. Fuller of West Forty-sixth street, New York City." Read by hand from the Milwaukee Sentinel's page (Milwaukee_Sentinel_1914_08_09_83.png), solution from Milwaukee_Sentinel_1914_08_16_82.png, by Claude, 2026-11-16.
+Numbering: as-printed
 
 
+## Grid
 _____KOM_____
 _____A#A_____
 _____R#U_____
@@ -20,6 +23,7 @@ _____S#A_____
 _____ULM_____
 
 
+## Clues
 1-2. A city in Persia. ~ KOM
 1-4. A sea—Russian empire. ~ KARA
 2-6. An island—Hawaiian. ~ MAUI
@@ -39,18 +43,48 @@ _____ULM_____
 5-22. A city in Germany. ~ HAARLEM
 
 
+## Labels
+1 r1c6
+2 r1c8
+3 r4c5
+4 r4c6
+5 r4c7
+6 r4c8
+7 r4c9
+8 r5c4
+9 r6c1
+10 r6c4
+11 r8c1
+12 r8c4
+13 r9c4
+14 r5c10
+15 r6c10
+16 r6c13
+17 r8c10
+18 r8c13
+19 r9c10
+20 r10c5
+21 r10c6
+22 r10c7
+23 r10c8
+24 r10c9
+25 r13c6
+26 r13c8
 
-Numbering: a=10 q=26
-_____1.2_____
-_____.#._____
-_____.#._____
-____34567____
-___8##.##e___
-9..a##.##f..g
-.##AMERICA##.
-b..c##.##h..i
-___d##.##j___
-____klmno____
-_____.#._____
-_____.#._____
-_____p.q_____
+
+## Design
+G { given: true }
+
+.............
+.............
+.............
+.............
+.............
+.............
+...GGGGGGG...
+.............
+.............
+.............
+.............
+.............
+.............

@@ -1,10 +1,13 @@
+## Metadata
 Title: A George Washington Cross-Word Puzzle
 Copyright: New York World
 Date: 1914-02-22
 Number: 10
 Notes: A 15-wide diamond with a diamond-shaped hole in the centre (shown as _) holding a portrait of Washington, for Washington's Birthday; nine clues are on Washington. The number is printed only in the intro ("the tenth in FUN'S series of cross-word puzzles"). No credit line is printed for the puzzle; the drawings round the grid are signed CALLAHAN. Read by hand from the Milwaukee Sentinel's page (Milwaukee_Sentinel_1914_02_22_80.png), solution from Milwaukee_Sentinel_1914_03_01_85.png, by Claude, 2026-11-16.
+Numbering: apex-first
 
 
+## Grid
 _______D_______
 ______LIE______
 _____PASCH_____
@@ -22,6 +25,7 @@ ______RAE______
 _______R_______
 
 
+## Clues
 2-3. What George Washington couldn't tell. ~ LIE
 4-5. The Feast of the Passover. ~ PASCH
 6-7. What George Washington chopped down the cherry tree with. ~ HATCHET
@@ -62,22 +66,3 @@ _______R_______
 26-37. Hazard. ~ RISK
 30-39. What Washington fought in. ~ WARS
 34-41. What Paul Revere did. ~ RODE
-
-
-
-Numbering: a=10 z=35 A=36 I=44
-_______1_______
-______2.3______
-_____4...5_____
-____6..G..7____
-___8..9_a..b___
-__c..d___e..f__
-_g..h_____i..j_
-k..l_______m..n
-_o..p_____q..r_
-__s..t___u..v__
-___w..x_y..z___
-____A..H..B____
-_____C...D_____
-______E.F______
-_______I_______

@@ -1,11 +1,14 @@
+## Metadata
 Title: FUN'S Cross-Word Puzzles
 Author: Elizabeth M. Butzinger
 Copyright: New York World
 Date: 1914-05-03
 Number: 20
 Notes: A 20x20 X: two diagonal bands of four-square rows meet in a cross-shaped middle (rows 7-14), with a two-square stem at rows 10-11; the "No 20" panel below the centre is outside the grid (Number from that panel; the intro also calls it "the twentieth in FUN'S series"). The clues are printed in three places: down the left column (1-2 to 23-24), in four short columns under the grid (25-26 to 63-64), and down the right column (65-66 to 62-76); the xd keeps that order. The list ends: "Nos. 1, 14, 51 and 64 are the four points of the compass." (the squares hold N, S, E, W). Credit in the intro: "FUN'S puzzle solvers are indebted to Miss Elizabeth M. Butzinger of West One Hundred and Thirty-fifth street, New York City, for the accompanying cross word puzzle, the twentieth in FUN'S series." Printed intro, under the heading "CAN YOU SOLVE THIS ONE?": ""I am sure," she writes, "your readers will find this puzzle more difficult than any published so far." Whether it is more difficult or not, is a question you will have to decide for yourselves. The puzzle is certainly different and its construction must have required considerable ingenuity and patience. Fill in the small squares with words corresponding to the list of clews and definitions given herewith. The solution will be given in next week's FUN." Read by hand from the Milwaukee Sentinel's page (Milwaukee_Sentinel_1914_05_03_95.png), solution from Milwaukee_Sentinel_1914_05_10_90.png, by Claude, 2026-11-16.
+Numbering: as-printed
 
 
+## Grid
 NIAS____________THIS
 _SLEW__________MOON_
 __PLOW________HOLE__
@@ -28,6 +31,7 @@ _MOSS__________EDIT_
 EATS____________ENOW
 
 
+## Clues
 1-2. A young hawk. ~ NIAS
 3-4. What Samson did to the Philistines. ~ SLEW
 5-6. A farm implement ~ PLOW
@@ -96,25 +100,80 @@ EATS____________ENOW
 62-76. Toward. ~ TO
 
 
-
-Numbering: a=10 z=35 A=36 Z=61 $=62 %=63 &=64 *=65 +=66 /=67 <=68 >=69 ?=70 @=71 ^=72 {=73 }=74 [=75 ]=76
-1>?2____________d@^e
-_3..4__________f..g_
-__5..6________h..i__
-___7..8______j..k___
-____9..a____l..m____
-_____b..c__n..o_____
-______p..*/..q______
-_______r....s_______
-________t..u________
-_________vw_________
-_________xy_________
-________z..A________
-_______B....C_______
-______D..+<..E______
-_____F..G__R..S_____
-____H..I____T..U____
-___J..K______V..W___
-__L..M________X..Y__
-_N..O__________Z..$_
-P{}Q____________%[]&
+## Labels
+1 r1c1
+2 r1c4
+3 r2c2
+4 r2c5
+5 r3c3
+6 r3c6
+7 r4c4
+8 r4c7
+9 r5c5
+10 r5c8
+11 r6c6
+12 r6c9
+13 r1c17
+14 r1c20
+15 r2c16
+16 r2c19
+17 r3c15
+18 r3c18
+19 r4c14
+20 r4c17
+21 r5c13
+22 r5c16
+23 r6c12
+24 r6c15
+25 r7c7
+26 r7c14
+27 r8c8
+28 r8c13
+29 r9c9
+30 r9c12
+31 r10c10
+32 r10c11
+33 r11c10
+34 r11c11
+35 r12c9
+36 r12c12
+37 r13c8
+38 r13c13
+39 r14c7
+40 r14c14
+41 r15c6
+42 r15c9
+43 r16c5
+44 r16c8
+45 r17c4
+46 r17c7
+47 r18c3
+48 r18c6
+49 r19c2
+50 r19c5
+51 r20c1
+52 r20c4
+53 r15c12
+54 r15c15
+55 r16c13
+56 r16c16
+57 r17c14
+58 r17c17
+59 r18c15
+60 r18c18
+61 r19c16
+62 r19c19
+63 r20c17
+64 r20c20
+65 r7c10
+66 r14c10
+67 r7c11
+68 r14c11
+69 r1c2
+70 r1c3
+71 r1c18
+72 r1c19
+73 r20c2
+74 r20c3
+75 r20c18
+76 r20c19

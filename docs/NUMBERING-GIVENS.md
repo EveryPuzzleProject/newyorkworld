@@ -136,19 +136,20 @@ new property for the Design section, which is otherwise visual (circle, shaded, 
 given is between the two: the cell is drawn with its letter. If Saul would rather keep Design
 purely visual, the fallback is a `Givens: r2c6 r2c7 r2c8 ...` metadata field.
 
-**5. A word with no printed clue still gets a clue line, with an empty body and a reason.**
+**5. A word with no printed clue (and not a given) gets a clue line with an empty body and a reason.**
 
 ```
-F-N. ~ FUN
-F-N ^Given: yes
-
 11-19. ~ LET
 11-19 ^Note: no clue printed
 ```
 
-So every word of the grid is an entry (searches and answer counts see FUN and AMERICA), and the
-metadata says why the clue is empty. A fully given word's labels are its printed end letters (F
-and N above), listed in `## Labels` like any other end.
+So every word of the grid is an entry, and the metadata says why its clue is empty. A word printed
+whole as a given (FUN, AMERICA) gets no clue line: no clue was printed for it, the Design says it
+is given, and its end letters would make poor references (AMERICA would be "A-A", and No. 27's FUN
+runs both ways from one F).
+
+**5b. A word the grid can't hold** keeps its clue line and says so: `E-38 ^Offgrid: its middle
+letter is printed on the corner between two squares` (No. 13's inner star).
 
 **6. No. 28 (letters given, no clues, no numbers):** the Grid holds next week's solution, the
 Design marks the 50 given squares, `Numbering: none`, and there are no clue lines and no Labels. Its two clashes
@@ -169,7 +170,7 @@ stay in Notes.
 ## Replacing gxd's Nos. 1 and 2
 
 With the new versions, once the form above is settled: one MR from the fork (alexdej1/gxd) into
-rabidrat/gxd, replacing both files, the `Numbering:` header and map dropped in favour of Labels.
+rabidrat/gxd, replacing both files, the `Numbering:` map dropped for the rule name.
 One thing to carry over, not replace: gxd's No. 1 comes from the World's own page (via Campbell),
 the Sentinel is a reprint. Where the reprint drops something (No. 1's 2-3 clue), the World's text
 stands; where they differ in wording ("Sunk in mud." / "To sink in mud."), the Notes say both and
@@ -177,12 +178,17 @@ the World's wins. The Sentinel's corrections stand where the World's image is th
 (gxd's No. 1 Numbering, No. 2's clue-final periods). The xdformat spec could take the Labels
 section and the `given` property later, as a documented extension, if Saul likes them.
 
-## Decide
+## Done (2026-11-17, Alex: "do what you think works best")
 
-1. `Numbering:` naming the rule (`across-first`, `apex-first`, `reading-order`), and `as-printed`
-   with a `## Labels` list of `r<row>c<col>` lines for the ten that fit none; `a-b` references
-   (rules 1, 1b, 2). The rule names are mine: rename freely.
-2. Misprints as `^Printed:` (rule 3).
-3. Givens as a Design property, or a metadata field (rule 4).
-4. Empty-body clue lines for given and unclued words (rule 5).
-5. Nos. 13, 22, 17 and 29 (above).
+All 33 hand-read files are in this form (`hand-read/convert.py` did it, once), and
+`python hand-read/worldxd.py check` passes on every one: each clue's pair names two squares on one
+line under the file's rule or Labels, and its answer runs between them in the grid; every word of
+the grid has a clue line or is given whole. The conversion changed exactly the known misprints (No. 1:
+3, No. 2: 5, No. 3: 2, No. 9: 1, each with `^Printed:`) and added the six unclued words. No. 1's 2-3
+notes the World's own clue for it. The boxes files' pairs follow the xd, with the print in `printed`.
+
+What's still yours:
+
+1. The rule names (`across-first`, `apex-first`, `reading-order`, `as-printed`, `none`).
+2. Givens as a Design property, or a metadata field, if Saul wants Design kept visual.
+3. Nos. 13, 22, 17 and 29 (above).

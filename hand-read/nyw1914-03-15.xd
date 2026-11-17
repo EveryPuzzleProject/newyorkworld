@@ -1,10 +1,13 @@
+## Metadata
 Author: Harry Cleaver
 Copyright: New York World
 Date: 1914-03-15
 Number: 13
 Notes: Two puzzles in one: a 13-wide main diamond whose centre is a small inner diamond (r5c7; r6c6-8; r7c5-9; r8c6-8; r9c7), ruled off by a double line, holding an eight-rayed star of three-letter words that all start or end in the printed centre letter E. The four diagonal rays (CUE, RUE, EEN, ELM) print their middle letters (U, U, E, L) on the corners between squares, so those four letters have no square in this grid; the clue answers carry them. Read round from 37 to 44, the ray ends spell AMERICAN. Number from "THIS IS No 13" printed beside the grid (with "TWO IN ONE" opposite), under the heading "FUN'S CROSS-WORD PUZZLES / CAN YOU SOLVE THEM?". Credit as printed: "Here is a very ingeniously constructed cross work puzzle for you to solve. It really consists of two puzzles in one. Mr. Harry Cleaver of 83 Cathedral street, Montreal, sent it in, and he invites all of FUN'S clever puzzle solvers to fathom it if they can:". Inside-diamond instruction as printed: "Starting from 37 and going around to 44 you will find what President Wilson is." Inside clues are printed "E to 37", "40 to E" and so on. Read by hand from the Milwaukee Sentinel's page (Milwaukee_Sentinel_1914_03_15_85.png), solution from Milwaukee_Sentinel_1914_03_22_85.png, by Claude, 2026-11-16.
+Numbering: as-printed
 
 
+## Grid
 ______S______
 _____ATE_____
 ____ACIDS____
@@ -20,6 +23,7 @@ _____WIT_____
 ______P______
 
 
+## Clues
 2-3. Did eat. ~ ATE
 4-5. Sour substances. ~ ACIDS
 6-8. A continent. ~ AMERICA
@@ -60,20 +64,72 @@ E-39. Adam's mate. ~ EVE
 42-E. Used to billiards. ~ CUE
 43-E. Used for chopping. ~ AXE
 E-44. A contraction of even. ~ EEN
+E-38 ^Offgrid: its middle letter is printed on the corner between two squares (the inner star): the grid has no square for it
+40-E ^Offgrid: its middle letter is printed on the corner between two squares (the inner star): the grid has no square for it
+42-E ^Offgrid: its middle letter is printed on the corner between two squares (the inner star): the grid has no square for it
+E-44 ^Offgrid: its middle letter is printed on the corner between two squares (the inner star): the grid has no square for it
 
 
+## Labels
+1 r1c7
+2 r2c6
+3 r2c8
+4 r3c5
+5 r3c9
+6 r4c4
+7 r4c7
+8 r4c10
+9 r5c3
+10 r5c6
+11 r5c8
+12 r5c11
+13 r6c2
+14 r6c5
+15 r6c9
+16 r6c12
+17 r7c1
+18 r7c4
+19 r7c10
+20 r7c13
+21 r8c2
+22 r8c5
+23 r8c9
+24 r8c12
+25 r9c3
+26 r9c6
+27 r9c8
+28 r9c11
+29 r10c4
+30 r10c7
+31 r10c10
+32 r11c5
+33 r11c9
+34 r12c6
+35 r12c8
+36 r13c7
+37 r9c7
+38 r8c8
+39 r7c9
+40 r6c8
+41 r5c7
+42 r6c6
+43 r7c5
+44 r8c6
 
-Numbering: a=10 z=35 A=36 B=37 C=38 D=39 F=40 G=41 H=42 I=43 J=44 (E is the printed centre letter)
-______1______
-_____2.3_____
-____4...5____
-___6..7..8___
-__9..aGb..c__
-_d..eH.Ff..g_
-h..iI.E.Dj..k
-_l..mJ.Cn..o_
-__p..qBr..s__
-___t..u..v___
-____w...x____
-_____y.z_____
-______A______
+
+## Design
+G { given: true }
+
+.............
+.............
+.............
+.............
+.............
+.............
+......G......
+.............
+.............
+.............
+.............
+.............
+.............
