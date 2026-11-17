@@ -42,12 +42,41 @@ The other words with no printed clue are **not** givens (their squares are blank
 and 33-34, No. 23 63-77, No. 24 11-19, No. 32 17-18. Probably the paper's omissions; each is in its
 doubts file.
 
+## The World numbered by rule, mostly (Alex, 2026-11-17)
+
+Most of these puzzles number their end squares by one of a few rules, so a file can name the rule
+instead of listing the squares. "End square": the first or last square of a run of two or more
+squares across or down. "Reading order": row by row, left to right. A square holding a given
+letter gets no number (its label is the letter), and the count goes on past it.
+
+| rule | how | puzzles it fits exactly |
+|---|---|---|
+| `across-first` | each across word in reading order takes two numbers, its start then its end (1-2, 3-4, ...); then the end squares not numbered yet, in reading order | 16: Nos. 4-9, 11, 12, 15, 16, 19, 21, 22, 24, 32, 33 (and No. 3 by eye: no solution to test it) |
+| `apex-first` | the top row's end squares first (a diamond's apex: 1), then as across-first | 2: Nos. 1 and 10 |
+| `reading-order` | every end square in reading order | 3: Nos. 2, 17 and 23 |
+| none | | 10: Nos. 13, 14, 18, 20, 25, 26, 27, 29, 30, 31 |
+
+Tested on the hand-read files: each clue's pair and answer put its two numbers on the grid, and
+each rule's numbering was compared square by square (xword-ocr `numbering.end_numbering`, which
+already has these three as `across_first`, `apex_first`, `all_ends`). A fit is exact once the
+misprinted pairs are set aside: Nos. 1 and 2 differ from their rule only at their misprints (3 and
+5), No. 9 at one. The early ones match your reading: No. 1 apex first, No. 2 every end in reading
+order (its apex Y is a given), No. 10 apex first again, and across-first from No. 4 on. Nos. 14, 25
+and 26 are near misses (the centre column's ends numbered in another order); the rest are the odd
+shapes (the X, the hourglass, the W, five in one, the inner star, the diagonals).
+
 ## The proposal
 
 Use the v4 draft's headed sections (needed anyway for a Design section), and add one section the
 v4 parser already ignores, so these files stay valid xd.
 
-**1. A `## Labels` section: one line per printed label, with its square.**
+**1. A `Numbering:` metadata field names the rule.** `Numbering: across-first` (or `apex-first`,
+`reading-order`). With the grid and the givens (rule 4), that places every printed number: nothing
+else to write, and a checker can number the grid and test every clue's pair against it. This
+takes over the field name from gxd's map, which it replaces.
+
+**1b. When no rule fits, `Numbering: as-printed` and a `## Labels` section: one line per printed
+label, with its square.**
 
 ```
 ## Labels
@@ -63,7 +92,9 @@ P r4c4
 `r<row>c<col>`, 1-based, counted in the Grid section. A label is what's printed: a number, or a
 given letter that a clue names as an end (only those). No alphabet to run out of, readable on its
 own, and a diff shows a moved number as one line. The printed number's position inside the square
-(corner, middle, on the rule) is not kept: the boxes files have it if anyone needs it.
+(corner, middle, on the rule) is not kept: the boxes files have it if anyone needs it. (A middle
+way for the near misses, a rule plus a Labels section of only the squares that differ, is possible
+but adds a third case; listing them all is simpler.)
 
 **2. A clue reference `a-b` means: the word from label a to label b, in a straight line.**
 
@@ -147,7 +178,9 @@ section and the `given` property later, as a documented extension, if Saul likes
 
 ## Decide
 
-1. `## Labels` with `r<row>c<col>` lines, and `a-b` references (rules 1-2).
+1. `Numbering:` naming the rule (`across-first`, `apex-first`, `reading-order`), and `as-printed`
+   with a `## Labels` list of `r<row>c<col>` lines for the ten that fit none; `a-b` references
+   (rules 1, 1b, 2). The rule names are mine: rename freely.
 2. Misprints as `^Printed:` (rule 3).
 3. Givens as a Design property, or a metadata field (rule 4).
 4. Empty-body clue lines for given and unclued words (rule 5).
