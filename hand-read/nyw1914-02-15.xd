@@ -4,7 +4,6 @@ Copyright: New York World
 Date: 1914-02-15
 Number: 9
 Notes: A 13-wide diamond with a shaded cross in the centre printed "No 9" (shown as _), and two words printed in the grid as a starter: FUN (r2c6-c8) and PUZZLES (r4c4-c10); clues name four words by those printed letters (F-4, P-23, N-5, S-24). The number is printed in the centre block ("No 9") and in the intro ("the ninth in FUN'S series"). No credit line is printed. Read by hand from the Milwaukee Sentinel's page (Milwaukee_Sentinel_1914_02_15_83.png), solution from Milwaukee_Sentinel_1914_02_22_83.png, by Claude, 2026-11-16.
-Numbering: across-first
 
 
 ## Grid
@@ -24,37 +23,68 @@ ______N______
 
 
 ## Clues
-1-2. A barber's implemeut. ~ RAZOR
-3-4. A story. ~ TALE
-5-6. Not early. ~ LATE
-7-8. Belonging to me. ~ MINE
-9-10. Before Easter. ~ LENT
-11-12. What FUN is. ~ READ
-13-14. A small particle. ~ ATOM
-15-16. Stepped. ~ TROD
-17-18. An expression of hearty assent. ~ AMEN
-19-20. Space. ~ AREA
-21-22. Above. ~ OVER
-23-24. A town in Massachusetts. ~ ANDOVER
-25-26. A burning wick. ~ TAPER
-27-28. One man and another man. ~ MEN
-29-Z. The noise a bee makes. ~ BUZZ
-29-Z ^Printed: 29-30
-F-4. To worry. ~ FAZE
-1-8. A measure. ~ RULE
-P-23. A mythical beauty who carried a famous box. ~ PANDORA
-3-19. A jeweled headdress. ~ TIARA
-7-15. Assembled, ~ MET
-N-5. The head. ~ NOLL
-2-9. Actual. ~ REAL
-S-24. A modern ship. ~ STEAMER
-6-22. To go inside. ~ ENTER
-10-18. A weight. ~ TON
-16-25. A small depression make by striking. ~ DENT
-20-27. the first man. ~ ADAM
-30-31. Not closed. ~ OPEN
-21-28. What mother bakes her pies in. ~ OVEN
-17-26. To affirm. ~ AVER
+A4. A barber's implemeut. ~ RAZOR
+A4 ^Printed: 1-2
+A8. A story. ~ TALE
+A8 ^Printed: 3-4
+A9. Not early. ~ LATE
+A9 ^Printed: 5-6
+A11. Belonging to me. ~ MINE
+A11 ^Printed: 7-8
+A12. Before Easter. ~ LENT
+A12 ^Printed: 9-10
+A14. What FUN is. ~ READ
+A14 ^Printed: 11-12
+A15. A small particle. ~ ATOM
+A15 ^Printed: 13-14
+A16. Stepped. ~ TROD
+A16 ^Printed: 15-16
+A18. An expression of hearty assent. ~ AMEN
+A18 ^Printed: 17-18
+A19. Space. ~ AREA
+A19 ^Printed: 19-20
+A21. Above. ~ OVER
+A21 ^Printed: 21-22
+A22. A town in Massachusetts. ~ ANDOVER
+A22 ^Printed: 23-24
+A24. A burning wick. ~ TAPER
+A24 ^Printed: 25-26
+A25. One man and another man. ~ MEN
+A25 ^Printed: 27-28
+
+D1. The noise a bee makes. ~ BUZZ
+D1 ^Printed: 29-30
+D1 ^Note: misprint: the pair that fits the grid is 29-Z
+D2. To worry. ~ FAZE
+D2 ^Printed: F-4
+D3. The head. ~ NOLL
+D3 ^Printed: N-5
+D4. A measure. ~ RULE
+D4 ^Printed: 1-8
+D5. Actual. ~ REAL
+D5 ^Printed: 2-9
+D6. A mythical beauty who carried a famous box. ~ PANDORA
+D6 ^Printed: P-23
+D7. A modern ship. ~ STEAMER
+D7 ^Printed: S-24
+D8. A jeweled headdress. ~ TIARA
+D8 ^Printed: 3-19
+D10. To go inside. ~ ENTER
+D10 ^Printed: 6-22
+D11. Assembled, ~ MET
+D11 ^Printed: 7-15
+D13. A weight. ~ TON
+D13 ^Printed: 10-18
+D17. A small depression make by striking. ~ DENT
+D17 ^Printed: 16-25
+D18. To affirm. ~ AVER
+D18 ^Printed: 17-26
+D20. the first man. ~ ADAM
+D20 ^Printed: 20-27
+D21. What mother bakes her pies in. ~ OVEN
+D21 ^Printed: 21-28
+D23. Not closed. ~ OPEN
+D23 ^Printed: 30-31
 
 
 ## Design

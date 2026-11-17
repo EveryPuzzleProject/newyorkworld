@@ -16,6 +16,7 @@ its place on the page.
 | `puzzles.tsv` | each puzzle's puzzle page and solution page (`newyorkworld-scans/pages/`) |
 | `ocr/` | the pipeline's OCR lines and detected grids for each page, the ids the boxes cite (`ocr_lines.py` wrote them) |
 | `worldxd.py` | the form's numbering rules, parser and checker: `python worldxd.py check` (docs/NUMBERING-GIVENS.md) |
+| `modernize.py` | the one-off renumbering to the modern form, the World's pairs kept as `^Printed:` (2026-11-17; Nos. 13, 18 and 27 kept in the World's form) |
 | `convert.py` | the one-off conversion from Saul's `Numbering:` map to that form (2026-11-17) |
 | `draw.py` | draws a boxes file on its pages, to check it (`python draw.py <xdid>`) |
 | `build_packets.py` | the review packets: in the scans repo, `packets/nyw-1914-s1/` (each puzzle's scan with its boxes, the clue list beside it, the key's letters drawn in its squares) |
@@ -29,8 +30,9 @@ of No. 13's diagonal words (below). No. 3 has no solution anywhere: shape and cl
 
 ## Open decisions (Alex)
 
-The numbering, misprinted pairs and unclued words are settled in the form of
-[docs/NUMBERING-GIVENS.md](../docs/NUMBERING-GIVENS.md), which every file now follows. Still open:
+**Numbering settled (Alex, 2026-11-17):** modern A/D numbering, each clue's printed pair as
+`^Printed:`, givens on their squares in Design ([docs/NUMBERING-GIVENS.md](../docs/NUMBERING-GIVENS.md),
+"Decision"). Nos. 13, 18 and 27 stay in the World's own form, as metas, with a note. Still open:
 
 1. **Titles.** About half the files take FUN's heading ("FUN'S Cross-Word Puzzles") as the Title;
    READING.md said not to. Real titles: No. 3 "Find the Missing Cross Words", No. 10 "A George

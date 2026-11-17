@@ -4,7 +4,6 @@ Copyright: New York World
 Date: 1914-08-02
 Number: 30
 Notes: A zigzag W of 3-wide stepped bands, 8 rows by 31 columns: two peaks of three squares in the top row, a valley of three in the middle of the bottom row, and three-square ends at bottom left and bottom right; every word is two or three letters. Headed "FUN'S CROSS-WORD PUZZLE No 30."; the number is printed in the heading and again in the intro. Credit as printed: "FUN'S cross word puzzle No. 30 was designed by T. W. Martin, Jr., of Baltimore, Md. This puzzle in FUN'S series may truthfully be called the young folks' number. As will be readily seen, it contains only one syllable words." Read by hand from the Milwaukee Sentinel's page (Milwaukee_Sentinel_1914_08_02_69.png), solution from Milwaukee_Sentinel_1914_08_09_75.png, by Claude, 2026-11-16.
-Numbering: as-printed
 
 
 ## Grid
@@ -19,121 +18,114 @@ LOT___________TOP___________NOT
 
 
 ## Clues
-1-2. An animal. ~ CAT
-3-4. Negative. ~ NO
-5-6. Seed-vessel of plant. ~ POD
-7-8. Token of respect. ~ BOW
-9-10. Favorite. ~ PET
-11-12. Used mostly in summer. ~ FAN
-13-14. Noise. ~ DIN
-15-16. A piece of ground. ~ LOT
-17-18. Indefinite article. ~ AN
-19-20. Fresh. ~ NEW
-21-22. A metal that shines. ~ TIN
-23-24. Abbreviation for boy's name. ~ NAT
-25-26. It rests you. ~ NAP
-27-28. To exist. ~ BE
-29-30. You can go no higher. ~ TOP
-31-32. Not out. ~ IN
-33-34. Something awful. ~ SIN
-35-36. We all have one. ~ BED
-37-38. Something to wear. ~ HAT
-39-40. To gamble. ~ BET
-41-42. Not still. ~ GO
-43-44. They bite. ~ DOG
-45-46. An exclamation. ~ EH
-47-48. To wipe your feet on. ~ MAT
-49-50. A deer. ~ DOE
-51-52. Affirmation. ~ YES
-53-54. Illuminated. ~ LIT
-55-56. Boy's name. ~ TED
-57-58. Expresses negation. ~ NOT
-1-6. A fish. ~ COD
-3-8. Present. ~ NOW
-5-10. Cooking vessel. ~ POT
-7-12. Boy's name. ~ BEN
-9-14. A shallow vessel. ~ PAN
-11-16. Suitable. ~ FIT
-13-59. To act. ~ DO
-2-19. You get it at the seashore. ~ TAN
-18-21. Used to catch fish ~ NET
-20-23. Successful. ~ WIN
-22-25. Girl's name. ~ NAN
-24-27. A tag. ~ TAB
-26-29. To fondle. ~ PET
-33-30. The way you drink something hot. ~ SIP
-35-32. To keep corn in. ~ BIN
-37-34. Chicken. ~ HEN
-39-36. Not good. ~ BAD
-41-38. To obtain. ~ GET
-43-40. Period. ~ DOT
-44-47. Jewel. ~ GEM
-46-49. Possessed. ~ HAD
-48-51. What children like. ~ TOY
-50-53. A fish. ~ EEL
-52-55. To rest. ~ SIT
-54-57. A numeral. ~ TEN
-56-60. To perform. ~ DO
+A1. An animal. ~ CAT
+A1 ^Printed: 1-2
+A3. They bite. ~ DOG
+A3 ^Printed: 43-44
+A5. Negative. ~ NO
+A5 ^Printed: 3-4
+A6. Indefinite article. ~ AN
+A6 ^Printed: 17-18
+A8. Not still. ~ GO
+A8 ^Printed: 41-42
+A9. An exclamation. ~ EH
+A9 ^Printed: 45-46
+A11. Seed-vessel of plant. ~ POD
+A11 ^Printed: 5-6
+A12. Fresh. ~ NEW
+A12 ^Printed: 19-20
+A14. To gamble. ~ BET
+A14 ^Printed: 39-40
+A15. To wipe your feet on. ~ MAT
+A15 ^Printed: 47-48
+A17. Token of respect. ~ BOW
+A17 ^Printed: 7-8
+A18. A metal that shines. ~ TIN
+A18 ^Printed: 21-22
+A20. Something to wear. ~ HAT
+A20 ^Printed: 37-38
+A21. A deer. ~ DOE
+A21 ^Printed: 49-50
+A23. Favorite. ~ PET
+A23 ^Printed: 9-10
+A24. Abbreviation for boy's name. ~ NAT
+A24 ^Printed: 23-24
+A26. We all have one. ~ BED
+A26 ^Printed: 35-36
+A27. Affirmation. ~ YES
+A27 ^Printed: 51-52
+A29. Used mostly in summer. ~ FAN
+A29 ^Printed: 11-12
+A30. It rests you. ~ NAP
+A30 ^Printed: 25-26
+A32. Something awful. ~ SIN
+A32 ^Printed: 33-34
+A33. Illuminated. ~ LIT
+A33 ^Printed: 53-54
+A35. Noise. ~ DIN
+A35 ^Printed: 13-14
+A36. To exist. ~ BE
+A36 ^Printed: 27-28
+A37. Not out. ~ IN
+A37 ^Printed: 31-32
+A38. Boy's name. ~ TED
+A38 ^Printed: 55-56
+A40. A piece of ground. ~ LOT
+A40 ^Printed: 15-16
+A41. You can go no higher. ~ TOP
+A41 ^Printed: 29-30
+A42. Expresses negation. ~ NOT
+A42 ^Printed: 57-58
 
-
-## Labels
-1 r1c8
-2 r1c10
-3 r2c7
-4 r2c8
-5 r3c6
-6 r3c8
-7 r4c5
-8 r4c7
-9 r5c4
-10 r5c6
-11 r6c3
-12 r6c5
-13 r7c2
-14 r7c4
-15 r8c1
-16 r8c3
-17 r2c10
-18 r2c11
-19 r3c10
-20 r3c12
-21 r4c11
-22 r4c13
-23 r5c12
-24 r5c14
-25 r6c13
-26 r6c15
-27 r7c14
-28 r7c15
-29 r8c15
-30 r8c17
-31 r7c17
-32 r7c18
-33 r6c17
-34 r6c19
-35 r5c18
-36 r5c20
-37 r4c19
-38 r4c21
-39 r3c20
-40 r3c22
-41 r2c21
-42 r2c22
-43 r1c22
-44 r1c24
-45 r2c24
-46 r2c25
-47 r3c24
-48 r3c26
-49 r4c25
-50 r4c27
-51 r5c26
-52 r5c28
-53 r6c27
-54 r6c29
-55 r7c28
-56 r7c30
-57 r8c29
-58 r8c31
-59 r8c2
-60 r8c30
+D1. A fish. ~ COD
+D1 ^Printed: 1-6
+D2. You get it at the seashore. ~ TAN
+D2 ^Printed: 2-19
+D3. Period. ~ DOT
+D3 ^Printed: 43-40
+D4. Jewel. ~ GEM
+D4 ^Printed: 44-47
+D5. Present. ~ NOW
+D5 ^Printed: 3-8
+D7. Used to catch fish ~ NET
+D7 ^Printed: 18-21
+D8. To obtain. ~ GET
+D8 ^Printed: 41-38
+D10. Possessed. ~ HAD
+D10 ^Printed: 46-49
+D11. Cooking vessel. ~ POT
+D11 ^Printed: 5-10
+D13. Successful. ~ WIN
+D13 ^Printed: 20-23
+D14. Not good. ~ BAD
+D14 ^Printed: 39-36
+D16. What children like. ~ TOY
+D16 ^Printed: 48-51
+D17. Boy's name. ~ BEN
+D17 ^Printed: 7-12
+D19. Girl's name. ~ NAN
+D19 ^Printed: 22-25
+D20. Chicken. ~ HEN
+D20 ^Printed: 37-34
+D22. A fish. ~ EEL
+D22 ^Printed: 50-53
+D23. A shallow vessel. ~ PAN
+D23 ^Printed: 9-14
+D25. A tag. ~ TAB
+D25 ^Printed: 24-27
+D26. To keep corn in. ~ BIN
+D26 ^Printed: 35-32
+D28. To rest. ~ SIT
+D28 ^Printed: 52-55
+D29. Suitable. ~ FIT
+D29 ^Printed: 11-16
+D31. To fondle. ~ PET
+D31 ^Printed: 26-29
+D32. The way you drink something hot. ~ SIP
+D32 ^Printed: 33-30
+D34. A numeral. ~ TEN
+D34 ^Printed: 54-57
+D35. To act. ~ DO
+D35 ^Printed: 13-59
+D39. To perform. ~ DO
+D39 ^Printed: 56-60
