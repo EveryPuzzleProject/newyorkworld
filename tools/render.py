@@ -43,43 +43,54 @@ def no_on(date: str) -> str:
     return str((dt.date.fromisoformat(date) - dt.date(1913, 12, 21)).days // 7 + 1)
 
 
-# How far along each World puzzle is, best first. The page leads with this.
+# Where each World puzzle is in the Every Puzzle Project's work, furthest first: found, read and
+# reviewed, then published here. The page leads with this.
 STAGES = [
-    ("gxd", "In gxd", "transcribed and in the gxd corpus"),
-    ("shipped", "Transcribed", "transcribed and reviewed: an .xd in this repo's xd/ folder"),
-    ("review", "In review", "read by OCR, on the review site, not yet passed"),
-    ("have", "Page found", "a copy is held, not yet read"),
-    ("wanted", "Wanted", "no copy found yet"),
+    ("shipped", "Published", "read, reviewed and published here as an .xd file"),
+    ("review", "In review", "read from its page, on the review site, not yet passed"),
+    ("have", "Found", "a copy of the puzzle is held, not yet read"),
+    ("wanted", "Wanted", "no copy of the puzzle found yet"),
     ("unused", "No such puzzle", "the World skipped this number"),
 ]
 STAGE_LABEL = {k: label for k, label, _ in STAGES}
 SERIES_END = 211  # the run this page is about: No. 211 is 1917-12-30; later rows are the Globe's, kept for research
+LAST_PRINTED = 54  # the last number the World printed in a grid (1915-01-10); after it, puzzles are known by date
 REVIEW = "https://blitz.xwordapp.com/review/?p={pid}"
-GXD_NOTE = re.compile(r"in gxd as (nyw\d{4}-\d\d-\d\d)")  # status notes record a puzzle already in gxd from elsewhere
 UNUSED_NOTE = re.compile(r"never used")  # status notes record a number the World skipped
 
 
+def label(r: dict, short: bool = False) -> str:
+    """How the page names a puzzle: its printed number through No. 54, its World date after."""
+    n, d = int(r["world_no"]), r["sunday_inferred"]
+    if n <= LAST_PRINTED or not d:
+        return str(n) if short else f"No. {n}"
+    day = dt.date.fromisoformat(d)
+    return f"{day.month}/{day.day}" if short else f"{day:%b} {day.day}, {day.year}"
+
+
 def stages(status: list[dict]) -> dict[str, dict]:
-    """World No. -> {stage, why, link}: from status (have / wanted, and two notes phrases), the
-    pipeline's ship record (pipeline/ship/*.json: OCR'd, in review, shipped) and xd/. The pipeline
-    names puzzles by the inferred World date, so its rows are matched to numbers by that date."""
-    no_by_date = {r["sunday_inferred"]: r["world_no"] for r in status}
+    """World No. -> {stage, why, link}: from status (have / wanted, and a notes phrase), the
+    pipeline's ship record (pipeline/ship/*.json: read, in review, shipped) and xd/. The pipeline
+    names puzzles by the World date, so its rows are matched to numbers by that date. A retired
+    batch's ship record (fixes/retired/<batch>/) is left out: its puzzles are to be read again."""
+    no_by_date = {r["sunday_inferred"]: r["world_no"] for r in status if r["sunday_inferred"]}
+    retired = {p.name for p in (ROOT / "fixes" / "retired").glob("*") if p.is_dir()}
     ship = {}
     for f in sorted((ROOT / "pipeline" / "ship").glob("*.json")):
-        for p in json.loads(f.read_text(encoding="utf-8")).get("puzzles", []):
+        d = json.loads(f.read_text(encoding="utf-8"))
+        if d.get("batch", f.stem) in retired:
+            continue
+        for p in d.get("puzzles", []):
             n = no_by_date.get(p.get("date", ""))
             if n:
                 ship[n] = p
-    xd = {no_by_date.get(p.stem[3:13]) for p in (ROOT / "xd").glob("nyw*.xd")}
+    xd = {no_by_date.get(p.stem[3:13]): p.name for p in (ROOT / "xd").glob("nyw*.xd")}
     out = {}
     for r in status:
         n, notes = r["world_no"], r["notes"]
         p = ship.get(n)
-        m = GXD_NOTE.search(notes)
-        if m:
-            out[n] = {"stage": "gxd", "why": f"in gxd as {m.group(1)}", "link": ""}
-        elif n in xd or (p and p.get("status") == "shipped"):
-            out[n] = {"stage": "shipped", "why": "shipped from batch " + (p and p.get("pid", "") or ""), "link": REVIEW.format(pid=p["pid"]) if p else ""}
+        if n in xd or (p and p.get("status") == "shipped"):
+            out[n] = {"stage": "shipped", "why": "", "link": f"{REPO}/blob/main/xd/{xd[n]}" if n in xd else ""}
         elif p:
             out[n] = {"stage": "review", "why": f"held: {p.get('why') or p.get('reason', '')}", "link": REVIEW.format(pid=p["pid"])}
         elif r["status"] == "have":
@@ -409,7 +420,14 @@ def main() -> None:
         return f'<div class="scroll"><table><thead><tr><th>Sunday</th><th>Paper</th><th>Result</th><th>Notes</th></tr></thead><tbody>{body}</tbody></table></div>'
 
     st = stages(status)
-    series = [r for r in status if r["world_no"].isdigit() and int(r["world_no"]) <= SERIES_END]
+    # the series as the World ran it: a number with no date past No. 54 is only a gap in our weekly
+    # count (Nos. 55 and 56), not a puzzle or a number the World skipped, so it isn't shown
+    series = [r for r in status if r["world_no"].isdigit() and int(r["world_no"]) <= SERIES_END
+              and (r["sunday_inferred"] or int(r["world_no"]) <= LAST_PRINTED)]
+    year_of, y = {}, "1913"
+    for r in series:
+        y = r["sunday_inferred"][:4] or y
+        year_of[r["world_no"]] = y
     counts = collections.Counter(st[r["world_no"]]["stage"] for r in series)
     puzzle_copies = collections.defaultdict(list)   # World No. -> printings of its puzzle
     solution_copies = collections.defaultdict(list)  # World No. -> printings of its solution
@@ -425,7 +443,7 @@ def main() -> None:
 
     def tip(r: dict) -> str:
         n, s = r["world_no"], st[r["world_no"]]
-        parts = [f"No. {n}", f"{r['sunday_inferred']}*", STAGE_LABEL[s["stage"]]]
+        parts = [label(r)] + ([f"{r['sunday_inferred']}*"] if int(n) <= LAST_PRINTED and r["sunday_inferred"] else []) + [STAGE_LABEL[s["stage"]]]
         if puzzle_copies[n]:
             parts.append("copies: " + ", ".join(f"{pname(x['paper'])} {x['date']}" for x in sorted(puzzle_copies[n], key=lambda x: x["date"])))
         if solution_copies[n]:
@@ -435,17 +453,18 @@ def main() -> None:
         return " · ".join(parts)
 
     def overview() -> str:
-        legend = "".join(f'<span class=key><span class="sq {k}"></span><b>{label}</b> <span class=muted>{counts[k]}</span></span>'
-                         for k, label, _ in STAGES if counts[k] or k in ("gxd", "shipped", "review", "have", "wanted"))
+        legend = "".join(f'<span class=key><span class="sq {k}"></span><b>{lab}</b> <span class=muted>{counts[k]}</span></span>'
+                         for k, lab, _ in STAGES if counts[k] or k in ("shipped", "review", "have", "wanted"))
         years = []
         for y in ("1913", "1914", "1915", "1916", "1917"):
             cells = "".join(
-                f'<a class="sq {st[r["world_no"]]["stage"]}{" sol" if solution_copies[r["world_no"]] else ""}" href="#n{e(r["world_no"])}" title="{e(tip(r))}">{e(r["world_no"])}</a>'
-                for r in series if r["sunday_inferred"][:4] == y)
+                f'<a class="sq {st[r["world_no"]]["stage"]}{" sol" if solution_copies[r["world_no"]] else ""}" href="#n{e(r["world_no"])}" title="{e(tip(r))}">{e(label(r, short=True))}</a>'
+                for r in series if year_of[r["world_no"]] == y)
             years.append(f'<div class=yrow><span class=ylab>{y}</span><div class=cells>{cells}</div></div>')
         return (f'<div class=legend>{legend}</div>'
-                f'<p class=muted>One square per World puzzle, No. 1 to No. {SERIES_END}, in order. Hover for the copies held; click for its row below. '
-                'A dot means its solution is held too. Squares are placed by number, not by date: the World skipped some Sundays, so the dates drift from the count.</p>'
+                f'<p class=muted>One square per World puzzle, December 21, 1913 to December 30, 1917, in order. Hover for the copies held; click for its row below. '
+                f'A dot means its solution is held too. The World printed a number in each grid up to No. {LAST_PRINTED} (January 10, 1915), and those squares carry it; '
+                'after that the puzzles carry no number, and their squares show the World date (month/day).</p>'
                 + "".join(years))
 
     def needed() -> str:
@@ -460,18 +479,21 @@ def main() -> None:
         lis = []
         for run in runs:
             a, b = run[0], run[-1]
-            nos = f"No. {a['world_no']}" if a is b else f"Nos. {a['world_no']}–{b['world_no']}"
-            dates = a["sunday_inferred"] if a is b else f"{a['sunday_inferred']} to {b['sunday_inferred']}"
+            if int(b["world_no"]) <= LAST_PRINTED:
+                nos = f"No. {a['world_no']}" if a is b else f"Nos. {a['world_no']}–{b['world_no']}"
+                dates = f" <span class=muted>({e(a['sunday_inferred'] if a is b else a['sunday_inferred'] + ' to ' + b['sunday_inferred'])}*)</span>"
+            else:
+                nos, dates = (label(a) if a is b else f"{label(a)} to {label(b)}"), "*"
             why = "; ".join(dict.fromkeys(x["notes"] for x in run if x["notes"]))
-            lis.append(f"<li><b>{nos}</b> <span class=muted>({e(dates)}*)</span>{' · ' + e(why[:260]) + ('…' if len(why) > 260 else '') if why else ''}</li>")
+            lis.append(f"<li><a href=\"#n{e(a['world_no'])}\"><b>{e(nos)}</b></a>{dates}{' · ' + e(why[:260]) + ('…' if len(why) > 260 else '') if why else ''}</li>")
         review = [r for r in series if st[r["world_no"]]["stage"] == "review"]
         have = [r for r in series if st[r["world_no"]]["stage"] == "have"]
         out = [f"<h3>Puzzles with no copy yet ({len(wanted_nos)})</h3><ul>{''.join(lis)}</ul>"]
         if review:
-            out.append(f"<h3>Read but not yet passed review ({len(review)})</h3><p>Nos. {', '.join(r['world_no'] for r in review)}: "
+            out.append(f"<h3>Read but not yet passed review ({len(review)})</h3><p>{', '.join(label(r) for r in review)}: "
                        f'open one from the table below, or the <a href="https://blitz.xwordapp.com/review/">review site</a>.</p>')
         if have:
-            out.append(f"<h3>Copies held, not yet read ({len(have)})</h3><p class=muted>Waiting for the OCR pipeline (xword-ocr, then review on blitz).</p>")
+            out.append(f"<h3>Found, not yet read ({len(have)})</h3><p class=muted>Next for these: read from the page (by OCR, or by hand for the odd early designs), then reviewed on the review site, then published here.</p>")
         out.append('<p>If you can reach one of the missing pages, please <a href="' + REPO + '/issues/new">open an issue</a> with the date and where you found it '
                    "(a clipping link is enough; please don't upload page images).</p>")
         return "\n".join(out)
@@ -480,21 +502,21 @@ def main() -> None:
         out = []
         for r in series:
             n, s = r["world_no"], st[r["world_no"]]
-            label = STAGE_LABEL[s["stage"]]
-            stage = f'<span class="pill {s["stage"]}">{link(s["link"], label) if s["link"] else e(label)}</span>'
+            sl = STAGE_LABEL[s["stage"]]
+            stage = f'<span class="pill {s["stage"]}">{link(s["link"], sl) if s["link"] else e(sl)}</span>'
             if s["stage"] == "review" and s["why"]:
                 stage += f'<br><span class=muted>{e(s["why"][:120])}</span>'
             flag = f"<b class=warn>{e(r['flag'])}</b> " if r["flag"] else ""
             notes = r["notes"]
             notes_html = (f"<details><summary>{e(notes[:90])}…</summary>{e(notes)}</details>" if len(notes) > 110 else e(notes))
-            out.append(f'<tr id="n{e(n)}" data-stage="{e(s["stage"])}"><td><b>{e(n)}</b></td><td>{e(r["sunday_inferred"])}<span class=muted>*</span></td>'
+            out.append(f'<tr id="n{e(n)}" data-stage="{e(s["stage"])}"><td><b>{e(n) if int(n) <= LAST_PRINTED else ""}</b></td><td>{e(r["sunday_inferred"]) or "<span class=muted>none</span>"}<span class=muted>{"*" if r["sunday_inferred"] else ""}</span></td>'
                        f'<td>{stage}</td><td>{copy_links(puzzle_copies[n]) or "<span class=muted>none</span>"}</td>'
                        f'<td>{copy_links(solution_copies[n]) or ""}</td><td>{e(r["heading"])}<br><span class=muted>{e(r["fingerprint"])}</span></td>'
                        f'<td>{flag}{notes_html}</td></tr>')
-        opts = "".join(f'<option value="{k}">{label} ({counts[k]})</option>' for k, label, _ in STAGES if counts[k])
+        opts = "".join(f'<option value="{k}">{lab} ({counts[k]})</option>' for k, lab, _ in STAGES if counts[k])
         return (f'<div class="filters"><select id="sg"><option value="">All {len(series)} puzzles</option>{opts}</select>'
                 '<input id="q" type="search" placeholder="Search number, date, paper, heading…"></div>'
-                '<div class="scroll"><table id="all"><thead><tr><th>No.</th><th>World date*</th><th>Stage</th><th>Puzzle copies</th><th>Solution copies</th>'
+                '<div class="scroll"><table id="all"><thead><tr><th>Printed No.</th><th>World date*</th><th>Stage</th><th>Puzzle copies</th><th>Solution copies</th>'
                 f'<th>Heading / first clue</th><th>Notes</th></tr></thead><tbody>{"".join(out)}</tbody></table></div>')
 
     later = [r for r in status if r["world_no"].isdigit() and int(r["world_no"]) > SERIES_END]
@@ -514,11 +536,11 @@ def main() -> None:
 <style>
 h1, h2 {{ font-family:inherit; font-weight:bold; line-height:inherit }} .epp-header .wrap {{ max-width:1100px }}
 :root {{ --pg-bg:#fbfaf7; --fg:#1d1d1b; --pg-muted:#6b6a65; --pg-line:#e3e0d8; --card:#ffffff; --pg-accent:#1c4f8a; --warn:#a33a1c;
-  --s-have:#2f6f4f; --s-wanted:#d9d5cc; --st-gxd:#1f5c3f; --st-shipped:#3d8a63; --st-review:#3b6ea8; --st-have:#e2c98a; --st-wanted:#e6e2d9; }}
+  --s-have:#2f6f4f; --s-wanted:#d9d5cc; --st-shipped:#1f5c3f; --st-review:#3b6ea8; --st-have:#e2c98a; --st-wanted:#e6e2d9; }}
 @media (prefers-color-scheme: dark) {{ :root:not([data-theme="light"]) {{ --pg-bg:#161614; --fg:#ecebe6; --pg-muted:#a3a19a; --pg-line:#34332f; --card:#1f1f1c; --pg-accent:#7aaee0; --warn:#e0794f;
-  --s-have:#5fae86; --s-wanted:#3b3a36; --st-gxd:#3f9a6c; --st-shipped:#5fae86; --st-review:#5b8fd0; --st-have:#8a7340; --st-wanted:#2c2b28; }} }}
+  --s-have:#5fae86; --s-wanted:#3b3a36; --st-shipped:#3f9a6c; --st-review:#5b8fd0; --st-have:#8a7340; --st-wanted:#2c2b28; }} }}
 :root[data-theme="dark"] {{ --pg-bg:#161614; --fg:#ecebe6; --pg-muted:#a3a19a; --pg-line:#34332f; --card:#1f1f1c; --pg-accent:#7aaee0; --warn:#e0794f;
-  --s-have:#5fae86; --s-wanted:#3b3a36; --st-gxd:#3f9a6c; --st-shipped:#5fae86; --st-review:#5b8fd0; --st-have:#8a7340; --st-wanted:#2c2b28; }}
+  --s-have:#5fae86; --s-wanted:#3b3a36; --st-shipped:#3f9a6c; --st-review:#5b8fd0; --st-have:#8a7340; --st-wanted:#2c2b28; }}
 * {{ box-sizing:border-box }}
 body {{ margin:0; background:var(--pg-bg); color:var(--fg); font:16px/1.55 Georgia, "Times New Roman", serif }}
 main {{ max-width:1100px; margin:0 auto; padding:32px 16px 64px }}
@@ -554,9 +576,9 @@ input, select {{ font:inherit; padding:4px 8px; background:var(--card); color:va
 .legend {{ display:flex; flex-wrap:wrap; gap:6px 16px; margin:8px 0; font:13px system-ui, sans-serif }} .key {{ display:inline-flex; align-items:center; gap:6px }}
 .yrow {{ display:flex; gap:10px; align-items:flex-start; margin:6px 0 }} .ylab {{ width:3em; flex:none; font:13px system-ui, sans-serif; color:var(--pg-muted); padding-top:6px }}
 .cells {{ display:flex; flex-wrap:wrap; gap:3px }}
-.sq {{ position:relative; display:inline-flex; align-items:center; justify-content:center; width:30px; height:26px; border-radius:3px; font:11px system-ui, sans-serif; text-decoration:none; color:var(--fg); background:var(--st-wanted) }}
+.sq {{ position:relative; display:inline-flex; align-items:center; justify-content:center; width:34px; height:26px; border-radius:3px; font:11px system-ui, sans-serif; text-decoration:none; color:var(--fg); background:var(--st-wanted) }}
 .legend .sq {{ width:14px; height:14px }} a.sq:hover {{ outline:2px solid var(--pg-accent) }}
-.sq.gxd, .pill.gxd {{ background:var(--st-gxd); color:#fff }} .sq.shipped, .pill.shipped {{ background:var(--st-shipped); color:#fff }} .sq.review, .pill.review {{ background:var(--st-review); color:#fff }}
+.sq.shipped, .pill.shipped {{ background:var(--st-shipped); color:#fff }} .sq.review, .pill.review {{ background:var(--st-review); color:#fff }}
 .sq.have, .pill.have {{ background:var(--st-have); color:var(--fg) }} .sq.wanted, .pill.wanted {{ background:var(--st-wanted); color:var(--pg-muted) }}
 .sq.unused, .pill.unused {{ background:repeating-linear-gradient(45deg, transparent 0 4px, var(--pg-line) 4px 6px); color:var(--pg-muted); border:1px dashed var(--pg-muted) }}
 .sq.sol::after {{ content:""; position:absolute; top:3px; right:3px; width:5px; height:5px; border-radius:50%; background:currentColor; opacity:.8 }}
@@ -573,12 +595,12 @@ footer {{ margin-top:48px; font:13px system-ui, sans-serif; color:var(--pg-muted
 <h1>The New York World's FUN crosswords, 1913–1917</h1>
 <p class="lede">The first crossword ran in the New York World's Sunday FUN supplement on December 21, 1913, and a new one most Sundays after.
 The World's own pages survive badly, but other papers reprinted FUN, crossword and all. The Every Puzzle Project is recovering the whole series,
-No. 1 to No. {SERIES_END}, from those reprints, and transcribing each puzzle into the gxd crossword corpus.</p>
+December 1913 to December 1917, from those reprints: finding each puzzle and its solution, reading and reviewing it, and publishing it here.</p>
 
 <div class="stats">
-<div><b>{counts['gxd'] + counts['shipped']}</b><span>transcribed</span></div>
+<div><b>{counts['shipped']}</b><span>published</span></div>
 <div><b>{counts['review']}</b><span>in review</span></div>
-<div><b>{counts['have']}</b><span>page found, not read</span></div>
+<div><b>{counts['have']}</b><span>found, not yet read</span></div>
 <div><b>{counts['wanted']}</b><span>still wanted</span></div>
 </div>
 
@@ -589,9 +611,10 @@ No. 1 to No. {SERIES_END}, from those reprints, and transcribing each puzzle int
 {needed()}
 
 <h2 id="puzzles">Every puzzle</h2>
-<p class=muted>* The World date is inferred from the number: No. <i>n</i> on 1913-12-21 plus <i>n</i>−1 weeks. In 1914 the World skipped some Sundays,
-so from No. 22 on the real dates run two or three weeks later than shown (<a href="{REPO}/blob/main/docs/BEN-INTAKE-2026-11-16.md">details</a>).
-Links go to the page on Newspapers.com where we have one.</p>
+<p class=muted>* The World date is worked out from the reprints, not read off a World page: through 1915 from the Milwaukee Sentinel, which carried FUN
+on the World's own Sundays, and after that from the other papers' known delays (<a href="#research">the dating rule</a>, below).
+The World printed a number in the grid up to No. {LAST_PRINTED}; it never used No. 34, and after No. {LAST_PRINTED} the puzzles carry no number,
+so the table names them by date. Links go to the page on Newspapers.com or GenealogyBank where we have one.</p>
 {puzzle_table()}
 <p class=muted>The record runs on past 1917 ({len(later)} numbers to {later[-1]['sunday_inferred'] if later else ''}) for the Boston Globe's pages, {len(later_pr)} of them,
 held without World numbers because the Globe fell out of step with the World after 1917. They are in the research detail below.</p>
