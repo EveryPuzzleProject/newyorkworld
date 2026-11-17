@@ -9,7 +9,7 @@ FUN then. Those Sundays are recorded as Sentinel no-hits.
 
 | Sunday | What it adds |
 |---|---|
-| 1914-02-15 to 08-16 | sharper copies to read than the Journal's for Nos. 9-30. 17 of the first review batch (Nos. 7-30) are held as needs-work, mostly for the Journal's poor print. Save both the puzzle page and the solutions page. No. 8 is done (1914-02-08) |
+| 1914-04-05 to 08-16, and 03-01's puzzle page (No. 11), 02-22's solution page (No. 9's), 03-08's solution page (No. 11's) | sharper copies to read than the Journal's for Nos. 11 and 16-30. 17 of the first review batch (Nos. 7-30) are held as needs-work, mostly for the Journal's poor print. Save both the puzzle page and the solutions page. Nos. 8-10 and 12-15 are done |
 
 Save as before into Downloads; Claude files them (`Milwaukee_Sentinel_<yyyy>_<mm>_<dd>_<page>.png`).
 
@@ -29,3 +29,7 @@ Save as before into Downloads; Claude files them (`Milwaukee_Sentinel_<yyyy>_<mm
 - **1915-01-31, FUN p. 7: the U of F-U-N**, the same as the Journal's. No solution is printed: FUN promised the whole puzzle's solution for 02-14, a Sunday not found in any paper.
 - **1915-02-28, FUN p. 7: the solutions to 02-21's Pentacle** and its word square.
 - **Searched, nothing found:** 1914-01-11 (No. 4's page), 1915-04-04, 04-11, 05-09, 05-16, 05-23, 06-06. **1915-05-30** was a short issue with no puzzle (recorded as not carried).
+- **1914-02-15 to 03-29 (Nos. 9-15), 11 pages:** puzzles for Nos. 9, 10, 12, 13, 14 and 15, and the solutions to Nos. 8, 10, 12, 13 and 14, all linked by label.
+  The Sentinel names two puzzles the Journal left unnumbered: the George Washington puzzle is "the tenth" (No. 10), and the 03-15 two-in-one is captioned "No 13".
+  Constructor credits the Journal lacks: Evangeline Kearney (No. 12), Harry Cleaver of Montreal (No. 13), "G. H. F." (No. 14), Florence A. Reif (No. 15).
+  Not saved: No. 11's puzzle page (03-01; only the solutions page came), and the solution pages of 02-22 and 03-08.
