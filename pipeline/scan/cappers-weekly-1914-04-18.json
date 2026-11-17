@@ -1,0 +1,58 @@
+{
+ "scan:cappers-weekly-1914-04-18/0000": {
+  "extract": {
+   "code": "xword-ocr 0.1.0",
+   "inputs": {
+    "image": "sha256:b5ce141578270036283e592b1871746fb3b9b0f642c3bf13c1bd92c9927892dd",
+    "layout": "sha256:474d6072abb180401c5aad06cf34e6921d458dc55056d5cc38345c39d0357ac2",
+    "ocr": "sha256:1690b803707d3d360b54272decd032040d61e1a54cb9deb8523b518c8b39ddd4"
+   },
+   "made": "2026-11-17T03:32:09+00:00",
+   "output": "sha256:8133d2b4eef952d3e97854fa9b6cff18c827f8f271ccfddbdac030ed2c8c92e5",
+   "settings": {
+    "sure_swaps": []
+   },
+   "stage": "extract",
+   "version": "extract/15"
+  },
+  "image": {
+   "code": "xword-ocr 0.1.0",
+   "inputs": {},
+   "made": "2026-11-17T03:32:03+00:00",
+   "output": "sha256:b5ce141578270036283e592b1871746fb3b9b0f642c3bf13c1bd92c9927892dd",
+   "settings": {
+    "source": "scan"
+   },
+   "stage": "image",
+   "version": "image/1"
+  },
+  "layout": {
+   "code": "xword-ocr 0.1.0",
+   "inputs": {
+    "image": "sha256:b5ce141578270036283e592b1871746fb3b9b0f642c3bf13c1bd92c9927892dd"
+   },
+   "made": "2026-11-17T03:32:03+00:00",
+   "output": "sha256:474d6072abb180401c5aad06cf34e6921d458dc55056d5cc38345c39d0357ac2",
+   "settings": {
+    "max_grids": 12
+   },
+   "stage": "layout",
+   "version": "layout/10"
+  },
+  "ocr": {
+   "code": "xword-ocr 0.1.0",
+   "inputs": {
+    "image": "sha256:b5ce141578270036283e592b1871746fb3b9b0f642c3bf13c1bd92c9927892dd"
+   },
+   "made": "2026-11-17T03:32:09+00:00",
+   "output": "sha256:1690b803707d3d360b54272decd032040d61e1a54cb9deb8523b518c8b39ddd4",
+   "settings": {
+    "engine": "rapidocr",
+    "tiles": 2,
+    "upscale_below": 2400
+   },
+   "stage": "ocr",
+   "version": "ocr/4"
+  }
+ }
+}

@@ -1,0 +1,38 @@
+{
+ "id": "nyw-1914-03-22-1",
+ "aliases": [
+  "nyw1914-03-22-L000"
+ ],
+ "xdid": "nyw1914-03-22-L000",
+ "issue": "1914-03-22",
+ "date": "1914-03-22",
+ "grid": {
+  "unit": "scan:milwaukee-sentinel-1914-03-22/0000",
+  "extract": "sha256:edda32aedd2d1409dc7a7c6e2a5977a7a27a01c8c8d9036bd063e5390b8096ab",
+  "size": "12x13",
+  "nth": 0
+ },
+ "clues": null,
+ "continued": null,
+ "copies": [],
+ "reading": "sha256:36d8d2055ee77dd1be24c87bf4342971238ded730690df813bca5f393223471e",
+ "key": {
+  "unit": "scan:milwaukee-sentinel-1914-03-29/0001",
+  "extract": "sha256:6bd40a42ac9a6ea23fb9236bdb3b3795972345d0612fe5d6c9a50196964528d7",
+  "solution_id": "milwaukee-sentinel-1914-03-29/1#0@r0c0:12x13",
+  "how": "answers column, grids differ in 15 squares (part of a merged answer grid)"
+ },
+ "checks": {
+  "solution": [
+   "puzzle and solution grids differ at r1c1 r1c10 r1c11 r2c1 r2c2 r2c3 r2c11 r2c12 r2c13 r3c2 r3c13 r7c5 r7c6 r7c8 r8c5",
+   "2 unreadable solution letters",
+   "low-confidence letters at r6c3 r6c5 r6c9 r7c7 r7c13 r8c9 r9c3"
+  ],
+  "asymmetric": 15,
+  "warnings": [
+   "Answer key as given by the folder's answers column (milwaukee-sentinel-1914-03-29 leaf 1, milwaukee-sentinel-1914-03-29/1#0@r0c0:12x13) has different black squares from the puzzle (grids differ in 15 squares (part of a merged answer grid)): puzzle #........##.. ###.......### .#..........# ............. ............. ............. ....##.#..... ....#........ ............. ............. ............. .............; key ............. ............. ............. ............. ............. ............. ............. ............. ............. ............. ............. .............. Check the row's pairing, or the grid reading.",
+   "Grid isn't symmetric: 15 square pair(s) differ (r1c1/r12c13, r1c10/r12c4, r1c11/r12c3, r2c1/r11c13, r2c2/r11c12, r2c3/r11c11, r2c11/r11c3, r2c12/r11c2). Check those black squares against the scan, or confirm the design is asymmetric."
+  ]
+ },
+ "xd": "sha256:76cb02cd19ac16d1286d7ec0b6ee028b2f841792a36d948e220611e918e473ee"
+}

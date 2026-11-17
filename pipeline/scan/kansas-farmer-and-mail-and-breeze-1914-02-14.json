@@ -1,0 +1,74 @@
+{
+ "scan:kansas-farmer-and-mail-and-breeze-1914-02-14/0000": {
+  "extract": {
+   "code": "xword-ocr 0.1.0",
+   "inputs": {
+    "image": "sha256:7c300452696e625d0f90a2c63811779296979621071a8c745d2bfea544aa4677",
+    "layout": "sha256:849d780f90b443c40c9926cd4a40d9e194725a5590da8f14a55dba0fb441db8a",
+    "ocr": "sha256:881eb1b97c688eefc881f7fc795723b97f3ccfe2120a12870bf6c7359bfbbb35"
+   },
+   "made": "2026-11-17T03:36:33+00:00",
+   "output": "sha256:928e7e0f73de56ab10a4737d1784e40a564357643a47c2ca2c127f5b48ad409c",
+   "settings": {
+    "sure_swaps": []
+   },
+   "stage": "extract",
+   "version": "extract/15"
+  },
+  "image": {
+   "code": "xword-ocr 0.1.0",
+   "inputs": {},
+   "made": "2026-11-17T03:31:34+00:00",
+   "output": "sha256:7c300452696e625d0f90a2c63811779296979621071a8c745d2bfea544aa4677",
+   "settings": {
+    "source": "scan"
+   },
+   "stage": "image",
+   "version": "image/1"
+  },
+  "layout": {
+   "code": "xword-ocr 0.1.0",
+   "inputs": {
+    "hint": "sha256:9461f8b003fcbad7c9b5ad14beca17380e99a434fe50fa3c133695be293a8a7c",
+    "image": "sha256:7c300452696e625d0f90a2c63811779296979621071a8c745d2bfea544aa4677"
+   },
+   "made": "2026-11-17T03:36:16+00:00",
+   "output": "sha256:849d780f90b443c40c9926cd4a40d9e194725a5590da8f14a55dba0fb441db8a",
+   "settings": {
+    "max_grids": 12
+   },
+   "stage": "layout",
+   "version": "layout/10"
+  },
+  "ocr": {
+   "code": "xword-ocr 0.1.0",
+   "inputs": {
+    "image": "sha256:7c300452696e625d0f90a2c63811779296979621071a8c745d2bfea544aa4677"
+   },
+   "made": "2026-11-17T03:36:31+00:00",
+   "output": "sha256:881eb1b97c688eefc881f7fc795723b97f3ccfe2120a12870bf6c7359bfbbb35",
+   "settings": {
+    "engine": "rapidocr",
+    "tiles": 2,
+    "upscale_below": 2400
+   },
+   "stage": "ocr",
+   "version": "ocr/4"
+  }
+ },
+ "scan:kansas-farmer-and-mail-and-breeze-1914-02-14/0000#key-fa3aab064909": {
+  "keysearch": {
+   "code": "xword-ocr 0.1.0",
+   "inputs": {
+    "image": "sha256:7c300452696e625d0f90a2c63811779296979621071a8c745d2bfea544aa4677"
+   },
+   "made": "2026-11-17T03:36:51+00:00",
+   "output": "sha256:20f0e7c677012bbbfc9e4aa9210633279238c66b6f1b0aa2c92e3844bca86564",
+   "settings": {
+    "only_pointed": false
+   },
+   "stage": "keysearch",
+   "version": "keysearch/2"
+  }
+ }
+}

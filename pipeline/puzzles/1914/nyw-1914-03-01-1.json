@@ -1,0 +1,37 @@
+{
+ "id": "nyw-1914-03-01-1",
+ "aliases": [
+  "nyw1914-03-01-L000"
+ ],
+ "xdid": "nyw1914-03-01-L000",
+ "issue": "1914-03-01",
+ "date": "1914-03-01",
+ "grid": {
+  "unit": "scan:milwaukee-sentinel-1914-03-01/0000",
+  "extract": "sha256:183643849e5a416dd70a6948dc875f155c1156b627802a524739ebf609e8e7af",
+  "size": "13x13",
+  "nth": 0
+ },
+ "clues": null,
+ "continued": null,
+ "copies": [],
+ "reading": "sha256:50e30111239cb6252f192da6fe475fc2c8d0961a5d13cbd85c985dc2cfe9889a",
+ "key": {
+  "unit": "scan:milwaukee-sentinel-1914-03-08/0001",
+  "extract": "sha256:bfef46cf73b65ad67429870331498e5f500405fb1a89cb3b8b4a59b6e12cafe7",
+  "solution_id": "milwaukee-sentinel-1914-03-08/1#0",
+  "how": "answers column, grids differ in 7 squares"
+ },
+ "checks": {
+  "solution": [
+   "puzzle and solution grids differ at r5c7 r6c6 r7c5 r7c9 r8c6 r8c8 r9c7",
+   "2 unreadable solution letters",
+   "low-confidence letters at r5c7 r7c5 r7c9 r8c5 r9c7"
+  ],
+  "asymmetric": 0,
+  "warnings": [
+   "Answer key as given by the folder's answers column (milwaukee-sentinel-1914-03-08 leaf 1, milwaukee-sentinel-1914-03-08/1#0) has different black squares from the puzzle (grids differ in 7 squares): puzzle ............. ............. ............. ............. ......#...... .....#....... ....#...#.... .....#.#..... ......#...... ............. ............. ............. .............; key ............. ............. ............. ............. ............. ............. ............. ............. ............. ............. ............. ............. .............. Check the row's pairing, or the grid reading."
+  ]
+ },
+ "xd": "sha256:ef0daf526f79af3732e377513cc80c9c84fb92589078373e21d5230f718d502f"
+}

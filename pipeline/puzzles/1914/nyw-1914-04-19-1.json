@@ -1,0 +1,33 @@
+{
+ "id": "nyw-1914-04-19-1",
+ "aliases": [
+  "nyw1914-04-19-L000"
+ ],
+ "xdid": "nyw1914-04-19-L000",
+ "issue": "1914-04-19",
+ "date": "1914-04-19",
+ "grid": {
+  "unit": "scan:milwaukee-sentinel-1914-04-19/0000",
+  "extract": "sha256:3044682432e160b5351aa8dc2c81ef2d65ab785b9b28c5d28b24a88f674400a8",
+  "size": "11x11",
+  "nth": 0
+ },
+ "clues": null,
+ "continued": null,
+ "copies": [],
+ "reading": "sha256:6a4252ce2fdb423de9228b9f27579743aa1915c5b17119b62edbc847118f2e63",
+ "key": {
+  "unit": "scan:milwaukee-sentinel-1914-04-26/0001",
+  "extract": "sha256:9d7d878cf68d863640a2ccd11b2dc257785bc057e0f998f32669c5cc07a979dc",
+  "solution_id": "milwaukee-sentinel-1914-04-26/1#0",
+  "how": "answers column, grids agree"
+ },
+ "checks": {
+  "solution": [
+   "low-confidence letters at r3c8 r5c6 r6c5"
+  ],
+  "asymmetric": 0,
+  "warnings": []
+ },
+ "xd": "sha256:8568886c9c04a2121c46c1894c0fce86e580c60d36413631e83128bc2205a92a"
+}

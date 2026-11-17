@@ -1,0 +1,38 @@
+{
+ "id": "nyw-1914-04-12-1",
+ "aliases": [
+  "nyw1914-04-12-L000"
+ ],
+ "xdid": "nyw1914-04-12-L000",
+ "issue": "1914-04-12",
+ "date": "1914-04-12",
+ "grid": {
+  "unit": "scan:milwaukee-sentinel-1914-04-12/0000",
+  "extract": "sha256:4a4a7bc9340cca3efe343d0ead5fdb900a5d8e6a5ae64d71dc84db5644b3a397",
+  "size": "12x12",
+  "nth": 0
+ },
+ "clues": null,
+ "continued": null,
+ "copies": [],
+ "reading": "sha256:290fd65e00fe150729050f7e7d97c3bafa17e738b096bb450dbf7748a8945204",
+ "key": {
+  "unit": "scan:milwaukee-sentinel-1914-04-19/0001",
+  "extract": "sha256:25b6da769347521065eb0c4f58a80a7eb7ddf364823db6970234104c38d34b62",
+  "solution_id": "milwaukee-sentinel-1914-04-19/1#0",
+  "how": "answers column, grids differ in 12 squares"
+ },
+ "checks": {
+  "solution": [
+   "puzzle and solution grids differ at r1c1 r2c2 r3c4 r3c5 r3c6 r3c7 r3c8 r3c9 r5c5 r7c4 r7c12 r9c10",
+   "2 unreadable solution letters",
+   "low-confidence letters at r3c5 r5c5 r5c8 r7c7 r7c11 r7c12 r8c7 r8c8"
+  ],
+  "asymmetric": 13,
+  "warnings": [
+   "Answer key as given by the folder's answers column (milwaukee-sentinel-1914-04-19 leaf 1, milwaukee-sentinel-1914-04-19/1#0) has different black squares from the puzzle (grids differ in 12 squares): puzzle #........... .#.......... ...######... ............ ....#....... ............ ...#.......# ............ .........#.. ............ ............ ............; key ............ ............ ............ ............ ............ ............ ............ ............ ............ ............ ............ ............. Check the row's pairing, or the grid reading.",
+   "Grid isn't symmetric: 13 square pair(s) differ (r2c1/r11c12, r3c4/r10c9, r3c5/r10c8, r3c6/r10c7, r3c7/r10c6, r3c8/r10c5, r3c9/r10c4, r4c3/r9c10). Check those black squares against the scan, or confirm the design is asymmetric."
+  ]
+ },
+ "xd": "sha256:d1dcd386cd6f4ba2fe01fcdfe26b964aa922b8df2f6ccc6a789b070bf12e2a5e"
+}

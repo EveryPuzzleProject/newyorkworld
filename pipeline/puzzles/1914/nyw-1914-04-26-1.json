@@ -1,0 +1,28 @@
+{
+ "id": "nyw-1914-04-26-1",
+ "aliases": [
+  "nyw1914-04-26-L000"
+ ],
+ "xdid": "nyw1914-04-26-L000",
+ "issue": "1914-04-26",
+ "date": "1914-04-26",
+ "grid": {
+  "unit": "scan:milwaukee-sentinel-1914-04-26/0000",
+  "extract": "sha256:67f0dc33daf67b0b17fbca2ccdf6f5895659d7082dae7a3304955dac64a2b009",
+  "size": "14x13",
+  "nth": 0
+ },
+ "clues": null,
+ "continued": null,
+ "copies": [],
+ "reading": "sha256:78c053920a01f0185accbb11f06bed09048bf4dced59d8f93f8ba3efd71f21b2",
+ "checks": {
+  "solution": [],
+  "asymmetric": 10,
+  "warnings": [
+   "The folder's answers column names a key for this puzzle (milwaukee-sentinel-1914-05-03 leaf 1), but no answer grid of the puzzle's size was read there. Check the key crop (the regions and parts views), or the pairing.",
+   "Grid isn't symmetric: 10 square pair(s) differ (r2c6/r13c8, r2c8/r13c6, r3c5/r12c9, r3c9/r12c5, r4c10/r11c4, r5c11/r10c3, r6c7/r9c7, r6c12/r9c2). Check those black squares against the scan, or confirm the design is asymmetric."
+  ]
+ },
+ "xd": "sha256:99693f4aeca4ef262a2fa86abb6df59784f5a45e801314251d5e44a68f96e730"
+}

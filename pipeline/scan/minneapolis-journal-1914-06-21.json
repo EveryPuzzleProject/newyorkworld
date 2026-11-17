@@ -187,6 +187,36 @@
    "version": "keysearch/2"
   }
  },
+ "scan:minneapolis-journal-1914-06-21/0001#key-1cd2637ca6b3": {
+  "keysearch": {
+   "code": "xword-ocr 0.1.0",
+   "inputs": {
+    "image": "sha256:dea07793df23744b4eb36e85345734ce67be327173d5c07a8772c2ddaf443ee3"
+   },
+   "made": "2026-11-17T03:36:53+00:00",
+   "output": "sha256:20f0e7c677012bbbfc9e4aa9210633279238c66b6f1b0aa2c92e3844bca86564",
+   "settings": {
+    "only_pointed": false
+   },
+   "stage": "keysearch",
+   "version": "keysearch/2"
+  }
+ },
+ "scan:minneapolis-journal-1914-06-21/0001#key-25b6df3fc146": {
+  "keysearch": {
+   "code": "xword-ocr 0.1.0",
+   "inputs": {
+    "image": "sha256:dea07793df23744b4eb36e85345734ce67be327173d5c07a8772c2ddaf443ee3"
+   },
+   "made": "2026-11-17T03:36:54+00:00",
+   "output": "sha256:20f0e7c677012bbbfc9e4aa9210633279238c66b6f1b0aa2c92e3844bca86564",
+   "settings": {
+    "only_pointed": false
+   },
+   "stage": "keysearch",
+   "version": "keysearch/2"
+  }
+ },
  "scan:minneapolis-journal-1914-06-21/0001#key-753a029c2408": {
   "keysearch": {
    "code": "xword-ocr 0.1.0",
@@ -281,6 +311,36 @@
     "image": "sha256:b9ad84ca113b7432f3f87bddf19d2bd02082764e8662157ff4ba86558c69b534"
    },
    "made": "2026-11-01T12:45:18+00:00",
+   "output": "sha256:20f0e7c677012bbbfc9e4aa9210633279238c66b6f1b0aa2c92e3844bca86564",
+   "settings": {
+    "only_pointed": false
+   },
+   "stage": "keysearch",
+   "version": "keysearch/2"
+  }
+ },
+ "scan:minneapolis-journal-1914-06-21/0002#key-1cd2637ca6b3": {
+  "keysearch": {
+   "code": "xword-ocr 0.1.0",
+   "inputs": {
+    "image": "sha256:b9ad84ca113b7432f3f87bddf19d2bd02082764e8662157ff4ba86558c69b534"
+   },
+   "made": "2026-11-17T03:36:54+00:00",
+   "output": "sha256:20f0e7c677012bbbfc9e4aa9210633279238c66b6f1b0aa2c92e3844bca86564",
+   "settings": {
+    "only_pointed": false
+   },
+   "stage": "keysearch",
+   "version": "keysearch/2"
+  }
+ },
+ "scan:minneapolis-journal-1914-06-21/0002#key-25b6df3fc146": {
+  "keysearch": {
+   "code": "xword-ocr 0.1.0",
+   "inputs": {
+    "image": "sha256:b9ad84ca113b7432f3f87bddf19d2bd02082764e8662157ff4ba86558c69b534"
+   },
+   "made": "2026-11-17T03:36:55+00:00",
    "output": "sha256:20f0e7c677012bbbfc9e4aa9210633279238c66b6f1b0aa2c92e3844bca86564",
    "settings": {
     "only_pointed": false

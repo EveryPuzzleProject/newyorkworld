@@ -1,0 +1,27 @@
+{
+ "id": "nyw-1914-08-16-1",
+ "aliases": [
+  "nyw1914-08-16-L000"
+ ],
+ "xdid": "nyw1914-08-16-L000",
+ "issue": "1914-08-16",
+ "date": "1914-08-16",
+ "grid": {
+  "unit": "scan:milwaukee-sentinel-1914-08-16/0000",
+  "extract": "sha256:2eec9e8c0184ab0a7ecc7bfedc275c860074c4ac712167eb248c1afddea9ffe6",
+  "size": "13x13",
+  "nth": 0
+ },
+ "clues": null,
+ "continued": null,
+ "copies": [],
+ "reading": "sha256:20d7d870c481d1f6bd379a6130679c4c5c302772dc66db602991414ce0e4b685",
+ "checks": {
+  "solution": [],
+  "asymmetric": 0,
+  "warnings": [
+   "The folder's answers column names a key for this puzzle (milwaukee-sentinel-1914-08-23 leaf 0), but no answer grid of the puzzle's size was read there. Check the key crop (the regions and parts views), or the pairing."
+  ]
+ },
+ "xd": "sha256:c83fe0d1a92ffadf089d5733b1ab106409d9bb996228189f41c0c136d9ce2873"
+}

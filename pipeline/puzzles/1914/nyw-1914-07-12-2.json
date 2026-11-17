@@ -1,0 +1,39 @@
+{
+ "id": "nyw-1914-07-12-2",
+ "aliases": [
+  "nyw1914-07-12-L000"
+ ],
+ "xdid": "nyw1914-07-12-L000",
+ "issue": "1914-07-12",
+ "date": "1914-07-12",
+ "grid": {
+  "unit": "scan:milwaukee-sentinel-1914-07-12/0000",
+  "extract": "sha256:e6a7a38e4c337351d9733d56a32b9ff1bf5c6f9eb86d1346d21c008c64776116",
+  "size": "13x21",
+  "nth": 0
+ },
+ "clues": null,
+ "continued": null,
+ "copies": [],
+ "reading": "sha256:498f9a861064f710d8551d14476d46b9d9bc9f513be15ba8409d299ba0bd180c",
+ "key": {
+  "unit": "scan:milwaukee-sentinel-1914-07-19/0000",
+  "extract": "sha256:6f558c4d5f31cc8e626b8229ec0806000c13846a7179a2b9e41579c214b9eebf",
+  "solution_id": "milwaukee-sentinel-1914-07-19/0#1",
+  "how": "answers column, grids differ in 7 squares"
+ },
+ "checks": {
+  "solution": [
+   "puzzle and solution grids differ at r7c9 r7c11 r7c13 r8c8 r8c14 r9c7 r10c16",
+   "5 unreadable solution letters",
+   "low-confidence letters at r5c11 r6c10 r6c11 r6c12 r7c13 r7c14 r8c6 r8c14 r9c7 r9c11 r9c16 r9c17 r10c14 r11c5 r11c17 r12c14"
+  ],
+  "asymmetric": 73,
+  "warnings": [
+   "This copy of the puzzle was filled in by a reader (handwriting in the grid).",
+   "Answer key as given by the folder's answers column (milwaukee-sentinel-1914-07-19 leaf 0, milwaukee-sentinel-1914-07-19/0#1) has different black squares from the puzzle (grids differ in 7 squares): puzzle ..................... ..................... ..................... ..................... ..................... ..................... ............#........ .......#.....#....... ......#.......#...... ...............#..... ..................... ..................... .....................; key ..................... ..................... ..................... ..................... ..................... ..................... ........#.#.......... ..................... ..............#...... ..................... ..................... ..................... ...................... Check the row's pairing, or the grid reading.",
+   "Grid isn't symmetric: 73 square pair(s) differ (r1c2/r13c20, r1c4/r13c18, r1c9/r13c13, r1c10/r13c12, r1c12/r13c10, r1c13/r13c9, r1c16/r13c6, r1c20/r13c2). Check those black squares against the scan, or confirm the design is asymmetric."
+  ]
+ },
+ "xd": "sha256:b21a8a0acc27c61c6b06022a049849b15967b9adb735cc6dcb19fcd895cee551"
+}
