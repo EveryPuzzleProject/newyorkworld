@@ -69,6 +69,33 @@ These help establish that the series existed and ran through 1919 in the Sunday 
 
 Nothing found that carries FUN. Four candidates for a cross-word that is *not* FUN, for orientation only: the Birmingham Age-Herald's weekly **"Cross-Word Corner"** (Sundays 1922-11-19 on, verified grid-style column with "solution to last week's cross-word puzzle", constructor credits from readers; https://www.loc.gov/resource/sn85038485/1922-11-19/ed-1/?sp=56), a similar weekly in the Washington Tribune (1921-10 to 1923-07), a daily cluster of 1921-03-03 to 03-12 in the Washington Herald, South Bend News-Times and Ardmoreite (not read), and the New-York Tribune's Sunday children's page with "Cross-Word Enigma" (1914, a rhyme riddle, not a grid).
 
+**Read 2026-11-17 (Claude, for Alex: "when did the second crossword come around?").** None of the
+candidates is a second crossword series:
+
+- **Birmingham Age-Herald "Cross-Word Corner" (1922-11-19, p. 13 of the Sunday paper, sp=56) is the
+  World's page, not a rival.** The whole page is a FUN-style puzzle page: "A Dog's Life" picture
+  puzzles, word squares, enigmas, transpositions, a "Picture and Verse". The crossword has World-style
+  end-pair clues ("1-4 Withdraw secretly", HORIZONTAL and VERTICAL lists), a "Solution to last
+  week's cross-word puzzle", and contributors from the New York area (Clarence E. Wells of Jamaica,
+  N.Y.; Henry Ruempler of Brooklyn; Lyndhurst, N.J.). T Campbell credits "Crossword Corner" to the
+  World's Margaret Petherbridge. So it is FUN material syndicated to Birmingham, and the Age-Herald is
+  a partner paper for 1922-23 (Sunday hits run 1922-11-19 to at least 1923-05-13; a 1922-09-24 p. 36
+  hit is not read). The line above calling it "not FUN" is wrong.
+- **The March 1921 daily cluster (Washington Herald, South Bend News-Times, Daily Ardmoreite,
+  1921-03-03 to 03-12) is "Daily Hard Knot"**, a syndicated word puzzle: a list headed
+  "Crosswords:" whose answers, written one below another, spell a name down the diagonal. No grid.
+  The hits come only from the one-word query `crossword`.
+- **"A similar weekly in the Washington Tribune (1921-10 to 1923-07)"**: not found again. The
+  Tribune hits in that span are the Great Falls Tribune (1921-09-29, 1921-11-20, 1922-04-23), whose
+  page text has no "cross word" in it, and the New-York Tribune 1922-06-18 p. 66 (sp=66), a W. E. Hill
+  cartoon page ("never a cross word from the mistress"). Neither is a puzzle.
+
+So in Chronicling America, every crossword grid before 1923 is the World's. The earliest non-World
+series known to this repo stay the Boston Globe's own Saturday puzzle (from 1923-05-26) and the
+1924 syndicates (Bell, George Matthew Adams). The New York Herald Tribune's puzzle (Alex's guess for
+the next one) can't be checked here: Chronicling America's New-York Tribune stops in 1922, before the
+1924 merger; ProQuest Historical Newspapers holds it (Ben Zimmer may look).
+
 ## The three needs
 
 1. **January 1914 (World Nos. 3-6)**: Chronicling America cannot supply them. No hit for `"cross-word"` before 1914-03 is a puzzle; I read the Topeka State Journal (1914-01-01), Beatrice Daily Express (01-08), Delta Independent (02-20) and Atlanta Georgian (02-22), all "never a cross word". The New-York Tribune's Sunday "Cross-Word Enigma" (1914-01-04 p.34, 01-25 p.32) is a riddle. The one source worth trying is the Evening World's Saturday ads of 1913-12 to 1914-01 for the Sunday World's FUN (no puzzle, but a date check for the series start).
