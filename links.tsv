@@ -1,4 +1,6 @@
 puzzle_page	solution_page	next_page	kind	verdict	checked_by	note
+Milwaukee_Sentinel_1913_12_21_68.png	Milwaukee_Sentinel_1913_12_28_78.png		grid	yes	Claude, 2026-11-16, from the pages	the 12-28 box (last week's word cross puzzle, printed upside down) is the FUN diamond of 12-21
+Milwaukee_Sentinel_1913_12_28_77.png	Milwaukee_Sentinel_1914_01_04_81_key.png		grid	yes	Claude, 2026-11-16, from the pages	the 01-04 box is 'the solution to the New Year cross-word puzzle', the NEW YEAR diamond of 12-28 (and it matches gxd nyw1913-12-28)
 Milwaukee_Sentinel_1914_01_18_81_fun.png	Milwaukee_Sentinel_1914_01_25_68_key.png		label	yes	Claude (project manager), 2026-11-16, from the printed labels	the puzzle is headed No. 5; the next week's box says it is the solution to puzzle No. 5
 Milwaukee_Sentinel_1914_01_25_67_fun.png	Milwaukee_Sentinel_1914_02_01_67_key.png		label	yes	Claude (project manager), 2026-11-16, from the printed labels	the puzzle has No 6 in its centre; the next week's grid is labelled Solution to No 6 puzzle
 The_Minneapolis_Journal_1914_04_26_44.jpg	Milwaukee_Sentinel_1914_05_03_97.png		label	yes	Claude, 2026-11-16, from the printed labels	the Journal's 04-26 puzzle is No. 19; the Sentinel's 05-03 box is labelled Solution to No 19 (across papers: both carried FUN on the same Sundays)

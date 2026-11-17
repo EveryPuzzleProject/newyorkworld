@@ -9,7 +9,6 @@ FUN then. Those Sundays are recorded as Sentinel no-hits.
 
 | Sunday | Why |
 |---|---|
-| 1913-12-28 | No. 2, and No. 1's solution. The Sentinel carried FUN by then (its 01-04 box solves No. 2) |
 | 1915-05-30 | closes the break after 05-23 (the Journal has no 05-30) |
 
 **Not queued.** The queue closes a Sunday as soon as any paper has a copy of it, so these pages can't be
@@ -34,3 +33,6 @@ Save as before into Downloads; Claude files them (`Milwaukee_Sentinel_<yyyy>_<mm
 - **1914-11-15, FUN p. 15: No. 46**, printed with its number: Edward Thimme's two-in-one, the puzzle the Journal never ran. The page has No. 45's solution too.
 - **1914-01-18 pp. 81, 83 and 01-25 pp. 67, 68**: full pages of Ben's clippings (Nos. 5 and 6, and the solutions to Nos. 4 and 5). Filed in the scans repo. They are not in `pages.tsv`, which lists the files the record points to; those remain Ben's clippings.
 - **1915-02-14**: searched, nothing found (no-hit).
+- **1913-12-28, FUN pp. 14-15: No. 2**, the New Year puzzle (1-2 Wild animals), and **No. 1's solution**, printed upside down.
+  Both match gxd. Nos. 1 and 2 now have partner copies of puzzle and solution, on the World's own Sundays.
+- **1914-01-04 pp. 80, 81**: full pages of Ben's clippings (No. 3 and No. 2's solution).
