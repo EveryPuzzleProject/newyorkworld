@@ -18,7 +18,6 @@ queued. They are still worth saving: each adds a puzzle the record lacks, a solu
 | Sunday | What it adds |
 |---|---|
 | 1914-01-11 | the Sentinel's copy of No. 4, and No. 3's solution |
-| 1914-11-01 | the solution to No. 45 (closes that chain break) |
 | 1915-01-17, 01-31 | turn the two tentative links there into checked ones |
 | 1915-02-28, the solution page | the solution to 02-21's Pentacle (the held 02-28 page is the puzzle only) |
 | 1915-04-04, 04-11 | the link at 04-04 is unclear; the Journal holds only a clip of 04-04 |
