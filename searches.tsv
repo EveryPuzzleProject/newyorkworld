@@ -1,6 +1,7 @@
 paper	date	batch	result	note
 milwaukee-sentinel	1913-12-21	19	found	Nos. 1 and 2: the Sentinel carried FUN by 1913-12-28 (its 01-04 box solves No. 2)
 milwaukee-sentinel	1913-12-28	19	found	Nos. 1 and 2: the Sentinel carried FUN by 1913-12-28 (its 01-04 box solves No. 2)
+milwaukee-sentinel	1914-01-11		no-hit	Alex DeJarnatt, 2026-11-16: searched, could not find the puzzle
 minneapolis-journal	1914-02-15	1	found	batch 1: spot check, one Sunday every two months, plus the Sundays around the Globe's 1917-02-25 puzzle
 minneapolis-journal	1914-02-22	2	found	batch 2: fill 1914 sequentially from 02-22; pin where the count falls behind between No. 16 (04-05) and No. 30 (08-02); find where the numbering stops between 08-02 and 12-06
 minneapolis-journal	1914-03-01	2	found	batch 2: fill 1914 sequentially from 02-22; pin where the count falls behind between No. 16 (04-05) and No. 30 (08-02); find where the numbering stops between 08-02 and 12-06
@@ -17,7 +18,7 @@ milwaukee-sentinel	1914-05-17		no-hit	Alex DeJarnatt, 2026-11-16: no hit; the Se
 minneapolis-journal	1914-05-17	2	found	no text hit; browsed 2026-11-01 (Alex DeJarnatt): viewer page 46 prints the solution to No. 21 and no new puzzle, so no new FUN puzzle this week (it is not not-carried: the page exists)
 milwaukee-sentinel	1914-05-24		no-hit	Alex DeJarnatt, 2026-11-16: no hit. The Journal ran a map-of-Mexico game in the crossword's place this day, so FUN probably ran no crossword
 minneapolis-journal	1914-05-24	3	not-carried	confirmed by browsing, 2026-11-01 (Alex DeJarnatt): no crossword that Sunday, a map-of-Mexico game in its place; No. 21 ran 05-10 and No. 22 on 05-31
-milwaukee-sentinel	1914-05-31		no-hit	Alex DeJarnatt, 2026-11-16: no hit by search, but the Sentinel of 06-07 prints 'the solution to cross-word puzzle No. 22, given in last week's Fun', so No. 22 should be in this issue: browse it by hand
+milwaukee-sentinel	1914-05-31		found	Alex DeJarnatt, 2026-11-16: no hit by search, but the Sentinel of 06-07 prints 'the solution to cross-word puzzle No. 22, given in last week's Fun', so No. 22 should be in this issue: browse it by hand
 minneapolis-journal	1914-05-31	2	found	batch 2: fill 1914 sequentially from 02-22; pin where the count falls behind between No. 16 (04-05) and No. 30 (08-02); find where the numbering stops between 08-02 and 12-06
 minneapolis-journal	1914-06-07	3	found	no hit by text search on 2026-10-27: browse the issue (the puzzles page's OCR rarely says cross-word)
 minneapolis-journal	1914-06-14	2	found	batch 2: fill 1914 sequentially from 02-22; pin where the count falls behind between No. 16 (04-05) and No. 30 (08-02); find where the numbering stops between 08-02 and 12-06
@@ -61,16 +62,22 @@ minneapolis-journal	1915-03-07	4	found	batch 4: 1915 sequential fill
 minneapolis-journal	1915-03-14	4	found	batch 4: 1915 sequential fill
 minneapolis-journal	1915-03-21	4	found	batch 4: 1915 sequential fill
 minneapolis-journal	1915-03-28	4	found	batch 4: 1915 sequential fill
+milwaukee-sentinel	1915-04-04		no-hit	Alex DeJarnatt, 2026-11-16: no puzzle or solution found
 minneapolis-journal	1915-04-04	1	found	Alex DeJarnatt found the page, 2026-10-31; two low-res clips in hand, full page still to download (daily limit)
+milwaukee-sentinel	1915-04-11		no-hit	Alex DeJarnatt, 2026-11-16: no puzzle or solution found
 minneapolis-journal	1915-04-11	4	found	batch 4: 1915 sequential fill
 minneapolis-journal	1915-04-18	4	found	batch 4: 1915 sequential fill
 minneapolis-journal	1915-04-25	4	found	batch 4: 1915 sequential fill
 minneapolis-journal	1915-05-02	4	found	batch 4: 1915 sequential fill
+milwaukee-sentinel	1915-05-09		no-hit	Alex DeJarnatt, 2026-11-16: nothing found between 05-09 and 06-06
 minneapolis-journal	1915-05-09	4	found	batch 4: 1915 sequential fill
+milwaukee-sentinel	1915-05-16		no-hit	Alex DeJarnatt, 2026-11-16: nothing found between 05-09 and 06-06
 minneapolis-journal	1915-05-16	4	found	batch 4: 1915 sequential fill
+milwaukee-sentinel	1915-05-23		no-hit	Alex DeJarnatt, 2026-11-16: nothing found between 05-09 and 06-06
 minneapolis-journal	1915-05-23	4	found	batch 4: 1915 sequential fill
-milwaukee-sentinel	1915-05-30	18	queued	1915 Sundays with no page in any paper: 02-14 (the valentine puzzle) and 05-30 (closes the break after 05-23)
+milwaukee-sentinel	1915-05-30	18	not-carried	Alex DeJarnatt, 2026-11-16: the issue is shorter than usual and has no puzzle
 minneapolis-journal	1915-05-30	4	not-carried	Alex DeJarnatt went page by page through the issue, 2026-10-31: no puzzle
+milwaukee-sentinel	1915-06-06		no-hit	Alex DeJarnatt, 2026-11-16: nothing found between 05-09 and 06-06
 minneapolis-journal	1915-06-06	1	found	batch 1: spot check, one Sunday every two months, plus the Sundays around the Globe's 1917-02-25 puzzle
 minneapolis-journal	1915-06-13	4	found	Alex browsed the issue (2026-10-30): only the answer key to the previous puzzle, no new puzzle that week
 minneapolis-journal	1915-06-20	4	missing-from-scans	Alex browsed the whole issue (2026-10-30): only the answer key, no puzzle; same on 06-13. The 06-27 solution (X/diamond-ish, ~20x25) answers a puzzle that is on neither date: likely a page absent from Newspapers.com or the syndicate ran the key without the puzzle

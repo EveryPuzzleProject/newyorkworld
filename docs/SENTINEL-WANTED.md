@@ -5,24 +5,11 @@ crossword item is that day's solution-only page; Alex found no puzzle after it a
 fill the fall-1915 hole (Nos. 91-100 by the count, 1915-09-19 to 11-14). That needs another paper that carried
 FUN then. Those Sundays are recorded as Sentinel no-hits.
 
-**Queued** (batches 18 and 19 in `searches.tsv`): the Sundays where no paper's page is held.
-
-| Sunday | Why |
-|---|---|
-| 1915-05-30 | closes the break after 05-23 (the Journal has no 05-30) |
-
-**Not queued.** The queue closes a Sunday as soon as any paper has a copy of it, so these pages can't be
-queued. They are still worth saving: each adds a puzzle the record lacks, a solution, or a sharper copy.
+**Still open.** Only one thing is left that the Sentinel can supply:
 
 | Sunday | What it adds |
 |---|---|
-| 1914-01-11 | the Sentinel's copy of No. 4, and No. 3's solution |
-| 1915-01-17, 01-31 | turn the two tentative links there into checked ones |
-| 1915-02-28, the solution page | the solution to 02-21's Pentacle (the held 02-28 page is the puzzle only) |
-| 1915-04-04, 04-11 | the link at 04-04 is unclear; the Journal holds only a clip of 04-04 |
-| 1915-05-09, 05-16, 05-23, 06-06 | solutions around the 05-23 break |
-| 1914-05-31 | No. 22: Sentinel search missed it (its 06-07 page says it ran); recorded as a no-hit, so browse by hand |
-| 1914-02-08 to 07-26, 08-02, 08-16 | sharper copies to read than the Journal's for Nos. 8-30. 17 of the first review batch (Nos. 7-30) are held as needs-work, mostly for the Journal's poor print. Save both the puzzle page and the solutions page |
+| 1914-02-15 to 08-16 | sharper copies to read than the Journal's for Nos. 9-30. 17 of the first review batch (Nos. 7-30) are held as needs-work, mostly for the Journal's poor print. Save both the puzzle page and the solutions page. No. 8 is done (1914-02-08) |
 
 Save as before into Downloads; Claude files them (`Milwaukee_Sentinel_<yyyy>_<mm>_<dd>_<page>.png`).
 
@@ -36,3 +23,9 @@ Save as before into Downloads; Claude files them (`Milwaukee_Sentinel_<yyyy>_<mm
 - **1913-12-28, FUN pp. 14-15: No. 2**, the New Year puzzle (1-2 Wild animals), and **No. 1's solution**, printed upside down.
   Both match gxd. Nos. 1 and 2 now have partner copies of puzzle and solution, on the World's own Sundays.
 - **1914-01-04 pp. 80, 81**: full pages of Ben's clippings (No. 3 and No. 2's solution).
+- **1914-02-08, FUN pp. 13, 15: No. 8** (Mrs. M. B. Wood), a sharper copy, and **No. 7's solution** ("Solution to No 7 Puzzle").
+- **1914-05-31, FUN p. 15: No. 22.** The intro calls it "number twenty-one", FUN's own miscount. Its solutions box is the Mexico map puzzle, which confirms FUN ran no crossword on 05-24.
+- **1915-01-17, FUN p. 5: No. 54's solution.** No new crossword that day.
+- **1915-01-31, FUN p. 7: the U of F-U-N**, the same as the Journal's. No solution is printed: FUN promised the whole puzzle's solution for 02-14, a Sunday not found in any paper.
+- **1915-02-28, FUN p. 7: the solutions to 02-21's Pentacle** and its word square.
+- **Searched, nothing found:** 1914-01-11 (No. 4's page), 1915-04-04, 04-11, 05-09, 05-16, 05-23, 06-06. **1915-05-30** was a short issue with no puzzle (recorded as not carried).
