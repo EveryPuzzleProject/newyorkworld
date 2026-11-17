@@ -5,11 +5,10 @@ crossword item is that day's solution-only page; Alex found no puzzle after it a
 fill the fall-1915 hole (Nos. 91-100 by the count, 1915-09-19 to 11-14). That needs another paper that carried
 FUN then. Those Sundays are recorded as Sentinel no-hits.
 
-**Still open.** The Sentinel now holds every puzzle from No. 1 to No. 33 except No. 4 (No. 34 was never used), and every solution except Nos. 3, 32 and 33:
+**Still open.** The Sentinel now holds every puzzle from No. 1 to No. 33 except No. 4 (No. 34 was never used), and every solution except No. 3:
 
 | Sunday | What it adds |
 |---|---|
-| 1914-08-23, 08-30 | the solutions to Nos. 32 and 33, on another page of each issue (the saved pages have the puzzles only) |
 | 1914-01-11 | No. 4 and No. 3's solution (searched, not found) |
 
 Save as before into Downloads; Claude files them (`Milwaukee_Sentinel_<yyyy>_<mm>_<dd>_<page>.png`).
@@ -41,3 +40,4 @@ Save as before into Downloads; Claude files them (`Milwaukee_Sentinel_<yyyy>_<mm
   Credits the Journal rows lack: H. J. Stack (No. 23), Ernest A. Grant (No. 24), Charles L. Rives (No. 26), W. G. H. Tiedemann (No. 27; the editor changed some of his words), Aloysius E. Pracny (No. 29, five puzzles in one, unnumbered here), T. W. Martin, Jr. (No. 30), William Callander (No. 32).
   No. 25's first clue reads 2-3 here and 1-3 in the Journal row: check when reading.
 - **The stragglers (2026-11-16):** No. 11 (03-01, FUN p. 12) and the solutions to Nos. 9 (02-22), 11 (03-08), 21 (05-17, a solutions-only Sunday) and 24 (06-28, FUN p. 4), all linked.
+- **1914-08-23 p. 76, 08-30 p. 84:** the solutions to No. 32 (FUN p. 7) and No. 33 ("Solution to Cross-Word Puzzle No 33", FUN p. 4, printed the week No. 35 ran). Linked.
