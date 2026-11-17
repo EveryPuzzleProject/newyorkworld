@@ -9,8 +9,7 @@ FUN then. Those Sundays are recorded as Sentinel no-hits.
 
 | Sunday | Why |
 |---|---|
-| 1913-12-21, 1913-12-28 | Nos. 1 and 2. The Sentinel carried FUN by 12-28 (its 01-04 box solves No. 2) |
-| 1915-02-14 | the valentine puzzle; closes the break after 02-07 |
+| 1913-12-28 | No. 2, and No. 1's solution. The Sentinel carried FUN by then (its 01-04 box solves No. 2) |
 | 1915-05-30 | closes the break after 05-23 (the Journal has no 05-30) |
 
 **Not queued.** The queue closes a Sunday as soon as any paper has a copy of it, so these pages can't be
@@ -18,7 +17,6 @@ queued. They are still worth saving: each adds a puzzle the record lacks, a solu
 
 | Sunday | What it adds |
 |---|---|
-| 1914-11-15 | **No. 46 itself**: the Journal never ran it; only its solution is held (Sentinel 11-22) |
 | 1914-01-11 | the Sentinel's copy of No. 4, and No. 3's solution |
 | 1914-11-01 | the solution to No. 45 (closes that chain break) |
 | 1915-01-17, 01-31 | turn the two tentative links there into checked ones |
@@ -29,3 +27,11 @@ queued. They are still worth saving: each adds a puzzle the record lacks, a solu
 | 1914-02-08 to 07-26, 08-02, 08-16 | sharper copies to read than the Journal's for Nos. 8-30. 17 of the first review batch (Nos. 7-30) are held as needs-work, mostly for the Journal's poor print. Save both the puzzle page and the solutions page |
 
 Save as before into Downloads; Claude files them (`Milwaukee_Sentinel_<yyyy>_<mm>_<dd>_<page>.png`).
+
+## Found since (2026-11-16, Alex)
+
+- **1913-12-21, FUN p. 14: No. 1**, Wynne's first crossword, on the World's own day. It's the first partner copy found.
+  The record's old "No. 1", Pittsburgh Press 1918-12-01, was a misread: its "1" is the grid's first cell number, and the puzzle is Henry Zarske's of 1918. Its number is withdrawn.
+- **1914-11-15, FUN p. 15: No. 46**, printed with its number: Edward Thimme's two-in-one, the puzzle the Journal never ran. The page has No. 45's solution too.
+- **1914-01-18 pp. 81, 83 and 01-25 pp. 67, 68**: full pages of Ben's clippings (Nos. 5 and 6, and the solutions to Nos. 4 and 5). Filed in the scans repo. They are not in `pages.tsv`, which lists the files the record points to; those remain Ben's clippings.
+- **1915-02-14**: searched, nothing found (no-hit).
