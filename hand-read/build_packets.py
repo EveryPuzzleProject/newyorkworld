@@ -104,6 +104,8 @@ def build(xdid: str) -> dict:
     for kind in ("lines", "clues"):
         for n, it in enumerate(z.get(kind, [])):
             label = it.get("pair") or it.get("label", "")
+            if it.get("ref"):  # the modern clue number, with the World's pair as printed
+                label = f'{it["ref"]} ({it.get("printed") or label})'
             ans = f' <b>~ {html.escape(it["answer"])}</b>' if it.get("answer") else ""
             rows.append(f'<tr id="r-{kind}-{n}" data-box="b-{kind}-{n}" class="{kind}"><td>{html.escape(label)}</td>'
                         f'<td>{html.escape(it.get("text", ""))}{ans}</td><td class="how">{html.escape(it.get("how", ""))}'

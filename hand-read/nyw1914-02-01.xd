@@ -3,7 +3,6 @@ Copyright: New York World
 Date: 1914-02-01
 Number: 7
 Notes: A 13-wide diamond with a shaded cross in the centre printed "No 7" (shown as _); two words, 33-34 and 35-36, run down the centre column above and below the cross. The number is printed in the centre block; the intro calls it "the seventh puzzle in the series". No credit is printed. Read by hand from the Milwaukee Sentinel's page (Milwaukee_Sentinel_1914_02_01_66_fun.png), solution from Milwaukee_Sentinel_1914_02_08_82.png, by Claude, 2026-11-16.
-Numbering: across-first
 
 
 ## Grid
@@ -23,35 +22,68 @@ ______A______
 
 
 ## Clues
-1-2. United in Matrimony. ~ WED
-3-4. A fruit ~ PEARS
-5-6. A gas bag. ~ BALLOON
-7-8. To separate. ~ PART
-9-10. A whip used in Russian prisons. ~ PLET
-11-12. A cavern. ~ CAVE
-13-14. Very black. ~ EBON
-15-16. Another name for father. ~ PAPA
-17-18. The same as on. ~ UPON
-19-20. An eminence. ~ BERG
-21-22. What the wind did. ~ BLEW
-23-24. A friend of Roosevelt. ~ RIIS
-25-26. To float aloft. ~ SOAR
-27-28. An aeronaut. ~ AVIATOR
-29-30. A plumed bird. ~ EGRET
-31-32. Not old. ~ NEW
-1-8. A swollen strip. ~ WELT
-3-12. To shave. ~ PARE
-5-27. Part of the German Empire. ~ BAVARIA
-7-23. What FUN is printed on. ~ PAPER
-11-19. A vehicle. ~ CAB
-20-29. To bestrow. ~ GIVE
-24-31. An indication. ~ SIGN
-2-9. To let fall. ~ DROP
-4-13. The bottom of a shoe. ~ SOLE
-6-28. Resembling a nebula. ~ NEBULAR
-10-26. A habitual drunkard. ~ TOPER
-14-22. The present time. ~ NOW
-21-30. A covering for the foot and leg. ~ BOOT
-25-32. Slowly boiled food. ~ STEW
-33-34. Not fictitious. ~ REAL
-35-36. Space. ~ AREA
+A2. United in Matrimony. ~ WED
+A2 ^Printed: 1-2
+A4. A fruit ~ PEARS
+A4 ^Printed: 3-4
+A6. A gas bag. ~ BALLOON
+A6 ^Printed: 5-6
+A8. To separate. ~ PART
+A8 ^Printed: 7-8
+A9. A whip used in Russian prisons. ~ PLET
+A9 ^Printed: 9-10
+A11. A cavern. ~ CAVE
+A11 ^Printed: 11-12
+A12. Very black. ~ EBON
+A12 ^Printed: 13-14
+A14. Another name for father. ~ PAPA
+A14 ^Printed: 15-16
+A15. The same as on. ~ UPON
+A15 ^Printed: 17-18
+A16. An eminence. ~ BERG
+A16 ^Printed: 19-20
+A18. What the wind did. ~ BLEW
+A18 ^Printed: 21-22
+A19. A friend of Roosevelt. ~ RIIS
+A19 ^Printed: 23-24
+A21. To float aloft. ~ SOAR
+A21 ^Printed: 25-26
+A22. An aeronaut. ~ AVIATOR
+A22 ^Printed: 27-28
+A24. A plumed bird. ~ EGRET
+A24 ^Printed: 29-30
+A25. Not old. ~ NEW
+A25 ^Printed: 31-32
+
+D1. Not fictitious. ~ REAL
+D1 ^Printed: 33-34
+D2. A swollen strip. ~ WELT
+D2 ^Printed: 1-8
+D3. To let fall. ~ DROP
+D3 ^Printed: 2-9
+D4. To shave. ~ PARE
+D4 ^Printed: 3-12
+D5. The bottom of a shoe. ~ SOLE
+D5 ^Printed: 4-13
+D6. Part of the German Empire. ~ BAVARIA
+D6 ^Printed: 5-27
+D7. Resembling a nebula. ~ NEBULAR
+D7 ^Printed: 6-28
+D8. What FUN is printed on. ~ PAPER
+D8 ^Printed: 7-23
+D10. A habitual drunkard. ~ TOPER
+D10 ^Printed: 10-26
+D11. A vehicle. ~ CAB
+D11 ^Printed: 11-19
+D13. The present time. ~ NOW
+D13 ^Printed: 14-22
+D17. To bestrow. ~ GIVE
+D17 ^Printed: 20-29
+D18. A covering for the foot and leg. ~ BOOT
+D18 ^Printed: 21-30
+D20. An indication. ~ SIGN
+D20 ^Printed: 24-31
+D21. Slowly boiled food. ~ STEW
+D21 ^Printed: 25-32
+D23. Space. ~ AREA
+D23 ^Printed: 35-36

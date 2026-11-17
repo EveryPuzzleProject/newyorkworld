@@ -1,4 +1,38 @@
-# How to write the World's numbering and givens in .xd: a proposal (2026-11-17)
+# How to write the World's numbering and givens in .xd
+
+## Decision (Alex, 2026-11-17)
+
+**Modern numbering, with the World's pair as clue metadata.** The proposal below (rules, a `## Labels`
+section, `a-b` clue references) is superseded for all but three puzzles. Each clue is numbered as
+any crossword is (`A4.`, `D21.`: a square that starts an across or down run of two or more takes
+the next number in reading order; a given square is numbered like any other), and carries what the
+World printed as clue metadata:
+
+```
+A6. A written acknowledgment. ~ RECEIPT
+A6 ^Printed: 4-5
+A16. What this puzzle is. ~ HARD
+A16 ^Printed: 38-39
+A16 ^Note: misprint: the pair that fits the grid is 18-19
+```
+
+- `^Printed:` is the pair as printed, misprints included; a `^Note:` names the pair that fits.
+- A run with no clue line is a given word (FUN in No. 1) or, with an empty clue (`A4. ~ SALES`), a
+  word the paper printed no clue for.
+- A line the paper printed twice (No. 26's 27-34, No. 29's 77-79) is one clue; the other line is in
+  its `^Note:`.
+- Givens stay marked on their squares in the `## Design` section (`G { given: true }`), since some
+  are single letters, not words (No. 13's centre E, No. 2's Y, A, R).
+- A UI can show the World's numbering from `^Printed:`.
+
+Tested on all 33 hand-read files: 1,166 of 1,206 clued words fill a whole across or down run. The
+other 40 are in three puzzles, which stay in the World's form below (`Numbering:` and `## Labels`)
+with a note, to be treated as metas: **No. 13** (the inner star: words inside longer runs, three
+meeting at the centre E), **No. 18** (four diagonal words) and **No. 27** (the given FUN runs on
+into other words; in effect a bar between 1 Down and 10 Down, and xd has no bars yet).
+`hand-read/modernize.py` did the conversion; `hand-read/worldxd.py check` checks both forms.
+
+## The original proposal (superseded except for Nos. 13, 18 and 27)
 
 For Alex. The 1913-14 World FUN puzzles (Nos. 1-33, `hand-read/`) don't number words the way every
 other puzzle in gxd does, and some print letters in the grid. Today two gxd files

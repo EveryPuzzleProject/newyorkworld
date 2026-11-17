@@ -16,7 +16,8 @@ HERE = Path(__file__).resolve().parent
 RULES = ("across-first", "apex-first", "reading-order")
 DIRS = [(0, 1), (1, 0), (1, 1), (1, -1), (0, -1), (-1, 0), (-1, -1), (-1, 1)]
 REF = re.compile(r"^([^\s.^]+)-([^\s.^]+)\.(?: (.*?))?(?: ~ (\S+))?\s*$")
-META = re.compile(r"^([^\s.^]+-[^\s.^]+) \^([A-Za-z]+): (.*)$")
+META = re.compile(r"^([AD]\d+|[^\s.^]+-[^\s.^]+) \^([A-Za-z]+): (.*)$")
+MODERN = re.compile(r"^([AD]\d+)\.(.*)$")
 
 
 def is_square(ch: str) -> bool:
@@ -111,6 +112,11 @@ def parse(text: str) -> dict:
         if m:
             cmeta.setdefault(m.group(1), {})[m.group(2)] = m.group(3)
             continue
+        m = MODERN.match(l)
+        if m:  # the modern form: A<n>. / D<n>., with the World's pair as ^Printed:
+            body, _, ans = m.group(2).partition("~")
+            clues.append((m.group(1), "", body.strip(), (ans.split() or [""])[0]))
+            continue
         m = re.match(r"^([^\s.^]+)-([^\s.^]+)\.(.*)$", l)
         if not m:
             raise ValueError(f"clue line: {l!r}")
@@ -138,6 +144,8 @@ def check(path: Path, notes: list | None = None) -> list[str]:
     if z["design"] and (len(z["design"]) != len(g) or any(len(r) != W for r in z["design"])):
         probs.append("design grid is not the grid's size")
     rule = z["meta"].get("Numbering", "")
+    if not rule:
+        return probs + check_modern(z, notes)
     if rule in RULES:
         num = number(g, rule, z["given"])
         where = {}
@@ -194,6 +202,50 @@ def check(path: Path, notes: list | None = None) -> list[str]:
     return probs
 
 
+def modern_numbers(grid) -> dict:
+    """{(r, c): n}: the usual crossword numbering (a square that starts an across or down run of two or more)."""
+    sq = lambda r, c: 0 <= r < len(grid) and 0 <= c < len(grid[0]) and is_square(grid[r][c])
+    num, n = {}, 0
+    for r in range(len(grid)):
+        for c in range(len(grid[0])):
+            if sq(r, c) and ((not sq(r, c - 1) and sq(r, c + 1)) or (not sq(r - 1, c) and sq(r + 1, c))):
+                n += 1
+                num[(r, c)] = n
+    return num
+
+
+def check_modern(z, notes) -> list[str]:
+    """The modern form: each A<n>/D<n> names a whole run, its answer is the grid's letters, and it
+    carries the World's pair as ^Printed:. A run with no clue line is a note (a given word, or a
+    word the paper printed no clue for, which then has a clue line with no text)."""
+    g, probs = z["grid"], []
+    num = modern_numbers(g)
+    runs_by = {f"{d}{num[cells[0]]}": cells for d, cells in runs(g)}
+    seen = set()
+    for ref, _, body, ans in z["clues"]:
+        if ref in seen:
+            probs.append(f"{ref}: two clue lines")
+        seen.add(ref)
+        cells = runs_by.get(ref)
+        if not cells:
+            probs.append(f"{ref}: no such run in the grid")
+            continue
+        if ans and (len(ans) != len(cells) or any(g[r][c] not in (ch, "?") for (r, c), ch in zip(cells, ans))):
+            probs.append(f"{ref}: {ans} is not the grid's {''.join(g[r][c] for r, c in cells)}")
+        if not ans and "?" not in "".join(g):
+            probs.append(f"{ref}: no answer")
+        pr = z["cmeta"].get(ref, {}).get("Printed", "")
+        if not re.match(r"^[^\s-]+-[^\s-]+$", pr):
+            probs.append(f"{ref}: no ^Printed: pair")
+    for ref in z["cmeta"]:
+        if ref not in seen:
+            probs.append(f"metadata for {ref}, which has no clue line")
+    for ref, cells in runs_by.items():
+        if ref not in seen and not set(cells) <= z["given"]:
+            (notes if notes is not None else probs).append(f"run {ref} {''.join(g[r][c] for r, c in cells)} has no clue line")
+    return probs
+
+
 def main():
     names = sys.argv[2:] or sorted(p.stem for p in HERE.glob("nyw*.xd"))
     bad = 0
@@ -201,7 +253,7 @@ def main():
         nt = []
         p = check(HERE / f"{x}.xd", nt)
         z = parse((HERE / f"{x}.xd").read_text(encoding="utf-8"))
-        print(f"{x}  {z['meta'].get('Numbering', '?'):14} {len(z['clues']):3} clues  {'ok' if not p else str(len(p)) + ' problems'}")
+        print(f"{x}  {z['meta'].get('Numbering', 'modern'):14} {len(z['clues']):3} clues  {'ok' if not p else str(len(p)) + ' problems'}")
         for q in p:
             print("    ", q)
         for q in nt:

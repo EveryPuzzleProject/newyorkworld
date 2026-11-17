@@ -3,7 +3,6 @@ Title: FUN'S Cross-Word Puzzle
 Copyright: New York World
 Date: 1913-12-21
 Notes: A 13-wide diamond with an empty cross-shaped centre (shown as _); the three squares of the second row are printed with the letters F, U, N. No credit, no number. The clue list has 30 clues: none is printed for 2-3 (SALES), and three pairs are misprinted (38-39 for 18-19, 10-12 for 10-18, 26-30 for 23-30), kept as printed. Instructions as printed: "Fill in the small squares with words which agree with the following definitions:". Read by hand from the Milwaukee Sentinel's page (Milwaukee_Sentinel_1913_12_21_68.png), solution from Milwaukee_Sentinel_1913_12_28_78.png (printed upside down), by Claude, 2026-11-16.
-Numbering: apex-first
 
 
 ## Grid
@@ -23,41 +22,73 @@ ______D______
 
 
 ## Clues
-4-5. A written acknowledgment. ~ RECEIPT
-6-7. Such and nothing more. ~ MERE
-10-11. A bird. ~ DOVE
-14-15. Opposed to less. ~ MORE
-18-19. What this puzzle is. ~ HARD
-18-19 ^Printed: 38-39
-22-23. An animal of prey. ~ LION
-26-27. The close of a day. ~ EVENING
-28-29. To elude. ~ EVADE
-30-31. The plural of is. ~ ARE
-8-9. To cultivate. ~ FARM
-12-13. A bar of wood or iron. ~ RAIL
-16-17. What artists learn to do. ~ DRAW
-20-21. Fastened. ~ TIED
-24-25. Found on the seashore. ~ SAND
-10-18. The fibre of the gomuti palm. ~ DOH
-10-18 ^Printed: 10-12
-6-22. What we all should be. ~ MORAL
-4-26. A day dream. ~ REVERIE
-2-11. A talon. ~ SERE
-19-28. A pigeon. ~ DOVE
-F-7. Part of your head. ~ FACE
-23-30. A river in Russia. ~ NEVA
-23-30 ^Printed: 26-30
-1-32. To govern. ~ RULE
-33-34. An aromatic plant. ~ NARD
-N-8. A fist. ~ NEIF
-24-31. To agree with. ~ SIDE
-3-12. Part of a ship. ~ SPAR
-20-29. One. ~ TANE
-5-27. Exchanging. ~ TRADING
-9-25. To sink in mud. ~ MIRED
-13-21. A boy. ~ LAD
-2-3. ~ SALES
-2-3 ^Note: no clue printed in the Sentinel; the World's own page (gxd, via T Campbell) has 'What bargain hunters enjoy.'
+A4. ~ SALES
+A4 ^Printed: 2-3
+A4 ^Note: no clue printed in the Sentinel; the World's own page (gxd, via T Campbell) has 'What bargain hunters enjoy.'
+A6. A written acknowledgment. ~ RECEIPT
+A6 ^Printed: 4-5
+A8. Such and nothing more. ~ MERE
+A8 ^Printed: 6-7
+A9. To cultivate. ~ FARM
+A9 ^Printed: 8-9
+A11. A bird. ~ DOVE
+A11 ^Printed: 10-11
+A12. A bar of wood or iron. ~ RAIL
+A12 ^Printed: 12-13
+A14. Opposed to less. ~ MORE
+A14 ^Printed: 14-15
+A15. What artists learn to do. ~ DRAW
+A15 ^Printed: 16-17
+A16. What this puzzle is. ~ HARD
+A16 ^Printed: 38-39
+A16 ^Note: misprint: the pair that fits the grid is 18-19
+A18. Fastened. ~ TIED
+A18 ^Printed: 20-21
+A19. An animal of prey. ~ LION
+A19 ^Printed: 22-23
+A21. Found on the seashore. ~ SAND
+A21 ^Printed: 24-25
+A22. The close of a day. ~ EVENING
+A22 ^Printed: 26-27
+A24. To elude. ~ EVADE
+A24 ^Printed: 28-29
+A25. The plural of is. ~ ARE
+A25 ^Printed: 30-31
+
+D1. To govern. ~ RULE
+D1 ^Printed: 1-32
+D2. Part of your head. ~ FACE
+D2 ^Printed: F-7
+D3. A fist. ~ NEIF
+D3 ^Printed: N-8
+D4. A talon. ~ SERE
+D4 ^Printed: 2-11
+D5. Part of a ship. ~ SPAR
+D5 ^Printed: 3-12
+D6. A day dream. ~ REVERIE
+D6 ^Printed: 4-26
+D7. Exchanging. ~ TRADING
+D7 ^Printed: 5-27
+D8. What we all should be. ~ MORAL
+D8 ^Printed: 6-22
+D10. To sink in mud. ~ MIRED
+D10 ^Printed: 9-25
+D11. The fibre of the gomuti palm. ~ DOH
+D11 ^Printed: 10-12
+D11 ^Note: misprint: the pair that fits the grid is 10-18
+D13. A boy. ~ LAD
+D13 ^Printed: 13-21
+D17. A pigeon. ~ DOVE
+D17 ^Printed: 19-28
+D18. One. ~ TANE
+D18 ^Printed: 20-29
+D20. A river in Russia. ~ NEVA
+D20 ^Printed: 26-30
+D20 ^Note: misprint: the pair that fits the grid is 23-30
+D21. To agree with. ~ SIDE
+D21 ^Printed: 24-31
+D23. An aromatic plant. ~ NARD
+D23 ^Printed: 33-34
 
 
 ## Design

@@ -4,7 +4,6 @@ Copyright: New York World
 Date: 1914-07-05
 Number: 26
 Notes: A 13-wide stepped diamond, the same template as No. 25, with a plain cross-shaped centre left blank (r5c7, r6c6-c8, r7c5-c9, r8c6-c8, r9c7, shown as _). The number "No 26" is printed beside the grid at its lower left, and the intro calls it "the twenty-sixth in FUN'S series"; the solution's centre reads "SOLUTION TO X-WORD PUZZLE No 26". Credit, from the printed intro: "Today's cross-word puzzle, the twenty-sixth in FUN'S series, is contributed by Charles L. Rives of Spring Valley, N. Y. Mr. Rives writes that he has found it easier to solve one of these puzzles than to originate one and he wonders how many of FUN'S readers will succeed in solving his puzzle. Fill in the small squares with words coresponding to the list of clews and definitions given below, allowing one letter to each square. The solution to this puzzle will be given in next week's FUN." The clue list prints 27-34 twice ("Destiny." and "A mountain."); both are kept, and only BERG fits. Read by hand from the Milwaukee Sentinel's page (Milwaukee_Sentinel_1914_07_05_81.png), solution from Milwaukee_Sentinel_1914_07_12_80.png, by Claude, 2026-11-16.
-Numbering: as-printed
 
 
 ## Grid
@@ -24,75 +23,69 @@ ______E______
 
 
 ## Clues
-2-3. A hobby. ~ FAD
-4-5. To commence. ~ BEGIN
-6-7. Fruit. ~ BANANAS
-8-9. What debts should be. ~ PAID
-10-11. A weight measure. ~ TROY
-12-13. 1913 A. D. ~ PAST
-14-15. Female deer. ~ DOES
-16-17. Baseball enthusiasts. ~ FANS
-21-22. A tumultuous disturbance. ~ RIOT
-18-19. A small spike. ~ NAIL
-23-24. Saucy. ~ PERT
-25-26. A close fitting cap. ~ COIF
-27-28. A girl's name. ~ BESS
-29-30. Closest. ~ NEAREST
-31-32. To move suddenly. ~ START
-33-34. Best when fresh laid. ~ EGG
-1-20. An ancient Scandinavian legend. ~ SAGA
-2-9. To ward off. ~ FEND
-3-10. The mark made by a blow. ~ DINT
-4-13. Used by fishermen. ~ BAIT
-5-14. A plant. ~ NARD
-6-29. A musical instrument. ~ BASSOON
-7-30. Earliest. ~ SOONEST
-8-25. A sudden fright. ~ PANIC
-11-28. More than one year. ~ YEARS
-12-21. State of equality. ~ PAR
-15-24. To repose on a seat. ~ SIT
-22-31. Moral obligations. ~ TIES
-23-32. A plague. ~ PEST
-26-33. Destiny. ~ FATE
-27-34. Destiny. ~ BERG
-27-34. A mountain. ~ BERG
-35-36. Violent anger. ~ RAGE
+A2. A hobby. ~ FAD
+A2 ^Printed: 2-3
+A4. To commence. ~ BEGIN
+A4 ^Printed: 4-5
+A6. Fruit. ~ BANANAS
+A6 ^Printed: 6-7
+A8. What debts should be. ~ PAID
+A8 ^Printed: 8-9
+A9. A weight measure. ~ TROY
+A9 ^Printed: 10-11
+A11. 1913 A. D. ~ PAST
+A11 ^Printed: 12-13
+A12. Female deer. ~ DOES
+A12 ^Printed: 14-15
+A14. Baseball enthusiasts. ~ FANS
+A14 ^Printed: 16-17
+A15. A small spike. ~ NAIL
+A15 ^Printed: 18-19
+A16. A tumultuous disturbance. ~ RIOT
+A16 ^Printed: 21-22
+A18. Saucy. ~ PERT
+A18 ^Printed: 23-24
+A19. A close fitting cap. ~ COIF
+A19 ^Printed: 25-26
+A21. A girl's name. ~ BESS
+A21 ^Printed: 27-28
+A22. Closest. ~ NEAREST
+A22 ^Printed: 29-30
+A24. To move suddenly. ~ START
+A24 ^Printed: 31-32
+A25. Best when fresh laid. ~ EGG
+A25 ^Printed: 33-34
 
-
-## Labels
-1 r1c7
-2 r2c6
-3 r2c8
-4 r3c5
-5 r3c9
-6 r4c4
-7 r4c10
-8 r5c3
-9 r5c6
-10 r5c8
-11 r5c11
-12 r6c2
-13 r6c5
-14 r6c9
-15 r6c12
-16 r7c1
-17 r7c4
-18 r7c10
-19 r7c13
-20 r4c7
-21 r8c2
-22 r8c5
-23 r8c9
-24 r8c12
-25 r9c3
-26 r9c6
-27 r9c8
-28 r9c11
-29 r10c4
-30 r10c10
-31 r11c5
-32 r11c9
-33 r12c6
-34 r12c8
-35 r10c7
-36 r13c7
+D1. An ancient Scandinavian legend. ~ SAGA
+D1 ^Printed: 1-20
+D2. To ward off. ~ FEND
+D2 ^Printed: 2-9
+D3. The mark made by a blow. ~ DINT
+D3 ^Printed: 3-10
+D4. Used by fishermen. ~ BAIT
+D4 ^Printed: 4-13
+D5. A plant. ~ NARD
+D5 ^Printed: 5-14
+D6. A musical instrument. ~ BASSOON
+D6 ^Printed: 6-29
+D7. Earliest. ~ SOONEST
+D7 ^Printed: 7-30
+D8. A sudden fright. ~ PANIC
+D8 ^Printed: 8-25
+D10. More than one year. ~ YEARS
+D10 ^Printed: 11-28
+D11. State of equality. ~ PAR
+D11 ^Printed: 12-21
+D13. To repose on a seat. ~ SIT
+D13 ^Printed: 15-24
+D17. Moral obligations. ~ TIES
+D17 ^Printed: 22-31
+D18. A plague. ~ PEST
+D18 ^Printed: 23-32
+D20. Destiny. ~ FATE
+D20 ^Printed: 26-33
+D21. A mountain. ~ BERG
+D21 ^Printed: 27-34
+D21 ^Note: the list prints this pair twice; the other line reads "27-34. Destiny." (a repeated line)
+D23. Violent anger. ~ RAGE
+D23 ^Printed: 35-36

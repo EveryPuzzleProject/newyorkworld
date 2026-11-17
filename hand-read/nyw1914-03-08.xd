@@ -5,7 +5,6 @@ Copyright: New York World
 Date: 1914-03-08
 Number: 12
 Notes: A 13-wide diamond with a shaded cross in the centre printed "No 12" (shown as _), the same template as No. 11, under the heading "FUN'S CROSS-WORD PUZZLES" and the words "Can You Solve Them?" drawn beside the grid. The number is printed in the centre block and in the intro ("the twelfth in FUN'S series"). Credit as printed: "Today's cross work puzzle, the twelfth in FUN'S series, was sent in by Miss Evangeline Kearney of 207 Winthrop street, Brooklyn." Read by hand from the Milwaukee Sentinel's page (Milwaukee_Sentinel_1914_03_08_82.png), solution from Milwaukee_Sentinel_1914_03_15_86.png, by Claude, 2026-11-16.
-Numbering: across-first
 
 
 ## Grid
@@ -25,35 +24,68 @@ ______Y______
 
 
 ## Clues
-1-2. An insect. ~ BEE
-3-4. What we get in restaurants. ~ MEALS
-5-6. One who inhabits a new country. ~ SETTLER
-7-8. Traps for catching game. ~ NETS
-9-10. Spoken. ~ SAID
-11-12. Hair on the neck of an animal. ~ MANE
-13-14. A reptile. ~ TOAD
-15-16. Mother. ~ MAMA
-17-18. Made fast. ~ TIED
-19-20. Dogs, birds and cats. ~ PETS
-21-22. An oven. ~ KILN
-23-24. Words and music. ~ SONG
-25-26. Very small. ~ TINY
-27-28. Tolling. ~ RINGING
-29-30. Trimmed. ~ PARED
-31-32. A sailor. ~ TAR
-33-34. Flesh for food. ~ MEAT
-35-36. A color. ~ GRAY
-1-8. Wagers. ~ BETS
-3-12. To measure. ~ METE
-5-27. A member of the Senate. ~ SENATOR
-7-23. Titles. ~ NAMES
-11-19. A chart. ~ MAP
-2-9. Measures. ~ ELLS
-4-13. A chair. ~ SEAT
-6-28. Raising an uproar. ~ RIOTING
-14-22. His own room. ~ DEN
-10-26. Every day. ~ DAILY
-21-30. Benevolent. ~ KIND
-25-32. A row. ~ TIER
-20-29. To cut. ~ SNIP
-24-31. A small insect. ~ GNAT
+A2. An insect. ~ BEE
+A2 ^Printed: 1-2
+A4. What we get in restaurants. ~ MEALS
+A4 ^Printed: 3-4
+A6. One who inhabits a new country. ~ SETTLER
+A6 ^Printed: 5-6
+A8. Traps for catching game. ~ NETS
+A8 ^Printed: 7-8
+A9. Spoken. ~ SAID
+A9 ^Printed: 9-10
+A11. Hair on the neck of an animal. ~ MANE
+A11 ^Printed: 11-12
+A12. A reptile. ~ TOAD
+A12 ^Printed: 13-14
+A14. Mother. ~ MAMA
+A14 ^Printed: 15-16
+A15. Made fast. ~ TIED
+A15 ^Printed: 17-18
+A16. Dogs, birds and cats. ~ PETS
+A16 ^Printed: 19-20
+A18. An oven. ~ KILN
+A18 ^Printed: 21-22
+A19. Words and music. ~ SONG
+A19 ^Printed: 23-24
+A21. Very small. ~ TINY
+A21 ^Printed: 25-26
+A22. Tolling. ~ RINGING
+A22 ^Printed: 27-28
+A24. Trimmed. ~ PARED
+A24 ^Printed: 29-30
+A25. A sailor. ~ TAR
+A25 ^Printed: 31-32
+
+D1. Flesh for food. ~ MEAT
+D1 ^Printed: 33-34
+D2. Wagers. ~ BETS
+D2 ^Printed: 1-8
+D3. Measures. ~ ELLS
+D3 ^Printed: 2-9
+D4. To measure. ~ METE
+D4 ^Printed: 3-12
+D5. A chair. ~ SEAT
+D5 ^Printed: 4-13
+D6. A member of the Senate. ~ SENATOR
+D6 ^Printed: 5-27
+D7. Raising an uproar. ~ RIOTING
+D7 ^Printed: 6-28
+D8. Titles. ~ NAMES
+D8 ^Printed: 7-23
+D10. Every day. ~ DAILY
+D10 ^Printed: 10-26
+D11. A chart. ~ MAP
+D11 ^Printed: 11-19
+D13. His own room. ~ DEN
+D13 ^Printed: 14-22
+D17. To cut. ~ SNIP
+D17 ^Printed: 20-29
+D18. Benevolent. ~ KIND
+D18 ^Printed: 21-30
+D20. A small insect. ~ GNAT
+D20 ^Printed: 24-31
+D21. A row. ~ TIER
+D21 ^Printed: 25-32
+D23. A color. ~ GRAY
+D23 ^Printed: 35-36

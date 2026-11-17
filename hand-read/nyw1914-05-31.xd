@@ -4,7 +4,6 @@ Copyright: New York World
 Date: 1914-05-31
 Number: 22
 Notes: An hourglass 19 wide and 11 high (19 squares in the top and bottom rows, narrowing by one square each side to 9 in the middle row, squares outside shown as _), with shaded squares inside the outline making two X shapes; they are printed shaded, not black, and stand as blocks (#). Number printed in the heading box ("No 22"); the intro calls it "number twenty-one in FUN'S series of cross word puzzles" and the solution, the next week, "cross-word puzzle No. 22". No credit is printed. Read by hand from the Milwaukee Sentinel's page (Milwaukee_Sentinel_1914_05_31_90.png), solution from Milwaukee_Sentinel_1914_06_07_85.png, by Claude, 2026-11-16.
-Numbering: across-first
 
 
 ## Grid
@@ -22,61 +21,120 @@ BONE##PLOTTER##DEER
 
 
 ## Clues
-1-2. Slang expression for a stupid fellow. ~ BOOB
-3-4. What the barber asks you. ~ SHAMPOO
-5-6. Expressing an indeterminate number. ~ SOME
-7-8. To wander. ~ ROAM
-9-10. A second time. ~ AGAIN
-11-12. Absent. ~ AWAY
-13-14. An ensign. ~ FLAG
-15-16. A river in France. ~ SEINE
-17-18. To babble. ~ CLAT
-19-20. Denoting mistakes. ~ ERRS
-21-22. To talk in an easy, familiar manner. ~ CHAT
-23-24. Small tubs. ~ KITS
-25-26. Periods of time. ~ ERAS
-27-28. A month. ~ SEPTEMBER
-29-30. To remain. ~ STAY
-57-15. A possessive verb in third person. ~ HAS
-58-64. A matter of years. ~ AGE
-43-68. Similar to—therefore. ~ SO
-59-72. A domestic. ~ MAIDSERVANT
-60-65. A short stiff piece of wire. ~ PIN
-61-16. A number. ~ ONE
-39-70. Pertaining to the sun. ~ SOL
-66-71. A number. ~ TWO
-67-73. To obtain. ~ GET
-40-74. Meaning before. ~ ERE
-25-31. Relating to the movement of the tide. ~ EBB
-21-35. Found in good milk. ~ CREAM
-17-41. A document giving certain privileges. ~ CHARTER
-11-26. An exclamation of unhappiness. ~ ALAS
-32-47. To call. ~ HAIL
-5-22. To hit. ~ SWAT
-36-53. A burden. ~ LOAD
-62-18. A common grain. ~ OAT
-42-75. To fasten. ~ TIE
-63-12. A word showing possession. ~ MY
-48-76. Meaning again. ~ RE
-31-32. Immersion of the body in water. ~ BATH
-33-34. Used fo rhealing or soothing. ~ BALM
-35-36. A repast. ~ MEAL
-37-38. A married woman. ~ WIFE
-39-40. An omnibus. ~ STAGE
-41-42. To reveal. ~ RIOT
-43-44. An exchange for money. ~ SALE
-45-46. A proprietor. ~ OWNER
-47-48. The covert of a wild beast. ~ LAIR
-49-50. Part of the animal body. ~ BONE
-51-52. One who forms a plan. ~ PLOTTER
-53-54. A swift footed animal. ~ DEER
-55-7. A conjunction. ~ OR
-56-13. An exclamation. ~ OOF
-2-19. A large bundle of goods. ~ BALE
-8-23. What we always aim at. ~ MARK
-14-38. Cartilage. ~ GRISTLE
-20-34. A vapor. ~ STEAM
-24-30. A secret agent. ~ SPY
-29-44. To be free from danger. ~ SAFE
-33-50. A bitter fluid secreted in the body. ~ BILE
-37-69. Meaning pale. ~ WAN
+A1. Slang expression for a stupid fellow. ~ BOOB
+A1 ^Printed: 1-2
+A5. What the barber asks you. ~ SHAMPOO
+A5 ^Printed: 3-4
+A11. Expressing an indeterminate number. ~ SOME
+A11 ^Printed: 5-6
+A14. To wander. ~ ROAM
+A14 ^Printed: 7-8
+A16. A second time. ~ AGAIN
+A16 ^Printed: 9-10
+A17. Absent. ~ AWAY
+A17 ^Printed: 11-12
+A18. An ensign. ~ FLAG
+A18 ^Printed: 13-14
+A20. A river in France. ~ SEINE
+A20 ^Printed: 15-16
+A21. To babble. ~ CLAT
+A21 ^Printed: 17-18
+A22. Denoting mistakes. ~ ERRS
+A22 ^Printed: 19-20
+A24. To talk in an easy, familiar manner. ~ CHAT
+A24 ^Printed: 21-22
+A25. Small tubs. ~ KITS
+A25 ^Printed: 23-24
+A27. Periods of time. ~ ERAS
+A27 ^Printed: 25-26
+A28. A month. ~ SEPTEMBER
+A28 ^Printed: 27-28
+A29. To remain. ~ STAY
+A29 ^Printed: 29-30
+A30. Immersion of the body in water. ~ BATH
+A30 ^Printed: 31-32
+A32. Used fo rhealing or soothing. ~ BALM
+A32 ^Printed: 33-34
+A33. A repast. ~ MEAL
+A33 ^Printed: 35-36
+A35. A married woman. ~ WIFE
+A35 ^Printed: 37-38
+A36. An omnibus. ~ STAGE
+A36 ^Printed: 39-40
+A40. To reveal. ~ RIOT
+A40 ^Printed: 41-42
+A42. An exchange for money. ~ SALE
+A42 ^Printed: 43-44
+A43. A proprietor. ~ OWNER
+A43 ^Printed: 45-46
+A44. The covert of a wild beast. ~ LAIR
+A44 ^Printed: 47-48
+A46. Part of the animal body. ~ BONE
+A46 ^Printed: 49-50
+A47. One who forms a plan. ~ PLOTTER
+A47 ^Printed: 51-52
+A48. A swift footed animal. ~ DEER
+A48 ^Printed: 53-54
+
+D2. A conjunction. ~ OR
+D2 ^Printed: 55-7
+D3. An exclamation. ~ OOF
+D3 ^Printed: 56-13
+D4. A large bundle of goods. ~ BALE
+D4 ^Printed: 2-19
+D6. A possessive verb in third person. ~ HAS
+D6 ^Printed: 57-15
+D7. A matter of years. ~ AGE
+D7 ^Printed: 58-64
+D8. A domestic. ~ MAIDSERVANT
+D8 ^Printed: 59-72
+D9. A short stiff piece of wire. ~ PIN
+D9 ^Printed: 60-65
+D10. A number. ~ ONE
+D10 ^Printed: 61-16
+D11. To hit. ~ SWAT
+D11 ^Printed: 5-22
+D12. A common grain. ~ OAT
+D12 ^Printed: 62-18
+D13. A word showing possession. ~ MY
+D13 ^Printed: 63-12
+D15. What we always aim at. ~ MARK
+D15 ^Printed: 8-23
+D17. An exclamation of unhappiness. ~ ALAS
+D17 ^Printed: 11-26
+D19. Cartilage. ~ GRISTLE
+D19 ^Printed: 14-38
+D21. A document giving certain privileges. ~ CHARTER
+D21 ^Printed: 17-41
+D23. A vapor. ~ STEAM
+D23 ^Printed: 20-34
+D24. Found in good milk. ~ CREAM
+D24 ^Printed: 21-35
+D26. A secret agent. ~ SPY
+D26 ^Printed: 24-30
+D27. Relating to the movement of the tide. ~ EBB
+D27 ^Printed: 25-31
+D29. To be free from danger. ~ SAFE
+D29 ^Printed: 29-44
+D31. To call. ~ HAIL
+D31 ^Printed: 32-47
+D32. A bitter fluid secreted in the body. ~ BILE
+D32 ^Printed: 33-50
+D34. A burden. ~ LOAD
+D34 ^Printed: 36-53
+D35. Meaning pale. ~ WAN
+D35 ^Printed: 37-69
+D36. Pertaining to the sun. ~ SOL
+D36 ^Printed: 39-70
+D37. A number. ~ TWO
+D37 ^Printed: 66-71
+D38. To obtain. ~ GET
+D38 ^Printed: 67-73
+D39. Meaning before. ~ ERE
+D39 ^Printed: 40-74
+D41. To fasten. ~ TIE
+D41 ^Printed: 42-75
+D42. Similar to—therefore. ~ SO
+D42 ^Printed: 43-68
+D45. Meaning again. ~ RE
+D45 ^Printed: 48-76
