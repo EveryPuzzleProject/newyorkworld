@@ -14,9 +14,12 @@ A6 ^Printed: 4-5
 A16. What this puzzle is. ~ HARD
 A16 ^Printed: 38-39
 A16 ^Note: misprint: the pair that fits the grid is 18-19
+A16 ^Fits: 18-19
 ```
 
-- `^Printed:` is the pair as printed, misprints included; a `^Note:` names the pair that fits.
+- `^Printed:` is the pair as printed, misprints included; a `^Note:` names the pair that fits,
+  and `^Fits:` gives it in a form tools read (2026-11-19: the review page labels each run's end
+  squares from `^Fits:`, else `^Printed:`, so the blank grid shows the World's own numbers).
 - A run with no clue line is a given word (FUN in No. 1) or, with an empty clue (`A4. ~ SALES`), a
   word the paper printed no clue for.
 - A line the paper printed twice (No. 26's 27-34, No. 29's 77-79) is one clue; the other line is in

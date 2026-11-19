@@ -237,6 +237,9 @@ def check_modern(z, notes) -> list[str]:
         pr = z["cmeta"].get(ref, {}).get("Printed", "")
         if not re.match(r"^[^\s-]+-[^\s-]+$", pr):
             probs.append(f"{ref}: no ^Printed: pair")
+        fits = z["cmeta"].get(ref, {}).get("Fits")
+        if fits is not None and not re.match(r"^[^\s-]+-[^\s-]+$", fits):
+            probs.append(f"{ref}: ^Fits: {fits!r} is not a pair")
     for ref in z["cmeta"]:
         if ref not in seen:
             probs.append(f"metadata for {ref}, which has no clue line")
