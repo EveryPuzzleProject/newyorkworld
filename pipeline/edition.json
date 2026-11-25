@@ -1,13 +1,13 @@
 {
  "_about": "blitz edition: what each puzzle's edition (edition/<xdid>.xd) was made from, so it is made again only when that changes. Format: blitz design/ship.md, \"The edition\".",
- "version": "6c492a968512aa96",
+ "version": "0edb105b3d0d95dc",
  "puzzles": {
   "nyw1913-12-21": {
    "status": "made",
-   "inputs_sha256": "c249dd2d4745ae82fa2de575f0b42f8bd39c4bc37a9f30be770512510596a7cc",
+   "inputs_sha256": "c3b123b56095b03d648c3a8fd0872cd6ce4f8d64bb4670bff69e5daca0c364ba",
    "inputs": {
-    "version": "6c492a968512aa96",
-    "transcription_sha256": "b32c99e38166d066c589d2f35283c19af7be577464f1fb4cecec6e9b353ee4fe",
+    "version": "0edb105b3d0d95dc",
+    "transcription_sha256": "6cae16c65bdcc5de11bed74d79da38d1a9bf28f0dd7e4407a0c6bee665c8e40f",
     "marks": [],
     "evidence": [],
     "unrecorded": false,
@@ -30,20 +30,16 @@
    "held": [],
    "corrections": [],
    "declined": [],
-   "notes": [
-    "Fill in the small squares with words which agree with the following definitions:"
-   ],
-   "kinds": [
-    "notes"
-   ],
-   "edition_sha256": "1c94723be7d8f7db36d419dc8ba8840495ab49044c1d57a5f4a2c07735602888"
+   "notes": [],
+   "kinds": [],
+   "edition_sha256": "6cae16c65bdcc5de11bed74d79da38d1a9bf28f0dd7e4407a0c6bee665c8e40f"
   },
   "nyw1913-12-28": {
    "status": "made",
-   "inputs_sha256": "6e52c3d871e869e57afae4081dd316fd6f0b8ad9874ec1578d99b3b64ca64b29",
+   "inputs_sha256": "6e31f9c6b72668133d390b90293061302a2e4560ab713fb6e97afa3d25451e85",
    "inputs": {
-    "version": "6c492a968512aa96",
-    "transcription_sha256": "34afde97764e803acfe85a5db2eb3e27d644af6170519cbd23770e4975da04e6",
+    "version": "0edb105b3d0d95dc",
+    "transcription_sha256": "8b62375a08aa0f151dd407a6528bc06800eedcf3cf5642d7582add85d89de63a",
     "marks": [],
     "evidence": [],
     "unrecorded": false,
@@ -78,22 +74,16 @@
    "held": [],
    "corrections": [],
    "declined": [],
-   "notes": [
-    "FIND THE MISSING WORD!",
-    "The great interest shown ii FUN'S word-cross puzzle, published last week, has prompted the puzzle editor to submit another of the same kind.",
-    "The great interest shown in FUN'S word-cross puzzle, pub- which agree with the definitions given below. The solution to the word-cross puzzle, given on the preceding page, shows how the squares are to be filled in, using one square for each letter."
-   ],
-   "kinds": [
-    "notes"
-   ],
-   "edition_sha256": "69bc4731910d60875cf21ab73d13eb776601b43264e25a1e09accc91c0926018"
+   "notes": [],
+   "kinds": [],
+   "edition_sha256": "8b62375a08aa0f151dd407a6528bc06800eedcf3cf5642d7582add85d89de63a"
   },
   "nyw1914-01-04": {
    "status": "made",
-   "inputs_sha256": "30981880f3f08819a0f568befc41976297ab0e925309ef58ff464424f8c0a60b",
+   "inputs_sha256": "64aaac9dd2a5dd176e9f40f8309a3496569cd226eb70814a63326bb4389d7d6a",
    "inputs": {
-    "version": "6c492a968512aa96",
-    "transcription_sha256": "db64e769b6ccfc49d1718ebca3842863155d8e0107eafc0917b5c81ea423138d",
+    "version": "0edb105b3d0d95dc",
+    "transcription_sha256": "1807f2ff6e2ae47de108e8bcd5a6773aa61f4645a04e79d7536429a66149775d",
     "marks": [],
     "evidence": [],
     "unrecorded": false,
@@ -124,21 +114,16 @@
    "held": [],
    "corrections": [],
    "declined": [],
-   "notes": [
-    "Here is another one of FUN'S word-cross puzzles. See if you can fill in the missing words.",
-    "Fill in the squares in the above diagram with words which correspond with the definitions given below. The solution will be given in next week's FUN."
-   ],
-   "kinds": [
-    "notes"
-   ],
-   "edition_sha256": "10c02cd7c8c5333334b23e2511d880b7762b67e2b206b332b7a2415f8c91e152"
+   "notes": [],
+   "kinds": [],
+   "edition_sha256": "1807f2ff6e2ae47de108e8bcd5a6773aa61f4645a04e79d7536429a66149775d"
   },
   "nyw1914-01-11": {
    "status": "made",
-   "inputs_sha256": "a85aaf86383fff9265a034954f18eab206c1b52101fb3620d6c3296c8119c85a",
+   "inputs_sha256": "d3cde0b4a97330d0f6e207cb605d8c2bc83bd551fac6c7f2e115b6381a0025d8",
    "inputs": {
-    "version": "6c492a968512aa96",
-    "transcription_sha256": "07e237c0bdc3e8f1971d77144b2310783055bd38275e3781182b480618d7c0ec",
+    "version": "0edb105b3d0d95dc",
+    "transcription_sha256": "211f514d01054de474f4f25a1864671b829624bc22c110b4f226f313938ccf7d",
     "marks": [],
     "evidence": [],
     "unrecorded": false,
@@ -169,20 +154,16 @@
    "held": [],
    "corrections": [],
    "declined": [],
-   "notes": [
-    "HERE is a cross-word puzzle. Can you solve it? Fill in the spaces in diagram with words which agree with the definitions, apportioning one letter to each square. For instance, 1-2 means to help; the word is aid. Can you find the rest?"
-   ],
-   "kinds": [
-    "notes"
-   ],
-   "edition_sha256": "9229092e5a5ebb062af370cfd4677041fd6053cc53e6d9115ff588101c2c6000"
+   "notes": [],
+   "kinds": [],
+   "edition_sha256": "211f514d01054de474f4f25a1864671b829624bc22c110b4f226f313938ccf7d"
   },
   "nyw1914-01-18": {
    "status": "made",
-   "inputs_sha256": "b8c989a6652746e1416074c7d1bd6304bb31f40e34d8f155bf6cbadd95b286dd",
+   "inputs_sha256": "12ad284c908448df81891a94bdf1af130938bd42d54856e3dcd9532ef621b0be",
    "inputs": {
-    "version": "6c492a968512aa96",
-    "transcription_sha256": "c844891caeacb9611dbccb762a7ab283ecf5c14ea0549531f59ae5617b9a583e",
+    "version": "0edb105b3d0d95dc",
+    "transcription_sha256": "d112f2903dddc579ed4ffc9e270bf5cd8f0e86f4494b7d1dc586e7d74b5d73fe",
     "marks": [],
     "evidence": [],
     "unrecorded": false,
@@ -213,21 +194,16 @@
    "held": [],
    "corrections": [],
    "declined": [],
-   "notes": [
-    "Here is another of FUN'S word cross puzzles. See if you can solve it.",
-    "Fill in the squares in the above diagram with words which correspond with the clues and definitions given below. The solution will be given in next week's FUN."
-   ],
-   "kinds": [
-    "notes"
-   ],
-   "edition_sha256": "7e6d59b00f67ad47cfe9ed5e23ab4abc717a7df9712524b912bd94e53a0d50a1"
+   "notes": [],
+   "kinds": [],
+   "edition_sha256": "d112f2903dddc579ed4ffc9e270bf5cd8f0e86f4494b7d1dc586e7d74b5d73fe"
   },
   "nyw1914-01-25": {
    "status": "made",
-   "inputs_sha256": "9a6035688235c42eb072d77476af8d1810d609ec700d958dfc40b82d62c9220b",
+   "inputs_sha256": "f3f25f631d849bd0091007c7a36b7ba905b2cf6f312528699a7c1f9c17e47bdf",
    "inputs": {
-    "version": "6c492a968512aa96",
-    "transcription_sha256": "58477e60a2ebc60d65fe78454ccab9d84d91e4c996906b3b7bcb42a2509bcad5",
+    "version": "0edb105b3d0d95dc",
+    "transcription_sha256": "7a77d9a0d5afa28b51e565b668738956d872d84a2cf2ae79926b3adbb0410bfb",
     "marks": [],
     "evidence": [],
     "unrecorded": false,
@@ -250,20 +226,16 @@
    "held": [],
    "corrections": [],
    "declined": [],
-   "notes": [
-    "Here is No. 6 in FUN'S series of cross-word puzzles. The solution to No. 5 will be found on page 15 of this issue. To solve today's puzzle fill in the small squares in the above diamond with words corresponding to the clues and definitions given below. The solution to today's cross-word puzzle will appear in next week's FUN."
-   ],
-   "kinds": [
-    "notes"
-   ],
-   "edition_sha256": "1423d75b9a351ca6dd16b22d2e34532132e4af47f5f018817596d12173f80514"
+   "notes": [],
+   "kinds": [],
+   "edition_sha256": "7a77d9a0d5afa28b51e565b668738956d872d84a2cf2ae79926b3adbb0410bfb"
   },
   "nyw1914-02-01": {
    "status": "made",
-   "inputs_sha256": "45269159682d43bac4f4420e3c3fccf7b7a0ea7c88e73b7dbc633337e3351857",
+   "inputs_sha256": "3385e60ae4ec786edd0db431654d0b462cd1079062eda2afdf28c4ee995e4263",
    "inputs": {
-    "version": "6c492a968512aa96",
-    "transcription_sha256": "95bdfa38a459e7d7300cdcf298d2c8bf8d4082dbe5b7bb36a4fc7222ff8e6131",
+    "version": "0edb105b3d0d95dc",
+    "transcription_sha256": "edfabfaeecf8cd95647e09e8dab2a274beca314e388a1a31d7646e130ed4db6b",
     "marks": [],
     "evidence": [],
     "unrecorded": false,
@@ -290,21 +262,16 @@
    "held": [],
    "corrections": [],
    "declined": [],
-   "notes": [
-    "FUN'S cross word puzzles apparently are getting more popular than ever. The puzzle editor has received from readers many interesting new cross word puzzles, which he will be glad to use from time to time. It is more difficult to make up a cross word puzzle than it is to solve one. If you doubt this try to make one yourself.",
-    "Today the seventh puzzle in the series is presented. Fill in the small squares in the above diamonds with words corresponding to the clews and definitions given below. On page 15 you will find the solution to last week's puzzle. The solution to today's puzzle will be given in next week's FUN."
-   ],
-   "kinds": [
-    "notes"
-   ],
-   "edition_sha256": "9c15b01f72ccf8b717b679bbba123637b77ed7882cd3bec2530ceb2c4f9dd9e7"
+   "notes": [],
+   "kinds": [],
+   "edition_sha256": "edfabfaeecf8cd95647e09e8dab2a274beca314e388a1a31d7646e130ed4db6b"
   },
   "nyw1914-02-08": {
    "status": "made",
-   "inputs_sha256": "ce395cc72bcdd8a8d35388e0c42f313a3e342154ffde806ce6469796cba407fb",
+   "inputs_sha256": "f73ef8775b73c3761a96a108536d5a9474bce4d5adc87972abd8d85c3b297ced",
    "inputs": {
-    "version": "6c492a968512aa96",
-    "transcription_sha256": "58d532bf8ba6601aa8e9a2e15f35822c843d9410dd11912357b6757783ba1cd6",
+    "version": "0edb105b3d0d95dc",
+    "transcription_sha256": "be8893b75506eee14783842d06ec3e8c10ff50140ab91e4728aff7d1cfcda9a0",
     "marks": [],
     "evidence": [],
     "unrecorded": false,
@@ -331,20 +298,16 @@
    "held": [],
    "corrections": [],
    "declined": [],
-   "notes": [
-    "Today's cross word puzzle, the eighth in FUN'S series, has been contributed by Mrs. M. B. Wood of New York City. See if you can solve it. Fill in the small squares in the above diamond with words corresponding to the clews and definitions given below it. On another page you will find the solution to last week's puzzle. The solution to today's puzzle will be given in next week's FUN."
-   ],
-   "kinds": [
-    "notes"
-   ],
-   "edition_sha256": "2e28aa63d68bc6fe45e3b7da19935101401d45c74752c5362bc60413553dc443"
+   "notes": [],
+   "kinds": [],
+   "edition_sha256": "be8893b75506eee14783842d06ec3e8c10ff50140ab91e4728aff7d1cfcda9a0"
   },
   "nyw1914-02-15": {
    "status": "made",
-   "inputs_sha256": "9140d55e94858b4a387c81ae1e873f8ede229cca13ca0b26336d372d515f108a",
+   "inputs_sha256": "1fa50b145ae61365871e7094d4358b670569db4bb5055943911dfe36c43de6d6",
    "inputs": {
-    "version": "6c492a968512aa96",
-    "transcription_sha256": "bd4c560f5c47e45afb2e4e3ea2ee812c64c478c8b76c7587fe786f8ae79cdd74",
+    "version": "0edb105b3d0d95dc",
+    "transcription_sha256": "64ed087031f33041217edc8a0bbc40fef15c139ec93efb4df6221ae56c256d22",
     "marks": [],
     "evidence": [],
     "unrecorded": false,
@@ -391,24 +354,16 @@
    "held": [],
    "corrections": [],
    "declined": [],
-   "notes": [
-    "SOLVE THEM IF YOU CAN.",
-    "Today's cross-word puzzle, the ninth in FUN'S series, will be found somewhat easier than the one given last week. You have two words already provided as a starter—FUN and PUZZLES.",
-    "Fill in the small squares in the diamond with words corresponding to the clews and definitions given herewith, allowing one letter of the word to each small square.",
-    "On another page you will find the solution to last week's cross-word puzzle, showing just how the letters are to be placed to form words reading across and up and down.",
-    "The solution to today's puzzle will be given in next week's FUN."
-   ],
-   "kinds": [
-    "notes"
-   ],
-   "edition_sha256": "a824d5c5607fe673da828da81d25e480e6ce48c75865dc9cd54cd6d2fb411e2c"
+   "notes": [],
+   "kinds": [],
+   "edition_sha256": "64ed087031f33041217edc8a0bbc40fef15c139ec93efb4df6221ae56c256d22"
   },
   "nyw1914-02-22": {
    "status": "made",
-   "inputs_sha256": "9ec664b04a90d5636cb91ba32fb7006ccb69144d9ede81b03aed17207d359e53",
+   "inputs_sha256": "6a2be8830f166e06d0702a9d792078174fed0a165f0d2645552566a1ac6739aa",
    "inputs": {
-    "version": "6c492a968512aa96",
-    "transcription_sha256": "0c7fc69edb8127e7f6d0f15cb7053e2fab2d2304d46dfd0de4adc1cb7cf453e7",
+    "version": "0edb105b3d0d95dc",
+    "transcription_sha256": "df299f04ac9b11c434da30d672fe526bdc5028fe4b4e424a2e95f589370cb0e5",
     "marks": [],
     "evidence": [],
     "unrecorded": false,
@@ -443,22 +398,16 @@
    "held": [],
    "corrections": [],
    "declined": [],
-   "notes": [
-    "Today being the anniversary of George Washington's birthday, what could be more appropriate to the occasio: than a real, patriotic Georga Washington puzzle. So here is one, the tenth in FUN'S series of cross-word puzzles",
-    "Fill in the small squares in the diamond with words corresponding to the clews and definitions given herewith, allowing one letter of the word to each square.",
-    "On another page you will find the solution to last week's cross-word puzzle showing just how the letters are placed to form words reading up and down and across."
-   ],
-   "kinds": [
-    "notes"
-   ],
-   "edition_sha256": "a4b766dc9e3df5d888b2b7fe54de311bbe30ea7a9e5505d006b1f122350322ab"
+   "notes": [],
+   "kinds": [],
+   "edition_sha256": "df299f04ac9b11c434da30d672fe526bdc5028fe4b4e424a2e95f589370cb0e5"
   },
   "nyw1914-03-01": {
    "status": "made",
-   "inputs_sha256": "4fef7179f9fb3816d4126b110417d17a93dec4c18c30597bffe4dd1d2adc0374",
+   "inputs_sha256": "a6f4bee49e1436db86cecd03413bca8ec483616361093e30271585070abf2ba0",
    "inputs": {
-    "version": "6c492a968512aa96",
-    "transcription_sha256": "f0fc042190df43e61cea57224b2104ade079f62fbbbf30f614fb6c70eff6a656",
+    "version": "0edb105b3d0d95dc",
+    "transcription_sha256": "1eb902c085e186dcdb016a157fc011372598396890c40659e05b5972eed45868",
     "marks": [],
     "evidence": [],
     "unrecorded": false,
@@ -481,20 +430,16 @@
    "held": [],
    "corrections": [],
    "declined": [],
-   "notes": [
-    "Fill in the small squares in the above diamond with words corresponding to the clews and definitions given below. On another page you will find the solution to last week's cross-word puzzle, which you can study as an example of what is required in this puzzle. The solution will be given in next week's FUN."
-   ],
-   "kinds": [
-    "notes"
-   ],
-   "edition_sha256": "7bafbcb098b600a8855698263773e9ce5bf89af39d8e74ebaf57b5d6c1e34a76"
+   "notes": [],
+   "kinds": [],
+   "edition_sha256": "1eb902c085e186dcdb016a157fc011372598396890c40659e05b5972eed45868"
   },
   "nyw1914-03-08": {
    "status": "made",
-   "inputs_sha256": "b1ec950c924199f039c35df4e27d6c12f7c0d9705f7c58ec4f463dd9d9feab76",
+   "inputs_sha256": "2da1f95e1fe4ebe7df29f496cd045ec45bd86650314fd7a99eb5f9426a92f918",
    "inputs": {
-    "version": "6c492a968512aa96",
-    "transcription_sha256": "ffe403937ac1f2c542792d43bb0d81ec09b3bc20efd551661db61a29ea86f545",
+    "version": "0edb105b3d0d95dc",
+    "transcription_sha256": "245c956ad72f7b8e27a471694ac72473d46256ea3182f40826be7420f3cb8229",
     "marks": [],
     "evidence": [],
     "unrecorded": false,
@@ -521,20 +466,16 @@
    "held": [],
    "corrections": [],
    "declined": [],
-   "notes": [
-    "See if you can solve it. Fill in the small squares in the above diamond with words corresponding to the clews and definitions given below. On another page you will find the solutions of last week's puzzle. The solution to today's puzzle will be given in next week's FUN."
-   ],
-   "kinds": [
-    "notes"
-   ],
-   "edition_sha256": "c824f758cdbbd185de57427e544197a874e8b3ccbe16b20c5b632ef0a973c726"
+   "notes": [],
+   "kinds": [],
+   "edition_sha256": "245c956ad72f7b8e27a471694ac72473d46256ea3182f40826be7420f3cb8229"
   },
   "nyw1914-03-15": {
    "status": "made",
-   "inputs_sha256": "a99b641c6ad566b1ae7b72c261149b375222ef65d5c07c83939e0c4db5dcfe23",
+   "inputs_sha256": "2dc28dcf38e848448e0e1646907579938df2ad9ab7f74d5977ce419c5929dc61",
    "inputs": {
-    "version": "6c492a968512aa96",
-    "transcription_sha256": "d1b94e77bab0a31ee39f281c150475598deb6685f9bc41b26aefea1b71f2f4f1",
+    "version": "0edb105b3d0d95dc",
+    "transcription_sha256": "12a9c718b457e801037014dbdfaec9b9ffcba0aa0bd9c51f1dc76fe3d72a7317",
     "marks": [],
     "evidence": [],
     "unrecorded": false,
@@ -577,23 +518,16 @@
    "held": [],
    "corrections": [],
    "declined": [],
-   "notes": [
-    "Here is a very ingeniously constructed cross work puzzle for you to solve. It really consists of two puzzles in one. Mr. Harry Cleaver of 83 Cathedral street, Montreal, sent it in, and he invites all of FUN'S clever puzzle solvers to fathom it if they can:",
-    "MAIN DIAMOND PUZZLE.",
-    "INSIDE DIAMOND PUZZLE.",
-    "Starting from 37 and going around to 44 you will find what President Wilson is."
-   ],
-   "kinds": [
-    "notes"
-   ],
-   "edition_sha256": "81d22d3c25e724cbcf8ef7fa93b11a28e2b6b247534a1dc70a23182df9f2297a"
+   "notes": [],
+   "kinds": [],
+   "edition_sha256": "12a9c718b457e801037014dbdfaec9b9ffcba0aa0bd9c51f1dc76fe3d72a7317"
   },
   "nyw1914-03-22": {
    "status": "made",
-   "inputs_sha256": "fa65fbb7affdb7157eb5b47f19c0bbf30c47a0943c6dea833ea0664741fa9297",
+   "inputs_sha256": "6c2431702c463c77a05f503e89ae5e05a8a75883b8b6086049e2e26985da4cd0",
    "inputs": {
-    "version": "6c492a968512aa96",
-    "transcription_sha256": "476af34cb2236064e3bbf0964495dfa8abc708a762d2b010ff7d0f1fd52c6bed",
+    "version": "0edb105b3d0d95dc",
+    "transcription_sha256": "4a5a21aedf0a1767aa7366b158cbb22b029b17302ed63349c0c2e8f7ea221c5a",
     "marks": [],
     "evidence": [],
     "unrecorded": false,
@@ -620,20 +554,16 @@
    "held": [],
    "corrections": [],
    "declined": [],
-   "notes": [
-    "Today's cross word puzzle, the fourteenth in FUN'S series, will be found different from any previous one. It was sent in by \"G. H. F.,\" of Putnam avenue, Brooklyn. Fill in the small squares with words corresponding to the clews and definitions given below. The solution will be given in next week's FUN."
-   ],
-   "kinds": [
-    "notes"
-   ],
-   "edition_sha256": "1c4abcaa82e784f8742b42a77deed90d0c2295965d25b91d1ccbb57de6044769"
+   "notes": [],
+   "kinds": [],
+   "edition_sha256": "4a5a21aedf0a1767aa7366b158cbb22b029b17302ed63349c0c2e8f7ea221c5a"
   },
   "nyw1914-03-29": {
    "status": "made",
-   "inputs_sha256": "b0015c7b21d195114f083bdd0285e82acae46b5182a4ff112baa0ab554a8d3c3",
+   "inputs_sha256": "336a6d14e3e2fb96d9292b38a834cf0d1a9c597caada730aec68b458d3a1ba6d",
    "inputs": {
-    "version": "6c492a968512aa96",
-    "transcription_sha256": "66bca88bc266bc4a42109eea2d00967dd4fec992242b3e5e0cf8af011debcd4a",
+    "version": "0edb105b3d0d95dc",
+    "transcription_sha256": "db27535db4b2989a09e5fce563d291d2c8f1e9608c7dd259f19c3cd177b28ac6",
     "marks": [],
     "evidence": [],
     "unrecorded": false,
@@ -660,20 +590,16 @@
    "held": [],
    "corrections": [],
    "declined": [],
-   "notes": [
-    "Today's cross work puzzle, the fifteenth in FUN'S series, was sent in by Miss Florence A. Reif of Honesdale, Pa. See if you can solve it. Fill in the little squares in the above diamond with words corresponding to the clews and definitions given below. On another page you will find the solution to last week's cross work puzzle. The solution to today's puzzle will be given in next week's FUN."
-   ],
-   "kinds": [
-    "notes"
-   ],
-   "edition_sha256": "b8d2134cba1563130af82cc00c88bb5715d629eaa7896b957d919b82dc8cf6df"
+   "notes": [],
+   "kinds": [],
+   "edition_sha256": "db27535db4b2989a09e5fce563d291d2c8f1e9608c7dd259f19c3cd177b28ac6"
   },
   "nyw1914-04-05": {
    "status": "made",
-   "inputs_sha256": "a35a601788fe213d5091ea15de84124a4a7a23c7a80f4f9591ee588859a401d4",
+   "inputs_sha256": "dccf8aee414872102bc66b2531fd97045c29be94ba4707103d73049e917aa8a0",
    "inputs": {
-    "version": "6c492a968512aa96",
-    "transcription_sha256": "4d8428771a6d94371bfb63970455702d387c200f85958701cad2c041d23f221f",
+    "version": "0edb105b3d0d95dc",
+    "transcription_sha256": "4b6955b08f6419024a5dbd70217143f9eb2914b0244a6d5ea6dd7d3fc232091d",
     "marks": [],
     "evidence": [],
     "unrecorded": false,
@@ -700,20 +626,16 @@
    "held": [],
    "corrections": [],
    "declined": [],
-   "notes": [
-    "Today's cross-word puzzle, the sixteenth in FUN'S series, was sent in by Miss Katherine Reilly, 332 East Fifty-sixth street, New York City. See if you can solve it. Fill in the small squares in the above diamond with words corresponding to the clews and definitions given below. On another page you will find the solution to last week's cross-word puzzle. The solution to today's puzzle will be given in next week's FUN."
-   ],
-   "kinds": [
-    "notes"
-   ],
-   "edition_sha256": "e2a53a6b643e5cf12cb980469aa7ca6005f1ca9fb701f086b0d13771a8c2467f"
+   "notes": [],
+   "kinds": [],
+   "edition_sha256": "4b6955b08f6419024a5dbd70217143f9eb2914b0244a6d5ea6dd7d3fc232091d"
   },
   "nyw1914-04-12": {
    "status": "made",
-   "inputs_sha256": "7d205cfcf4ae1db3a29a31456c3c54d8b9b70cb211606a142e89489371e17bcd",
+   "inputs_sha256": "d24a43901a38307cc15adf94725a1ac634d976fb128e48395b4cefef3ea4126d",
    "inputs": {
-    "version": "6c492a968512aa96",
-    "transcription_sha256": "04b8d8fbb2b3c3fceef8ab3af8d5102cea56d0b1b2d8e3c272e3fedf316f93e0",
+    "version": "0edb105b3d0d95dc",
+    "transcription_sha256": "97695db96b591df54cb5b4a129d269cc33076aefaa6c81e6e7643aab32f8e4c2",
     "marks": [],
     "evidence": [],
     "unrecorded": false,
@@ -744,21 +666,16 @@
    "held": [],
    "corrections": [],
    "declined": [],
-   "notes": [
-    "CAN YOU SOLVE IT?",
-    "Today being Easter Sunday, FUN'S cross word puzzle, the seventeenth in the series, is given an Easter flavoring. Fill in the small squares with letters spelling words corresponding to the clews and definitions given below. Only one letter is to be placed in each square. The solution to this puzzle will be published in next week's FUN."
-   ],
-   "kinds": [
-    "notes"
-   ],
-   "edition_sha256": "880dd9ef5c8671ee9acc5faa7f9f22c9aa5ac01aadc20289a81528013e076c5b"
+   "notes": [],
+   "kinds": [],
+   "edition_sha256": "97695db96b591df54cb5b4a129d269cc33076aefaa6c81e6e7643aab32f8e4c2"
   },
   "nyw1914-04-19": {
    "status": "made",
-   "inputs_sha256": "026a0f803a57d56cb51fb57f8b3eed6d22a246ed07926d278ac0ce868352bf7a",
+   "inputs_sha256": "bf2c480a1b7ab7bf3ef8ecd72a6d647538d504a46f549796ad2d6e02fd26118c",
    "inputs": {
-    "version": "6c492a968512aa96",
-    "transcription_sha256": "ef158c9324f21b0eeddb1ae4b91d9fa4bc774a43e5b058cb1f32c9675fbc8442",
+    "version": "0edb105b3d0d95dc",
+    "transcription_sha256": "7de3903a5f2c377d8fbdc8d547f5366743ae2a5b60c6044e5cd8d17cb1634da5",
     "marks": [],
     "evidence": [],
     "unrecorded": false,
@@ -805,21 +722,16 @@
    "held": [],
    "corrections": [],
    "declined": [],
-   "notes": [
-    "Can You Solve Them?",
-    "It is different from any of the others published thus far and you will find yourself busily engaged for some time to come when once you begin to solve it. In addtiion to the usual cross-words, there are also four diagonal words to be found. They reach from the extreme corners to the cross at the center. Fill in the squares with letters spelling words corresponding to the list of clews and definitions given herewith. The solution will be given in next week's FUN."
-   ],
-   "kinds": [
-    "notes"
-   ],
-   "edition_sha256": "7c2af65b6955130d401ca09e63554345c6b7e348c7a3d7a64eebb11403c0f0cb"
+   "notes": [],
+   "kinds": [],
+   "edition_sha256": "7de3903a5f2c377d8fbdc8d547f5366743ae2a5b60c6044e5cd8d17cb1634da5"
   },
   "nyw1914-04-26": {
    "status": "made",
-   "inputs_sha256": "271c42503a9c99da7467d74138742daba2e1c4e64bc8eef981a3c5d2ba06c44a",
+   "inputs_sha256": "1cd93cb1c48754c5375d9965a90416289020210bc76759aad75245c2b5c4185e",
    "inputs": {
-    "version": "6c492a968512aa96",
-    "transcription_sha256": "94e90dea3c2b14c03ee02f1dd82effb4c662d9a20ed6f0fcde3d9697b6f4043a",
+    "version": "0edb105b3d0d95dc",
+    "transcription_sha256": "1468ba16fde39962f0252f5ac8b8beb189007ecde2f26168471508b2871b8193",
     "marks": [],
     "evidence": [],
     "unrecorded": false,
@@ -854,22 +766,16 @@
    "held": [],
    "corrections": [],
    "declined": [],
-   "notes": [
-    "Can You",
-    "Solve Them?",
-    "Here is a very cleverly constructed cross word puzzle for you to work out. It was sent in by Miss Olga Lehander of East Seventy-sixth street, New York City. Can you solve it? Fill in the small squares with letters spelling words corresponding to the list of clews and definitions given below. The solutions will be given in next week's FUN."
-   ],
-   "kinds": [
-    "notes"
-   ],
-   "edition_sha256": "af9bda2456bbe0c0e1fa7736da604bad7efdac646f12e4039b1dbdc034af2e9b"
+   "notes": [],
+   "kinds": [],
+   "edition_sha256": "1468ba16fde39962f0252f5ac8b8beb189007ecde2f26168471508b2871b8193"
   },
   "nyw1914-05-03": {
    "status": "made",
-   "inputs_sha256": "5bd4d4de895d15c64fad6161a2aa0ebe4813df42475135d86864ca264e2af5fd",
+   "inputs_sha256": "e5813bd02814ced77f2ae8309718e51b640bb2c9564121fee9d75f91c73d36ec",
    "inputs": {
-    "version": "6c492a968512aa96",
-    "transcription_sha256": "1ba70b045515b1ba5bb5026fd39e81f780bb8501f2da54d251e2a39944ec4b2f",
+    "version": "0edb105b3d0d95dc",
+    "transcription_sha256": "07760eb2846f451ad94d1cd86de01f81f1fdab6709cde388f3863a7bf0d774f1",
     "marks": [],
     "evidence": [],
     "unrecorded": false,
@@ -904,21 +810,16 @@
    "held": [],
    "corrections": [],
    "declined": [],
-   "notes": [
-    "CAN YOU SOLVE THIS ONE?",
-    "\"I am sure,\" she writes, \"your readers will find this puzzle more difficult than any published so far.\" Whether it is more difficult or not, is a question you will have to decide for yourselves. The puzzle is certainly different and its construction must have required considerable ingenuity and patience. Fill in the small squares with words corresponding to the list of clews and definitions given herewith. The solution will be given in next week's FUN."
-   ],
-   "kinds": [
-    "notes"
-   ],
-   "edition_sha256": "fe8c721545c28343ce651b6a6f6afc22ba935804083bc4bd30c76908f4407004"
+   "notes": [],
+   "kinds": [],
+   "edition_sha256": "07760eb2846f451ad94d1cd86de01f81f1fdab6709cde388f3863a7bf0d774f1"
   },
   "nyw1914-05-10": {
    "status": "made",
-   "inputs_sha256": "243c89bfa9a4ce0a30af260efb31ed460e952a2aa44136a6f426d9c1cf440429",
+   "inputs_sha256": "a39a498e3dd76f610948ab7eb33dcd656281bd864bee6f6d84a2ca1df756e2d6",
    "inputs": {
-    "version": "6c492a968512aa96",
-    "transcription_sha256": "c36418517744f09547c6f4473ad7a30c9e6982e1a4045f41bac9f9ab08bf4b98",
+    "version": "0edb105b3d0d95dc",
+    "transcription_sha256": "059fa89cd915f909f171b4be4bea292ed448099037f8b3bae614040ccb53f5eb",
     "marks": [],
     "evidence": [],
     "unrecorded": false,
@@ -945,21 +846,16 @@
    "held": [],
    "corrections": [],
    "declined": [],
-   "notes": [
-    "Miss Elizabeth M. Butzinger, who sent in the ingeniously constructed cross word puzzle published in last week's FUN, has contributed another. And here it is. See if you can solve it. Fill in the small squares with words corresponding to the clews and definitions given herewith.",
-    "The answer to this puzzle will be published in next week's FUN."
-   ],
-   "kinds": [
-    "notes"
-   ],
-   "edition_sha256": "76cf258cc877acf277d63af655648746787429ec95600f1096d78e891e875457"
+   "notes": [],
+   "kinds": [],
+   "edition_sha256": "059fa89cd915f909f171b4be4bea292ed448099037f8b3bae614040ccb53f5eb"
   },
   "nyw1914-05-31": {
    "status": "made",
-   "inputs_sha256": "aae548b01eb298404f7a0be95ec3427d0207a10abf3f45d860e9a0d119dc167e",
+   "inputs_sha256": "6061ae0499c638da456902168b60ec9dbe57d2296f1d90c835db46f2bb500fae",
    "inputs": {
-    "version": "6c492a968512aa96",
-    "transcription_sha256": "b02ceebe62bc183b2a86236c6095fe0cb492c1ed3b6b55911ab748a0c75cdcb0",
+    "version": "0edb105b3d0d95dc",
+    "transcription_sha256": "a715ec0ff67591c7afa7d9bebce0167ad3036f14f024faa4a7dec0f92be277aa",
     "marks": [],
     "evidence": [],
     "unrecorded": false,
@@ -982,20 +878,16 @@
    "held": [],
    "corrections": [],
    "declined": [],
-   "notes": [
-    "Here is number twenty-one in FUN'S series of cross word puzzles. It is different from any of the others published thus far and you will find yourself busily engaged for some time to come when you begin to solve it. Fill in the small squares in the above diamond with words corresponding to the clews and definitions given herewith. The solution will appear in next week's FUN."
-   ],
-   "kinds": [
-    "notes"
-   ],
-   "edition_sha256": "a430c52bc053145ba20660747bfd227f282df29fa2ef7ed261bf7a8bcd870d9b"
+   "notes": [],
+   "kinds": [],
+   "edition_sha256": "a715ec0ff67591c7afa7d9bebce0167ad3036f14f024faa4a7dec0f92be277aa"
   },
   "nyw1914-06-14": {
    "status": "made",
-   "inputs_sha256": "963a917aca0476a3ee3f1826373ca6a5d69a0f6abc3ebde9c93ed57c31a01991",
+   "inputs_sha256": "e0a479490d6f2d3a31e302bafd94a8d0584a3dd43ae38a90f6b09b2dc5869f69",
    "inputs": {
-    "version": "6c492a968512aa96",
-    "transcription_sha256": "ab527b0927bd6ce9820c73f754af1e00d5a1ca541ed8ae55cee8a8432b6865ed",
+    "version": "0edb105b3d0d95dc",
+    "transcription_sha256": "ebe5694183b64d6159812d7413efaf63077720fe6b4c478ec5f792915fe788d8",
     "marks": [],
     "evidence": [],
     "unrecorded": false,
@@ -1022,20 +914,16 @@
    "held": [],
    "corrections": [],
    "declined": [],
-   "notes": [
-    "The solution will appear in next week's FUN."
-   ],
-   "kinds": [
-    "notes"
-   ],
-   "edition_sha256": "688dec570e78c511e5917d607603138f6062b2d3e023e0d11aaad4988c91f241"
+   "notes": [],
+   "kinds": [],
+   "edition_sha256": "ebe5694183b64d6159812d7413efaf63077720fe6b4c478ec5f792915fe788d8"
   },
   "nyw1914-06-21": {
    "status": "made",
-   "inputs_sha256": "cf83147cd007a1cc50e6d84cbdab34464e0b40649eb7a02ad98d2d95bc1a98aa",
+   "inputs_sha256": "20b8c8d55b618bb91269e9124d464d632fda0309da17d57d391d71c5e8a079ac",
    "inputs": {
-    "version": "6c492a968512aa96",
-    "transcription_sha256": "128af460db3703fe5dfaecbf74ae74beca1b07ab8a4b88f0e7628f8a54a48b83",
+    "version": "0edb105b3d0d95dc",
+    "transcription_sha256": "ab823d7645cacf409404823246bf8984b8515fb45ff5d6bce6c65389f4d9e444",
     "marks": [],
     "evidence": [],
     "unrecorded": false,
@@ -1058,20 +946,16 @@
    "held": [],
    "corrections": [],
    "declined": [],
-   "notes": [
-    "Today's cross word puzzle, the twenty-fourth in FUN'S series, is contributed by Ernest A. Grant of Washington, D. C. Can you solve it? Fill in the small squares with words corresponding to the list of clews and definitions given herewith, allowing one letter of the word to each small square. The solution to the puzzle will be published in next week's FUN."
-   ],
-   "kinds": [
-    "notes"
-   ],
-   "edition_sha256": "546dba3422789515a9fd51a16b8a35b8f42fe875914f40d3e47d3c8fba807e15"
+   "notes": [],
+   "kinds": [],
+   "edition_sha256": "ab823d7645cacf409404823246bf8984b8515fb45ff5d6bce6c65389f4d9e444"
   },
   "nyw1914-06-28": {
    "status": "made",
-   "inputs_sha256": "84ea387a6751c34c1fbb8817c6d85ce45b83377a0eb1861f107cd8ffb803968c",
+   "inputs_sha256": "a8e1135b81b5a599e5bc9c56643956233aa8ea4e75cffb71fd9a2243aedad82c",
    "inputs": {
-    "version": "6c492a968512aa96",
-    "transcription_sha256": "8c921477c9c7f1e5bb4a8689ccabab78770f74bac8217904c63f5975af8d1c5a",
+    "version": "0edb105b3d0d95dc",
+    "transcription_sha256": "f95f0292f04da6975ab388aecf89d87a041ac6d3ea2d42b8696b9204da4e2e0f",
     "marks": [],
     "evidence": [],
     "unrecorded": false,
@@ -1094,20 +978,16 @@
    "held": [],
    "corrections": [],
    "declined": [],
-   "notes": [
-    "There is a fourth of July flavor to today's cross-word puzzle. You are invited to think of the Declaration of Independence and what it meant in 1776 and what it means today while you are trying to solve this puzzle. Fill in the small squares with words corresponding to the list of clews and definitions given below, allowing one letter of each word to each square. You will find the solution to this puzzle in next week's FUN. Meanwhile, see if you can solve it yourself."
-   ],
-   "kinds": [
-    "notes"
-   ],
-   "edition_sha256": "9f114bfb656503ce302467f9a4ec871f7aa9dd708f9c60282975f883805b7f25"
+   "notes": [],
+   "kinds": [],
+   "edition_sha256": "f95f0292f04da6975ab388aecf89d87a041ac6d3ea2d42b8696b9204da4e2e0f"
   },
   "nyw1914-07-05": {
    "status": "made",
-   "inputs_sha256": "83e39aa46eb13f963d0c2c6f19d9254b734b6dbb2ce90a7bc9e020dc250c778a",
+   "inputs_sha256": "8b3e58431fc21c60c5fc8274e0de6f5565cd0c300c2bd9f82327206f459b6e41",
    "inputs": {
-    "version": "6c492a968512aa96",
-    "transcription_sha256": "4e4d8aa92db417957a8eaeb890497955ce5353da4febc358b5d400773b1dc206",
+    "version": "0edb105b3d0d95dc",
+    "transcription_sha256": "25bcfb41d03ca98a0edf1bb058ee636130bd1647e3fcef6ed3a9bf14658cfdb5",
     "marks": [],
     "evidence": [],
     "unrecorded": false,
@@ -1130,20 +1010,16 @@
    "held": [],
    "corrections": [],
    "declined": [],
-   "notes": [
-    "Today's cross-word puzzle, the twenty-sixth in FUN'S series, is contributed by Charles L. Rives of Spring Valley, N. Y. Mr. Rives writes that he has found it easier to solve one of these puzzles than to originate one and he wonders how many of FUN'S readers will succeed in solving his puzzle. Fill in the small squares with words coresponding to the list of clews and definitions given below, allowing one letter to each square. The solution to this puzzle will be given in next week's FUN."
-   ],
-   "kinds": [
-    "notes"
-   ],
-   "edition_sha256": "787bccdd68d186d2158026909e7de602a9f21ad09f35af34404ef2567b81f21e"
+   "notes": [],
+   "kinds": [],
+   "edition_sha256": "25bcfb41d03ca98a0edf1bb058ee636130bd1647e3fcef6ed3a9bf14658cfdb5"
   },
   "nyw1914-07-12": {
    "status": "made",
-   "inputs_sha256": "92fac8c12058a206b3bb7d80d2c5e3008fd4a9343578c8c038cc63a7cab42476",
+   "inputs_sha256": "d0a4fecfbb7643787787380a30505bb954c11a03176bc318f5dc5215627f9926",
    "inputs": {
-    "version": "6c492a968512aa96",
-    "transcription_sha256": "e4c4a762bdaa6698b25ea08d0dbe69f8cd2efed9ad52409b66fbf63e74dfd82f",
+    "version": "0edb105b3d0d95dc",
+    "transcription_sha256": "3aa260b08b5e6c1e5650ef4942c799b016b400da07d6a6e6dede535e58c50665",
     "marks": [],
     "evidence": [],
     "unrecorded": false,
@@ -1206,20 +1082,16 @@
    "held": [],
    "corrections": [],
    "declined": [],
-   "notes": [
-    "Here is a new kind of cross-word puzzle for FUN'S puzzle experts to wrestle with. It is a contribution from W. G. H. Tiedemann of Third avenue, New York City, who very naturally suggests that any one who attempts to solve it is going to have a very interesting half hour. However, that remains to be determined when you try the puzzle yourself. The puzzle editor has taken the liberty to change several words and definitions in Mr. Tiedemann's original puzzle so that he, too, will have an interesting time of solving his own puzzle. Fill in the small squares with words corresponding to the list of clues and definitions given herewith. One letter only is to be placed in such square. The solution to this puzzle will be given in next week's FUN."
-   ],
-   "kinds": [
-    "notes"
-   ],
-   "edition_sha256": "39ba6df5b97e4816eedba3720f5a2e2f14ef74a14795a25f1c9ec8d54bc0be40"
+   "notes": [],
+   "kinds": [],
+   "edition_sha256": "3aa260b08b5e6c1e5650ef4942c799b016b400da07d6a6e6dede535e58c50665"
   },
   "nyw1914-07-19": {
    "status": "made",
-   "inputs_sha256": "323bc18451f14df8a413bc3c520eb0bcd340f351136afc40ccfdd2a2bca84925",
+   "inputs_sha256": "4cfadc21ded1aed475e90dbc7c311ee6d928a15a45647b7a6a966cefe35c09ff",
    "inputs": {
-    "version": "6c492a968512aa96",
-    "transcription_sha256": "2a140691ac42832d501c97576c2f85f43c02cc4155b35fadc10efd7b6a406670",
+    "version": "0edb105b3d0d95dc",
+    "transcription_sha256": "fc45b81ba7e1ece19f700280d2d15449cb1bc06793fe19ecb47165fd01d89f16",
     "marks": [],
     "evidence": [],
     "unrecorded": false,
@@ -1246,21 +1118,16 @@
    "held": [],
    "corrections": [],
    "declined": [],
-   "notes": [
-    "Today's cross word puzzle offers still another variation in the series. Instead of solving the puzzle in the usual way see if you can first complete it by filling in the blank squares with letters so as to spell words when read either across or up and down.",
-    "You do not require a numbered list of clews and definitions to work out this puzzle. Just think of a house and the furniture, fittings and supplies you will find in a house. With this clew to work on, you can readily call to mind nearly all the words needed to complete the puzzle. The solution, or rather the completed puzzle, will appear in next week's FUN."
-   ],
-   "kinds": [
-    "notes"
-   ],
-   "edition_sha256": "7dd18afa83d53de4bb009093948012de993fc47042e802a78e880a779f79ef81"
+   "notes": [],
+   "kinds": [],
+   "edition_sha256": "fc45b81ba7e1ece19f700280d2d15449cb1bc06793fe19ecb47165fd01d89f16"
   },
   "nyw1914-07-26": {
    "status": "made",
-   "inputs_sha256": "cad3b1ae1f1a7773b9370b291ff056168f3e531df71b8cccb37d98690ceff853",
+   "inputs_sha256": "a66a26a845a3eb9005816a9cfaa864f4a1cf749613b405d3d4941dbdf3810088",
    "inputs": {
-    "version": "6c492a968512aa96",
-    "transcription_sha256": "ad650b2a8fb2fc42aefba84411ecbfdca178143ea3cab32a9197553a68511dc1",
+    "version": "0edb105b3d0d95dc",
+    "transcription_sha256": "21bab0c67e7a1a276330d10877af893e9d809cdb6f3c5c8471f1295bb1898beb",
     "marks": [],
     "evidence": [],
     "unrecorded": false,
@@ -1283,20 +1150,16 @@
    "held": [],
    "corrections": [],
    "declined": [],
-   "notes": [
-    "Here are five puzzles in one, a contribution for FUN'S puzzle solvers to ponder over, from Aloysius E. Pracny of Jackson street, Brooklyn. He writes as follows: \"The pleasure I have found in solving the cross word puzzles in FUN has prompted me to construct the enclosed.\" Fill in the small squares with words corresponding to the list of clews and definitions given below, allowing one letter to each square. Then compare your solution with the one to be given in next week's FUN."
-   ],
-   "kinds": [
-    "notes"
-   ],
-   "edition_sha256": "74d3f806c3e5abc9b426505726649c19cfb15c23269ec755621ee4ba1ab10625"
+   "notes": [],
+   "kinds": [],
+   "edition_sha256": "21bab0c67e7a1a276330d10877af893e9d809cdb6f3c5c8471f1295bb1898beb"
   },
   "nyw1914-08-02": {
    "status": "made",
-   "inputs_sha256": "2defa1e55adb71d0c8647a0ca949c49e16110207b3b9c35b8fa6cb02baad9a30",
+   "inputs_sha256": "d9f2ac34a25e875fb1556c7b6f668608992b17e7cf028445003684053c856577",
    "inputs": {
-    "version": "6c492a968512aa96",
-    "transcription_sha256": "b431205da4237885ef9d61e85cbdd06df866768f4cf449df526af162b4895680",
+    "version": "0edb105b3d0d95dc",
+    "transcription_sha256": "924c927659ae81ed15dc67144e071b9322e5b019188a031ddd88ce5e99a608e4",
     "marks": [],
     "evidence": [],
     "unrecorded": false,
@@ -1323,20 +1186,16 @@
    "held": [],
    "corrections": [],
    "declined": [],
-   "notes": [
-    "The following clews will aid you in correctly solving the puzzle. Work it out yourself and then see how your solution compares with that which will be published in next week's issue of FUN."
-   ],
-   "kinds": [
-    "notes"
-   ],
-   "edition_sha256": "45d865392aa7b65a3533f8a9db450bd68e267deb6ac1f34ddf5100f7f181cc2c"
+   "notes": [],
+   "kinds": [],
+   "edition_sha256": "924c927659ae81ed15dc67144e071b9322e5b019188a031ddd88ce5e99a608e4"
   },
   "nyw1914-08-09": {
    "status": "made",
-   "inputs_sha256": "33de1129c51fec055212f4b1bf3a38cb3a343190df7e5a2bb2378e3b8776e961",
+   "inputs_sha256": "0a6c99c9d8187a3888fcd8792c7bf0826f4e85f07f078763c834126dd994a1b4",
    "inputs": {
-    "version": "6c492a968512aa96",
-    "transcription_sha256": "be34bcee3ef6530915cc9122fedbb65fbd39ed9a5c44d3e7ebd9e3110020ceda",
+    "version": "0edb105b3d0d95dc",
+    "transcription_sha256": "1cb86ca6794c89c698d977971006133222bd2f232846d0b75f500b495b18d16d",
     "marks": [],
     "evidence": [],
     "unrecorded": false,
@@ -1371,22 +1230,16 @@
    "held": [],
    "corrections": [],
    "declined": [],
-   "notes": [
-    "Here's a Perplexing Variety of Cross-Word Puzzle for FUN Readers to Ponder Over.",
-    "In response to the oft-repeated challenge of FUN'S cross-word puzzle solvers to give them a really difficult problem to work out, the puzzle editor respectfully tenders the above geographical puzzle. It is a contribution to FUN'S cross-word collection from E. W. Fuller of West Forty-sixth street, New York City. Mr. Fuller writes that he is at work on another puzzle which may prove still more difficult to solve than today's.",
-    "Get out your atlas or geography and see if you can fill in the blank squares with words corresponding to the list of clews and definitions given below. The solution to this puzzle will be given in next week's FUN."
-   ],
-   "kinds": [
-    "notes"
-   ],
-   "edition_sha256": "451961323a7e7b45791178a9d004bebbfd38eea8b53d082e2385a7cae27f63ad"
+   "notes": [],
+   "kinds": [],
+   "edition_sha256": "1cb86ca6794c89c698d977971006133222bd2f232846d0b75f500b495b18d16d"
   },
   "nyw1914-08-16": {
    "status": "made",
-   "inputs_sha256": "aee75c50b8923c04b018355deb75e2bb9afb484ba1fd062a662213a26affca96",
+   "inputs_sha256": "0c5eb30c5e2ec19bb8614f33ae348f1a0a61da121228d70c79979f9c6b8891b7",
    "inputs": {
-    "version": "6c492a968512aa96",
-    "transcription_sha256": "2d2e3e28d226d889bc0518421527d4e9c4b28324005a00981ae209cea7d5ff83",
+    "version": "0edb105b3d0d95dc",
+    "transcription_sha256": "7b5846834978aa687012922cb4188cf91aa07db0b45f449f649887e0c8dbd526",
     "marks": [],
     "evidence": [],
     "unrecorded": false,
@@ -1413,20 +1266,16 @@
    "held": [],
    "corrections": [],
    "declined": [],
-   "notes": [
-    "Fill in the small squares with words corersponding to the list of clues and definitions given below. The solution to this puzzle will be published in next week's FUN."
-   ],
-   "kinds": [
-    "notes"
-   ],
-   "edition_sha256": "5cdba629fe015d0a5ce69c4946669224d685f7587fbb47429f2cd461b3c1296f"
+   "notes": [],
+   "kinds": [],
+   "edition_sha256": "7b5846834978aa687012922cb4188cf91aa07db0b45f449f649887e0c8dbd526"
   },
   "nyw1914-08-23": {
    "status": "made",
-   "inputs_sha256": "9c9fe62e75cb05f306f278d10bfbd683435abdba8e0607d9ae38e75a02125cdd",
+   "inputs_sha256": "b36fb5bf667ff6a64672f5afea09dbebce0e3252c3915e01b9d14d4cd762ffd8",
    "inputs": {
-    "version": "6c492a968512aa96",
-    "transcription_sha256": "3430f746f484f155713f5ad5002418cab5ca982d5f0185f6a2b95371a21a733d",
+    "version": "0edb105b3d0d95dc",
+    "transcription_sha256": "befa904b14dbb89315299ebffb7388693573dc2c54e168259ccd9ef432243f1c",
     "marks": [],
     "evidence": [],
     "unrecorded": false,
@@ -1453,13 +1302,9 @@
    "held": [],
    "corrections": [],
    "declined": [],
-   "notes": [
-    "See if you can solve it. Fill in the small squares with words corresponding to the list of clews and definitions given below. The solution to this puzzle will appear in next week's FUN."
-   ],
-   "kinds": [
-    "notes"
-   ],
-   "edition_sha256": "0482d22de5d35af6373663c33c0377f2a60dbfedcada7128031083ca4f3c4c78"
+   "notes": [],
+   "kinds": [],
+   "edition_sha256": "befa904b14dbb89315299ebffb7388693573dc2c54e168259ccd9ef432243f1c"
   }
  }
 }
