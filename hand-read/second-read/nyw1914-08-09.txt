@@ -1,0 +1,17 @@
+1-2	A city in Persia.
+1-4	A sea—Russian empire.
+2-6	An island—Hawaiian.
+3-7	A city in Brazil.
+8-13	A city in Turkey.
+9-10	A city in Persia.
+9-11	A city in northern Africa.
+11-12	A waterfall in Idaho.
+14-19	A city in Portugal.
+15-16	A city in Spain.
+16-18	A mountain in India.
+17-18	A city in Hungary.
+20-24	A city in Asiatic Russia.
+21-25	A city in Japan.
+23-26	An Asiatic monarchy.
+25-26	A city on the Danube river.
+5-22	A city in Germany.

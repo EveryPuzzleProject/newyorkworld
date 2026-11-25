@@ -1,0 +1,33 @@
+1-2	A lamb's cry.
+3-4	A swoon.
+5-6	An artist.
+7-8	Determination.
+9-10	An obstacle.
+11-12	A mountain range be-tween Europe and Asia.
+13-14	It falls in flakes.
+15-16	The outer coat of wheat.
+17-18	The harvest.
+19-20	Agreeable.
+21-22	An adverb.
+23-24	A wicked Roman Em-peror.
+25-26	Goes.
+27-28	Wanderers.
+29-30	A rude way of looking.
+31-32	A legal process.
+33-34	Adam's eldest son.
+35-36	To pull roughly.
+1-8	Important in fishing.
+3-12	To miss.
+5-27	A lively horse.
+7-23	A great Western prod-uct.
+11-19	Used for hot water.
+20-29	Love.
+24-31	Food for horses.
+2-9	Industrious insects
+4-13	A denomination in counting.
+6-28	Western farms.
+10-26	Wedge shaped pieces.
+14-22	Gained.
+21-30	A common word for tel-egram.
+25-32	At this place.
+# line breaks at hyphens joined (be-tween, prod-uct, Em-peror, tel-egram); "Industrious insects" has no final period

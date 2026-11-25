@@ -3,7 +3,19 @@ Title: FUN'S July 4 Cross Word Puzzle
 Copyright: New York World
 Date: 1914-06-28
 Number: 25
-Notes: A 13-wide stepped diamond for the Fourth of July; an eagle with stars is printed over the shaded centre (r5c7, r6c6-c8, r7c5-c9, r8c6-c8, r9c7, shown as _), and the clues are all on Fourth of July themes. The number "No 25" is printed beside the grid, at its lower left. No credit line. Printed intro: "There is a fourth of July flavor to today's cross-word puzzle. You are invited to think of the Declaration of Independence and what it meant in 1776 and what it means today while you are trying to solve this puzzle. Fill in the small squares with words corresponding to the list of clews and definitions given below, allowing one letter of each word to each square. You will find the solution to this puzzle in next week's FUN. Meanwhile, see if you can solve it yourself." Read by hand from the Milwaukee Sentinel's page (Milwaukee_Sentinel_1914_06_28_84.png), solution from Milwaukee_Sentinel_1914_07_05_81.png, by Claude, 2026-11-16.
+Description: A 13-wide stepped diamond for the Fourth of July; an eagle with stars is printed over the shaded centre (r5c7, r6c6-c8, r7c5-c9, r8c6-c8, r9c7, shown as _), and the clues are all on Fourth of July themes.
+Source: Milwaukee Sentinel, 1914-06-28, p. 84
+Solution-Source: Milwaukee Sentinel, 1914-07-05, p. 81
+
+
+## Printed
+heading: FUN'S
+heading: JULY 4
+heading: CROSS WORD PUZZLE
+number: No 25
+heading: Can You Solve It?
+intro: There is a fourth of July flavor to today's cross-word puzzle. You are invited to think of the Declaration of Independence and what it meant in 1776 and what it means today while you are trying to solve this puzzle. Fill in the small squares with words corresponding to the list of clews and definitions given below, allowing one letter of each word to each square. You will find the solution to this puzzle in next week's FUN. Meanwhile, see if you can solve it yourself.
+solution heading: SOLUTION TO No 25 PUZZLE
 
 
 ## Grid
@@ -53,6 +65,8 @@ A22. What the American eagle does on the fourth of July. ~ SCREAMS
 A22 ^Printed: 29-30
 A24. Eagles. ~ EARNS
 A24 ^Printed: 31-32
+A24 ^Answer-Correction: ERNES
+A24 ^Note: ERNES (sea eagles) is meant, but it doesn't fit the crossings; every letter of EARNS is clear in the key and checked by a down word
 A25. Something good to eat. ~ PIE
 A25 ^Printed: 33-34
 

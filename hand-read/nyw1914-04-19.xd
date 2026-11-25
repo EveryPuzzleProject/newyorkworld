@@ -4,8 +4,18 @@ Author: Alex B. Miller
 Copyright: New York World
 Date: 1914-04-19
 Number: 18
-Notes: An 11x11 cross with a square at each corner, joined to the cross by a diagonal of squares; a small blank cross in the centre (shown as _). Besides the usual words there are four diagonal words, from the corner squares to the central cross (1-3, 4-2, 7-5, 6-8); the xd can't mark diagonals, so those four pairs name squares on a diagonal. No number in the grid; the intro calls it "the eighteenth in FUN'S series" (Number from there). Column 7 below the centre (6-22, SREM) has no clue. Credit in the intro: "Today's ingenious cross-word puzzle, the eighteenth in FUN'S series, was sent in by Alex B. Miller of Portsmouth, Va." Printed intro: "It is different from any of the others published thus far and you will find yourself busily engaged for some time to come when once you begin to solve it. In addtiion to the usual cross-words, there are also four diagonal words to be found. They reach from the extreme corners to the cross at the center. Fill in the squares with letters spelling words corresponding to the list of clews and definitions given herewith. The solution will be given in next week's FUN." Read by hand from the Milwaukee Sentinel's page (Milwaukee_Sentinel_1914_04_19_94.png), solution from Milwaukee_Sentinel_1914_04_26_91.png, by Claude, 2026-11-16. Kept in the World's own numbering (clues named by their printed end-square pair, with a Labels section): four words run diagonally (GAMMA, SNARE, FRETS, SITES), which across/down numbering can't name. A puzzle to treat as a meta (Alex, 2026-11-17).
+Description: An 11x11 cross with a square at each corner, joined to the cross by a diagonal of squares; a small blank cross in the centre (shown as _). Besides the usual words there are four diagonal words, from the corner squares to the central cross (1-3, 4-2, 7-5, 6-8); the xd can't mark diagonals, so those four pairs name squares on a diagonal. No number in the grid. Column 7 below the centre (6-22, SREM) has no clue. Kept in the World's own numbering (clues named by their printed end-square pair, with a Labels section): four words run diagonally (GAMMA, SNARE, FRETS, SITES), which across/down numbering can't name.
+Source: Milwaukee Sentinel, 1914-04-19, p. 94
+Solution-Source: Milwaukee Sentinel, 1914-04-26, p. 91
 Numbering: as-printed
+
+
+## Printed
+heading: FUN'S CROSS-WORD PUZZLES
+tagline: Can You Solve Them?
+credit: Today's ingenious cross-word puzzle, the eighteenth in FUN'S series, was sent in by Alex B. Miller of Portsmouth, Va.
+intro: It is different from any of the others published thus far and you will find yourself busily engaged for some time to come when once you begin to solve it. In addtiion to the usual cross-words, there are also four diagonal words to be found. They reach from the extreme corners to the cross at the center. Fill in the squares with letters spelling words corresponding to the list of clews and definitions given herewith. The solution will be given in next week's FUN.
+solution heading: SOLUTION TO No 18
 
 
 ## Grid

@@ -1,0 +1,68 @@
+1-2	A young hawk.
+3-4	What Samson did to the Philistines.
+5-6	A farm implement
+7-8	An ensign.
+9-10	A small amphibious animal.
+11-12	To kill.
+13-14	That which is here present.
+15-16	It revolves around the earth.
+17-18	A cavity.
+19-20	Autumn time.
+21-22	Concern.
+23-24	What you do when you don't win.
+25-26	A boat with a flat bottom.
+27-28	To apprehend.
+29-30	Part of your face
+31-32	Myself.
+33-34	To have existence.
+35-36	An infernal machine.
+37-38	_ little stream.
+39-40	A measure.
+41-42	Sold by butchers.
+43-44	A yellow metal.
+45-46	Detained.
+47-48	Ten cents.
+49-50	A crytogamous plant.
+51-52	What every one does to prolong life.
+53-54	A highway.
+55-56	To haul.
+57-58	Beloved by all Irishmen.
+59-60	To be acquainted with.
+61-62	To prepare for publication.
+63-64	Enough.
+65-66	A musical instrument.
+67-68	Becoming.
+69-3	A verb.
+70-5	A lofty mountain.
+71-18	Used in the garden.
+72-16	Not out.
+2-7	Anything considered as having a distinct personality.
+4-9	A ferocious animal.
+6-11	Physical conflicts between nations.
+8-25	An outdoor game
+10-27	A festivity.
+12-29	Something a sailor loves to spin.
+23-30	To let slip.
+21-28	A garment.
+19-26	To abstain from food.
+17-24	A long eared rodent.
+15-22	A birthmark.
+13-20	To strike a bell slowly.
+35-42	A large cask.
+37-44	What FUN is.
+39-46	To reduce from a solid to a liquid state by heat.
+41-48	To be gloomy.
+43-50	Precious stones.
+45-52	An affectionate salutation.
+47-74	A tiny mark.
+49-73	Mother.
+36-53	To sustain.
+38-55	The past perfect of tread.
+40-57	A challenge.
+54-59	Not light.
+56-61	Fermented grape juice.
+58-63	A knob.
+60-75	To gain.
+62-76	Toward.
+# Closing note: Nos. 1, 14, 51 and 64 are the four points of the compass.
+# 37-38 begins with a dash/blank word; 5-6 and 29-30 lack final period; 4-line wrapped clues joined

@@ -1,10 +1,23 @@
 ## Metadata
+Title: FUN'S Cross-Word Puzzle
 Author: W. G. H. Tiedemann
 Copyright: New York World
 Date: 1914-07-12
 Number: 27
-Notes: A stepped pyramid 21 squares wide and 13 rows deep, with a ragged bottom row; two diagonal lines of hatched black squares (#) run down from the apex like a roof, and a "SOLUTION NEXT WEEK" panel fills the centre (r9c11, r10-r12 c10-c12; with r12c8 and r12c14, shown as _). F, U and N are printed in the squares at the top of the centre as a cross reading FUN across (r6c10-c12) and down (r5c11-r7c11), with no rules between them; they are squares of the puzzle, and the down word 10-26 they start (FUND) has no clue. The number "No 27" is printed beside the grid, at its left. Credit, from the printed intro: "Here is a new kind of cross-word puzzle for FUN'S puzzle experts to wrestle with. It is a contribution from W. G. H. Tiedemann of Third avenue, New York City, who very naturally suggests that any one who attempts to solve it is going to have a very interesting half hour. However, that remains to be determined when you try the puzzle yourself. The puzzle editor has taken the liberty to change several words and definitions in Mr. Tiedemann's original puzzle so that he, too, will have an interesting time of solving his own puzzle. Fill in the small squares with words corresponding to the list of clues and definitions given herewith. One letter only is to be placed in such square. The solution to this puzzle will be given in next week's FUN." The clues are printed as "1-10—Highest in rank or authority."; the fruit is printed "25-61" but runs 25-64 (ORANGE). Read by hand from the Milwaukee Sentinel's page (Milwaukee_Sentinel_1914_07_12_79.png), solution from Milwaukee_Sentinel_1914_07_19_79.png, by Claude, 2026-11-16. Kept in the World's own numbering (clues named by their printed end-square pair, with a Labels section): the given FUN, across and down, runs on into other words (the down FUN continues as FUND), so some clued words are shorter than their runs. In effect there is a bar between 1 Down and 10 Down, and xd has no bars yet (Alex, 2026-11-17).
+Description: A stepped pyramid 21 squares wide and 13 rows deep, with a ragged bottom row; two diagonal lines of hatched black squares (#) run down from the apex like a roof, and a "SOLUTION NEXT WEEK" panel fills the centre (r9c11, r10-r12 c10-c12; with r12c8 and r12c14, shown as _). F, U and N are printed in the squares at the top of the centre as a cross reading FUN across (r6c10-c12) and down (r5c11-r7c11), with no rules between them; they are squares of the puzzle, and the down word 10-26 they start (FUND) has no clue. Kept in the World's own numbering (clues named by their printed end-square pair, with a Labels section): the given FUN, across and down, runs on into other words (the down FUN continues as FUND), so some clued words are shorter than their runs.
+Source: Milwaukee Sentinel, 1914-07-12, p. 79
+Solution-Source: Milwaukee Sentinel, 1914-07-19, p. 79
 Numbering: as-printed
+
+
+## Printed
+heading: FUN'S
+heading: CROSS-WORD PUZZLE
+number: No 27
+panel: SOLUTION NEXT WEEK
+intro: Here is a new kind of cross-word puzzle for FUN'S puzzle experts to wrestle with. It is a contribution from W. G. H. Tiedemann of Third avenue, New York City, who very naturally suggests that any one who attempts to solve it is going to have a very interesting half hour. However, that remains to be determined when you try the puzzle yourself. The puzzle editor has taken the liberty to change several words and definitions in Mr. Tiedemann's original puzzle so that he, too, will have an interesting time of solving his own puzzle. Fill in the small squares with words corresponding to the list of clues and definitions given herewith. One letter only is to be placed in such square. The solution to this puzzle will be given in next week's FUN.
+solution heading: SOLUTIONS TO LAST WEEK'S PUZZLES.
+solution intro: Below is shown the solution to last week's cross-word puzzle.
 
 
 ## Grid
@@ -27,8 +40,11 @@ __S__N__ENDED__T__E__
 1-10. Highest in rank or authority. ~ CHIEF
 2-9. To measure off by taking steps. ~ STEP
 19-33. To-fortify. ~ ARM
+19-33 ^Correction: To fortify.
 4-14. To exhibit. ~ SHOW
 25-64. A fruit. ~ ORANGE
+25-64 ^Printed: 25-61
+25-64 ^Fits: 25-64
 6-18. The harvest. ~ CROP
 32-49. An animal. ~ APE
 8-24. Amusement. ~ PLAY

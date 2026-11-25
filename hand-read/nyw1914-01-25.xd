@@ -1,8 +1,20 @@
 ## Metadata
+Title: FUN'S Cross-Word Puzzles
 Copyright: New York World
 Date: 1914-01-25
 Number: 6
-Notes: A 13-wide diamond with a shaded cross in the centre printed "No 6" (shown as _); two words, 33-34 and 35-36, run down the centre column above and below the cross. The number is printed in the centre block and in the intro ("Here is No. 6 in FUN'S series of cross-word puzzles."). No credit is printed. Read by hand from the Milwaukee Sentinel's page (Milwaukee_Sentinel_1914_01_25_67_fun.png), solution from Milwaukee_Sentinel_1914_02_01_67_key.png, by Claude, 2026-11-16.
+Description: A 13-wide diamond with a shaded cross in the centre printed "No 6" (shown as _); two words, 33-34 and 35-36, run down the centre column above and below the cross.
+Source: Milwaukee Sentinel, 1914-01-25, p. 67
+Solution-Source: Milwaukee Sentinel, 1914-02-01, p. 67
+
+
+## Printed
+heading: FUN'S CROSS-WORD PUZZLES
+banner: Can You Solve Them?
+number: No 6
+intro: Here is No. 6 in FUN'S series of cross-word puzzles. The solution to No. 5 will be found on page 15 of this issue. To solve today's puzzle fill in the small squares in the above diamond with words corresponding to the clues and definitions given below. The solution to today's cross-word puzzle will appear in next week's FUN.
+solution-caption: And here is the solution to FUN'S cross-word puzzle No. 6 showing how the letters can be arranged to form words that fit the list of definitions given.
+solution-centre: SOLUTION TO No 6 PUZZLE
 
 
 ## Grid
@@ -37,7 +49,8 @@ A11 ^Printed: 11-12
 A12. An appendix. ~ TAIL
 A12 ^Printed: 13-14
 A14. Letters. ~ MAIL
-A14 ^Printed: 15-16
+A14 ^Printed: 16-16
+A14 ^Fits: 15-16
 A15. A satellite. ~ MOON
 A15 ^Printed: 17-18
 A16. Closely and comfortably situated. ~ SNUG
@@ -53,7 +66,8 @@ A22 ^Printed: 27-28
 A24. To side with. ~ AGREE
 A24 ^Printed: 29-30
 A25. A mathematical problem. ~ SUM
-A25 ^Printed: 31-32
+A25 ^Printed: 21-32
+A25 ^Fits: 31-32
 
 D1. A flat, circular plate. ~ DISC
 D1 ^Printed: 33-34
@@ -63,6 +77,7 @@ D3. Cuticle. ~ SKIN
 D3 ^Printed: 2-9
 D4. Foolis' talk. ~ RANT
 D4 ^Printed: 3-12
+D4 ^Correction: Foolish talk.
 D5. A resting place. ~ SEAT
 D5 ^Printed: 4-13
 D6. Non success. ~ FAILURE
@@ -80,7 +95,8 @@ D13 ^Printed: 14-22
 D17. A festivity. ~ GALA
 D17 ^Printed: 20-29
 D18. A knife. ~ SNEE
-D18 ^Printed: 21-30
+D18 ^Printed: 11-30
+D18 ^Fits: 21-30
 D20. Wooden pins. ~ PEGS
 D20 ^Printed: 24-31
 D21. A short article. ~ ITEM

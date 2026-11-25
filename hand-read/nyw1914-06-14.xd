@@ -4,7 +4,17 @@ Author: H. J. Stack
 Copyright: New York World
 Date: 1914-06-14
 Number: 23
-Notes: An X of two stepped bands, 28 rows by 21 columns: one band runs from a single square at the top right (r1c16) down to ONE at the bottom left, the other from ROB (r15) down to FINISH at the bottom right, with PLANT jutting out to the left edge at r18; they cross at EQUAL, URN and BANKER (r21-r23). Squares outside the bands are shown as _. Number printed in the heading ("FUN'S CROSS-WORD PUZZLE No 23"). Credit as printed beside the grid: "This cross-word puzzle is furnished by H. J. Stack of Hartford, Conn." Read by hand from the Milwaukee Sentinel's page (Milwaukee_Sentinel_1914_06_14_87.png), solution from Milwaukee_Sentinel_1914_06_21_86.png, by Claude, 2026-11-16.
+Description: An X of two stepped bands, 28 rows by 21 columns: one band runs from a single square at the top right (r1c16) down to ONE at the bottom left, the other from ROB (r15) down to FINISH at the bottom right, with PLANT jutting out to the left edge at r18; they cross at EQUAL, URN and BANKER (r21-r23). Squares outside the bands are shown as _.
+Source: Milwaukee Sentinel, 1914-06-14, p. 87
+Solution-Source: Milwaukee Sentinel, 1914-06-21, p. 86
+
+
+## Printed
+heading: FUN'S CROSS-WORD PUZZLE
+number: No 23
+credit: This cross-word puzzle is furnished by H. J. Stack of Hartford, Conn.
+instructions: The solution will appear in next week's FUN.
+solution heading: SOLUTION TO FUN'S CROSS-WORD PUZZLE No 23
 
 
 ## Grid
@@ -73,6 +83,7 @@ A19. A metal that shines. ~ BRASS
 A19 ^Printed: 33-34
 A20. A summed month. ~ JULY
 A20 ^Printed: 35-36
+A20 ^Correction: A summer month.
 A21. An important organ of the body. ~ HEART
 A21 ^Printed: 37-39
 A22. What many men are. ~ BALD
@@ -140,6 +151,8 @@ D14. A wild animal in Germany. ~ BOAR
 D14 ^Printed: 26-38
 D15. To build fires in. ~ CRATES
 D15 ^Printed: 28-52
+D15 ^Answer-Correction: GRATES
+D15 ^Note: the key prints C in the square it shares with A15 COREY, which as GOREY would answer its clue ("A proper name.") as well
 D16. To govern. ~ RULE
 D16 ^Printed: 30-45
 D17. Opposite to young. ~ OLD
@@ -152,6 +165,7 @@ D20. A girl's name. ~ JANE
 D20 ^Printed: 35-51
 D21. A possessive pronoun. ~ HAS
 D21 ^Printed: 37-46
+D21 ^Answer-Correction: HIS
 D22. Babies are. ~ BORN
 D22 ^Printed: 40-57
 D24. Something that gives heat. ~ COAL
@@ -167,7 +181,8 @@ D30 ^Printed: 55-58
 D31. What a fire does. ~ BURNS
 D31 ^Printed: 56-68
 D33. A measure of quantity larger than from 72-73. ~ QUART
-D33 ^Printed: 59-73
+D33 ^Printed: 59-72
+D33 ^Fits: 59-73
 D35. ~ BUNT
 D35 ^Printed: 63-77
 D35 ^Note: no clue printed

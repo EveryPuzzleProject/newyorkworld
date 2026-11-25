@@ -1,0 +1,34 @@
+1-2	Provided with food.
+3-4	Large evergreen trees.
+5-6	Marred.
+7-8	A position.
+9-10	Sharp.
+11-12	A covering for the foot.
+13-14	To drive away by shouting "scat."
+15-16	Close at hand.
+17-18	A claim.
+19-20	A snare.
+21-22	The main body of a church.
+23-24	Birds.
+25-26	Simple.
+27-28	To satisfy.
+29-30	Holy.
+31-32	To attempt.
+33-34	A girl's name.
+35-36	Same as air.
+1-8	A musical instrument.
+3-12	A boy's name.
+5-27	A painting.
+7-23	To divide.
+11-19	A complete assortment.
+2-9	Part of a ship.
+4-13	Perceives.
+6-28	To proclaim.
+10-26	Having unaffected simplicity.
+14-32	Used by golfers
+21-30	A bird's home.
+25-32	Numerous.
+24-31	A trifling dispute.
+20-29	Young dog.
+# first number of 5-6 looks like 6 in the print (6- 6); presumed 5-6
+# 'Same,as air' comma-like speck; 'Young dog' ends in a dot-like mark; 'Used by golfers' has no period

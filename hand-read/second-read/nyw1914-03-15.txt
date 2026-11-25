@@ -1,0 +1,44 @@
+2-3	Did eat.
+4-5	Sour substances.
+6-8	A continent.
+9-10	Beverages.
+11-12	Part of a blook.[?]
+13-14	To paint in water colors.
+15-16	High.
+17-18	Short for Dorothy.
+19-20	To work.
+21-22	To watch over.
+23-24	To dry with a cloth.
+25-26	A raised platform.
+27-28	To rescue.
+29-31	Blame.
+32-33	One who receives a gift.
+34-35	Humor.
+6-29	A register of the year.
+9-25	When dried.
+13-21	A piece of land.
+3-11	To prepare for publication.
+5-15	A native of Scotland.
+8-31	Disposed to love.
+12-28	To run away to wed.
+16-24	An untruth.
+22-32	Die past participle.
+26-34	It falls in flakes.
+30-36	To cut off.
+27-35	Hard fat.
+23-33	Merchandise.
+1-7	To rouse.
+2-10	Highest cards.
+4-14	An expression of approval.
+E-37	Series of years.
+E-38	A tree.
+E-39	Adam's mate.
+40-E	To be sorry for.
+41-E	Frozen water.
+42-E	Used to billiards.
+43-E	Used for chopping.
+E-44	A contraction of even.
+# 6-29 printed as '629' with no hyphen; 6-8 printed '6- 8' (first digit looks like 0/6)
+# 'blook' printed so (smudge?); 'Die past participle' as printed
+# line breaks hyphenated publica-/tion and ap-/proval joined
+# Inside Diamond: E to 37 etc. rendered E-37; 'to' between. Following text 'Starting from 37 and going around to 44 you will find what President Wilson is.' skipped

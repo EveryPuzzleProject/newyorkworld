@@ -2,7 +2,15 @@
 Title: FUN'S Cross-Word Puzzle
 Copyright: New York World
 Date: 1913-12-21
-Notes: A 13-wide diamond with an empty cross-shaped centre (shown as _); the three squares of the second row are printed with the letters F, U, N. No credit, no number. The clue list has 30 clues: none is printed for 2-3 (SALES), and three pairs are misprinted (38-39 for 18-19, 10-12 for 10-18, 26-30 for 23-30), kept as printed. Instructions as printed: "Fill in the small squares with words which agree with the following definitions:". Read by hand from the Milwaukee Sentinel's page (Milwaukee_Sentinel_1913_12_21_68.png), solution from Milwaukee_Sentinel_1913_12_28_78.png (printed upside down), by Claude, 2026-11-16.
+Description: A 13-wide diamond with an empty cross-shaped centre (shown as _); the three squares of the second row are printed with the letters F, U, N. The clue list has 30 clues.
+Source: Milwaukee Sentinel, 1913-12-21, p. 68
+Solution-Source: Milwaukee Sentinel, 1913-12-28, p. 78
+
+
+## Printed
+heading: FUN'S CROSS-WORD PUZZLE.
+instructions: Fill in the small squares with words which agree with the following definitions:
+solution caption: Herewith is shown the solution to the word cross puzzle. Another puzzle of the same kind is given this week. See if you can solve it. The answers to today's puzzles will be given in next week's FUN.
 
 
 ## Grid
@@ -41,7 +49,6 @@ A15. What artists learn to do. ~ DRAW
 A15 ^Printed: 16-17
 A16. What this puzzle is. ~ HARD
 A16 ^Printed: 38-39
-A16 ^Note: misprint: the pair that fits the grid is 18-19
 A16 ^Fits: 18-19
 A18. Fastened. ~ TIED
 A18 ^Printed: 20-21
@@ -76,7 +83,6 @@ D10. To sink in mud. ~ MIRED
 D10 ^Printed: 9-25
 D11. The fibre of the gomuti palm. ~ DOH
 D11 ^Printed: 10-12
-D11 ^Note: misprint: the pair that fits the grid is 10-18
 D11 ^Fits: 10-18
 D13. A boy. ~ LAD
 D13 ^Printed: 13-21
@@ -86,7 +92,6 @@ D18. One. ~ TANE
 D18 ^Printed: 20-29
 D20. A river in Russia. ~ NEVA
 D20 ^Printed: 26-30
-D20 ^Note: misprint: the pair that fits the grid is 23-30
 D20 ^Fits: 23-30
 D21. To agree with. ~ SIDE
 D21 ^Printed: 24-31

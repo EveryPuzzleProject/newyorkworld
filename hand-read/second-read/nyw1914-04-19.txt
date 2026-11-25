@@ -1,0 +1,28 @@
+1-3	A letter in the Greek alphabet.
+4-2	A trap.
+7-5	Part of a mandolin.
+6-8	Situations.
+9-10	A scheme.
+11-12	Earth containing carbonate of lime, etc.
+13-14	It falls from the sky.
+15-16	Land parched with heat.
+17-18	Fermented malt liquor.
+19-20	A gentle blow.
+21-22	To point.
+23-24	A title used in addressing a man.
+25-26	A province in Austria.
+27-28	To levy.
+25-27	Honey of roses.
+26-28	To affect injuriously.
+29-30	Made with eggs.
+31-32	Inactivity.
+33-34	Distinguished.
+35-36	A crystalline compound contained in animal and vegetable fats.
+17-3	Words and music.
+18-4	They come before Christmas.
+19-3	A supplication.
+20-5	You have ten.
+4-23	Complete assortments.
+6-24	A commotion.
+5-21	A bristle.
+# 23-24 printed with hyphenated line break address-/ing

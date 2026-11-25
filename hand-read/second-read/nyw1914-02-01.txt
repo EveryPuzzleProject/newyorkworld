@@ -1,0 +1,34 @@
+1-2	United in Matrimony.
+3-4	A fruit
+5-6	A gas bag.
+7-8	To separate.
+9-10	A whip used in Russian prisons.
+11-12	A cavern.
+13-14	Very black.
+15-16	Another name for father.
+17-18	The same as on.
+19-20	An eminence.
+21-22	What the wind did.
+23-24	A friend of Roosevelt.
+25-26	To float aloft.
+27-28	An aeronaut.
+29-30	A plumed bird.
+31-32	Not old.
+1-8	A swollen strip.
+3-12	To shave.
+5-27	Part of the German Empire.
+7-23	What FUN is printed on.
+11-19	A vehicle.
+20-29	To bestrow.
+24-31	An indication.
+2-9	To let fall.
+4-13	The bottom of a shoe.
+6-28	Resembling a nebula.
+10-26	A habitual drunkard.
+14-22	The present time.
+21-30	A covering for the foot and leg.
+25-32[?]	Slowly boiled food.
+33-34	Not fictitious.
+35-36[?]	Space.
+# 3-4 "A fruit" has no final period visible (a mark like a cross after fruit).
+# 25-32 and 35-36 digits degraded; 25-32 printed as "25-32" (expected 35-32?), 35-36 printed "25 36".

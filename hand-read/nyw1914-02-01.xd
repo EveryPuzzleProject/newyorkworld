@@ -1,8 +1,21 @@
 ## Metadata
+Title: FUN'S Cross-Word Puzzles
 Copyright: New York World
 Date: 1914-02-01
 Number: 7
-Notes: A 13-wide diamond with a shaded cross in the centre printed "No 7" (shown as _); two words, 33-34 and 35-36, run down the centre column above and below the cross. The number is printed in the centre block; the intro calls it "the seventh puzzle in the series". No credit is printed. Read by hand from the Milwaukee Sentinel's page (Milwaukee_Sentinel_1914_02_01_66_fun.png), solution from Milwaukee_Sentinel_1914_02_08_82.png, by Claude, 2026-11-16.
+Description: A 13-wide diamond with a shaded cross in the centre printed "No 7" (shown as _); two words, 33-34 and 35-36, run down the centre column above and below the cross.
+Source: Milwaukee Sentinel, 1914-02-01, p. 66
+Solution-Source: Milwaukee Sentinel, 1914-02-08, p. 82
+
+
+## Printed
+heading: FUN'S CROSS-WORD PUZZLES
+banner: Can You Solve Them?
+number: No 7
+intro: FUN'S cross word puzzles apparently are getting more popular than ever. The puzzle editor has received from readers many interesting new cross word puzzles, which he will be glad to use from time to time. It is more difficult to make up a cross word puzzle than it is to solve one. If you doubt this try to make one yourself.
+instructions: Today the seventh puzzle in the series is presented. Fill in the small squares in the above diamonds with words corresponding to the clews and definitions given below. On page 15 you will find the solution to last week's puzzle. The solution to today's puzzle will be given in next week's FUN.
+solution-caption: Herewith is the solution to last week's cross-word puzzles, showing how the letters should be arranged to form words that fit the list of clues and dlinitions given.
+solution-centre: SOLUTION TO No 7 PUZZLE
 
 
 ## Grid
@@ -79,6 +92,7 @@ D13. The present time. ~ NOW
 D13 ^Printed: 14-22
 D17. To bestrow. ~ GIVE
 D17 ^Printed: 20-29
+D17 ^Correction: To bestow.
 D18. A covering for the foot and leg. ~ BOOT
 D18 ^Printed: 21-30
 D20. An indication. ~ SIGN
