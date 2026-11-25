@@ -6,5 +6,17 @@
  "owner": [
   "oops6498"
  ],
- "owner_ids": ["9c2c738f-5be1-42e5-a4ce-ccc06778741a"]
+ "owner_ids": [
+  "9c2c738f-5be1-42e5-a4ce-ccc06778741a"
+ ],
+ "batches": {
+  "nyw-1914-s1": {
+   "_about": "Nos. 1-33 read by hand and read again blind (hand-read/second-read/VERDICTS.md): the owner's decision of 2026-11-25 ships them on an AI's Ready and sends a puzzle back only if an error turns up; the hand-read Nos. 11-12 take the place of the copies shipped from nyw-1914-c1.",
+   "ai_ready": "ai",
+   "replace": [
+    "nyw1914-03-01",
+    "nyw1914-03-08"
+   ]
+  }
+ }
 }

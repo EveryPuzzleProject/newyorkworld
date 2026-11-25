@@ -1,0 +1,61 @@
+{
+ "_about": "blitz ship: the xd exactly as `blitz ship --write` writes it for this puzzle, with the record of every edit behind it (design/ship.md, \"The xd as it will ship\"). Made with the batch's ship record; stale when the record is made again.",
+ "pid": "nyw1914-08-23",
+ "xdid": "nyw1914-08-23",
+ "batch": "nyw-1914-s1",
+ "run": "nyw-1914-s1",
+ "at": "2026-11-25T19:50:27+00:00",
+ "status": "shipped",
+ "xd": "## Metadata\nTitle: FUN'S Cross-Word Puzzles\nAuthor: Harold Smith\nCopyright: New York World\nDate: 1914-08-23\nNumber: 33\nDescription: A 13-wide diamond (one square at top and bottom, a 13-square middle row) with a cross-shaped panel over the centre (shown as _: r4c6, r5c5-c7, r6c4-c8, r7c5-c7, r8c6), the same template as No. 32; the numbers are printed inside the end squares.\nSource: Milwaukee Sentinel, 1914-08-23, p. 85\nSolution-Source: Milwaukee Sentinel, 1914-08-30, p. 84\n\n\n## Printed\nheading: FUN'S CROSS-WORD PUZZLES\nnumber: No 33.\ncredit: Today's cross-word puzzle was sent in by Harold Smith of Waterford, N. Y.\ninstructions: See if you can solve it. Fill in the small squares with words corresponding to the list of clews and definitions given below. The solution to this puzzle will appear in next week's FUN.\nsolution heading: SOLUTION TO\nsolution heading: CROSS-WORD\nsolution heading: PUZZLE\nsolution heading: No 33\n\n\n## Grid\n______D______\n_____FIN_____\n____TAMED____\n___CAMERAS___\n__CANE_ORES__\n_BARK___EACH_\nFAIR_____SOAR\n_TRIM___SOLD_\n__NEED_RIND__\n___RAISINS___\n____TRICK____\n_____ELK_____\n______K______\n\n\n## Clues\nA2. Part of a fish. ~ FIN\nA2 ^Printed: 1-2\nA4. Rendered docile. ~ TAMED\nA4 ^Printed: 3-4\nA6. Used by photographers. ~ CAMERAS\nA6 ^Printed: 5-6\nA8. A walking stick. ~ CANE\nA8 ^Printed: 7-8\nA9. Minerals. ~ ORES\nA9 ^Printed: 9-10\nA11. \"Bow-wow.\" ~ BARK\nA11 ^Printed: 11-12\nA12. Every one of any number. ~ EACH\nA12 ^Printed: 13-14\nA14. A sale of fancy work. ~ FAIR\nA14 ^Printed: 15-16\nA15. To float aloft. ~ SOAR\nA15 ^Printed: 17-18\nA16. To adjust to a nicety. ~ TRIM\nA16 ^Printed: 19-20\nA18. Transferred to another for a valuable consideration. ~ SOLD\nA18 ^Printed: 21-22\nA19. A requirement. ~ NEED\nA19 ^Printed: 23-24\nA21. The outer coat of a lemon. ~ RIND\nA21 ^Printed: 25-26\nA22. Dried grapes. ~ RAISINS\nA22 ^Printed: 27-28\nA24. A petty artifice. ~ TRICK\nA24 ^Printed: 29-30\nA25. A very large deer. ~ ELK\nA25 ^Printed: 31-32\n\nD1. A coin. ~ DIME\nD1 ^Printed: 33-34\nD2. Celebrity. ~ FAME\nD2 ^Printed: 1-8\nD3. A tyrannical Roman emperor. ~ NERO\nD3 ^Printed: 2-9\nD4. A large wooden or metal receptacle. ~ TANK\nD4 ^Printed: 3-12\nD5. A challenge. ~ DARE\nD5 ^Printed: 4-13\nD6. One who carries. ~ CARRIER\nD6 ^Printed: 5-27\nD7. Four in every year. ~ SEASONS\nD7 ^Printed: 6-28\nD8. A memorial mound, or mark. ~ CAIRN\nD8 ^Printed: 7-23\nD10. To reprove harshly. ~ SCOLD\nD10 ^Printed: 10-26\nD11. Used in baseball. ~ BAT\nD11 ^Printed: 11-19\nD13. Past tense of have. ~ HAD\nD13 ^Printed: 14-22\nD17. Sold by butchers. ~ MEAT\nD17 ^Printed: 20-29\nD18. In every kitchen. ~ SINK\nD18 ^Printed: 21-30\nD20. Dreadful. ~ DIRE\nD20 ^Printed: 24-31\nD21. A stock of hay. ~ RICK\nD21 ^Printed: 25-32\nD23. Made from cocoons. ~ SILK\nD23 ^Printed: 35-36\n",
+ "xd_fp": "266eeb886779",
+ "packet": "blitz-work/hand-packets/nyw-1914-s1/nyw1914-08-23",
+ "packet_xd": "266eeb886779",
+ "decision": {
+  "rule": "ai",
+  "ai_ready": "ai",
+  "why": "in xd/ as nyw1914-08-23: the AI proof reviewer's Ready and the ship check passes (ai_ready: ai), no Not ready",
+  "said": [
+   {
+    "kind": "ai",
+    "answer": "ready",
+    "at": "2026-11-25",
+    "who": "Claude (double read: newyorkworld hand-read/second-read)"
+   }
+  ]
+ },
+ "edits": {
+  "records": [],
+  "packet": []
+ },
+ "corrections": [],
+ "notes": [],
+ "proposals": [],
+ "typed": [],
+ "printed": [
+  {
+   "label": "credit",
+   "text": "Today's cross-word puzzle was sent in by Harold Smith of Waterford, N. Y."
+  },
+  {
+   "label": "instructions",
+   "text": "See if you can solve it. Fill in the small squares with words corresponding to the list of clews and definitions given below. The solution to this puzzle will appear in next week's FUN."
+  }
+ ],
+ "edition": {
+  "status": "made",
+  "path": "edition/nyw1914-08-23.xd",
+  "xd": "## Metadata\nTitle: FUN'S Cross-Word Puzzles\nAuthor: Harold Smith\nCopyright: New York World\nDate: 1914-08-23\nNumber: 33\nDescription: A 13-wide diamond (one square at top and bottom, a 13-square middle row) with a cross-shaped panel over the centre (shown as _: r4c6, r5c5-c7, r6c4-c8, r7c5-c7, r8c6), the same template as No. 32; the numbers are printed inside the end squares.\nSource: Milwaukee Sentinel, 1914-08-23, p. 85\nSolution-Source: Milwaukee Sentinel, 1914-08-30, p. 84\n\n\n## Printed\nheading: FUN'S CROSS-WORD PUZZLES\nnumber: No 33.\ncredit: Today's cross-word puzzle was sent in by Harold Smith of Waterford, N. Y.\ninstructions: See if you can solve it. Fill in the small squares with words corresponding to the list of clews and definitions given below. The solution to this puzzle will appear in next week's FUN.\nsolution heading: SOLUTION TO\nsolution heading: CROSS-WORD\nsolution heading: PUZZLE\nsolution heading: No 33\n\n\n## Grid\n______D______\n_____FIN_____\n____TAMED____\n___CAMERAS___\n__CANE_ORES__\n_BARK___EACH_\nFAIR_____SOAR\n_TRIM___SOLD_\n__NEED_RIND__\n___RAISINS___\n____TRICK____\n_____ELK_____\n______K______\n\n\n## Clues\nA2. Part of a fish. ~ FIN\nA2 ^Printed: 1-2\nA4. Rendered docile. ~ TAMED\nA4 ^Printed: 3-4\nA6. Used by photographers. ~ CAMERAS\nA6 ^Printed: 5-6\nA8. A walking stick. ~ CANE\nA8 ^Printed: 7-8\nA9. Minerals. ~ ORES\nA9 ^Printed: 9-10\nA11. \"Bow-wow.\" ~ BARK\nA11 ^Printed: 11-12\nA12. Every one of any number. ~ EACH\nA12 ^Printed: 13-14\nA14. A sale of fancy work. ~ FAIR\nA14 ^Printed: 15-16\nA15. To float aloft. ~ SOAR\nA15 ^Printed: 17-18\nA16. To adjust to a nicety. ~ TRIM\nA16 ^Printed: 19-20\nA18. Transferred to another for a valuable consideration. ~ SOLD\nA18 ^Printed: 21-22\nA19. A requirement. ~ NEED\nA19 ^Printed: 23-24\nA21. The outer coat of a lemon. ~ RIND\nA21 ^Printed: 25-26\nA22. Dried grapes. ~ RAISINS\nA22 ^Printed: 27-28\nA24. A petty artifice. ~ TRICK\nA24 ^Printed: 29-30\nA25. A very large deer. ~ ELK\nA25 ^Printed: 31-32\n\nD1. A coin. ~ DIME\nD1 ^Printed: 33-34\nD2. Celebrity. ~ FAME\nD2 ^Printed: 1-8\nD3. A tyrannical Roman emperor. ~ NERO\nD3 ^Printed: 2-9\nD4. A large wooden or metal receptacle. ~ TANK\nD4 ^Printed: 3-12\nD5. A challenge. ~ DARE\nD5 ^Printed: 4-13\nD6. One who carries. ~ CARRIER\nD6 ^Printed: 5-27\nD7. Four in every year. ~ SEASONS\nD7 ^Printed: 6-28\nD8. A memorial mound, or mark. ~ CAIRN\nD8 ^Printed: 7-23\nD10. To reprove harshly. ~ SCOLD\nD10 ^Printed: 10-26\nD11. Used in baseball. ~ BAT\nD11 ^Printed: 11-19\nD13. Past tense of have. ~ HAD\nD13 ^Printed: 14-22\nD17. Sold by butchers. ~ MEAT\nD17 ^Printed: 20-29\nD18. In every kitchen. ~ SINK\nD18 ^Printed: 21-30\nD20. Dreadful. ~ DIRE\nD20 ^Printed: 24-31\nD21. A stock of hay. ~ RICK\nD21 ^Printed: 25-32\nD23. Made from cocoons. ~ SILK\nD23 ^Printed: 35-36\n\nPuzzle notes:\nSee if you can solve it. Fill in the small squares with words corresponding to the list of clews and definitions given below. The solution to this puzzle will appear in next week's FUN.\n",
+  "xd_fp": "d1e2fe311ce4",
+  "sha256": "0482d22de5d35af6373663c33c0377f2a60dbfedcada7128031083ca4f3c4c78",
+  "held": [],
+  "corrections": [],
+  "declined": [],
+  "notes": [
+   "See if you can solve it. Fill in the small squares with words corresponding to the list of clews and definitions given below. The solution to this puzzle will appear in next week's FUN."
+  ],
+  "kinds": [
+   "notes"
+  ],
+  "notes_from": "no Notes rule recorded: the default (intro, instructions)"
+ }
+}

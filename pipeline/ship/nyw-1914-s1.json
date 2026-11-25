@@ -1,0 +1,1629 @@
+{
+ "_about": "blitz ship: which puzzles of the batch are shipped (in the publication repo's xd/), shippable (pass the ship rule, not written yet) or held, with the reason, and the queue each is in: what the batch page asks of people. Format: blitz design/ship.md.",
+ "batch": "nyw-1914-s1",
+ "run": "nyw-1914-s1",
+ "packets": "blitz-work/hand-packets/nyw-1914-s1",
+ "rule": {
+  "ai_ready": "ai",
+  "hold_codes": [],
+  "ignore": [],
+  "owner": [
+   "oops6498"
+  ],
+  "marks": "people",
+  "grid_fixes": "people",
+  "typed_clues": "people"
+ },
+ "at": "2026-11-25T19:50:27+00:00",
+ "counts": {
+  "puzzles": 33,
+  "shipped": 25,
+  "shippable": 0,
+  "held": 8,
+  "out": 0,
+  "held_by": {
+   "proof-stale": 8
+  },
+  "ships_with": {
+   "off": 1,
+   "ai": 13,
+   "both": 11
+  },
+  "queues": {
+   "question": 0,
+   "unchecked": 8,
+   "broken": 0,
+   "shippable": 0,
+   "shipped": 25,
+   "set-aside": 0,
+   "not-a-crossword": 0
+  },
+  "reviewed": 9,
+  "spot_check": 3
+ },
+ "groups": [],
+ "spot": {
+  "one_in": 10,
+  "of": "puzzles shipped on someone else's word than the owner's",
+  "by": "sha1 of the puzzle's id"
+ },
+ "puzzles": [
+  {
+   "pid": "nyw1913-12-21",
+   "xdid": "",
+   "title": "FUN'S Cross-Word Puzzle",
+   "date": "1913-12-21",
+   "status": "held",
+   "reason": "proof-stale",
+   "rule": "",
+   "ships_with": "",
+   "queue": "unchecked",
+   "group": "",
+   "order": 0,
+   "reviewed": true,
+   "spot_check": false,
+   "why": "the owner's Ready was on an earlier version of the puzzle: look again",
+   "asks": [],
+   "also": [],
+   "broken": [],
+   "said": [
+    {
+     "kind": "owner",
+     "answer": "ready",
+     "at": "2026-11-25",
+     "stale": true,
+     "who": "the owner"
+    },
+    {
+     "kind": "ai",
+     "answer": "ready",
+     "at": "2026-11-25",
+     "who": "Claude (double read: newyorkworld hand-read/second-read)"
+    }
+   ],
+   "check": {
+    "ok": false,
+    "findings": [
+     "no-author",
+     "clue-empty"
+    ]
+   },
+   "printed": {
+    "head": "Printed with puzzle:",
+    "lines": null,
+    "edits": "held",
+    "fixed": [],
+    "says": "the xd's printed lines are not the packet's kept lines, so nothing says where an edit to one lands: none is applied, and a Ready carrying one holds the puzzle (edits-unapplied)"
+   }
+  },
+  {
+   "pid": "nyw1913-12-28",
+   "xdid": "",
+   "title": "FUN'S New Year Puzzle",
+   "date": "1913-12-28",
+   "status": "held",
+   "reason": "proof-stale",
+   "rule": "",
+   "ships_with": "",
+   "queue": "unchecked",
+   "group": "",
+   "order": 1,
+   "reviewed": true,
+   "spot_check": false,
+   "why": "the owner's Ready was on an earlier version of the puzzle: look again",
+   "asks": [],
+   "also": [],
+   "broken": [],
+   "said": [
+    {
+     "kind": "owner",
+     "answer": "ready",
+     "at": "2026-11-19",
+     "stale": true,
+     "who": "the owner"
+    },
+    {
+     "kind": "ai",
+     "answer": "ready",
+     "at": "2026-11-25",
+     "who": "Claude (double read: newyorkworld hand-read/second-read)"
+    }
+   ],
+   "check": {
+    "ok": false,
+    "findings": [
+     "no-author"
+    ]
+   },
+   "printed": {
+    "head": "Printed with puzzle:",
+    "lines": null,
+    "edits": "held",
+    "fixed": [],
+    "says": "the xd's printed lines are not the packet's kept lines, so nothing says where an edit to one lands: none is applied, and a Ready carrying one holds the puzzle (edits-unapplied)"
+   }
+  },
+  {
+   "pid": "nyw1914-01-04",
+   "xdid": "nyw1914-01-04",
+   "title": "Find the Missing Cross Words",
+   "date": "1914-01-04",
+   "status": "shipped",
+   "reason": "",
+   "rule": "owner",
+   "ships_with": "off",
+   "queue": "shipped",
+   "group": "",
+   "order": 8,
+   "reviewed": true,
+   "spot_check": false,
+   "why": "in xd/ as nyw1914-01-04: Ready by the owner; shipped as it stands, on the owner's word: 72 square(s) unsolved (no printed answer key; ship it anyway)",
+   "asks": [],
+   "also": [],
+   "broken": [],
+   "said": [
+    {
+     "kind": "owner",
+     "answer": "ready",
+     "at": "2026-11-25",
+     "who": "the owner"
+    },
+    {
+     "kind": "ai",
+     "answer": "ready",
+     "at": "2026-11-25",
+     "who": "Claude (double read: newyorkworld hand-read/second-read)"
+    }
+   ],
+   "check": {
+    "ok": false,
+    "findings": [
+     "declared-incomplete",
+     "no-author",
+     "grid-unsolved"
+    ]
+   },
+   "partial": {
+    "missing": [
+     "72 square(s) unsolved"
+    ],
+    "note": "no printed answer key; ship it anyway"
+   },
+   "review": "read by hand; the owner's Ready; by oops6498 (review site)",
+   "printed": {
+    "head": "Printed with puzzle:",
+    "lines": null,
+    "edits": "held",
+    "fixed": [],
+    "says": "the xd's printed lines are not the packet's kept lines, so nothing says where an edit to one lands: none is applied, and a Ready carrying one holds the puzzle (edits-unapplied)"
+   },
+   "as_shipped": "61d490cbc977",
+   "edition": {
+    "status": "made",
+    "xd_fp": "29f91c5c3587",
+    "held": [],
+    "corrections": 0
+   }
+  },
+  {
+   "pid": "nyw1914-01-11",
+   "xdid": "",
+   "title": "",
+   "date": "1914-01-11",
+   "status": "held",
+   "reason": "proof-stale",
+   "rule": "",
+   "ships_with": "",
+   "queue": "unchecked",
+   "group": "",
+   "order": 2,
+   "reviewed": true,
+   "spot_check": false,
+   "why": "the owner's Ready was on an earlier version of the puzzle: look again",
+   "asks": [],
+   "also": [],
+   "broken": [],
+   "said": [
+    {
+     "kind": "owner",
+     "answer": "ready",
+     "at": "2026-11-25",
+     "stale": true,
+     "who": "the owner"
+    },
+    {
+     "kind": "ai",
+     "answer": "ready",
+     "at": "2026-11-25",
+     "who": "Claude (double read: newyorkworld hand-read/second-read)"
+    }
+   ],
+   "check": {
+    "ok": false,
+    "findings": [
+     "no-title",
+     "no-author"
+    ]
+   },
+   "printed": {
+    "head": "Printed with puzzle:",
+    "lines": null,
+    "edits": "held",
+    "fixed": [],
+    "says": "the xd's printed lines are not the packet's kept lines, so nothing says where an edit to one lands: none is applied, and a Ready carrying one holds the puzzle (edits-unapplied)"
+   }
+  },
+  {
+   "pid": "nyw1914-01-18",
+   "xdid": "",
+   "title": "FUN'S Cross-Word Puzzle",
+   "date": "1914-01-18",
+   "status": "held",
+   "reason": "proof-stale",
+   "rule": "",
+   "ships_with": "",
+   "queue": "unchecked",
+   "group": "",
+   "order": 3,
+   "reviewed": true,
+   "spot_check": false,
+   "why": "the owner's Ready was on an earlier version of the puzzle: look again",
+   "asks": [],
+   "also": [],
+   "broken": [],
+   "said": [
+    {
+     "kind": "owner",
+     "answer": "ready",
+     "at": "2026-11-25",
+     "stale": true,
+     "who": "the owner"
+    },
+    {
+     "kind": "ai",
+     "answer": "ready",
+     "at": "2026-11-25",
+     "who": "Claude (double read: newyorkworld hand-read/second-read)"
+    }
+   ],
+   "check": {
+    "ok": false,
+    "findings": [
+     "no-author"
+    ]
+   },
+   "printed": {
+    "head": "Printed with puzzle:",
+    "lines": null,
+    "edits": "held",
+    "fixed": [],
+    "says": "the xd's printed lines are not the packet's kept lines, so nothing says where an edit to one lands: none is applied, and a Ready carrying one holds the puzzle (edits-unapplied)"
+   }
+  },
+  {
+   "pid": "nyw1914-01-25",
+   "xdid": "",
+   "title": "FUN'S Cross-Word Puzzles",
+   "date": "1914-01-25",
+   "status": "held",
+   "reason": "proof-stale",
+   "rule": "",
+   "ships_with": "",
+   "queue": "unchecked",
+   "group": "",
+   "order": 4,
+   "reviewed": true,
+   "spot_check": false,
+   "why": "the owner's Ready was on an earlier version of the puzzle: look again",
+   "asks": [],
+   "also": [],
+   "broken": [],
+   "said": [
+    {
+     "kind": "owner",
+     "answer": "ready",
+     "at": "2026-11-25",
+     "stale": true,
+     "who": "the owner"
+    },
+    {
+     "kind": "ai",
+     "answer": "ready",
+     "at": "2026-11-25",
+     "who": "Claude (double read: newyorkworld hand-read/second-read)"
+    }
+   ],
+   "check": {
+    "ok": false,
+    "findings": [
+     "no-author"
+    ]
+   },
+   "printed": {
+    "head": "Printed with puzzle:",
+    "lines": null,
+    "edits": "held",
+    "fixed": [],
+    "says": "the xd's printed lines are not the packet's kept lines, so nothing says where an edit to one lands: none is applied, and a Ready carrying one holds the puzzle (edits-unapplied)"
+   }
+  },
+  {
+   "pid": "nyw1914-02-01",
+   "xdid": "",
+   "title": "FUN'S Cross-Word Puzzles",
+   "date": "1914-02-01",
+   "status": "held",
+   "reason": "proof-stale",
+   "rule": "",
+   "ships_with": "",
+   "queue": "unchecked",
+   "group": "",
+   "order": 5,
+   "reviewed": true,
+   "spot_check": false,
+   "why": "the owner's Ready was on an earlier version of the puzzle: look again",
+   "asks": [],
+   "also": [],
+   "broken": [],
+   "said": [
+    {
+     "kind": "owner",
+     "answer": "ready",
+     "at": "2026-11-25",
+     "stale": true,
+     "who": "the owner"
+    },
+    {
+     "kind": "ai",
+     "answer": "ready",
+     "at": "2026-11-25",
+     "who": "Claude (double read: newyorkworld hand-read/second-read)"
+    }
+   ],
+   "check": {
+    "ok": false,
+    "findings": [
+     "no-author"
+    ]
+   },
+   "printed": {
+    "head": "Printed with puzzle:",
+    "lines": null,
+    "edits": "held",
+    "fixed": [],
+    "says": "the xd's printed lines are not the packet's kept lines, so nothing says where an edit to one lands: none is applied, and a Ready carrying one holds the puzzle (edits-unapplied)"
+   }
+  },
+  {
+   "pid": "nyw1914-02-08",
+   "xdid": "",
+   "title": "FUN'S Cross-Word Puzzles",
+   "date": "1914-02-08",
+   "status": "held",
+   "reason": "proof-stale",
+   "rule": "",
+   "ships_with": "",
+   "queue": "unchecked",
+   "group": "",
+   "order": 6,
+   "reviewed": true,
+   "spot_check": false,
+   "why": "the owner's Ready was on an earlier version of the puzzle: look again",
+   "asks": [],
+   "also": [],
+   "broken": [],
+   "said": [
+    {
+     "kind": "owner",
+     "answer": "ready",
+     "at": "2026-11-25",
+     "stale": true,
+     "who": "the owner"
+    },
+    {
+     "kind": "ai",
+     "answer": "ready",
+     "at": "2026-11-25",
+     "who": "Claude (double read: newyorkworld hand-read/second-read)"
+    }
+   ],
+   "check": {
+    "ok": true,
+    "findings": []
+   },
+   "printed": {
+    "head": "Printed with puzzle:",
+    "lines": null,
+    "edits": "held",
+    "fixed": [],
+    "says": "the xd's printed lines are not the packet's kept lines, so nothing says where an edit to one lands: none is applied, and a Ready carrying one holds the puzzle (edits-unapplied)"
+   }
+  },
+  {
+   "pid": "nyw1914-02-15",
+   "xdid": "",
+   "title": "FUN'S Cross-Word Puzzles",
+   "date": "1914-02-15",
+   "status": "held",
+   "reason": "proof-stale",
+   "rule": "",
+   "ships_with": "",
+   "queue": "unchecked",
+   "group": "",
+   "order": 7,
+   "reviewed": true,
+   "spot_check": false,
+   "why": "the owner's Ready was on an earlier version of the puzzle: look again",
+   "asks": [],
+   "also": [],
+   "broken": [],
+   "said": [
+    {
+     "kind": "owner",
+     "answer": "ready",
+     "at": "2026-11-25",
+     "stale": true,
+     "who": "the owner"
+    },
+    {
+     "kind": "ai",
+     "answer": "ready",
+     "at": "2026-11-25",
+     "who": "Claude (double read: newyorkworld hand-read/second-read)"
+    }
+   ],
+   "check": {
+    "ok": false,
+    "findings": [
+     "no-author"
+    ]
+   },
+   "printed": {
+    "head": "Printed with puzzle:",
+    "lines": null,
+    "edits": "held",
+    "fixed": [],
+    "says": "the xd's printed lines are not the packet's kept lines, so nothing says where an edit to one lands: none is applied, and a Ready carrying one holds the puzzle (edits-unapplied)"
+   }
+  },
+  {
+   "pid": "nyw1914-02-22",
+   "xdid": "nyw1914-02-22",
+   "title": "A George Washington Cross-Word Puzzle",
+   "date": "1914-02-22",
+   "status": "shipped",
+   "reason": "",
+   "rule": "ai",
+   "ships_with": "ai",
+   "queue": "shipped",
+   "group": "",
+   "order": 9,
+   "reviewed": false,
+   "spot_check": false,
+   "why": "in xd/ as nyw1914-02-22: the AI proof reviewer's Ready (ai_ready: ai), no Not ready",
+   "asks": [],
+   "also": [],
+   "broken": [],
+   "said": [
+    {
+     "kind": "ai",
+     "answer": "ready",
+     "at": "2026-11-25",
+     "who": "Claude (double read: newyorkworld hand-read/second-read)"
+    }
+   ],
+   "check": {
+    "ok": false,
+    "findings": [
+     "no-author"
+    ]
+   },
+   "review": "read by hand; read twice, blind; every difference settled on the scan (hand-read/second-read/VERDICTS.md); an AI's Ready; no person's review; by the AI proof reviewer's Ready",
+   "printed": {
+    "head": "Printed with puzzle:",
+    "lines": null,
+    "edits": "held",
+    "fixed": [],
+    "says": "the xd's printed lines are not the packet's kept lines, so nothing says where an edit to one lands: none is applied, and a Ready carrying one holds the puzzle (edits-unapplied)"
+   },
+   "as_shipped": "adeb6289f741",
+   "edition": {
+    "status": "made",
+    "xd_fp": "600c0824d1b9",
+    "held": [],
+    "corrections": 0
+   }
+  },
+  {
+   "pid": "nyw1914-03-01",
+   "xdid": "nyw1914-03-01",
+   "title": "FUN'S Cross-Word Puzzles",
+   "date": "1914-03-01",
+   "status": "shipped",
+   "reason": "",
+   "rule": "ai",
+   "ships_with": "ai",
+   "queue": "shipped",
+   "group": "",
+   "order": 10,
+   "reviewed": false,
+   "spot_check": false,
+   "why": "in xd/ as nyw1914-03-01: the AI proof reviewer's Ready (ai_ready: ai), no Not ready",
+   "asks": [],
+   "also": [],
+   "broken": [],
+   "said": [
+    {
+     "kind": "ai",
+     "answer": "ready",
+     "at": "2026-11-25",
+     "who": "Claude (double read: newyorkworld hand-read/second-read)"
+    }
+   ],
+   "check": {
+    "ok": false,
+    "findings": [
+     "no-author"
+    ]
+   },
+   "review": "read by hand; read twice, blind; every difference settled on the scan (hand-read/second-read/VERDICTS.md); an AI's Ready; no person's review; by the AI proof reviewer's Ready",
+   "printed": {
+    "head": "Printed with puzzle:",
+    "lines": null,
+    "edits": "held",
+    "fixed": [],
+    "says": "the xd's printed lines are not the packet's kept lines, so nothing says where an edit to one lands: none is applied, and a Ready carrying one holds the puzzle (edits-unapplied)"
+   },
+   "as_shipped": "f88b1f043a6e",
+   "edition": {
+    "status": "made",
+    "xd_fp": "069b97185529",
+    "held": [],
+    "corrections": 0
+   }
+  },
+  {
+   "pid": "nyw1914-03-08",
+   "xdid": "nyw1914-03-08",
+   "title": "FUN'S Cross-Word Puzzles",
+   "date": "1914-03-08",
+   "status": "shipped",
+   "reason": "",
+   "rule": "ai",
+   "ships_with": "both",
+   "queue": "shipped",
+   "group": "",
+   "order": 11,
+   "reviewed": false,
+   "spot_check": false,
+   "why": "in xd/ as nyw1914-03-08: the AI proof reviewer's Ready and the ship check passes (ai_ready: ai), no Not ready",
+   "asks": [],
+   "also": [],
+   "broken": [],
+   "said": [
+    {
+     "kind": "ai",
+     "answer": "ready",
+     "at": "2026-11-25",
+     "who": "Claude (double read: newyorkworld hand-read/second-read)"
+    }
+   ],
+   "check": {
+    "ok": true,
+    "findings": []
+   },
+   "review": "read by hand; read twice, blind; every difference settled on the scan (hand-read/second-read/VERDICTS.md); an AI's Ready; no person's review; by the AI proof reviewer's Ready and the ship check passes",
+   "printed": {
+    "head": "Printed with puzzle:",
+    "lines": null,
+    "edits": "held",
+    "fixed": [],
+    "says": "the xd's printed lines are not the packet's kept lines, so nothing says where an edit to one lands: none is applied, and a Ready carrying one holds the puzzle (edits-unapplied)"
+   },
+   "as_shipped": "b0f143437aa8",
+   "edition": {
+    "status": "made",
+    "xd_fp": "61f448d1d7e8",
+    "held": [],
+    "corrections": 0
+   }
+  },
+  {
+   "pid": "nyw1914-03-15",
+   "xdid": "nyw1914-03-15",
+   "title": "FUN'S Cross-Word Puzzles",
+   "date": "1914-03-15",
+   "status": "shipped",
+   "reason": "",
+   "rule": "ai",
+   "ships_with": "ai",
+   "queue": "shipped",
+   "group": "",
+   "order": 12,
+   "reviewed": false,
+   "spot_check": false,
+   "why": "in xd/ as nyw1914-03-15: the AI proof reviewer's Ready (ai_ready: ai), no Not ready",
+   "asks": [],
+   "also": [],
+   "broken": [],
+   "said": [
+    {
+     "kind": "ai",
+     "answer": "ready",
+     "at": "2026-11-25",
+     "who": "Claude (double read: newyorkworld hand-read/second-read)"
+    }
+   ],
+   "check": {
+    "ok": false,
+    "findings": [
+     "declared-incomplete"
+    ]
+   },
+   "review": "read by hand; read twice, blind; every difference settled on the scan (hand-read/second-read/VERDICTS.md); an AI's Ready; no person's review; by the AI proof reviewer's Ready",
+   "printed": {
+    "head": "Printed with puzzle:",
+    "lines": null,
+    "edits": "held",
+    "fixed": [],
+    "says": "the xd's printed lines are not the packet's kept lines, so nothing says where an edit to one lands: none is applied, and a Ready carrying one holds the puzzle (edits-unapplied)"
+   },
+   "as_shipped": "dd29620659d6",
+   "edition": {
+    "status": "made",
+    "xd_fp": "375cabc2b056",
+    "held": [],
+    "corrections": 0
+   }
+  },
+  {
+   "pid": "nyw1914-03-22",
+   "xdid": "nyw1914-03-22",
+   "title": "FUN'S Cross-Word Puzzles",
+   "date": "1914-03-22",
+   "status": "shipped",
+   "reason": "",
+   "rule": "ai",
+   "ships_with": "both",
+   "queue": "shipped",
+   "group": "",
+   "order": 13,
+   "reviewed": false,
+   "spot_check": false,
+   "why": "in xd/ as nyw1914-03-22: the AI proof reviewer's Ready and the ship check passes (ai_ready: ai), no Not ready",
+   "asks": [],
+   "also": [],
+   "broken": [],
+   "said": [
+    {
+     "kind": "ai",
+     "answer": "ready",
+     "at": "2026-11-25",
+     "who": "Claude (double read: newyorkworld hand-read/second-read)"
+    }
+   ],
+   "check": {
+    "ok": true,
+    "findings": []
+   },
+   "review": "read by hand; read twice, blind; every difference settled on the scan (hand-read/second-read/VERDICTS.md); an AI's Ready; no person's review; by the AI proof reviewer's Ready and the ship check passes",
+   "printed": {
+    "head": "Printed with puzzle:",
+    "lines": null,
+    "edits": "held",
+    "fixed": [],
+    "says": "the xd's printed lines are not the packet's kept lines, so nothing says where an edit to one lands: none is applied, and a Ready carrying one holds the puzzle (edits-unapplied)"
+   },
+   "as_shipped": "e2415c28ebd0",
+   "edition": {
+    "status": "made",
+    "xd_fp": "230482b62c24",
+    "held": [],
+    "corrections": 0
+   }
+  },
+  {
+   "pid": "nyw1914-03-29",
+   "xdid": "nyw1914-03-29",
+   "title": "FUN'S Cross-Word Puzzles",
+   "date": "1914-03-29",
+   "status": "shipped",
+   "reason": "",
+   "rule": "ai",
+   "ships_with": "both",
+   "queue": "shipped",
+   "group": "",
+   "order": 14,
+   "reviewed": false,
+   "spot_check": false,
+   "why": "in xd/ as nyw1914-03-29: the AI proof reviewer's Ready and the ship check passes (ai_ready: ai), no Not ready",
+   "asks": [],
+   "also": [],
+   "broken": [],
+   "said": [
+    {
+     "kind": "ai",
+     "answer": "ready",
+     "at": "2026-11-25",
+     "who": "Claude (double read: newyorkworld hand-read/second-read)"
+    }
+   ],
+   "check": {
+    "ok": true,
+    "findings": []
+   },
+   "review": "read by hand; read twice, blind; every difference settled on the scan (hand-read/second-read/VERDICTS.md); an AI's Ready; no person's review; by the AI proof reviewer's Ready and the ship check passes",
+   "printed": {
+    "head": "Printed with puzzle:",
+    "lines": null,
+    "edits": "held",
+    "fixed": [],
+    "says": "the xd's printed lines are not the packet's kept lines, so nothing says where an edit to one lands: none is applied, and a Ready carrying one holds the puzzle (edits-unapplied)"
+   },
+   "as_shipped": "92ed30322aca",
+   "edition": {
+    "status": "made",
+    "xd_fp": "621381a3cee4",
+    "held": [],
+    "corrections": 0
+   }
+  },
+  {
+   "pid": "nyw1914-04-05",
+   "xdid": "nyw1914-04-05",
+   "title": "FUN'S Cross-Word Puzzles",
+   "date": "1914-04-05",
+   "status": "shipped",
+   "reason": "",
+   "rule": "ai",
+   "ships_with": "both",
+   "queue": "shipped",
+   "group": "",
+   "order": 15,
+   "reviewed": false,
+   "spot_check": false,
+   "why": "in xd/ as nyw1914-04-05: the AI proof reviewer's Ready and the ship check passes (ai_ready: ai), no Not ready",
+   "asks": [],
+   "also": [],
+   "broken": [],
+   "said": [
+    {
+     "kind": "ai",
+     "answer": "ready",
+     "at": "2026-11-25",
+     "who": "Claude (double read: newyorkworld hand-read/second-read)"
+    }
+   ],
+   "check": {
+    "ok": true,
+    "findings": []
+   },
+   "review": "read by hand; read twice, blind; every difference settled on the scan (hand-read/second-read/VERDICTS.md); an AI's Ready; no person's review; by the AI proof reviewer's Ready and the ship check passes",
+   "printed": {
+    "head": "Printed with puzzle:",
+    "lines": null,
+    "edits": "held",
+    "fixed": [],
+    "says": "the xd's printed lines are not the packet's kept lines, so nothing says where an edit to one lands: none is applied, and a Ready carrying one holds the puzzle (edits-unapplied)"
+   },
+   "as_shipped": "155d3c52c51b",
+   "edition": {
+    "status": "made",
+    "xd_fp": "f96ddc4074be",
+    "held": [],
+    "corrections": 0
+   }
+  },
+  {
+   "pid": "nyw1914-04-12",
+   "xdid": "nyw1914-04-12",
+   "title": "FUN'S \"Easter\" Cross-Word Puzzle",
+   "date": "1914-04-12",
+   "status": "shipped",
+   "reason": "",
+   "rule": "ai",
+   "ships_with": "ai",
+   "queue": "shipped",
+   "group": "",
+   "order": 16,
+   "reviewed": false,
+   "spot_check": true,
+   "why": "in xd/ as nyw1914-04-12: the AI proof reviewer's Ready (ai_ready: ai), no Not ready",
+   "asks": [],
+   "also": [],
+   "broken": [],
+   "said": [
+    {
+     "kind": "ai",
+     "answer": "ready",
+     "at": "2026-11-25",
+     "who": "Claude (double read: newyorkworld hand-read/second-read)"
+    }
+   ],
+   "check": {
+    "ok": false,
+    "findings": [
+     "no-author",
+     "clue-missing",
+     "clue-empty"
+    ]
+   },
+   "review": "read by hand; read twice, blind; every difference settled on the scan (hand-read/second-read/VERDICTS.md); an AI's Ready; no person's review; by the AI proof reviewer's Ready",
+   "printed": {
+    "head": "Printed with puzzle:",
+    "lines": null,
+    "edits": "held",
+    "fixed": [],
+    "says": "the xd's printed lines are not the packet's kept lines, so nothing says where an edit to one lands: none is applied, and a Ready carrying one holds the puzzle (edits-unapplied)"
+   },
+   "as_shipped": "0b1b18135863",
+   "edition": {
+    "status": "made",
+    "xd_fp": "e369db95a154",
+    "held": [],
+    "corrections": 0
+   }
+  },
+  {
+   "pid": "nyw1914-04-19",
+   "xdid": "nyw1914-04-19",
+   "title": "FUN'S Cross-Word Puzzles",
+   "date": "1914-04-19",
+   "status": "shipped",
+   "reason": "",
+   "rule": "ai",
+   "ships_with": "ai",
+   "queue": "shipped",
+   "group": "",
+   "order": 17,
+   "reviewed": false,
+   "spot_check": false,
+   "why": "in xd/ as nyw1914-04-19: the AI proof reviewer's Ready (ai_ready: ai), no Not ready",
+   "asks": [],
+   "also": [],
+   "broken": [],
+   "said": [
+    {
+     "kind": "ai",
+     "answer": "ready",
+     "at": "2026-11-25",
+     "who": "Claude (double read: newyorkworld hand-read/second-read)"
+    }
+   ],
+   "check": {
+    "ok": false,
+    "findings": [
+     "clue-off-grid"
+    ]
+   },
+   "review": "read by hand; read twice, blind; every difference settled on the scan (hand-read/second-read/VERDICTS.md); an AI's Ready; no person's review; by the AI proof reviewer's Ready",
+   "printed": {
+    "head": "Printed with puzzle:",
+    "lines": null,
+    "edits": "held",
+    "fixed": [],
+    "says": "the xd's printed lines are not the packet's kept lines, so nothing says where an edit to one lands: none is applied, and a Ready carrying one holds the puzzle (edits-unapplied)"
+   },
+   "as_shipped": "1f817cf3093b",
+   "edition": {
+    "status": "made",
+    "xd_fp": "7f73398f0c0c",
+    "held": [],
+    "corrections": 0
+   }
+  },
+  {
+   "pid": "nyw1914-04-26",
+   "xdid": "nyw1914-04-26",
+   "title": "FUN'S Cross-Word Puzzles",
+   "date": "1914-04-26",
+   "status": "shipped",
+   "reason": "",
+   "rule": "ai",
+   "ships_with": "both",
+   "queue": "shipped",
+   "group": "",
+   "order": 18,
+   "reviewed": false,
+   "spot_check": true,
+   "why": "in xd/ as nyw1914-04-26: the AI proof reviewer's Ready and the ship check passes (ai_ready: ai), no Not ready",
+   "asks": [],
+   "also": [],
+   "broken": [],
+   "said": [
+    {
+     "kind": "ai",
+     "answer": "ready",
+     "at": "2026-11-25",
+     "who": "Claude (double read: newyorkworld hand-read/second-read)"
+    }
+   ],
+   "check": {
+    "ok": true,
+    "findings": []
+   },
+   "review": "read by hand; read twice, blind; every difference settled on the scan (hand-read/second-read/VERDICTS.md); an AI's Ready; no person's review; by the AI proof reviewer's Ready and the ship check passes",
+   "printed": {
+    "head": "Printed with puzzle:",
+    "lines": null,
+    "edits": "held",
+    "fixed": [],
+    "says": "the xd's printed lines are not the packet's kept lines, so nothing says where an edit to one lands: none is applied, and a Ready carrying one holds the puzzle (edits-unapplied)"
+   },
+   "as_shipped": "3d2fa39cfc0f",
+   "edition": {
+    "status": "made",
+    "xd_fp": "fd3f627d8cfe",
+    "held": [],
+    "corrections": 0
+   }
+  },
+  {
+   "pid": "nyw1914-05-03",
+   "xdid": "nyw1914-05-03",
+   "title": "FUN'S Cross-Word Puzzles",
+   "date": "1914-05-03",
+   "status": "shipped",
+   "reason": "",
+   "rule": "ai",
+   "ships_with": "both",
+   "queue": "shipped",
+   "group": "",
+   "order": 19,
+   "reviewed": false,
+   "spot_check": false,
+   "why": "in xd/ as nyw1914-05-03: the AI proof reviewer's Ready and the ship check passes (ai_ready: ai), no Not ready",
+   "asks": [],
+   "also": [],
+   "broken": [],
+   "said": [
+    {
+     "kind": "ai",
+     "answer": "ready",
+     "at": "2026-11-25",
+     "who": "Claude (double read: newyorkworld hand-read/second-read)"
+    }
+   ],
+   "check": {
+    "ok": true,
+    "findings": []
+   },
+   "review": "read by hand; read twice, blind; every difference settled on the scan (hand-read/second-read/VERDICTS.md); an AI's Ready; no person's review; by the AI proof reviewer's Ready and the ship check passes",
+   "printed": {
+    "head": "Printed with puzzle:",
+    "lines": null,
+    "edits": "held",
+    "fixed": [],
+    "says": "the xd's printed lines are not the packet's kept lines, so nothing says where an edit to one lands: none is applied, and a Ready carrying one holds the puzzle (edits-unapplied)"
+   },
+   "as_shipped": "8daccfb6bd2f",
+   "edition": {
+    "status": "made",
+    "xd_fp": "9087e5832918",
+    "held": [],
+    "corrections": 0
+   }
+  },
+  {
+   "pid": "nyw1914-05-10",
+   "xdid": "nyw1914-05-10",
+   "title": "FUN'S Cross-Word Puzzle",
+   "date": "1914-05-10",
+   "status": "shipped",
+   "reason": "",
+   "rule": "ai",
+   "ships_with": "both",
+   "queue": "shipped",
+   "group": "",
+   "order": 20,
+   "reviewed": false,
+   "spot_check": false,
+   "why": "in xd/ as nyw1914-05-10: the AI proof reviewer's Ready and the ship check passes (ai_ready: ai), no Not ready",
+   "asks": [],
+   "also": [],
+   "broken": [],
+   "said": [
+    {
+     "kind": "ai",
+     "answer": "ready",
+     "at": "2026-11-25",
+     "who": "Claude (double read: newyorkworld hand-read/second-read)"
+    }
+   ],
+   "check": {
+    "ok": true,
+    "findings": []
+   },
+   "review": "read by hand; read twice, blind; every difference settled on the scan (hand-read/second-read/VERDICTS.md); an AI's Ready; no person's review; by the AI proof reviewer's Ready and the ship check passes",
+   "printed": {
+    "head": "Printed with puzzle:",
+    "lines": null,
+    "edits": "held",
+    "fixed": [],
+    "says": "the xd's printed lines are not the packet's kept lines, so nothing says where an edit to one lands: none is applied, and a Ready carrying one holds the puzzle (edits-unapplied)"
+   },
+   "as_shipped": "d8bf512264fb",
+   "edition": {
+    "status": "made",
+    "xd_fp": "ad36ce12d169",
+    "held": [],
+    "corrections": 0
+   }
+  },
+  {
+   "pid": "nyw1914-05-31",
+   "xdid": "nyw1914-05-31",
+   "title": "FUN'S Cross-Word Puzzle",
+   "date": "1914-05-31",
+   "status": "shipped",
+   "reason": "",
+   "rule": "ai",
+   "ships_with": "ai",
+   "queue": "shipped",
+   "group": "",
+   "order": 21,
+   "reviewed": false,
+   "spot_check": false,
+   "why": "in xd/ as nyw1914-05-31: the AI proof reviewer's Ready (ai_ready: ai), no Not ready",
+   "asks": [],
+   "also": [],
+   "broken": [],
+   "said": [
+    {
+     "kind": "ai",
+     "answer": "ready",
+     "at": "2026-11-25",
+     "who": "Claude (double read: newyorkworld hand-read/second-read)"
+    }
+   ],
+   "check": {
+    "ok": false,
+    "findings": [
+     "no-author"
+    ]
+   },
+   "review": "read by hand; read twice, blind; every difference settled on the scan (hand-read/second-read/VERDICTS.md); an AI's Ready; no person's review; by the AI proof reviewer's Ready",
+   "printed": {
+    "head": "Printed with puzzle:",
+    "lines": null,
+    "edits": "held",
+    "fixed": [],
+    "says": "the xd's printed lines are not the packet's kept lines, so nothing says where an edit to one lands: none is applied, and a Ready carrying one holds the puzzle (edits-unapplied)"
+   },
+   "as_shipped": "1805d4cbeeda",
+   "edition": {
+    "status": "made",
+    "xd_fp": "e0b09c659b6d",
+    "held": [],
+    "corrections": 0
+   }
+  },
+  {
+   "pid": "nyw1914-06-14",
+   "xdid": "nyw1914-06-14",
+   "title": "FUN'S Cross-Word Puzzle",
+   "date": "1914-06-14",
+   "status": "shipped",
+   "reason": "",
+   "rule": "ai",
+   "ships_with": "ai",
+   "queue": "shipped",
+   "group": "",
+   "order": 22,
+   "reviewed": false,
+   "spot_check": false,
+   "why": "in xd/ as nyw1914-06-14: the AI proof reviewer's Ready (ai_ready: ai), no Not ready",
+   "asks": [],
+   "also": [],
+   "broken": [],
+   "said": [
+    {
+     "kind": "ai",
+     "answer": "ready",
+     "at": "2026-11-25",
+     "who": "Claude (double read: newyorkworld hand-read/second-read)"
+    }
+   ],
+   "check": {
+    "ok": false,
+    "findings": [
+     "clue-empty"
+    ]
+   },
+   "review": "read by hand; read twice, blind; every difference settled on the scan (hand-read/second-read/VERDICTS.md); an AI's Ready; no person's review; by the AI proof reviewer's Ready",
+   "printed": {
+    "head": "Printed with puzzle:",
+    "lines": null,
+    "edits": "held",
+    "fixed": [],
+    "says": "the xd's printed lines are not the packet's kept lines, so nothing says where an edit to one lands: none is applied, and a Ready carrying one holds the puzzle (edits-unapplied)"
+   },
+   "as_shipped": "0c3043fd04d0",
+   "edition": {
+    "status": "made",
+    "xd_fp": "31e98d00e3fb",
+    "held": [],
+    "corrections": 0
+   }
+  },
+  {
+   "pid": "nyw1914-06-21",
+   "xdid": "nyw1914-06-21",
+   "title": "FUN'S Cross-Word Puzzles",
+   "date": "1914-06-21",
+   "status": "shipped",
+   "reason": "",
+   "rule": "ai",
+   "ships_with": "ai",
+   "queue": "shipped",
+   "group": "",
+   "order": 23,
+   "reviewed": false,
+   "spot_check": false,
+   "why": "in xd/ as nyw1914-06-21: the AI proof reviewer's Ready (ai_ready: ai), no Not ready",
+   "asks": [],
+   "also": [],
+   "broken": [],
+   "said": [
+    {
+     "kind": "ai",
+     "answer": "ready",
+     "at": "2026-11-25",
+     "who": "Claude (double read: newyorkworld hand-read/second-read)"
+    }
+   ],
+   "check": {
+    "ok": false,
+    "findings": [
+     "clue-empty"
+    ]
+   },
+   "review": "read by hand; read twice, blind; every difference settled on the scan (hand-read/second-read/VERDICTS.md); an AI's Ready; no person's review; by the AI proof reviewer's Ready",
+   "printed": {
+    "head": "Printed with puzzle:",
+    "lines": null,
+    "edits": "held",
+    "fixed": [],
+    "says": "the xd's printed lines are not the packet's kept lines, so nothing says where an edit to one lands: none is applied, and a Ready carrying one holds the puzzle (edits-unapplied)"
+   },
+   "as_shipped": "0a13eba18e5b",
+   "edition": {
+    "status": "made",
+    "xd_fp": "e3a6d6ff1f4e",
+    "held": [],
+    "corrections": 0
+   }
+  },
+  {
+   "pid": "nyw1914-06-28",
+   "xdid": "nyw1914-06-28",
+   "title": "FUN'S July 4 Cross Word Puzzle",
+   "date": "1914-06-28",
+   "status": "shipped",
+   "reason": "",
+   "rule": "ai",
+   "ships_with": "ai",
+   "queue": "shipped",
+   "group": "",
+   "order": 24,
+   "reviewed": false,
+   "spot_check": false,
+   "why": "in xd/ as nyw1914-06-28: the AI proof reviewer's Ready (ai_ready: ai), no Not ready",
+   "asks": [],
+   "also": [],
+   "broken": [],
+   "said": [
+    {
+     "kind": "ai",
+     "answer": "ready",
+     "at": "2026-11-25",
+     "who": "Claude (double read: newyorkworld hand-read/second-read)"
+    }
+   ],
+   "check": {
+    "ok": false,
+    "findings": [
+     "no-author"
+    ]
+   },
+   "review": "read by hand; read twice, blind; every difference settled on the scan (hand-read/second-read/VERDICTS.md); an AI's Ready; no person's review; by the AI proof reviewer's Ready",
+   "printed": {
+    "head": "Printed with puzzle:",
+    "lines": null,
+    "edits": "held",
+    "fixed": [],
+    "says": "the xd's printed lines are not the packet's kept lines, so nothing says where an edit to one lands: none is applied, and a Ready carrying one holds the puzzle (edits-unapplied)"
+   },
+   "as_shipped": "c8d0ff5c2138",
+   "edition": {
+    "status": "made",
+    "xd_fp": "b6742d5d00ee",
+    "held": [],
+    "corrections": 0
+   }
+  },
+  {
+   "pid": "nyw1914-07-05",
+   "xdid": "nyw1914-07-05",
+   "title": "FUN'S Cross Word Puzzle",
+   "date": "1914-07-05",
+   "status": "shipped",
+   "reason": "",
+   "rule": "ai",
+   "ships_with": "both",
+   "queue": "shipped",
+   "group": "",
+   "order": 25,
+   "reviewed": false,
+   "spot_check": false,
+   "why": "in xd/ as nyw1914-07-05: the AI proof reviewer's Ready and the ship check passes (ai_ready: ai), no Not ready",
+   "asks": [],
+   "also": [],
+   "broken": [],
+   "said": [
+    {
+     "kind": "ai",
+     "answer": "ready",
+     "at": "2026-11-25",
+     "who": "Claude (double read: newyorkworld hand-read/second-read)"
+    }
+   ],
+   "check": {
+    "ok": true,
+    "findings": []
+   },
+   "review": "read by hand; read twice, blind; every difference settled on the scan (hand-read/second-read/VERDICTS.md); an AI's Ready; no person's review; by the AI proof reviewer's Ready and the ship check passes",
+   "printed": {
+    "head": "Printed with puzzle:",
+    "lines": null,
+    "edits": "held",
+    "fixed": [],
+    "says": "the xd's printed lines are not the packet's kept lines, so nothing says where an edit to one lands: none is applied, and a Ready carrying one holds the puzzle (edits-unapplied)"
+   },
+   "as_shipped": "427916eb48ca",
+   "edition": {
+    "status": "made",
+    "xd_fp": "10df4b9b7622",
+    "held": [],
+    "corrections": 0
+   }
+  },
+  {
+   "pid": "nyw1914-07-12",
+   "xdid": "nyw1914-07-12",
+   "title": "FUN'S Cross-Word Puzzle",
+   "date": "1914-07-12",
+   "status": "shipped",
+   "reason": "",
+   "rule": "ai",
+   "ships_with": "ai",
+   "queue": "shipped",
+   "group": "",
+   "order": 26,
+   "reviewed": false,
+   "spot_check": false,
+   "why": "in xd/ as nyw1914-07-12: the AI proof reviewer's Ready (ai_ready: ai), no Not ready",
+   "asks": [],
+   "also": [],
+   "broken": [],
+   "said": [
+    {
+     "kind": "ai",
+     "answer": "ready",
+     "at": "2026-11-25",
+     "who": "Claude (double read: newyorkworld hand-read/second-read)"
+    }
+   ],
+   "check": {
+    "ok": false,
+    "findings": [
+     "clue-off-grid"
+    ]
+   },
+   "review": "read by hand; read twice, blind; every difference settled on the scan (hand-read/second-read/VERDICTS.md); an AI's Ready; no person's review; by the AI proof reviewer's Ready",
+   "printed": {
+    "head": "Printed with puzzle:",
+    "lines": null,
+    "edits": "held",
+    "fixed": [],
+    "says": "the xd's printed lines are not the packet's kept lines, so nothing says where an edit to one lands: none is applied, and a Ready carrying one holds the puzzle (edits-unapplied)"
+   },
+   "as_shipped": "6e548c338d0c",
+   "edition": {
+    "status": "made",
+    "xd_fp": "9c8e5e175f35",
+    "held": [],
+    "corrections": 0
+   }
+  },
+  {
+   "pid": "nyw1914-07-19",
+   "xdid": "nyw1914-07-19",
+   "title": "FUN'S Uncompleted Cross-Word Puzzle",
+   "date": "1914-07-19",
+   "status": "shipped",
+   "reason": "",
+   "rule": "ai",
+   "ships_with": "ai",
+   "queue": "shipped",
+   "group": "",
+   "order": 27,
+   "reviewed": false,
+   "spot_check": false,
+   "why": "in xd/ as nyw1914-07-19: the AI proof reviewer's Ready (ai_ready: ai), no Not ready",
+   "asks": [],
+   "also": [],
+   "broken": [],
+   "said": [
+    {
+     "kind": "ai",
+     "answer": "ready",
+     "at": "2026-11-25",
+     "who": "Claude (double read: newyorkworld hand-read/second-read)"
+    }
+   ],
+   "check": {
+    "ok": false,
+    "findings": [
+     "no-author",
+     "clue-missing"
+    ]
+   },
+   "review": "read by hand; read twice, blind; every difference settled on the scan (hand-read/second-read/VERDICTS.md); an AI's Ready; no person's review; by the AI proof reviewer's Ready",
+   "printed": {
+    "head": "Printed with puzzle:",
+    "lines": null,
+    "edits": "held",
+    "fixed": [],
+    "says": "the xd's printed lines are not the packet's kept lines, so nothing says where an edit to one lands: none is applied, and a Ready carrying one holds the puzzle (edits-unapplied)"
+   },
+   "as_shipped": "24e96981459e",
+   "edition": {
+    "status": "made",
+    "xd_fp": "dc47f3e0eb5b",
+    "held": [],
+    "corrections": 0
+   }
+  },
+  {
+   "pid": "nyw1914-07-26",
+   "xdid": "nyw1914-07-26",
+   "title": "",
+   "date": "1914-07-26",
+   "status": "shipped",
+   "reason": "",
+   "rule": "ai",
+   "ships_with": "ai",
+   "queue": "shipped",
+   "group": "",
+   "order": 28,
+   "reviewed": false,
+   "spot_check": true,
+   "why": "in xd/ as nyw1914-07-26: the AI proof reviewer's Ready (ai_ready: ai), no Not ready",
+   "asks": [],
+   "also": [],
+   "broken": [],
+   "said": [
+    {
+     "kind": "ai",
+     "answer": "ready",
+     "at": "2026-11-25",
+     "who": "Claude (double read: newyorkworld hand-read/second-read)"
+    }
+   ],
+   "check": {
+    "ok": false,
+    "findings": [
+     "no-title"
+    ]
+   },
+   "review": "read by hand; read twice, blind; every difference settled on the scan (hand-read/second-read/VERDICTS.md); an AI's Ready; no person's review; by the AI proof reviewer's Ready",
+   "printed": {
+    "head": "Printed with puzzle:",
+    "lines": null,
+    "edits": "held",
+    "fixed": [],
+    "says": "the xd's printed lines are not the packet's kept lines, so nothing says where an edit to one lands: none is applied, and a Ready carrying one holds the puzzle (edits-unapplied)"
+   },
+   "as_shipped": "242d87a13a81",
+   "edition": {
+    "status": "made",
+    "xd_fp": "8034f13a7fb1",
+    "held": [],
+    "corrections": 0
+   }
+  },
+  {
+   "pid": "nyw1914-08-02",
+   "xdid": "nyw1914-08-02",
+   "title": "FUN'S Cross-Word Puzzle",
+   "date": "1914-08-02",
+   "status": "shipped",
+   "reason": "",
+   "rule": "ai",
+   "ships_with": "both",
+   "queue": "shipped",
+   "group": "",
+   "order": 29,
+   "reviewed": false,
+   "spot_check": false,
+   "why": "in xd/ as nyw1914-08-02: the AI proof reviewer's Ready and the ship check passes (ai_ready: ai), no Not ready",
+   "asks": [],
+   "also": [],
+   "broken": [],
+   "said": [
+    {
+     "kind": "ai",
+     "answer": "ready",
+     "at": "2026-11-25",
+     "who": "Claude (double read: newyorkworld hand-read/second-read)"
+    }
+   ],
+   "check": {
+    "ok": true,
+    "findings": []
+   },
+   "review": "read by hand; read twice, blind; every difference settled on the scan (hand-read/second-read/VERDICTS.md); an AI's Ready; no person's review; by the AI proof reviewer's Ready and the ship check passes",
+   "printed": {
+    "head": "Printed with puzzle:",
+    "lines": null,
+    "edits": "held",
+    "fixed": [],
+    "says": "the xd's printed lines are not the packet's kept lines, so nothing says where an edit to one lands: none is applied, and a Ready carrying one holds the puzzle (edits-unapplied)"
+   },
+   "as_shipped": "03f2065ff6ba",
+   "edition": {
+    "status": "made",
+    "xd_fp": "f1750c3455cf",
+    "held": [],
+    "corrections": 0
+   }
+  },
+  {
+   "pid": "nyw1914-08-09",
+   "xdid": "nyw1914-08-09",
+   "title": "Some Geography!",
+   "date": "1914-08-09",
+   "status": "shipped",
+   "reason": "",
+   "rule": "ai",
+   "ships_with": "both",
+   "queue": "shipped",
+   "group": "",
+   "order": 30,
+   "reviewed": false,
+   "spot_check": false,
+   "why": "in xd/ as nyw1914-08-09: the AI proof reviewer's Ready and the ship check passes (ai_ready: ai), no Not ready",
+   "asks": [],
+   "also": [],
+   "broken": [],
+   "said": [
+    {
+     "kind": "ai",
+     "answer": "ready",
+     "at": "2026-11-25",
+     "who": "Claude (double read: newyorkworld hand-read/second-read)"
+    }
+   ],
+   "check": {
+    "ok": true,
+    "findings": []
+   },
+   "review": "read by hand; read twice, blind; every difference settled on the scan (hand-read/second-read/VERDICTS.md); an AI's Ready; no person's review; by the AI proof reviewer's Ready and the ship check passes",
+   "printed": {
+    "head": "Printed with puzzle:",
+    "lines": null,
+    "edits": "held",
+    "fixed": [],
+    "says": "the xd's printed lines are not the packet's kept lines, so nothing says where an edit to one lands: none is applied, and a Ready carrying one holds the puzzle (edits-unapplied)"
+   },
+   "as_shipped": "c592071db235",
+   "edition": {
+    "status": "made",
+    "xd_fp": "42c8d61e35e0",
+    "held": [],
+    "corrections": 0
+   }
+  },
+  {
+   "pid": "nyw1914-08-16",
+   "xdid": "nyw1914-08-16",
+   "title": "FUN'S Cross-Word Puzzles",
+   "date": "1914-08-16",
+   "status": "shipped",
+   "reason": "",
+   "rule": "ai",
+   "ships_with": "ai",
+   "queue": "shipped",
+   "group": "",
+   "order": 31,
+   "reviewed": false,
+   "spot_check": false,
+   "why": "in xd/ as nyw1914-08-16: the AI proof reviewer's Ready (ai_ready: ai), no Not ready",
+   "asks": [],
+   "also": [],
+   "broken": [],
+   "said": [
+    {
+     "kind": "ai",
+     "answer": "ready",
+     "at": "2026-11-25",
+     "who": "Claude (double read: newyorkworld hand-read/second-read)"
+    }
+   ],
+   "check": {
+    "ok": false,
+    "findings": [
+     "clue-empty"
+    ]
+   },
+   "review": "read by hand; read twice, blind; every difference settled on the scan (hand-read/second-read/VERDICTS.md); an AI's Ready; no person's review; by the AI proof reviewer's Ready",
+   "printed": {
+    "head": "Printed with puzzle:",
+    "lines": null,
+    "edits": "held",
+    "fixed": [],
+    "says": "the xd's printed lines are not the packet's kept lines, so nothing says where an edit to one lands: none is applied, and a Ready carrying one holds the puzzle (edits-unapplied)"
+   },
+   "as_shipped": "2e081678e4d1",
+   "edition": {
+    "status": "made",
+    "xd_fp": "86e0c37677a2",
+    "held": [],
+    "corrections": 0
+   }
+  },
+  {
+   "pid": "nyw1914-08-23",
+   "xdid": "nyw1914-08-23",
+   "title": "FUN'S Cross-Word Puzzles",
+   "date": "1914-08-23",
+   "status": "shipped",
+   "reason": "",
+   "rule": "ai",
+   "ships_with": "both",
+   "queue": "shipped",
+   "group": "",
+   "order": 32,
+   "reviewed": false,
+   "spot_check": false,
+   "why": "in xd/ as nyw1914-08-23: the AI proof reviewer's Ready and the ship check passes (ai_ready: ai), no Not ready",
+   "asks": [],
+   "also": [],
+   "broken": [],
+   "said": [
+    {
+     "kind": "ai",
+     "answer": "ready",
+     "at": "2026-11-25",
+     "who": "Claude (double read: newyorkworld hand-read/second-read)"
+    }
+   ],
+   "check": {
+    "ok": true,
+    "findings": []
+   },
+   "review": "read by hand; read twice, blind; every difference settled on the scan (hand-read/second-read/VERDICTS.md); an AI's Ready; no person's review; by the AI proof reviewer's Ready and the ship check passes",
+   "printed": {
+    "head": "Printed with puzzle:",
+    "lines": null,
+    "edits": "held",
+    "fixed": [],
+    "says": "the xd's printed lines are not the packet's kept lines, so nothing says where an edit to one lands: none is applied, and a Ready carrying one holds the puzzle (edits-unapplied)"
+   },
+   "as_shipped": "266eeb886779",
+   "edition": {
+    "status": "made",
+    "xd_fp": "d1e2fe311ce4",
+    "held": [],
+    "corrections": 0
+   }
+  }
+ ],
+ "edition_published": {
+  "published": false,
+  "at": "",
+  "by": ""
+ },
+ "editions_published": 0
+}

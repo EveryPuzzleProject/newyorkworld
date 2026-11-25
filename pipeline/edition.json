@@ -1,0 +1,1109 @@
+{
+ "_about": "blitz edition: what each puzzle's edition (edition/<xdid>.xd) was made from, so it is made again only when that changes. Format: blitz design/ship.md, \"The edition\".",
+ "version": "6c492a968512aa96",
+ "puzzles": {
+  "nyw1914-01-04": {
+   "status": "made",
+   "inputs_sha256": "30981880f3f08819a0f568befc41976297ab0e925309ef58ff464424f8c0a60b",
+   "inputs": {
+    "version": "6c492a968512aa96",
+    "transcription_sha256": "db64e769b6ccfc49d1718ebca3842863155d8e0107eafc0917b5c81ea423138d",
+    "marks": [],
+    "evidence": [],
+    "unrecorded": false,
+    "declines": [],
+    "notes_rule": [
+     "intro",
+     "instructions"
+    ],
+    "printed": [
+     [
+      "other",
+      "IT'S READS BOTH WAYS"
+     ],
+     [
+      "intro",
+      "Here is another one of FUN'S word-cross puzzles. See if you can fill in the missing words."
+     ],
+     [
+      "instructions",
+      "Fill in the squares in the above diagram with words which correspond with the definitions given below. The solution will be given in next week's FUN."
+     ]
+    ],
+    "key_corrections": []
+   },
+   "marks_from": "the ship plan",
+   "notes_from": "no Notes rule recorded: the default (intro, instructions)",
+   "made_at": "2026-11-25",
+   "held": [],
+   "corrections": [],
+   "declined": [],
+   "notes": [
+    "Here is another one of FUN'S word-cross puzzles. See if you can fill in the missing words.",
+    "Fill in the squares in the above diagram with words which correspond with the definitions given below. The solution will be given in next week's FUN."
+   ],
+   "kinds": [
+    "notes"
+   ],
+   "edition_sha256": "10c02cd7c8c5333334b23e2511d880b7762b67e2b206b332b7a2415f8c91e152"
+  },
+  "nyw1914-02-22": {
+   "status": "made",
+   "inputs_sha256": "9ec664b04a90d5636cb91ba32fb7006ccb69144d9ede81b03aed17207d359e53",
+   "inputs": {
+    "version": "6c492a968512aa96",
+    "transcription_sha256": "0c7fc69edb8127e7f6d0f15cb7053e2fab2d2304d46dfd0de4adc1cb7cf453e7",
+    "marks": [],
+    "evidence": [],
+    "unrecorded": false,
+    "declines": [],
+    "notes_rule": [
+     "intro",
+     "instructions"
+    ],
+    "printed": [
+     [
+      "intro",
+      "Today being the anniversary of George Washington's birthday, what could be more appropriate to the occasio: than a real, patriotic Georga Washington puzzle. So here is one, the tenth in FUN'S series of cross-word puzzles"
+     ],
+     [
+      "instructions",
+      "Fill in the small squares in the diamond with words corresponding to the clews and definitions given herewith, allowing one letter of the word to each square."
+     ],
+     [
+      "intro",
+      "On another page you will find the solution to last week's cross-word puzzle showing just how the letters are placed to form words reading up and down and across."
+     ],
+     [
+      "credit",
+      "CALLAHAN"
+     ]
+    ],
+    "key_corrections": []
+   },
+   "marks_from": "the ship plan",
+   "notes_from": "no Notes rule recorded: the default (intro, instructions)",
+   "made_at": "2026-11-25",
+   "held": [],
+   "corrections": [],
+   "declined": [],
+   "notes": [
+    "Today being the anniversary of George Washington's birthday, what could be more appropriate to the occasio: than a real, patriotic Georga Washington puzzle. So here is one, the tenth in FUN'S series of cross-word puzzles",
+    "Fill in the small squares in the diamond with words corresponding to the clews and definitions given herewith, allowing one letter of the word to each square.",
+    "On another page you will find the solution to last week's cross-word puzzle showing just how the letters are placed to form words reading up and down and across."
+   ],
+   "kinds": [
+    "notes"
+   ],
+   "edition_sha256": "a4b766dc9e3df5d888b2b7fe54de311bbe30ea7a9e5505d006b1f122350322ab"
+  },
+  "nyw1914-03-01": {
+   "status": "made",
+   "inputs_sha256": "4fef7179f9fb3816d4126b110417d17a93dec4c18c30597bffe4dd1d2adc0374",
+   "inputs": {
+    "version": "6c492a968512aa96",
+    "transcription_sha256": "f0fc042190df43e61cea57224b2104ade079f62fbbbf30f614fb6c70eff6a656",
+    "marks": [],
+    "evidence": [],
+    "unrecorded": false,
+    "declines": [],
+    "notes_rule": [
+     "intro",
+     "instructions"
+    ],
+    "printed": [
+     [
+      "instructions",
+      "Fill in the small squares in the above diamond with words corresponding to the clews and definitions given below. On another page you will find the solution to last week's cross-word puzzle, which you can study as an example of what is required in this puzzle. The solution will be given in next week's FUN."
+     ]
+    ],
+    "key_corrections": []
+   },
+   "marks_from": "the ship plan",
+   "notes_from": "no Notes rule recorded: the default (intro, instructions)",
+   "made_at": "2026-11-25",
+   "held": [],
+   "corrections": [],
+   "declined": [],
+   "notes": [
+    "Fill in the small squares in the above diamond with words corresponding to the clews and definitions given below. On another page you will find the solution to last week's cross-word puzzle, which you can study as an example of what is required in this puzzle. The solution will be given in next week's FUN."
+   ],
+   "kinds": [
+    "notes"
+   ],
+   "edition_sha256": "7bafbcb098b600a8855698263773e9ce5bf89af39d8e74ebaf57b5d6c1e34a76"
+  },
+  "nyw1914-03-08": {
+   "status": "made",
+   "inputs_sha256": "b1ec950c924199f039c35df4e27d6c12f7c0d9705f7c58ec4f463dd9d9feab76",
+   "inputs": {
+    "version": "6c492a968512aa96",
+    "transcription_sha256": "ffe403937ac1f2c542792d43bb0d81ec09b3bc20efd551661db61a29ea86f545",
+    "marks": [],
+    "evidence": [],
+    "unrecorded": false,
+    "declines": [],
+    "notes_rule": [
+     "intro",
+     "instructions"
+    ],
+    "printed": [
+     [
+      "credit",
+      "Today's cross work puzzle, the twelfth in FUN'S series, was sent in by Miss Evangeline Kearney of 207 Winthrop street, Brooklyn."
+     ],
+     [
+      "instructions",
+      "See if you can solve it. Fill in the small squares in the above diamond with words corresponding to the clews and definitions given below. On another page you will find the solutions of last week's puzzle. The solution to today's puzzle will be given in next week's FUN."
+     ]
+    ],
+    "key_corrections": []
+   },
+   "marks_from": "the ship plan",
+   "notes_from": "no Notes rule recorded: the default (intro, instructions)",
+   "made_at": "2026-11-25",
+   "held": [],
+   "corrections": [],
+   "declined": [],
+   "notes": [
+    "See if you can solve it. Fill in the small squares in the above diamond with words corresponding to the clews and definitions given below. On another page you will find the solutions of last week's puzzle. The solution to today's puzzle will be given in next week's FUN."
+   ],
+   "kinds": [
+    "notes"
+   ],
+   "edition_sha256": "c824f758cdbbd185de57427e544197a874e8b3ccbe16b20c5b632ef0a973c726"
+  },
+  "nyw1914-03-15": {
+   "status": "made",
+   "inputs_sha256": "a99b641c6ad566b1ae7b72c261149b375222ef65d5c07c83939e0c4db5dcfe23",
+   "inputs": {
+    "version": "6c492a968512aa96",
+    "transcription_sha256": "d1b94e77bab0a31ee39f281c150475598deb6685f9bc41b26aefea1b71f2f4f1",
+    "marks": [],
+    "evidence": [],
+    "unrecorded": false,
+    "declines": [],
+    "notes_rule": [
+     "intro",
+     "instructions"
+    ],
+    "printed": [
+     [
+      "other",
+      "THIS IS No 13"
+     ],
+     [
+      "intro",
+      "Here is a very ingeniously constructed cross work puzzle for you to solve. It really consists of two puzzles in one. Mr. Harry Cleaver of 83 Cathedral street, Montreal, sent it in, and he invites all of FUN'S clever puzzle solvers to fathom it if they can:"
+     ],
+     [
+      "credit",
+      "Mr. Harry Cleaver of 83 Cathedral street, Montreal, sent it in"
+     ],
+     [
+      "intro",
+      "MAIN DIAMOND PUZZLE."
+     ],
+     [
+      "intro",
+      "INSIDE DIAMOND PUZZLE."
+     ],
+     [
+      "instructions",
+      "Starting from 37 and going around to 44 you will find what President Wilson is."
+     ]
+    ],
+    "key_corrections": []
+   },
+   "marks_from": "the ship plan",
+   "notes_from": "no Notes rule recorded: the default (intro, instructions)",
+   "made_at": "2026-11-25",
+   "held": [],
+   "corrections": [],
+   "declined": [],
+   "notes": [
+    "Here is a very ingeniously constructed cross work puzzle for you to solve. It really consists of two puzzles in one. Mr. Harry Cleaver of 83 Cathedral street, Montreal, sent it in, and he invites all of FUN'S clever puzzle solvers to fathom it if they can:",
+    "MAIN DIAMOND PUZZLE.",
+    "INSIDE DIAMOND PUZZLE.",
+    "Starting from 37 and going around to 44 you will find what President Wilson is."
+   ],
+   "kinds": [
+    "notes"
+   ],
+   "edition_sha256": "81d22d3c25e724cbcf8ef7fa93b11a28e2b6b247534a1dc70a23182df9f2297a"
+  },
+  "nyw1914-03-22": {
+   "status": "made",
+   "inputs_sha256": "fa65fbb7affdb7157eb5b47f19c0bbf30c47a0943c6dea833ea0664741fa9297",
+   "inputs": {
+    "version": "6c492a968512aa96",
+    "transcription_sha256": "476af34cb2236064e3bbf0964495dfa8abc708a762d2b010ff7d0f1fd52c6bed",
+    "marks": [],
+    "evidence": [],
+    "unrecorded": false,
+    "declines": [],
+    "notes_rule": [
+     "intro",
+     "instructions"
+    ],
+    "printed": [
+     [
+      "intro",
+      "Today's cross word puzzle, the fourteenth in FUN'S series, will be found different from any previous one. It was sent in by \"G. H. F.,\" of Putnam avenue, Brooklyn. Fill in the small squares with words corresponding to the clews and definitions given below. The solution will be given in next week's FUN."
+     ],
+     [
+      "credit",
+      "It was sent in by \"G. H. F.,\" of Putnam avenue, Brooklyn."
+     ]
+    ],
+    "key_corrections": []
+   },
+   "marks_from": "the ship plan",
+   "notes_from": "no Notes rule recorded: the default (intro, instructions)",
+   "made_at": "2026-11-25",
+   "held": [],
+   "corrections": [],
+   "declined": [],
+   "notes": [
+    "Today's cross word puzzle, the fourteenth in FUN'S series, will be found different from any previous one. It was sent in by \"G. H. F.,\" of Putnam avenue, Brooklyn. Fill in the small squares with words corresponding to the clews and definitions given below. The solution will be given in next week's FUN."
+   ],
+   "kinds": [
+    "notes"
+   ],
+   "edition_sha256": "1c4abcaa82e784f8742b42a77deed90d0c2295965d25b91d1ccbb57de6044769"
+  },
+  "nyw1914-03-29": {
+   "status": "made",
+   "inputs_sha256": "b0015c7b21d195114f083bdd0285e82acae46b5182a4ff112baa0ab554a8d3c3",
+   "inputs": {
+    "version": "6c492a968512aa96",
+    "transcription_sha256": "66bca88bc266bc4a42109eea2d00967dd4fec992242b3e5e0cf8af011debcd4a",
+    "marks": [],
+    "evidence": [],
+    "unrecorded": false,
+    "declines": [],
+    "notes_rule": [
+     "intro",
+     "instructions"
+    ],
+    "printed": [
+     [
+      "intro",
+      "Today's cross work puzzle, the fifteenth in FUN'S series, was sent in by Miss Florence A. Reif of Honesdale, Pa. See if you can solve it. Fill in the little squares in the above diamond with words corresponding to the clews and definitions given below. On another page you will find the solution to last week's cross work puzzle. The solution to today's puzzle will be given in next week's FUN."
+     ],
+     [
+      "credit",
+      "was sent in by Miss Florence A. Reif of Honesdale, Pa."
+     ]
+    ],
+    "key_corrections": []
+   },
+   "marks_from": "the ship plan",
+   "notes_from": "no Notes rule recorded: the default (intro, instructions)",
+   "made_at": "2026-11-25",
+   "held": [],
+   "corrections": [],
+   "declined": [],
+   "notes": [
+    "Today's cross work puzzle, the fifteenth in FUN'S series, was sent in by Miss Florence A. Reif of Honesdale, Pa. See if you can solve it. Fill in the little squares in the above diamond with words corresponding to the clews and definitions given below. On another page you will find the solution to last week's cross work puzzle. The solution to today's puzzle will be given in next week's FUN."
+   ],
+   "kinds": [
+    "notes"
+   ],
+   "edition_sha256": "b8d2134cba1563130af82cc00c88bb5715d629eaa7896b957d919b82dc8cf6df"
+  },
+  "nyw1914-04-05": {
+   "status": "made",
+   "inputs_sha256": "a35a601788fe213d5091ea15de84124a4a7a23c7a80f4f9591ee588859a401d4",
+   "inputs": {
+    "version": "6c492a968512aa96",
+    "transcription_sha256": "4d8428771a6d94371bfb63970455702d387c200f85958701cad2c041d23f221f",
+    "marks": [],
+    "evidence": [],
+    "unrecorded": false,
+    "declines": [],
+    "notes_rule": [
+     "intro",
+     "instructions"
+    ],
+    "printed": [
+     [
+      "intro",
+      "Today's cross-word puzzle, the sixteenth in FUN'S series, was sent in by Miss Katherine Reilly, 332 East Fifty-sixth street, New York City. See if you can solve it. Fill in the small squares in the above diamond with words corresponding to the clews and definitions given below. On another page you will find the solution to last week's cross-word puzzle. The solution to today's puzzle will be given in next week's FUN."
+     ],
+     [
+      "credit",
+      "was sent in by Miss Katherine Reilly, 332 East Fifty-sixth street, New York City."
+     ]
+    ],
+    "key_corrections": []
+   },
+   "marks_from": "the ship plan",
+   "notes_from": "no Notes rule recorded: the default (intro, instructions)",
+   "made_at": "2026-11-25",
+   "held": [],
+   "corrections": [],
+   "declined": [],
+   "notes": [
+    "Today's cross-word puzzle, the sixteenth in FUN'S series, was sent in by Miss Katherine Reilly, 332 East Fifty-sixth street, New York City. See if you can solve it. Fill in the small squares in the above diamond with words corresponding to the clews and definitions given below. On another page you will find the solution to last week's cross-word puzzle. The solution to today's puzzle will be given in next week's FUN."
+   ],
+   "kinds": [
+    "notes"
+   ],
+   "edition_sha256": "e2a53a6b643e5cf12cb980469aa7ca6005f1ca9fb701f086b0d13771a8c2467f"
+  },
+  "nyw1914-04-12": {
+   "status": "made",
+   "inputs_sha256": "7d205cfcf4ae1db3a29a31456c3c54d8b9b70cb211606a142e89489371e17bcd",
+   "inputs": {
+    "version": "6c492a968512aa96",
+    "transcription_sha256": "04b8d8fbb2b3c3fceef8ab3af8d5102cea56d0b1b2d8e3c272e3fedf316f93e0",
+    "marks": [],
+    "evidence": [],
+    "unrecorded": false,
+    "declines": [],
+    "notes_rule": [
+     "intro",
+     "instructions"
+    ],
+    "printed": [
+     [
+      "intro",
+      "CAN YOU SOLVE IT?"
+     ],
+     [
+      "intro",
+      "Today being Easter Sunday, FUN'S cross word puzzle, the seventeenth in the series, is given an Easter flavoring. Fill in the small squares with letters spelling words corresponding to the clews and definitions given below. Only one letter is to be placed in each square. The solution to this puzzle will be published in next week's FUN."
+     ],
+     [
+      "other",
+      "time is reckoned."
+     ]
+    ],
+    "key_corrections": []
+   },
+   "marks_from": "the ship plan",
+   "notes_from": "no Notes rule recorded: the default (intro, instructions)",
+   "made_at": "2026-11-25",
+   "held": [],
+   "corrections": [],
+   "declined": [],
+   "notes": [
+    "CAN YOU SOLVE IT?",
+    "Today being Easter Sunday, FUN'S cross word puzzle, the seventeenth in the series, is given an Easter flavoring. Fill in the small squares with letters spelling words corresponding to the clews and definitions given below. Only one letter is to be placed in each square. The solution to this puzzle will be published in next week's FUN."
+   ],
+   "kinds": [
+    "notes"
+   ],
+   "edition_sha256": "880dd9ef5c8671ee9acc5faa7f9f22c9aa5ac01aadc20289a81528013e076c5b"
+  },
+  "nyw1914-04-19": {
+   "status": "made",
+   "inputs_sha256": "026a0f803a57d56cb51fb57f8b3eed6d22a246ed07926d278ac0ce868352bf7a",
+   "inputs": {
+    "version": "6c492a968512aa96",
+    "transcription_sha256": "ef158c9324f21b0eeddb1ae4b91d9fa4bc774a43e5b058cb1f32c9675fbc8442",
+    "marks": [],
+    "evidence": [],
+    "unrecorded": false,
+    "declines": [],
+    "notes_rule": [
+     "intro",
+     "instructions"
+    ],
+    "printed": [
+     [
+      "intro",
+      "Can You Solve Them?"
+     ],
+     [
+      "credit",
+      "Today's ingenious cross-word puzzle, the eighteenth in FUN'S series, was sent in by Alex B. Miller of Portsmouth, Va."
+     ],
+     [
+      "intro",
+      "It is different from any of the others published thus far and you will find yourself busily engaged for some time to come when once you begin to solve it. In addtiion to the usual cross-words, there are also four diagonal words to be found. They reach from the extreme corners to the cross at the center. Fill in the squares with letters spelling words corresponding to the list of clews and definitions given herewith. The solution will be given in next week's FUN."
+     ],
+     [
+      "other",
+      "1-3. A letter in the Greek alphabet. ~ GAMMA"
+     ],
+     [
+      "other",
+      "4-2. A trap. ~ SNARE"
+     ],
+     [
+      "other",
+      "7-5. Part of a mandolin. ~ FRETS"
+     ],
+     [
+      "other",
+      "6-8. Situations. ~ SITES"
+     ]
+    ],
+    "key_corrections": []
+   },
+   "marks_from": "the ship plan",
+   "notes_from": "no Notes rule recorded: the default (intro, instructions)",
+   "made_at": "2026-11-25",
+   "held": [],
+   "corrections": [],
+   "declined": [],
+   "notes": [
+    "Can You Solve Them?",
+    "It is different from any of the others published thus far and you will find yourself busily engaged for some time to come when once you begin to solve it. In addtiion to the usual cross-words, there are also four diagonal words to be found. They reach from the extreme corners to the cross at the center. Fill in the squares with letters spelling words corresponding to the list of clews and definitions given herewith. The solution will be given in next week's FUN."
+   ],
+   "kinds": [
+    "notes"
+   ],
+   "edition_sha256": "7c2af65b6955130d401ca09e63554345c6b7e348c7a3d7a64eebb11403c0f0cb"
+  },
+  "nyw1914-04-26": {
+   "status": "made",
+   "inputs_sha256": "271c42503a9c99da7467d74138742daba2e1c4e64bc8eef981a3c5d2ba06c44a",
+   "inputs": {
+    "version": "6c492a968512aa96",
+    "transcription_sha256": "94e90dea3c2b14c03ee02f1dd82effb4c662d9a20ed6f0fcde3d9697b6f4043a",
+    "marks": [],
+    "evidence": [],
+    "unrecorded": false,
+    "declines": [],
+    "notes_rule": [
+     "intro",
+     "instructions"
+    ],
+    "printed": [
+     [
+      "intro",
+      "Can You"
+     ],
+     [
+      "intro",
+      "Solve Them?"
+     ],
+     [
+      "intro",
+      "Here is a very cleverly constructed cross word puzzle for you to work out. It was sent in by Miss Olga Lehander of East Seventy-sixth street, New York City. Can you solve it? Fill in the small squares with letters spelling words corresponding to the list of clews and definitions given below. The solutions will be given in next week's FUN."
+     ],
+     [
+      "credit",
+      "It was sent in by Miss Olga Lehander of East Seventy-sixth street, New York City."
+     ]
+    ],
+    "key_corrections": []
+   },
+   "marks_from": "the ship plan",
+   "notes_from": "no Notes rule recorded: the default (intro, instructions)",
+   "made_at": "2026-11-25",
+   "held": [],
+   "corrections": [],
+   "declined": [],
+   "notes": [
+    "Can You",
+    "Solve Them?",
+    "Here is a very cleverly constructed cross word puzzle for you to work out. It was sent in by Miss Olga Lehander of East Seventy-sixth street, New York City. Can you solve it? Fill in the small squares with letters spelling words corresponding to the list of clews and definitions given below. The solutions will be given in next week's FUN."
+   ],
+   "kinds": [
+    "notes"
+   ],
+   "edition_sha256": "af9bda2456bbe0c0e1fa7736da604bad7efdac646f12e4039b1dbdc034af2e9b"
+  },
+  "nyw1914-05-03": {
+   "status": "made",
+   "inputs_sha256": "5bd4d4de895d15c64fad6161a2aa0ebe4813df42475135d86864ca264e2af5fd",
+   "inputs": {
+    "version": "6c492a968512aa96",
+    "transcription_sha256": "1ba70b045515b1ba5bb5026fd39e81f780bb8501f2da54d251e2a39944ec4b2f",
+    "marks": [],
+    "evidence": [],
+    "unrecorded": false,
+    "declines": [],
+    "notes_rule": [
+     "intro",
+     "instructions"
+    ],
+    "printed": [
+     [
+      "intro",
+      "CAN YOU SOLVE THIS ONE?"
+     ],
+     [
+      "credit",
+      "FUN'S puzzle solvers are indebted to Miss Elizabeth M. Butzinger of West One Hundred and Thirty-fifth street, New York City, for the accompanying cross word puzzle, the twentieth in FUN'S series."
+     ],
+     [
+      "intro",
+      "\"I am sure,\" she writes, \"your readers will find this puzzle more difficult than any published so far.\" Whether it is more difficult or not, is a question you will have to decide for yourselves. The puzzle is certainly different and its construction must have required considerable ingenuity and patience. Fill in the small squares with words corresponding to the list of clews and definitions given herewith. The solution will be given in next week's FUN."
+     ],
+     [
+      "other",
+      "Nos. 1, 14, 51 and 64 are the four points of the compass."
+     ]
+    ],
+    "key_corrections": []
+   },
+   "marks_from": "the ship plan",
+   "notes_from": "no Notes rule recorded: the default (intro, instructions)",
+   "made_at": "2026-11-25",
+   "held": [],
+   "corrections": [],
+   "declined": [],
+   "notes": [
+    "CAN YOU SOLVE THIS ONE?",
+    "\"I am sure,\" she writes, \"your readers will find this puzzle more difficult than any published so far.\" Whether it is more difficult or not, is a question you will have to decide for yourselves. The puzzle is certainly different and its construction must have required considerable ingenuity and patience. Fill in the small squares with words corresponding to the list of clews and definitions given herewith. The solution will be given in next week's FUN."
+   ],
+   "kinds": [
+    "notes"
+   ],
+   "edition_sha256": "fe8c721545c28343ce651b6a6f6afc22ba935804083bc4bd30c76908f4407004"
+  },
+  "nyw1914-05-10": {
+   "status": "made",
+   "inputs_sha256": "243c89bfa9a4ce0a30af260efb31ed460e952a2aa44136a6f426d9c1cf440429",
+   "inputs": {
+    "version": "6c492a968512aa96",
+    "transcription_sha256": "c36418517744f09547c6f4473ad7a30c9e6982e1a4045f41bac9f9ab08bf4b98",
+    "marks": [],
+    "evidence": [],
+    "unrecorded": false,
+    "declines": [],
+    "notes_rule": [
+     "intro",
+     "instructions"
+    ],
+    "printed": [
+     [
+      "intro",
+      "Miss Elizabeth M. Butzinger, who sent in the ingeniously constructed cross word puzzle published in last week's FUN, has contributed another. And here it is. See if you can solve it. Fill in the small squares with words corresponding to the clews and definitions given herewith."
+     ],
+     [
+      "instructions",
+      "The answer to this puzzle will be published in next week's FUN."
+     ]
+    ],
+    "key_corrections": []
+   },
+   "marks_from": "the ship plan",
+   "notes_from": "no Notes rule recorded: the default (intro, instructions)",
+   "made_at": "2026-11-25",
+   "held": [],
+   "corrections": [],
+   "declined": [],
+   "notes": [
+    "Miss Elizabeth M. Butzinger, who sent in the ingeniously constructed cross word puzzle published in last week's FUN, has contributed another. And here it is. See if you can solve it. Fill in the small squares with words corresponding to the clews and definitions given herewith.",
+    "The answer to this puzzle will be published in next week's FUN."
+   ],
+   "kinds": [
+    "notes"
+   ],
+   "edition_sha256": "76cf258cc877acf277d63af655648746787429ec95600f1096d78e891e875457"
+  },
+  "nyw1914-05-31": {
+   "status": "made",
+   "inputs_sha256": "aae548b01eb298404f7a0be95ec3427d0207a10abf3f45d860e9a0d119dc167e",
+   "inputs": {
+    "version": "6c492a968512aa96",
+    "transcription_sha256": "b02ceebe62bc183b2a86236c6095fe0cb492c1ed3b6b55911ab748a0c75cdcb0",
+    "marks": [],
+    "evidence": [],
+    "unrecorded": false,
+    "declines": [],
+    "notes_rule": [
+     "intro",
+     "instructions"
+    ],
+    "printed": [
+     [
+      "intro",
+      "Here is number twenty-one in FUN'S series of cross word puzzles. It is different from any of the others published thus far and you will find yourself busily engaged for some time to come when you begin to solve it. Fill in the small squares in the above diamond with words corresponding to the clews and definitions given herewith. The solution will appear in next week's FUN."
+     ]
+    ],
+    "key_corrections": []
+   },
+   "marks_from": "the ship plan",
+   "notes_from": "no Notes rule recorded: the default (intro, instructions)",
+   "made_at": "2026-11-25",
+   "held": [],
+   "corrections": [],
+   "declined": [],
+   "notes": [
+    "Here is number twenty-one in FUN'S series of cross word puzzles. It is different from any of the others published thus far and you will find yourself busily engaged for some time to come when you begin to solve it. Fill in the small squares in the above diamond with words corresponding to the clews and definitions given herewith. The solution will appear in next week's FUN."
+   ],
+   "kinds": [
+    "notes"
+   ],
+   "edition_sha256": "a430c52bc053145ba20660747bfd227f282df29fa2ef7ed261bf7a8bcd870d9b"
+  },
+  "nyw1914-06-14": {
+   "status": "made",
+   "inputs_sha256": "963a917aca0476a3ee3f1826373ca6a5d69a0f6abc3ebde9c93ed57c31a01991",
+   "inputs": {
+    "version": "6c492a968512aa96",
+    "transcription_sha256": "ab527b0927bd6ce9820c73f754af1e00d5a1ca541ed8ae55cee8a8432b6865ed",
+    "marks": [],
+    "evidence": [],
+    "unrecorded": false,
+    "declines": [],
+    "notes_rule": [
+     "intro",
+     "instructions"
+    ],
+    "printed": [
+     [
+      "credit",
+      "This cross-word puzzle is furnished by H. J. Stack of Hartford, Conn."
+     ],
+     [
+      "instructions",
+      "The solution will appear in next week's FUN."
+     ]
+    ],
+    "key_corrections": []
+   },
+   "marks_from": "the ship plan",
+   "notes_from": "no Notes rule recorded: the default (intro, instructions)",
+   "made_at": "2026-11-25",
+   "held": [],
+   "corrections": [],
+   "declined": [],
+   "notes": [
+    "The solution will appear in next week's FUN."
+   ],
+   "kinds": [
+    "notes"
+   ],
+   "edition_sha256": "688dec570e78c511e5917d607603138f6062b2d3e023e0d11aaad4988c91f241"
+  },
+  "nyw1914-06-21": {
+   "status": "made",
+   "inputs_sha256": "cf83147cd007a1cc50e6d84cbdab34464e0b40649eb7a02ad98d2d95bc1a98aa",
+   "inputs": {
+    "version": "6c492a968512aa96",
+    "transcription_sha256": "128af460db3703fe5dfaecbf74ae74beca1b07ab8a4b88f0e7628f8a54a48b83",
+    "marks": [],
+    "evidence": [],
+    "unrecorded": false,
+    "declines": [],
+    "notes_rule": [
+     "intro",
+     "instructions"
+    ],
+    "printed": [
+     [
+      "intro",
+      "Today's cross word puzzle, the twenty-fourth in FUN'S series, is contributed by Ernest A. Grant of Washington, D. C. Can you solve it? Fill in the small squares with words corresponding to the list of clews and definitions given herewith, allowing one letter of the word to each small square. The solution to the puzzle will be published in next week's FUN."
+     ]
+    ],
+    "key_corrections": []
+   },
+   "marks_from": "the ship plan",
+   "notes_from": "no Notes rule recorded: the default (intro, instructions)",
+   "made_at": "2026-11-25",
+   "held": [],
+   "corrections": [],
+   "declined": [],
+   "notes": [
+    "Today's cross word puzzle, the twenty-fourth in FUN'S series, is contributed by Ernest A. Grant of Washington, D. C. Can you solve it? Fill in the small squares with words corresponding to the list of clews and definitions given herewith, allowing one letter of the word to each small square. The solution to the puzzle will be published in next week's FUN."
+   ],
+   "kinds": [
+    "notes"
+   ],
+   "edition_sha256": "546dba3422789515a9fd51a16b8a35b8f42fe875914f40d3e47d3c8fba807e15"
+  },
+  "nyw1914-06-28": {
+   "status": "made",
+   "inputs_sha256": "84ea387a6751c34c1fbb8817c6d85ce45b83377a0eb1861f107cd8ffb803968c",
+   "inputs": {
+    "version": "6c492a968512aa96",
+    "transcription_sha256": "8c921477c9c7f1e5bb4a8689ccabab78770f74bac8217904c63f5975af8d1c5a",
+    "marks": [],
+    "evidence": [],
+    "unrecorded": false,
+    "declines": [],
+    "notes_rule": [
+     "intro",
+     "instructions"
+    ],
+    "printed": [
+     [
+      "intro",
+      "There is a fourth of July flavor to today's cross-word puzzle. You are invited to think of the Declaration of Independence and what it meant in 1776 and what it means today while you are trying to solve this puzzle. Fill in the small squares with words corresponding to the list of clews and definitions given below, allowing one letter of each word to each square. You will find the solution to this puzzle in next week's FUN. Meanwhile, see if you can solve it yourself."
+     ]
+    ],
+    "key_corrections": []
+   },
+   "marks_from": "the ship plan",
+   "notes_from": "no Notes rule recorded: the default (intro, instructions)",
+   "made_at": "2026-11-25",
+   "held": [],
+   "corrections": [],
+   "declined": [],
+   "notes": [
+    "There is a fourth of July flavor to today's cross-word puzzle. You are invited to think of the Declaration of Independence and what it meant in 1776 and what it means today while you are trying to solve this puzzle. Fill in the small squares with words corresponding to the list of clews and definitions given below, allowing one letter of each word to each square. You will find the solution to this puzzle in next week's FUN. Meanwhile, see if you can solve it yourself."
+   ],
+   "kinds": [
+    "notes"
+   ],
+   "edition_sha256": "9f114bfb656503ce302467f9a4ec871f7aa9dd708f9c60282975f883805b7f25"
+  },
+  "nyw1914-07-05": {
+   "status": "made",
+   "inputs_sha256": "83e39aa46eb13f963d0c2c6f19d9254b734b6dbb2ce90a7bc9e020dc250c778a",
+   "inputs": {
+    "version": "6c492a968512aa96",
+    "transcription_sha256": "4e4d8aa92db417957a8eaeb890497955ce5353da4febc358b5d400773b1dc206",
+    "marks": [],
+    "evidence": [],
+    "unrecorded": false,
+    "declines": [],
+    "notes_rule": [
+     "intro",
+     "instructions"
+    ],
+    "printed": [
+     [
+      "intro",
+      "Today's cross-word puzzle, the twenty-sixth in FUN'S series, is contributed by Charles L. Rives of Spring Valley, N. Y. Mr. Rives writes that he has found it easier to solve one of these puzzles than to originate one and he wonders how many of FUN'S readers will succeed in solving his puzzle. Fill in the small squares with words coresponding to the list of clews and definitions given below, allowing one letter to each square. The solution to this puzzle will be given in next week's FUN."
+     ]
+    ],
+    "key_corrections": []
+   },
+   "marks_from": "the ship plan",
+   "notes_from": "no Notes rule recorded: the default (intro, instructions)",
+   "made_at": "2026-11-25",
+   "held": [],
+   "corrections": [],
+   "declined": [],
+   "notes": [
+    "Today's cross-word puzzle, the twenty-sixth in FUN'S series, is contributed by Charles L. Rives of Spring Valley, N. Y. Mr. Rives writes that he has found it easier to solve one of these puzzles than to originate one and he wonders how many of FUN'S readers will succeed in solving his puzzle. Fill in the small squares with words coresponding to the list of clews and definitions given below, allowing one letter to each square. The solution to this puzzle will be given in next week's FUN."
+   ],
+   "kinds": [
+    "notes"
+   ],
+   "edition_sha256": "787bccdd68d186d2158026909e7de602a9f21ad09f35af34404ef2567b81f21e"
+  },
+  "nyw1914-07-12": {
+   "status": "made",
+   "inputs_sha256": "92fac8c12058a206b3bb7d80d2c5e3008fd4a9343578c8c038cc63a7cab42476",
+   "inputs": {
+    "version": "6c492a968512aa96",
+    "transcription_sha256": "e4c4a762bdaa6698b25ea08d0dbe69f8cd2efed9ad52409b66fbf63e74dfd82f",
+    "marks": [],
+    "evidence": [],
+    "unrecorded": false,
+    "declines": [],
+    "notes_rule": [
+     "intro",
+     "instructions"
+    ],
+    "printed": [
+     [
+      "other",
+      "SOLUTION NEXT WEEK"
+     ],
+     [
+      "intro",
+      "Here is a new kind of cross-word puzzle for FUN'S puzzle experts to wrestle with. It is a contribution from W. G. H. Tiedemann of Third avenue, New York City, who very naturally suggests that any one who attempts to solve it is going to have a very interesting half hour. However, that remains to be determined when you try the puzzle yourself. The puzzle editor has taken the liberty to change several words and definitions in Mr. Tiedemann's original puzzle so that he, too, will have an interesting time of solving his own puzzle. Fill in the small squares with words corresponding to the list of clues and definitions given herewith. One letter only is to be placed in such square. The solution to this puzzle will be given in next week's FUN."
+     ],
+     [
+      "other",
+      "1-10. Highest in rank or authority. ~ CHIEF"
+     ],
+     [
+      "other",
+      "2-9. To measure off by taking steps. ~ STEP"
+     ],
+     [
+      "other",
+      "19-33. To-fortify. ~ ARM"
+     ],
+     [
+      "other",
+      "3-20. Wandering. ~ ERRANT"
+     ],
+     [
+      "other",
+      "20-34. A beverage. ~ TEA"
+     ],
+     [
+      "other",
+      "8-9. A support. ~ PROP"
+     ],
+     [
+      "other",
+      "11-12. The American century plant. ~ ALOE"
+     ],
+     [
+      "other",
+      "13-14. A farming implement. ~ PLOW"
+     ],
+     [
+      "other",
+      "15-16. Dread. ~ FEAR"
+     ]
+    ],
+    "key_corrections": []
+   },
+   "marks_from": "the ship plan",
+   "notes_from": "no Notes rule recorded: the default (intro, instructions)",
+   "made_at": "2026-11-25",
+   "held": [],
+   "corrections": [],
+   "declined": [],
+   "notes": [
+    "Here is a new kind of cross-word puzzle for FUN'S puzzle experts to wrestle with. It is a contribution from W. G. H. Tiedemann of Third avenue, New York City, who very naturally suggests that any one who attempts to solve it is going to have a very interesting half hour. However, that remains to be determined when you try the puzzle yourself. The puzzle editor has taken the liberty to change several words and definitions in Mr. Tiedemann's original puzzle so that he, too, will have an interesting time of solving his own puzzle. Fill in the small squares with words corresponding to the list of clues and definitions given herewith. One letter only is to be placed in such square. The solution to this puzzle will be given in next week's FUN."
+   ],
+   "kinds": [
+    "notes"
+   ],
+   "edition_sha256": "39ba6df5b97e4816eedba3720f5a2e2f14ef74a14795a25f1c9ec8d54bc0be40"
+  },
+  "nyw1914-07-19": {
+   "status": "made",
+   "inputs_sha256": "323bc18451f14df8a413bc3c520eb0bcd340f351136afc40ccfdd2a2bca84925",
+   "inputs": {
+    "version": "6c492a968512aa96",
+    "transcription_sha256": "2a140691ac42832d501c97576c2f85f43c02cc4155b35fadc10efd7b6a406670",
+    "marks": [],
+    "evidence": [],
+    "unrecorded": false,
+    "declines": [],
+    "notes_rule": [
+     "intro",
+     "instructions"
+    ],
+    "printed": [
+     [
+      "instructions",
+      "Today's cross word puzzle offers still another variation in the series. Instead of solving the puzzle in the usual way see if you can first complete it by filling in the blank squares with letters so as to spell words when read either across or up and down."
+     ],
+     [
+      "instructions",
+      "You do not require a numbered list of clews and definitions to work out this puzzle. Just think of a house and the furniture, fittings and supplies you will find in a house. With this clew to work on, you can readily call to mind nearly all the words needed to complete the puzzle. The solution, or rather the completed puzzle, will appear in next week's FUN."
+     ]
+    ],
+    "key_corrections": []
+   },
+   "marks_from": "the ship plan",
+   "notes_from": "no Notes rule recorded: the default (intro, instructions)",
+   "made_at": "2026-11-25",
+   "held": [],
+   "corrections": [],
+   "declined": [],
+   "notes": [
+    "Today's cross word puzzle offers still another variation in the series. Instead of solving the puzzle in the usual way see if you can first complete it by filling in the blank squares with letters so as to spell words when read either across or up and down.",
+    "You do not require a numbered list of clews and definitions to work out this puzzle. Just think of a house and the furniture, fittings and supplies you will find in a house. With this clew to work on, you can readily call to mind nearly all the words needed to complete the puzzle. The solution, or rather the completed puzzle, will appear in next week's FUN."
+   ],
+   "kinds": [
+    "notes"
+   ],
+   "edition_sha256": "7dd18afa83d53de4bb009093948012de993fc47042e802a78e880a779f79ef81"
+  },
+  "nyw1914-07-26": {
+   "status": "made",
+   "inputs_sha256": "cad3b1ae1f1a7773b9370b291ff056168f3e531df71b8cccb37d98690ceff853",
+   "inputs": {
+    "version": "6c492a968512aa96",
+    "transcription_sha256": "ad650b2a8fb2fc42aefba84411ecbfdca178143ea3cab32a9197553a68511dc1",
+    "marks": [],
+    "evidence": [],
+    "unrecorded": false,
+    "declines": [],
+    "notes_rule": [
+     "intro",
+     "instructions"
+    ],
+    "printed": [
+     [
+      "intro",
+      "Here are five puzzles in one, a contribution for FUN'S puzzle solvers to ponder over, from Aloysius E. Pracny of Jackson street, Brooklyn. He writes as follows: \"The pleasure I have found in solving the cross word puzzles in FUN has prompted me to construct the enclosed.\" Fill in the small squares with words corresponding to the list of clews and definitions given below, allowing one letter to each square. Then compare your solution with the one to be given in next week's FUN."
+     ]
+    ],
+    "key_corrections": []
+   },
+   "marks_from": "the ship plan",
+   "notes_from": "no Notes rule recorded: the default (intro, instructions)",
+   "made_at": "2026-11-25",
+   "held": [],
+   "corrections": [],
+   "declined": [],
+   "notes": [
+    "Here are five puzzles in one, a contribution for FUN'S puzzle solvers to ponder over, from Aloysius E. Pracny of Jackson street, Brooklyn. He writes as follows: \"The pleasure I have found in solving the cross word puzzles in FUN has prompted me to construct the enclosed.\" Fill in the small squares with words corresponding to the list of clews and definitions given below, allowing one letter to each square. Then compare your solution with the one to be given in next week's FUN."
+   ],
+   "kinds": [
+    "notes"
+   ],
+   "edition_sha256": "74d3f806c3e5abc9b426505726649c19cfb15c23269ec755621ee4ba1ab10625"
+  },
+  "nyw1914-08-02": {
+   "status": "made",
+   "inputs_sha256": "2defa1e55adb71d0c8647a0ca949c49e16110207b3b9c35b8fa6cb02baad9a30",
+   "inputs": {
+    "version": "6c492a968512aa96",
+    "transcription_sha256": "b431205da4237885ef9d61e85cbdd06df866768f4cf449df526af162b4895680",
+    "marks": [],
+    "evidence": [],
+    "unrecorded": false,
+    "declines": [],
+    "notes_rule": [
+     "intro",
+     "instructions"
+    ],
+    "printed": [
+     [
+      "credit",
+      "FUN'S cross word puzzle No. 30 was designed by T. W. Martin, Jr., of Baltimore, Md. This puzzle in FUN'S series may truthfully be called the young folks' number. As will be readily seen, it contains only one syllable words."
+     ],
+     [
+      "instructions",
+      "The following clews will aid you in correctly solving the puzzle. Work it out yourself and then see how your solution compares with that which will be published in next week's issue of FUN."
+     ]
+    ],
+    "key_corrections": []
+   },
+   "marks_from": "the ship plan",
+   "notes_from": "no Notes rule recorded: the default (intro, instructions)",
+   "made_at": "2026-11-25",
+   "held": [],
+   "corrections": [],
+   "declined": [],
+   "notes": [
+    "The following clews will aid you in correctly solving the puzzle. Work it out yourself and then see how your solution compares with that which will be published in next week's issue of FUN."
+   ],
+   "kinds": [
+    "notes"
+   ],
+   "edition_sha256": "45d865392aa7b65a3533f8a9db450bd68e267deb6ac1f34ddf5100f7f181cc2c"
+  },
+  "nyw1914-08-09": {
+   "status": "made",
+   "inputs_sha256": "33de1129c51fec055212f4b1bf3a38cb3a343190df7e5a2bb2378e3b8776e961",
+   "inputs": {
+    "version": "6c492a968512aa96",
+    "transcription_sha256": "be34bcee3ef6530915cc9122fedbb65fbd39ed9a5c44d3e7ebd9e3110020ceda",
+    "marks": [],
+    "evidence": [],
+    "unrecorded": false,
+    "declines": [],
+    "notes_rule": [
+     "intro",
+     "instructions"
+    ],
+    "printed": [
+     [
+      "intro",
+      "Here's a Perplexing Variety of Cross-Word Puzzle for FUN Readers to Ponder Over."
+     ],
+     [
+      "intro",
+      "In response to the oft-repeated challenge of FUN'S cross-word puzzle solvers to give them a really difficult problem to work out, the puzzle editor respectfully tenders the above geographical puzzle. It is a contribution to FUN'S cross-word collection from E. W. Fuller of West Forty-sixth street, New York City. Mr. Fuller writes that he is at work on another puzzle which may prove still more difficult to solve than today's."
+     ],
+     [
+      "credit",
+      "It is a contribution to FUN'S cross-word collection from E. W. Fuller of West Forty-sixth street, New York City."
+     ],
+     [
+      "instructions",
+      "Get out your atlas or geography and see if you can fill in the blank squares with words corresponding to the list of clews and definitions given below. The solution to this puzzle will be given in next week's FUN."
+     ]
+    ],
+    "key_corrections": []
+   },
+   "marks_from": "the ship plan",
+   "notes_from": "no Notes rule recorded: the default (intro, instructions)",
+   "made_at": "2026-11-25",
+   "held": [],
+   "corrections": [],
+   "declined": [],
+   "notes": [
+    "Here's a Perplexing Variety of Cross-Word Puzzle for FUN Readers to Ponder Over.",
+    "In response to the oft-repeated challenge of FUN'S cross-word puzzle solvers to give them a really difficult problem to work out, the puzzle editor respectfully tenders the above geographical puzzle. It is a contribution to FUN'S cross-word collection from E. W. Fuller of West Forty-sixth street, New York City. Mr. Fuller writes that he is at work on another puzzle which may prove still more difficult to solve than today's.",
+    "Get out your atlas or geography and see if you can fill in the blank squares with words corresponding to the list of clews and definitions given below. The solution to this puzzle will be given in next week's FUN."
+   ],
+   "kinds": [
+    "notes"
+   ],
+   "edition_sha256": "451961323a7e7b45791178a9d004bebbfd38eea8b53d082e2385a7cae27f63ad"
+  },
+  "nyw1914-08-16": {
+   "status": "made",
+   "inputs_sha256": "aee75c50b8923c04b018355deb75e2bb9afb484ba1fd062a662213a26affca96",
+   "inputs": {
+    "version": "6c492a968512aa96",
+    "transcription_sha256": "2d2e3e28d226d889bc0518421527d4e9c4b28324005a00981ae209cea7d5ff83",
+    "marks": [],
+    "evidence": [],
+    "unrecorded": false,
+    "declines": [],
+    "notes_rule": [
+     "intro",
+     "instructions"
+    ],
+    "printed": [
+     [
+      "credit",
+      "Today's cross-word, the thirty-second in FUN'S series, was sent in by William Callander of Pulaski street, Brooklyn. He writes as follows: \"The solving of your cross-word puzzles has been a source of keen delight not only to myself but to various members of my family and friends; but, hard as some of the puzzles have been to solve, I find it much more of a task to construct one.\""
+     ],
+     [
+      "instructions",
+      "Fill in the small squares with words corersponding to the list of clues and definitions given below. The solution to this puzzle will be published in next week's FUN."
+     ]
+    ],
+    "key_corrections": []
+   },
+   "marks_from": "the ship plan",
+   "notes_from": "no Notes rule recorded: the default (intro, instructions)",
+   "made_at": "2026-11-25",
+   "held": [],
+   "corrections": [],
+   "declined": [],
+   "notes": [
+    "Fill in the small squares with words corersponding to the list of clues and definitions given below. The solution to this puzzle will be published in next week's FUN."
+   ],
+   "kinds": [
+    "notes"
+   ],
+   "edition_sha256": "5cdba629fe015d0a5ce69c4946669224d685f7587fbb47429f2cd461b3c1296f"
+  },
+  "nyw1914-08-23": {
+   "status": "made",
+   "inputs_sha256": "9c9fe62e75cb05f306f278d10bfbd683435abdba8e0607d9ae38e75a02125cdd",
+   "inputs": {
+    "version": "6c492a968512aa96",
+    "transcription_sha256": "3430f746f484f155713f5ad5002418cab5ca982d5f0185f6a2b95371a21a733d",
+    "marks": [],
+    "evidence": [],
+    "unrecorded": false,
+    "declines": [],
+    "notes_rule": [
+     "intro",
+     "instructions"
+    ],
+    "printed": [
+     [
+      "credit",
+      "Today's cross-word puzzle was sent in by Harold Smith of Waterford, N. Y."
+     ],
+     [
+      "instructions",
+      "See if you can solve it. Fill in the small squares with words corresponding to the list of clews and definitions given below. The solution to this puzzle will appear in next week's FUN."
+     ]
+    ],
+    "key_corrections": []
+   },
+   "marks_from": "the ship plan",
+   "notes_from": "no Notes rule recorded: the default (intro, instructions)",
+   "made_at": "2026-11-25",
+   "held": [],
+   "corrections": [],
+   "declined": [],
+   "notes": [
+    "See if you can solve it. Fill in the small squares with words corresponding to the list of clews and definitions given below. The solution to this puzzle will appear in next week's FUN."
+   ],
+   "kinds": [
+    "notes"
+   ],
+   "edition_sha256": "0482d22de5d35af6373663c33c0377f2a60dbfedcada7128031083ca4f3c4c78"
+  }
+ }
+}
