@@ -27,6 +27,14 @@ A16 ^Fits: 18-19
 - Givens stay marked on their squares in the `## Design` section (`G { given: true }`), since some
   are single letters, not words (No. 13's centre E, No. 2's Y, A, R).
 - A UI can show the World's numbering from `^Printed:`.
+- **Typos in the clue text (Alex, 2026-11-25).** The clue line keeps the text as printed, the
+  paper's slips included; `^Correction:` gives the whole clue as it was meant, so a reader can show
+  either. It fixes only typesetting slips (a dropped or wrong letter, a stray comma), never period
+  spelling or style, and never what the clue means.
+  ```
+  D10. A place sheltered from strong lignt. ~ SHADE
+  D10 ^Correction: A place sheltered from strong light.
+  ```
 
 Tested on all 33 hand-read files: 1,166 of 1,206 clued words fill a whole across or down run. The
 other 40 are in three puzzles, which stay in the World's form below (`Numbering:` and `## Labels`)

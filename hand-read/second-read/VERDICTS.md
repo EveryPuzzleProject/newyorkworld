@@ -44,8 +44,16 @@ that fits the grid and claims no misprint:
 - No. 22 (05-31): nine pairs (A30, D12, D17, D32, D35, D41, D42, D45, and D7 above).
 - No. 29 (07-26): A5 73-75 or 78-75, D41 22-34 or 22-54, D45 24-32 or 24-82, D49 26-30 or 26-80.
 
+## Corrections (`^Correction:`, Alex, 2026-11-25)
+The xd keeps each typo as printed and gives the clue as meant in `^Correction:`. A Sonnet agent went
+through all 1,230 clue lines for typesetting slips; since both readings agree on these lines, the
+print is confirmed. 21 clues now carry a correction (the 9 typos above, and "Assembled,",
+"make by striking", "the first man.", "flag around a staff,", "blook", "Used to billiards.",
+"Ahe steel beak", "Heoric", "Blockthorn", "crytogamous", "fo rhealing", "A summed month.").
+Left alone as period style: "Non success.", "Die past participle.", "Wing Shaped.".
+
 ## For Alex
-- **No. 20 (05-03) A32, 37-38:** the paper prints a dash where the first word should be
-  ("— little stream."); the xd reads "A little stream." Keep the A, or print the dash as the paper did?
-- **No. 17 (04-12) A15, 19-20:** "In hac salus." or "In hae salus."? The print is too heavy to
+- **No. 20 (05-03) A32, 37-38** ([review page](https://blitz.xwordapp.com/review/?p=nyw1914-05-03)): the paper prints a dash where the first word should be
+  ("— little stream."); the xd reads "A little stream." Keep the A, or print the dash as the paper did, with `^Correction: A little stream.`?
+- **No. 17 (04-12) A15, 19-20** ([review page](https://blitz.xwordapp.com/review/?p=nyw1914-04-12)): "In hac salus." or "In hae salus."? The print is too heavy to
   tell c from e; the xd says hac.
