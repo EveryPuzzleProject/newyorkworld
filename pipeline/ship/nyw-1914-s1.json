@@ -14,7 +14,7 @@
   "grid_fixes": "people",
   "typed_clues": "people"
  },
- "at": "2026-11-25T19:54:18+00:00",
+ "at": "2026-11-25T21:01:40+00:00",
  "counts": {
   "puzzles": 33,
   "shipped": 33,
@@ -97,7 +97,7 @@
    "as_shipped": "28de5125683f",
    "edition": {
     "status": "made",
-    "xd_fp": "78b57cb2ada7",
+    "xd_fp": "28de5125683f",
     "held": [],
     "corrections": 0
    }
@@ -152,7 +152,7 @@
    "as_shipped": "16fc85385af2",
    "edition": {
     "status": "made",
-    "xd_fp": "4bcdfc310491",
+    "xd_fp": "16fc85385af2",
     "held": [],
     "corrections": 0
    }
@@ -214,7 +214,7 @@
    "as_shipped": "61d490cbc977",
    "edition": {
     "status": "made",
-    "xd_fp": "29f91c5c3587",
+    "xd_fp": "61d490cbc977",
     "held": [],
     "corrections": 0
    }
@@ -270,7 +270,7 @@
    "as_shipped": "02ff3708d89a",
    "edition": {
     "status": "made",
-    "xd_fp": "570f27feb396",
+    "xd_fp": "02ff3708d89a",
     "held": [],
     "corrections": 0
    }
@@ -325,7 +325,7 @@
    "as_shipped": "a1df8ff0f6b4",
    "edition": {
     "status": "made",
-    "xd_fp": "d264f8da23ac",
+    "xd_fp": "a1df8ff0f6b4",
     "held": [],
     "corrections": 0
    }
@@ -380,7 +380,7 @@
    "as_shipped": "56e711cfb330",
    "edition": {
     "status": "made",
-    "xd_fp": "753438969108",
+    "xd_fp": "56e711cfb330",
     "held": [],
     "corrections": 0
    }
@@ -435,7 +435,7 @@
    "as_shipped": "36c906776c60",
    "edition": {
     "status": "made",
-    "xd_fp": "31f02a243e17",
+    "xd_fp": "36c906776c60",
     "held": [],
     "corrections": 0
    }
@@ -488,7 +488,7 @@
    "as_shipped": "fa380deb08cc",
    "edition": {
     "status": "made",
-    "xd_fp": "4f770f366c1a",
+    "xd_fp": "fa380deb08cc",
     "held": [],
     "corrections": 0
    }
@@ -543,7 +543,7 @@
    "as_shipped": "3303086e157a",
    "edition": {
     "status": "made",
-    "xd_fp": "5bee6dd27a08",
+    "xd_fp": "3303086e157a",
     "held": [],
     "corrections": 0
    }
@@ -591,7 +591,7 @@
    "as_shipped": "adeb6289f741",
    "edition": {
     "status": "made",
-    "xd_fp": "600c0824d1b9",
+    "xd_fp": "adeb6289f741",
     "held": [],
     "corrections": 0
    }
@@ -639,7 +639,7 @@
    "as_shipped": "f88b1f043a6e",
    "edition": {
     "status": "made",
-    "xd_fp": "069b97185529",
+    "xd_fp": "f88b1f043a6e",
     "held": [],
     "corrections": 0
    }
@@ -685,7 +685,7 @@
    "as_shipped": "b0f143437aa8",
    "edition": {
     "status": "made",
-    "xd_fp": "61f448d1d7e8",
+    "xd_fp": "b0f143437aa8",
     "held": [],
     "corrections": 0
    }
@@ -733,7 +733,7 @@
    "as_shipped": "dd29620659d6",
    "edition": {
     "status": "made",
-    "xd_fp": "375cabc2b056",
+    "xd_fp": "dd29620659d6",
     "held": [],
     "corrections": 0
    }
@@ -779,7 +779,7 @@
    "as_shipped": "e2415c28ebd0",
    "edition": {
     "status": "made",
-    "xd_fp": "230482b62c24",
+    "xd_fp": "e2415c28ebd0",
     "held": [],
     "corrections": 0
    }
@@ -825,7 +825,7 @@
    "as_shipped": "92ed30322aca",
    "edition": {
     "status": "made",
-    "xd_fp": "621381a3cee4",
+    "xd_fp": "92ed30322aca",
     "held": [],
     "corrections": 0
    }
@@ -871,7 +871,7 @@
    "as_shipped": "155d3c52c51b",
    "edition": {
     "status": "made",
-    "xd_fp": "f96ddc4074be",
+    "xd_fp": "155d3c52c51b",
     "held": [],
     "corrections": 0
    }
@@ -921,7 +921,7 @@
    "as_shipped": "0b1b18135863",
    "edition": {
     "status": "made",
-    "xd_fp": "e369db95a154",
+    "xd_fp": "0b1b18135863",
     "held": [],
     "corrections": 0
    }
@@ -969,7 +969,7 @@
    "as_shipped": "1f817cf3093b",
    "edition": {
     "status": "made",
-    "xd_fp": "7f73398f0c0c",
+    "xd_fp": "1f817cf3093b",
     "held": [],
     "corrections": 0
    }
@@ -1015,7 +1015,7 @@
    "as_shipped": "3d2fa39cfc0f",
    "edition": {
     "status": "made",
-    "xd_fp": "fd3f627d8cfe",
+    "xd_fp": "3d2fa39cfc0f",
     "held": [],
     "corrections": 0
    }
@@ -1061,7 +1061,7 @@
    "as_shipped": "8daccfb6bd2f",
    "edition": {
     "status": "made",
-    "xd_fp": "9087e5832918",
+    "xd_fp": "8daccfb6bd2f",
     "held": [],
     "corrections": 0
    }
@@ -1107,7 +1107,7 @@
    "as_shipped": "d8bf512264fb",
    "edition": {
     "status": "made",
-    "xd_fp": "ad36ce12d169",
+    "xd_fp": "d8bf512264fb",
     "held": [],
     "corrections": 0
    }
@@ -1155,7 +1155,7 @@
    "as_shipped": "1805d4cbeeda",
    "edition": {
     "status": "made",
-    "xd_fp": "e0b09c659b6d",
+    "xd_fp": "1805d4cbeeda",
     "held": [],
     "corrections": 0
    }
@@ -1203,7 +1203,7 @@
    "as_shipped": "0c3043fd04d0",
    "edition": {
     "status": "made",
-    "xd_fp": "31e98d00e3fb",
+    "xd_fp": "0c3043fd04d0",
     "held": [],
     "corrections": 0
    }
@@ -1251,7 +1251,7 @@
    "as_shipped": "0a13eba18e5b",
    "edition": {
     "status": "made",
-    "xd_fp": "e3a6d6ff1f4e",
+    "xd_fp": "0a13eba18e5b",
     "held": [],
     "corrections": 0
    }
@@ -1299,7 +1299,7 @@
    "as_shipped": "c8d0ff5c2138",
    "edition": {
     "status": "made",
-    "xd_fp": "b6742d5d00ee",
+    "xd_fp": "c8d0ff5c2138",
     "held": [],
     "corrections": 0
    }
@@ -1345,7 +1345,7 @@
    "as_shipped": "427916eb48ca",
    "edition": {
     "status": "made",
-    "xd_fp": "10df4b9b7622",
+    "xd_fp": "427916eb48ca",
     "held": [],
     "corrections": 0
    }
@@ -1393,7 +1393,7 @@
    "as_shipped": "6e548c338d0c",
    "edition": {
     "status": "made",
-    "xd_fp": "9c8e5e175f35",
+    "xd_fp": "6e548c338d0c",
     "held": [],
     "corrections": 0
    }
@@ -1442,7 +1442,7 @@
    "as_shipped": "24e96981459e",
    "edition": {
     "status": "made",
-    "xd_fp": "dc47f3e0eb5b",
+    "xd_fp": "24e96981459e",
     "held": [],
     "corrections": 0
    }
@@ -1490,7 +1490,7 @@
    "as_shipped": "242d87a13a81",
    "edition": {
     "status": "made",
-    "xd_fp": "8034f13a7fb1",
+    "xd_fp": "242d87a13a81",
     "held": [],
     "corrections": 0
    }
@@ -1536,7 +1536,7 @@
    "as_shipped": "03f2065ff6ba",
    "edition": {
     "status": "made",
-    "xd_fp": "f1750c3455cf",
+    "xd_fp": "03f2065ff6ba",
     "held": [],
     "corrections": 0
    }
@@ -1582,7 +1582,7 @@
    "as_shipped": "c592071db235",
    "edition": {
     "status": "made",
-    "xd_fp": "42c8d61e35e0",
+    "xd_fp": "c592071db235",
     "held": [],
     "corrections": 0
    }
@@ -1630,7 +1630,7 @@
    "as_shipped": "2e081678e4d1",
    "edition": {
     "status": "made",
-    "xd_fp": "86e0c37677a2",
+    "xd_fp": "2e081678e4d1",
     "held": [],
     "corrections": 0
    }
@@ -1676,16 +1676,16 @@
    "as_shipped": "266eeb886779",
    "edition": {
     "status": "made",
-    "xd_fp": "d1e2fe311ce4",
+    "xd_fp": "266eeb886779",
     "held": [],
     "corrections": 0
    }
   }
  ],
  "edition_published": {
-  "published": false,
-  "at": "",
-  "by": ""
+  "published": true,
+  "at": "2026-11-25T21:01:03.494+00:00",
+  "by": "the owner"
  },
- "editions_published": 0
+ "editions_published": 33
 }
