@@ -1,0 +1,72 @@
+{
+ "_about": "blitz ship: the xd exactly as `blitz ship --write` writes it for this puzzle, with the record of every edit behind it (design/ship.md, \"The xd as it will ship\"). Made with the batch's ship record; stale when the record is made again.",
+ "pid": "nyw1914-01-04",
+ "xdid": "nyw1914-01-04",
+ "batch": "nyw-1914-s1",
+ "run": "nyw-1914-s1",
+ "at": "2026-11-25T19:54:18+00:00",
+ "status": "shipped",
+ "xd": "## Metadata\nTitle: Find the Missing Cross Words\nCopyright: New York World\nDate: 1914-01-04\nDescription: A 13-wide diamond (the same outline as No. 1) with a black cross in the centre (shown as _) lettered in white \"IT'S READS BOTH WAYS\" (the first word is blotted; IT'S is the likely reading). No solution was printed anywhere, so the letters are unknown: every square of the puzzle is written as \".\" and the clues have no answers.\nIncomplete: no printed solution has been found, so the grid's letters and the answers are unknown.\nSource: Milwaukee Sentinel, 1914-01-04, p. 80\n\n\n## Printed\nheading: FIND THE MISSING\nheading: CROSS WORDS\ncentre block: IT'S READS BOTH WAYS\nintro: Here is another one of FUN'S word-cross puzzles. See if you can fill in the missing words.\ninstructions: Fill in the squares in the above diagram with words which correspond with the definitions given below. The solution will be given in next week's FUN.\n\n\n## Grid\n______?______\n_____???_____\n____?????____\n___???????___\n__????_????__\n_????___????_\n????_____????\n_????___????_\n__????_????__\n___???????___\n____?????____\n_____???_____\n______?______\n\n\n## Clues\nA2. Used on washday. ~ \nA2 ^Printed: 1-2\nA4. A man servant. ~ \nA4 ^Printed: 3-4\nA6. A month. ~ \nA6 ^Printed: 5-6\nA8. Light sweetened bread. ~ \nA8 ^Printed: 7-8\nA9. Fastened. ~ \nA9 ^Printed: 9-10\nA11. To melt. ~ \nA11 ^Printed: 11-12\nA12. A debt. ~ \nA12 ^Printed: 13-14\nA14. To runaway. ~ \nA14 ^Printed: 15-16\nA15. The reverse side of a coin. ~ \nA15 ^Printed: 17-18\nA16. To check. ~ \nA16 ^Printed: 19-20\nA18. The rim of a shield. ~ \nA18 ^Printed: 21-22\nA19. A native of Scotland. ~ \nA19 ^Printed: 23-24\nA21. One dollar bills. ~ \nA21 ^Printed: 25-26\nA22. An extract. ~ \nA22 ^Printed: 27-28\nA24. A boy's name. ~ \nA24 ^Printed: 29-30\nA25. A boy's name. ~ \nA25 ^Printed: 31-32\n\nD1. A Kaffir. ~ \nD1 ^Printed: 33-34\nD2. A wooden or metal vessel. ~ \nD2 ^Printed: 1-8\nD3. To strike. ~ \nD3 ^Printed: 2-9\nD4. An ornament ~ \nD4 ^Printed: 3-12\nD5. Three together. ~ \nD5 ^Printed: 4-13\nD6. Right. ~ \nD6 ^Printed: 5-27\nD7. An evergreen tree. ~ \nD7 ^Printed: 6-23\nD7 ^Fits: 6-28\nD8. To control. ~ \nD8 ^Printed: 7-23\nD10. Business transactions. ~ \nD10 ^Printed: 10-16\nD10 ^Fits: 10-26\nD11. In favor of. ~ \nD11 ^Printed: 11-19\nD13. A stamp. ~ \nD13 ^Printed: 14-22\nD17. Part of your face. ~ \nD17 ^Printed: 20-29\nD18. A single time. ~ \nD18 ^Printed: 21-30\nD20. The Emperor of Russia. ~ \nD20 ^Printed: 24-31\nD21. Exclusively. ~ \nD21 ^Printed: 25-32\nD23. The god of love. ~ \nD23 ^Printed: 35-36\n",
+ "xd_fp": "61d490cbc977",
+ "packet": "blitz-work/hand-packets/nyw-1914-s1/nyw1914-01-04",
+ "packet_xd": "61d490cbc977",
+ "decision": {
+  "rule": "owner",
+  "ai_ready": "ai",
+  "why": "in xd/ as nyw1914-01-04: Ready by the owner; shipped as it stands, on the owner's word: 72 square(s) unsolved (no printed answer key; ship it anyway)",
+  "said": [
+   {
+    "kind": "owner",
+    "answer": "ready",
+    "at": "2026-11-25",
+    "who": "the owner"
+   },
+   {
+    "kind": "ai",
+    "answer": "ready",
+    "at": "2026-11-25",
+    "who": "Claude (double read: newyorkworld hand-read/second-read)"
+   }
+  ]
+ },
+ "edits": {
+  "records": [],
+  "packet": []
+ },
+ "corrections": [],
+ "notes": [],
+ "proposals": [],
+ "typed": [],
+ "printed": [
+  {
+   "label": "other",
+   "text": "IT'S READS BOTH WAYS"
+  },
+  {
+   "label": "intro",
+   "text": "Here is another one of FUN'S word-cross puzzles. See if you can fill in the missing words."
+  },
+  {
+   "label": "instructions",
+   "text": "Fill in the squares in the above diagram with words which correspond with the definitions given below. The solution will be given in next week's FUN."
+  }
+ ],
+ "edition": {
+  "status": "made",
+  "path": "edition/nyw1914-01-04.xd",
+  "xd": "## Metadata\nTitle: Find the Missing Cross Words\nCopyright: New York World\nDate: 1914-01-04\nDescription: A 13-wide diamond (the same outline as No. 1) with a black cross in the centre (shown as _) lettered in white \"IT'S READS BOTH WAYS\" (the first word is blotted; IT'S is the likely reading). No solution was printed anywhere, so the letters are unknown: every square of the puzzle is written as \".\" and the clues have no answers.\nIncomplete: no printed solution has been found, so the grid's letters and the answers are unknown.\nSource: Milwaukee Sentinel, 1914-01-04, p. 80\n\n\n## Printed\nheading: FIND THE MISSING\nheading: CROSS WORDS\ncentre block: IT'S READS BOTH WAYS\nintro: Here is another one of FUN'S word-cross puzzles. See if you can fill in the missing words.\ninstructions: Fill in the squares in the above diagram with words which correspond with the definitions given below. The solution will be given in next week's FUN.\n\n\n## Grid\n______?______\n_____???_____\n____?????____\n___???????___\n__????_????__\n_????___????_\n????_____????\n_????___????_\n__????_????__\n___???????___\n____?????____\n_____???_____\n______?______\n\n\n## Clues\nA2. Used on washday. ~ \nA2 ^Printed: 1-2\nA4. A man servant. ~ \nA4 ^Printed: 3-4\nA6. A month. ~ \nA6 ^Printed: 5-6\nA8. Light sweetened bread. ~ \nA8 ^Printed: 7-8\nA9. Fastened. ~ \nA9 ^Printed: 9-10\nA11. To melt. ~ \nA11 ^Printed: 11-12\nA12. A debt. ~ \nA12 ^Printed: 13-14\nA14. To runaway. ~ \nA14 ^Printed: 15-16\nA15. The reverse side of a coin. ~ \nA15 ^Printed: 17-18\nA16. To check. ~ \nA16 ^Printed: 19-20\nA18. The rim of a shield. ~ \nA18 ^Printed: 21-22\nA19. A native of Scotland. ~ \nA19 ^Printed: 23-24\nA21. One dollar bills. ~ \nA21 ^Printed: 25-26\nA22. An extract. ~ \nA22 ^Printed: 27-28\nA24. A boy's name. ~ \nA24 ^Printed: 29-30\nA25. A boy's name. ~ \nA25 ^Printed: 31-32\n\nD1. A Kaffir. ~ \nD1 ^Printed: 33-34\nD2. A wooden or metal vessel. ~ \nD2 ^Printed: 1-8\nD3. To strike. ~ \nD3 ^Printed: 2-9\nD4. An ornament ~ \nD4 ^Printed: 3-12\nD5. Three together. ~ \nD5 ^Printed: 4-13\nD6. Right. ~ \nD6 ^Printed: 5-27\nD7. An evergreen tree. ~ \nD7 ^Printed: 6-23\nD7 ^Fits: 6-28\nD8. To control. ~ \nD8 ^Printed: 7-23\nD10. Business transactions. ~ \nD10 ^Printed: 10-16\nD10 ^Fits: 10-26\nD11. In favor of. ~ \nD11 ^Printed: 11-19\nD13. A stamp. ~ \nD13 ^Printed: 14-22\nD17. Part of your face. ~ \nD17 ^Printed: 20-29\nD18. A single time. ~ \nD18 ^Printed: 21-30\nD20. The Emperor of Russia. ~ \nD20 ^Printed: 24-31\nD21. Exclusively. ~ \nD21 ^Printed: 25-32\nD23. The god of love. ~ \nD23 ^Printed: 35-36\n\nPuzzle notes:\nHere is another one of FUN'S word-cross puzzles. See if you can fill in the missing words.\nFill in the squares in the above diagram with words which correspond with the definitions given below. The solution will be given in next week's FUN.\n",
+  "xd_fp": "29f91c5c3587",
+  "sha256": "10c02cd7c8c5333334b23e2511d880b7762b67e2b206b332b7a2415f8c91e152",
+  "held": [],
+  "corrections": [],
+  "declined": [],
+  "notes": [
+   "Here is another one of FUN'S word-cross puzzles. See if you can fill in the missing words.",
+   "Fill in the squares in the above diagram with words which correspond with the definitions given below. The solution will be given in next week's FUN."
+  ],
+  "kinds": [
+   "notes"
+  ],
+  "notes_from": "no Notes rule recorded: the default (intro, instructions)"
+ }
+}

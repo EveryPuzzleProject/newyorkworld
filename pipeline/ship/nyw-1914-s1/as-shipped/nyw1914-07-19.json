@@ -1,0 +1,62 @@
+{
+ "_about": "blitz ship: the xd exactly as `blitz ship --write` writes it for this puzzle, with the record of every edit behind it (design/ship.md, \"The xd as it will ship\"). Made with the batch's ship record; stale when the record is made again.",
+ "pid": "nyw1914-07-19",
+ "xdid": "nyw1914-07-19",
+ "batch": "nyw-1914-s1",
+ "run": "nyw-1914-s1",
+ "at": "2026-11-25T19:54:18+00:00",
+ "status": "shipped",
+ "xd": "## Metadata\nTitle: FUN'S Uncompleted Cross-Word Puzzle\nCopyright: New York World\nDate: 1914-07-19\nNumber: 28\nDescription: A 13-wide diamond with a diamond-shaped panel covering a stepped void in the centre (shown as _), no numbers and no clue list; the solver fills in the blank squares around letters already printed in the grid. Letters printed as given: r3c5-c9 GAOLS; r5c3-c6 GATE; r5c8-c11 DRAW; r6c3 A; r6c9-c12 ENOS; r7c1 H; r7c3 S; r7c13 P; r8c3 E; r9c3 S; r9c6 T; r9c8-c11 WELD; r10c6 U; r10c7 S; r11c5-c9 FREAK; r12c6 N; r12c7 E; r13c7 N. Two given letters disagree with the printed solution: r7c1 is printed H, where the solution has W (WASH), and r13c7 is printed N, where the solution has R (SEER); the grid follows the solution.\nSource: Milwaukee Sentinel, 1914-07-19, p. 79\nSolution-Source: Milwaukee Sentinel, 1914-07-26, p. 76\n\n\n## Printed\nheading: FUN'S\nheading: UNCOMPLETED CROSS-WORD PUZZLE\nnumber: No 28.\ninstructions: Today's cross word puzzle offers still another variation in the series. Instead of solving the puzzle in the usual way see if you can first complete it by filling in the blank squares with letters so as to spell words when read either across or up and down.\ninstructions: You do not require a numbered list of clews and definitions to work out this puzzle. Just think of a house and the furniture, fittings and supplies you will find in a house. With this clew to work on, you can readily call to mind nearly all the words needed to complete the puzzle. The solution, or rather the completed puzzle, will appear in next week's FUN.\nsolution caption: Solution to last week's cross work puzzle.\n\n\n## Grid\n______D______\n_____MOP_____\n____GAOLS____\n___BEDROOM___\n__GATE_DRAW__\n_MATS___ENOS_\nWASH_____TRIP\n_PETS___MELT_\n__SUET_WELD__\n___BRUSHES___\n____FREAK____\n_____NET_____\n______R______\n\n\n## Clues\n\n\n## Design\nG { given: true }\n\n.............\n.............\n....GGGGG....\n.............\n..GGGG.GGGG..\n..G.....GGGG.\nG.G.........G\n..G..........\n..G..G.GGGG..\n.....GG......\n....GGGGG....\n.....GG......\n......G......\n",
+ "xd_fp": "24e96981459e",
+ "packet": "blitz-work/hand-packets/nyw-1914-s1/nyw1914-07-19",
+ "packet_xd": "24e96981459e",
+ "decision": {
+  "rule": "ai",
+  "ai_ready": "ai",
+  "why": "in xd/ as nyw1914-07-19: the AI proof reviewer's Ready (ai_ready: ai), no Not ready",
+  "said": [
+   {
+    "kind": "ai",
+    "answer": "ready",
+    "at": "2026-11-25",
+    "who": "Claude (double read: newyorkworld hand-read/second-read)"
+   }
+  ]
+ },
+ "edits": {
+  "records": [],
+  "packet": []
+ },
+ "corrections": [],
+ "notes": [],
+ "proposals": [],
+ "typed": [],
+ "printed": [
+  {
+   "label": "instructions",
+   "text": "Today's cross word puzzle offers still another variation in the series. Instead of solving the puzzle in the usual way see if you can first complete it by filling in the blank squares with letters so as to spell words when read either across or up and down."
+  },
+  {
+   "label": "instructions",
+   "text": "You do not require a numbered list of clews and definitions to work out this puzzle. Just think of a house and the furniture, fittings and supplies you will find in a house. With this clew to work on, you can readily call to mind nearly all the words needed to complete the puzzle. The solution, or rather the completed puzzle, will appear in next week's FUN."
+  }
+ ],
+ "edition": {
+  "status": "made",
+  "path": "edition/nyw1914-07-19.xd",
+  "xd": "## Metadata\nTitle: FUN'S Uncompleted Cross-Word Puzzle\nCopyright: New York World\nDate: 1914-07-19\nNumber: 28\nDescription: A 13-wide diamond with a diamond-shaped panel covering a stepped void in the centre (shown as _), no numbers and no clue list; the solver fills in the blank squares around letters already printed in the grid. Letters printed as given: r3c5-c9 GAOLS; r5c3-c6 GATE; r5c8-c11 DRAW; r6c3 A; r6c9-c12 ENOS; r7c1 H; r7c3 S; r7c13 P; r8c3 E; r9c3 S; r9c6 T; r9c8-c11 WELD; r10c6 U; r10c7 S; r11c5-c9 FREAK; r12c6 N; r12c7 E; r13c7 N. Two given letters disagree with the printed solution: r7c1 is printed H, where the solution has W (WASH), and r13c7 is printed N, where the solution has R (SEER); the grid follows the solution.\nSource: Milwaukee Sentinel, 1914-07-19, p. 79\nSolution-Source: Milwaukee Sentinel, 1914-07-26, p. 76\n\n\n## Printed\nheading: FUN'S\nheading: UNCOMPLETED CROSS-WORD PUZZLE\nnumber: No 28.\ninstructions: Today's cross word puzzle offers still another variation in the series. Instead of solving the puzzle in the usual way see if you can first complete it by filling in the blank squares with letters so as to spell words when read either across or up and down.\ninstructions: You do not require a numbered list of clews and definitions to work out this puzzle. Just think of a house and the furniture, fittings and supplies you will find in a house. With this clew to work on, you can readily call to mind nearly all the words needed to complete the puzzle. The solution, or rather the completed puzzle, will appear in next week's FUN.\nsolution caption: Solution to last week's cross work puzzle.\n\n\n## Grid\n______D______\n_____MOP_____\n____GAOLS____\n___BEDROOM___\n__GATE_DRAW__\n_MATS___ENOS_\nWASH_____TRIP\n_PETS___MELT_\n__SUET_WELD__\n___BRUSHES___\n____FREAK____\n_____NET_____\n______R______\n\n\n## Clues\n\n\n## Design\nG { given: true }\n\n.............\n.............\n....GGGGG....\n.............\n..GGGG.GGGG..\n..G.....GGGG.\nG.G.........G\n..G..........\n..G..G.GGGG..\n.....GG......\n....GGGGG....\n.....GG......\n......G......\n\nPuzzle notes:\nToday's cross word puzzle offers still another variation in the series. Instead of solving the puzzle in the usual way see if you can first complete it by filling in the blank squares with letters so as to spell words when read either across or up and down.\nYou do not require a numbered list of clews and definitions to work out this puzzle. Just think of a house and the furniture, fittings and supplies you will find in a house. With this clew to work on, you can readily call to mind nearly all the words needed to complete the puzzle. The solution, or rather the completed puzzle, will appear in next week's FUN.\n",
+  "xd_fp": "dc47f3e0eb5b",
+  "sha256": "7dd18afa83d53de4bb009093948012de993fc47042e802a78e880a779f79ef81",
+  "held": [],
+  "corrections": [],
+  "declined": [],
+  "notes": [
+   "Today's cross word puzzle offers still another variation in the series. Instead of solving the puzzle in the usual way see if you can first complete it by filling in the blank squares with letters so as to spell words when read either across or up and down.",
+   "You do not require a numbered list of clews and definitions to work out this puzzle. Just think of a house and the furniture, fittings and supplies you will find in a house. With this clew to work on, you can readily call to mind nearly all the words needed to complete the puzzle. The solution, or rather the completed puzzle, will appear in next week's FUN."
+  ],
+  "kinds": [
+   "notes"
+  ],
+  "notes_from": "no Notes rule recorded: the default (intro, instructions)"
+ }
+}

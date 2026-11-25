@@ -1,0 +1,71 @@
+{
+ "_about": "blitz ship: the xd exactly as `blitz ship --write` writes it for this puzzle, with the record of every edit behind it (design/ship.md, \"The xd as it will ship\"). Made with the batch's ship record; stale when the record is made again.",
+ "pid": "nyw1914-02-22",
+ "xdid": "nyw1914-02-22",
+ "batch": "nyw-1914-s1",
+ "run": "nyw-1914-s1",
+ "at": "2026-11-25T19:54:18+00:00",
+ "status": "shipped",
+ "xd": "## Metadata\nTitle: A George Washington Cross-Word Puzzle\nCopyright: New York World\nDate: 1914-02-22\nNumber: 10\nDescription: A 15-wide diamond with a diamond-shaped hole in the centre (shown as _) holding a portrait of Washington, for Washington's Birthday; nine clues are on Washington.\nSource: Milwaukee Sentinel, 1914-02-22, p. 80\nSolution-Source: Milwaukee Sentinel, 1914-03-01, p. 85\n\n\n## Printed\nheading: A GEORGE WASHINGTON CROSS-WORD PUZZLE.\nintro: Today being the anniversary of George Washington's birthday, what could be more appropriate to the occasio: than a real, patriotic Georga Washington puzzle. So here is one, the tenth in FUN'S series of cross-word puzzles\ninstructions: Fill in the small squares in the diamond with words corresponding to the clews and definitions given herewith, allowing one letter of the word to each square.\nintro: On another page you will find the solution to last week's cross-word puzzle showing just how the letters are placed to form words reading up and down and across.\nsolution caption: Herewith is shown the solution to the George Washington cross-word puzzle. An easier and less complicated cross-word puzzle is given today. See if you can solve it. The answers to today's puzzles will be given in next week's FUN.\nart credit: CALLAHAN\n\n\n## Grid\n_______D_______\n______LIE______\n_____PASCH_____\n____HATCHET____\n___GALE_OARS___\n__FURL___RAPT__\n_WINE_____PARE_\nTORN_______NUTS\n_OSEL_____RITA_\n__TREE___WISH__\n___SAVE_RASH___\n____NEWYORK____\n_____NEEDS_____\n______RAE______\n_______R_______\n\n\n## Clues\nA2. What George Washington couldn't tell. ~ LIE\nA2 ^Printed: 2-3\nA4. The Feast of the Passover. ~ PASCH\nA4 ^Printed: 4-5\nA6. What George Washington chopped down the cherry tree with. ~ HATCHET\nA6 ^Printed: 6-7\nA8. A wind storm. ~ GALE\nA8 ^Printed: 8-9\nA9. Used in propelling George Washington's boats across the Delaware. ~ OARS\nA9 ^Printed: 10-11\nA11. To roll a flag around a staff, ~ FURL\nA11 ^Printed: 12-13\nA11 ^Correction: To roll a flag around a staff.\nA12. Carried away with lofty emotion. ~ RAPT\nA12 ^Printed: 14-15\nA14. Fermented grape juice. ~ WINE\nA14 ^Printed: 16-17\nA15. To shave off. ~ PARE\nA15 ^Printed: 18-19\nA17. Lacerated. ~ TORN\nA17 ^Printed: 20-21\nA18. Eaten by squirrels. ~ NUTS\nA18 ^Printed: 22-23\nA19. A black bird. ~ OSEL\nA19 ^Printed: 24-25\nA21. A girl's name. ~ RITA\nA21 ^Printed: 26-27\nA22. What George Washington chopped down. ~ TREE\nA22 ^Printed: 28-29\nA24. A desire. ~ WISH\nA24 ^Printed: 30-31\nA25. To rescue. ~ SAVE\nA25 ^Printed: 32-33\nA27. Reckless. ~ RASH\nA27 ^Printed: 34-35\nA28. Where George Washington was made President of the United States. ~ NEWYORK\nA28 ^Printed: 36-37\nA30. Wants. ~ NEEDS\nA30 ^Printed: 38-39\nA31. Scotch for a roe. ~ RAE\nA31 ^Printed: 40-41\n\nD1. A flat circular plate. ~ DISC\nD1 ^Printed: 1-42\nD2. Not early. ~ LATE\nD2 ^Printed: 2-9\nD3. A reflected sound. ~ ECHO\nD3 ^Printed: 3-10\nD4. A coronation robe. ~ PALL\nD4 ^Printed: 4-13\nD5. To listen to. ~ HEAR\nD5 ^Printed: 5-14\nD6. A rodent. ~ HARE\nD6 ^Printed: 6-17\nD7. What Washington caught Cornwallis in. ~ TRAP\nD7 ^Printed: 7-18\nD8. Soldiers who fought under George Washington. ~ GUNNERS\nD8 ^Printed: 8-32\nD10. Belonging to Spain. ~ SPANISH\nD10 ^Printed: 11-35\nD11. George Washington's position in war, peace and the hearts of his countrymen. ~ FIRST\nD11 ^Printed: 12-28\nD13. What Washington always told. ~ TRUTH\nD13 ^Printed: 15-31\nD14. To make love to. ~ WOO\nD14 ^Printed: 16-24\nD16. The seventh letter and third vowel of the Greek alphabet. ~ ETA\nD16 ^Printed: 19-27\nD20. Free from fat. ~ LEAN\nD20 ^Printed: 25-36\nD21. Hazard. ~ RISK\nD21 ^Printed: 26-37\nD23. Smooth. ~ EVEN\nD23 ^Printed: 29-38\nD24. What Washington fought in. ~ WARS\nD24 ^Printed: 30-39\nD26. A water pitcher. ~ EWER\nD26 ^Printed: 33-40\nD27. What Paul Revere did. ~ RODE\nD27 ^Printed: 34-41\nD29. 1776. ~ YEAR\nD29 ^Printed: 43-44\n",
+ "xd_fp": "adeb6289f741",
+ "packet": "blitz-work/hand-packets/nyw-1914-s1/nyw1914-02-22",
+ "packet_xd": "adeb6289f741",
+ "decision": {
+  "rule": "ai",
+  "ai_ready": "ai",
+  "why": "in xd/ as nyw1914-02-22: the AI proof reviewer's Ready (ai_ready: ai), no Not ready",
+  "said": [
+   {
+    "kind": "ai",
+    "answer": "ready",
+    "at": "2026-11-25",
+    "who": "Claude (double read: newyorkworld hand-read/second-read)"
+   }
+  ]
+ },
+ "edits": {
+  "records": [],
+  "packet": []
+ },
+ "corrections": [],
+ "notes": [],
+ "proposals": [],
+ "typed": [],
+ "printed": [
+  {
+   "label": "intro",
+   "text": "Today being the anniversary of George Washington's birthday, what could be more appropriate to the occasio: than a real, patriotic Georga Washington puzzle. So here is one, the tenth in FUN'S series of cross-word puzzles"
+  },
+  {
+   "label": "instructions",
+   "text": "Fill in the small squares in the diamond with words corresponding to the clews and definitions given herewith, allowing one letter of the word to each square."
+  },
+  {
+   "label": "intro",
+   "text": "On another page you will find the solution to last week's cross-word puzzle showing just how the letters are placed to form words reading up and down and across."
+  },
+  {
+   "label": "credit",
+   "text": "CALLAHAN"
+  }
+ ],
+ "edition": {
+  "status": "made",
+  "path": "edition/nyw1914-02-22.xd",
+  "xd": "## Metadata\nTitle: A George Washington Cross-Word Puzzle\nCopyright: New York World\nDate: 1914-02-22\nNumber: 10\nDescription: A 15-wide diamond with a diamond-shaped hole in the centre (shown as _) holding a portrait of Washington, for Washington's Birthday; nine clues are on Washington.\nSource: Milwaukee Sentinel, 1914-02-22, p. 80\nSolution-Source: Milwaukee Sentinel, 1914-03-01, p. 85\n\n\n## Printed\nheading: A GEORGE WASHINGTON CROSS-WORD PUZZLE.\nintro: Today being the anniversary of George Washington's birthday, what could be more appropriate to the occasio: than a real, patriotic Georga Washington puzzle. So here is one, the tenth in FUN'S series of cross-word puzzles\ninstructions: Fill in the small squares in the diamond with words corresponding to the clews and definitions given herewith, allowing one letter of the word to each square.\nintro: On another page you will find the solution to last week's cross-word puzzle showing just how the letters are placed to form words reading up and down and across.\nsolution caption: Herewith is shown the solution to the George Washington cross-word puzzle. An easier and less complicated cross-word puzzle is given today. See if you can solve it. The answers to today's puzzles will be given in next week's FUN.\nart credit: CALLAHAN\n\n\n## Grid\n_______D_______\n______LIE______\n_____PASCH_____\n____HATCHET____\n___GALE_OARS___\n__FURL___RAPT__\n_WINE_____PARE_\nTORN_______NUTS\n_OSEL_____RITA_\n__TREE___WISH__\n___SAVE_RASH___\n____NEWYORK____\n_____NEEDS_____\n______RAE______\n_______R_______\n\n\n## Clues\nA2. What George Washington couldn't tell. ~ LIE\nA2 ^Printed: 2-3\nA4. The Feast of the Passover. ~ PASCH\nA4 ^Printed: 4-5\nA6. What George Washington chopped down the cherry tree with. ~ HATCHET\nA6 ^Printed: 6-7\nA8. A wind storm. ~ GALE\nA8 ^Printed: 8-9\nA9. Used in propelling George Washington's boats across the Delaware. ~ OARS\nA9 ^Printed: 10-11\nA11. To roll a flag around a staff, ~ FURL\nA11 ^Printed: 12-13\nA11 ^Correction: To roll a flag around a staff.\nA12. Carried away with lofty emotion. ~ RAPT\nA12 ^Printed: 14-15\nA14. Fermented grape juice. ~ WINE\nA14 ^Printed: 16-17\nA15. To shave off. ~ PARE\nA15 ^Printed: 18-19\nA17. Lacerated. ~ TORN\nA17 ^Printed: 20-21\nA18. Eaten by squirrels. ~ NUTS\nA18 ^Printed: 22-23\nA19. A black bird. ~ OSEL\nA19 ^Printed: 24-25\nA21. A girl's name. ~ RITA\nA21 ^Printed: 26-27\nA22. What George Washington chopped down. ~ TREE\nA22 ^Printed: 28-29\nA24. A desire. ~ WISH\nA24 ^Printed: 30-31\nA25. To rescue. ~ SAVE\nA25 ^Printed: 32-33\nA27. Reckless. ~ RASH\nA27 ^Printed: 34-35\nA28. Where George Washington was made President of the United States. ~ NEWYORK\nA28 ^Printed: 36-37\nA30. Wants. ~ NEEDS\nA30 ^Printed: 38-39\nA31. Scotch for a roe. ~ RAE\nA31 ^Printed: 40-41\n\nD1. A flat circular plate. ~ DISC\nD1 ^Printed: 1-42\nD2. Not early. ~ LATE\nD2 ^Printed: 2-9\nD3. A reflected sound. ~ ECHO\nD3 ^Printed: 3-10\nD4. A coronation robe. ~ PALL\nD4 ^Printed: 4-13\nD5. To listen to. ~ HEAR\nD5 ^Printed: 5-14\nD6. A rodent. ~ HARE\nD6 ^Printed: 6-17\nD7. What Washington caught Cornwallis in. ~ TRAP\nD7 ^Printed: 7-18\nD8. Soldiers who fought under George Washington. ~ GUNNERS\nD8 ^Printed: 8-32\nD10. Belonging to Spain. ~ SPANISH\nD10 ^Printed: 11-35\nD11. George Washington's position in war, peace and the hearts of his countrymen. ~ FIRST\nD11 ^Printed: 12-28\nD13. What Washington always told. ~ TRUTH\nD13 ^Printed: 15-31\nD14. To make love to. ~ WOO\nD14 ^Printed: 16-24\nD16. The seventh letter and third vowel of the Greek alphabet. ~ ETA\nD16 ^Printed: 19-27\nD20. Free from fat. ~ LEAN\nD20 ^Printed: 25-36\nD21. Hazard. ~ RISK\nD21 ^Printed: 26-37\nD23. Smooth. ~ EVEN\nD23 ^Printed: 29-38\nD24. What Washington fought in. ~ WARS\nD24 ^Printed: 30-39\nD26. A water pitcher. ~ EWER\nD26 ^Printed: 33-40\nD27. What Paul Revere did. ~ RODE\nD27 ^Printed: 34-41\nD29. 1776. ~ YEAR\nD29 ^Printed: 43-44\n\nPuzzle notes:\nToday being the anniversary of George Washington's birthday, what could be more appropriate to the occasio: than a real, patriotic Georga Washington puzzle. So here is one, the tenth in FUN'S series of cross-word puzzles\nFill in the small squares in the diamond with words corresponding to the clews and definitions given herewith, allowing one letter of the word to each square.\nOn another page you will find the solution to last week's cross-word puzzle showing just how the letters are placed to form words reading up and down and across.\n",
+  "xd_fp": "600c0824d1b9",
+  "sha256": "a4b766dc9e3df5d888b2b7fe54de311bbe30ea7a9e5505d006b1f122350322ab",
+  "held": [],
+  "corrections": [],
+  "declined": [],
+  "notes": [
+   "Today being the anniversary of George Washington's birthday, what could be more appropriate to the occasio: than a real, patriotic Georga Washington puzzle. So here is one, the tenth in FUN'S series of cross-word puzzles",
+   "Fill in the small squares in the diamond with words corresponding to the clews and definitions given herewith, allowing one letter of the word to each square.",
+   "On another page you will find the solution to last week's cross-word puzzle showing just how the letters are placed to form words reading up and down and across."
+  ],
+  "kinds": [
+   "notes"
+  ],
+  "notes_from": "no Notes rule recorded: the default (intro, instructions)"
+ }
+}

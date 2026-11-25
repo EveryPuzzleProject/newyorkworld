@@ -1,0 +1,73 @@
+{
+ "_about": "blitz ship: the xd exactly as `blitz ship --write` writes it for this puzzle, with the record of every edit behind it (design/ship.md, \"The xd as it will ship\"). Made with the batch's ship record; stale when the record is made again.",
+ "pid": "nyw1914-01-18",
+ "xdid": "nyw1914-01-18",
+ "batch": "nyw-1914-s1",
+ "run": "nyw-1914-s1",
+ "at": "2026-11-25T19:54:18+00:00",
+ "status": "shipped",
+ "xd": "## Metadata\nTitle: FUN'S Cross-Word Puzzle\nCopyright: New York World\nDate: 1914-01-18\nNumber: 5\nDescription: A 13-wide diamond with a shaded cross in the centre printed \"CAN YOU SOLVE IT?\" (shown as _); two words, 33-34 and 35-36, run down the centre column above and below the cross.\nSource: Milwaukee Sentinel, 1914-01-18, p. 81\nSolution-Source: Milwaukee Sentinel, 1914-01-25, p. 68\n\n\n## Printed\nheading: FUN'S CROSS-WORD PUZZLE, NO. 5.\ncentre: CAN YOU SOLVE IT?\nintro: Here is another of FUN'S word cross puzzles. See if you can solve it.\ninstructions: Fill in the squares in the above diagram with words which correspond with the clues and definitions given below. The solution will be given in next week's FUN.\nsolution-caption: Here is the solution to FUN'S cross-word puzzle No. 5, showing an arrangement of cross-words that fit the list of definitions given.\n\n\n## Grid\n______L______\n_____FED_____\n____PINES____\n___DEFACED___\n__SITE_KEEN__\n_SHOE___SCAT_\nNEAR_____LIEN\n_TRAP___NAVE_\n__EMUS_MERE__\n___APPEASE___\n____SAINT____\n_____TRY_____\n______E______\n\n\n## Clues\nA2. Provided with food. ~ FED\nA2 ^Printed: 1-2\nA4. Large evergreen trees. ~ PINES\nA4 ^Printed: 3-4\nA6. Marred. ~ DEFACED\nA6 ^Printed: 5-6\nA8. A position. ~ SITE\nA8 ^Printed: 7-8\nA9. Sharp. ~ KEEN\nA9 ^Printed: 9-10\nA11. A covering for the foot. ~ SHOE\nA11 ^Printed: 11-12\nA12. To drive away by shouting \"scat.\" ~ SCAT\nA12 ^Printed: 13-14\nA14. Close at hand. ~ NEAR\nA14 ^Printed: 15-16\nA15. A claim. ~ LIEN\nA15 ^Printed: 17-18\nA16. A snare. ~ TRAP\nA16 ^Printed: 19-20\nA18. The main body of a church. ~ NAVE\nA18 ^Printed: 21-22\nA19. Birds. ~ EMUS\nA19 ^Printed: 23-24\nA21. Simple. ~ MERE\nA21 ^Printed: 25-26\nA22. To satisfy. ~ APPEASE\nA22 ^Printed: 27-28\nA24. Holy. ~ SAINT\nA24 ^Printed: 29-30\nA25. To attempt. ~ TRY\nA25 ^Printed: 31-32\n\nD1. A girl's name. ~ LENA\nD1 ^Printed: 33-34\nD2. A musical instrument. ~ FIFE\nD2 ^Printed: 1-8\nD3. Part of a ship. ~ DECK\nD3 ^Printed: 2-9\nD4. A boy's name. ~ PETE\nD4 ^Printed: 3-12\nD5. Perceives. ~ SEES\nD5 ^Printed: 4-13\nD6. A painting. ~ DIORAMA\nD6 ^Printed: 5-27\nD7. To proclaim. ~ DECLARE\nD7 ^Printed: 6-28\nD8. To divide. ~ SHARE\nD8 ^Printed: 7-23\nD10. Having unaffected simplicity. ~ NAIVE\nD10 ^Printed: 10-26\nD11. A complete assortment. ~ SET\nD11 ^Printed: 11-19\nD13. Used by golfers ~ TEE\nD13 ^Printed: 14-32\nD13 ^Fits: 14-22\nD17. Young dog. ~ PUPS\nD17 ^Printed: 20-29\nD18. A bird's home. ~ NEST\nD18 ^Printed: 21-30\nD20. A trifling dispute. ~ SPAT\nD20 ^Printed: 24-31\nD21. Numerous. ~ MANY\nD21 ^Printed: 25-32\nD23. Same,as air. ~ EIRE\nD23 ^Printed: 35-36\nD23 ^Correction: Same as air.\n",
+ "xd_fp": "a1df8ff0f6b4",
+ "packet": "blitz-work/hand-packets/nyw-1914-s1/nyw1914-01-18",
+ "packet_xd": "a1df8ff0f6b4",
+ "decision": {
+  "rule": "ai",
+  "ai_ready": "ai",
+  "why": "in xd/ as nyw1914-01-18: the AI proof reviewer's Ready (ai_ready: ai), no Not ready; the owner's Ready (2026-11-25) was on an earlier version of the puzzle, so it doesn't count here (owner_stale: lapse)",
+  "said": [
+   {
+    "kind": "owner",
+    "answer": "ready",
+    "at": "2026-11-25",
+    "stale": true,
+    "who": "the owner"
+   },
+   {
+    "kind": "ai",
+    "answer": "ready",
+    "at": "2026-11-25",
+    "who": "Claude (double read: newyorkworld hand-read/second-read)"
+   }
+  ]
+ },
+ "edits": {
+  "records": [],
+  "packet": []
+ },
+ "corrections": [],
+ "notes": [],
+ "proposals": [],
+ "typed": [],
+ "printed": [
+  {
+   "label": "other",
+   "text": "CAN YOU SOLVE IT?"
+  },
+  {
+   "label": "intro",
+   "text": "Here is another of FUN'S word cross puzzles. See if you can solve it."
+  },
+  {
+   "label": "instructions",
+   "text": "Fill in the squares in the above diagram with words which correspond with the clues and definitions given below. The solution will be given in next week's FUN."
+  }
+ ],
+ "edition": {
+  "status": "made",
+  "path": "edition/nyw1914-01-18.xd",
+  "xd": "## Metadata\nTitle: FUN'S Cross-Word Puzzle\nCopyright: New York World\nDate: 1914-01-18\nNumber: 5\nDescription: A 13-wide diamond with a shaded cross in the centre printed \"CAN YOU SOLVE IT?\" (shown as _); two words, 33-34 and 35-36, run down the centre column above and below the cross.\nSource: Milwaukee Sentinel, 1914-01-18, p. 81\nSolution-Source: Milwaukee Sentinel, 1914-01-25, p. 68\n\n\n## Printed\nheading: FUN'S CROSS-WORD PUZZLE, NO. 5.\ncentre: CAN YOU SOLVE IT?\nintro: Here is another of FUN'S word cross puzzles. See if you can solve it.\ninstructions: Fill in the squares in the above diagram with words which correspond with the clues and definitions given below. The solution will be given in next week's FUN.\nsolution-caption: Here is the solution to FUN'S cross-word puzzle No. 5, showing an arrangement of cross-words that fit the list of definitions given.\n\n\n## Grid\n______L______\n_____FED_____\n____PINES____\n___DEFACED___\n__SITE_KEEN__\n_SHOE___SCAT_\nNEAR_____LIEN\n_TRAP___NAVE_\n__EMUS_MERE__\n___APPEASE___\n____SAINT____\n_____TRY_____\n______E______\n\n\n## Clues\nA2. Provided with food. ~ FED\nA2 ^Printed: 1-2\nA4. Large evergreen trees. ~ PINES\nA4 ^Printed: 3-4\nA6. Marred. ~ DEFACED\nA6 ^Printed: 5-6\nA8. A position. ~ SITE\nA8 ^Printed: 7-8\nA9. Sharp. ~ KEEN\nA9 ^Printed: 9-10\nA11. A covering for the foot. ~ SHOE\nA11 ^Printed: 11-12\nA12. To drive away by shouting \"scat.\" ~ SCAT\nA12 ^Printed: 13-14\nA14. Close at hand. ~ NEAR\nA14 ^Printed: 15-16\nA15. A claim. ~ LIEN\nA15 ^Printed: 17-18\nA16. A snare. ~ TRAP\nA16 ^Printed: 19-20\nA18. The main body of a church. ~ NAVE\nA18 ^Printed: 21-22\nA19. Birds. ~ EMUS\nA19 ^Printed: 23-24\nA21. Simple. ~ MERE\nA21 ^Printed: 25-26\nA22. To satisfy. ~ APPEASE\nA22 ^Printed: 27-28\nA24. Holy. ~ SAINT\nA24 ^Printed: 29-30\nA25. To attempt. ~ TRY\nA25 ^Printed: 31-32\n\nD1. A girl's name. ~ LENA\nD1 ^Printed: 33-34\nD2. A musical instrument. ~ FIFE\nD2 ^Printed: 1-8\nD3. Part of a ship. ~ DECK\nD3 ^Printed: 2-9\nD4. A boy's name. ~ PETE\nD4 ^Printed: 3-12\nD5. Perceives. ~ SEES\nD5 ^Printed: 4-13\nD6. A painting. ~ DIORAMA\nD6 ^Printed: 5-27\nD7. To proclaim. ~ DECLARE\nD7 ^Printed: 6-28\nD8. To divide. ~ SHARE\nD8 ^Printed: 7-23\nD10. Having unaffected simplicity. ~ NAIVE\nD10 ^Printed: 10-26\nD11. A complete assortment. ~ SET\nD11 ^Printed: 11-19\nD13. Used by golfers ~ TEE\nD13 ^Printed: 14-32\nD13 ^Fits: 14-22\nD17. Young dog. ~ PUPS\nD17 ^Printed: 20-29\nD18. A bird's home. ~ NEST\nD18 ^Printed: 21-30\nD20. A trifling dispute. ~ SPAT\nD20 ^Printed: 24-31\nD21. Numerous. ~ MANY\nD21 ^Printed: 25-32\nD23. Same,as air. ~ EIRE\nD23 ^Printed: 35-36\nD23 ^Correction: Same as air.\n\nPuzzle notes:\nHere is another of FUN'S word cross puzzles. See if you can solve it.\nFill in the squares in the above diagram with words which correspond with the clues and definitions given below. The solution will be given in next week's FUN.\n",
+  "xd_fp": "d264f8da23ac",
+  "sha256": "7e6d59b00f67ad47cfe9ed5e23ab4abc717a7df9712524b912bd94e53a0d50a1",
+  "held": [],
+  "corrections": [],
+  "declined": [],
+  "notes": [
+   "Here is another of FUN'S word cross puzzles. See if you can solve it.",
+   "Fill in the squares in the above diagram with words which correspond with the clues and definitions given below. The solution will be given in next week's FUN."
+  ],
+  "kinds": [
+   "notes"
+  ],
+  "notes_from": "no Notes rule recorded: the default (intro, instructions)"
+ }
+}

@@ -1,0 +1,78 @@
+{
+ "_about": "blitz ship: the xd exactly as `blitz ship --write` writes it for this puzzle, with the record of every edit behind it (design/ship.md, \"The xd as it will ship\"). Made with the batch's ship record; stale when the record is made again.",
+ "pid": "nyw1913-12-28",
+ "xdid": "nyw1913-12-28",
+ "batch": "nyw-1914-s1",
+ "run": "nyw-1914-s1",
+ "at": "2026-11-25T19:54:18+00:00",
+ "status": "shipped",
+ "xd": "## Metadata\nTitle: FUN'S New Year Puzzle\nCopyright: New York World\nDate: 1913-12-28\nDescription: A 13-wide diamond whose shaded centre block (shown as _) is printed with \"1914\"; the squares above it are printed with the letters Y, NEW, A, R, spelling NEW YEAR across row 2 and YEAR down the centre column.\nSource: Milwaukee Sentinel, 1913-12-28, p. 77\nSolution-Source: Milwaukee Sentinel, 1914-01-04, p. 81\n\n\n## Printed\nheading: FUN'S NEW YEAR PUZZLE\nsubheading: FIND THE MISSING WORD!\ncentre block: 1914\nintro: The great interest shown ii FUN'S word-cross puzzle, published last week, has prompted the puzzle editor to submit another of the same kind.\nintro (garbled): The great interest shown in FUN'S word-cross puzzle, pub- which agree with the definitions given below. The solution to the word-cross puzzle, given on the preceding page, shows how the squares are to be filled in, using one square for each letter.\nsolution caption: And here is the solution to the New Year cross-word puzzle showing how the letters are to be arranged to form words that fit the list of definitions given. Another puzzle of the same kind is given to-day. See if you can solve it. The solutions to today's\nsolution caption (end): puzzle will be given in next week's FUN.\n\n\n## Grid\n______Y______\n_____NEW_____\n____BOARS____\n___TARRING___\n__GRID_TALK__\n_PIEL___GIRD_\nGIRL_____SARD\n_ELLS___STAY_\n__SILO_REEL__\n___SIXTEEN___\n____TERNS____\n_____NIT_____\n______P______\n\n\n## Clues\nA4. Wild animals. ~ BOARS\nA4 ^Printed: 1-2\nA6. Coating with tar. ~ TARRING\nA6 ^Printed: 3-4\nA8. A grating. ~ GRID\nA8 ^Printed: 5-6\nA9. Conversation. ~ TALK\nA9 ^Printed: 7-8\nA11. An iron wedge ~ PIEL\nA11 ^Printed: 9-10\nA12. To bind. ~ GIRD\nA12 ^Printed: 11-12\nA14. A young woman ~ GIRL\nA14 ^Printed: 13-14\nA15. Used as a gem. ~ SARD\nA15 ^Printed: 15-16\nA16. Ninety inches. ~ ELLS\nA16 ^Printed: 17-18\nA18. To remain. ~ STAY\nA18 ^Printed: 19-20\nA19. A food chamber. ~ SILO\nA19 ^Printed: 21-22\nA21. To stagger. ~ REEL\nA21 ^Printed: 23-24\nA22. A number. ~ SIXTEEN\nA22 ^Printed: 25-27\nA24. Gull-like birds. ~ TERNS\nA24 ^Printed: 28-29\nA25. The egg of an insect. ~ NIT\nA25 ^Printed: 30-31\n\nD2. The German for north. ~ NORD\nD2 ^Printed: N-6\nD3. A summons. ~ WRIT\nD3 ^Printed: W-7\nD4. Security for release. ~ BAIL\nD4 ^Printed: 1-10\nD5. A hidden obstacle. ~ SNAG\nD5 ^Printed: 2-11\nD6. A lattice. ~ TRELLIS\nD6 ^Printed: 3-25\nD7. To sparkle. ~ GLISTEN\nD7 ^Printed: 4-27\nD8. Young women. ~ GIRLS\nD8 ^Printed: 5-24\nD8 ^Fits: 5-21\nD10. A Hottentot's home. ~ KRAAL\nD10 ^Printed: 8-24\nD11. Good to eat. ~ PIE\nD11 ^Printed: 2-17\nD11 ^Fits: 9-17\nD13. Not wet. ~ DRY\nD13 ^Printed: 12-20\nD17. To cut lengthwise. ~ SLIT\nD17 ^Printed: 13-23\nD17 ^Fits: 18-28\nD18. Perceives. ~ SEES\nD18 ^Printed: 9-29\nD18 ^Fits: 19-29\nD20. Cattle. ~ OXEN\nD20 ^Printed: 22-30\nD21. Torn. ~ RENT\nD21 ^Printed: 28-31\nD21 ^Fits: 23-31\nD23. A journey. ~ TRIP\nD23 ^Printed: 26-32\n\n\n## Design\nG { given: true }\n\n......G......\n.....GGG.....\n......G......\n......G......\n.............\n.............\n.............\n.............\n.............\n.............\n.............\n.............\n.............\n",
+ "xd_fp": "16fc85385af2",
+ "packet": "blitz-work/hand-packets/nyw-1914-s1/nyw1913-12-28",
+ "packet_xd": "16fc85385af2",
+ "decision": {
+  "rule": "ai",
+  "ai_ready": "ai",
+  "why": "in xd/ as nyw1913-12-28: the AI proof reviewer's Ready (ai_ready: ai), no Not ready; the owner's Ready (2026-11-19) was on an earlier version of the puzzle, so it doesn't count here (owner_stale: lapse)",
+  "said": [
+   {
+    "kind": "owner",
+    "answer": "ready",
+    "at": "2026-11-19",
+    "stale": true,
+    "who": "the owner"
+   },
+   {
+    "kind": "ai",
+    "answer": "ready",
+    "at": "2026-11-25",
+    "who": "Claude (double read: newyorkworld hand-read/second-read)"
+   }
+  ]
+ },
+ "edits": {
+  "records": [],
+  "packet": []
+ },
+ "corrections": [],
+ "notes": [],
+ "proposals": [],
+ "typed": [],
+ "printed": [
+  {
+   "label": "intro",
+   "text": "FIND THE MISSING WORD!"
+  },
+  {
+   "label": "other",
+   "text": "1914"
+  },
+  {
+   "label": "intro",
+   "text": "The great interest shown ii FUN'S word-cross puzzle, published last week, has prompted the puzzle editor to submit another of the same kind."
+  },
+  {
+   "label": "intro",
+   "text": "The great interest shown in FUN'S word-cross puzzle, pub- which agree with the definitions given below. The solution to the word-cross puzzle, given on the preceding page, shows how the squares are to be filled in, using one square for each letter."
+  }
+ ],
+ "edition": {
+  "status": "made",
+  "path": "edition/nyw1913-12-28.xd",
+  "xd": "## Metadata\nTitle: FUN'S New Year Puzzle\nCopyright: New York World\nDate: 1913-12-28\nDescription: A 13-wide diamond whose shaded centre block (shown as _) is printed with \"1914\"; the squares above it are printed with the letters Y, NEW, A, R, spelling NEW YEAR across row 2 and YEAR down the centre column.\nSource: Milwaukee Sentinel, 1913-12-28, p. 77\nSolution-Source: Milwaukee Sentinel, 1914-01-04, p. 81\n\n\n## Printed\nheading: FUN'S NEW YEAR PUZZLE\nsubheading: FIND THE MISSING WORD!\ncentre block: 1914\nintro: The great interest shown ii FUN'S word-cross puzzle, published last week, has prompted the puzzle editor to submit another of the same kind.\nintro (garbled): The great interest shown in FUN'S word-cross puzzle, pub- which agree with the definitions given below. The solution to the word-cross puzzle, given on the preceding page, shows how the squares are to be filled in, using one square for each letter.\nsolution caption: And here is the solution to the New Year cross-word puzzle showing how the letters are to be arranged to form words that fit the list of definitions given. Another puzzle of the same kind is given to-day. See if you can solve it. The solutions to today's\nsolution caption (end): puzzle will be given in next week's FUN.\n\n\n## Grid\n______Y______\n_____NEW_____\n____BOARS____\n___TARRING___\n__GRID_TALK__\n_PIEL___GIRD_\nGIRL_____SARD\n_ELLS___STAY_\n__SILO_REEL__\n___SIXTEEN___\n____TERNS____\n_____NIT_____\n______P______\n\n\n## Clues\nA4. Wild animals. ~ BOARS\nA4 ^Printed: 1-2\nA6. Coating with tar. ~ TARRING\nA6 ^Printed: 3-4\nA8. A grating. ~ GRID\nA8 ^Printed: 5-6\nA9. Conversation. ~ TALK\nA9 ^Printed: 7-8\nA11. An iron wedge ~ PIEL\nA11 ^Printed: 9-10\nA12. To bind. ~ GIRD\nA12 ^Printed: 11-12\nA14. A young woman ~ GIRL\nA14 ^Printed: 13-14\nA15. Used as a gem. ~ SARD\nA15 ^Printed: 15-16\nA16. Ninety inches. ~ ELLS\nA16 ^Printed: 17-18\nA18. To remain. ~ STAY\nA18 ^Printed: 19-20\nA19. A food chamber. ~ SILO\nA19 ^Printed: 21-22\nA21. To stagger. ~ REEL\nA21 ^Printed: 23-24\nA22. A number. ~ SIXTEEN\nA22 ^Printed: 25-27\nA24. Gull-like birds. ~ TERNS\nA24 ^Printed: 28-29\nA25. The egg of an insect. ~ NIT\nA25 ^Printed: 30-31\n\nD2. The German for north. ~ NORD\nD2 ^Printed: N-6\nD3. A summons. ~ WRIT\nD3 ^Printed: W-7\nD4. Security for release. ~ BAIL\nD4 ^Printed: 1-10\nD5. A hidden obstacle. ~ SNAG\nD5 ^Printed: 2-11\nD6. A lattice. ~ TRELLIS\nD6 ^Printed: 3-25\nD7. To sparkle. ~ GLISTEN\nD7 ^Printed: 4-27\nD8. Young women. ~ GIRLS\nD8 ^Printed: 5-24\nD8 ^Fits: 5-21\nD10. A Hottentot's home. ~ KRAAL\nD10 ^Printed: 8-24\nD11. Good to eat. ~ PIE\nD11 ^Printed: 2-17\nD11 ^Fits: 9-17\nD13. Not wet. ~ DRY\nD13 ^Printed: 12-20\nD17. To cut lengthwise. ~ SLIT\nD17 ^Printed: 13-23\nD17 ^Fits: 18-28\nD18. Perceives. ~ SEES\nD18 ^Printed: 9-29\nD18 ^Fits: 19-29\nD20. Cattle. ~ OXEN\nD20 ^Printed: 22-30\nD21. Torn. ~ RENT\nD21 ^Printed: 28-31\nD21 ^Fits: 23-31\nD23. A journey. ~ TRIP\nD23 ^Printed: 26-32\n\n\n## Design\nG { given: true }\n\n......G......\n.....GGG.....\n......G......\n......G......\n.............\n.............\n.............\n.............\n.............\n.............\n.............\n.............\n.............\n\nPuzzle notes:\nFIND THE MISSING WORD!\nThe great interest shown ii FUN'S word-cross puzzle, published last week, has prompted the puzzle editor to submit another of the same kind.\nThe great interest shown in FUN'S word-cross puzzle, pub- which agree with the definitions given below. The solution to the word-cross puzzle, given on the preceding page, shows how the squares are to be filled in, using one square for each letter.\n",
+  "xd_fp": "4bcdfc310491",
+  "sha256": "69bc4731910d60875cf21ab73d13eb776601b43264e25a1e09accc91c0926018",
+  "held": [],
+  "corrections": [],
+  "declined": [],
+  "notes": [
+   "FIND THE MISSING WORD!",
+   "The great interest shown ii FUN'S word-cross puzzle, published last week, has prompted the puzzle editor to submit another of the same kind.",
+   "The great interest shown in FUN'S word-cross puzzle, pub- which agree with the definitions given below. The solution to the word-cross puzzle, given on the preceding page, shows how the squares are to be filled in, using one square for each letter."
+  ],
+  "kinds": [
+   "notes"
+  ],
+  "notes_from": "no Notes rule recorded: the default (intro, instructions)"
+ }
+}

@@ -1,0 +1,64 @@
+{
+ "_about": "blitz ship: the xd exactly as `blitz ship --write` writes it for this puzzle, with the record of every edit behind it (design/ship.md, \"The xd as it will ship\"). Made with the batch's ship record; stale when the record is made again.",
+ "pid": "nyw1913-12-21",
+ "xdid": "nyw1913-12-21",
+ "batch": "nyw-1914-s1",
+ "run": "nyw-1914-s1",
+ "at": "2026-11-25T19:54:18+00:00",
+ "status": "shipped",
+ "xd": "## Metadata\nTitle: FUN'S Cross-Word Puzzle\nCopyright: New York World\nDate: 1913-12-21\nDescription: A 13-wide diamond with an empty cross-shaped centre (shown as _); the three squares of the second row are printed with the letters F, U, N. The clue list has 30 clues.\nSource: Milwaukee Sentinel, 1913-12-21, p. 68\nSolution-Source: Milwaukee Sentinel, 1913-12-28, p. 78\n\n\n## Printed\nheading: FUN'S CROSS-WORD PUZZLE.\ninstructions: Fill in the small squares with words which agree with the following definitions:\nsolution caption: Herewith is shown the solution to the word cross puzzle. Another puzzle of the same kind is given this week. See if you can solve it. The answers to today's puzzles will be given in next week's FUN.\n\n\n## Grid\n______R______\n_____FUN_____\n____SALES____\n___RECEIPT___\n__MERE_FARM__\n_DOVE___RAIL_\nMORE_____DRAW\n_HARD___TIED_\n__LION_SAND__\n___EVENING___\n____EVADE____\n_____ARE_____\n______D______\n\n\n## Clues\nA4. ~ SALES\nA4 ^Printed: 2-3\nA4 ^Note: no clue printed in the Sentinel; the World's own page (gxd, via T Campbell) has 'What bargain hunters enjoy.'\nA6. A written acknowledgment. ~ RECEIPT\nA6 ^Printed: 4-5\nA8. Such and nothing more. ~ MERE\nA8 ^Printed: 6-7\nA9. To cultivate. ~ FARM\nA9 ^Printed: 8-9\nA11. A bird. ~ DOVE\nA11 ^Printed: 10-11\nA12. A bar of wood or iron. ~ RAIL\nA12 ^Printed: 12-13\nA14. Opposed to less. ~ MORE\nA14 ^Printed: 14-15\nA15. What artists learn to do. ~ DRAW\nA15 ^Printed: 16-17\nA16. What this puzzle is. ~ HARD\nA16 ^Printed: 38-39\nA16 ^Fits: 18-19\nA18. Fastened. ~ TIED\nA18 ^Printed: 20-21\nA19. An animal of prey. ~ LION\nA19 ^Printed: 22-23\nA21. Found on the seashore. ~ SAND\nA21 ^Printed: 24-25\nA22. The close of a day. ~ EVENING\nA22 ^Printed: 26-27\nA24. To elude. ~ EVADE\nA24 ^Printed: 28-29\nA25. The plural of is. ~ ARE\nA25 ^Printed: 30-31\n\nD1. To govern. ~ RULE\nD1 ^Printed: 1-32\nD2. Part of your head. ~ FACE\nD2 ^Printed: F-7\nD3. A fist. ~ NEIF\nD3 ^Printed: N-8\nD4. A talon. ~ SERE\nD4 ^Printed: 2-11\nD5. Part of a ship. ~ SPAR\nD5 ^Printed: 3-12\nD6. A day dream. ~ REVERIE\nD6 ^Printed: 4-26\nD7. Exchanging. ~ TRADING\nD7 ^Printed: 5-27\nD8. What we all should be. ~ MORAL\nD8 ^Printed: 6-22\nD10. To sink in mud. ~ MIRED\nD10 ^Printed: 9-25\nD11. The fibre of the gomuti palm. ~ DOH\nD11 ^Printed: 10-12\nD11 ^Fits: 10-18\nD13. A boy. ~ LAD\nD13 ^Printed: 13-21\nD17. A pigeon. ~ DOVE\nD17 ^Printed: 19-28\nD18. One. ~ TANE\nD18 ^Printed: 20-29\nD20. A river in Russia. ~ NEVA\nD20 ^Printed: 26-30\nD20 ^Fits: 23-30\nD21. To agree with. ~ SIDE\nD21 ^Printed: 24-31\nD23. An aromatic plant. ~ NARD\nD23 ^Printed: 33-34\n\n\n## Design\nG { given: true }\n\n.............\n.....GGG.....\n.............\n.............\n.............\n.............\n.............\n.............\n.............\n.............\n.............\n.............\n.............\n",
+ "xd_fp": "28de5125683f",
+ "packet": "blitz-work/hand-packets/nyw-1914-s1/nyw1913-12-21",
+ "packet_xd": "28de5125683f",
+ "decision": {
+  "rule": "ai",
+  "ai_ready": "ai",
+  "why": "in xd/ as nyw1913-12-21: the AI proof reviewer's Ready (ai_ready: ai), no Not ready; the owner's Ready (2026-11-25) was on an earlier version of the puzzle, so it doesn't count here (owner_stale: lapse)",
+  "said": [
+   {
+    "kind": "owner",
+    "answer": "ready",
+    "at": "2026-11-25",
+    "stale": true,
+    "who": "the owner"
+   },
+   {
+    "kind": "ai",
+    "answer": "ready",
+    "at": "2026-11-25",
+    "who": "Claude (double read: newyorkworld hand-read/second-read)"
+   }
+  ]
+ },
+ "edits": {
+  "records": [],
+  "packet": []
+ },
+ "corrections": [],
+ "notes": [],
+ "proposals": [],
+ "typed": [],
+ "printed": [
+  {
+   "label": "instructions",
+   "text": "Fill in the small squares with words which agree with the following definitions:"
+  }
+ ],
+ "edition": {
+  "status": "made",
+  "path": "edition/nyw1913-12-21.xd",
+  "xd": "## Metadata\nTitle: FUN'S Cross-Word Puzzle\nCopyright: New York World\nDate: 1913-12-21\nDescription: A 13-wide diamond with an empty cross-shaped centre (shown as _); the three squares of the second row are printed with the letters F, U, N. The clue list has 30 clues.\nSource: Milwaukee Sentinel, 1913-12-21, p. 68\nSolution-Source: Milwaukee Sentinel, 1913-12-28, p. 78\n\n\n## Printed\nheading: FUN'S CROSS-WORD PUZZLE.\ninstructions: Fill in the small squares with words which agree with the following definitions:\nsolution caption: Herewith is shown the solution to the word cross puzzle. Another puzzle of the same kind is given this week. See if you can solve it. The answers to today's puzzles will be given in next week's FUN.\n\n\n## Grid\n______R______\n_____FUN_____\n____SALES____\n___RECEIPT___\n__MERE_FARM__\n_DOVE___RAIL_\nMORE_____DRAW\n_HARD___TIED_\n__LION_SAND__\n___EVENING___\n____EVADE____\n_____ARE_____\n______D______\n\n\n## Clues\nA4. ~ SALES\nA4 ^Printed: 2-3\nA4 ^Note: no clue printed in the Sentinel; the World's own page (gxd, via T Campbell) has 'What bargain hunters enjoy.'\nA6. A written acknowledgment. ~ RECEIPT\nA6 ^Printed: 4-5\nA8. Such and nothing more. ~ MERE\nA8 ^Printed: 6-7\nA9. To cultivate. ~ FARM\nA9 ^Printed: 8-9\nA11. A bird. ~ DOVE\nA11 ^Printed: 10-11\nA12. A bar of wood or iron. ~ RAIL\nA12 ^Printed: 12-13\nA14. Opposed to less. ~ MORE\nA14 ^Printed: 14-15\nA15. What artists learn to do. ~ DRAW\nA15 ^Printed: 16-17\nA16. What this puzzle is. ~ HARD\nA16 ^Printed: 38-39\nA16 ^Fits: 18-19\nA18. Fastened. ~ TIED\nA18 ^Printed: 20-21\nA19. An animal of prey. ~ LION\nA19 ^Printed: 22-23\nA21. Found on the seashore. ~ SAND\nA21 ^Printed: 24-25\nA22. The close of a day. ~ EVENING\nA22 ^Printed: 26-27\nA24. To elude. ~ EVADE\nA24 ^Printed: 28-29\nA25. The plural of is. ~ ARE\nA25 ^Printed: 30-31\n\nD1. To govern. ~ RULE\nD1 ^Printed: 1-32\nD2. Part of your head. ~ FACE\nD2 ^Printed: F-7\nD3. A fist. ~ NEIF\nD3 ^Printed: N-8\nD4. A talon. ~ SERE\nD4 ^Printed: 2-11\nD5. Part of a ship. ~ SPAR\nD5 ^Printed: 3-12\nD6. A day dream. ~ REVERIE\nD6 ^Printed: 4-26\nD7. Exchanging. ~ TRADING\nD7 ^Printed: 5-27\nD8. What we all should be. ~ MORAL\nD8 ^Printed: 6-22\nD10. To sink in mud. ~ MIRED\nD10 ^Printed: 9-25\nD11. The fibre of the gomuti palm. ~ DOH\nD11 ^Printed: 10-12\nD11 ^Fits: 10-18\nD13. A boy. ~ LAD\nD13 ^Printed: 13-21\nD17. A pigeon. ~ DOVE\nD17 ^Printed: 19-28\nD18. One. ~ TANE\nD18 ^Printed: 20-29\nD20. A river in Russia. ~ NEVA\nD20 ^Printed: 26-30\nD20 ^Fits: 23-30\nD21. To agree with. ~ SIDE\nD21 ^Printed: 24-31\nD23. An aromatic plant. ~ NARD\nD23 ^Printed: 33-34\n\n\n## Design\nG { given: true }\n\n.............\n.....GGG.....\n.............\n.............\n.............\n.............\n.............\n.............\n.............\n.............\n.............\n.............\n.............\n\nPuzzle notes:\nFill in the small squares with words which agree with the following definitions:\n",
+  "xd_fp": "78b57cb2ada7",
+  "sha256": "1c94723be7d8f7db36d419dc8ba8840495ab49044c1d57a5f4a2c07735602888",
+  "held": [],
+  "corrections": [],
+  "declined": [],
+  "notes": [
+   "Fill in the small squares with words which agree with the following definitions:"
+  ],
+  "kinds": [
+   "notes"
+  ],
+  "notes_from": "no Notes rule recorded: the default (intro, instructions)"
+ }
+}
