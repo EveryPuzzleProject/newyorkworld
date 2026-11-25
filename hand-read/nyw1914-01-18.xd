@@ -2,7 +2,17 @@
 Copyright: New York World
 Date: 1914-01-18
 Number: 5
-Notes: A 13-wide diamond with a shaded cross in the centre printed "CAN YOU SOLVE IT?" (shown as _); two words, 33-34 and 35-36, run down the centre column above and below the cross. The number is printed in the heading ("FUN'S CROSS-WORD PUZZLE, NO. 5."). No credit is printed. Read by hand from the Milwaukee Sentinel's page (Milwaukee_Sentinel_1914_01_18_81_fun.png), solution from Milwaukee_Sentinel_1914_01_25_68_key.png, by Claude, 2026-11-16.
+Description: A 13-wide diamond with a shaded cross in the centre printed "CAN YOU SOLVE IT?" (shown as _); two words, 33-34 and 35-36, run down the centre column above and below the cross.
+Source: Milwaukee Sentinel, 1914-01-18, p. 81
+Solution-Source: Milwaukee Sentinel, 1914-01-25, p. 68
+
+
+## Printed
+heading: FUN'S CROSS-WORD PUZZLE, NO. 5.
+centre: CAN YOU SOLVE IT?
+intro: Here is another of FUN'S word cross puzzles. See if you can solve it.
+instructions: Fill in the squares in the above diagram with words which correspond with the clues and definitions given below. The solution will be given in next week's FUN.
+solution-caption: Here is the solution to FUN'S cross-word puzzle No. 5, showing an arrangement of cross-words that fit the list of definitions given.
 
 
 ## Grid
@@ -77,7 +87,6 @@ D11. A complete assortment. ~ SET
 D11 ^Printed: 11-19
 D13. Used by golfers ~ TEE
 D13 ^Printed: 14-32
-D13 ^Note: misprint: the pair that fits the grid is 14-22
 D13 ^Fits: 14-22
 D17. Young dog. ~ PUPS
 D17 ^Printed: 20-29

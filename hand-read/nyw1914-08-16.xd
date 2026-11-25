@@ -3,7 +3,17 @@ Author: William Callander
 Copyright: New York World
 Date: 1914-08-16
 Number: 32
-Notes: A 13-wide diamond (one square at top and bottom, a 13-square middle row) with a cross-shaped panel over the centre (shown as _: r4c6, r5c5-c7, r6c4-c8, r7c5-c7, r8c6); the numbers are printed inside the end squares. Headed "FUN'S CROSS-WORD PUZZLES No 32"; the number is printed in the heading, and the intro calls it "the thirty-second in FUN'S series". No clue is printed for 17-18 (ANEW in the solution), so the clue list has 31 entries for 32 words. Credit as printed: "Today's cross-word, the thirty-second in FUN'S series, was sent in by William Callander of Pulaski street, Brooklyn. He writes as follows: 'The solving of your cross-word puzzles has been a source of keen delight not only to myself but to various members of my family and friends; but, hard as some of the puzzles have been to solve, I find it much more of a task to construct one.'" Read by hand from the Milwaukee Sentinel's page (Milwaukee_Sentinel_1914_08_16_82.png), solution from Milwaukee_Sentinel_1914_08_23_76.png, by Claude, 2026-11-16.
+Description: A 13-wide diamond (one square at top and bottom, a 13-square middle row) with a cross-shaped panel over the centre (shown as _: r4c6, r5c5-c7, r6c4-c8, r7c5-c7, r8c6); the numbers are printed inside the end squares.
+Source: Milwaukee Sentinel, 1914-08-16, p. 82
+Solution-Source: Milwaukee Sentinel, 1914-08-23, p. 76
+
+
+## Printed
+heading: FUN'S CROSS-WORD PUZZLES
+number: No 32
+credit: Today's cross-word, the thirty-second in FUN'S series, was sent in by William Callander of Pulaski street, Brooklyn. He writes as follows: "The solving of your cross-word puzzles has been a source of keen delight not only to myself but to various members of my family and friends; but, hard as some of the puzzles have been to solve, I find it much more of a task to construct one."
+instructions: Fill in the small squares with words corersponding to the list of clues and definitions given below. The solution to this puzzle will be published in next week's FUN.
+solution heading: Solution to last week's cross-word puzzle.
 
 
 ## Grid
@@ -31,7 +41,6 @@ A6. An officer. ~ MARSHAL
 A6 ^Printed: 5-6
 A8. To bring together. ~ MASS
 A8 ^Printed: 7-2
-A8 ^Note: misprint: the pair that fits the grid is 7-8
 A8 ^Fits: 7-8
 A9. The god of love. ~ EROS
 A9 ^Printed: 9-10
@@ -59,7 +68,6 @@ A24. Entreaties. ~ PLEAS
 A24 ^Printed: 29-30
 A25. A youth. ~ LAD
 A25 ^Printed: 31-22
-A25 ^Note: misprint: the pair that fits the grid is 31-32
 A25 ^Fits: 31-32
 
 D1. Painting, engraving, sculpture, etc. ~ ARTS

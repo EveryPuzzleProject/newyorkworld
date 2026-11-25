@@ -27,6 +27,14 @@ A16 ^Fits: 18-19
 - Givens stay marked on their squares in the `## Design` section (`G { given: true }`), since some
   are single letters, not words (No. 13's centre E, No. 2's Y, A, R).
 - A UI can show the World's numbering from `^Printed:`.
+- **The four kinds of field (Alex, 2026-11-25; blitz `design/xd-fields.md`).** Every statement in the file is
+  the puzzle as printed, the paper's other printed words (`## Printed`, `label: text`), EPP's own statements
+  (named fields), or provenance (kept out of the xd). The catch-all `Notes:` is gone: our description is
+  `Description:`, what's missing is `Incomplete:`, the scans are `Source:` / `Solution-Source:`. A probably wrong
+  answer in the printed key stays in the grid, and each clue it spoils gets `^Answer-Correction:` (ROAB →
+  `A14 ^Answer-Correction: MOAB`); where what was meant can't be named, a `^Note:` says so. A misprinted pair is
+  `^Printed:` + `^Fits:` alone, without a prose note. No. 13's inner star is left out of the grid (in
+  `Description:`, with `Incomplete:`).
 - **Typos in the clue text (Alex, 2026-11-25).** The clue line keeps the text as printed, the
   paper's slips included; `^Correction:` gives the whole clue as it was meant, so a reader can show
   either. It fixes only typesetting slips (a dropped or wrong letter, a stray comma), never period

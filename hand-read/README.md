@@ -17,6 +17,7 @@ its place on the page.
 | `ocr/` | the pipeline's OCR lines and detected grids for each page, the ids the boxes cite (`ocr_lines.py` wrote them) |
 | `worldxd.py` | the form's numbering rules, parser and checker: `python worldxd.py check` (docs/NUMBERING-GIVENS.md) |
 | `modernize.py` | the one-off renumbering to the modern form, the World's pairs kept as `^Printed:` (2026-11-17; Nos. 13, 18 and 27 kept in the World's form) |
+| `to_fields.py` | the one-off move to the four kinds of field: `## Printed`, `Description:`, `Source:`, misprint notes reduced to `^Fits:` (2026-11-25) |
 | `second_read.py`, `second-read/` | a blind second reading of every clue list and its comparison with the xd; `second-read/VERDICTS.md` settles each disagreement against the scan (2026-11-25) |
 | `convert.py` | the one-off conversion from Saul's `Numbering:` map to that form (2026-11-17) |
 | `draw.py` | draws a boxes file on its pages, to check it (`python draw.py <xdid>`) |

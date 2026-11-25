@@ -2,7 +2,17 @@
 Title: Find the Missing Cross Words
 Copyright: New York World
 Date: 1914-01-04
-Notes: A 13-wide diamond (the same outline as No. 1) with a black cross in the centre (shown as _) lettered in white "IT'S READS BOTH WAYS" (the first word is unsure). No solution was printed anywhere, so the letters are unknown: every square of the puzzle is written as "." and the clues have no answers. No credit, no number. Two clue pairs name the wrong end squares (6-23 for 6-28, 10-16 for 10-26), kept as printed. Intro as printed: "Here is another one of FUN'S word-cross puzzles. See if you can fill in the missing words. Fill in the squares in the above diagram with words which correspond with the definitions given below. The solution will be given in next week's FUN." Read by hand from the Milwaukee Sentinel's page (Milwaukee_Sentinel_1914_01_04_80_fun.png); no solution was printed, by Claude, 2026-11-16.
+Description: A 13-wide diamond (the same outline as No. 1) with a black cross in the centre (shown as _) lettered in white "IT'S READS BOTH WAYS" (the first word is blotted; IT'S is the likely reading). No solution was printed anywhere, so the letters are unknown: every square of the puzzle is written as "." and the clues have no answers.
+Incomplete: no printed solution has been found, so the grid's letters and the answers are unknown.
+Source: Milwaukee Sentinel, 1914-01-04, p. 80
+
+
+## Printed
+heading: FIND THE MISSING
+heading: CROSS WORDS
+centre block: IT'S READS BOTH WAYS
+intro: Here is another one of FUN'S word-cross puzzles. See if you can fill in the missing words.
+instructions: Fill in the squares in the above diagram with words which correspond with the definitions given below. The solution will be given in next week's FUN.
 
 
 ## Grid
@@ -69,13 +79,11 @@ D6. Right. ~
 D6 ^Printed: 5-27
 D7. An evergreen tree. ~ 
 D7 ^Printed: 6-23
-D7 ^Note: misprint: the pair that fits the grid is 6-28
 D7 ^Fits: 6-28
 D8. To control. ~ 
 D8 ^Printed: 7-23
 D10. Business transactions. ~ 
 D10 ^Printed: 10-16
-D10 ^Note: misprint: the pair that fits the grid is 10-26
 D10 ^Fits: 10-26
 D11. In favor of. ~ 
 D11 ^Printed: 11-19

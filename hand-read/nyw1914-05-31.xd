@@ -3,7 +3,17 @@ Title: FUN'S Cross-Word Puzzle
 Copyright: New York World
 Date: 1914-05-31
 Number: 22
-Notes: An hourglass 19 wide and 11 high (19 squares in the top and bottom rows, narrowing by one square each side to 9 in the middle row, squares outside shown as _), with shaded squares inside the outline making two X shapes; they are printed shaded, not black, and stand as blocks (#). Number printed in the heading box ("No 22"); the intro calls it "number twenty-one in FUN'S series of cross word puzzles" and the solution, the next week, "cross-word puzzle No. 22". No credit is printed. Read by hand from the Milwaukee Sentinel's page (Milwaukee_Sentinel_1914_05_31_90.png), solution from Milwaukee_Sentinel_1914_06_07_85.png, by Claude, 2026-11-16.
+Description: An hourglass 19 wide and 11 high (19 squares in the top and bottom rows, narrowing by one square each side to 9 in the middle row, squares outside shown as _), with shaded squares inside the outline making two X shapes; they are printed shaded, not black, and stand as blocks (#).
+Source: Milwaukee Sentinel, 1914-05-31, p. 90
+Solution-Source: Milwaukee Sentinel, 1914-06-07, p. 85
+
+
+## Printed
+heading: FUN'S CROSS-WORD PUZZLE
+number: No 22
+intro: Here is number twenty-one in FUN'S series of cross word puzzles. It is different from any of the others published thus far and you will find yourself busily engaged for some time to come when you begin to solve it. Fill in the small squares in the above diamond with words corresponding to the clews and definitions given herewith. The solution will appear in next week's FUN.
+solution heading: SOLUTION TO LAST WEEK'S PUZZLE.
+solution caption: Herewith is given the solution to cross-word puzzle No. 22, given in last week's Fun. The diagram shows how the letters should be arranged to fit the list of clews and definitions given.
 
 
 ## Grid
@@ -64,6 +74,7 @@ A36. An omnibus. ~ STAGE
 A36 ^Printed: 39-40
 A40. To reveal. ~ RIOT
 A40 ^Printed: 41-42
+A40 ^Correction: To revel.
 A42. An exchange for money. ~ SALE
 A42 ^Printed: 43-44
 A43. A proprietor. ~ OWNER

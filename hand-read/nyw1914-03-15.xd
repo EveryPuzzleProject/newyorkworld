@@ -3,8 +3,23 @@ Author: Harry Cleaver
 Copyright: New York World
 Date: 1914-03-15
 Number: 13
-Notes: Two puzzles in one: a 13-wide main diamond whose centre is a small inner diamond (r5c7; r6c6-8; r7c5-9; r8c6-8; r9c7), ruled off by a double line, holding an eight-rayed star of three-letter words that all start or end in the printed centre letter E. The four diagonal rays (CUE, RUE, EEN, ELM) print their middle letters (U, U, E, L) on the corners between squares, so those four letters have no square in this grid; the clue answers carry them. Read round from 37 to 44, the ray ends spell AMERICAN. Number from "THIS IS No 13" printed beside the grid (with "TWO IN ONE" opposite), under the heading "FUN'S CROSS-WORD PUZZLES / CAN YOU SOLVE THEM?". Credit as printed: "Here is a very ingeniously constructed cross work puzzle for you to solve. It really consists of two puzzles in one. Mr. Harry Cleaver of 83 Cathedral street, Montreal, sent it in, and he invites all of FUN'S clever puzzle solvers to fathom it if they can:". Inside-diamond instruction as printed: "Starting from 37 and going around to 44 you will find what President Wilson is." Inside clues are printed "E to 37", "40 to E" and so on. Read by hand from the Milwaukee Sentinel's page (Milwaukee_Sentinel_1914_03_15_85.png), solution from Milwaukee_Sentinel_1914_03_22_85.png, by Claude, 2026-11-16. Kept in the World's own numbering (clues named by their printed end-square pair, with a Labels section): the inner star's words lie inside longer runs and three meet at the shared centre E, so modern across/down numbering can't name them. A puzzle to treat as a meta (Alex, 2026-11-17).
+Description: Two puzzles in one: a 13-wide main diamond whose centre is a small inner diamond (r5c7; r6c6-8; r7c5-9; r8c6-8; r9c7), ruled off by a double line, holding an eight-rayed star of three-letter words that all start or end in the printed centre letter E. The four diagonal rays (CUE, RUE, EEN, ELM) print their middle letters (U, U, E, L) on the corners between squares, so those four letters have no square in this grid; the clue answers carry them. Read round from 37 to 44, the ray ends spell AMERICAN. Inside clues are given by end-square pairs such as "E to 37" and "40 to E". The inner star is left out of the grid: its diamond (r5c7; r6c6-8; r7c5-9; r8c6-8; r9c7) is shown as _. Its eight three-letter words, each starting or ending in the printed centre E, are, as printed: E-37. Series of years. (ERA); E-38. A tree. (ELM); E-39. Adam's mate. (EVE); 40-E. To be sorry for. (RUE); 41-E. Frozen water. (ICE); 42-E. Used to billiards. (CUE); 43-E. Used for chopping. (AXE); E-44. A contraction of even. (EEN). 42-E is printed "Used to billiards." for "Used in billiards."
+Incomplete: the inner star (eight words around a printed centre E, four of them with a middle letter printed on a corner between squares) can't be represented in an xd grid; its words are in Description.
+Source: Milwaukee Sentinel, 1914-03-15, p. 85
+Solution-Source: Milwaukee Sentinel, 1914-03-22, p. 85
 Numbering: as-printed
+
+
+## Printed
+heading: FUN'S CROSS-WORD PUZZLES
+heading: CAN YOU SOLVE THEM?
+number: THIS IS No 13
+heading: TWO IN ONE
+intro: Here is a very ingeniously constructed cross work puzzle for you to solve. It really consists of two puzzles in one. Mr. Harry Cleaver of 83 Cathedral street, Montreal, sent it in, and he invites all of FUN'S clever puzzle solvers to fathom it if they can:
+credit: Mr. Harry Cleaver of 83 Cathedral street, Montreal, sent it in
+subheading: MAIN DIAMOND PUZZLE.
+subheading: INSIDE DIAMOND PUZZLE.
+instructions: Starting from 37 and going around to 44 you will find what President Wilson is.
 
 
 ## Grid
@@ -12,11 +27,11 @@ ______S______
 _____ATE_____
 ____ACIDS____
 ___AMERICA___
-__ALESITOME__
-_LIMNCCRTALL_
-DORAAXEVETOIL
-_TENDNRMWIPE_
-__DAISASAVE__
+__ALES_TOME__
+_LIMN___TALL_
+DORA_____TOIL
+_TEND___WIPE_
+__DAIS_SAVE__
 ___CENSURE___
 ____DONEE____
 _____WIT_____
@@ -57,19 +72,6 @@ ______P______
 1-7. To rouse. ~ STIR
 2-10. Highest cards. ~ ACES
 4-14. An expression of approval. ~ AMEN
-E-37. Series of years. ~ ERA
-E-38. A tree. ~ ELM
-E-39. Adam's mate. ~ EVE
-40-E. To be sorry for. ~ RUE
-41-E. Frozen water. ~ ICE
-42-E. Used to billiards. ~ CUE
-42-E ^Correction: Used in billiards.
-43-E. Used for chopping. ~ AXE
-E-44. A contraction of even. ~ EEN
-E-38 ^Offgrid: its middle letter is printed on the corner between two squares (the inner star): the grid has no square for it
-40-E ^Offgrid: its middle letter is printed on the corner between two squares (the inner star): the grid has no square for it
-42-E ^Offgrid: its middle letter is printed on the corner between two squares (the inner star): the grid has no square for it
-E-44 ^Offgrid: its middle letter is printed on the corner between two squares (the inner star): the grid has no square for it
 
 
 ## Labels
@@ -109,29 +111,4 @@ E-44 ^Offgrid: its middle letter is printed on the corner between two squares (t
 34 r12c6
 35 r12c8
 36 r13c7
-37 r9c7
-38 r8c8
-39 r7c9
-40 r6c8
-41 r5c7
-42 r6c6
-43 r7c5
-44 r8c6
 
-
-## Design
-G { given: true }
-
-.............
-.............
-.............
-.............
-.............
-.............
-......G......
-.............
-.............
-.............
-.............
-.............
-.............

@@ -2,7 +2,7 @@
 
 Grades: same = identical; same? = identical once the reader's [?] marks are dropped; minor = differs only in spacing, case or punctuation (a word broken at a line end is joined); pair = the text agrees but the two readings disagree on the printed number pair; differs = the words differ or a line is on one side only.
 
-Totals: same 1182, same? 6, minor 14, minor? 0, pair 16, differs 14
+Totals: same 1174, same? 6, minor 14, minor? 0, pair 16, differs 22
 
 ## nyw1913-12-21: 30 lines, 0 differ
 
@@ -76,10 +76,18 @@ The blind reader noted: line breaks at hyphens joined (be-tween, prod-uct, Em-pe
 ## nyw1914-03-08: 32 lines, 0 differ
 
 
-## nyw1914-03-15: 40 lines, 0 differ
+## nyw1914-03-15: 40 lines, 8 differ
 
 | grade | ref | printed | ours | blind |
 |---|---|---|---|---|
+| differs |  | E-37 | (no line of ours with this pair) | Series of years. |
+| differs |  | E-38 | (no line of ours with this pair) | A tree. |
+| differs |  | E-39 | (no line of ours with this pair) | Adam's mate. |
+| differs |  | 40-E | (no line of ours with this pair) | To be sorry for. |
+| differs |  | 41-E | (no line of ours with this pair) | Frozen water. |
+| differs |  | 42-E | (no line of ours with this pair) | Used to billiards. |
+| differs |  | 43-E | (no line of ours with this pair) | Used for chopping. |
+| differs |  | E-44 | (no line of ours with this pair) | A contraction of even. |
 | same? | 11-12 | 11-12 | Part of a blook. | Part of a blook.[?] |
 
 The blind reader noted: 6-29 printed as '629' with no hyphen; 6-8 printed '6- 8' (first digit looks like 0/6) / 'blook' printed so (smudge?); 'Die past participle' as printed / line breaks hyphenated publica-/tion and ap-/proval joined / Inside Diamond: E to 37 etc. rendered E-37; 'to' between. Following text 'Starting from 37 and going around to 44 you will find what President Wilson is.' skipped

@@ -16,7 +16,7 @@ HERE = Path(__file__).resolve().parent
 RULES = ("across-first", "apex-first", "reading-order")
 DIRS = [(0, 1), (1, 0), (1, 1), (1, -1), (0, -1), (-1, 0), (-1, -1), (-1, 1)]
 REF = re.compile(r"^([^\s.^]+)-([^\s.^]+)\.(?: (.*?))?(?: ~ (\S+))?\s*$")
-META = re.compile(r"^([AD]\d+|[^\s.^]+-[^\s.^]+) \^([A-Za-z]+): (.*)$")
+META = re.compile(r"^([AD]\d+|[^\s.^]+-[^\s.^]+) \^([A-Za-z-]+): (.*)$")
 MODERN = re.compile(r"^([AD]\d+)\.(.*)$")
 
 
