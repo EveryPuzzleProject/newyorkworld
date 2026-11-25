@@ -27,9 +27,10 @@ A16 ^Fits: 18-19
 - Givens stay marked on their squares in the `## Design` section (`G { given: true }`), since some
   are single letters, not words (No. 13's centre E, No. 2's Y, A, R).
 - A UI can show the World's numbering from `^Printed:`.
-- **Titles (Alex, 2026-11-25, "at least for now").** The puzzle's heading is its Title, FUN's series banner
-  ("FUN'S CROSS-WORD PUZZLES") included, in title case and singular or plural as printed, without the number.
-  A puzzle with no heading of its own in the World has none (No. 4, known only from a reprint; No. 29).
+- **Titles and numbers (Alex, 2026-11-25, an editorial decision).** Every puzzle in the series has the same
+  Title, `FUN's Cross-Word Puzzle`, and its `Number:` is its place in the series (1-33), printed or not (Nos.
+  1-4, 29 and 31 print none). What each page actually printed as a heading is in its `## Printed` section.
+  (Supersedes the earlier same-day rule of taking each puzzle's own heading as its Title.)
 - **The four kinds of field (Alex, 2026-11-25; blitz `design/xd-fields.md`).** Every statement in the file is
   the puzzle as printed, the paper's other printed words (`## Printed`, `label: text`), EPP's own statements
   (named fields), or provenance (kept out of the xd). The catch-all `Notes:` is gone: our description is
