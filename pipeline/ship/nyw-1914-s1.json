@@ -14,26 +14,25 @@
   "grid_fixes": "people",
   "typed_clues": "people"
  },
- "at": "2026-11-25T21:03:27+00:00",
+ "at": "2026-11-25T21:22:23+00:00",
  "counts": {
   "puzzles": 33,
-  "shipped": 32,
+  "shipped": 33,
   "shippable": 0,
-  "held": 1,
+  "held": 0,
   "out": 0,
-  "held_by": {
-   "incomplete": 1
-  },
+  "held_by": {},
   "ships_with": {
-   "ai": 20,
+   "ai": 19,
+   "off": 1,
    "both": 13
   },
   "queues": {
    "question": 0,
    "unchecked": 0,
-   "broken": 1,
+   "broken": 0,
    "shippable": 0,
-   "shipped": 32,
+   "shipped": 33,
    "set-aside": 0,
    "not-a-crossword": 0
   },
@@ -58,7 +57,7 @@
    "ships_with": "ai",
    "queue": "shipped",
    "group": "",
-   "order": 1,
+   "order": 0,
    "reviewed": true,
    "spot_check": false,
    "why": "in xd/ as nyw1913-12-21: the AI proof reviewer's Ready (ai_ready: ai), no Not ready; the owner's Ready (2026-11-25) was on an earlier version of the puzzle, so it doesn't count here (owner_stale: lapse)",
@@ -114,7 +113,7 @@
    "ships_with": "ai",
    "queue": "shipped",
    "group": "",
-   "order": 2,
+   "order": 1,
    "reviewed": true,
    "spot_check": false,
    "why": "in xd/ as nyw1913-12-28: the AI proof reviewer's Ready (ai_ready: ai), no Not ready; the owner's Ready (2026-11-19) was on an earlier version of the puzzle, so it doesn't count here (owner_stale: lapse)",
@@ -163,39 +162,31 @@
    "xdid": "nyw1914-01-04",
    "title": "FUN's Cross-Word Puzzle",
    "date": "1914-01-04",
-   "status": "held",
-   "reason": "incomplete",
-   "rule": "ai",
-   "ships_with": "ai",
-   "queue": "broken",
+   "status": "shipped",
+   "reason": "",
+   "rule": "owner",
+   "ships_with": "off",
+   "queue": "shipped",
    "group": "",
-   "order": 0,
+   "order": 2,
    "reviewed": true,
    "spot_check": false,
-   "why": "Ready, but incomplete: 72 square(s) unsolved (already in xd/ as nyw1914-01-04)",
+   "why": "in xd/ as nyw1914-01-04: Ready by the owner; shipped as it stands, on the owner's word: 72 square(s) unsolved (no printed answer key; ship it anyway)",
    "asks": [],
    "also": [],
-   "broken": [
-    {
-     "what": "72 square(s) unsolved",
-     "stage": "key reading",
-     "code": "incomplete",
-     "detail": ""
-    }
-   ],
+   "broken": [],
    "said": [
-    {
-     "kind": "owner",
-     "answer": "ready",
-     "at": "2026-11-25",
-     "stale": true,
-     "who": "the owner"
-    },
     {
      "kind": "ai",
      "answer": "ready",
      "at": "2026-11-25",
      "who": "Claude (double read: newyorkworld hand-read/second-read)"
+    },
+    {
+     "kind": "owner",
+     "answer": "ready",
+     "at": "2026-11-25",
+     "who": "the owner"
     }
    ],
    "check": {
@@ -206,12 +197,26 @@
      "grid-unsolved"
     ]
    },
+   "partial": {
+    "missing": [
+     "72 square(s) unsolved"
+    ],
+    "note": "no printed answer key; ship it anyway"
+   },
+   "review": "read by hand; the owner's Ready; by oops6498 (review site)",
    "printed": {
     "head": "Printed with puzzle:",
     "lines": null,
     "edits": "held",
     "fixed": [],
     "says": "the xd's printed lines are not the packet's kept lines, so nothing says where an edit to one lands: none is applied, and a Ready carrying one holds the puzzle (edits-unapplied)"
+   },
+   "as_shipped": "0596313d40a5",
+   "edition": {
+    "status": "made",
+    "xd_fp": "0596313d40a5",
+    "held": [],
+    "corrections": 0
    }
   },
   {

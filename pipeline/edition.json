@@ -80,10 +80,10 @@
   },
   "nyw1914-01-04": {
    "status": "made",
-   "inputs_sha256": "8d4d4abf6de58b458a60cceecda7cbefbc79dbff11890654433222b3915f3a37",
+   "inputs_sha256": "64aaac9dd2a5dd176e9f40f8309a3496569cd226eb70814a63326bb4389d7d6a",
    "inputs": {
     "version": "0edb105b3d0d95dc",
-    "transcription_sha256": "db64e769b6ccfc49d1718ebca3842863155d8e0107eafc0917b5c81ea423138d",
+    "transcription_sha256": "1807f2ff6e2ae47de108e8bcd5a6773aa61f4645a04e79d7536429a66149775d",
     "marks": [],
     "evidence": [],
     "unrecorded": false,
@@ -116,7 +116,7 @@
    "declined": [],
    "notes": [],
    "kinds": [],
-   "edition_sha256": "db64e769b6ccfc49d1718ebca3842863155d8e0107eafc0917b5c81ea423138d"
+   "edition_sha256": "1807f2ff6e2ae47de108e8bcd5a6773aa61f4645a04e79d7536429a66149775d"
   },
   "nyw1914-01-11": {
    "status": "made",
