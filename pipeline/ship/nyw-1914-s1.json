@@ -1,8 +1,8 @@
 {
  "_about": "blitz ship: which puzzles of the batch are shipped (in the publication repo's xd/), shippable (pass the ship rule, not written yet) or held, with the reason, and the queue each is in: what the batch page asks of people. Format: blitz design/ship.md.",
  "batch": "nyw-1914-s1",
- "run": "nyw-1914-s1",
- "packets": "blitz-work/hand-packets/nyw-1914-s1",
+ "run": "nyw-1914-s1-titles",
+ "packets": "blitz-work/hand-packets/nyw-1914-s1-titles",
  "rule": {
   "ai_ready": "ai",
   "hold_codes": [],
@@ -14,25 +14,26 @@
   "grid_fixes": "people",
   "typed_clues": "people"
  },
- "at": "2026-11-25T21:01:40+00:00",
+ "at": "2026-11-25T21:03:27+00:00",
  "counts": {
   "puzzles": 33,
-  "shipped": 33,
+  "shipped": 32,
   "shippable": 0,
-  "held": 0,
+  "held": 1,
   "out": 0,
-  "held_by": {},
+  "held_by": {
+   "incomplete": 1
+  },
   "ships_with": {
    "ai": 20,
-   "off": 1,
-   "both": 12
+   "both": 13
   },
   "queues": {
    "question": 0,
    "unchecked": 0,
-   "broken": 0,
+   "broken": 1,
    "shippable": 0,
-   "shipped": 33,
+   "shipped": 32,
    "set-aside": 0,
    "not-a-crossword": 0
   },
@@ -49,7 +50,7 @@
   {
    "pid": "nyw1913-12-21",
    "xdid": "nyw1913-12-21",
-   "title": "FUN'S Cross-Word Puzzle",
+   "title": "FUN's Cross-Word Puzzle",
    "date": "1913-12-21",
    "status": "shipped",
    "reason": "",
@@ -57,7 +58,7 @@
    "ships_with": "ai",
    "queue": "shipped",
    "group": "",
-   "order": 0,
+   "order": 1,
    "reviewed": true,
    "spot_check": false,
    "why": "in xd/ as nyw1913-12-21: the AI proof reviewer's Ready (ai_ready: ai), no Not ready; the owner's Ready (2026-11-25) was on an earlier version of the puzzle, so it doesn't count here (owner_stale: lapse)",
@@ -94,10 +95,10 @@
     "fixed": [],
     "says": "the xd's printed lines are not the packet's kept lines, so nothing says where an edit to one lands: none is applied, and a Ready carrying one holds the puzzle (edits-unapplied)"
    },
-   "as_shipped": "28de5125683f",
+   "as_shipped": "db33bbcdf287",
    "edition": {
     "status": "made",
-    "xd_fp": "28de5125683f",
+    "xd_fp": "db33bbcdf287",
     "held": [],
     "corrections": 0
    }
@@ -105,7 +106,7 @@
   {
    "pid": "nyw1913-12-28",
    "xdid": "nyw1913-12-28",
-   "title": "FUN'S New Year Puzzle",
+   "title": "FUN's Cross-Word Puzzle",
    "date": "1913-12-28",
    "status": "shipped",
    "reason": "",
@@ -113,7 +114,7 @@
    "ships_with": "ai",
    "queue": "shipped",
    "group": "",
-   "order": 1,
+   "order": 2,
    "reviewed": true,
    "spot_check": false,
    "why": "in xd/ as nyw1913-12-28: the AI proof reviewer's Ready (ai_ready: ai), no Not ready; the owner's Ready (2026-11-19) was on an earlier version of the puzzle, so it doesn't count here (owner_stale: lapse)",
@@ -149,10 +150,10 @@
     "fixed": [],
     "says": "the xd's printed lines are not the packet's kept lines, so nothing says where an edit to one lands: none is applied, and a Ready carrying one holds the puzzle (edits-unapplied)"
    },
-   "as_shipped": "16fc85385af2",
+   "as_shipped": "a39b4170ec11",
    "edition": {
     "status": "made",
-    "xd_fp": "16fc85385af2",
+    "xd_fp": "a39b4170ec11",
     "held": [],
     "corrections": 0
    }
@@ -160,26 +161,34 @@
   {
    "pid": "nyw1914-01-04",
    "xdid": "nyw1914-01-04",
-   "title": "Find the Missing Cross Words",
+   "title": "FUN's Cross-Word Puzzle",
    "date": "1914-01-04",
-   "status": "shipped",
-   "reason": "",
-   "rule": "owner",
-   "ships_with": "off",
-   "queue": "shipped",
+   "status": "held",
+   "reason": "incomplete",
+   "rule": "ai",
+   "ships_with": "ai",
+   "queue": "broken",
    "group": "",
-   "order": 2,
+   "order": 0,
    "reviewed": true,
    "spot_check": false,
-   "why": "in xd/ as nyw1914-01-04: Ready by the owner; shipped as it stands, on the owner's word: 72 square(s) unsolved (no printed answer key; ship it anyway)",
+   "why": "Ready, but incomplete: 72 square(s) unsolved (already in xd/ as nyw1914-01-04)",
    "asks": [],
    "also": [],
-   "broken": [],
+   "broken": [
+    {
+     "what": "72 square(s) unsolved",
+     "stage": "key reading",
+     "code": "incomplete",
+     "detail": ""
+    }
+   ],
    "said": [
     {
      "kind": "owner",
      "answer": "ready",
      "at": "2026-11-25",
+     "stale": true,
      "who": "the owner"
     },
     {
@@ -197,32 +206,18 @@
      "grid-unsolved"
     ]
    },
-   "partial": {
-    "missing": [
-     "72 square(s) unsolved"
-    ],
-    "note": "no printed answer key; ship it anyway"
-   },
-   "review": "read by hand; the owner's Ready; by oops6498 (review site)",
    "printed": {
     "head": "Printed with puzzle:",
     "lines": null,
     "edits": "held",
     "fixed": [],
     "says": "the xd's printed lines are not the packet's kept lines, so nothing says where an edit to one lands: none is applied, and a Ready carrying one holds the puzzle (edits-unapplied)"
-   },
-   "as_shipped": "61d490cbc977",
-   "edition": {
-    "status": "made",
-    "xd_fp": "61d490cbc977",
-    "held": [],
-    "corrections": 0
    }
   },
   {
    "pid": "nyw1914-01-11",
    "xdid": "nyw1914-01-11",
-   "title": "",
+   "title": "FUN's Cross-Word Puzzle",
    "date": "1914-01-11",
    "status": "shipped",
    "reason": "",
@@ -255,7 +250,6 @@
    "check": {
     "ok": false,
     "findings": [
-     "no-title",
      "no-author"
     ]
    },
@@ -267,10 +261,10 @@
     "fixed": [],
     "says": "the xd's printed lines are not the packet's kept lines, so nothing says where an edit to one lands: none is applied, and a Ready carrying one holds the puzzle (edits-unapplied)"
    },
-   "as_shipped": "02ff3708d89a",
+   "as_shipped": "1bee4f46bac8",
    "edition": {
     "status": "made",
-    "xd_fp": "02ff3708d89a",
+    "xd_fp": "1bee4f46bac8",
     "held": [],
     "corrections": 0
    }
@@ -278,7 +272,7 @@
   {
    "pid": "nyw1914-01-18",
    "xdid": "nyw1914-01-18",
-   "title": "FUN'S Cross-Word Puzzle",
+   "title": "FUN's Cross-Word Puzzle",
    "date": "1914-01-18",
    "status": "shipped",
    "reason": "",
@@ -322,10 +316,10 @@
     "fixed": [],
     "says": "the xd's printed lines are not the packet's kept lines, so nothing says where an edit to one lands: none is applied, and a Ready carrying one holds the puzzle (edits-unapplied)"
    },
-   "as_shipped": "a1df8ff0f6b4",
+   "as_shipped": "385c5ef71e2a",
    "edition": {
     "status": "made",
-    "xd_fp": "a1df8ff0f6b4",
+    "xd_fp": "385c5ef71e2a",
     "held": [],
     "corrections": 0
    }
@@ -333,7 +327,7 @@
   {
    "pid": "nyw1914-01-25",
    "xdid": "nyw1914-01-25",
-   "title": "FUN'S Cross-Word Puzzles",
+   "title": "FUN's Cross-Word Puzzle",
    "date": "1914-01-25",
    "status": "shipped",
    "reason": "",
@@ -377,10 +371,10 @@
     "fixed": [],
     "says": "the xd's printed lines are not the packet's kept lines, so nothing says where an edit to one lands: none is applied, and a Ready carrying one holds the puzzle (edits-unapplied)"
    },
-   "as_shipped": "56e711cfb330",
+   "as_shipped": "f9e28748e62f",
    "edition": {
     "status": "made",
-    "xd_fp": "56e711cfb330",
+    "xd_fp": "f9e28748e62f",
     "held": [],
     "corrections": 0
    }
@@ -388,7 +382,7 @@
   {
    "pid": "nyw1914-02-01",
    "xdid": "nyw1914-02-01",
-   "title": "FUN'S Cross-Word Puzzles",
+   "title": "FUN's Cross-Word Puzzle",
    "date": "1914-02-01",
    "status": "shipped",
    "reason": "",
@@ -432,10 +426,10 @@
     "fixed": [],
     "says": "the xd's printed lines are not the packet's kept lines, so nothing says where an edit to one lands: none is applied, and a Ready carrying one holds the puzzle (edits-unapplied)"
    },
-   "as_shipped": "36c906776c60",
+   "as_shipped": "cfd293ee6ebc",
    "edition": {
     "status": "made",
-    "xd_fp": "36c906776c60",
+    "xd_fp": "cfd293ee6ebc",
     "held": [],
     "corrections": 0
    }
@@ -443,7 +437,7 @@
   {
    "pid": "nyw1914-02-08",
    "xdid": "nyw1914-02-08",
-   "title": "FUN'S Cross-Word Puzzles",
+   "title": "FUN's Cross-Word Puzzle",
    "date": "1914-02-08",
    "status": "shipped",
    "reason": "",
@@ -485,10 +479,10 @@
     "fixed": [],
     "says": "the xd's printed lines are not the packet's kept lines, so nothing says where an edit to one lands: none is applied, and a Ready carrying one holds the puzzle (edits-unapplied)"
    },
-   "as_shipped": "fa380deb08cc",
+   "as_shipped": "a0168aade8b5",
    "edition": {
     "status": "made",
-    "xd_fp": "fa380deb08cc",
+    "xd_fp": "a0168aade8b5",
     "held": [],
     "corrections": 0
    }
@@ -496,7 +490,7 @@
   {
    "pid": "nyw1914-02-15",
    "xdid": "nyw1914-02-15",
-   "title": "FUN'S Cross-Word Puzzles",
+   "title": "FUN's Cross-Word Puzzle",
    "date": "1914-02-15",
    "status": "shipped",
    "reason": "",
@@ -540,10 +534,10 @@
     "fixed": [],
     "says": "the xd's printed lines are not the packet's kept lines, so nothing says where an edit to one lands: none is applied, and a Ready carrying one holds the puzzle (edits-unapplied)"
    },
-   "as_shipped": "3303086e157a",
+   "as_shipped": "b669b1267d15",
    "edition": {
     "status": "made",
-    "xd_fp": "3303086e157a",
+    "xd_fp": "b669b1267d15",
     "held": [],
     "corrections": 0
    }
@@ -551,7 +545,7 @@
   {
    "pid": "nyw1914-02-22",
    "xdid": "nyw1914-02-22",
-   "title": "A George Washington Cross-Word Puzzle",
+   "title": "FUN's Cross-Word Puzzle",
    "date": "1914-02-22",
    "status": "shipped",
    "reason": "",
@@ -588,10 +582,10 @@
     "fixed": [],
     "says": "the xd's printed lines are not the packet's kept lines, so nothing says where an edit to one lands: none is applied, and a Ready carrying one holds the puzzle (edits-unapplied)"
    },
-   "as_shipped": "adeb6289f741",
+   "as_shipped": "bdb75cd660e6",
    "edition": {
     "status": "made",
-    "xd_fp": "adeb6289f741",
+    "xd_fp": "bdb75cd660e6",
     "held": [],
     "corrections": 0
    }
@@ -599,7 +593,7 @@
   {
    "pid": "nyw1914-03-01",
    "xdid": "nyw1914-03-01",
-   "title": "FUN'S Cross-Word Puzzles",
+   "title": "FUN's Cross-Word Puzzle",
    "date": "1914-03-01",
    "status": "shipped",
    "reason": "",
@@ -636,10 +630,10 @@
     "fixed": [],
     "says": "the xd's printed lines are not the packet's kept lines, so nothing says where an edit to one lands: none is applied, and a Ready carrying one holds the puzzle (edits-unapplied)"
    },
-   "as_shipped": "f88b1f043a6e",
+   "as_shipped": "027820675344",
    "edition": {
     "status": "made",
-    "xd_fp": "f88b1f043a6e",
+    "xd_fp": "027820675344",
     "held": [],
     "corrections": 0
    }
@@ -647,7 +641,7 @@
   {
    "pid": "nyw1914-03-08",
    "xdid": "nyw1914-03-08",
-   "title": "FUN'S Cross-Word Puzzles",
+   "title": "FUN's Cross-Word Puzzle",
    "date": "1914-03-08",
    "status": "shipped",
    "reason": "",
@@ -682,10 +676,10 @@
     "fixed": [],
     "says": "the xd's printed lines are not the packet's kept lines, so nothing says where an edit to one lands: none is applied, and a Ready carrying one holds the puzzle (edits-unapplied)"
    },
-   "as_shipped": "b0f143437aa8",
+   "as_shipped": "349d4cc83d0f",
    "edition": {
     "status": "made",
-    "xd_fp": "b0f143437aa8",
+    "xd_fp": "349d4cc83d0f",
     "held": [],
     "corrections": 0
    }
@@ -693,7 +687,7 @@
   {
    "pid": "nyw1914-03-15",
    "xdid": "nyw1914-03-15",
-   "title": "FUN'S Cross-Word Puzzles",
+   "title": "FUN's Cross-Word Puzzle",
    "date": "1914-03-15",
    "status": "shipped",
    "reason": "",
@@ -730,10 +724,10 @@
     "fixed": [],
     "says": "the xd's printed lines are not the packet's kept lines, so nothing says where an edit to one lands: none is applied, and a Ready carrying one holds the puzzle (edits-unapplied)"
    },
-   "as_shipped": "dd29620659d6",
+   "as_shipped": "8d990be0b363",
    "edition": {
     "status": "made",
-    "xd_fp": "dd29620659d6",
+    "xd_fp": "8d990be0b363",
     "held": [],
     "corrections": 0
    }
@@ -741,7 +735,7 @@
   {
    "pid": "nyw1914-03-22",
    "xdid": "nyw1914-03-22",
-   "title": "FUN'S Cross-Word Puzzles",
+   "title": "FUN's Cross-Word Puzzle",
    "date": "1914-03-22",
    "status": "shipped",
    "reason": "",
@@ -776,10 +770,10 @@
     "fixed": [],
     "says": "the xd's printed lines are not the packet's kept lines, so nothing says where an edit to one lands: none is applied, and a Ready carrying one holds the puzzle (edits-unapplied)"
    },
-   "as_shipped": "e2415c28ebd0",
+   "as_shipped": "6a9bce1fb846",
    "edition": {
     "status": "made",
-    "xd_fp": "e2415c28ebd0",
+    "xd_fp": "6a9bce1fb846",
     "held": [],
     "corrections": 0
    }
@@ -787,7 +781,7 @@
   {
    "pid": "nyw1914-03-29",
    "xdid": "nyw1914-03-29",
-   "title": "FUN'S Cross-Word Puzzles",
+   "title": "FUN's Cross-Word Puzzle",
    "date": "1914-03-29",
    "status": "shipped",
    "reason": "",
@@ -822,10 +816,10 @@
     "fixed": [],
     "says": "the xd's printed lines are not the packet's kept lines, so nothing says where an edit to one lands: none is applied, and a Ready carrying one holds the puzzle (edits-unapplied)"
    },
-   "as_shipped": "92ed30322aca",
+   "as_shipped": "9a4813b4b3ce",
    "edition": {
     "status": "made",
-    "xd_fp": "92ed30322aca",
+    "xd_fp": "9a4813b4b3ce",
     "held": [],
     "corrections": 0
    }
@@ -833,7 +827,7 @@
   {
    "pid": "nyw1914-04-05",
    "xdid": "nyw1914-04-05",
-   "title": "FUN'S Cross-Word Puzzles",
+   "title": "FUN's Cross-Word Puzzle",
    "date": "1914-04-05",
    "status": "shipped",
    "reason": "",
@@ -868,10 +862,10 @@
     "fixed": [],
     "says": "the xd's printed lines are not the packet's kept lines, so nothing says where an edit to one lands: none is applied, and a Ready carrying one holds the puzzle (edits-unapplied)"
    },
-   "as_shipped": "155d3c52c51b",
+   "as_shipped": "da99e7147a0d",
    "edition": {
     "status": "made",
-    "xd_fp": "155d3c52c51b",
+    "xd_fp": "da99e7147a0d",
     "held": [],
     "corrections": 0
    }
@@ -879,7 +873,7 @@
   {
    "pid": "nyw1914-04-12",
    "xdid": "nyw1914-04-12",
-   "title": "FUN'S \"Easter\" Cross-Word Puzzle",
+   "title": "FUN's Cross-Word Puzzle",
    "date": "1914-04-12",
    "status": "shipped",
    "reason": "",
@@ -918,10 +912,10 @@
     "fixed": [],
     "says": "the xd's printed lines are not the packet's kept lines, so nothing says where an edit to one lands: none is applied, and a Ready carrying one holds the puzzle (edits-unapplied)"
    },
-   "as_shipped": "0b1b18135863",
+   "as_shipped": "e49ecd698b46",
    "edition": {
     "status": "made",
-    "xd_fp": "0b1b18135863",
+    "xd_fp": "e49ecd698b46",
     "held": [],
     "corrections": 0
    }
@@ -929,7 +923,7 @@
   {
    "pid": "nyw1914-04-19",
    "xdid": "nyw1914-04-19",
-   "title": "FUN'S Cross-Word Puzzles",
+   "title": "FUN's Cross-Word Puzzle",
    "date": "1914-04-19",
    "status": "shipped",
    "reason": "",
@@ -966,10 +960,10 @@
     "fixed": [],
     "says": "the xd's printed lines are not the packet's kept lines, so nothing says where an edit to one lands: none is applied, and a Ready carrying one holds the puzzle (edits-unapplied)"
    },
-   "as_shipped": "1f817cf3093b",
+   "as_shipped": "8e4cdcb21a65",
    "edition": {
     "status": "made",
-    "xd_fp": "1f817cf3093b",
+    "xd_fp": "8e4cdcb21a65",
     "held": [],
     "corrections": 0
    }
@@ -977,7 +971,7 @@
   {
    "pid": "nyw1914-04-26",
    "xdid": "nyw1914-04-26",
-   "title": "FUN'S Cross-Word Puzzles",
+   "title": "FUN's Cross-Word Puzzle",
    "date": "1914-04-26",
    "status": "shipped",
    "reason": "",
@@ -1012,10 +1006,10 @@
     "fixed": [],
     "says": "the xd's printed lines are not the packet's kept lines, so nothing says where an edit to one lands: none is applied, and a Ready carrying one holds the puzzle (edits-unapplied)"
    },
-   "as_shipped": "3d2fa39cfc0f",
+   "as_shipped": "6d9002a7af92",
    "edition": {
     "status": "made",
-    "xd_fp": "3d2fa39cfc0f",
+    "xd_fp": "6d9002a7af92",
     "held": [],
     "corrections": 0
    }
@@ -1023,7 +1017,7 @@
   {
    "pid": "nyw1914-05-03",
    "xdid": "nyw1914-05-03",
-   "title": "FUN'S Cross-Word Puzzles",
+   "title": "FUN's Cross-Word Puzzle",
    "date": "1914-05-03",
    "status": "shipped",
    "reason": "",
@@ -1058,10 +1052,10 @@
     "fixed": [],
     "says": "the xd's printed lines are not the packet's kept lines, so nothing says where an edit to one lands: none is applied, and a Ready carrying one holds the puzzle (edits-unapplied)"
    },
-   "as_shipped": "8daccfb6bd2f",
+   "as_shipped": "767d38a3e88a",
    "edition": {
     "status": "made",
-    "xd_fp": "8daccfb6bd2f",
+    "xd_fp": "767d38a3e88a",
     "held": [],
     "corrections": 0
    }
@@ -1069,7 +1063,7 @@
   {
    "pid": "nyw1914-05-10",
    "xdid": "nyw1914-05-10",
-   "title": "FUN'S Cross-Word Puzzle",
+   "title": "FUN's Cross-Word Puzzle",
    "date": "1914-05-10",
    "status": "shipped",
    "reason": "",
@@ -1104,10 +1098,10 @@
     "fixed": [],
     "says": "the xd's printed lines are not the packet's kept lines, so nothing says where an edit to one lands: none is applied, and a Ready carrying one holds the puzzle (edits-unapplied)"
    },
-   "as_shipped": "d8bf512264fb",
+   "as_shipped": "27f8ddc59f3c",
    "edition": {
     "status": "made",
-    "xd_fp": "d8bf512264fb",
+    "xd_fp": "27f8ddc59f3c",
     "held": [],
     "corrections": 0
    }
@@ -1115,7 +1109,7 @@
   {
    "pid": "nyw1914-05-31",
    "xdid": "nyw1914-05-31",
-   "title": "FUN'S Cross-Word Puzzle",
+   "title": "FUN's Cross-Word Puzzle",
    "date": "1914-05-31",
    "status": "shipped",
    "reason": "",
@@ -1152,10 +1146,10 @@
     "fixed": [],
     "says": "the xd's printed lines are not the packet's kept lines, so nothing says where an edit to one lands: none is applied, and a Ready carrying one holds the puzzle (edits-unapplied)"
    },
-   "as_shipped": "1805d4cbeeda",
+   "as_shipped": "640c38a6d3de",
    "edition": {
     "status": "made",
-    "xd_fp": "1805d4cbeeda",
+    "xd_fp": "640c38a6d3de",
     "held": [],
     "corrections": 0
    }
@@ -1163,7 +1157,7 @@
   {
    "pid": "nyw1914-06-14",
    "xdid": "nyw1914-06-14",
-   "title": "FUN'S Cross-Word Puzzle",
+   "title": "FUN's Cross-Word Puzzle",
    "date": "1914-06-14",
    "status": "shipped",
    "reason": "",
@@ -1200,10 +1194,10 @@
     "fixed": [],
     "says": "the xd's printed lines are not the packet's kept lines, so nothing says where an edit to one lands: none is applied, and a Ready carrying one holds the puzzle (edits-unapplied)"
    },
-   "as_shipped": "0c3043fd04d0",
+   "as_shipped": "436552d799b1",
    "edition": {
     "status": "made",
-    "xd_fp": "0c3043fd04d0",
+    "xd_fp": "436552d799b1",
     "held": [],
     "corrections": 0
    }
@@ -1211,7 +1205,7 @@
   {
    "pid": "nyw1914-06-21",
    "xdid": "nyw1914-06-21",
-   "title": "FUN'S Cross-Word Puzzles",
+   "title": "FUN's Cross-Word Puzzle",
    "date": "1914-06-21",
    "status": "shipped",
    "reason": "",
@@ -1248,10 +1242,10 @@
     "fixed": [],
     "says": "the xd's printed lines are not the packet's kept lines, so nothing says where an edit to one lands: none is applied, and a Ready carrying one holds the puzzle (edits-unapplied)"
    },
-   "as_shipped": "0a13eba18e5b",
+   "as_shipped": "65773a4847da",
    "edition": {
     "status": "made",
-    "xd_fp": "0a13eba18e5b",
+    "xd_fp": "65773a4847da",
     "held": [],
     "corrections": 0
    }
@@ -1259,7 +1253,7 @@
   {
    "pid": "nyw1914-06-28",
    "xdid": "nyw1914-06-28",
-   "title": "FUN'S July 4 Cross Word Puzzle",
+   "title": "FUN's Cross-Word Puzzle",
    "date": "1914-06-28",
    "status": "shipped",
    "reason": "",
@@ -1296,10 +1290,10 @@
     "fixed": [],
     "says": "the xd's printed lines are not the packet's kept lines, so nothing says where an edit to one lands: none is applied, and a Ready carrying one holds the puzzle (edits-unapplied)"
    },
-   "as_shipped": "c8d0ff5c2138",
+   "as_shipped": "8107f5a0caf0",
    "edition": {
     "status": "made",
-    "xd_fp": "c8d0ff5c2138",
+    "xd_fp": "8107f5a0caf0",
     "held": [],
     "corrections": 0
    }
@@ -1307,7 +1301,7 @@
   {
    "pid": "nyw1914-07-05",
    "xdid": "nyw1914-07-05",
-   "title": "FUN'S Cross Word Puzzle",
+   "title": "FUN's Cross-Word Puzzle",
    "date": "1914-07-05",
    "status": "shipped",
    "reason": "",
@@ -1342,10 +1336,10 @@
     "fixed": [],
     "says": "the xd's printed lines are not the packet's kept lines, so nothing says where an edit to one lands: none is applied, and a Ready carrying one holds the puzzle (edits-unapplied)"
    },
-   "as_shipped": "427916eb48ca",
+   "as_shipped": "9e88f61bd7d7",
    "edition": {
     "status": "made",
-    "xd_fp": "427916eb48ca",
+    "xd_fp": "9e88f61bd7d7",
     "held": [],
     "corrections": 0
    }
@@ -1353,7 +1347,7 @@
   {
    "pid": "nyw1914-07-12",
    "xdid": "nyw1914-07-12",
-   "title": "FUN'S Cross-Word Puzzle",
+   "title": "FUN's Cross-Word Puzzle",
    "date": "1914-07-12",
    "status": "shipped",
    "reason": "",
@@ -1390,10 +1384,10 @@
     "fixed": [],
     "says": "the xd's printed lines are not the packet's kept lines, so nothing says where an edit to one lands: none is applied, and a Ready carrying one holds the puzzle (edits-unapplied)"
    },
-   "as_shipped": "6e548c338d0c",
+   "as_shipped": "790e6dceb48a",
    "edition": {
     "status": "made",
-    "xd_fp": "6e548c338d0c",
+    "xd_fp": "790e6dceb48a",
     "held": [],
     "corrections": 0
    }
@@ -1401,7 +1395,7 @@
   {
    "pid": "nyw1914-07-19",
    "xdid": "nyw1914-07-19",
-   "title": "FUN'S Uncompleted Cross-Word Puzzle",
+   "title": "FUN's Cross-Word Puzzle",
    "date": "1914-07-19",
    "status": "shipped",
    "reason": "",
@@ -1439,10 +1433,10 @@
     "fixed": [],
     "says": "the xd's printed lines are not the packet's kept lines, so nothing says where an edit to one lands: none is applied, and a Ready carrying one holds the puzzle (edits-unapplied)"
    },
-   "as_shipped": "24e96981459e",
+   "as_shipped": "549a5793d97d",
    "edition": {
     "status": "made",
-    "xd_fp": "24e96981459e",
+    "xd_fp": "549a5793d97d",
     "held": [],
     "corrections": 0
    }
@@ -1450,18 +1444,18 @@
   {
    "pid": "nyw1914-07-26",
    "xdid": "nyw1914-07-26",
-   "title": "",
+   "title": "FUN's Cross-Word Puzzle",
    "date": "1914-07-26",
    "status": "shipped",
    "reason": "",
    "rule": "ai",
-   "ships_with": "ai",
+   "ships_with": "both",
    "queue": "shipped",
    "group": "",
    "order": 28,
    "reviewed": false,
    "spot_check": true,
-   "why": "in xd/ as nyw1914-07-26: the AI proof reviewer's Ready (ai_ready: ai), no Not ready",
+   "why": "in xd/ as nyw1914-07-26: the AI proof reviewer's Ready and the ship check passes (ai_ready: ai), no Not ready",
    "asks": [],
    "also": [],
    "broken": [],
@@ -1474,12 +1468,10 @@
     }
    ],
    "check": {
-    "ok": false,
-    "findings": [
-     "no-title"
-    ]
+    "ok": true,
+    "findings": []
    },
-   "review": "read by hand; read twice, blind; every difference settled on the scan (hand-read/second-read/VERDICTS.md); an AI's Ready; no person's review; by the AI proof reviewer's Ready",
+   "review": "read by hand; read twice, blind; every difference settled on the scan (hand-read/second-read/VERDICTS.md); an AI's Ready; no person's review; by the AI proof reviewer's Ready and the ship check passes",
    "printed": {
     "head": "Printed with puzzle:",
     "lines": null,
@@ -1487,10 +1479,10 @@
     "fixed": [],
     "says": "the xd's printed lines are not the packet's kept lines, so nothing says where an edit to one lands: none is applied, and a Ready carrying one holds the puzzle (edits-unapplied)"
    },
-   "as_shipped": "242d87a13a81",
+   "as_shipped": "1374948b0e78",
    "edition": {
     "status": "made",
-    "xd_fp": "242d87a13a81",
+    "xd_fp": "1374948b0e78",
     "held": [],
     "corrections": 0
    }
@@ -1498,7 +1490,7 @@
   {
    "pid": "nyw1914-08-02",
    "xdid": "nyw1914-08-02",
-   "title": "FUN'S Cross-Word Puzzle",
+   "title": "FUN's Cross-Word Puzzle",
    "date": "1914-08-02",
    "status": "shipped",
    "reason": "",
@@ -1533,10 +1525,10 @@
     "fixed": [],
     "says": "the xd's printed lines are not the packet's kept lines, so nothing says where an edit to one lands: none is applied, and a Ready carrying one holds the puzzle (edits-unapplied)"
    },
-   "as_shipped": "03f2065ff6ba",
+   "as_shipped": "b0ff0c97b5c0",
    "edition": {
     "status": "made",
-    "xd_fp": "03f2065ff6ba",
+    "xd_fp": "b0ff0c97b5c0",
     "held": [],
     "corrections": 0
    }
@@ -1544,7 +1536,7 @@
   {
    "pid": "nyw1914-08-09",
    "xdid": "nyw1914-08-09",
-   "title": "Some Geography!",
+   "title": "FUN's Cross-Word Puzzle",
    "date": "1914-08-09",
    "status": "shipped",
    "reason": "",
@@ -1579,10 +1571,10 @@
     "fixed": [],
     "says": "the xd's printed lines are not the packet's kept lines, so nothing says where an edit to one lands: none is applied, and a Ready carrying one holds the puzzle (edits-unapplied)"
    },
-   "as_shipped": "c592071db235",
+   "as_shipped": "c28bb2c0c210",
    "edition": {
     "status": "made",
-    "xd_fp": "c592071db235",
+    "xd_fp": "c28bb2c0c210",
     "held": [],
     "corrections": 0
    }
@@ -1590,7 +1582,7 @@
   {
    "pid": "nyw1914-08-16",
    "xdid": "nyw1914-08-16",
-   "title": "FUN'S Cross-Word Puzzles",
+   "title": "FUN's Cross-Word Puzzle",
    "date": "1914-08-16",
    "status": "shipped",
    "reason": "",
@@ -1627,10 +1619,10 @@
     "fixed": [],
     "says": "the xd's printed lines are not the packet's kept lines, so nothing says where an edit to one lands: none is applied, and a Ready carrying one holds the puzzle (edits-unapplied)"
    },
-   "as_shipped": "2e081678e4d1",
+   "as_shipped": "4a98ea493c80",
    "edition": {
     "status": "made",
-    "xd_fp": "2e081678e4d1",
+    "xd_fp": "4a98ea493c80",
     "held": [],
     "corrections": 0
    }
@@ -1638,7 +1630,7 @@
   {
    "pid": "nyw1914-08-23",
    "xdid": "nyw1914-08-23",
-   "title": "FUN'S Cross-Word Puzzles",
+   "title": "FUN's Cross-Word Puzzle",
    "date": "1914-08-23",
    "status": "shipped",
    "reason": "",
@@ -1673,10 +1665,10 @@
     "fixed": [],
     "says": "the xd's printed lines are not the packet's kept lines, so nothing says where an edit to one lands: none is applied, and a Ready carrying one holds the puzzle (edits-unapplied)"
    },
-   "as_shipped": "266eeb886779",
+   "as_shipped": "27b30c6fe404",
    "edition": {
     "status": "made",
-    "xd_fp": "266eeb886779",
+    "xd_fp": "27b30c6fe404",
     "held": [],
     "corrections": 0
    }
