@@ -52,7 +52,7 @@ print is confirmed. 21 clues now carry a correction (the 9 typos above, and "Ass
 "Ahe steel beak", "Heoric", "Blockthorn", "crytogamous", "fo rhealing", "A summed month.").
 Left alone as period style: "Non success.", "Die past participle.", "Wing Shaped.".
 
-## For Alex
+## Settled by Alex
 - **No. 20 (05-03) A32, 37-38** ([review page](https://blitz.xwordapp.com/review/?p=nyw1914-05-03)): settled (Alex, 2026-11-25). The "dash" is the heavy serifed foot of an A whose upper part didn't print, so the line is "A little stream." as the xd has it.
-- **No. 17 (04-12) A15, 19-20** ([review page](https://blitz.xwordapp.com/review/?p=nyw1914-04-12)): "In hac salus." or "In hae salus."? The print is too heavy to
+- **No. 17 (04-12) A15, 19-20** ([review page](https://blitz.xwordapp.com/review/?p=nyw1914-04-12#A15)): settled (Alex, 2026-11-25). "In hac salus", the Latin behind the monogram IHS; the xd stands.
   tell c from e; the xd says hac.
