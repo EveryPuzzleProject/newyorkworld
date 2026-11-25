@@ -1,0 +1,31 @@
+1-2	Wild animals.
+3-4	Coating with tar.
+5-6	A grating.
+7-8	Conversation.[?]
+9-10	An iron wedge
+11-12	To bind.
+13-14	A young woman
+15-16	Used as a gem.
+17-18	Ninety inches.
+19-20	To remain.
+21-22	A food chamber.
+23-24	To stagger.
+25-27	A number.
+28-29	Gull-like birds.
+30-31	The egg of an insect.
+1-10	Security for release.
+3-25	A lattice.
+5-24	Young women.
+2-17	Good to eat.
+13-23	To cut lengthwise.
+N-6[?]	The German for north.
+22-30	Cattle.
+26-32	A journey.
+W-7[?]	A summons.
+28-31	Torn.
+2-11	A hidden obstacle.
+9-29	Perceives.
+4-27	To sparkle.
+8-24	A Hottentot's home.
+12-20	Not wet.
+# pairs N 6 and W 7 printed with letters N and W instead of numbers

@@ -1,0 +1,33 @@
+1-2	A child.
+3-4	To follow.
+5-6	The art of speaking cor-rectly.
+7-8	A sly look.
+9-10	Inhabited by Adam and Eve.
+11-12	Fruit of the Block-thorn.
+13-14	The mark on a wound.
+15-16	A wild animal.
+17-18	The king of beasts.
+19-20	Green ones are fashion-able today.
+21-22	The act of selling.
+23-24	The face of a watch.
+25-26	That which is present.
+27-28	An inversion of the let-ters of a word.
+29-30	To imagine during sleep.
+31-32	Part of a week.
+33-34	To wander.
+35-36	To mesh together.
+1-8	A snare.
+3-12	A woody plant.
+5-27	A southern state.
+7-23	A cross bar pattern for shawls.
+11-19	To stitch.
+20-29	Found on the seashore.
+24-31	Used in the frying pan.
+2-9	What some clocks keep.
+4-13	Boys.
+6-28	To recover.
+10-26	Metal spikes.
+14-22	Part of a fish.
+21-30	Fictitious.
+25-32	A shallow flat vessel.
+# hyphen line-breaks joined

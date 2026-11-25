@@ -1,0 +1,54 @@
+1-2	A conveyance.
+3-4	An alluvial deposit, formed at the mouth of a river.
+5-6	Those who heal.
+7-8	It has thirty days.
+9-10	A confused condition.
+11-12	A sewing machine.
+13-14	A judicial tribunal.
+15-16	A frolic.
+17-18	Sailors.
+19-20	What the sun does.
+21-22	Luminous circles.
+23-24	Before 9 o'clock.
+25-26	A small wild animal.
+27-28	Where milk is converted into butter and cheese.
+29-30	A subject of discourse.
+31-32	To tarnish.
+33-34	To hand over for consideration.
+35-36	Incrusted with scales.
+37-38	A large sea duck.
+39-40	Inclined to take fright.
+41-42	The chocolate tree.
+43-44	An anecdote.
+45-46	To tint with red.
+47-48	Flat narrow partitions.
+49-50	A deteriorating quality.
+51-52	A genii worshiped in Burma.
+53-54	Used for veils and light dresses.
+55-56	A Greek epic poem.
+1-10	What your heart does.
+3-14	A railroad station.
+5-18	Listens.
+7-22	Closes.
+9-41	Capable of producing color.
+13-37	The part of a turtle next the lower shell.
+17-33	Quality affecting the sense of taste.
+21-29	A covering for the head.
+30-45	A fragrant tree.
+34-47	To happen again.
+38-49	A wooden drinking vessel.
+42-51	A musical instrument.
+2-11	Stalks.
+4-15	A bower, or summer house.
+6-19	A drain.
+8-23	To surpass.
+12-44	Pertaining to a remainder.
+16-40	Lawfully.
+20-36	Shyly.
+24-32	To attempt.
+31-46	A fright.
+35-48	Natives of Scotland.
+39-50	German for dwelling place.
+48-52	Perfume.
+# 17-33 printed '1733' no hyphen; 31-46 has a strike-through mark near 'A'; 24-32 has an underline on 32
+# hyphenated line breaks consideration, Burma joined; right edge of column 3 clipped (words ending 'color.', 'next', 'sense', 'head.', 'vessel.', 'place.' partially cut)

@@ -1,0 +1,57 @@
+1-2	An animal.
+2-4	Negative.
+5-6	Seed vessel of plant.
+7-8	Token of respect.
+9-10	Favorite.
+11-12	Used mostly in summer.
+13-14	Noise.
+15-16	A piece of ground.
+17-18	Indefinite article.
+19-20	Fresh.
+21-22	A metal that shines.
+23-24	Abbreviation for boy's name.
+25-26	It rests you.
+27-28	To exist.
+29-30	You can go no higher.
+31-32	Not out.
+33-34	Something awful.
+35-36	We all have one.
+37-38	Something to wear.
+39-40	To gamble.
+41-42	Not still.
+43-44	They bite.
+45-46	An exclamation.
+47-48	To wipe your feet on.
+49-50	A deer.
+51-52	Affirmation.
+53-54	Illuminated.
+55-56	Boy's name.
+57-58	Expresses negation.
+1-6	A fish.
+3-8	Present.
+5-10	Cooking vessel.
+7-12	Boy's name.
+9-14	A shallow vessel.
+11-16	Suitable.
+13-59	To act.
+2-19	You get it at the seashore.
+18-21	Used to catch fish
+20-23	Successful.
+22-25	Girl's name.
+24-27	A tag.
+26-29	To fondle.
+33-30	The way you drink something hot.
+35-32	To keep corn in.
+37-34	Chicken.
+39-36	Not good.
+41-38	To obtain.
+43-40	Period.
+44-47	Jewel.
+46-49	Possessed.
+48-51	What children like.
+50-53	A fish.
+52-55	To rest.
+54-57	A numeral.
+56-60	To perform.
+# 2-4 and 13-59 and 33-30 as printed (look odd); 18-21 has no final period
+# 1-6 etc. 37-34, 46-49 printed with space instead of hyphen

@@ -1,0 +1,76 @@
+2-3	Plural personal pronoun.
+4-5	Opposite of off.
+6-7	A conjunction.
+8-9	Meaning everything.
+10-11	A bright color.
+12-13	Space of time.
+14-15	A man's favorite room.
+16-17	Possessive masculine pronoun.
+18-19	The end.
+20-21	An object of praise.
+22-23	What school children do.
+24-25	A children's pet.
+26-27	A machinery term meaning rough edges.
+28-29	A proper name.
+30-32	An abbreviation of a boy's name.
+33-34	A metal that shines.
+35-36[?]	A summed month.
+37-39	An important organ of the body.
+40-41	What many men are.
+42-43	What farmers do in the spring.
+44-45	The fruit of the cedar.
+46-49	What water often becomes.
+50-51	A golfing term.
+52-55	A wicked thing to.
+56-57	Food for animals.
+58-60	Two and two are.
+61-62	A kind of vase.
+63-66	A man who handles money.
+67-68	Keeps you warm in winter.
+69-71	Important part of a sailboat.
+72-73	A measure of quantity.
+74-75	A little animal.
+76-77	To separate into classes.
+78-80	It rests you.
+81-82	A title of respect in addressing a sovereign.
+83-84	A kind of cabbage.
+85-87	The first numeral.
+88-91	The end.
+1-5	A number.
+2-11	Where we live.
+6-15	A small city in western New York.
+8-19	What a policeman does.
+12-23	A famous inventor.
+16-25	Boy's first name.
+18-27	What the tower of Pisa does.
+20-29	A boy's name.
+22-34	How some animals catch their prey.
+24-39	Boilers do sometimes.
+26-38	A wild animal in Germany.
+28-52	To build fires in.
+33-47	Determined.
+37-46	A possessive pronoun.
+48-53	In contact with.
+49-54	What you may call your mother.
+55-58	To exist.
+30-45	To govern.
+31-41	Opposite to young.
+32-36	Next to.
+35-51	A girl's name.
+40-57	Babies are.
+50-64	A boy's name.
+44-60	Something that gives heat.
+56-68	What a fire does.
+59-72	A measure of quantity larger than from 72-73.
+67-82	Something to beware of.
+72-87	A passage for perspiration.
+76-86	Something very wicked.
+81-85	In like manner.
+65-69	A measure of type.
+66-74	A small animal women fear.
+70-78	A wireless call.
+71-83	How we express ourselves.
+75-88	An awful affliction.
+79-89	A proper name used for a college.
+80-90	What we write with.
+# 35-36 printed as "36-36"-like; 88-91 and 81-85/75-88 digits slightly degraded. Printed "46-49", "67-82" as read.
