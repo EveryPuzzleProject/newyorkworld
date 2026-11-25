@@ -2,6 +2,92 @@
  "_about": "blitz edition: what each puzzle's edition (edition/<xdid>.xd) was made from, so it is made again only when that changes. Format: blitz design/ship.md, \"The edition\".",
  "version": "6c492a968512aa96",
  "puzzles": {
+  "nyw1913-12-21": {
+   "status": "made",
+   "inputs_sha256": "c249dd2d4745ae82fa2de575f0b42f8bd39c4bc37a9f30be770512510596a7cc",
+   "inputs": {
+    "version": "6c492a968512aa96",
+    "transcription_sha256": "b32c99e38166d066c589d2f35283c19af7be577464f1fb4cecec6e9b353ee4fe",
+    "marks": [],
+    "evidence": [],
+    "unrecorded": false,
+    "declines": [],
+    "notes_rule": [
+     "intro",
+     "instructions"
+    ],
+    "printed": [
+     [
+      "instructions",
+      "Fill in the small squares with words which agree with the following definitions:"
+     ]
+    ],
+    "key_corrections": []
+   },
+   "marks_from": "the ship plan",
+   "notes_from": "no Notes rule recorded: the default (intro, instructions)",
+   "made_at": "2026-11-25",
+   "held": [],
+   "corrections": [],
+   "declined": [],
+   "notes": [
+    "Fill in the small squares with words which agree with the following definitions:"
+   ],
+   "kinds": [
+    "notes"
+   ],
+   "edition_sha256": "1c94723be7d8f7db36d419dc8ba8840495ab49044c1d57a5f4a2c07735602888"
+  },
+  "nyw1913-12-28": {
+   "status": "made",
+   "inputs_sha256": "6e52c3d871e869e57afae4081dd316fd6f0b8ad9874ec1578d99b3b64ca64b29",
+   "inputs": {
+    "version": "6c492a968512aa96",
+    "transcription_sha256": "34afde97764e803acfe85a5db2eb3e27d644af6170519cbd23770e4975da04e6",
+    "marks": [],
+    "evidence": [],
+    "unrecorded": false,
+    "declines": [],
+    "notes_rule": [
+     "intro",
+     "instructions"
+    ],
+    "printed": [
+     [
+      "intro",
+      "FIND THE MISSING WORD!"
+     ],
+     [
+      "other",
+      "1914"
+     ],
+     [
+      "intro",
+      "The great interest shown ii FUN'S word-cross puzzle, published last week, has prompted the puzzle editor to submit another of the same kind."
+     ],
+     [
+      "intro",
+      "The great interest shown in FUN'S word-cross puzzle, pub- which agree with the definitions given below. The solution to the word-cross puzzle, given on the preceding page, shows how the squares are to be filled in, using one square for each letter."
+     ]
+    ],
+    "key_corrections": []
+   },
+   "marks_from": "the ship plan",
+   "notes_from": "no Notes rule recorded: the default (intro, instructions)",
+   "made_at": "2026-11-25",
+   "held": [],
+   "corrections": [],
+   "declined": [],
+   "notes": [
+    "FIND THE MISSING WORD!",
+    "The great interest shown ii FUN'S word-cross puzzle, published last week, has prompted the puzzle editor to submit another of the same kind.",
+    "The great interest shown in FUN'S word-cross puzzle, pub- which agree with the definitions given below. The solution to the word-cross puzzle, given on the preceding page, shows how the squares are to be filled in, using one square for each letter."
+   ],
+   "kinds": [
+    "notes"
+   ],
+   "edition_sha256": "69bc4731910d60875cf21ab73d13eb776601b43264e25a1e09accc91c0926018"
+  },
   "nyw1914-01-04": {
    "status": "made",
    "inputs_sha256": "30981880f3f08819a0f568befc41976297ab0e925309ef58ff464424f8c0a60b",
@@ -46,6 +132,276 @@
     "notes"
    ],
    "edition_sha256": "10c02cd7c8c5333334b23e2511d880b7762b67e2b206b332b7a2415f8c91e152"
+  },
+  "nyw1914-01-11": {
+   "status": "made",
+   "inputs_sha256": "a85aaf86383fff9265a034954f18eab206c1b52101fb3620d6c3296c8119c85a",
+   "inputs": {
+    "version": "6c492a968512aa96",
+    "transcription_sha256": "07e237c0bdc3e8f1971d77144b2310783055bd38275e3781182b480618d7c0ec",
+    "marks": [],
+    "evidence": [],
+    "unrecorded": false,
+    "declines": [],
+    "notes_rule": [
+     "intro",
+     "instructions"
+    ],
+    "printed": [
+     [
+      "other",
+      "CAN YOU SOLVE IT?"
+     ],
+     [
+      "intro",
+      "HERE is a cross-word puzzle. Can you solve it? Fill in the spaces in diagram with words which agree with the definitions, apportioning one letter to each square. For instance, 1-2 means to help; the word is aid. Can you find the rest?"
+     ],
+     [
+      "other",
+      "A prize of a set of postcards will be given for each of the ten best answers received before February 24. In awarding prizes not only the accuracy of the solution but the general appearance of the letter will be considered. Be sure to write in the corner of your envelope, \"Puzzle Editor,\" and enclose no other business with your solution."
+     ]
+    ],
+    "key_corrections": []
+   },
+   "marks_from": "the ship plan",
+   "notes_from": "no Notes rule recorded: the default (intro, instructions)",
+   "made_at": "2026-11-25",
+   "held": [],
+   "corrections": [],
+   "declined": [],
+   "notes": [
+    "HERE is a cross-word puzzle. Can you solve it? Fill in the spaces in diagram with words which agree with the definitions, apportioning one letter to each square. For instance, 1-2 means to help; the word is aid. Can you find the rest?"
+   ],
+   "kinds": [
+    "notes"
+   ],
+   "edition_sha256": "9229092e5a5ebb062af370cfd4677041fd6053cc53e6d9115ff588101c2c6000"
+  },
+  "nyw1914-01-18": {
+   "status": "made",
+   "inputs_sha256": "b8c989a6652746e1416074c7d1bd6304bb31f40e34d8f155bf6cbadd95b286dd",
+   "inputs": {
+    "version": "6c492a968512aa96",
+    "transcription_sha256": "c844891caeacb9611dbccb762a7ab283ecf5c14ea0549531f59ae5617b9a583e",
+    "marks": [],
+    "evidence": [],
+    "unrecorded": false,
+    "declines": [],
+    "notes_rule": [
+     "intro",
+     "instructions"
+    ],
+    "printed": [
+     [
+      "other",
+      "CAN YOU SOLVE IT?"
+     ],
+     [
+      "intro",
+      "Here is another of FUN'S word cross puzzles. See if you can solve it."
+     ],
+     [
+      "instructions",
+      "Fill in the squares in the above diagram with words which correspond with the clues and definitions given below. The solution will be given in next week's FUN."
+     ]
+    ],
+    "key_corrections": []
+   },
+   "marks_from": "the ship plan",
+   "notes_from": "no Notes rule recorded: the default (intro, instructions)",
+   "made_at": "2026-11-25",
+   "held": [],
+   "corrections": [],
+   "declined": [],
+   "notes": [
+    "Here is another of FUN'S word cross puzzles. See if you can solve it.",
+    "Fill in the squares in the above diagram with words which correspond with the clues and definitions given below. The solution will be given in next week's FUN."
+   ],
+   "kinds": [
+    "notes"
+   ],
+   "edition_sha256": "7e6d59b00f67ad47cfe9ed5e23ab4abc717a7df9712524b912bd94e53a0d50a1"
+  },
+  "nyw1914-01-25": {
+   "status": "made",
+   "inputs_sha256": "9a6035688235c42eb072d77476af8d1810d609ec700d958dfc40b82d62c9220b",
+   "inputs": {
+    "version": "6c492a968512aa96",
+    "transcription_sha256": "58477e60a2ebc60d65fe78454ccab9d84d91e4c996906b3b7bcb42a2509bcad5",
+    "marks": [],
+    "evidence": [],
+    "unrecorded": false,
+    "declines": [],
+    "notes_rule": [
+     "intro",
+     "instructions"
+    ],
+    "printed": [
+     [
+      "intro",
+      "Here is No. 6 in FUN'S series of cross-word puzzles. The solution to No. 5 will be found on page 15 of this issue. To solve today's puzzle fill in the small squares in the above diamond with words corresponding to the clues and definitions given below. The solution to today's cross-word puzzle will appear in next week's FUN."
+     ]
+    ],
+    "key_corrections": []
+   },
+   "marks_from": "the ship plan",
+   "notes_from": "no Notes rule recorded: the default (intro, instructions)",
+   "made_at": "2026-11-25",
+   "held": [],
+   "corrections": [],
+   "declined": [],
+   "notes": [
+    "Here is No. 6 in FUN'S series of cross-word puzzles. The solution to No. 5 will be found on page 15 of this issue. To solve today's puzzle fill in the small squares in the above diamond with words corresponding to the clues and definitions given below. The solution to today's cross-word puzzle will appear in next week's FUN."
+   ],
+   "kinds": [
+    "notes"
+   ],
+   "edition_sha256": "1423d75b9a351ca6dd16b22d2e34532132e4af47f5f018817596d12173f80514"
+  },
+  "nyw1914-02-01": {
+   "status": "made",
+   "inputs_sha256": "45269159682d43bac4f4420e3c3fccf7b7a0ea7c88e73b7dbc633337e3351857",
+   "inputs": {
+    "version": "6c492a968512aa96",
+    "transcription_sha256": "95bdfa38a459e7d7300cdcf298d2c8bf8d4082dbe5b7bb36a4fc7222ff8e6131",
+    "marks": [],
+    "evidence": [],
+    "unrecorded": false,
+    "declines": [],
+    "notes_rule": [
+     "intro",
+     "instructions"
+    ],
+    "printed": [
+     [
+      "intro",
+      "FUN'S cross word puzzles apparently are getting more popular than ever. The puzzle editor has received from readers many interesting new cross word puzzles, which he will be glad to use from time to time. It is more difficult to make up a cross word puzzle than it is to solve one. If you doubt this try to make one yourself."
+     ],
+     [
+      "instructions",
+      "Today the seventh puzzle in the series is presented. Fill in the small squares in the above diamonds with words corresponding to the clews and definitions given below. On page 15 you will find the solution to last week's puzzle. The solution to today's puzzle will be given in next week's FUN."
+     ]
+    ],
+    "key_corrections": []
+   },
+   "marks_from": "the ship plan",
+   "notes_from": "no Notes rule recorded: the default (intro, instructions)",
+   "made_at": "2026-11-25",
+   "held": [],
+   "corrections": [],
+   "declined": [],
+   "notes": [
+    "FUN'S cross word puzzles apparently are getting more popular than ever. The puzzle editor has received from readers many interesting new cross word puzzles, which he will be glad to use from time to time. It is more difficult to make up a cross word puzzle than it is to solve one. If you doubt this try to make one yourself.",
+    "Today the seventh puzzle in the series is presented. Fill in the small squares in the above diamonds with words corresponding to the clews and definitions given below. On page 15 you will find the solution to last week's puzzle. The solution to today's puzzle will be given in next week's FUN."
+   ],
+   "kinds": [
+    "notes"
+   ],
+   "edition_sha256": "9c15b01f72ccf8b717b679bbba123637b77ed7882cd3bec2530ceb2c4f9dd9e7"
+  },
+  "nyw1914-02-08": {
+   "status": "made",
+   "inputs_sha256": "ce395cc72bcdd8a8d35388e0c42f313a3e342154ffde806ce6469796cba407fb",
+   "inputs": {
+    "version": "6c492a968512aa96",
+    "transcription_sha256": "58d532bf8ba6601aa8e9a2e15f35822c843d9410dd11912357b6757783ba1cd6",
+    "marks": [],
+    "evidence": [],
+    "unrecorded": false,
+    "declines": [],
+    "notes_rule": [
+     "intro",
+     "instructions"
+    ],
+    "printed": [
+     [
+      "intro",
+      "Today's cross word puzzle, the eighth in FUN'S series, has been contributed by Mrs. M. B. Wood of New York City. See if you can solve it. Fill in the small squares in the above diamond with words corresponding to the clews and definitions given below it. On another page you will find the solution to last week's puzzle. The solution to today's puzzle will be given in next week's FUN."
+     ],
+     [
+      "credit",
+      "has been contributed by Mrs. M. B. Wood of New York City."
+     ]
+    ],
+    "key_corrections": []
+   },
+   "marks_from": "the ship plan",
+   "notes_from": "no Notes rule recorded: the default (intro, instructions)",
+   "made_at": "2026-11-25",
+   "held": [],
+   "corrections": [],
+   "declined": [],
+   "notes": [
+    "Today's cross word puzzle, the eighth in FUN'S series, has been contributed by Mrs. M. B. Wood of New York City. See if you can solve it. Fill in the small squares in the above diamond with words corresponding to the clews and definitions given below it. On another page you will find the solution to last week's puzzle. The solution to today's puzzle will be given in next week's FUN."
+   ],
+   "kinds": [
+    "notes"
+   ],
+   "edition_sha256": "2e28aa63d68bc6fe45e3b7da19935101401d45c74752c5362bc60413553dc443"
+  },
+  "nyw1914-02-15": {
+   "status": "made",
+   "inputs_sha256": "9140d55e94858b4a387c81ae1e873f8ede229cca13ca0b26336d372d515f108a",
+   "inputs": {
+    "version": "6c492a968512aa96",
+    "transcription_sha256": "bd4c560f5c47e45afb2e4e3ea2ee812c64c478c8b76c7587fe786f8ae79cdd74",
+    "marks": [],
+    "evidence": [],
+    "unrecorded": false,
+    "declines": [],
+    "notes_rule": [
+     "intro",
+     "instructions"
+    ],
+    "printed": [
+     [
+      "intro",
+      "SOLVE THEM IF YOU CAN."
+     ],
+     [
+      "intro",
+      "Today's cross-word puzzle, the ninth in FUN'S series, will be found somewhat easier than the one given last week. You have two words already provided as a starter—FUN and PUZZLES."
+     ],
+     [
+      "instructions",
+      "Fill in the small squares in the diamond with words corresponding to the clews and definitions given herewith, allowing one letter of the word to each small square."
+     ],
+     [
+      "intro",
+      "On another page you will find the solution to last week's cross-word puzzle, showing just how the letters are to be placed to form words reading across and up and down."
+     ],
+     [
+      "intro",
+      "The solution to today's puzzle will be given in next week's FUN."
+     ],
+     [
+      "other",
+      "FUN"
+     ],
+     [
+      "other",
+      "PUZZLES"
+     ]
+    ],
+    "key_corrections": []
+   },
+   "marks_from": "the ship plan",
+   "notes_from": "no Notes rule recorded: the default (intro, instructions)",
+   "made_at": "2026-11-25",
+   "held": [],
+   "corrections": [],
+   "declined": [],
+   "notes": [
+    "SOLVE THEM IF YOU CAN.",
+    "Today's cross-word puzzle, the ninth in FUN'S series, will be found somewhat easier than the one given last week. You have two words already provided as a starter—FUN and PUZZLES.",
+    "Fill in the small squares in the diamond with words corresponding to the clews and definitions given herewith, allowing one letter of the word to each small square.",
+    "On another page you will find the solution to last week's cross-word puzzle, showing just how the letters are to be placed to form words reading across and up and down.",
+    "The solution to today's puzzle will be given in next week's FUN."
+   ],
+   "kinds": [
+    "notes"
+   ],
+   "edition_sha256": "a824d5c5607fe673da828da81d25e480e6ce48c75865dc9cd54cd6d2fb411e2c"
   },
   "nyw1914-02-22": {
    "status": "made",

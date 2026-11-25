@@ -11,12 +11,13 @@
  ],
  "batches": {
   "nyw-1914-s1": {
-   "_about": "Nos. 1-33 read by hand and read again blind (hand-read/second-read/VERDICTS.md): the owner's decision of 2026-11-25 ships them on an AI's Ready and sends a puzzle back only if an error turns up; the hand-read Nos. 11-12 take the place of the copies shipped from nyw-1914-c1.",
+   "_about": "Nos. 1-33 read by hand and read again blind (hand-read/second-read/VERDICTS.md): the owner's decision of 2026-11-25 ships them on an AI's Ready and sends a puzzle back only if an error turns up; the hand-read Nos. 11-12 take the place of the copies shipped from nyw-1914-c1. owner_stale lapse (the owner, 2026-11-25: \"Let AI Ready count\"): the owner's Readys given on an earlier version of these puzzles no longer hold them; the AI's Ready on the current version decides.",
    "ai_ready": "ai",
    "replace": [
     "nyw1914-03-01",
     "nyw1914-03-08"
-   ]
+   ],
+   "owner_stale": "lapse"
   }
  }
 }
